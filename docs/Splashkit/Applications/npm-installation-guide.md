@@ -1,4 +1,4 @@
-# Npm installation guide: Windows and Mac
+# npm installation guide
 
 _(scroll down for Mac instructions)_
 
