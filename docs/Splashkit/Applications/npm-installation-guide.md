@@ -28,6 +28,8 @@ _Restart your computer_
 
 ##### (this will take longer than usual as it is installing Linux for the first time)
 
+Reopen PowerShell
+
 download the [WSL2 Kernel update](https://wslstorestorage.blob.core.windows.net/wslblob/wsl_update_x64.msi)
 
 _Run the installer_ (that you just downloaded)
