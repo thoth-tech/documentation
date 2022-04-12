@@ -1,6 +1,6 @@
 # Npm installation guide: Windows and Mac
 
-###### (scroll down for Mac instructions)
+_(scroll down for Mac instructions)_
 
 ### What does npm do?
 
