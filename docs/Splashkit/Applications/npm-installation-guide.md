@@ -1,4 +1,4 @@
-# Npm installation guide: Windows and Mac
+# Npm installation guide
 
 ### What does npm do?
 
