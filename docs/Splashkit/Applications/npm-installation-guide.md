@@ -2,7 +2,7 @@
 
 ### What does npm do?
 
-Npm is used to check markdown files (md) to match Prettier (plug-in) and needs Node.js to run properly.
+npm is a node package manager. We use it to install and resolve package dependencies (e.g. npm install) or run arbitrary commands specified in package.json (e.g. npm run format).
 
 ## Windows Guide
 
