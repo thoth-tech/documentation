@@ -1,92 +1,91 @@
-# npm installation guide
+# Npm installation guide: Windows and Mac
 
-_(scroll down for Mac instructions)_
-
-## What does npm do?
+### What does npm do?
 
 Npm is used to check markdown files (md) to match Prettier (plug-in) and needs Node.js to run properly.
 
 ## Windows Guide
 
----
-
 Open PowerShell and follow this guide: (installs WSL then WSL2)
+type the following into the terminal
 
 ```powershell
- wsl --install
+1. wsl --install
 ```
 
 ```powershell
-dism.exe /online /enable-feature /featurename:Microsoft-Windows-Subsystem-Linux /all /norestart
+2. dism.exe /online /enable-feature /featurename:Microsoft-Windows-Subsystem-Linux /all /norestart
 ```
 
 ```powershell
-dism.exe /online /enable-feature /featurename:VirtualMachinePlatform /all /norestart
+3. dism.exe /online /enable-feature /featurename:VirtualMachinePlatform /all /norestart
 ```
 
-_Restart your computer_
+4. Restart your computer
 
 ##### (this will take longer than usual as it is installing Linux for the first time)
 
-Reopen PowerShell
+5. Reopen PowerShell
 
-download the [WSL2 Kernel update](https://wslstorestorage.blob.core.windows.net/wslblob/wsl_update_x64.msi)
+6. download the [WSL2 Kernel update](https://wslstorestorage.blob.core.windows.net/wslblob/wsl_update_x64.msi)
 
-_Run the installer_ (that you just downloaded)
+7. _Run the installer_ (that you just downloaded)
 
-repond: _yes_
+8. repond: _yes_
 
 return to PowerShell and set WSL2 as the default
 
 ```powershell
-wsl --set-default-version 2
+9. wsl --set-default-version 2
 ```
 
-## Set up Node.js on WSL 2 [follow linked guide](https://docs.microsoft.com/en-us/windows/dev-environment/javascript/nodejs-on-wsl)
+## Set up Node.js on WSL 2
 
-1. Open Ubuntu command line
-2. install cURL (used for downloading internet content in the command line)
+either follow the following steps or the official guide at: https://docs.microsoft.com/en-us/windows/dev-environment/javascript/nodejs-on-wsl#install-nvm-nodejs-and-npm
+
+10. Open Ubuntu command line
+    install cURL (used for downloading internet content in the command line)
 
 ```powershell
-sudo apt-get install curl
+11. sudo apt-get install curl
 ```
 
-1. Install nvm
+Install nvm
 
 ```powershell
-curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.1/install.sh | bash
+12. curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.1/install.sh | bash
 ```
 
 ###### note version v0.39.1, there may be an update.
 
-4. to verify the installation worked
+to verify the installation worked
 
 ```powershell
-command -v nvm
+13. command -v nvm
 ```
 
-if this does not work close the terminal, and restart from step 1.
+if this does not work close the terminal, and restart from step 10.
 
-5. input nvm ls to see current versions of Node are isntalled
+input nvm ls to see current versions of Node are isntalled
 
 ```powershell
-nvm ls
+14. nvm ls
 ```
 
 then
 
 ```powershell
-nvm install --lts
+15. nvm install --lts
 ```
 
 ```powershell
-nvm install node
+16. nvm install node
 ```
 
 now try listing the versions available again
 
 ```powershell
-nvm ls
+17. nvm ls
 ```
 
 now you should see the 2 versions you have just installed.
@@ -94,13 +93,13 @@ now you should see the 2 versions you have just installed.
 now check Node.js is installed with
 
 ```powershell
-node --version
+18. node --version
 ```
 
 then verify npm
 
 ```powershell
-npm --version
+19. npm --version
 ```
 
 Continue in Ubuntu terminal following our Thoth Tech guide (Windows section):  
