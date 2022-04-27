@@ -12,7 +12,7 @@ Please see the [contribution guidelines](CONTRIBUTING.md).
 
 ## What is this repositry used for?
 
-This documentation repo is used to collate all information in regards to the Thoth-Tech Project. 
+This documentation repo is used to collate all information regarding the Thoth Tech Products. 
 
 Each team has their own separate repository and these are supposed to be used for anything related to the team projects. Additionally, if you have documentation elsewhere, we recommend that you begin a small migration process to this repository within a .md format.
 
