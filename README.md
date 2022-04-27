@@ -14,10 +14,10 @@ Each team has their own separate repository and these are supposed to be used fo
 
 Some of the things you might want to include within this repositry includes: 
 
-* Meeting Minutes
-* Research and Findings
-* Onboarding Packages
-* And more - the potential is unlimited.
+- Meeting Minutes
+- Research and Findings
+- Onboarding Packages
+- And more - the potential is unlimited.
 
 Please note, before you commit any changes to this repositry, take the time to explore the layout and setup, as the files and folder structure has already been setup on GitHub. 
 
