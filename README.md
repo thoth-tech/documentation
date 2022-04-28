@@ -22,8 +22,8 @@ Some of the things you might want to include within this repositry includes:
 - Onboarding Packages
 - And more - the potential is unlimited.
 
-Please note, before you commit any changes to this repositry, take the time to explore the layout and setup, as the files and folder structure has already been setup on GitHub. 
-
+Please note, before you commit any changes to this repositry, take the time to explore the layout
+and setup, as the files and folder structure has already been setup on GitHub.
 
 ## Contributing
 
