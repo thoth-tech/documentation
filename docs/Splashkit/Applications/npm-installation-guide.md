@@ -1,154 +1,90 @@
-# Npm installation guide
+# npm installation guide
 
-### What does npm do?
-
-npm is a node package manager. We use it to install and resolve package dependencies (e.g. npm install) or run arbitrary commands specified in package.json (e.g. npm run format).
+npm is a node package manager. We use it to install and resolve package dependencies (e.g.
+`npm install`) or run arbitrary commands specified in `package.json` (e.g. `npm run format`).
 
 ## Windows Guide
 
-Open PowerShell and follow this guide: (installs WSL then WSL2)
-type the following into the terminal
+### Install Windows Subsystem Linux (WSL)
 
-```powershell
-1. wsl --install
-```
+Open PowerShell and follow this guide:
 
-```powershell
-2. dism.exe /online /enable-feature /featurename:Microsoft-Windows-Subsystem-Linux /all /norestart
-```
+1. Install WSL.
 
-```powershell
-3. dism.exe /online /enable-feature /featurename:VirtualMachinePlatform /all /norestart
-```
+   ```powershell
+   wsl --install
+   ```
 
-4. Restart your computer
+1. Enable the Windows Subsystem for Linux.
 
-##### (this will take longer than usual as it is installing Linux for the first time)
+   ```powershell
+   dism.exe /online /enable-feature /featurename:Microsoft-Windows-Subsystem-Linux /all /norestart
+   ```
 
-5. Reopen PowerShell
+1. Enable Virtual Machine feature.
 
-6. download the [WSL2 Kernel update](https://wslstorestorage.blob.core.windows.net/wslblob/wsl_update_x64.msi)
+   ```powershell
+   dism.exe /online /enable-feature /featurename:VirtualMachinePlatform /all /norestart
+   ```
 
-7. _Run the installer_ (that you just downloaded)
+1. Restart your computer (this will take longer than usual as it is installing Linux for the first
+   time).
+1. Download the
+   [WSL2 Kernel update](https://wslstorestorage.blob.core.windows.net/wslblob/wsl_update_x64.msi).
+1. Run the installer. Respond _yes_.
+1. Return to PowerShell and set WSL2 as the default.
 
-8. repond: _yes_
+   ```powershell
+   wsl --set-default-version 2
+   ```
 
-return to PowerShell and set WSL2 as the default
+1. Follow the official
+   [guide](https://docs.microsoft.com/en-us/windows/dev-environment/javascript/nodejs-on-wsl#install-nvm-nodejs-and-npm)
+   to install node.js and npm on WSL2.
 
-```powershell
-9. wsl --set-default-version 2
-```
-
-## Set up Node.js on WSL 2
-
-either follow the following steps or the official guide at: https://docs.microsoft.com/en-us/windows/dev-environment/javascript/nodejs-on-wsl#install-nvm-nodejs-and-npm
-
-10. Open Ubuntu command line
-    install cURL (used for downloading internet content in the command line)
-
-```powershell
-11. sudo apt-get install curl
-```
-
-Install nvm
-
-```powershell
-12. curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.1/install.sh | bash
-```
-
-###### note version v0.39.1, there may be an update.
-
-to verify the installation worked
-
-```powershell
-13. command -v nvm
-```
-
-if this does not work close the terminal, and restart from step 10.
-
-input nvm ls to see current versions of Node are isntalled
-
-```powershell
-14. nvm ls
-```
-
-then
-
-```powershell
-15. nvm install --lts
-```
-
-```powershell
-16. nvm install node
-```
-
-now try listing the versions available again
-
-```powershell
-17. nvm ls
-```
-
-now you should see the 2 versions you have just installed.
-
-now check Node.js is installed with
-
-```powershell
-18. node --version
-```
-
-then verify npm
-
-```powershell
-19. npm --version
-```
-
-Continue in Ubuntu terminal following our Thoth Tech guide (Windows section):  
-https://github.com/thoth-tech/handbook/blob/main/CONTRIBUTING.md
-
----
-
-# Mac guide
+## Mac Guide
 
 ## Install Homebrew
 
-1. open terminal (The Terminal application is located in the Utilities folder in the Applications folder)
-2. install Xcode in the [Apple App Store](http://itunes.apple.com/us/app/xcode/id497799835?ls=1&mt=12)
-3. in terminal type:
+1. Open terminal (The Terminal application is located in the Utilities folder in the Applications
+   folder)
+1. Install Xcode from the
+   [Apple App Store](http://itunes.apple.com/us/app/xcode/id497799835?ls=1&mt=12)
+1. In the terminal type:
 
-```sh
-ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
-```
+   ```sh
+   ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+   ```
 
-4. update to latest version of HomeBrew (type in terminal):
+1. Update to the latest version of Homebrew (type in terminal):
 
-```sh
-brew update
-```
+   ```sh
+   brew update
+   ```
 
-5. Restart your computer (this will take longer than usual)
+1. Restart your computer (this will take longer than usual)
 
 ## Set up Node.js
 
-6. reopen terminal and type
+1. Open terminal and type
 
-```sh
-brew install node
-```
+   ```sh
+   brew install node
+   ```
 
-7. wait for files to download, then when done test that it is there by typing:
+1. Wait for files to download, then when done test that it is there by typing:
 
-```sh
-node -v
-```
+   ```sh
+   node -v
+   ```
 
-this should return the version installed
+   this should return the version installed
 
-now test npm by typing:
+1. Test npm by typing:
+   ```sh
+   npm -v
+   ```
 
-```sh
-npm -v
-```
-
-to continue to 'Contributing to GitHub' follow our Thoth Tech guide (macOS section):
-
-https://github.com/thoth-tech/handbook/blob/main/CONTRIBUTING.md
+To continue to
+[Contributing to GitHub](https://github.com/thoth-tech/handbook/blob/main/CONTRIBUTING.md) follow
+our Thoth Tech guide (macOS section):
