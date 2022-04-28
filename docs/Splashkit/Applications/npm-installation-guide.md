@@ -44,7 +44,7 @@ Open PowerShell and follow this guide:
 
 ## Mac Guide
 
-## Install Homebrew
+### Install Homebrew
 
 1. Open terminal (The Terminal application is located in the Utilities folder in the Applications
    folder)
@@ -64,7 +64,7 @@ Open PowerShell and follow this guide:
 
 1. Restart your computer (this will take longer than usual)
 
-## Set up Node.js
+### Set up Node.js
 
 1. Open terminal and type
 
@@ -84,7 +84,3 @@ Open PowerShell and follow this guide:
    ```sh
    npm -v
    ```
-
-To continue to
-[Contributing to GitHub](https://github.com/thoth-tech/handbook/blob/main/CONTRIBUTING.md) follow
-our Thoth Tech guide (macOS section):
