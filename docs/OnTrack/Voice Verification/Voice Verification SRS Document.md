@@ -70,7 +70,7 @@ deployed and using the Python Container effectively.
 
 The functional requirements of the system are as follows:
 
-- The System should be able to accept an Enrolment voice file for later comparison.
+- The system should be able to accept an enrolment voice file for later comparison.
 - The system should be able to accept a new voice file to validate against the enrolment file.
 - The system should return readable results to the users (Both Student and Tutor).
 
