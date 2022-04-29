@@ -4,13 +4,13 @@
 
 # Product Purpose
 
-The Purpose of the Voice Verification System for OnTrack is to add the ability for Voice Samples
+The purpose of the Voice Verification System for OnTrack is to add the ability for Voice Samples
 that are submitted to OnTrack to undergo a verification process to ensure that the speaker in the
 sample is the same as the person taking part in the unit. Specifically, this is to identify when a
 student is contract cheating, or if the person in the specific submission is also the person
 undertaking the unit.
 
-The Intended audience for this project is the users of OnTrack; both students for using the system
+The intended audience for this project is the users of OnTrack; both students for using the system
 to submit and verify their own audio files, as well as Tutors, who would be able to see the results
 of the verification and verify that the student has undertaken the task themselves.
 
@@ -19,7 +19,7 @@ assessments to OnTrack, to further verify that the student has done the work the
 taking part in cheating; more specifically, to verify that the student has not hired someone else to
 do the task for them, as is the case with Contract Cheating.
 
-The Scope of the project is to verify and validate a Python Container that can compare two voice
+The ccope of the project is to verify and validate a Python Container that can compare two voice
 samples and give the confidence level that the person speaking is the same in both voice samples.
 This requires a deployment to a testing system, as well as deployment to the OnTrack staging
 platform for Thoth Tech.
@@ -35,7 +35,7 @@ Tutors. These requirements include:
 - Attainment of results for Students and Tutors to show the validity of the voice file in the
   context of the assessment.
 - Ease of use
-- Is a secure system
+- Secure system
 
 These requirements are mainly focused on the user experience, and how the user will interact with
 the system.
@@ -54,12 +54,12 @@ Each of these assumptions is important for the use and requirements of the syste
 be able to deal with multiple requests in quick succession, be actively deployed to the OnTrack
 System, and have strict requirements for the initial voice file.
 
-Further, a few different aspects are relied upon for the project to function. These include:
+Furthermore, a few different aspects are relied upon for the project to function. These include:
 
-- OnTrack as a deployment platform.
+- OnTrack as a deployment platform
 - Deployment of the full connected system (OnTrack, plus API, and the Python Container)
 
-These assumptions assume that OnTrack is used as the deployment platform for the voice verification
+These assumptions are that OnTrack is used as the deployment platform for the voice verification
 system, mainly as this is where it is being more properly integrated and developed for.
 Additionally, for OnTrack to function correctly, the full system (Frontend and API) needs to be
 deployed and using the Python Container effectively.
@@ -98,7 +98,6 @@ A basic internet connection is required to view the site.
 The speaker verification system includes the following components:
 
 - A Python library for audio file validation (Python 3.8)
-
 - Speaker Verification API: contain the backend RESTful API implemented in Django and Python
 - Doubtfire and Speaker Verification Integration: Ruby app that integrates the Speaker Verification
   API with OnTrack (Doubtfire LMS) via RabbitMQ queue
