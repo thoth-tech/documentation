@@ -1,14 +1,10 @@
 # Jupyter Notebook Documentation Index
 
-## [Jupyter Notebook Epic](./JupyterNotebookEpic.md)
+## [Jupyter Notebook Epic](./Jupyter-Notebook-Epic-T1-2022.md)
 
 Epic for Jupyter Notebook support feature.
 
-## [Prototype SRS (Software Requirements Specification)](<./Prototype%20SRS%20(Software%20Requirements%20Specification).md>)
-
-Software requirements specification for prototype application.
-
-## [Meeting Minutes](./Meeting%20Minutes/Index.md)
+## Meeting Minutes
 
 Meeting minutes for each of our meetings.
 
@@ -18,3 +14,12 @@ Meeting minutes for each of our meetings.
 - [14/04/2022](./Meeting%20Minutes/14.4.22.md)
 - [18/04/2022](./Meeting%20Minutes/18.4.22.md)
 - [22/04/2022](./Meeting%20Minutes/22.4.22.md)
+
+## [Docker Documentation and Research](./Docker-Documentation-Research.md)
+
+Docker documentation
+
+## [Prototype SRS (Software Requirements Specification)](<./Prototype%20SRS%20(Software%20Requirements%20Specification).md>)
+
+Software requirements specification for prototype application.
+
