@@ -23,7 +23,3 @@ rm temp-directory/input-file # remove the input file after it has been converted
 
 If the file conversion was a success, the API container will then read the output file from the temp directory and pass it on to the next steps.
 The files in the *temp* directory can now be safely removed by the API container to free up space for the next conversion.
-
-
- 
-
