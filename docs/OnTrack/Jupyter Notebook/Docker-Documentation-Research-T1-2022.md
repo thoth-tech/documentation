@@ -14,11 +14,9 @@ The API container will then: tell the conversion container to start, perform the
 The entire bash script might look something like this:
 
 ```sh
-cp input_file temp_directory # copy the input file into the shared directory 
-docker run --rm conversion_image bash # run the conversion container
-# inside the container...
-conversion_command temp_directory/input_file temp_directory/output_file # convert the input file and write to the output file
-exit 
+cp input-file /temp-directory # copy the input file into the shared directory 
+docker run --rm conversion-image bash -c "convert temp-directory/input-file" # run the conversion container with the command to convert
+rm temp-directory/input-file # remove the input file after it has been converted
 ```
 
 **How do we tell the API container whether it was a success or failure??? Need more research into this**
