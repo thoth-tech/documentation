@@ -2,22 +2,29 @@
 
 - [Back to Jupyter Notebook Documentation Index](./Index.md)
 
-The API container gets the input file from the frontend which needs to be converted and puts it into a location **known** to the conversion container (i.e., a *temp* directory in a shared volume).
+## Conversion Process
 
-The shared *temp* directory ensures that both the API container **and** the conversion container have read and write access to the input and output files.
+The API container gets the input file from the frontend. If this input file needs to be converted, the API container will first put it into a location **known** to the conversion container (i.e., a *temp* directory in a shared volume).
 
-This *temp* directory will be the shared volume specified in `docker-compose.yml`.
+> The shared *temp* directory ensures that both the API container **and** the conversion container have read and write access to the input and output files.
+Note that this *temp* directory will be the shared volume specified in `docker-compose.yml`.
 
-The API container then runs a *bash script* which will: tell the conversion container to start and perform the conversion process, and then `exit`. Note that the conversion process will read from the *temp* directory and write the output to the *temp* directory.
+The API container will then: tell the conversion container to start, perform the conversion process, and then `exit`. Note that the conversion process will read from the *temp* directory and write the output to the *temp* directory.
+
+The entire bash script might look something like this:
 
 ```sh
-docker run 
+cp input_file temp_directory # copy the input file into the shared directory 
+docker run --rm conversion_image bash # run the conversion container
+# inside the container...
+conversion_command temp_directory/input_file temp_directory/output_file # convert the input file and write to the output file
+exit 
 ```
 
 **How do we tell the API container whether it was a success or failure??? Need more research into this**
 
 If the file conversion was a success, the API container will then read the output file from the temp directory and pass it on to the next steps.
-The files in the temp directory can safely be removed by the API container.
+The files in the *temp* directory can now be safely removed by the API container to free up space for the next conversion.
 
 [<img src="./docker_flow.png" />](./docker_flow.png)
  
