@@ -22,4 +22,3 @@ Docker documentation
 ## [Prototype SRS (Software Requirements Specification)](<./Prototype%20SRS%20(Software%20Requirements%20Specification).md>)
 
 Software requirements specification for prototype application.
-
