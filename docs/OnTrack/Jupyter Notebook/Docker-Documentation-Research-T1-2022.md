@@ -8,7 +8,7 @@ The shared *temp* directory ensures that both the API container **and** the conv
 
 This *temp* directory will be the shared volume specified in `docker-compose.yml`.
 
-The API container then runs a *bash script* which will tell the conversion container to start, read the input file from the *temp* directory, perform the conversion process, write the output file to the *temp* directory, and finally `exit`.
+The API container then runs a *bash script* which will: tell the conversion container to start and perform the conversion process, and then `exit`. Note that the conversion process will read from the *temp* directory and write the output to the *temp* directory.
 
 ```sh
 docker run 
