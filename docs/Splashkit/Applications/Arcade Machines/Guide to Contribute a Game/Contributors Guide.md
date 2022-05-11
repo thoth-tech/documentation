@@ -65,8 +65,8 @@ Only Windows compiled games are supported atm...
 <br>
 
 ## **Artwork**
-A preview of your game will be shown in the Arcade Machine games menu so you will need to include an image of your game.  
-This image must be sized as 600px x 540px for it to be displayed correctly in the games menu.  
+A preview of your game will be shown in the Arcade Machine games menu. Please include an image of your game.  
+This image must be sized as 600px x 540px so it will be displayed correctly in the games menu.  
 The supported formats are png, jpg and bmp.  
 
 If you don’t have access to image editing software such as Adobe Illustrator/Photoshop etc, we suggest you use a browser-based tool such as [resizeimage](https://resizeimage.net/) to resize, crop or format a screenshot of your game. 
