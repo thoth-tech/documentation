@@ -42,7 +42,7 @@ int main()
 <br>
 
 ### *Window Size*
-The window size of your game cannot exceed 1600 x 900, this is to allow your game to sit neatly inside the arcade-machine itself. Similarly, but mainly for aesthetic purposes, a minimum window size of 640 x 480 is expected. 
+The window size of your game cannot exceed 1600 x 900, this is to allow your game to sit neatly inside the arcade-machine itself. Similarly, there is a minimum window size of 640 x 480, to ensure visibility for the user.
 
 <br>
 
