@@ -99,7 +99,9 @@ This must be located in your games root directory, alongside your `program.cpp` 
 
 ## **Contributing**
 
-Congratulations! If you've gotten this far, you’ve now completed all the steps required to have your game showcased on the Arcade Machine.  
+Congratulations!
+
+You have now completed all the steps required to have your game showcased on the Arcade Machine. 
 
 To contribute your game, go to the [Thoth Tech arcade-games repository](https://github.com/thoth-tech/arcade-games)  
 Click the ‘*Fork*’ button at the top right of the screen and create a fork of this repository. 
