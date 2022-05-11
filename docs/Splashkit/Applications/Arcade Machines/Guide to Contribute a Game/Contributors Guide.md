@@ -47,7 +47,7 @@ The window size of your game cannot exceed 1600 x 900, this is to allow your gam
 <br>
 
 ### *Window Border*
-Your game will look much better within the Arcade Machine environment if it doesn't show the window a border, so we ask that you remove the border before compiling your game.  
+We ask that you remove the border before compiling your game. The Arcade Machine provides a more immersive experience for the user if there is no border.
 To remove the border of your game window, use SplashKit’s `window_toggle_border();` function after the `open_window()` function like so:
 ```cpp
 int main()
