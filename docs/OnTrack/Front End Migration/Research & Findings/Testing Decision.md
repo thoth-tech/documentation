@@ -1,6 +1,9 @@
 ## What is the current state of testing?
-
-In this issue, we will discuss the current state of testing and what tools are we proposing and why we think it is logical to choose that over others. We will discuss some alternative tools and their pros and cons as well which we considered in our decision-making process. While there are some existing unit tests for components written in TypeScript, there are no existing unit tests for the CoffeeScript components. Existing tests use Karma test runner integrated with Jasmine. Currently, `"ng test"` command (Runs unit tests in a project) and `npm install` is not working due to dependencies issues, which are getting fixed.
+In this issue, we will discuss the current state of testing and what tools are we proposing.
+While there are some existing unit tests for components written in TypeScript, there are no existing
+unit tests for the CoffeeScript components. Existing tests use Karma test runner integrated with
+Jasmine. Currently, the ng test command (Runs unit tests in a project) and npm install are not
+working due to dependencies issues, which are getting fixed.
 
 ## Comparing different alternatives
 
