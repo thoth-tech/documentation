@@ -1,4 +1,4 @@
-# **Guide to Contribute a Game to the Arcade Machine**  
+# Guide to Contribute a Game to the Arcade Machine  
 
 This guide takes you through the steps required for your game to be added into the arcade-machine library  
 
@@ -6,21 +6,21 @@ This guide takes you through the steps required for your game to be added into t
 
 Table of contents  
 
-- [**Guide to Contribute a Game to the Arcade Machine**](#guide-to-contribute-a-game-to-the-arcade-machine)
-  - [**Coding**](#coding)
+- [Guide to Contribute a Game to the Arcade Machine](#guide-to-contribute-a-game-to-the-arcade-machine)
+  - [Coding](#coding)
     - [*Quit Request*](#quit-request)
     - [*Window Size*](#window-size)
     - [*Window Border*](#window-border)
-  - [**Controls**](#controls)
-  - [**Compiling**](#compiling)
-  - [**Artwork**](#artwork)
-  - [**Configuration**](#configuration)
-  - [**Content**](#content)
-  - [**Contributing**](#contributing)
+  - [Controls](#controls)
+  - [Compiling](#compiling)
+  - [Artwork](#artwork)
+  - [Configuration](#configuration)
+  - [Content](#content)
+  - [Contributing](#contributing)
 
 ---
 
-## **Coding**  
+## Coding  
 
 To make the game accessible and controllable by the arcade machine, some additional code or changes are required  
 
@@ -58,14 +58,14 @@ int main()
 }
 ```
 
-## **Controls**
+## Controls
 
-## **Compiling**
+## Compiling
 
 Only Windows compiled games are supported atm...
 (Brief windows compilation explanation required here)
 
-## **Artwork**
+## Artwork
 
 A preview of your game will be shown in the Arcade Machine games menu. Please include an image of your game.  
 This image must be sized as 600px x 540px so it will be displayed correctly in the games menu.  
@@ -73,7 +73,7 @@ The supported formats are png, jpg and bmp.
 
 If you don’t have access to image editing software such as Adobe Illustrator/Photoshop etc, we suggest you use a browser-based tool such as [resizeimage](https://resizeimage.net/) to resize, crop or format a screenshot of your game.  
 
-## **Configuration**
+## Configuration
 
 Each game must have a config file containing information about the game.  
 There is a `config.txt` file located in the base directory of the repository, copy this file into the base directory of your game file and fill it with your game information. It must match the example config file shown below, but with your game information.
@@ -85,11 +85,11 @@ This must be located in your games root directory, alongside your `program.cpp` 
 
 ![image](images/dir-breakdown.png)
 
-## **Content**
+## Content
 
 (TBA - explanation of content requirements)
 
-## **Contributing**
+## Contributing
 
 Congratulations!
 
