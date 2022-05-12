@@ -1,21 +1,12 @@
+## What is the current state of testing?
 
+In this issue, we will discuss the current state of testing and what tools are we proposing and why we think it is logical to choose that over others. We will discuss some alternative tools and their pros and cons as well which we considered in our decision-making process. While there are some existing unit tests for components written in TypeScript, there are no existing unit tests for the CoffeeScript components. Existing tests use Karma test runner integrated with Jasmine. Currently, `"ng test"` command (Runs unit tests in a project) and `npm install` is not working due to dependencies issues, which are getting fixed.
 
-In this issue, we will discuss the current state of testing and what tools are we proposing and why we think it is logical to choose that over others. We will discuss some alternative tools and their pros and cons as well which we considered in our decision-making process.
+## Comparing different alternatives
 
-<br>
+## Cypress
 
-# What is the current state of testing?
-
-While there are some existing unit tests for components written in TypeScript, there are no existing unit tests for the CoffeeScript components. Existing tests use Karma test runner integrated with Jasmine. Currently, `"ng test"` command (Runs unit tests in a project) and `npm install` is not working due to dependencies issues, which are getting fixed.  
-
-<br>
-<br>
-
-# Comparing different alternatives
-
-CYPRESS
----
-### _Pros_
+## Pros
 
 - Selenium involves implementing browser drivers for the script to communicate with the web elements on the page. 
 - Cypress is used by both developers and QA engineers
@@ -23,18 +14,16 @@ CYPRESS
 - The Cypress framework produces more accurate results. It’s because Cypress has greater control over the entire automation process.
 - Cypress instances respond in real-time to application events and commands.
 
-### _Cons_
+## Cons
 
 - Cypress is a test runner mainly focused on end-to-end tests. For unit testing, there are better, faster alternatives. 
 - Cypress is currently only supported for the Chrome, Firefox, Edge, Brave, and Electron browsers. As a result, Cypress is a less favored option for cross-browser testing.
 - For the building of test cases, it only supports the JavaScript framework.
 - Cypress doesn’t support remote execution.
 
----
-SELENIUM
----
+## Selenium
 
-### _Pros_
+## Pros
 
 - Selenium is an Open Source Software.
 - Selenium supports various programming languages to write programs (Test scripts)
@@ -44,7 +33,7 @@ SELENIUM
 - Selenium uses fewer Hardware resources.
 - Good choice for ongoing regression testing and end to end testing.
 
-### _Cons_
+## Cons
 
 - No reliable Technical Support from anybody.
 - It supports Web-based applications only.
@@ -54,11 +43,10 @@ SELENIUM
 - No Built-in Reporting facility.
 - Slow
 - Better choice for end-to-end testing than unit testing.  
----
-JEST
----
 
-### _Pros_
+## Jest
+
+## Pros
 
 - The biggest advantage of using Jest is minimal setup or configuration.
 - it comes with an assertion library and mocking support
@@ -66,7 +54,7 @@ JEST
 - You can put your tests inside of a directory called __tests__ or name them with a .spec.js or .test.js - extension, then run jest and it works
 - Jest also supports snapshot testing
 
-### _Cons_
+## Cons
 
 - Jest’s biggest weaknesses stem from being newer and less widely used among JavaScript developers.
 - It has less tooling and library support available compared to more mature libraries (like Mocha).
@@ -75,11 +63,9 @@ JEST
 - Slower due to auto mocking
 - Poor documentation
 
----
-KARMA + JASMINE
----
+## Karma + Jasmine
 
-### _Pros_
+## Pros
 
 - When creating Angular projects using the Angular CLI, Jasmine and Karma is used to creating and running unit tests by default. 
 - Karma is a test runner built by the angularJS to make TDD easy in Angular Project Testing.
@@ -95,14 +81,13 @@ KARMA + JASMINE
 - Jasmine provides a rich set of built-in matchers that can match expectations and add asserts to the test cases
 
 
-### _Cons_
+## Cons
 
 - Asynchronous testing can be a bit of a headache
 - js is required for running Karma
 - Expects a specific suffix to all test files (*spec.js by default)
 
----
-PROPOSAL
----
+## Proposal
+
 Karma handles the process of creating HTML files, opening browsers and running tests and returning the results of those tests to the command line. When using Angular CLI to manage projects it automatically creates stub Jasmine spec files for you when generating code. On top of that, it is already implemented in our code base. It goes well with our TDD approach.
 It will also be efficient for units testing and requires minimal configurations so that we can spend more time on coding and quality testing itself. Additionally, there is also good online documentation and resources available for training. 
