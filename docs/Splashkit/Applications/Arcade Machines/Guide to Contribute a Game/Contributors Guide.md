@@ -39,13 +39,15 @@ int main()
 }
 ```  
 
-### *Window Size*  
+### *Window Size*
+
+The window size of your game cannot exceed 1600 x 900, this is to allow your game to sit neatly inside the arcade-machine itself. Similarly, there is a minimum window size of 640 x 480, to ensure visibility for the user.
 
 The window size of your game cannot exceed 1600 x 900, this is to allow your game to sit neatly inside the arcade-machine itself. Similarly, but mainly for aesthetic purposes, a minimum window size of 640 x 480 is expected.  
 
-### *Window Border*  
+### *Window Border*
 
-Your game will look much better within the Arcade Machine environment if it doesn't show the window a border, so we ask that you remove the border before compiling your game.  
+We ask that you remove the border before compiling your game. The Arcade Machine provides a more immersive experience for the user if there is no border.
 To remove the border of your game window, use SplashKit’s `window_toggle_border();` function after the `open_window()` function like so:
 
 ```cpp
@@ -65,8 +67,8 @@ Only Windows compiled games are supported atm...
 
 ## **Artwork**
 
-A preview of your game will be shown in the Arcade Machine games menu so you will need to include an image of your game.  
-This image must be sized as 600px x 540px for it to be displayed correctly in the games menu.  
+A preview of your game will be shown in the Arcade Machine games menu. Please include an image of your game.  
+This image must be sized as 600px x 540px so it will be displayed correctly in the games menu.  
 The supported formats are png, jpg and bmp.  
 
 If you don’t have access to image editing software such as Adobe Illustrator/Photoshop etc, we suggest you use a browser-based tool such as [resizeimage](https://resizeimage.net/) to resize, crop or format a screenshot of your game.  
@@ -89,7 +91,9 @@ This must be located in your games root directory, alongside your `program.cpp` 
 
 ## **Contributing**
 
-Congratulations! If you've gotten this far, you’ve now completed all the steps required to have your game showcased on the Arcade Machine.  
+Congratulations!
+
+You have now completed all the steps required to have your game showcased on the Arcade Machine.  
 
 To contribute your game, go to the [Thoth Tech arcade-games repository](https://github.com/thoth-tech/arcade-games)  
 Click the ‘*Fork*’ button at the top right of the screen and create a fork of this repository.  
