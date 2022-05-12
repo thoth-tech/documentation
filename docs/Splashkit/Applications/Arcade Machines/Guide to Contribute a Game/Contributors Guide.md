@@ -8,9 +8,9 @@ Table of contents
 
 - [Guide to Contribute a Game to the Arcade Machine](#guide-to-contribute-a-game-to-the-arcade-machine)
   - [Coding](#coding)
-    - [*Quit Request*](#quit-request)
-    - [*Window Size*](#window-size)
-    - [*Window Border*](#window-border)
+    - [Quit Request](#quit-request)
+    - [Window Size](#window-size)
+    - [Window Border](#window-border)
   - [Controls](#controls)
   - [Compiling](#compiling)
   - [Artwork](#artwork)
@@ -24,7 +24,7 @@ Table of contents
 
 To make the game accessible and controllable by the arcade machine, some additional code or changes are required  
 
-### *Quit Request*  
+### Quit Request  
 
 Your game must be able to be exited using the escape key
 This can be achieved by including the following command in your main loop.  
@@ -39,13 +39,13 @@ int main()
 }
 ```  
 
-### *Window Size*
+### Window Size
 
 The window size of your game cannot exceed 1600 x 900, this is to allow your game to sit neatly inside the arcade-machine itself. Similarly, there is a minimum window size of 640 x 480, to ensure visibility for the user.
 
 The window size of your game cannot exceed 1600 x 900, this is to allow your game to sit neatly inside the arcade-machine itself. Similarly, but mainly for aesthetic purposes, a minimum window size of 640 x 480 is expected.  
 
-### *Window Border*
+### Window Border
 
 We ask that you remove the border before compiling your game. The Arcade Machine provides a more immersive experience for the user if there is no border.
 To remove the border of your game window, use SplashKit’s `window_toggle_border();` function after the `open_window()` function like so:
