@@ -42,8 +42,8 @@ scripts in the `skm` project to be stream-lined and handle dependency installati
 Proof of concepts solutions for the Linux and macOS intallation scripts were authored and merged
 into [thot-tech/skm](https://github.com/thoth-tech/skm/).
 
-[A report is available](research-findings/existing-installation.md) describing our
-research and findings.
+[A report is available](research-findings/existing-installation.md) describing our research and
+findings.
 
 ### Investigate existing installation for MAC
 
@@ -73,8 +73,8 @@ candidate approaches under Windows.
    launch the existing Windows `skm` installation script, or;
 2. Composing a package for the `chocolately` package manager for Windows.
 
-[A report is available](research-findings/existing-installation.md) describing our
-research and findings.
+[A report is available](research-findings/existing-installation.md) describing our research and
+findings.
 
 ## Current status
 
