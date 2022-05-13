@@ -71,7 +71,3 @@ Designing a product that integrate flawlessly with the existing architecture Cre
 
 - Validate documentation with managing directors
 - Documentation produced is accurate
-
-
-
-
