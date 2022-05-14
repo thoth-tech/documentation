@@ -40,7 +40,7 @@ existing Deakin version and hosted on Google Cloud.
 **Google Cloud Platform (GCP)** is a cloud service platform that allows you to build cloud resources
 and platforms, leveraging cloud native services and features.
 
-Google Compute Engine (GCE) is the the Infrastructure as a Service (IaaS) component of Google CLoud
+Google Compute Engine (GCE) is the Infrastructure as a Service (IaaS) component of Google CLoud
 Platform (GCP) [1]. It is the service that provides virtual machines (VMs) as server resources in
 the cloud.
 
@@ -116,7 +116,7 @@ the setup and changes required.
   Platform (GCP) project.
 - In order to push or pull a container image, Docker will need to be installed and configured.
 - The team will need a high-level understanding of components such as nginx, rails, pdfgen, database
-  servers (MariaDB or MySql), Action Mailer, Dockerfile, and docker-compose.yaml.
+  servers (MariaDB or MySql), Action Mailer, Dockerfile, and `docker-compose.yaml`.
 
 ## Outcomes
 

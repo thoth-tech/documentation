@@ -148,7 +148,7 @@ Some of these requirements include:
 - Window size set to 1920 x 1080 (16:9) HDMI, this is a standard laptop pixel width and height.
 - When creating the window use function toggle_window_border() to remove the minimize, maximize and
   exit options from the game window visually
-- Also, center the placement of the window and give it a name using the function
+- Also, centre the placement of the window and give it a name using the function
   window_position_named()
 
 ## System Features
