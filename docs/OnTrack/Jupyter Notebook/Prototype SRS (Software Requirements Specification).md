@@ -1,6 +1,6 @@
 # Jupyter Notebook Week 6 Prototype - Software Requirement Specification (SRS)
 
-- [Back to Jupyter Notebook Documentation Index](./Index.md)
+- [Back to Jupyter Notebook Documentation Index](Index.md)
 
 ## 1. Introduction
 
