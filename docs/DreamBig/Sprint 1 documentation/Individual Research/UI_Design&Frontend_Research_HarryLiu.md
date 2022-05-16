@@ -12,7 +12,7 @@ application is poor in operation, the performance ability is general, so in term
 and performance HTML5 has a great shortage, and lack of application smooth feeling.
 
 CSS is a style sheet language, it is used to express the HTML file style language, the role is used
-for static modification of web pages, such as modify the color, adjust the layout, modify the font
+for static modification of web pages, such as modify the colour, adjust the layout, modify the font
 format, etc.. And for CSS has developed a number of frameworks, such as Bootstrap. Bootstrap with
 global CSS settings, you can use pre-compiled CSS files for rapid development to achieve the effect
 of pre-processing scripts, it can also use the same code quickly and effectively adapted to the
