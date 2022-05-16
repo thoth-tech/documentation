@@ -1,10 +1,12 @@
 {
-  "name": "handbook",
-  "description": "Thoth Tech company handbook",
+  "name": "documentation",
+  "description": "Thoth Tech documentation",
   "private": true,
   "scripts": {
     "format": "prettier --write \"**/*.md\"",
-    "format:check": "prettier --check \"**/*.md\""
+    "format:check": "prettier --check \"**/*.md\"",
+    "prose:check": "vale --minAlertLevel error --output=docs/.vale/vale.tmpl docs",
+    "lint": "npm run format:check && npm run prose:check"
   },
   "devDependencies": {
     "prettier": "^2.6.2"

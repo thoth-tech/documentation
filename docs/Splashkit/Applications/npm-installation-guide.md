@@ -52,13 +52,13 @@ Open PowerShell and follow this guide:
    [Apple App Store](http://itunes.apple.com/us/app/xcode/id497799835?ls=1&mt=12)
 1. In the terminal type:
 
-   ```sh
+   ```shell
    ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
    ```
 
 1. Update to the latest version of Homebrew (type in terminal):
 
-   ```sh
+   ```shell
    brew update
    ```
 
@@ -68,19 +68,19 @@ Open PowerShell and follow this guide:
 
 1. Open terminal and type
 
-   ```sh
+   ```shell
    brew install node
    ```
 
 1. Wait for files to download, then when done test that it is there by typing:
 
-   ```sh
+   ```shell
    node -v
    ```
 
    this should return the version installed
 
 1. Test npm by typing:
-   ```sh
+   ```shell
    npm -v
    ```
