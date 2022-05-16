@@ -1,10 +1,10 @@
 # Docker Documentation and Research (WIP) T1-2022
 
-- [Back to Jupyter Notebook Documentation Index](./Index.md)
+- [Back to Jupyter Notebook Documentation Index](Index.md)
 
 ## Conversion Relating to Docker Processes
 
-[<img src="./docker_flow.png" />](./docker_flow.png)
+[<img src="docker_flow.png" />](docker_flow.png)
 
 The API container gets the input file from the frontend. If this input file needs to be converted,
 the API container will first put it into a location **known** to the conversion container (i.e., a
@@ -18,7 +18,7 @@ output to the _temp_ directory.
 
 The entire bash script might look something like this:
 
-```sh
+```shell
 cp input-file /temp-directory # copy the input file into the shared directory
 docker run --rm conversion-image bash -c "convert temp-directory/input-file" # run the conversion container with the command to convert
 rm temp-directory/input-file # remove the input file after it has been converted
