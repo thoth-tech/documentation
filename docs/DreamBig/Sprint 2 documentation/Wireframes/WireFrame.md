@@ -4,7 +4,7 @@ Guanyu Chen
 
 ## Log in page
 
-![Login Page](./../../assests/images/login_g1.jpg)
+![Login Page](../../assests/images/login_g1.jpg)
 
 For Log in page, user will create an account or using other ways to log in to DreamBig. Users can
 choose multiple ways, for example: School account, Facebook, Google etc. Once the system can

@@ -3,7 +3,7 @@
 ![Login](../../assests/images/gautam_login.jpg)
 
 This is the login page for the dream big application. Every Deakin student have their Deakin login
-credentials so we can use those credentials to login to our dream big web application.
+credentials so we can use those credentials to log in to our dream big web application.
 
 ![Course View](../../assests/images/gautam_course.jpg)
 

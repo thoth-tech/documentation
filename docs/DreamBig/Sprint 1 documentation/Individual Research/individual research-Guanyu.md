@@ -103,7 +103,7 @@ languages.
 
 #### Advantage:
 
-1. It can realize server-side rendering and facilitate search engine optimization.
+1. It can realise server-side rendering and facilitate search engine optimization.
 2. Component, so the code is more modular, and it is easier to reuse the code.
 3. React is only the view layer in MVC, and there are no hard requirements for other parts. When
    many developers choose to reconstruct all with angular and part with react, they choose to
