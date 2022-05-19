@@ -1,32 +1,55 @@
 # Docker Documentation and Research (WIP) T1-2022
 
-- [Back to Jupyter Notebook Documentation Index](Index.md)
+[Back to Jupyter Notebook Documentation Index](Index.md)
 
-## Conversion Relating to Docker Processes
+## Intro
+
+As we know, the Jupyter Notebook conversion feature will happen via processes that occur inside
+Docker containers. In this document we will discuss the main architecture of this structure in
+relation to OnTrack.
+
+OnTrack is deployed with two main containers that will always be running:
+
+- the frontend container which hosts the logic behind the user interface of OnTrack (mostly
+  unrelated to this feature)
+- the backend container which hosts the logic related to database interactions and other processes
+
+To achieve the Jupyter conversion feature, we will be using a new container that contains all of the
+dependencies (Python, TeX, etc.) needed for a .ipynb to PDF conversion, and performing the
+conversion process within this container. This allows us to have a standalone software package that
+is extendable if required, for example if new Python libraries are required by a unit. It also means
+that we are able to create as many standalone containers as required for different conversion
+processes, such as:
+
+- docx to PDF conversion using Apache POI
+- powerpoint presentation to PDF conversion using Apache POI
+
+This will allow us to add a wide range of compatability in the future, regardless of the software
+requirements.
+
+## Overview of Conversion Process
 
 [<img src="docker_flow.png" />](docker_flow.png)
 
-The API container gets the input file from the frontend. If this input file needs to be converted,
-the API container will first put it into a location **known** to the conversion container (i.e., a
-_temp_ directory in a shared volume). The shared _temp_ directory ensures that both the API
-container **and** the conversion container have read and write access to the input and output files.
-Note that this _temp_ directory will be the shared volume specified in `docker-compose.yml`.
+When the OnTrack frontend sends a new file to the OnTrack backend, the backend will be able to
+determine the file type and if it needs to be converted. If the OnTrack backed recieves a .ipynb
+file, it will spin up the Jupyter to PDF conversion container to perform the conversion command.
 
-The API container will then: tell the conversion container to start, perform the conversion process,
-and then `exit`. Note that the conversion process will read from the _temp_ directory and write the
-output to the _temp_ directory.
+This is done via a shell command that does several things:
 
-The entire bash script might look something like this:
+1. Firstly, it ensures that the file to be converted is renamed to "input.ipynb".
+2. It then instructs the container to run AND it mounts the file's directory as a Docker volume. As
+   the container runs it will execute the conversion process via its `ENTRYPOINT` command. The
+   converted file will be outputted to the volume
+3. Finally, it removes the temporary files to ensure there is always free space.
 
-```shell
-cp input-file /temp-directory # copy the input file into the shared directory
-docker run --rm conversion-image bash -c "convert temp-directory/input-file" # run the conversion container with the command to convert
-rm temp-directory/input-file # remove the input file after it has been converted
-```
+The `docker run` command allows us several options for this type of use-case: we are able to specify
+a volume using the `-v` option, and we are able to ask that the container is removed after it has
+finished its process with the `--rm` option.
 
-**How do we tell the API container whether it was a success or failure??? Need more research into
-this**
+**We will need to have some process in place to read whether the conversion was a success or a
+failure.**
 
-If the file conversion was a success, the API container will then read the output file from the temp
-directory and pass it on to the next steps. The files in the _temp_ directory can now be safely
-removed by the API container to free up space for the next conversion.
+## Conversion Container Requirements
+
+Requirements a container must meet to work in this system :
