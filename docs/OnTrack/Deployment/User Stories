@@ -1,8 +1,6 @@
 **User stories**
 
-
-
- **Provide password management for LDAP and database implementations**
+**Provide password management for LDAP and database implementations**
 
 As a user, I want to be able to easily access and check my password, and change it when I need, so I can avoid my information being leaked.
 
@@ -10,38 +8,36 @@ As a product owner, I want to have my user&#39;s passwords stored in a secure wa
 
 As a product owner, I want to have a database that is easy and low costing to maintenance, easy to be consistent with future add-ons, so that can save my efforts.
 
- **Add LDAP Server Option**
+**Add LDAP Server Option**
 
-As a product owner, I want an in-house authentication solution developed that meets all of our authentication needs, so that we don&#39;t have to rely on third-party authentication solutions within the OnTrack architecture.
+As a product owner, I want an in-house authentication solution developed that meets all our authentication needs, so that we do not have to rely on third-party authentication solutions within the OnTrack architecture.
 
 As a user, I want to be assured that the authentication solution is secure, so that my passwords and other information is not publicly disclosed.
 
 As a user, I want the authentication solution to be reliable and respond swiftly, so that I can access my account as needed and on-demand.
 
- **Extend API with user management**
+**Extend API with user management**
 
-As a user, I want to be able to reset my Ontrack password myself, so I don&#39;t need to contact a system administrator.
+As a user, I want to be able to reset my Ontrack password myself, so I do not need to contact a system administrator.
 
 As a system administrator, I want users to be able to reset their passwords without my input. I also want the ability to send a password reset request to users. This will save me time and increase security by allowing insecure/exposed passwords to be easily changed.
 
- **Thoth Tech Ontrack deployment to Google Cloud**
+**Thoth Tech Ontrack deployment to Google Cloud**
 
 As a product owner, I want to have more freedom in OnTrack development of the company&#39;s evolving vision separated from the Deakin version.
 
-As a student/admin/Doctors, I want to access the OnTrack via the URL from anywhere and should be able to perform all actions those are performed by students on Deakin version of track.
+As a student/admin, I want to access the OnTrack via the URL from anywhere and should be able to perform all actions those are performed by students on Deakin version of track.
 
 As a product owner, I want separation of roles as available in Deakin version of OnTrack.
 
 As a product owner, I want an email sent every time there is a successful build sent to production
 
-As a product owner, I want cloud hosted version should implement the proxies.
+**Ontrack Pipeline CI/CD**
 
- **Ontrack Pipeline CI/CD**
+As a system admin, I want to have OnTrack built and deployed automatically with minimal user intervention in the process, so that the latest version is available. All the building processes should be automated so all I must do is initiate the building.
 
-As a system admin, I want to have OnTrack being built and deployed automatically with minimal user intervention in the process, so that the latest version is available. All of the building processes should be automated so all I have to do is initiate the build.
+As a user, I want to access an up-to-date version of OnTrack hosted on GCP (Google Cloud Platform) so that I will not have to wait for the service to be manually updated.
 
-As a user, I want to access an up-to-date version of OnTrack hosted on GCP so that I won&#39;t have to wait for the service to be manually updated.
+As a developer, I want the pipeline to be as simple and maintainable as possible so that it can easily be updated to support future versions of OnTrack. Different versions should be obvious and labelled appropriately.
 
-As a developer, I want the pipeline to be as simple and maintainable as possible so that it can easily be updated to support future versions of OnTrack. Different versions should be obvious and labeled appropriately.
-
-As a developer, I want a generic deployment pipeline that can be simply changed out in the future, so that deployment targets for different services can be used. This should be done with environment variables.
+As a developer, I want a generic deployment pipeline that can be simply changed out in the future, so that deployment targets for different services can be used. This should be done with environmental variables.
