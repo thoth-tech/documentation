@@ -14,7 +14,7 @@
 
 ## Overview
 
-![Google Cloud - Doubtfire](./assets/GoogleCloud_Doubtfire.jpg "Google Cloud - Doubtfire")
+![Google Cloud - Doubtfire](https://github.com/thoth-tech/documentation/tree/main/docs/OnTrack/Deployment/Google%20Cloud/assets/GoogleCloud_Doubtfire.jpg "Google Cloud - Doubtfire")
 
 The Google cloud team have deployed a functional instance of Doubtfire (also known as OnTrack)
 hosted on Google Cloud Platform (GCP).
@@ -52,7 +52,7 @@ be to focus on automation with CI/CD pipelines to deploy the Thoth Tech OnTrack 
 also be a bonus to get LDAP authentication for OnTrack and email notifications configured with an
 SMTP server.
 
-![Google Cloud - CI/CD](./assets/GoogleCloud_CICD.jpg "Google Cloud - CICD")
+![Google Cloud - CI/CD](https://github.com/thoth-tech/documentation/tree/main/docs/OnTrack/Deployment/Google%20Cloud/assets/GoogleCloud_CICD.jpg "Google Cloud - CICD")
 
 ## Links
 
@@ -64,5 +64,5 @@ SMTP server.
 
 ## Assets
 
-- [Google Cloud - Doubtfire](./assets/GoogleCloud_Doubtfire.jpg)
-- [Google Cloud - CI/CD](./assets/GoogleCloud_CICD.jpg)
+- [Google Cloud - Doubtfire](https://github.com/thoth-tech/documentation/tree/main/docs/OnTrack/Deployment/Google%20Cloud/assets/GoogleCloud_Doubtfire.jpg)
+- [Google Cloud - CI/CD](https://github.com/thoth-tech/documentation/tree/main/docs/OnTrack/Deployment/Google%20Cloud/assets/GoogleCloud_CICD.jpg)

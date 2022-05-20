@@ -1,10 +1,10 @@
 # Google Cloud - Documentation Index
 
-## [Overview](Overview.md)
+## [Overview](https://github.com/thoth-tech/documentation/tree/main/docs/OnTrack/Deployment/Google%20Cloud/Overview.md)
 
 Google Cloud team's overview and high-level documentation.
 
-## [Research & Findings](./Research%20%26%20Findings/google-cloud-research.md)
+## [Research & Findings](https://github.com/thoth-tech/documentation/tree/main/docs/OnTrack/Deployment/Google%20Cloud/Research%20%26%20Findings/google-cloud-research.md)
 
 Google Cloud team's research and findings -
 
@@ -26,5 +26,5 @@ Google Cloud team's research and findings -
 
 ## Assets
 
-- [Google Cloud - Doubtfire](./assets/GoogleCloud_Doubtfire.jpg)
-- [Google Cloud - CI/CD](./assets/GoogleCloud_CICD.jpg)
+- [Google Cloud - Doubtfire](https://github.com/thoth-tech/documentation/tree/main/docs/OnTrack/Deployment/Google%20Cloud/assets/GoogleCloud_Doubtfire.jpg)
+- [Google Cloud - CI/CD](https://github.com/thoth-tech/documentation/tree/main/docs/OnTrack/Deployment/Google%20Cloud/assets/GoogleCloud_CICD.jpg)
