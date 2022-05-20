@@ -25,5 +25,6 @@ Google Cloud team's research and findings -
 - [Miro for Google Cloud - CI/CD](https://miro.com/app/board/uXjVO64xoQw=/?share_link_id=57734801709)
 
 ## Assets
+
 - [Google Cloud - Doubtfire](./assets/GoogleCloud_Doubtfire.jpg)
 - [Google Cloud - CI/CD](./assets/GoogleCloud_CICD.jpg)
