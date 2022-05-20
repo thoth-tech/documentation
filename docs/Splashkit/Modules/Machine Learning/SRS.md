@@ -2,7 +2,7 @@
 
 ### Machine Learning for Splashkit Modules
 
-# Product Purpose
+## Product Purpose
 
 The purpose of the Machine Learning module for Splashkit is to add the ability for users to easily
 build a machine co-op or villain character, so that the player can have real challenges that
@@ -21,7 +21,7 @@ The scope of the project is to create usable AI agents for games that users impl
 adding too much overhead for the user. This requires a deployment to a testing system, as well as
 deployment to the Splashkit staging platform for Thoth Tech.
 
-# Description of overall System
+## Description of overall System
 
 ## User requirements
 
@@ -49,7 +49,7 @@ This system has a few assumptions. These include:
 Each of these assumptions is important for the use and requirements of the system. The system should
 be able to deal with multiple move requests in quick succession.
 
-# System Requirements
+## System Requirements
 
 ## Functional Requirements
 
