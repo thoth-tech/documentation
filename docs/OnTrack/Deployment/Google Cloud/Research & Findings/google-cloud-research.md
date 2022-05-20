@@ -121,7 +121,7 @@ the setup and changes required.
 ## Outcomes
 
 Following the team's research of Google Cloud and its services, deployments, and Docker containers,
-th team have determined the following outcomes:
+the team have determined the following outcomes:
 
 1. Provide a high-level design and document architecture overview of how Google Cloud Platform (GCP)
    will be used to support overall deployment and CI/CD pipelines to run resources for this project;
