@@ -1,9 +1,10 @@
 ## What is the current state of testing?
-In this issue, we will discuss the current state of testing and what tools are we proposing.
-While there are some existing unit tests for components written in TypeScript, there are no existing
-unit tests for the CoffeeScript components. Existing tests use Karma test runner integrated with
-Jasmine. Currently, the ng test command (Runs unit tests in a project) and npm install are not
-working due to dependencies issues, which are getting fixed.
+
+In this issue, we will discuss the current state of testing and what tools are we proposing. While
+there are some existing unit tests for components written in TypeScript, there are no existing unit
+tests for the CoffeeScript components. Existing tests use Karma test runner integrated with Jasmine.
+Currently, the ng test command (Runs unit tests in a project) and npm install are not working due to
+dependencies issues, which are getting fixed.
 
 ## Comparing different alternatives
 
@@ -16,7 +17,10 @@ on the page. -Cypress is used by both developers and QA engineers -In Cypress, t
 additional IDE overhead. When you launch Cypress, it asks you to select an IDE to modify the test
 script. -The Cypress framework produces more accurate results. It’s because Cypress has greater
 control over the entire automation process. -Cypress instances respond in real-time to application
-events and commands.
+events and commands. -Cypress does not utilize WebDriver for testing or doesn't send the command to
+the browser using a specific driver. If your language can someway be transpiled to JS, it can use
+DOM events to send the click command to the button or such. This results in a much faster execution
+of test results
 
 ## Cons
 
@@ -89,7 +93,7 @@ specific suffix to all test files (\*spec.js by default)
 Karma handles the process of creating HTML files, opening browsers and running tests and returning
 the results of those tests to the command line. When using Angular CLI to manage projects it
 automatically creates stub Jasmine spec files for you when generating code. On top of that, it is
-already implemented in our code base. It goes well with our TDD approach.
-It will also be efficient for unit testing and requires minimal configurations so that we can spend
-more time on coding and quality testing itself. Additionally, there is also good online
-documentation and resources available for training.
+already implemented in our code base. It goes well with our TDD approach. It will also be efficient
+for unit testing and requires minimal configurations so that we can spend more time on coding and
+quality testing itself. Additionally, there is also good online documentation and resources
+available for training.
