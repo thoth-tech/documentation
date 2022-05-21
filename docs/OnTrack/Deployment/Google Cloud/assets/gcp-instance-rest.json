@@ -1,0 +1,130 @@
+{
+    "canIpForward": false,
+    "confidentialInstanceConfig": {
+      "enableConfidentialCompute": false
+    },
+    "cpuPlatform": "Intel Broadwell",
+    "creationTimestamp": "2022-05-14T05:04:08.959-07:00",
+    "deletionProtection": true,
+    "description": "",
+    "disks": [
+      {
+        "guestOsFeatures": [
+          {
+            "type": "UEFI_COMPATIBLE"
+          },
+          {
+            "type": "GVNIC"
+          }
+        ],
+        "type": "PERSISTENT",
+        "licenses": [
+          "projects/centos-cloud/global/licenses/centos-7"
+        ],
+        "deviceName": "instance-1",
+        "autoDelete": false,
+        "source": "projects/sit-22t1-ontrack-deplo-d026375/zones/australia-southeast2-a/disks/instance-1",
+        "index": 0,
+        "boot": true,
+        "kind": "compute#attachedDisk",
+        "mode": "READ_WRITE",
+        "interface": "SCSI",
+        "diskSizeGb": "20"
+      }
+    ],
+    "displayDevice": {
+      "enableDisplay": false
+    },
+    "fingerprint": "NVnXrYGwaaA=",
+    "id": "6857651805108708442",
+    "keyRevocationActionType": "NONE",
+    "kind": "compute#instance",
+    "labelFingerprint": "3gbAg2RhoOE=",
+    "labels": {
+      "environment": "test",
+      "owner": "deployment-gcp",
+      "application": "doubtfire"
+    },
+    "lastStartTimestamp": "2022-05-14T05:04:17.254-07:00",
+    "machineType": "projects/sit-22t1-ontrack-deplo-d026375/zones/australia-southeast2-a/machineTypes/e2-micro",
+    "metadata": {
+      "fingerprint": "DlmizWCmFvU=",
+      "kind": "compute#metadata",
+      "items": [
+        {
+          "value": "",
+          "key": "ssh-keys"
+        }
+      ]
+    },
+    "name": "instance-1",
+    "networkInterfaces": [
+      {
+        "stackType": "IPV4_ONLY",
+        "name": "nic0",
+        "network": "projects/sit-22t1-ontrack-deplo-d026375/global/networks/default",
+        "accessConfigs": [
+          {
+            "name": "External NAT",
+            "type": "ONE_TO_ONE_NAT",
+            "natIP": "34.129.127.168",
+            "kind": "compute#accessConfig",
+            "networkTier": "PREMIUM"
+          }
+        ],
+        "subnetwork": "projects/sit-22t1-ontrack-deplo-d026375/regions/australia-southeast2/subnetworks/default",
+        "networkIP": "10.192.0.2",
+        "fingerprint": "qRw9PfLjjbg=",
+        "kind": "compute#networkInterface"
+      }
+    ],
+    "reservationAffinity": {
+      "consumeReservationType": "ANY_RESERVATION"
+    },
+    "scheduling": {
+      "onHostMaintenance": "MIGRATE",
+      "provisioningModel": "STANDARD",
+      "automaticRestart": true,
+      "preemptible": false
+    },
+    "selfLink": "projects/sit-22t1-ontrack-deplo-d026375/zones/australia-southeast2-a/instances/instance-1",
+    "serviceAccounts": [
+      {
+        "email": "359824274527-compute@developer.gserviceaccount.com",
+        "scopes": [
+          "https://www.googleapis.com/auth/devstorage.read_only",
+          "https://www.googleapis.com/auth/logging.write",
+          "https://www.googleapis.com/auth/monitoring.write",
+          "https://www.googleapis.com/auth/servicecontrol",
+          "https://www.googleapis.com/auth/service.management.readonly",
+          "https://www.googleapis.com/auth/trace.append"
+        ]
+      }
+    ],
+    "shieldedInstanceConfig": {
+      "enableSecureBoot": false,
+      "enableVtpm": true,
+      "enableIntegrityMonitoring": true
+    },
+    "shieldedInstanceIntegrityPolicy": {
+      "updateAutoLearnPolicy": true
+    },
+    "shieldedVmConfig": {
+      "enableSecureBoot": false,
+      "enableVtpm": true,
+      "enableIntegrityMonitoring": true
+    },
+    "shieldedVmIntegrityPolicy": {
+      "updateAutoLearnPolicy": true
+    },
+    "startRestricted": false,
+    "status": "RUNNING",
+    "tags": {
+      "items": [
+        "http-server",
+        "https-server"
+      ],
+      "fingerprint": "6smc4R4d39I="
+    },
+    "zone": "projects/sit-22t1-ontrack-deplo-d026375/zones/australia-southeast2-a"
+  }

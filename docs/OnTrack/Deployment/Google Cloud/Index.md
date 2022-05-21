@@ -28,3 +28,9 @@ Google Cloud team's research and findings -
 
 - [Google Cloud - Doubtfire](https://github.com/thoth-tech/documentation/tree/main/docs/OnTrack/Deployment/Google%20Cloud/assets/GoogleCloud_Doubtfire.jpg)
 - [Google Cloud - CI/CD](https://github.com/thoth-tech/documentation/tree/main/docs/OnTrack/Deployment/Google%20Cloud/assets/GoogleCloud_CICD.jpg)
+- [doubtfire-localhost-compose](https://github.com/thoth-tech/documentation/tree/main/docs/OnTrack/Deployment/Google%20Cloud/assets/doubtfire-localhost-compose.png)
+- [doubtfire-localhost-docker](https://github.com/thoth-tech/documentation/tree/main/docs/OnTrack/Deployment/Google%20Cloud/assets/doubtfire-localhost-docker.png)
+- [doubtfire-localhost](https://github.com/thoth-tech/documentation/tree/main/docs/OnTrack/Deployment/Google%20Cloud/assets/doubtfire-localhost.png)
+- [Instance REST](https://github.com/thoth-tech/documentation/tree/main/docs/OnTrack/Deployment/Google%20Cloud/assets/gcp-instance-rest.json)
+- [gcp-instance-docker](https://github.com/thoth-tech/documentation/tree/main/docs/OnTrack/Deployment/Google%20Cloud/assets/gcp-instance-docker.png "Instance running docker containers")
+- [ontrack-login](https://github.com/thoth-tech/documentation/tree/main/docs/OnTrack/Deployment/Google%20Cloud/assets/ontrack-login.png "OnTrack Login")
