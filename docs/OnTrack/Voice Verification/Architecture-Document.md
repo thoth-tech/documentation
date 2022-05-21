@@ -16,7 +16,7 @@ This Architecture Document provides an architectural overview of Voice Verificat
 
 ## Use-Case View
 ### Architecturally Significant Use Cases
-![Figure 1: Architecturally Significant Use Cases](docs/OnTrack/Voice Verification/Images/Use Cases.png)
+![Figure 1: Architecturally Significant Use Cases](https://github.com/thoth-tech/documentation/blob/89e17ecb3033c6491c9e7d7ee161198b2ee04653/docs/OnTrack/Voice%20Verification/Images/Use%20Cases.png)
 
 
 - Enrol the voiceprint: This use case allows a student to register a voiceprint for later verification 
@@ -26,7 +26,7 @@ This Architecture Document provides an architectural overview of Voice Verificat
 
 ## Logical View
 ### Architecture Overview
-![Figure 2: High Level Architecture](docs/OnTrack/Voice Verification/Images/Architecture Diagram.png)
+![Figure 2: High Level Architecture](https://github.com/thoth-tech/documentation/blob/89e17ecb3033c6491c9e7d7ee161198b2ee04653/docs/OnTrack/Voice%20Verification/Images/Architecture%20Diagram.png)
 
 
 ### Detailed description of the architecture diagram
