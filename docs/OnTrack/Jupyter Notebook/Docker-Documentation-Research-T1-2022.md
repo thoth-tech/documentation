@@ -4,15 +4,15 @@
 
 ## Intro
 
-As we know, the Jupyter Notebook conversion feature will happen via processes that occur inside
+The Jupyter Notebook conversion feature will happen via processes that occur inside
 Docker containers. In this document we will discuss the main architecture of this structure in
 relation to OnTrack.
 
 OnTrack is deployed with two main containers that will always be running:
 
-- the frontend container which hosts the logic behind the user interface of OnTrack (mostly
+- The front-end container which hosts the logic behind the user interface of OnTrack (mostly
   unrelated to this feature)
-- the backend container which hosts the logic related to database interactions and other processes
+- The back-end container which hosts the logic related to database interactions and other processes
 
 To achieve the Jupyter conversion feature, we will be using a new container that contains all of the
 dependencies (Python, TeX, etc.) needed for a .ipynb to PDF conversion, and performing the
@@ -21,8 +21,8 @@ is extendable if required, for example if new Python libraries are required by a
 that we are able to create as many standalone containers as required for different conversion
 processes, such as:
 
-- docx to PDF conversion using Apache POI
-- powerpoint presentation to PDF conversion using Apache POI
+- Docx to PDF conversion using Apache POI
+- Powerpoint presentation to PDF conversion using Apache POI
 
 This will allow us to add a wide range of compatability in the future, regardless of the software
 requirements.
@@ -31,8 +31,8 @@ requirements.
 
 [<img src="docker_flow.png" />](docker_flow.png)
 
-When the OnTrack frontend sends a new file to the OnTrack backend, the backend will be able to
-determine the file type and if it needs to be converted. If the OnTrack backed recieves a .ipynb
+When the OnTrack front-end sends a new file to the OnTrack back-end, the back-end will be able to
+determine the file type and if it needs to be converted. If the OnTrack back-end recieves a .ipynb
 file, it will 'spin up' the Jupyter to PDF conversion container to perform the conversion process.
 
 This is done via a shell command that does several things:
