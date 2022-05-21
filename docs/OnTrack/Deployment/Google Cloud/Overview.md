@@ -19,14 +19,15 @@
 The Google cloud team have deployed a functional instance of Doubtfire (also known as OnTrack)
 hosted on Google Cloud Platform (GCP).
 
-Our GCP project is centrally managed by Deakin IT where the team have been granted access.
+Our GCP project is centrally managed by Deakin IT where the team have been granted access using our
+Deakin Google Workspace accounts.
 
 - GCP Project Name: sit-22t1-ontrack-deplo-d026375
 - GCP Project ID: sit-22t1-ontrack-deplo-d026375
 
 In Google Compute Engine, we have created server instance running Linux (Centos 7.x). The instance
-is a small, initial footprint that is configured to be publicly facing and accessible from the
-internet over HTTPS (port 443).
+is a small, initial footprint that has a publicly facing network and accessible over the internet
+via HTTPS (port 443).
 
 We have used the source code from the Thoth Tech repository for the deployment into GCP, where we
 used **docker compose** to deploy the images for the components required to run Doubtfire (api
