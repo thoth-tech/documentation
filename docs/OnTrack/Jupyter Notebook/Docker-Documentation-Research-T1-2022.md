@@ -4,9 +4,9 @@
 
 ## Intro
 
-The Jupyter Notebook conversion feature will happen via processes that occur inside
-Docker containers. In this document we will discuss the main architecture of this structure in
-relation to OnTrack.
+The Jupyter Notebook conversion feature will happen via processes that occur inside Docker
+containers. In this document we will discuss the main architecture of this structure in relation to
+OnTrack.
 
 OnTrack is deployed with two main containers that will always be running:
 
