@@ -33,7 +33,7 @@ This Architecture Document provides an architectural overview of Voice Verificat
 The diagram shows the communication types between each of the systems of the project. The User interacts with both the frontend website Ontrack and the voice verification system through a Ruby app.  
 
 ### General Flow diagram
-![Figure 3: General Flow Diagram](docs/OnTrack/Voice Verification/Images/Flow Diagram.png)
+![Figure 3: General Flow Diagram]([docs/OnTrack/Voice Verification/Images/Flow Diagram.png](https://github.com/thoth-tech/documentation/blob/doc/Voice-Verification---Architecture-Document/docs/OnTrack/Voice%20Verification/Images/Flow%20Diagram.png))
 
 
 The User has its requests go through the existing OnTrack system, with the OnTrack system sending further requests to the Voice Verification API. The sends the voice files to the docker container. 
