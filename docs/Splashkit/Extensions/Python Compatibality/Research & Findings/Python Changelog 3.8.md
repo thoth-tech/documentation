@@ -32,6 +32,6 @@ print(a, b, c, d, e, f)
 so that it can use a separate filesystem tree rather than the default subdirectories.
 
 **Python documentation** provides a list of
-[changes in Python behaviour](https://docs.python.org/3.8/whatsnew/3.8.html#porting-to-python-3-8)]
-that may require code changes. Additionally, changes to the Python behaviour, API, and C API are included, along with deprecated features,
-though it is unknown at this time which, if any, of these things would affect existing translator functionality.
+[changes in Python behaviour](https://docs.python.org/3.8/whatsnew/3.8.html#porting-to-python-3-8)
+that may require code changes. Additionally, changes to the Python API and C API are included,
+though it is unknown if any of these things would affect existing translator functionality directly.
