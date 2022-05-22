@@ -1,4 +1,5 @@
 # Authentication Evaluation
+
 ## Review of Current and Proposed Authentication Solutions
 
 [Overview](#overview)
@@ -18,15 +19,15 @@
 
 The purpose of this documentation is to formally review the current authentication mechanisms which
 are in place within the OnTrack architecture and compare this to the proposed authentication
-solution in development by the Deployment project team (Enhance Authentication). Within this evaluation, the current
-authentication setup and mechanisms will be described, and then analysed in terms of the risks and
-issues encompassed within such a setup. The new authentication solution which is proposed to be
-developed and implemented will then be described, analysing how this new system aims to advance the
-authentication capabilities of its predecessor and how it will work to mitigate the risks and issues
-of the current system which it will replace. Additionally, the issues and concerns which may develop
-as a result of the implementation of the proposed authentication system will be examined, including
-the regulatory and compliance considerations which must be addressed during the development of the
-new system.
+solution in development by the Deployment project team (Enhance Authentication). Within this
+evaluation, the current authentication setup and mechanisms will be described, and then analysed in
+terms of the risks and issues encompassed within such a setup. The new authentication solution which
+is proposed to be developed and implemented will then be described, analysing how this new system
+aims to advance the authentication capabilities of its predecessor and how it will work to mitigate
+the risks and issues of the current system which it will replace. Additionally, the issues and
+concerns which may develop as a result of the implementation of the proposed authentication system
+will be examined, including the regulatory and compliance considerations which must be addressed
+during the development of the new system.
 
 ## The State of the Current Authentication Mechanisms
 
@@ -34,9 +35,9 @@ new system.
 
 Currently, the OnTrack system relies upon the authentication provided by its client, Deakin
 University. The authentication mechanism utilised by Deakin University is a Single Sign On (SSO)
-system which utilises Multi-Factor Authentication (MFA) technology through _Duo Security_. As part of
-the SSO process, the user is prompted to enter their username and password to log in to the Deakin
-SSO system and, as such, to allow access to OnTrack. Once the username and password have been
+system which utilises Multi-Factor Authentication (MFA) technology through _Duo Security_. As part
+of the SSO process, the user is prompted to enter their username and password to log in to the
+Deakin SSO system and, as such, to allow access to OnTrack. Once the username and password have been
 verified, the MFA system requires the user to confirm that they are the rightful owner of the
 account through responding to a “login request” sent to their allocated personal device. Once this
 test is passed, access is granted to the OnTrack system. In the case where the user is already
@@ -62,16 +63,17 @@ system is for a user to select their avatar icon and, from the displayed drop-do
 “sign out” from there. This is often overlooked, especially as it would be assumed that the logout
 process would be handled by Deakin SSO services. Even when the user does follow the OnTrack process
 to sign out of the account, the user is redirected to a broken link where the page cannot be
-displayed – the token is cleared from the browser. Although this does solve the issue at hand, it is not an ideal user experience
+displayed – the token is cleared from the browser. Although this does solve the issue at hand, it is
+not an ideal user experience
 
 A second risk is that this current method of authentication relies on third-party and outsourced
-authentication technologies. Deakin SSO and MFA is facilitated by Duo Security,
-although these technologies may be highly efficient, secure and reliable, such
-a reliance on third-party software means that the backend workings of this software
-is not able to be accessed and understood by the OnTrack team. Additionally, use of third-party
-software requires additional sharing, transmission, and storage of user information on systems which
-are not able to be managed by the OnTrack team. In the case of a security breach, the OnTrack team
-are also forced to rely upon the providers of these technologies to:
+authentication technologies. Deakin SSO and MFA is facilitated by Duo Security, although these
+technologies may be highly efficient, secure and reliable, such a reliance on third-party software
+means that the backend workings of this software is not able to be accessed and understood by the
+OnTrack team. Additionally, use of third-party software requires additional sharing, transmission,
+and storage of user information on systems which are not able to be managed by the OnTrack team. In
+the case of a security breach, the OnTrack team are also forced to rely upon the providers of these
+technologies to:
 
 - Report that the breach happened
 - Report which details and systems have been compromised
@@ -79,10 +81,10 @@ are also forced to rely upon the providers of these technologies to:
 - Secure the system and continue normal business operations
 
 Having to rely upon other vendors for these processes removes the control and information
-transparency OnTrack has regarding the scale and nature of security breaches. This leaves the company
-“in the dark” about what has occurred and is frustrating, especially when there are capable members
-within the company who would be able to respond to such events, perhaps more efficiently than these
-vendors.
+transparency OnTrack has regarding the scale and nature of security breaches. This leaves the
+company “in the dark” about what has occurred and is frustrating, especially when there are capable
+members within the company who would be able to respond to such events, perhaps more efficiently
+than these vendors.
 
 Hence, from these risks and issues associated with the current OnTrack authentication mechanisms, it
 is clear why new technologies and methods of authentication have been proposed to be developed and
@@ -96,60 +98,31 @@ the risks and errors in the described current setup.
 
 ### The Proposed Authentication Mechanism
 
-The proposed solution to be implemented by the Enhance Authentication team has
-several elements, as follows:
+The proposed solution to be implemented by the Enhance Authentication team has several elements, as
+follows:
 
 - An extension of the current OnTrack API, adding functionality to facilitate user management
-- Password management features, for users and admin manipulation. Users can either send
-a request to the admin to authorise the password or do so themselves. It is important that,
-as part of this feature, the admin is able to manipulate the password (i.e. send the request
-for a password change). The password is never transferred in plaintext at any time during
-this process.
-- A Devise LDAP server option which handles the authentication processes for OnTrack,
-allowing the authentication to be performed fully “in-house” rather than outsourced to other
-authentication mechanisms
+- Password management features, for users and admin manipulation. Users can either send a request to
+  the admin to authorise the password or do so themselves. It is important that, as part of this
+  feature, the admin is able to manipulate the password (i.e. send the request for a password
+  change). The password is never transferred in plaintext at any time during this process.
+- A Devise LDAP server option which handles the authentication processes for OnTrack, allowing the
+  authentication to be performed fully “in-house” rather than outsourced to other authentication
+  mechanisms
 
 ### Advancements of the Previous Authentication Mechanisms and how it Addresses Issues of the Old Method
 
 From the proposed elements to be added to the authentication mechanisms, the following advancements
 and addressing of issues relevant to the current system are achieved:
 
-- Through the addition of a feature which allows for password changes, this allows for users to
-  change passwords themselves to something more secure and/or easier to remember (though it is
-  important that proper password policies, practices and recommendations are followed), rather than
-  being forced to use the same password set for their Deakin account. By changing the password for
-  OnTrack, this follows recommended password procedures which suggests that passwords should not be
-  reused across various accounts.
-- Additionally, this extension of the user password management would allow users to request a
-  password change from the administrator in the event that they have forgotten their password and
-  cannot gain access to their account. This is a useful feature for account management and access,
-  ensuring that users are able to regain access to their account swiftly and easily.
-- The addition of extra functions allowing user management to be achieved will improve upon the
-  current authentication setup through allowing more user qualities to be managed independently by
-  the admins and, for some features, by the users themselves. Overall, this adds additional
-  flexibility and ease of change for certain parameters or information.
-- Regarding the LDAP server utilising Devise, this will allow the OnTrack system to have its own
-  in-house authentication mechanisms with complete control over how it is set up, integrated, and
-  deployed. As the current authentication mechanism relies on third-party “Single Sign On” (SSO)
-  authentication protocols provided by Deakin University, OnTrack is limited to utilising the
-  mechanisms provided by this third-party system. Developing an in-house authentication solution
-  using LDAP and Devise results in the OnTrack architecture being fully independent, and allows for
-  additional sign-in options to be added in future (for example, using a Google Account to sign in).
-- Additionally, the use of the LDAP Devise server option allows for the authentication systems to be
-  fully managed by the OnTrack team, allowing for complete control over the code and features
-  included as part of the authentication processes. This is an improvement as reliance on
-  third-party software or processes in any circumstance increase the difficulty in understanding how
-  the systems operate and what has occurred in the instance of an error or breach. Having an
-  independent authentication solution streamlines the control and medication of the services
-  provided by it, allowing for access and control to be granted solely to the OnTrack team on the
-  backend of the project. In this way, the LDAP and Devise features used can be customised to suit
-  the specific (and changing) needs of the OnTrack system, using only features that are necessary
-  and relevant to the OnTrack system and user authentication needs, rather than accepting all
-  services provided by third-party authentication mechanisms
-- As stated, the OnTrack team will be granted full control over the authentication systems and
-  elements of the OnTrack software. This will solve the issue of the redirection to the broken
-  Deakin SSO link as explored in previous sections, as the team will be able to control the flow
-  towards other pages after the successful signing out of a user.
+| Element                                  | Advancement                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      |
+| ---------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| User Password Management                 | Allows for users to change passwords themselves to something more secure and/or easier to remember (though it is important that proper password policies, practices and recommendations are followed), rather than being forced to use the same password set for their Deakin account. By changing the password for OnTrack, this follows recommended password procedures which suggests that passwords should not be reused across various accounts                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
+| User Password Management                 | Allows users to request a password change from the administrator in the event that they have forgotten their password and cannot gain access to their account. This is a useful feature for account management and access, ensuring that users are able to regain access to their account swiftly and easily                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     |
+| Additional API User Management Functions | Improves upon the current authentication setup through allowing more user qualities to be managed independently by the admins and, for some features, by the users themselves. Overall, this adds additional flexibility and ease of change for certain parameters or information                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                |
+| LDAP Devise Server                       | Allows the OnTrack system to have its own in-house authentication mechanisms with complete control over how it is set up, integrated, and deployed. As the current authentication mechanism relies on third-party “Single Sign On” (SSO) authentication protocols provided by Deakin University, OnTrack is limited to utilising the mechanisms provided by this third-party system. Developing an in-house authentication solution using LDAP and Devise results in the OnTrack architecture being fully independent, and allows for additional sign-in options to be added in future (for example, using a Google Account to sign in)                                                                                                                                                                                                                                                                                                                                          |
+| LDAP Devise Server                       | Allows for the authentication systems to be fully managed by the OnTrack team, allowing for complete control over the code and features included as part of the authentication processes. This is an improvement as reliance on third-party software or processes in any circumstance increase the difficulty in understanding how the systems operate and what has occurred in the instance of an error or breach. Having an independent authentication solution streamlines the control and medication of the services provided by it, allowing for access and control to be granted solely to the OnTrack team on the backend of the project. In this way, the LDAP and Devise features used can be customised to suit the specific (and changing) needs of the OnTrack system, using only features that are necessary and relevant to the OnTrack system and user authentication needs, rather than accepting all services provided by third-party authentication mechanisms |
+| LDAP Devise Server                       | As stated, the OnTrack team will be granted full control over the authentication systems and elements of the OnTrack software. This will solve the issue of the redirection to the broken Deakin SSO link as explored in previous sections, as the team will be able to control the flow towards other pages after the successful signing out of a user                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          |
 
 ### Potential Issues and Concerns that must be Considered
 
