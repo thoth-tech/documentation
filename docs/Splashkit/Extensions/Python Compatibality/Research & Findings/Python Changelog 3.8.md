@@ -29,7 +29,7 @@ positional or keyword, and _e_ and _f_ being keyword-only.
 
 ```python
 def (a, b, /, c, d, *, e, f):
-print(a, b, c, d, e, f)
+  print(a, b, c, d, e, f)
 ```
 
 **Parallel filesystem cache** introduced new setting used to configure the implicit bytecode cache
