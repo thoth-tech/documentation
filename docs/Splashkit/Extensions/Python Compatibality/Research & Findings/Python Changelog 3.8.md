@@ -17,16 +17,20 @@ the failure in compatibility.
 **Assignment expression** introduces new syntax, used by :=, to assign values to variables as part
 of a larger expression.
 
-if (n := len(a)) \&gt; 10: print(f&quot;List is too long ({n} elements, expected \&lt;= 10)&quot;)
+```Python
+if (n := len(a)) > 10: 
+print(f"List is too long ({n} elements, expected <= 10)")
+```
 
 **Positional-only parameters** introduces new notation requirements, using /, to indicate that some
 function parameters require positional specificity and cannot be used as arguments. The following
 code uses the example that parameters _a_ and _b_ are positional-only, with _c_ and _d_ being
 positional or keyword, and _e_ and _f_ being keyword-only.
 
+```Python
 def (a, b, /, c, d, \*, e, f):
-
 print(a, b, c, d, e, f)
+```
 
 **Parallel filesystem cache** introduced new setting used to configure the implicit bytecode cache
 so that it can use a separate filesystem tree rather than the default subdirectories.
