@@ -103,7 +103,7 @@ There were a few packages that needed to be installed on the host, such as -
 - openssl
 - nano (optional)
 
-Once installed using _yum_, we had the minimum requirements to get started on the Doubtfire
+Once installed using `yum`, we had the minimum requirements to get started on the Doubtfire
 deployment.
 
 ### Deploying OnTrack
