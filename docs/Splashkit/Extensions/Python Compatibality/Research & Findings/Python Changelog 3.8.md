@@ -17,7 +17,7 @@ the failure in compatibility.
 **Assignment expression** introduces new syntax, used by :=, to assign values to variables as part
 of a larger expression.
 
-```Python
+```python
 if (n := len(a)) > 10: 
 print(f"List is too long ({n} elements, expected <= 10)")
 ```
@@ -27,7 +27,7 @@ function parameters require positional specificity and cannot be used as argumen
 code uses the example that parameters _a_ and _b_ are positional-only, with _c_ and _d_ being
 positional or keyword, and _e_ and _f_ being keyword-only.
 
-```Python
+```python
 def (a, b, /, c, d, *, e, f):
 print(a, b, c, d, e, f)
 ```
