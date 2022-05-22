@@ -17,7 +17,7 @@
 ## Overview
 
 The Google Cloud team's main deliverable for the project is to deploy a student-run version of
-OnTrack hosted on Google Cloud Platform (GCP) for the purpose of Thoth Tech having their own
+OnTrack which is hosted on Google Cloud Platform (GCP). The goal is for Thoth Tech to have their own
 deployment to develop OnTrack that is separate to Deakin's deployment.
 
 ![Google Cloud - Doubtfire](https://github.com/thoth-tech/documentation/tree/main/docs/OnTrack/Deployment/Google%20Cloud/assets/GoogleCloud_Doubtfire.jpg "Google Cloud - Doubtfire")
@@ -52,15 +52,15 @@ workstations, we cloned the
 [Doubtfire-deploy-GCP repository](https://github.com/thoth-tech/doubtfire-deploy-GCP) and modified
 the necessary files. We then used docker compose and Docker to run and deploy containers.
 
-![doubtfire-localhost-compose](https://github.com/thoth-tech/documentation/tree/main/docs/OnTrack/Deployment/Google%20Cloud/assets/doubtfire-localhost-compose.png "docker compose output")
+![doubtfire-localhost-compose](assets/doubtfire-localhost-compose.png "docker compose output")
 
-Success! we have Docker containers running locally.
+Success! We have Docker containers running locally.
 
-![doubtfire-localhost-docker](https://github.com/thoth-tech/documentation/tree/main/docs/OnTrack/Deployment/Google%20Cloud/assets/doubtfire-localhost-docker.png "Docker containers running")
+![doubtfire-localhost-docker](assets/doubtfire-localhost-docker.png "Docker containers running")
 
 Success again! We have OnTrack being hosted locally and is accessible via https://localhost:443 .
 
-![doubtfire-localhost](https://github.com/thoth-tech/documentation/tree/main/docs/OnTrack/Deployment/Google%20Cloud/assets/doubtfire-localhost.png "Doubtfire running on localhost")
+![doubtfire-localhost](assets/doubtfire-localhost.png "Doubtfire running on localhost")
 
 ### Google Compute Engine instance
 
@@ -69,7 +69,7 @@ needed to determine how to create and deploy a Compute Engine server instance in
 use to deploy Doubtfire.
 
 We started with a small, initial footprint and deployed a basic virtual machine (VM) instance with
-following details -
+following details;
 
 - Name: instance-1
 - Zone: australia-southeast2-a
@@ -85,11 +85,11 @@ Once we had the instance up and running, we connected to the instance using comm
 SSH. In the Google Cloud console, you can view the options to connect by clicking the drop-down menu
 beside _Connect SSH_ on the instance view.
 
-![gcp-instance-connect](https://github.com/thoth-tech/documentation/tree/main/docs/OnTrack/Deployment/Google%20Cloud/assets/gcp-instance-connect.png "Instance connection options")
+![gcp-instance-connect](assets/gcp-instance-connect.png "Instance connection options")
 
 Alternatively, you can SSH to the instance via gcloud CLI -
 
-```
+```shell
 gcloud compute ssh --zone "australia-southeast2-a" "instance-1"  --project "sit-22t1-ontrack-deplo-d026375"
 ```
 
@@ -111,11 +111,11 @@ deployment.
 From here, we pulled down the doubtfire-deploy repository, generated a new certificate and private
 key for the host, and ran docker compose to deploy the containers for the OnTrack deployment.
 
-![gcp-instance-docker](https://github.com/thoth-tech/documentation/tree/main/docs/OnTrack/Deployment/Google%20Cloud/assets/gcp-instance-docker.png "Instance running docker containers")
+![gcp-instance-docker](assets/gcp-instance-docker.png "Instance running docker containers")
 
 And we can browse to OnTrack over the internet using our public IP address via HTTPS (port 443).
 
-![ontrack-login](https://github.com/thoth-tech/documentation/tree/main/docs/OnTrack/Deployment/Google%20Cloud/assets/ontrack-login.png "OnTrack Login")
+![ontrack-login](assets/ontrack-login.png "OnTrack Login")
 
 ## Next stages
 
@@ -130,7 +130,7 @@ stages would be to focus on the Deployment team project objectives, such as -
 
 Here's a high-level diagram of using CI/CD pipeline to automate the deployment of OnTrack onto GCP -
 
-![Google Cloud - CI/CD](https://github.com/thoth-tech/documentation/tree/main/docs/OnTrack/Deployment/Google%20Cloud/assets/GoogleCloud_CICD.jpg "Google Cloud - CICD")
+![Google Cloud - CI/CD](assets/GoogleCloud_CICD.jpg "Google Cloud - CICD")
 
 ## Links
 
