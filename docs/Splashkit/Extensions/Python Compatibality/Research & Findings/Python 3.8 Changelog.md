@@ -19,7 +19,7 @@ of a larger expression.
 
 ```python
 if (n := len(a)) > 10: 
-  print(f"List is too long ({n} elements, expected <= 10)")
+  print(f'List is too long ({n} elements, expected <= 10)')
 ```
 
 **Positional-only parameters** introduces new notation requirements, using /, to indicate that some
