@@ -1,7 +1,4 @@
 # Semester 1 2022 Data Analytics Update
-
-
-
 ## State Of Code Received
 
 There were a few roadblocks that halted progress through the data analytics module.
@@ -10,7 +7,6 @@ Despite bug fixes
 ## Changes Made To Code
 
 The T3 2021 code required a full refactor.
-U
 
 ## Issues To Be Resolved
 
