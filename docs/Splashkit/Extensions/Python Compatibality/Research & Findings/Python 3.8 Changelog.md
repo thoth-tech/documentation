@@ -28,7 +28,7 @@ code uses the example that parameters _a_ and _b_ are positional-only, with _c_ 
 positional or keyword, and _e_ and _f_ being keyword-only.
 
 ```python
-def (a, b, /, c, d, *, e, f):
+def f(a, b, /, c, d, *, e, f):
   print(a, b, c, d, e, f)
 ```
 
