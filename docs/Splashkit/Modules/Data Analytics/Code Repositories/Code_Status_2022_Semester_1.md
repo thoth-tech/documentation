@@ -17,6 +17,10 @@ The T3 2021 code required a full refactor.
   - If no, remove altogether, along with tests
 - Clean up Dataframes code line by line
   - Superfluous code present, needs to be simplified
+    - Issues identified include:
+      - Reliance on Windows exclusive console functions, display function is littered with them. STD_OUTPUT_HANDLE, GetConsoleScreenBufferInfo, hConsole, etc are all exclusive to windows, need to make multi-platform. Would recommend trying to get it running on a Windows device first just to make sure it does work before removing windows stuff. (It seems to be using the windows exclusive functions to check the console window width before printing so it can format the dataframe correctly. This feature is a nice-to-have, but Mac and Linux support are MUST HAVES)
+      - Variable arrays, array size must be known at compile time in C++. This only seems to be an issue for a couple of the insert functions in the dataframe code, so I'd recommend commenting them out for now and trying to get it working without them.
+      - Needs more comments and general simplification.
   - Research Pandas Dataframes and review our current setup
   - Add basic functions required for simple implementation
 - Create new display function
