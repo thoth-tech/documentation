@@ -20,7 +20,7 @@ The Google Cloud team's main deliverable for the project is to deploy a student-
 OnTrack which is hosted on Google Cloud Platform (GCP). The goal is for Thoth Tech to have their own
 deployment to develop OnTrack that is separate to Deakin's deployment.
 
-![Google Cloud - Doubtfire](https://github.com/thoth-tech/documentation/tree/main/docs/OnTrack/Deployment/Google%20Cloud/assets/GoogleCloud_Doubtfire.jpg "Google Cloud - Doubtfire")
+![Google Cloud - Doubtfire](assets/GoogleCloud_Doubtfire.jpg "Google Cloud - Doubtfire")
 
 The Google cloud team have deployed a functional instance of Doubtfire (also known as OnTrack)
 hosted on GCP.
@@ -140,13 +140,3 @@ Here's a high-level diagram of using CI/CD pipeline to automate the deployment o
 - [Miro for Google Cloud - Doubtfire](https://miro.com/app/board/uXjVO0h8ZSE=/?share_link_id=62396987373)
 - [Miro for Google Cloud - CI/CD](https://miro.com/app/board/uXjVO64xoQw=/?share_link_id=57734801709)
 - [Pull Request - OnTrack deployment on GCP](https://github.com/thoth-tech/doubtfire-deploy-GCP/pull/5)
-
-## Assets
-
-- [Google Cloud - Doubtfire](https://github.com/thoth-tech/documentation/tree/main/docs/OnTrack/Deployment/Google%20Cloud/assets/GoogleCloud_Doubtfire.jpg)
-- [Google Cloud - CI/CD](https://github.com/thoth-tech/documentation/tree/main/docs/OnTrack/Deployment/Google%20Cloud/assets/GoogleCloud_CICD.jpg)
-- [doubtfire-localhost-compose](https://github.com/thoth-tech/documentation/tree/main/docs/OnTrack/Deployment/Google%20Cloud/assets/doubtfire-localhost-compose.png)
-- [doubtfire-localhost-docker](https://github.com/thoth-tech/documentation/tree/main/docs/OnTrack/Deployment/Google%20Cloud/assets/doubtfire-localhost-docker.png)
-- [doubtfire-localhost](https://github.com/thoth-tech/documentation/tree/main/docs/OnTrack/Deployment/Google%20Cloud/assets/doubtfire-localhost.png)
-- [gcp-instance-docker](https://github.com/thoth-tech/documentation/tree/main/docs/OnTrack/Deployment/Google%20Cloud/assets/gcp-instance-docker.png "Instance running docker containers")
-- [ontrack-login](https://github.com/thoth-tech/documentation/tree/main/docs/OnTrack/Deployment/Google%20Cloud/assets/ontrack-login.png "OnTrack Login")
