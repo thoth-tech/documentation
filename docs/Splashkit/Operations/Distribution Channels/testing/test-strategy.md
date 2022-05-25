@@ -12,7 +12,7 @@ dictated by both technology availability as well as licensing issues.
 
 [macOS cannot be legally run in a virtualised environment](https://discussions.apple.com/thread/6135949#:~:text=It%20is%20only%20legal%20to,to%20VMware%20Fusion%20and%20Parallels.)
 unless the host system is also running on Apple hardware, making installation tests through
-virtualisation impracticle.
+virtualisation impractical.
 
 Whilst [unofficial docker images](https://github.com/sickcodes/Docker-OSX) for macOS exist, they are
 not formally supported by Apple, making containerised testing also unviable.
