@@ -15,7 +15,7 @@ unless the host system is also running on Apple hardware, making installation te
 virtualisation impracticle.
 
 Whilst [unofficial docker images](https://github.com/sickcodes/Docker-OSX) for macOS exist, they are
-not formally supported by Apple, making containersed testing also unviable.
+not formally supported by Apple, making containerised testing also unviable.
 
 As the
 [installation script](https://github.com/thoth-tech/skm/blob/master/install-scripts/mac/skm-install-mac.sh)
