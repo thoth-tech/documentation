@@ -1,145 +1,133 @@
-# Jupyter Notebook/Word Document Docker Containers Software Requirement Specification (SRS) Document 
+# Jupyter Notebook/Word Document Docker Containers Software Requirement Specification (SRS) Document
 
 ---
-## 1. Introduction 
---- 
-### 1.1 Purpose 
 
-- Currently, when using the OnTrack system, the user would need to convert a Jupyter Notebook file, or a Word document file to PDF before uploading to OnTrack. The purpose of the Docker containers is to allow the conversion of both Jupyter Notebook and Word document file types to a PDF file type, in the process of submitting them to OnTrack. The user will submit either a Jupyter Notebook file or a Word Document file, and depending on which file type is submitted, one container will provide the conversion function for the Jupyter Notebook, and the other container will provide the conversion function for the Word document. Both containers will output a PDF file. 
-
-### 1.2 Intended Audience 
-
-- The intended audience of this software is all users of the OnTrack system (students and teachers). This software will allow all users to submit Jupyter Notebook and Word Document files to OnTrack directly, instead of having to first manually convert the file to PDF and then submit that to OnTrack. The software will also allow users to view there converted file for review or marking. 
-
-### 1.3 Intended Use 
-
-- The intended use of the containers is to provide the functionality for the mentioned conversions. The user will submit either a Jupyter Notebook or a Word document file to OnTrack, and each container will be used, depending on the file type, to make the necessary conversion of the submitted file to PDF format. 
-
-### 1.4 Scope 
-
-- The scope of this work will be to create Docker containers which can provide the function of converting Jupyter Notebook or Word Document files to PDF format in the process of submission. 
-
-### 1.5 Definitions and Acronyms 
-
-- OnTrack – an online learning management system that provides taskwork to users and allows them to submit work for feedback and assessment purposes. 
-
-- DOCX/DOC - a DOCX/DOC file is a document created by Microsoft Word, a word processor. DOCX/DOC files typically contain text. 
-
-- IPYNB – an IPYNB (IPython notebook) file is a document created by Jupyter Notebook, an interactive computational environment. IPYNB files can contain code input and output, formatted text, mathematical functions, and images. 
-
-- PDF – a PDF (portable document format) file is a multi-platform document commonly used for saving documents to be viewed on multiple platforms. 
-
-- Docker Container Image – a Docker Container Image is a lightweight, standalone, executable package of software that includes everything needed to run an application: code, runtime, system tools, system libraries and settings. 
+## 1. Introduction
 
 ---
-## 2. Overall Description 
+
+### 1.1 Purpose
+
+- Currently, when using the OnTrack system, the user would need to convert a Jupyter Notebook file,
+  or a Word document file to PDF before uploading to OnTrack. The purpose of the Docker containers
+  is to allow the conversion of both Jupyter Notebook and Word document file types to a PDF file
+  type, in the process of submitting them to OnTrack. The user will submit either a Jupyter Notebook
+  file or a Word Document file, and depending on which file type is submitted, one container will
+  provide the conversion function for the Jupyter Notebook, and the other container will provide the
+  conversion function for the Word document. Both containers will output a PDF file.
+
+### 1.2 Intended Audience
+
+- The intended audience of this software is all users of the OnTrack system (students and teachers).
+  This software will allow all users to submit Jupyter Notebook and Word Document files to OnTrack
+  directly, instead of having to first manually convert the file to PDF and then submit that to
+  OnTrack. The software will also allow users to view there converted file for review or marking.
+
+### 1.3 Intended Use
+
+- The intended use of the containers is to provide the functionality for the mentioned conversions.
+  The user will submit either a Jupyter Notebook or a Word document file to OnTrack, and each
+  container will be used, depending on the file type, to make the necessary conversion of the
+  submitted file to PDF format.
+
+### 1.4 Scope
+
+- The scope of this work will be to create Docker containers which can provide the function of
+  converting Jupyter Notebook or Word Document files to PDF format in the process of submission.
+
+### 1.5 Definitions and Acronyms
+
+- OnTrack – an online learning management system that provides taskwork to users and allows them to
+  submit work for feedback and assessment purposes.
+
+- DOCX/DOC - a DOCX/DOC file is a document created by Microsoft Word, a word processor. DOCX/DOC
+  files typically contain text.
+
+- IPYNB – an IPYNB (IPython notebook) file is a document created by Jupyter Notebook, an interactive
+  computational environment. IPYNB files can contain code input and output, formatted text,
+  mathematical functions, and images.
+
+- PDF – a PDF (portable document format) file is a multi-platform document commonly used for saving
+  documents to be viewed on multiple platforms.
+
+- Docker Container Image – a Docker Container Image is a lightweight, standalone, executable package
+  of software that includes everything needed to run an application: code, runtime, system tools,
+  system libraries and settings.
+
 ---
-### 2.1 User Needs 
 
-- Users will need to be able to directly submit Jupyter Notebook and Word document files to OnTrack. Both of these functionalities will be provided by the proposed containers. 
+## 2. Overall Description
 
-### 2.2 Assumptions and Dependencies 
-
-- It is assumed that: 
-
-    - The user submits a valid Jupyter Notebook/Word Document file to the OnTrack system. 
-
-    - The user has a valid internet connection 
-
-    - The user is aware of how to submit files to OnTrack 
-
-- The following dependencies are relied upon: 
-
-    - The code of the OnTrack system 
-
-    - Interface 
-
- 
 ---
-## 3. System Features and Requirements 
+
+### 2.1 User Needs
+
+- Users will need to be able to directly submit Jupyter Notebook and Word document files to OnTrack.
+  Both of these functionalities will be provided by the proposed containers.
+
+### 2.2 Assumptions and Dependencies
+
+- It is assumed that:
+
+  - The user submits a valid Jupyter Notebook/Word Document file to the OnTrack system.
+
+  - The user has a valid internet connection
+
+  - The user is aware of how to submit files to OnTrack
+
+- The following dependencies are relied upon:
+
+  - The code of the OnTrack system
+
+  - Interface
+
 ---
-### 3.1 Functional Requirements 
 
-- Functional Requirements include 
+## 3. System Features and Requirements
 
-    - The successful conversion of Jupyter Notebook files to PDF format 
+---
 
-    - The successful conversion of Word document files to PDF format 
+### 3.1 Functional Requirements
 
-    - Redownloading submitted Jupyter Notebook files as a PDF  
+- Functional Requirements include
 
-    - Redownloading submitted Word document files as a PDF 
+  - The successful conversion of Jupyter Notebook files to PDF format
 
-    - Viewing converted Jupyter Notebook file in Ontrack as a PDF 
+  - The successful conversion of Word document files to PDF format
 
-    - Viewing converted Word document file in Ontrack as a PDF 
+  - Redownloading submitted Jupyter Notebook files as a PDF
 
-### 3.2 External Interface Requirements 
+  - Redownloading submitted Word document files as a PDF
 
-- nbconvert library 
+  - Viewing converted Jupyter Notebook file in Ontrack as a PDF
 
-- Apache library 
+  - Viewing converted Word document file in Ontrack as a PDF
 
-- Existing Ontrack libraries 
+### 3.2 External Interface Requirements
 
-### 3.3 System Features 
+- nbconvert library
 
-- System features include: 
+- Apache library
 
-    - The ability to submit Jupyter Notebook files to OnTrack directly 
+- Existing Ontrack libraries
 
-    - The ability to submit Word document files to OnTrack directly 
+### 3.3 System Features
 
-    - The ability to download/export converted files from OnTrack 
+- System features include:
 
-### 3.4 Nonfunctional Requirements 
+  - The ability to submit Jupyter Notebook files to OnTrack directly
 
-- Reliability – The ability of the system to consistently perform its required functions under stated conditions.  
+  - The ability to submit Word document files to OnTrack directly
 
-- Scalability – ability of software to be scaled to encompass project scope in its entirety 
+  - The ability to download/export converted files from OnTrack
 
-- Maintainability – ability of software to be maintained, ensuring consistent and upmost performance 
+### 3.4 Nonfunctional Requirements
 
-- Usability – User standards 
+- Reliability – The ability of the system to consistently perform its required functions under
+  stated conditions.
 
- 
+- Scalability – ability of software to be scaled to encompass project scope in its entirety
 
- 
+- Maintainability – ability of software to be maintained, ensuring consistent and upmost performance
 
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
+- Usability – User standards
