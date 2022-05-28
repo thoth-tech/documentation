@@ -4,9 +4,8 @@
 
 ## Intro
 
-The Jupyter Notebook conversion feature will occur via processes inside Docker
-containers. In this document we will discuss the main architecture of this structure in relation to
-OnTrack.
+The Jupyter Notebook conversion feature will occur via processes inside Docker containers. In this
+document we will discuss the main architecture of this structure in relation to OnTrack.
 
 OnTrack is deployed through two main containers, they are:
 
@@ -58,6 +57,7 @@ For a container to function in this architecture, there are some requirements th
 - The container will always output the converted file to the **same** directory (mounted as a volume
   when the container is run) and call it "output.pdf".
 
-These requirements allow the containers to remain isolated while the file conversion logic is handled seperately by the OnTrack backend. This is necessary
-to follow the Single-responsibility Principle: the container itself is responsible for only one
-task - that is, performing the conversion process.
+These requirements allow the containers to remain isolated while the file conversion logic is
+handled seperately by the OnTrack backend. This is necessary to follow the Single-responsibility
+Principle: the container itself is responsible for only one task - that is, performing the
+conversion process.
