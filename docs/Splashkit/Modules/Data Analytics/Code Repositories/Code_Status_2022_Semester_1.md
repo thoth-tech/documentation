@@ -6,7 +6,7 @@ Despite bug fixes
 
 ## Changes Made To Code
 
-The T3 2021 code required a full refactor.
+The T3 2021 code required a full rewrite.
 Data validation functions have been fully rewritten.  
 
 Dataframes code is not currently included in [T1 2022 repository](https://github.com/lawrence0arabia/splashkit-core/tree/develop/coresdk/src/coresdk/data_analytics.cpp) as it does not compile or run. You can find the dataframes code in the [T3 2021 repository](https://bitbucket-students.deakin.edu.au/users/zbargiamidis/repos/splashkit2021t3/browse), data_analytics.cpp from line 369 on.
