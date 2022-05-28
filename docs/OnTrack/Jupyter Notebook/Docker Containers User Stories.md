@@ -48,7 +48,7 @@
 - As an Admin/Developer, I want the new features to be added seamlessly to the existing OnTrack code
   and produce no errors or runtime issues.
 
-- As an Admin/Developer, I want the containers to run smoothly and produce the intended output every
+- As an Admin/Developer, I want the feature to produce the intended output every
   time, without error, so that students can use the software as intended.
 
 - As an Admin/Developer, I want the code of the containers to be easy to understand so that I know
