@@ -7,17 +7,16 @@ library
 
 Table of contents
 
-- [Guide to Contribute a Game to the Arcade Machine](#guide-to-contribute-a-game-to-the-arcade-machine)
-  - [Coding](#coding)
-    - [Quit Request](#quit-request)
-    - [Window Size](#window-size)
-    - [Window Border](#window-border)
-  - [Controls](#controls)
-  - [Compiling](#compiling)
-  - [Artwork](#artwork)
-  - [Configuration](#configuration)
-  - [Content](#content)
-  - [Contributing](#contributing)
+- [Coding](#coding)
+  - [Quit Request](#quit-request)
+  - [Window Size](#window-size)
+  - [Window Border](#window-border)
+- [Controls](#controls)
+- [Compiling](#compiling)
+- [Artwork](#artwork)
+- [Configuration](#configuration)
+- [Content](#content)
+- [Contributing](#contributing)
 
 ---
 
@@ -119,20 +118,19 @@ You will now have the arcade-games repository in your personal Git.
 
 On your local, navigate to a desired file path and clone this repository using the bash command:
 
-```git
+```shell
 git clone https://github.com/<your-git-username>/arcade-games.git
 ```
 
 Add your game to the directory and stage a commit to the remote repo:
 
-```git
+```shell
 git add .
 ```
 
 In your commit message, include your name and the name of the game:
 
-```git
-
+```shell
 git commit -m ”Anthony George - Venture Adventure”
 git push
 ```
