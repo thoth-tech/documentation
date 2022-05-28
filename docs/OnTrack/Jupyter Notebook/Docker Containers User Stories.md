@@ -45,7 +45,7 @@
 
 ---
 
-- As an Admin/Developer, I want the new features to be added seamlessly to the existing OnTrack code
+- As an Admin/Developer, I want the new features to run independantly from the existing OnTrack code
   and produce no errors or runtime issues.
 
 - As an Admin/Developer, I want the feature to produce the intended output every
