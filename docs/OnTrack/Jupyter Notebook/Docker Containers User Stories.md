@@ -45,17 +45,14 @@
 
 ---
 
-- As an Admin/Developer, I want the new features to be added seamlessly to the existing OnTrack code
+- As an Admin/Developer, I want the new features to run independently from the existing OnTrack code
   and produce no errors or runtime issues.
 
-- As an Admin/Developer, I want the containers to run smoothly and produce the intended output every
+- As an Admin/Developer, I want the feature to produce the intended output every
   time, without error, so that students can use the software as intended.
 
-- As an Admin/Developer, I want the code of the containers to be easy to understand so that I know
-  what they do, how they do it, and can edit the code if need be.
+- As an Admin/Developer, I want the code and function of the feature to be well documented and 
+  easy to understand so that I know what they do, how they do it, and can edit the code if need be.
 
 - As an Admin/Developer, I want the code to be secure so that it will not provide any security
   issues for the system.
-
-- As an Admin/Developer, I want the code to be encapsulated, so that it is easy to extract and place
-  in another area of the code if need be.
