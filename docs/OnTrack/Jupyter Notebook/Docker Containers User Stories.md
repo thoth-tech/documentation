@@ -51,7 +51,7 @@
 - As an Admin/Developer, I want the feature to produce the intended output every
   time, without error, so that students can use the software as intended.
 
-- As an Admin/Developer, I want the code and function of the the feature to be well documented and easy to understand so that I know what they do, how they do it, and can edit the code if need be.
+- As an Admin/Developer, I want the code and function of the feature to be well documented and easy to understand so that I know what they do, how they do it, and can edit the code if need be.
 
 - As an Admin/Developer, I want the code to be secure so that it will not provide any security
   issues for the system.
