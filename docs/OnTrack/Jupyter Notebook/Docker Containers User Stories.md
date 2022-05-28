@@ -55,6 +55,3 @@
 
 - As an Admin/Developer, I want the code to be secure so that it will not provide any security
   issues for the system.
-
-- As an Admin/Developer, I want the code to be encapsulated, so that it is easy to extract and place
-  in another area of the code if need be.
