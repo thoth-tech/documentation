@@ -49,7 +49,7 @@ failure.**
 
 ## Conversion Container Requirements
 
-For a container to work in this architecture, there are some requirements that have to be met:
+For a container to function in this architecture, there are some requirements that have to be met:
 
 - The container will run the conversion as its `ENTRYPOINT` command _without any user input
   required_.
