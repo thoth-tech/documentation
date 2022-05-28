@@ -1,11 +1,7 @@
 # Guide to Contribute a Game to the Arcade Machine
 
 This guide takes you through the steps required for your game to be added into the arcade-machine
-library
-
----
-
-Table of contents
+library.
 
 - [Coding](#coding)
   - [Quit Request](#quit-request)
@@ -18,16 +14,14 @@ Table of contents
 - [Content](#content)
 - [Contributing](#contributing)
 
----
-
 ## Coding
 
 To make the game accessible and controllable by the arcade machine, some additional code or changes
-are required
+are required.
 
 ### Quit Request
 
-Your game must be able to be exited using the escape key This can be achieved by including the
+Your game must be able to be exited using the escape key. This can be achieved by including the
 following command in your main loop.
 
 ```cpp
@@ -66,33 +60,38 @@ int main()
 
 ## Controls
 
+(TBA - Missing content)
+
 ## Compiling
 
-Only Windows compiled games are supported atm... (Brief windows compilation explanation required
-here)
+Only Windows compiled games are supported at the moment.
+
+(TBA - Brief windows compilation explanation)
 
 ## Artwork
 
-A preview of your game will be shown in the Arcade Machine games menu. Please include an image of
-your game.  
-This image must be sized as 600px x 540px so it will be displayed correctly in the games menu.  
-The supported formats are png, jpg and bmp.
+A preview of your game will be shown in the Arcade Machine games menu.
 
-If you don’t have access to image editing software such as Adobe Illustrator/Photoshop etc, we
-suggest you use a browser-based tool such as [resizeimage](https://resizeimage.net/) to resize, crop
-or format a screenshot of your game.
+(TBA - Please include an image of your game)
+
+This image must be sized as 600px x 540px so it will be displayed correctly in the games menu. The
+supported formats are `png`, `jpg` and `bmp`.
+
+If you don’t have access to image editing software such as Adobe Illustrator/Photoshop, we suggest
+you use a browser-based tool such as [resizeimage](https://resizeimage.net/) to resize, crop or
+format a screenshot of your game.
 
 ## Configuration
 
-Each game must have a config file containing information about the game.  
-There is a `config.txt` file located in the base directory of the repository, copy this file into
-the base directory of your game file and fill it with your game information. It must match the
-example config file shown below, but with your game information.
+Each game must have a configuration file containing information about the game. There is a
+`config.txt` file located in the base directory of the repository, copy this file into the base
+directory of your game file and fill it with your game information. It must match the example
+configuration file shown below, but with your game information.
 
 ![image](images/config-data.png)
 
-The configuration file **must** be in text (`.txt`) format, and it must be named `config.txt`.  
-This must be located in your games root directory, alongside your `program.cpp` (example below)
+The configuration file **must** be in text (`.txt`) format, and it must be named `config.txt`. This
+must be located in your games root directory, alongside your `program.cpp` (example below).
 
 ![image](images/dir-breakdown.png)
 
@@ -107,8 +106,8 @@ Congratulations!
 You have now completed all the steps required to have your game showcased on the Arcade Machine.
 
 To contribute your game, go to the
-[Thoth Tech arcade-games repository](https://github.com/thoth-tech/arcade-games)  
-Click the ‘_Fork_’ button at the top right of the screen and create a fork of this repository.
+[Thoth Tech arcade-games repository](https://github.com/thoth-tech/arcade-games). Click the **Fork**
+button at the top right of the screen and create a fork of this repository.
 
 ![image](images/fork-repo.png)
 
@@ -122,7 +121,7 @@ On your local, navigate to a desired file path and clone this repository using t
 git clone https://github.com/<your-git-username>/arcade-games.git
 ```
 
-Add your game to the directory and stage a commit to the remote repo:
+Add your game to the directory and stage a commit to the remote repository:
 
 ```shell
 git add .
@@ -141,17 +140,16 @@ You will now see your game in the remote fork.
 
 Now create a Pull request to have your game added to the arcade-machine.
 
-Click the ‘_Pull requests_’ tab, then click ‘_New pull request_’ button, then click '_Create pull
-request_'
+Click the **Pull requests** tab, then click **New pull request** button, then click **Create pull
+request**
 
 ![image](images/pull-request.png)
 
-Write a message for the Arcade Machine and hit '_Create pull request_'
+Write a message for the Arcade Machine and hit **Create pull request**
 
 ![image](images/pull-request-2.png)
 
 You will see that merging is blocked until a member of the Arcade-Machine team has reviewed your
-game.  
- We will be sure to get in contact with you once it has been approved!
+game. We will be sure to get in contact with you once it has been approved!
 
 ![image](images/review.png)
