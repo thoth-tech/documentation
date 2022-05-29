@@ -8,13 +8,9 @@
 
 ### 1.1 Purpose
 
-- Currently, when using the OnTrack system, the user would need to convert a Jupyter Notebook file,
-  or a Word document file to PDF before uploading to OnTrack. The purpose of the Docker containers
-  is to allow the conversion of both Jupyter Notebook and Word document file types to a PDF file
-  type, in the process of submitting them to OnTrack. The user will submit either a Jupyter Notebook
-  file or a Word Document file, and depending on which file type is submitted, one container will
-  provide the conversion function for the Jupyter Notebook, and the other container will provide the
-  conversion function for the Word document. Both containers will output a PDF file.
+- Currently, when an end user wishes to upload a Jupyter Notebook file to OnTrack, they must first manually convert the file to a PDF. The purpose of the Jupyter Notebook conversion feature is to automatically perform the conversion of Jupyter Notebook files to PDF during the submission process.
+During research for this feature it was determined that converting Word documents to PDF was an extensible feature of the Jupyter Notebook conversion feature.
+Depending on the type of file that an end user submits - if it is a Word document or a Jupyter Notebook file - one container will provide the conversion function for the Jupyter Notebook, and the other container will provide the conversion function for the Word document. Both containers will output a PDF file.
 
 ### 1.2 Intended Audience
 
