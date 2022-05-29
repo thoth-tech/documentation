@@ -4,7 +4,7 @@
 *The internal systems team has been tasked with creating a website that will include all the information for all the capstone projects. It is indeed designed to serve as a primary hub where students can find all their information in one place. Hence, we require a website that is well-designed and easy to use with responsive design, helpful navigation and high-quality content and security features. Also, it should reflect our company, its products, services, and, eventually, its identity.*
 <br>
 
-#
+---
 <br>
 
 Taking inspiration from different websites, below are some proposed website prototypes
@@ -35,9 +35,7 @@ Furthermore, the website can include what more it offers with relevant and quali
 
 The bottom of the website can include a form of contact (a must have) for the visitors as it is helpful in generating leads from our website, keeping track of the inquiries, offering support to customers, delegating tasks to the team and much more.
 
-
-
-#
+---
 
 **Following is another prototype proposed for our website. It is more of a graphical composition with the same features as the first protype. The website will typically use more basic web-safe typeface, complex graphics, lighting effects, and pictures.**
 
@@ -83,7 +81,7 @@ Lastly, a contact form can be added with some graphical imagery unlike the first
 
 <br>
 
-#
+---
 
 ## Some of the static websites that set an example for the prototype are
 
@@ -104,7 +102,7 @@ The following are some screenshots attached of the website:
  
 <br>
 
-# 
+---
 ## Flickr
 <br>
 
@@ -121,7 +119,7 @@ The following are some screenshots attached of the website:
 
 <br>
 
-# 
+--- 
 ## Sketchfab
 <br>
 

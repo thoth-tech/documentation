@@ -12,61 +12,61 @@ Static site are used in cases where you only need to spit out content without th
 
  
 
-# 
+---
  <br>
 
 ## Gatsby  
 <br>
 
-* Gatsby is a site generator based on JavaScript and React 
+- Gatsby is a site generator based on JavaScript and React 
 
-* Team is more comfortable with JavaScript 
+- Team is more comfortable with JavaScript 
 
-* Gatsby has all the integration and libraries pre packed 
+- Gatsby has all the integration and libraries pre packed 
 
-* Option to load pages ahead of time, on demand or server side 
+- Option to load pages ahead of time, on demand or server side 
 
-* Used in programming arcana 
+- Used in programming arcana 
 
 <br>
 
 
-# 
+--- 
 ## Jekyll 
 <br>
 
-* Jekyll is based on ruby  
+- Jekyll is based on ruby  
 
-* Easiy deployable to github pages 
+- Easiy deployable to github pages 
 
-* Less setup procedure 
+- Less setup procedure 
 
-* More suited towards blog 
+- More suited towards blog 
 
-* Easy to maintain 
+- Easy to maintain 
 
-* Would need to learn bit of ruby to manage this project  
+- Would need to learn bit of ruby to manage this project  
 
 <br>
 
-# 
+--- 
 ## Eleventy 
 
 <br>
 
-* Based on node and Javascript 
+- Based on node and Javascript 
 
-* Similar to Jekyll 
+- Similar to Jekyll 
 
-* Fairly new, so not enough resources available 
+- Fairly new, so not enough resources available 
 
-* Would need to learn as we go 
+- Would need to learn as we go 
 
  <br>
  
  <br>
 
-#  
+--- 
  
 ## Conclusion 
 <br> 

@@ -2,7 +2,7 @@
 _As we are beggining our work on Internal systems we need to generate some ideas for the areas that we can work on and the tools that we might use going forward in our project. This could include different coding language that we are farmiliar with and tools we have used. Different static site generators that exitst and how we can host out site once generated. From here we should also get an idea for the how we might manage Quality Assurance side of the product and mainting its quality._
 ## Website Technologies
 
-#
+---
 <br />
 
 
@@ -15,11 +15,12 @@ Gatsby is an open-source frontend development framework which is also based on R
 - Amazing development experience – Gatsby has inbuilt plugins, themes and starters that helps developer to get a quick start to create the website. 
 
 - High speed and responsiveness – Gatsby help to make the webpage loading and navigation fast which is done by loading the part that only matter with its page rendering. 
-<br />
 
-#
+<br>
+
+---
 ## Front-end Technologies
-#
+---
 <br />
 
 ## Next.js 
@@ -113,8 +114,9 @@ Can link to a database if required
 - Covers only UI layers of the app due to which the user has to pick a few more technologies to complete the development toolkit for the project 
 
  
-<br />
+<br>
 
+---
 ## GitHub 
 
 ### Pros : 
@@ -134,10 +136,10 @@ Can link to a database if required
 - Doesn’t come with private repositories 
 
 - Has space restrictions, as single files cannot exceed 100MB, and repositories are limited to 1GB in the free edition. 
-# 
+---
 
 ## Testing Frameworks 
-#
+---
 <br />
 
 
@@ -224,7 +226,6 @@ __Given [_initial context_], when [_event occurs_], then [_ensure some outcomes_
 - Report Generation relies on plugins and can create integration issues 
 
  
-
 ## QA Wolf  __NOT FREE__ 
 
 __Open source End -to-end automation testing tool__  
@@ -241,13 +242,9 @@ __Open source End -to-end automation testing tool__
 
 - Integrated with GitHub and Slack 
 
- 
-
- 
-# 
-
+---
 ## Web Site Hosting
-#
+---
  
 
 ## Git 
@@ -255,16 +252,11 @@ Git can allow us to create a private static page that can be used to host out si
 
 - We can create a master branch containing our code and deploy in Git Hub 
 
- 
-
-
 <br />
 
-
-#
+---
 
 ## References
-
 
 https://ronakataglowid.medium.com/pros-and-cons-of-the-vue-js-framework-8015dcbc05ef 
 

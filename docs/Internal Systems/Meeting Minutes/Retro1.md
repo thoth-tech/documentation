@@ -10,9 +10,9 @@
 <br>
 
 ## Attendance
-* Matthew 
-* Manveen
-* Areeb
+- Matthew 
+- Manveen
+-  Areeb
 ## Absent: 
 * Tushar (Work)
 <br>
