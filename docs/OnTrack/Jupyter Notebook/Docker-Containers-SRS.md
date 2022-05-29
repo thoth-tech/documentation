@@ -14,10 +14,10 @@ Depending on the type of file that an end user submits - if it is a Word documen
 
 ### 1.2 Intended Audience
 
-- The intended audience of this software is all users of the OnTrack system (students and teachers).
-  This software will allow all users to submit Jupyter Notebook and Word Document files to OnTrack
+- The intended audience of this feature is all users of the OnTrack system (students and teachers).
+  This feature will allow all users to submit Jupyter Notebook and Word Document files to OnTrack
   directly, instead of having to first manually convert the file to PDF and then submit that to
-  OnTrack. The software will also allow users to view there converted file for review or marking.
+  OnTrack. The feature will also allow users to view their converted file for review or marking.
 
 ### 1.3 Intended Use
 
