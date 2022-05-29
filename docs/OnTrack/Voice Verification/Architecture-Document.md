@@ -19,10 +19,12 @@ This Architecture Document provides an architectural overview of Voice Verificat
 ![Figure 1: Architecturally Significant Use Cases](https://github.com/thoth-tech/documentation/blob/89e17ecb3033c6491c9e7d7ee161198b2ee04653/docs/OnTrack/Voice%20Verification/Images/Use%20Cases.png)
 
 
-- Enrol the voiceprint: This use case allows a student to register a voiceprint for later verification 
-- Submit a voice file: This use case allows a student to submit an assignment audio to Ontrack System 
-- Compare two audio samples: The Deep Speaker Model is an actor involved within this use case which will automatically confirm student’s identity by comparing their new voice submission to their voiceprint. This takes place within the Voice Verification Container 
-- Receive the result of voice verification: This use case allows student and tutor to receive the voice verification result (a confidence score of how likely it is that the voice in the recording is the student in question)   
+1. As a student, I want Ontrack to have a function that can identifies me by my voice. <br> **Description:** The feature highlighted through this user story is having a "Enrol the voiceprint". This feature allows a student to register a voiceprint for later verification
+
+2. As a student submitting my assignments, I want able to upload audio files to Ontrack.<br> **Description:** The feature highlighted through this user story is having a "Submit a voice file”. This feature allows a student to submit an assignment audio to Ontrack System.
+3. As a Deep Speaker Classifier, “I” can recognise student by their voice at a confidence level.<br> **Description:** The Deep Speaker Model is an actor involved within “Compare two audio samples” which will automatically confirm student’s identity by comparing their new voice submission to their voiceprint. This takes place within the Voice Verification Container.
+
+4. As a tutor/student, I want to receive the result of voice verification to be aware of the outcome of the verification.<br> **Description:** Voice Verification system will return/export the voice verification result to the Tutor and Student (a confidence score of how likely it is that the voice in the recording is the student in question) in a readable way.   
 
 ## Logical View
 ### Architecture Overview
