@@ -28,8 +28,8 @@ Depending on the type of file that an end user submits - if it is a Word documen
 
 ### 1.4 Scope
 
-- The scope of this work will be to create Docker containers which can provide the function of
-  converting Jupyter Notebook or Word Document files to PDF format in the process of submission.
+- This feature will be developed in steps: firstly we aim to develop standalone containers which provide the feature, secondly they will be integrated into OnTrack thus completing the feature. The scope during this trimester will be to create standalone Docker containers which can provide the function of
+  converting Jupyter Notebook or Word Document files to PDF format. Also within scope is testing the containers and ensuring they conform to a testing strategy.
 
 ### 1.5 Definitions and Acronyms
 
