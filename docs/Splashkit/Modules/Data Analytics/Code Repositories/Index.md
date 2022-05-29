@@ -6,7 +6,7 @@ Tech repository or in separated forked repositories will be located within this 
 
 ## Links to code
 
-Please add your fork to this list, labeled appropriately, if work is incomplete but ongoing at the
+Please add your fork to this list, labelled appropriately, if work is incomplete but ongoing at the
 end of the semester.
 
 - [End of 2021 Repository - Contains Broken/Missing Imports](https://bitbucket-students.deakin.edu.au/users/zbargiamidis/repos/splashkit2021t3/browse/coresdk/src/coresdk)
