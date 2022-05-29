@@ -1,11 +1,13 @@
 # Data Analytics Code Repositories
 
-The code received for Trimester 1, 2022 was not pulled into the Thoth Tech repository at the completion of Trimester 3, 2021.
-All future links to Data Analytics code either within the Thoth Tech repository or in separated forked repositories will be located within this document.
+The code received for Trimester 1, 2022 was not pulled into the Thoth Tech repository at the
+completion of Trimester 3, 2021. All future links to Data Analytics code either within the Thoth
+Tech repository or in separated forked repositories will be located within this document.
 
 ## Links to code
 
-Please add your fork to this list, labeled appropriately, if work is incomplete but ongoing at the end of the semester.
+Please add your fork to this list, labeled appropriately, if work is incomplete but ongoing at the
+end of the semester.
 
 - [End of 2021 Repository - Contains Broken/Missing Imports](https://bitbucket-students.deakin.edu.au/users/zbargiamidis/repos/splashkit2021t3/browse/coresdk/src/coresdk)
 - [T2 2021 Plan for Scope](https://bitbucket-students.deakin.edu.au/users/zbargiamidis/repos/splashkit2021t3/browse/T2%20Development%20Plan)
