@@ -8,9 +8,15 @@
 
 ### 1.1 Purpose
 
-- Currently, when an end user wishes to upload a Jupyter Notebook file to OnTrack, they must first manually convert the file to a PDF. The purpose of the Jupyter Notebook conversion feature is to automatically perform the conversion of Jupyter Notebook files to PDF during the submission process.
-During research for this feature it was determined that converting Word documents to PDF was an extensible feature of the Jupyter Notebook conversion feature.
-Depending on the type of file that an end user submits - if it is a Word document or a Jupyter Notebook file - one container will provide the conversion function for the Jupyter Notebook, and the other container will provide the conversion function for the Word document. Both containers will output a PDF file.
+- Currently, when an end user wishes to upload a Jupyter Notebook file to OnTrack, they must first
+  manually convert the file to a PDF. The purpose of the Jupyter Notebook conversion feature is to
+  automatically perform the conversion of Jupyter Notebook files to PDF during the submission
+  process. During research for this feature it was determined that converting Word documents to PDF
+  was an extensible feature of the Jupyter Notebook conversion feature. Depending on the type of
+  file that an end user submits - if it is a Word document or a Jupyter Notebook file - one
+  container will provide the conversion function for the Jupyter Notebook, and the other container
+  will provide the conversion function for the Word document. Both containers will output a PDF
+  file.
 
 ### 1.2 Intended Audience
 
@@ -28,8 +34,11 @@ Depending on the type of file that an end user submits - if it is a Word documen
 
 ### 1.4 Scope
 
-- This feature will be developed in steps: firstly we aim to develop standalone containers which provide the feature, secondly they will be integrated into OnTrack thus completing the feature. The scope during this trimester will be to create standalone Docker containers which can provide the function of
-  converting Jupyter Notebook or Word Document files to PDF format. Also within scope is testing the containers and ensuring they conform to a testing strategy.
+- This feature will be developed in steps: firstly we aim to develop standalone containers which
+  provide the feature, secondly they will be integrated into OnTrack thus completing the feature.
+  The scope during this trimester will be to create standalone Docker containers which can provide
+  the function of converting Jupyter Notebook or Word Document files to PDF format. Also within
+  scope is testing the containers and ensuring they conform to a testing strategy.
 
 ### 1.5 Definitions and Acronyms
 
