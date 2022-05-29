@@ -21,7 +21,7 @@ Depending on the type of file that an end user submits - if it is a Word documen
 
 ### 1.3 Intended Use
 
-- The intended use of the containers is to provide the functionality for the mentioned conversions.
+- The intended use of this feature is to provide the functionality for the mentioned conversions.
   The user will submit either a Jupyter Notebook or a Word document file to OnTrack, and each
   container will be used, depending on the file type, to make the necessary conversion of the
   submitted file to PDF format.
