@@ -107,7 +107,7 @@ Figure 6. Dice version 2
 #
 
 ## Further Plan
-In the next trimester, Dicey Combat will be finished and polished. It will be successfully presented on the arcade machine and be played.
+In the next trimester, Dicey Combat will be refined and completed. It will be successfully presented on the arcade machine to be played.
 
 
 
