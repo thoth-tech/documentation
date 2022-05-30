@@ -20,7 +20,7 @@ Dicey Combat is a 2D arcade game for 2 players.
 
 ### Introduction
 
-In the game, players roll two dice to move forward. Players conquer the opponents’ region and eat the token. Each player has four lives for a round. The game will end when one player loses all of the 4 lives. 
+In the game, players roll two die to move forward. Players conquer the opponents’ region and eat the token. Each player has four lives. The game will end when one player loses all of the four lives. 
 
 ### Specification
 * Handle 2 player input in one screen 
