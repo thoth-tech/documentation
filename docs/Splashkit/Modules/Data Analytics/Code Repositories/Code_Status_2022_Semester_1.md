@@ -59,10 +59,10 @@ data_analytics.cpp from line 369 on.
         format the dataframe correctly. This feature is a nice-to-have, but Mac and Linux support
         are MUST HAVES)
       - Variable arrays, array size must be known at compile time in C++. This only seems to be an
-        issue for a couple of the insert functions in the dataframe code, so it is recommended
-        to comment them out for now and try get it working without them.
-      - Needs more comments and general simplification -- too hard to understand what the code
-        is doing.
+        issue for a couple of the insert functions in the dataframe code, so it is recommended to
+        comment them out for now and try get it working without them.
+      - Needs more comments and general simplification -- too hard to understand what the code is
+        doing.
       - Code does not compile or run on Mac or Linux.
   - Research Pandas Dataframes and review our current setup
   - Add basic functions required for simple implementation
