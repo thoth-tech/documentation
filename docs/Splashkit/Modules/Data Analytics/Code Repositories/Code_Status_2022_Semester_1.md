@@ -10,14 +10,14 @@ practices were found throughout, including the following:
   - It was a very unneccessary addition as it only ran in one method and was not used for similar
     things in other methods
 - splashkit.h was called inside SplashKit, which broke the code and is something you definitely
-  shouldn't do
+  should not do
 - Most imports required for the code were missing
 - Data validation code was lengthy and did not work
   - A lot of true/false statements were switched, meaning it would never give a proper result
   - Swapped between using poorly written Regex and making their own methods to do the same thing,
-    both didn't work properly
+    both did not work properly
 - Display function used import that was Windows operating system only
-  - Means you couldn't run the Data Analytics module from Mac or Linux
+  - Means you could not run the Data Analytics module from Mac or Linux
   - Also was poorly written and we never got it working
 - Dataframe code looked impressive but without display function working, was hard to see if it was
   working properly
@@ -59,9 +59,9 @@ data_analytics.cpp from line 369 on.
         format the dataframe correctly. This feature is a nice-to-have, but Mac and Linux support
         are MUST HAVES)
       - Variable arrays, array size must be known at compile time in C++. This only seems to be an
-        issue for a couple of the insert functions in the dataframe code, so I'd recommend
-        commenting them out for now and trying to get it working without them.
-      - Needs more comments and general simplification -- it's too hard to understand what the code
+        issue for a couple of the insert functions in the dataframe code, so it is recommended
+        to comment them out for now and try get it working without them.
+      - Needs more comments and general simplification -- too hard to understand what the code
         is doing.
       - Code does not compile or run on Mac or Linux.
   - Research Pandas Dataframes and review our current setup
@@ -69,8 +69,8 @@ data_analytics.cpp from line 369 on.
 - Create new display function
   - Needs to work on all systems
 - Test Dataframe code
-  - As we don't think it has ever compiled or run, we need to determine that all functions and
+  - As we do not think it has ever compiled or run, we need to determine that all functions and
     objects work properly.
-    - If they don't, either refactor or begin to re-write code based on
+    - If they do not: either refactor or begin to re-write code based on
       [Scope documents](../Scope/Index.md).
   - Tests will have to be created as none currently exist for the dataframes.
