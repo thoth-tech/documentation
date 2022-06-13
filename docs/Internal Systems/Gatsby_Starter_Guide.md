@@ -26,4 +26,5 @@ all the components we are going to build in this app.
 These components work in `index.js` in the `pages` directory. We call these components inside the
 `index.js`.
 
-More about this is explained in the GitHub repository.
+More about this is explained in the
+[Internal Systems repository](https://github.com/thoth-tech/Internal-Systems).
