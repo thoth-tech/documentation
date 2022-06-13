@@ -11,9 +11,9 @@ gives a good overview of react.
 
 [![Learn React In 30 Minutes](http://img.youtube.com/vi/hQAHSlTtcmY/0.jpg)](http://www.youtube.com/watch?v=hQAHSlTtcmY)
 
-Just understanding the basics of react should be enough to start using GatsbyJS. The main focus
-should be how the functional components work. We will be creating our website in components as well
-and then putting it all together.
+We need to understand the basic concepts of React prior to using GatsbyJS. The main focus should be
+how the functional components work. We will be creating our website in components as well and then
+putting it all together.
 
 For GatsbyJS, the following video is helpful to get fundamentals down.
 
