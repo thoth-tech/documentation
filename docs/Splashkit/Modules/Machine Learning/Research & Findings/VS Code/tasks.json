@@ -1,0 +1,76 @@
+{
+	"windows": {
+		"options": {
+			"shell": {
+				"executable": "cmd",
+				"args": [
+					"/d",
+					"/c"
+				]
+			}
+		}
+	},
+	"tasks": [
+		{
+			"type": "process",
+			"label": "cmake",
+			"command": "C:\\msys64\\msys2_shell.cmd",
+			"args": [
+				// Set terminal to mingw
+				"-defterm",
+				"-no-start",
+				"-mingw64",
+
+				// Set Starting Directory
+				"-where",
+				"./projects/cmake/",
+
+				// Execute command
+				"-c",
+				"cmake -DCMAKE_BUILD_TYPE=Debug -G \"Ninja\""
+			]
+		},
+		{
+			"type": "process",
+			"label": "Compile",
+			"command": "C:\\msys64\\msys2_shell.cmd",
+			"args": [
+				"-defterm",
+				"-no-start",
+				"-mingw64",
+
+				"-where",
+				"./projects/cmake/",
+
+				"-c",
+				"ninja"
+			]
+		},
+		{
+			"type": "process",
+			"label": "Run",
+			"command": "C:\\msys64\\msys2_shell.cmd",
+			"args": [
+				"-defterm",
+				"-no-start",
+				"-mingw64",
+
+				"-where",
+				"./bin/",
+				
+				"-c",
+				"./sktest.exe"
+			]
+		},
+		{
+			"label": "Compile + Run",
+			"dependsOrder": "sequence",
+			"dependsOn": ["Compile", "Run"],
+			"group": {
+				"kind": "build",
+				"isDefault": true
+			}
+		}
+	],
+	"version": "2.0.0"
+}
