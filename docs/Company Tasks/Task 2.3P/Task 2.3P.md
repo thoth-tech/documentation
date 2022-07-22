@@ -75,19 +75,16 @@ and values.
 • Enhance and extend the handover document
 • Enhace the Onboarding process for leadership team.
 • Maintain the Documentation guidelines for Thoth Tech.
-• Establish an internal website for centralised documentation as a part of Company Operation.
 
 Objective 2: Create a safe, supportive, and collaborative company culture that
 empowers our employees to learn and develop their skills.
-• Create a company culture where feedback is welcome, and success is celebrated
+• Maintain a company culture where feedback is welcome, and success is celebrated
 • Support development of chosen skills in every team member
-• Develop soft skills in leadership team
+• Help team members to develop soft skills such as leadership, teamwork, professionalism etc
 • Empower those embracing learning of new skills, to pass their knowledge on to
 other team members
 • Create a psychologically safe space for collaboration to thrive
 • Optimise the company experience for future employees
-• Build an internal static website to host all documentation and relevant
-resources for the company
 
 Objective 3: Add value to the SplashKit Product by extending functionality and languages
 • Improve the SplashKit product through realistic physics, data visualisations
@@ -96,6 +93,13 @@ and machine learning
 for users
 • Improve SplashKit installation process and compatibilties
 • Complete a hardware product to showcase student game creations
+
+Objective 4: Add value to Company Operations
+• Improve the Handbook
+• Establish an website for centralised documentation as a part of Company Operation.
+• Establish guidelines, protocols for all the major principles
+• Include Standard Templates for different processes
+• Improve company policies
 
 TODO:
 Objective 4: Add value to the OnTrack Product by adding and enhancing features
@@ -215,3 +219,49 @@ long-term and trimester deliverables.
 
 List the members and their roles – clearly identify the lead student(s).
 (1 page per project)
+
+## Company Operations
+
+Managing company processes and operations. Keeping Thoth-Tech running. Help employees to understand the systems, equipment, people, and processes need to make the organization function.
+Product Lead: Ishrat Jahan
+
+### Documentation Infrastructure System
+
+Internal systems website will be for holding all company related documentation. This will provide the benefit of making documentation centrally locatable and easily accessible for relevant internal audiences.
+#### Overview, Goals, and Objectives
+
+• Establish an website for centralised documentation
+•	Documentation produced is accurate to current version of products
+•	A quick way for updating and distributing company and product details
+•	Site is automatically generated when contributions are made
+•	Site is hosted
+
+#### Aims for Trimester
+
+•	Research privacy and security features
+•	Design the interface
+•	Deciding who gets access
+•	Deciding how will we test
+•	How will privacy be protected
+•	A prototype showing all design and functionality of the internal website
+
+#### Deliverables
+
+Short-term:
+• Design the interface
+• Establishing testing strategy
+• Establishing hosting strategy
+• Research solutions
+
+Long-term:
+• Establish an website for centralised documentation as a part of Company Operation.
+
+#### Project Members
+
+Delivery Lead:  Ishrat Jahan
+Software Developers:
+Harrison Paul Allwood
+Manveen Kaur Bhullar
+Pratham Gupta
+Sherap Thakur
+Tanish Dhapola
