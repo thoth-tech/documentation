@@ -67,15 +67,15 @@ This trimester, Thoth Tech has set out to achieve the following objectives:
 
 Objective 1: Continue to grow Thoth Tech as a company in line with our mission
 and values.
-• Clearly define leadership roles and responsibilities.
-• Maintain and administer the Thoth Tech Repo.
+• Even distribution of roles and responsibilities.
+• Foster and encourage self-motivation and autonomy
 • Maintain the Thoth Tech project branching structure and approval process.
-• Enhance the Quality Assurance Policy and process.
+• Enhance the Quality Assurance Policy and process across all the products.
 • Establish standards and expectations of product development.
-• Enhace the Onboarding process.
+• Enhance and extend the handover document
+• Enhace the Onboarding process for leadership team.
 • Maintain the Documentation guidelines for Thoth Tech.
-• Establish a handover and Offboarding process.
-• Establish an internal website for centralised documentation visibility.
+• Establish an internal website for centralised documentation as a part of Company Operation.
 
 Objective 2: Create a safe, supportive, and collaborative company culture that
 empowers our employees to learn and develop their skills.
@@ -153,7 +153,7 @@ the creation of a Windows application capable of cloning the games repository,
 and executing the games on a playable interface. The work of last trimester allows
 the team of this trimester to take closer steps to creating a physical arcade machine.
 The machine will perform similarly to a Multi-Game Arcade Machine, allowing users
-to select a game from a local library of games. Objectives include:  
+to select a game from a local library of games. Objectives include: 
   • Software which:
     o Is cross platform compatible
     o
@@ -162,24 +162,24 @@ to select a game from a local library of games. Objectives include: 
     o Documentation
 
 Additional features which may be considered later in the lifecycle of the project include the development and deployment of a website which:
-  • Supports the uploading of games  
-  • Stores and displays:  
-    o reviews  
-    o high scores and achievements.  
+  • Supports the uploading of games 
+  • Stores and displays: 
+    o reviews 
+    o high scores and achievements. 
 
 #### Aims for Trimester
 
 The primary aim of this trimester is to enhance the existing infrastructure to….
 If time permits, a physical Arcade Machine will be designed and manufactured however
-the software platform is the primary focus for the trimester.  
+the software platform is the primary focus for the trimester. 
 
 #### Deliverables
 
 Short-term:
 • Operating system cross compatibility
-• Complete options menu.  
+• Complete options menu.
 
-Long-term:  
+Long-term:
 • Physical Arcade Machine built using RaspberryPi
 
 #### Project Members
