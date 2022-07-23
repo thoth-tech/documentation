@@ -1,5 +1,17 @@
 # Thoth Tech - Company Structure and Objectives for Trimester 2 2022
 
+---
+
+Table of contents
+
+- [Executive Summary](#Executive-Summary)
+- [Leadership Team](#Leadership-Team)
+- [Trimester Goals and Objectives](#Trimester-Goals-and-Objectives)
+- []()
+- []()
+
+---
+
 ## Executive Summary
 
 Thoth Tech (est. 2022) is a new software development company currently building
@@ -59,32 +71,30 @@ TODO:
 
 ## Trimester Goals and Objectives
 
-Describe what you aim to achieve this trimester as a company.
+### Objective 1
 
-- Suggest bullet points for objectives
+Continue to grow Thoth Tech as a company in line with our mission
+and values.  
 
-This trimester, Thoth Tech has set out to achieve the following objectives:
+- Even distribution of roles and responsibilities  
+- Foster and encourage self-motivation and autonomy  
+- Maintain the Thoth Tech project branching structure and approval process  
+- Enhance the Quality Assurance Policy and process across all the products  
+- Establish standards and expectations of product development  
+- Enhance and extend the handover document  
+- Enhace the Onboarding process for leadership team  
+- Maintain the Documentation guidelines for Thoth Tech  
 
-Objective 1: Continue to grow Thoth Tech as a company in line with our mission
-and values.
-• Even distribution of roles and responsibilities.
-• Foster and encourage self-motivation and autonomy
-• Maintain the Thoth Tech project branching structure and approval process.
-• Enhance the Quality Assurance Policy and process across all the products.
-• Establish standards and expectations of product development.
-• Enhance and extend the handover document
-• Enhace the Onboarding process for leadership team.
-• Maintain the Documentation guidelines for Thoth Tech.
+### Objective 2
 
-Objective 2: Create a safe, supportive, and collaborative company culture that
-empowers our employees to learn and develop their skills.
-• Maintain a company culture where feedback is welcome, and success is celebrated
-• Support development of chosen skills in every team member
-• Help team members to develop soft skills such as leadership, teamwork, professionalism etc
-• Empower those embracing learning of new skills, to pass their knowledge on to
-other team members
-• Create a psychologically safe space for collaboration to thrive
-• Optimise the company experience for future employees
+Create a safe, supportive, and collaborative company culture that empowers our employees to learn and develop their skills
+
+- Maintain a company culture where feedback is welcome, and success is celebrated
+- Support development of chosen skills in every team member
+- Help team members to develop soft skills such as leadership, teamwork, professionalism etc
+- Empower those embracing learning of new skills, to pass their knowledge on to other team members
+- Create a psychologically safe space for collaboration to thrive
+- Optimise the company experience for future employees
 
 Objective 3: Add value to the SplashKit Product by extending functionality and languages
 • Improve the SplashKit product through realistic physics, data visualisations
@@ -125,9 +135,8 @@ TODO:
 Provide a visual diagram of the company structure – showing projects, their relationships,
 lead students, and team members.
 
-## Product
+## Product - SplashKit
 
-SplashKit
 SplashKit is an open-source Software Development Kit (SDK), created with the purpose
 of reducing the overhead required for truly technical coding and allowing students
 new to coding to create satisfying programs in a short period of time.
@@ -145,10 +154,17 @@ toolkit. Currently the language used for development is C++ and the direction of
 the product is to improve and expand the capabilities to increase SplashKit accessibility.
 Product Lead: Anthony George
 
-### Project 1 Title (repeat for each project – each starting a new page)
+## SplashKit
 
-TODO:
-Operations -
+### Operations
+
+### Extensions
+
+### Modules
+
+### Applications - Build An Exceptional Game
+
+### Applications - Arcade Machine
 
 #### Overview, Goals, and Objectives
 
@@ -157,43 +173,53 @@ the creation of a Windows application capable of cloning the games repository,
 and executing the games on a playable interface. The work of last trimester allows
 the team of this trimester to take closer steps to creating a physical arcade machine.
 The machine will perform similarly to a Multi-Game Arcade Machine, allowing users
-to select a game from a local library of games. Objectives include: 
-  • Software which:
-    o Is cross platform compatible
-    o
-  • The development of:
-    o
-    o Documentation
+to select a game from a local library of games. Objectives include:  
+  o Software which:  
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;• Is cross platform compatible  
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;• Allows for game compilation on the host machine  
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;• Is authored to be consistent with a chosen programming convention/style guide  
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;• Implements an architecture that ensures long term maintainability is possible for
+      future contributors  
+  o The development of:  
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;• A programming convention / style guide document  
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;• Other General Prject Documentation  
+  o Research of:  
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;• Appropriate tooling that can be used to assist with these objectives  
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;• Unit tests and determining if they have any value for the project  
 
-Additional features which may be considered later in the lifecycle of the project include the development and deployment of a website which:
-  • Supports the uploading of games 
-  • Stores and displays: 
-    o reviews 
-    o high scores and achievements. 
+Additional features which may be considered later in the lifecycle of the project include the development and deployment of a website which:  
+  o Supports the uploading of games  
+  o Stores and displays:  
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;• User Reviews  
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;• High Scores and Achievements  
 
 #### Aims for Trimester
 
-The primary aim of this trimester is to enhance the existing infrastructure to….
-If time permits, a physical Arcade Machine will be designed and manufactured however
-the software platform is the primary focus for the trimester. 
+The primary aim of this trimester is to enhance the exisitng application to accomodate cross-platform compatibility. This will include developing methods to faciliate the compilation of games on the host machine. Access to the game library will be offered through the platform where the user can configure settings and select and play their desired game. If time permits, a physical Arcade Machine will be designed and manufactured however the software platform is the primary focus for the trimester.  
 
 #### Deliverables
 
-Short-term:
-• Operating system cross compatibility
-• Complete options menu.
+Short-term:  
+o Decoupling functional behaviour and modularising existing software  
+o Adding support for all three major operating systems  
+o Adding support for locally compiled games on the host machine  
+o Completion of an options menu  
+o Discussing and agreeing upon a programming convention and style  
+o Addressing style inconsistencies throughout the project’s source code  
+o Producing documentation around the project  
 
-Long-term:
-• Physical Arcade Machine built using RaspberryPi
+Long-term:  
+o Physical Arcade Machine built using RaspberryPi
 
 #### Project Members
 
-Delivery Lead:  Anthony George
-Software Developers:
-Riley Dellios
-Huy Nguyen
-Richard Douglas-Denton
-Lachlan Foy
+Delivery Lead:  Anthony George  
+
+Software Developers:  
+Riley Dellios,
+Huy Nguyen,
+Richard Douglas-Denton,
+Lachlan Foy,
 Mohamed Zirufaan
 
 ### Project 2 Title (repeat for each project – each starting a new page)
@@ -218,7 +244,7 @@ long-term and trimester deliverables.
 #### Project Members
 
 List the members and their roles – clearly identify the lead student(s).
-(1 page per project)
+(1 page per project)  
 
 ## Company Operations
 
@@ -228,40 +254,46 @@ Product Lead: Ishrat Jahan
 ### Documentation Infrastructure System
 
 Internal systems website will be for holding all company related documentation. This will provide the benefit of making documentation centrally locatable and easily accessible for relevant internal audiences.
+
 #### Overview, Goals, and Objectives
 
-• Establish an website for centralised documentation
-•	Documentation produced is accurate to current version of products
-•	A quick way for updating and distributing company and product details
-•	Site is automatically generated when contributions are made
-•	Site is hosted
+• Establish an website for centralised documentation  
+• Documentation produced is accurate to current version of products  
+• A quick way for updating and distributing company and product details  
+• Site is automatically generated when contributions are made  
+• Site is hosted
 
 #### Aims for Trimester
 
-•	Research privacy and security features
-•	Design the interface
-•	Deciding who gets access
-•	Deciding how will we test
-•	How will privacy be protected
-•	A prototype showing all design and functionality of the internal website
+• Research privacy and security features  
+• Design the interface  
+• Deciding who gets access  
+• Deciding how will we test  
+• How will privacy be protected  
+• A prototype showing all design and functionality of the internal website  
 
 #### Deliverables
 
-Short-term:
-• Design the interface
-• Establishing testing strategy
-• Establishing hosting strategy
-• Research solutions
+Short-term:  
+• Design the interface  
+• Establishing testing strategy  
+• Establishing hosting strategy  
+• Research solutions  
 
-Long-term:
-• Establish an website for centralised documentation as a part of Company Operation.
+Long-term:  
+• Establish an website for centralised documentation as a part of Company Operation.  
 
 #### Project Members
 
 Delivery Lead:  Ishrat Jahan
-Software Developers:
-Harrison Paul Allwood
-Manveen Kaur Bhullar
-Pratham Gupta
-Sherap Thakur
+  
+Software Developers:  
+Harrison Paul Allwood,
+Manveen Kaur Bhullar,
+Pratham Gupta,
+Sherap Thakur,
 Tanish Dhapola
+
+## TODO: OnTrack
+
+## TODO: DreamBig
