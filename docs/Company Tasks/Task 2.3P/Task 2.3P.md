@@ -62,7 +62,7 @@ Table of contents
     - [Applications - Build An Exceptional Game](#applications---build-an-exceptional-game)
   - [Company Operations](#company-operations)
   - [OnTrack](#todo-ontrack)
-  - [DreamBig](#todo-dreambig)
+  - [DreamBig](#dreambig)
 
 ---
 
@@ -78,16 +78,16 @@ TODO:
 ### Objective 1
 
 Continue to grow Thoth Tech as a company in line with our mission
-and values.  
+and values.
 
-- Even distribution of roles and responsibilities  
-- Foster and encourage self-motivation and autonomy  
-- Maintain the Thoth Tech project branching structure and approval process  
-- Enhance the Quality Assurance Policy and process across all the products  
-- Establish standards and expectations of product development  
-- Enhance and extend the handover document  
-- Enhace the Onboarding process for leadership team  
-- Maintain the Documentation guidelines for Thoth Tech  
+- Even distribution of roles and responsibilities
+- Foster and encourage self-motivation and autonomy
+- Maintain the Thoth Tech project branching structure and approval process
+- Enhance the Quality Assurance Policy and process across all the products
+- Establish standards and expectations of product development
+- Enhance and extend the handover document
+- Enhace the Onboarding process for leadership team
+- Maintain the Documentation guidelines for Thoth Tech
 
 ### Objective 2
 
@@ -159,7 +159,7 @@ for truly technical coding which enables students new to coding to create satisf
 programs in a short period of time. SplashKit enables novice coders to quickly learn
 to construct fun and functional programs which they can be proud to showcase.
 It includes a large library of functions which can be utilized by the user to
-experiment and apply for their own application or game.  
+experiment and apply for their own application or game.
 
 This product is currently
 used by the students at Deakin University and aims to become a global educational
@@ -180,10 +180,10 @@ to select a game from a local library of games. Objectives include:
 o Software which:
 
 - Is cross platform compatible
-- Allows for game compilation on the host machine  
-- Is authored to be consistent with a chosen programming convention/style guide  
+- Allows for game compilation on the host machine
+- Is authored to be consistent with a chosen programming convention/style guide
 - Implements an architecture that ensures long term maintainability is possible for
-      future contributors  
+      future contributors
 
 o The development of:
 
@@ -197,27 +197,27 @@ o Research of:
 
 Additional features which may be considered later in the lifecycle of the project include the development and deployment of a website which:
 
-o Supports the uploading of games  
+o Supports the uploading of games
 o Stores and displays:
 
-- User Reviews  
-- High Scores and Achievements  
+- User Reviews
+- High Scores and Achievements
 
 ### Aims for Trimester
 
-The primary aim of this trimester is to enhance the exisitng application to accomodate cross-platform compatibility. This will include developing methods to faciliate the compilation of games on the host machine. Access to the game library will be offered through the platform where the user can configure settings and select and play their desired game. If time permits, a physical Arcade Machine will be designed and manufactured however the software platform is the primary focus for the trimester.  
+The primary aim of this trimester is to enhance the exisitng application to accomodate cross-platform compatibility. This will include developing methods to faciliate the compilation of games on the host machine. Access to the game library will be offered through the platform where the user can configure settings and select and play their desired game. If time permits, a physical Arcade Machine will be designed and manufactured however the software platform is the primary focus for the trimester. 
 
 ### Deliverables
 
 #### Short-term
 
-o Decoupling functional behaviour and modularising existing software  
-o Adding support for all three major operating systems  
-o Adding support for locally compiled games on the host machine  
-o Completion of an options menu  
-o Discussing and agreeing upon a programming convention and style  
-o Addressing style inconsistencies throughout the project’s source code  
-o Producing documentation around the project  
+o Decoupling functional behaviour and modularising existing software
+o Adding support for all three major operating systems
+o Adding support for locally compiled games on the host machine
+o Completion of an options menu
+o Discussing and agreeing upon a programming convention and style
+o Addressing style inconsistencies throughout the project’s source code
+o Producing documentation around the project
 
 #### Long-term
 
@@ -225,9 +225,9 @@ o Physical Arcade Machine built using RaspberryPi
 
 ### Project Members
 
-Delivery Lead:  Anthony George  
+Delivery Lead:  Anthony George
 
-Software Developers:  
+Software Developers:
 Riley Dellios,
 Huy Nguyen,
 Richard Douglas-Denton,
@@ -238,7 +238,7 @@ Mohamed Zirufaan
 
 ### Overview, Goals, and Objectives
 
-This trimester, this team will collaborate as a unit to create a single game of exceptional class and quality.  
+This trimester, this team will collaborate as a unit to create a single game of exceptional class and quality.
 
 The goal is to make a game so good it is worthy of commercial release game. The intension here is to showcase to the world, the power of the SplashKit SDK, and encourage developers to develop games using the engine. This trimesters student developers will aim to utilise as many methods that SplashKit has to offer in order to ‘advertise’ SplashKit’s ability as a game engine.
 
@@ -273,7 +273,7 @@ The aim for this trimester is to
 
 Delivery Lead:  Morgaine Barter
 
-Software Developers:  
+Software Developers:
 Daniel Agbay,
 Lachlan Morgan,
 Roy Chen,
@@ -352,7 +352,7 @@ Secondary aims for the semester are to create a neural network agent, develop pl
 
 Delivery Lead: Timothy Moore
 
-Software Developers:  
+Software Developers:
 Alex Hocking,
 Devesh Juggiah,
 Gaganjeet Singh,
@@ -396,7 +396,7 @@ The aim for this trimester is to
 
 Delivery Lead:  Bella Chhour
 
-Software Developers:  
+Software Developers:
 Lachlan Cayzer,
 Nelson La,
 Nick Agiazis
@@ -436,7 +436,7 @@ The aim for this trimester is to
 
 Delivery Lead:  Ryan Lawrence
 
-Developers:  
+Developers:
 Ismail Hassan,
 Auden Vitasa,
 Kevin Nguyen
@@ -454,48 +454,142 @@ Internal systems website will be for holding all company related documentation. 
 
 #### Overview, Goals, and Objectives
 
-• Establish an website for centralised documentation  
-• Documentation produced is accurate to current version of products  
-• A quick way for updating and distributing company and product details  
-• Site is automatically generated when contributions are made  
-• Site is hosted
+- Establish an website for centralised documentation
+- Documentation produced is accurate to current version of products
+- A quick way for updating and distributing company and product details
+- Site is automatically generated when contributions are made
+- Site is hosted
 
 #### Aims for Trimester
 
-• Research privacy and security features  
-• Design the interface  
-• Deciding who gets access  
-• Deciding how will we test  
-• How will privacy be protected  
-• A prototype showing all design and functionality of the internal website  
+- Research privacy and security features
+- Design the interface
+- Deciding who gets access
+- Deciding how will we test
+- How will privacy be protected
+- A prototype showing all design and functionality of the internal website
 
 #### Deliverables
 
-Short-term:  
-• Design the interface  
-• Establishing testing strategy  
-• Establishing hosting strategy  
-• Research solutions  
+Short-term:
+- Design the interface
+- Establishing testing strategy
+- Establishing hosting strategy
+- Research solutions
 
-Long-term:  
-• Establish a website for centralised documentation as a part of Company Operation.  
+Long-term:
+- Establish a website for centralised documentation as a part of Company Operation.
 
 #### Project Members
 
 Delivery Lead:  Ishrat Jahan
-  
-Software Developers:  
+
+Software Developers:
 Harrison Paul Allwood,
 Manveen Kaur Bhullar,
 Pratham Gupta,
 Sherap Thakur,
 Tanish Dhapola
 
+### TODO: Company Documentation
+
+---
+## DreamBig
+
+DreamBig is a new product innovation driven by the School of IT at Deakin. DreamBig aims to provide a personalised
+roadmap integrated with Ontrack to support students to develop their professional identity across their course and
+improve their employability after graduation. In addition, it aims to provide a platform to help set realistic expectations
+for students graduating into the real world. In line with this vision, it is proposed to build a prototype that can help
+achieve the following goals:
+- Multi-dimensional visualisation of each student's growing professional identity
+- Used within curriculum to encourage engagement.
+- Scaffolds reflections on industry-readiness
+- Increases awareness of important milestones and dates for graduate recruitment and internships
+- Customised paths for career starters, career changers and career advancers.
+
+### DreamBig Prototype Technical Team
+#### Overview, Goals, and Objectives
+DreamBig is at its early inception. The customer needs and product requirements are gradually discovered and refined. The Prototype Technical project is an attempt to explore the technicality and possibility of the features discovered by the design team. The process includes determining Backend API functionality and preparing frontend pages to prove that, identifying underserved customer needs, UML diagram for backend DB design, database, specifying the MVP feature set, building, and testing small build components of the prototype with the customers.
+#### Aims for Trimester
+Research will be conducted to investigate finalised frontend components and design the backend for them and prioritise high-value features. These will form the minimum viable product (MVP). As part of this work, the following will be established:
+-	Documentation of app developments
+-	Research and analysis on prototype backend functionality
+-	Focussing on connecting frontend to backend upon design conformation
+-	Complete technical prototype incorporating above analysis
+
+#### Deliverables
+Short-term
+-	Detailed UML diagram for backend DB design
+-	Documentation on how to setup DreamBig app using Docker
+-	Frontend pages that prove backend API functionality
+Long-term
+-	Build frontend pages that deliver DreamBig planned functionality
+-	Ensure all aspects of DreamBig app have been unit tested
+-	Create e2e tests for DreamBig
+
+#### Project Members
+Delivery Lead: Linden Hutchinson
+
+Software Developers:
+Norbert Pop
+Way Yan Min
+Technical Documentation Specialist:
+Xue Ting Jing
+
+### DreamBig Prototype Technical Team
+#### Overview, Goals, and Objectives
+DreamBig Frontend design is at its early inception. The customer needs and product requirements are discovered and are being refined at every step. The Prototype Design project is an attempt to explore the product-market fit. The process includes re-determining our target customer, identifying underserved customer needs, defining the product value proposition, specifying the MVP feature set, building, and testing design the prototype with the customers.
+#### Aims for Trimester
+Research will be conducted to investigate customer needs and prioritise high-value features. These will form the minimum viable product (MVP). As part of this work, the following will be established:
+-	Work on the UI design for every features
+-	Work on the UX design for application
+-	Documentation on simple and clear design
+ #### Deliverables
+Short-term
+-	Finishing wireframes update and high-quality model.
+-	Complete high quality design documentation to communicate design concepts.
+Long-term
+-	Complete a good quality UI/UX design prototype incorporating above analysis
+-	Keeping updating  any users prefer features and UI.
+#### Project Members
+Delivery lead: Harry Liu
+
+UI&UX designer:
+Adam Sawczuk
+Josephine Hannah
+Junhua Ma
+Monica Valentina Tasmin
+Wei Min Voon
+
+### DreamBig Documentation and Quality Assurance Team
+#### Overview, Goals, and Objectives
+DreamBig Frontend design is at its early inception. The customer needs and product requirements are discovered and are being refined at every step. The Prototype Documentation and QA project is an attempt to explore and build a standard structured framework of documentation and QA processes. The process includes and testing of design/technical prototype with company standards.
+#### Aims for Trimester
+Research will be conducted to investigate possible structure and frameworks for documentations and QA testings. These will form the minimum viable product (MVP). As part of this work, the following will be established:
+-	Build a framework for documentation and QA testing
+-	Completed aligning the previous documents to the new framework
+-	Work on QA testing for existing design features and wireframes and keep doing the same for the work that will be completed in the project going forward
+#### Deliverables
+Short-term
+-	Complete research and trials of new frameworks for documentation and QA
+-	Test the framework with new documentation and features for QA
+Long-term
+-	Once the build of design prototype is done do the required testing
+-	Once the build of technical prototype (backend, frontend, API, database) is being built, do regular testing to see if they are produced according to company standards
+-	Finish converting previous documentation according to the new framework
+#### Project Members
+Delivery lead: Neha Makineni
+
+Technical writers:
+Alicia Threatt
+Ashar Kamal
+Quality Assurance testing specialists:
+Gurpreet Kaur
+Tiomothy Davies
+
 ---
 
 ## TODO: OnTrack
-
-## TODO: DreamBig
 
 ### Project Title (repeat for each project – each starting a new page)
 
@@ -519,4 +613,4 @@ long-term and trimester deliverables.
 #### Project Members
 
 List the members and their roles – clearly identify the lead student(s).
-(1 page per project)  
+(1 page per project)
