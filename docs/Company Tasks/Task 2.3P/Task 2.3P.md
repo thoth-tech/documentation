@@ -58,6 +58,8 @@ Table of contents
 - [Company Structure and Projects Overview](#company-structure-and-projects-overview)
 - [Products](#products)
   - [SplashKit](#splashkit)
+    - [Applications - Arcade Machine](#applications---arcade-machine)
+    - [Applications - Build An Exceptional Game](#applications---build-an-exceptional-game)
   - [Company Operations](#company-operations)
   - [OnTrack](#todo-ontrack)
   - [DreamBig](#todo-dreambig)
@@ -323,7 +325,7 @@ Short-term:
 • Research solutions  
 
 Long-term:  
-• Establish an website for centralised documentation as a part of Company Operation.  
+• Establish a website for centralised documentation as a part of Company Operation.  
 
 #### Project Members
 
