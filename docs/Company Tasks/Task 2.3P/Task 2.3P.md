@@ -4,11 +4,15 @@
 
 Table of contents
 
-- [Executive Summary](#Executive-Summary)
-- [Leadership Team](#Leadership-Team)
-- [Trimester Goals and Objectives](#Trimester-Goals-and-Objectives)
-- []()
-- []()
+- [Executive Summary](#executive-summary)
+- [Leadership Team](#leadership-team)
+- [Trimester Goals and Objectives](#trimester-goals-and-objectives)
+- [Company Structure and Projects Overview](#company-structure-and-projects-overview)
+- [Products](#products)
+  - [SplashKit](#splashkit)
+  - [Company Operations](#company-operations)
+  - [OnTrack](#todo-ontrack)
+  - [DreamBig](#todo-dreambig)
 
 ---
 
@@ -96,34 +100,33 @@ Create a safe, supportive, and collaborative company culture that empowers our e
 - Create a psychologically safe space for collaboration to thrive
 - Optimise the company experience for future employees
 
-Objective 3: Add value to the SplashKit Product by extending functionality and languages
-• Improve the SplashKit product through realistic physics, data visualisations
+### Objective 3
+
+Add value to the SplashKit Product by extending functionality and languages
+
+- Improve the SplashKit product through realistic physics, data visualisations
 and machine learning
-• Improve SplashKit language compatibilities to expand learning accessibility
+- Improve SplashKit language compatibilities to expand learning accessibility
 for users
-• Improve SplashKit installation process and compatibilties
-• Complete a hardware product to showcase student game creations
+- Improve SplashKit installation process and compatibilties
+- Complete a hardware product to showcase student game creations
 
-Objective 4: Add value to Company Operations
-• Improve the Handbook
-• Establish an website for centralised documentation as a part of Company Operation.
-• Establish guidelines, protocols for all the major principles
-• Include Standard Templates for different processes
-• Improve company policies
+### Objective 4
 
-TODO:
-Objective 4: Add value to the OnTrack Product by adding and enhancing features
-• Add Voice Verification as a new feature
-• Add Jupyter notebook support as a new feature
-• Create a company hosted deployment of OnTrack
-• Move Ontrack front-end away from legacy technologies
-• Analyse, update, improve and create retrospective OnTrack documentation
+Add value to Company Operations
 
-TODO:
-Objective 5: Create the DreamBig prototype as a new product that adds value to
-the Thoth Tech company
-• Build the vision and strategy for the DreamBig product
-• Create a DreamBig prototype as proof of concept
+- Improve the Handbook
+- Establish a website for centralised documentation as a part of Company Operation.
+- Establish guidelines, protocols for all the major principles
+- Include Standard Templates for different processes
+- Improve company policies
+
+### TODO Objective 5
+
+Create the DreamBig prototype as a new product that adds value to the Thoth Tech company
+
+- Build the vision and strategy for the DreamBig product
+- Create a DreamBig prototype as proof of concept
 
 ## Company Structure and Projects Overview
 
@@ -135,7 +138,9 @@ TODO:
 Provide a visual diagram of the company structure – showing projects, their relationships,
 lead students, and team members.
 
-## Product - SplashKit
+## Products
+
+### SplashKit
 
 SplashKit is an open-source Software Development Kit (SDK), created with the purpose
 of reducing the overhead required for truly technical coding and allowing students
@@ -148,21 +153,14 @@ for truly technical coding which enables students new to coding to create satisf
 programs in a short period of time. SplashKit enables novice coders to quickly learn
 to construct fun and functional programs which they can be proud to showcase.
 It includes a large library of functions which can be utilized by the user to
-experiment and apply for their own application or game. This product is currently
+experiment and apply for their own application or game.  
+
+This product is currently
 used by the students at Deakin University and aims to become a global educational
 toolkit. Currently the language used for development is C++ and the direction of
 the product is to improve and expand the capabilities to increase SplashKit accessibility.
-Product Lead: Anthony George
 
 ## SplashKit
-
-### Operations
-
-### Extensions
-
-### Modules
-
-### Applications - Build An Exceptional Game
 
 ### Applications - Arcade Machine
 
@@ -222,29 +220,15 @@ Richard Douglas-Denton,
 Lachlan Foy,
 Mohamed Zirufaan
 
-### Project 2 Title (repeat for each project – each starting a new page)
+### Applications - Build An Exceptional Game
 
-TODO:
-Operations -
+### Operations
 
-#### Overview, Goals, and Objectives
+### Extensions
 
-Describe the project, its motivation, overall/long-term goals of the project,
-and how it impacts stakeholders…
+### Modules
 
-#### Aims for Trimester
-
-Describe the aims of the project for this trimester.
-
-#### Deliverables
-
-Describe the deliverables associated with this project – distinguish between
-long-term and trimester deliverables.
-
-#### Project Members
-
-List the members and their roles – clearly identify the lead student(s).
-(1 page per project)  
+---
 
 ## Company Operations
 
@@ -294,6 +278,32 @@ Pratham Gupta,
 Sherap Thakur,
 Tanish Dhapola
 
+---
+
 ## TODO: OnTrack
 
 ## TODO: DreamBig
+
+### Project Title (repeat for each project – each starting a new page)
+
+TODO:
+Operations -
+
+#### Overview, Goals, and Objectives
+
+Describe the project, its motivation, overall/long-term goals of the project,
+and how it impacts stakeholders…
+
+#### Aims for Trimester
+
+Describe the aims of the project for this trimester.
+
+#### Deliverables
+
+Describe the deliverables associated with this project – distinguish between
+long-term and trimester deliverables.
+
+#### Project Members
+
+List the members and their roles – clearly identify the lead student(s).
+(1 page per project)  
