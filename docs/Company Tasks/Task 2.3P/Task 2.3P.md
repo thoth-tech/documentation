@@ -590,23 +590,31 @@ Gurpreet Kaur,
 Tiomothy Davies
 
 ---
-## TODO: OnTrack
+## OnTrack
 
 ### OnTrack - Voice Verification
 
 #### Overview, Goals, and Objectives
 
-Describe the project, its motivation, overall/long-term goals of the project,
-and how it impacts stakeholders…
+Due to the rise in contract cheating, audio submissions to the OnTrack system need to be reviewed in order to ensure that the Speaker within the submission is the student to be submitting the work. The long term goal of this project is to implement a Voice Verification system into OnTrack Audio submissions. This will allow assessors to identify cheating where possible, and to discourage students from submitting work that is not their own. 
 
 #### Aims for Trimester
 
-Describe the aims of the project for this trimester.
+The Aims for this Trimester are: 
+- To Test the system for a range of different audio files with multiple speakers 
+- Implement the Voice Verification container into the OnTrack API 
+- Design a User Interface for displaying results of verification of a Submission
 
 #### Deliverables
 
-Describe the deliverables associated with this project – distinguish between
-long-term and trimester deliverables.
+Short Term: 
+- Test how the system responds to audio submissions with multiple different speakers  
+- Wireframes and High-Fidelity designs for User Interface for displaying results
+- Documentation of implementing the Voice Verification container into the existing OnTrack API 
+- Working validation of voices through a local distribution of the OnTrack API 
+
+Long Term:
+- Full implementation, Testing and Documentation of Voice Verification system within the existing OnTrack System. 
 
 #### Project Members
 
@@ -766,17 +774,25 @@ Xuetong Zhao
 
 #### Overview, Goals, and Objectives
 
-Describe the project, its motivation, overall/long-term goals of the project,
-and how it impacts stakeholders…
+OnTrack is a growing and evolving system. OnTrack should be documented to ensure that future teams who work on the project have a starting point to understanding and making changes to the existing system. This will help all members of the OnTrack development team, current and future. 
 
 #### Aims for Trimester
 
-Describe the aims of the project for this trimester.
+The Aims for this Trimester are: 
+- Map out the existing OnTrack project, and related systems
+- Discover areas of OnTrack that still need to be documented
+- Ensure all mapped areas of the OnTrack Project are appropriately documented
 
 #### Deliverables
 
-Describe the deliverables associated with this project – distinguish between
-long-term and trimester deliverables.
+Short Term: 
+- Mapping the existing OnTrack project 
+- Identifying areas to document 
+- Writing documentation for identified areas 
+
+Long Term: 
+- Ensuring the entirety of the current OnTrack project are documented 
+- Formatting documentation of new areas to match OnTrack documentation standards 
 
 #### Project Members
 Delivery Lead: Shaine Christmas
