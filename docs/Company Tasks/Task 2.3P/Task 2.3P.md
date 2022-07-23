@@ -532,7 +532,7 @@ Delivery Lead: Linden Hutchinson
 
 Software Developers:
 Norbert Pop,
-Way Yan Min,
+Way Yan Min
 
 Technical Documentation Specialist:
 Xue Ting Jing
@@ -583,7 +583,7 @@ Delivery lead: Neha Makineni
 
 Technical writers:
 Alicia Threatt,
-Ashar Kamal,
+Ashar Kamal
 
 Quality Assurance testing specialists:
 Gurpreet Kaur,
