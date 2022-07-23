@@ -360,13 +360,48 @@ Harry Dentry,
 Jingyu Zhang,
 Munatsi Matipano
 
-## Operations
-
-
-
 ## Extensions
 
+### Overview, Goals, and Objectives
 
+This trimester, the Extensions team will continue to develop the SplashKit translator Ruby application and enahnce it to translate the original C++ library into Python versions > 3.8. The SplashKit Extensions project’s aim is to provide the SplashKit library interface in additional languages.
+
+This team has a goal of taking last trimesters exisitng research and foundation, and extending on that to succeed in fixing the incompatibilities it encountered.
+
+The team also has the objective to translate other languages if possible, and reserach and develop an alternative means to the use of MSYS during installation.
+
+### Aims for Trimester
+
+The aim for this trimester is to
+
+- Fix Python incompatibilities
+- Complete Python and Rust language extensions
+- Translate to other languages if possible
+- Test Python translator
+
+### Deliverables
+
+#### Short-term
+
+- Research and document exact versioning errors
+- Research and document alternative approaches
+- Design and document an alternative approach
+- Implement changes to SplashKit-core to rectify incompatibilities
+
+#### Long-term
+
+- Complete this approach for other languages
+
+#### Project Members
+
+Delivery Lead:  Bella Chhour
+
+Software Developers:  
+Lachlan Cayzer,
+Nelson La,
+Nick Agiazis
+
+## Operations
 
 ---
 
