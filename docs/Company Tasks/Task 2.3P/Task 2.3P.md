@@ -590,13 +590,9 @@ Gurpreet Kaur,
 Tiomothy Davies
 
 ---
-
 ## TODO: OnTrack
 
-### Project Title (repeat for each project – each starting a new page)
-
-TODO:
-Operations -
+### OnTrack - Voice Verification
 
 #### Overview, Goals, and Objectives
 
@@ -614,5 +610,208 @@ long-term and trimester deliverables.
 
 #### Project Members
 
-List the members and their roles – clearly identify the lead student(s).
-(1 page per project)
+Delivery Lead:  Shaine Christmas
+  
+Software Developers:  
+Ha Nguyen,
+Devin Oshada Uvin Jayasinghe,
+Daniel Le, 
+Simon Agahi,
+Jesse Kyle Hancock
+
+---
+
+### OnTrack - Task and Submission Redesign
+
+#### Overview, Goals, and Objectives
+
+Describe the project, its motivation, overall/long-term goals of the project,
+and how it impacts stakeholders…
+
+#### Aims for Trimester
+
+Describe the aims of the project for this trimester.
+
+#### Deliverables
+
+Describe the deliverables associated with this project – distinguish between
+long-term and trimester deliverables.
+
+#### Project Members
+
+Delivery Lead: Grady Ramsay
+
+Software Developers:
+Daniel Patrick Norris,
+Ricky Dodd,
+Mat Perkins
+
+---
+
+### OnTrack - File Submission Enhancements
+
+#### Overview, Goals, and Objectives
+
+Describe the project, its motivation, overall/long-term goals of the project,
+and how it impacts stakeholders…
+
+#### Aims for Trimester
+
+Describe the aims of the project for this trimester.
+
+#### Deliverables
+
+Describe the deliverables associated with this project – distinguish between
+long-term and trimester deliverables.
+
+#### Project Members
+
+Delivery Lead: Nandini Kaushal
+
+Software Developers:
+Keerat Kaur,
+Aaryan Sharma,
+Gurpartap Singh Panesar,
+Jayant,
+Yongqi Huang,
+Aryan Bagoria
+
+---
+
+### OnTrack - Security Analysis
+
+#### Overview, Goals, and Objectives
+
+Describe the project, its motivation, overall/long-term goals of the project,
+and how it impacts stakeholders…
+
+#### Aims for Trimester
+
+Describe the aims of the project for this trimester.
+
+#### Deliverables
+
+Describe the deliverables associated with this project – distinguish between
+long-term and trimester deliverables.
+
+#### Project Members
+
+Delivery Lead: Ereena Bagga
+
+Developers:
+Ben Thomas
+
+---
+
+### OnTrack - User Interface Enhancement
+
+#### Overview, Goals, and Objectives
+
+Describe the project, its motivation, overall/long-term goals of the project,
+and how it impacts stakeholders…
+
+#### Aims for Trimester
+
+Describe the aims of the project for this trimester.
+
+#### Deliverables
+
+Describe the deliverables associated with this project – distinguish between
+long-term and trimester deliverables.
+
+#### Project Members
+
+Delivery Lead: Leo Luong
+
+Software Developers:
+Anthony Papoutsis,
+Ahmed Ali,
+Aldy Putra Shavira,
+Kosta Constantinou,
+Nelson Lai
+
+---
+
+### OnTrack - Google Cloud Deployment
+
+#### Overview, Goals, and Objectives
+
+Describe the project, its motivation, overall/long-term goals of the project,
+and how it impacts stakeholders…
+
+#### Aims for Trimester
+
+Describe the aims of the project for this trimester.
+
+#### Deliverables
+
+Describe the deliverables associated with this project – distinguish between
+long-term and trimester deliverables.
+
+#### Project Members
+
+Delivery Lead: Harshpreet Kaur
+
+Developers:
+Anshuman Bishnoi,
+Dan Eastaugh,
+Sicheng Liu,
+Chetan Nagar,
+Pratham Gupta,
+Xuetong Zhao
+
+---
+
+### OnTrack - Documentation
+
+#### Overview, Goals, and Objectives
+
+Describe the project, its motivation, overall/long-term goals of the project,
+and how it impacts stakeholders…
+
+#### Aims for Trimester
+
+Describe the aims of the project for this trimester.
+
+#### Deliverables
+
+Describe the deliverables associated with this project – distinguish between
+long-term and trimester deliverables.
+
+#### Project Members
+Delivery Lead: Shaine Christmas
+
+Documentors:
+Matt Clark,
+Jasdeep Singh,
+MD Fahim Mizi,
+Shiv Bhanu,
+Adrienne Gelbhauer
+
+---
+
+### OnTrack - Quality Assurance and Testing
+
+#### Overview, Goals, and Objectives
+
+Describe the project, its motivation, overall/long-term goals of the project,
+and how it impacts stakeholders…
+
+#### Aims for Trimester
+
+Describe the aims of the project for this trimester.
+
+#### Deliverables
+
+Describe the deliverables associated with this project – distinguish between
+long-term and trimester deliverables.
+
+#### Project Members
+
+Delivery Lead: Matthew Paul Fletcher
+
+Testers:
+David Kwiatkowski,
+Parth Aneja
+
+---
