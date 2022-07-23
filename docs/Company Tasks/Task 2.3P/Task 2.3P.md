@@ -282,11 +282,91 @@ Robert Osborne,
 Lily Lan,
 Jiahao Zheng
 
-### Operations
+## Modules Enhancements
 
-### Extensions
+### Overview, Goals, and Objectives
 
-### Modules
+The Splashkit modules team has an exciting semester ahead of them, with each module in a position to have deliverable components completed.
+
+The machine learning module had a working reinforcement learning agent that can play turn based games. Refactoring and code review was performed on the physics module, but external dependencies on the Box2D library has left the module requiring a major refactor. This refactor would mean that Splashkit would contain a native physics engine. The data analytics module has a structure for a dataframe, pending it passing code review and testing.
+
+Objectives for the modules project include:
+
+- Building multiple machine learning agents utilising different algorithms to be used by developers for different features
+- Create a 2D physics engine within SplashKit, allowing physics to be easily added to objects within a project
+- Implement a dataframe structure that loads structured data and create an API that allows a data scientist to pre-process, transform and visualise the data.
+
+With the addition of these modules, there is potential for Splashkit to be utilised in a greater capacity within more disciplines. Building the data analytics module allows for more focused classes to be designed for data science students, rather than only using Splashkit for building games. Both the physics and machine learning modules will advance the quality and capability of games and animations built while using Splashkit.
+
+### Aims for Trimester
+
+The primary aim for this trimester is to have the reinforcement learning agent ready to use by developers and to complete the first stage of deliverables for the physics and data analytics modules. These initial deliverables are to complete the basic dataframe for data analytics and to replace the existing Box2D library uses with native methods.
+
+Secondary aims for the semester are to create a neural network agent, develop plots and visualisations from the data in the dataframes and to begin creating methods for gravity, sinking and projectile motion.
+
+### Deliverables
+
+#### Data Analytics
+
+#### Short-term
+
+- Finish code review
+- Load data row by row and column by column
+- Working Dataframe with descriptive and transformative methods
+- Build a way to display plots and subplots
+
+#### Long-term
+
+- Fully functioning dataframe
+- Data type objects
+- Full preprocessing method suite
+- Multiple data visualisation methods created
+- Integration with machine learning
+
+#### Machine Learning
+
+#### Short-term
+
+- Create games to test reinforcement learning agent against different game styles
+- Begin building neural network agent
+
+#### Long-term
+
+- Continue adding machine learning models as agents
+- Create easy to call methods for developers to utilise these agents
+
+#### Physics
+
+#### Short-term
+
+- Finish code review
+- Refactor code to remove dependency on Box2D
+- Create methods for sprite collisions, object collisions and gravity
+
+#### Long-term
+
+- Create a fully functioning 2d physics engine within Splashkit
+- Expand the methods to include physics such as sinking, inertia and others
+
+### Project Members
+
+Delivery Lead: Timothy Moore
+
+Software Developers:  
+Alex Hocking,
+Devesh Juggiah,
+Gaganjeet Singh,
+Harry Dentry,
+Jingyu Zhang,
+Munatsi Matipano
+
+## Operations
+
+
+
+## Extensions
+
+
 
 ---
 
