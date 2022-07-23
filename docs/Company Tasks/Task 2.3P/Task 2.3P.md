@@ -133,12 +133,10 @@ Create the DreamBig prototype as a new product that adds value to the Thoth Tech
 ## Company Structure and Projects Overview
 
 TODO:
-List the different projects within the company this trimester. Provide details on
-how these projects interact to progress the company holistically.
+List the different projects within the company this trimester. Provide details on how these projects interact to progress the company holistically.
 
 TODO:
-Provide a visual diagram of the company structure – showing projects, their relationships,
-lead students, and team members.
+Provide a visual diagram of the company structure – showing projects, their relationships, lead students, and team members.
 
 ---
 
@@ -166,7 +164,9 @@ used by the students at Deakin University and aims to become a global educationa
 toolkit. Currently the language used for development is C++ and the direction of
 the product is to improve and expand the capabilities to increase SplashKit accessibility.
 
-## Applications - Arcade Machine
+---
+
+## SplashKit: Applications - Arcade Machine
 
 ### Overview, Goals, and Objectives
 
@@ -234,7 +234,7 @@ Richard Douglas-Denton,
 Lachlan Foy,
 Mohamed Zirufaan
 
-## Applications - Build An Exceptional Game
+## SplashKit: Applications - Build An Exceptional Game
 
 ### Overview, Goals, and Objectives
 
@@ -282,7 +282,7 @@ Robert Osborne,
 Lily Lan,
 Jiahao Zheng
 
-## Modules Enhancements
+## SplashKit: Modules Enhancements
 
 ### Overview, Goals, and Objectives
 
@@ -360,7 +360,7 @@ Harry Dentry,
 Jingyu Zhang,
 Munatsi Matipano
 
-## Extensions
+## SplashKit: Extensions
 
 ### Overview, Goals, and Objectives
 
@@ -401,7 +401,7 @@ Lachlan Cayzer,
 Nelson La,
 Nick Agiazis
 
-## Operations
+## SplashKit: Operations
 
 ### Overview, Goals, and Objectives
 
