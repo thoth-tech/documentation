@@ -531,8 +531,9 @@ Long-term
 Delivery Lead: Linden Hutchinson
 
 Software Developers:
-Norbert Pop
-Way Yan Min
+Norbert Pop,
+Way Yan Min,
+
 Technical Documentation Specialist:
 Xue Ting Jing
 
@@ -555,10 +556,10 @@ Long-term
 Delivery lead: Harry Liu
 
 UI&UX designer:
-Adam Sawczuk
-Josephine Hannah
-Junhua Ma
-Monica Valentina Tasmin
+Adam Sawczuk,
+Josephine Hannah,
+Junhua Ma,
+Monica Valentina Tasmin,
 Wei Min Voon
 
 ### DreamBig Documentation and Quality Assurance Team
@@ -581,10 +582,11 @@ Long-term
 Delivery lead: Neha Makineni
 
 Technical writers:
-Alicia Threatt
-Ashar Kamal
+Alicia Threatt,
+Ashar Kamal,
+
 Quality Assurance testing specialists:
-Gurpreet Kaur
+Gurpreet Kaur,
 Tiomothy Davies
 
 ---
