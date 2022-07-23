@@ -403,6 +403,44 @@ Nick Agiazis
 
 ## Operations
 
+### Overview, Goals, and Objectives
+
+The Operations team are responsible for delivering developments at a system level. This includes foundational project, installation processes ('skm'), bug fixes and solutions to ongoing system level problems.
+
+This team has a goal of taking last trimesters exisitng research and extending on that to succeed in delivering an installation process that is effectively 'one-click' and compatible across all operating systems.
+
+The team also has the objective to research and document the possibilty (or lack thereof) a browser based implementation, and should one exist, design and document an approach to take to make this feasable.
+
+### Aims for Trimester
+
+The aim for this trimester is to
+
+- Design a bespoke SplashKit installer
+- Develop this as an out-of-the-box SplashKit installer
+- Research a browser based implementation
+
+### Deliverables
+
+#### Short-term
+
+- A flow-chart of the intended process
+- A UML diagram of the resources required for development
+- The foundations of the installer
+- Research papers on the possibility of browser based solutions
+
+#### Long-term
+
+- A 'one-click' SplashKit installer
+
+#### Project Members
+
+Delivery Lead:  Ryan Lawrence
+
+Developers:  
+Ismail Hassan,
+Auden Vitasa,
+Kevin Nguyen
+
 ---
 
 ## Company Operations
