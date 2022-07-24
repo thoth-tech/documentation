@@ -507,24 +507,22 @@ Tanish Dhapola
 #### Overview, Goals, and Objectives
 
 The Company Documentation team is respnsible for reviewing, managing and improving the state of
-documentation across the whole of the Thoth Tech company and all of its products. Our goal is to
-review the current state of company documentation within the OnTrack, DreamBig, SplashKit and
-Company Operations projects and to improve and expand upon this documentation. In doing so, our
+documentation across the whole of the Thoth Tech company. Our goal is to
+review the current state of company documentation within the company to improve and expand upon this documentation. In doing so, our
 objectives are to streamline the quality and processes of documentation across the whole company and
-to create additional documentation to support the needs of the company as it continues to grow and
+to create additional documentation to support the needs of the company operation as it continues to grow and
 change.
 
 #### Aims for the Trimester
 
 This trimester, the Company Documentation team aims to create, manage, maintain, and improve the
-state of company documentation across the whole company and all products. In meeting this aim, the
+state of company documentation, company policies around transition and people operation. In meeting this aim, the
 team will:
 
-- Review the current state of documentation across the company
+- Review the current state of documentation across the company (including company handbook)
 - Identify gaps or areas of improvement
 - Create new documentation, including templates, in order to address these areas
-- Continue to think critically about the documentation needs of the company and create additional
-  documentation to accomodate such needs
+- Continue to think critically about the documentation needs of the company and create additional documentation to accomodate such needs
 - Work to the best of our abilities to create meaningful and high quality documentation
 
 #### Deliverables
@@ -532,12 +530,14 @@ team will:
 Short-term:
 
 - Various documentation to supplement current documents in order to better meet company needs
-- Reviewed and improved documentation to better the state of documentation across the whole company
+- Reviewed and improved documentation and handbook to better the state of documentation across the whole company
+- Help product specific documentation team to operate more effectively
 
 Long-term:
 
 - Reviewed and improved company policies, guides, and Onboarding and Offboarding procedures
 - Improvements to the Company Handbook
+- Enhancing company policies and procedures
 
 #### Project Members
 
