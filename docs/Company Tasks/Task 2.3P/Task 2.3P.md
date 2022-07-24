@@ -101,7 +101,7 @@ Continue to grow Thoth Tech as a company in line with our mission and values.
 ### Objective 2
 
 Create a safe, supportive, and collaborative company culture that empowers our employees to learn
-and develop their skills
+and develop their skills.
 
 - Maintain a company culture where feedback is welcome, and success is celebrated
 - Support development of chosen skills in every team member
@@ -209,19 +209,21 @@ o Supports the uploading of games o Stores and displays:
 
 ### Aims for Trimester
 
-The aim of this trimester is to enhance the existing application to accommodate cross-platform compatibility. This will include developing methods to facilitate the compilation of games on the host machine. Access to the game library will be offered through the platform where the user can configure settings and select and play their desired game. If time permits, a physical Arcade Machine will be designed and manufactured however the software platform is the primary focus for the trimester.
+The aim of this trimester is to enhance the existing application to accommodate cross-platform
+compatibility. This will include developing methods to facilitate the compilation of games on the
+host machine. Access to the game library will be offered through the platform where the user can
+configure settings and select and play their desired game. If time permits, a physical Arcade
+Machine will be designed and manufactured however the software platform is the primary focus for the
+trimester.
 
 ### Deliverables
 
 #### Short-term
 
-o Decoupling functional behaviour and modularising existing software
-o Adding support for all three major operating systems
-o Adding support for locally compiled games on the host machine
-o Completion of an options menu
-o Discussing and agreeing upon a programming convention and style
-o Addressing style inconsistencies throughout the project’s source code
-o Producing documentation around the
+o Decoupling functional behaviour and modularising existing software o Adding support for all three
+major operating systems o Adding support for locally compiled games on the host machine o Completion
+of an options menu o Discussing and agreeing upon a programming convention and style o Addressing
+style inconsistencies throughout the project’s source code o Producing documentation around the
 project
 
 #### Long-term
@@ -232,19 +234,25 @@ o Physical Arcade Machine built using RaspberryPi
 
 Delivery Lead: Anthony George
 
-Software Developers:
-Riley Dellios, Huy Nguyen, Richard Douglas-Denton, Lachlan Foy, Mohamed Zirufaan, Zac Brydon
+Software Developers: Riley Dellios, Huy Nguyen, Richard Douglas-Denton, Lachlan Foy, Mohamed
+Zirufaan, Zac Brydon
 
 ## SplashKit: Applications - Build An Exceptional Game
 
 ### Overview, Goals, and Objectives
 
-This trimester, this team will collaborate as a unit to create a single game of exceptional class and quality.
+This trimester, this team will collaborate as a unit to create a single game of exceptional class
+and quality.
 
-The goal is to make a game so good it is worthy of commercial release game. The intension here is to showcase to the world, the power of the SplashKit SDK, and encourage developers to develop games using the engine. This trimester's student developers will aim to utilise as many methods that SplashKit has to offer in order to ‘advertise’ SplashKit’s ability as a game engine.
+The goal is to make a game so good it is worthy of commercial release game. The intension here is to
+showcase to the world, the power of the SplashKit SDK, and encourage developers to develop games
+using the engine. This trimester's student developers will aim to utilise as many methods that
+SplashKit has to offer in order to ‘advertise’ SplashKit’s ability as a game engine.
 
-The long-term objectives will showcase how by using SplashKit, game development quality can be achieved such that the product created is of a high enough professional standard, the game can be
-made available commercially. Synchronously, the game will be showcased on the arcade machine in development.
+The long-term objectives will showcase how by using SplashKit, game development quality can be
+achieved such that the product created is of a high enough professional standard, the game can be
+made available commercially. Synchronously, the game will be showcased on the arcade machine in
+development.
 
 ### Aims for Trimester
 
@@ -276,9 +284,7 @@ The aim for this trimester is to
 
 Delivery Lead: Morgaine Barter
 
-Software Developers:
-Daniel Agbay, Lachlan Morgan, Roy Chen, Robert Osborne, Lily Lan,
-Jiahao Zheng
+Software Developers: Daniel Agbay, Lachlan Morgan, Roy Chen, Robert Osborne, Lily Lan, Jiahao Zheng
 
 ## SplashKit: Modules Enhancements
 
@@ -367,15 +373,20 @@ and projectile motion.
 
 Delivery Lead: Timothy Moore
 
-Software Developers: Alex Hocking, Devesh Juggiah, Gaganjeet Singh, Harry Dentry, Jingyu Zhang, Munatsi Matipano
+Software Developers: Alex Hocking, Devesh Juggiah, Gaganjeet Singh, Harry Dentry, Jingyu Zhang,
+Munatsi Matipano
 
 ## SplashKit: Extensions
 
 ### Overview, Goals, and Objectives
 
-This trimester, the Extensions team will continue to develop the SplashKit translator Ruby application and enhance it to translate the original C++ library into Python versions > 3.8. The SplashKit Extensions project’s aim is to provide the SplashKit library interface in additional languages.
+This trimester, the Extensions team will continue to develop the SplashKit translator Ruby
+application and enhance it to translate the original C++ library into Python versions > 3.8. The
+SplashKit Extensions project’s aim is to provide the SplashKit library interface in additional
+languages.
 
-This team has a goal of taking last trimesters existing research and foundation, and extending on that to succeed in fixing the incompatibilities it encountered.
+This team has a goal of taking last trimesters existing research and foundation, and extending on
+that to succeed in fixing the incompatibilities it encountered.
 
 The team also has the objective to translate other languages if possible, and reserach and develop
 an alternative means to the use of MSYS during installation.
@@ -385,7 +396,8 @@ an alternative means to the use of MSYS during installation.
 The aim for this trimester is to
 
 - Understand how the language translators works
-- Investigate changes in Python between 3.8x versions and earlier to identify which of these changes have caused current incompatibilities
+- Investigate changes in Python between 3.8x versions and earlier to identify which of these changes
+  have caused current incompatibilities
 - Get SplashKit successfully working on the latest Python version (3.10.x)
 - Fix Python incompatibilities
 - Complete Python and Rust language extensions
@@ -510,22 +522,23 @@ Tanish Dhapola
 #### Overview, Goals, and Objectives
 
 The Company Documentation team is responsible for reviewing, managing and improving the state of
-documentation across the whole of the Thoth Tech company. Our goal is to
-review the current state of company documentation within the company to improve and expand upon this documentation. In doing so, our
-objectives are to streamline the quality and processes of documentation across the whole company and
-to create additional documentation to support the needs of the company operation as it continues to grow and
-change.
+documentation across the whole of the Thoth Tech company. Our goal is to review the current state of
+company documentation within the company to improve and expand upon this documentation. In doing so,
+our objectives are to streamline the quality and processes of documentation across the whole company
+and to create additional documentation to support the needs of the company operation as it continues
+to grow and change.
 
 #### Aims for the Trimester
 
 This trimester, the Company Documentation team aims to create, manage, maintain, and improve the
-state of company documentation, company policies around transition and people operation. In meeting this aim, the
-team will:
+state of company documentation, company policies around transition and people operation. In meeting
+this aim, the team will:
 
 - Review the current state of documentation across the company (including company handbook)
 - Identify gaps or areas of improvement
 - Create new documentation, including templates, in order to address these areas
-- Continue to think critically about the documentation needs of the company and create additional documentation to accommodate such needs
+- Continue to think critically about the documentation needs of the company and create additional
+  documentation to accommodate such needs
 - Work to the best of our abilities to create meaningful and high quality documentation
 
 #### Deliverables
@@ -533,7 +546,8 @@ team will:
 Short-term:
 
 - Various documentation to supplement current documents in order to better meet company needs
-- Reviewed and improved documentation and handbook to better the state of documentation across the whole company
+- Reviewed and improved documentation and handbook to better the state of documentation across the
+  whole company
 - Help product specific documentation team to operate more effectively
 
 Long-term:
@@ -688,7 +702,11 @@ Quality Assurance testing specialists: Gurpreet Kaur, Tiomothy Davies
 
 #### Overview, Goals, and Objectives
 
-Due to the rise in contract cheating, audio submissions to the OnTrack system need to be reviewed in order to ensure that the Speaker within the submission is the student to be submitting the work. The long term goal of this project is to implement a Voice Verification system into OnTrack Audio submissions. This will allow assessors to identify cheating where possible, and to discourage students from submitting work that is not their own.
+Due to the rise in contract cheating, audio submissions to the OnTrack system need to be reviewed in
+order to ensure that the Speaker within the submission is the student to be submitting the work. The
+long term goal of this project is to implement a Voice Verification system into OnTrack Audio
+submissions. This will allow assessors to identify cheating where possible, and to discourage
+students from submitting work that is not their own.
 
 #### Aims for Trimester
 
@@ -709,18 +727,15 @@ Short Term:
 
 Long Term:
 
-- Full implementation, Testing and Documentation of Voice Verification system within the existing OnTrack System.
+- Full implementation, Testing and Documentation of Voice Verification system within the existing
+  OnTrack System.
 
 #### Project Members
 
 Delivery Lead: Shaine Christmas
 
-Software Developers:
-Ha Nguyen,
-Devin Oshada Uvin Jayasinghe,
-Daniel Le,
-Simon Agahi,
-Jesse Kyle Hancock
+Software Developers: Ha Nguyen, Devin Oshada Uvin Jayasinghe, Daniel Le, Simon Agahi, Jesse Kyle
+Hancock
 
 ---
 
@@ -728,7 +743,11 @@ Jesse Kyle Hancock
 
 #### Overview, Goals, and Objectives
 
-The Objective of this project is to redesign the task view and submission process for students empowering students, connecting them with tutors and facilitating personalised learning experiences. Our goal is creating UI and software designs for a "next generation" update to tasks in OnTrack. The project effects all users of OnTrack, mainly for how students view and understand their tasks for their units, as well as how submission is handled for students and assessors.
+The Objective of this project is to redesign the task view and submission process for students
+empowering students, connecting them with tutors and facilitating personalised learning experiences.
+Our goal is creating UI and software designs for a "next generation" update to tasks in OnTrack. The
+project effects all users of OnTrack, mainly for how students view and understand their tasks for
+their units, as well as how submission is handled for students and assessors.
 
 #### Aims for Trimester
 
@@ -755,10 +774,7 @@ Long Term:
 
 Delivery Lead: Grady Ramsay
 
-Software Developers:
-Daniel Patrick Norris,
-Ricky Dodd,
-Mat Perkins
+Software Developers: Daniel Patrick Norris, Ricky Dodd, Mat Perkins
 
 ---
 
@@ -766,7 +782,12 @@ Mat Perkins
 
 #### Overview, Goals, and Objectives
 
-This project aims for enhance the file submission project for the OnTrack system. By increasing the types of files that can be used for submission to OnTrack, ease of submitting tasks for students and importing submissions for assessors will be increased. This project mainly effects the students, as it will reduce steps needed to submit tasks; specifically the conversion of different file types. Long term, this project aims to document accepted file types, identify file types that can be used for the OnTrack system, and implement and document any new file types added to the system.
+This project aims for enhance the file submission project for the OnTrack system. By increasing the
+types of files that can be used for submission to OnTrack, ease of submitting tasks for students and
+importing submissions for assessors will be increased. This project mainly effects the students, as
+it will reduce steps needed to submit tasks; specifically the conversion of different file types.
+Long term, this project aims to document accepted file types, identify file types that can be used
+for the OnTrack system, and implement and document any new file types added to the system.
 
 #### Aims for Trimester
 
@@ -794,12 +815,7 @@ Long Term:
 
 Delivery Lead: Nandini Kaushal
 
-Software Developers:
-Keerat Kaur,
-Aaryan Sharma,
-Gurpartap Singh Panesar,
-Jayant,
-Yongqi Huang,
+Software Developers: Keerat Kaur, Aaryan Sharma, Gurpartap Singh Panesar, Jayant, Yongqi Huang,
 Aryan Bagoria
 
 ---
@@ -808,7 +824,11 @@ Aryan Bagoria
 
 #### Overview, Goals, and Objectives
 
-The aim of the Security Analysis project is to understand the vulnerabilities within the OnTrack system, to aid in the implementation of security measures. Given that OnTrack has a high throughput of task submission and user data, protecting the students and assessors data is paramount for ensuring that both technical system remain secure. This will effect all users of Ontrack, as well as the ongoing development of the OnTrack system.
+The aim of the Security Analysis project is to understand the vulnerabilities within the OnTrack
+system, to aid in the implementation of security measures. Given that OnTrack has a high throughput
+of task submission and user data, protecting the students and assessors data is paramount for
+ensuring that both technical system remain secure. This will effect all users of Ontrack, as well as
+the ongoing development of the OnTrack system.
 
 #### Aims for Trimester
 
@@ -836,8 +856,7 @@ Long Term:
 
 Delivery Lead: Ereena Bagga
 
-Developers:
-Ben Thomas
+Developers: Ben Thomas
 
 ---
 
@@ -845,7 +864,12 @@ Ben Thomas
 
 #### Overview, Goals, and Objectives
 
-The overarching goal of this project is to migrate the current components, which utilise CoffeeScript and Bootstrap, to Angular framework with Typescript. CoffeeScript has outlived its usefulness and falls short of more contemporary frameworks in terms of support, functionality, and security. Developers can easily design dynamic single-page applications using Angular because to its component-based architecture. As TypeScript provides types and enables early problem identification, its use in its construction ensures improved security.
+The overarching goal of this project is to migrate the current components, which utilise
+CoffeeScript and Bootstrap, to Angular framework with Typescript. CoffeeScript has outlived its
+usefulness and falls short of more contemporary frameworks in terms of support, functionality, and
+security. Developers can easily design dynamic single-page applications using Angular because to its
+component-based architecture. As TypeScript provides types and enables early problem identification,
+its use in its construction ensures improved security.
 
 #### Aims for Trimester
 
@@ -864,19 +888,17 @@ Short Term:
 
 Long Term:
 
-- Ensure all migrated components have been tested and function as expected by implementing test units.
-- Prior to CoffeeScript support being removed, make sure that future team members are supported and set up for success to migrate all remaining components
+- Ensure all migrated components have been tested and function as expected by implementing test
+  units.
+- Prior to CoffeeScript support being removed, make sure that future team members are supported and
+  set up for success to migrate all remaining components
 
 #### Project Members
 
 Delivery Lead: Leo Luong
 
-Software Developers:
-Anthony Papoutsis,
-Ahmed Ali,
-Aldy Putra Shavira,
-Kosta Constantinou,
-Nelson Lai
+Software Developers: Anthony Papoutsis, Ahmed Ali, Aldy Putra Shavira, Kosta Constantinou, Nelson
+Lai
 
 ---
 
@@ -884,7 +906,10 @@ Nelson Lai
 
 #### Overview, Goals, and Objectives
 
-The Google Cloud Deployment team aims to deploy the existing OnTrack system to the Google Cloud Platform. This will aid in the interactions of the internal parts of the system, as well as scaling the system for future development of the platform. The overall goal for this project is to fully deploy and maintain the OnTrack system using the Google Cloud Platform.
+The Google Cloud Deployment team aims to deploy the existing OnTrack system to the Google Cloud
+Platform. This will aid in the interactions of the internal parts of the system, as well as scaling
+the system for future development of the platform. The overall goal for this project is to fully
+deploy and maintain the OnTrack system using the Google Cloud Platform.
 
 #### Aims for Trimester
 
@@ -905,20 +930,15 @@ Short Term:
 Long Term:
 
 - Maintenence of the OnTrack system using the Google Cloud platform.
-- Implementation of Google Cloud Platform tools to aid in testing and deployment of the OnTrack system.
+- Implementation of Google Cloud Platform tools to aid in testing and deployment of the OnTrack
+  system.
 - Ongoing Documentation of the OnTrack deployment to Google Cloud Platform.
 
 #### Project Members
 
 Delivery Lead: Harshpreet Kaur
 
-Developers:
-Anshuman Bishnoi,
-Dan Eastaugh,
-Sicheng Liu,
-Chetan Nagar,
-Pratham Gupta,
-Xuetong Zhao
+Developers: Anshuman Bishnoi, Dan Eastaugh, Sicheng Liu, Chetan Nagar, Pratham Gupta, Xuetong Zhao
 
 ---
 
@@ -926,7 +946,9 @@ Xuetong Zhao
 
 #### Overview, Goals, and Objectives
 
-OnTrack is a growing and evolving system. OnTrack should be documented to ensure that future teams who work on the project have a starting point to understanding and making changes to the existing system. This will help all members of the OnTrack development team, current and future.
+OnTrack is a growing and evolving system. OnTrack should be documented to ensure that future teams
+who work on the project have a starting point to understanding and making changes to the existing
+system. This will help all members of the OnTrack development team, current and future.
 
 #### Aims for Trimester
 
@@ -953,12 +975,7 @@ Long Term:
 
 Delivery Lead: Shaine Christmas
 
-Documentors:
-Matt Clark,
-Jasdeep Singh,
-MD Fahim Mizi,
-Shiv Bhanu,
-Adrienne Gelbhauer
+Documentors: Matt Clark, Jasdeep Singh, MD Fahim Mizi, Shiv Bhanu, Adrienne Gelbhauer
 
 ---
 
@@ -966,7 +983,11 @@ Adrienne Gelbhauer
 
 #### Overview, Goals, and Objectives
 
-This project’s main goal is to identify and document the current features of OnTrack and put in place a Quality Assurance and Testing infrastructure to better maintain the quality of OnTrack and allow for more polished product. As OnTrack continues in its development, ensuring that robust testing is important for ensuring the quality of OnTrack as a system. The overarching goal of this project is to ensure that the OnTrack product is robust and completes rigorous testing.
+This project’s main goal is to identify and document the current features of OnTrack and put in
+place a Quality Assurance and Testing infrastructure to better maintain the quality of OnTrack and
+allow for more polished product. As OnTrack continues in its development, ensuring that robust
+testing is important for ensuring the quality of OnTrack as a system. The overarching goal of this
+project is to ensure that the OnTrack product is robust and completes rigorous testing.
 
 #### Aims for Trimester
 
@@ -1001,8 +1022,6 @@ Long Term:
 
 Delivery Lead: Matthew Paul Fletcher
 
-Testers:
-David Kwiatkowski,
-Parth Aneja
+Testers: David Kwiatkowski, Parth Aneja
 
 ---
