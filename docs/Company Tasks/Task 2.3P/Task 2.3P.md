@@ -59,14 +59,14 @@ Table of contents
     - [Extensions](#splashkit-extensions)
     - [Operations](#splashkit-operations)
   - [Company Operations](#company-operations)
-  - [OnTrack](#todo-ontrack)
+  - [OnTrack](#ontrack)
   - [DreamBig](#dreambig)
 
 ---
 
 ## Leadership Team
 
-TODO: (insert image of leadership team structure here)
+![leadership-team](./images/leadership-team.png)
 
 ---
 
@@ -116,7 +116,7 @@ Add value to Company Operations
 - Include Standard Templates for different processes
 - Improve company policies
 
-### TODO Objective 5
+### Objective 5
 
 Create the DreamBig prototype as a new product that adds value to the Thoth Tech company
 
@@ -127,11 +127,10 @@ Create the DreamBig prototype as a new product that adds value to the Thoth Tech
 
 ## Company Structure and Projects Overview
 
-TODO: List the different projects within the company this trimester. Provide details on how these
-projects interact to progress the company holistically.
+Click here to view image externally
+<https://deakin365.sharepoint.com/:i:/r/sites/ThothTech2/Shared%20Documents/General/company_structure.png?csf=1&web=1&e=MJBk6i>
 
-TODO: Provide a visual diagram of the company structure – showing projects, their relationships,
-lead students, and team members.
+![company-structure](./images/company_structure.png)
 
 ---
 
