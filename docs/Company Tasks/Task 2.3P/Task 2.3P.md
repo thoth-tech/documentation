@@ -202,12 +202,12 @@ The aim of this trimester is to enhance the existing application to accommodate 
 
 #### Short-term
 
-o Decoupling functional behaviour and modularising existing software  
-o Adding support for all three major operating systems  
-o Adding support for locally compiled games on the host machine  
-o Completion of an options menu  
-o Discussing and agreeing upon a programming convention and style  
-o Addressing style inconsistencies throughout the project’s source code  
+o Decoupling functional behaviour and modularising existing software
+o Adding support for all three major operating systems
+o Adding support for locally compiled games on the host machine
+o Completion of an options menu
+o Discussing and agreeing upon a programming convention and style
+o Addressing style inconsistencies throughout the project’s source code
 o Producing documentation around the
 project
 
@@ -219,7 +219,7 @@ o Physical Arcade Machine built using RaspberryPi
 
 Delivery Lead: Anthony George
 
-Software Developers:  
+Software Developers:
 Riley Dellios, Huy Nguyen, Richard Douglas-Denton, Lachlan Foy, Mohamed Zirufaan, Zac Brydon
 
 ## SplashKit: Applications - Build An Exceptional Game
@@ -263,7 +263,7 @@ The aim for this trimester is to
 
 Delivery Lead: Morgaine Barter
 
-Software Developers:  
+Software Developers:
 Daniel Agbay, Lachlan Morgan, Roy Chen, Robert Osborne, Lily Lan,
 Jiahao Zheng
 
@@ -594,7 +594,7 @@ Software Developers: Norbert Pop, Way Yan Min
 
 Technical Documentation Specialist: Xue Ting Jing
 
-### DreamBig Prototype Technical Team
+### DreamBig Design Team
 
 #### Overview, Goals, and Objectives
 
@@ -702,7 +702,7 @@ Long Term:
 
 Delivery Lead: Shaine Christmas
 
-Software Developers:  
+Software Developers:
 Ha Nguyen,
 Devin Oshada Uvin Jayasinghe,
 Daniel Le,
