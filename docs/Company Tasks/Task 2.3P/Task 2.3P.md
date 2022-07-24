@@ -222,8 +222,8 @@ o Physical Arcade Machine built using RaspberryPi
 
 Delivery Lead: Anthony George
 
-Software Developers: Riley Dellios, Huy Nguyen, Richard Douglas-Denton, Lachlan Foy, Mohamed
-Zirufaan
+Software Developers:  
+Riley Dellios, Huy Nguyen, Richard Douglas-Denton, Lachlan Foy, Mohamed Zirufaan, Zac Brydon
 
 ## SplashKit: Applications - Build An Exceptional Game
 
@@ -272,7 +272,8 @@ The aim for this trimester is to
 
 Delivery Lead: Morgaine Barter
 
-Software Developers: Daniel Agbay, Lachlan Morgan, Roy Chen, Zac Brydon, Robert Osborne, Lily Lan,
+Software Developers:  
+Daniel Agbay, Lachlan Morgan, Roy Chen, Robert Osborne, Lily Lan,
 Jiahao Zheng
 
 ## SplashKit: Modules Enhancements
