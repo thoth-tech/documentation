@@ -2,49 +2,44 @@
 
 ## Executive Summary
 
-Thoth Tech (est. 2022) is a new software development company currently building
-from the ground up in Melbourne Australia. Thoth Tech’s mission is to build,
-operate, and deploy education technologies, creating tools that enhance education
-outcomes by empowering students, connecting them with tutors, and facilitating
-personalised learning experiences. We value our people, and we value excellence:
-We are people-focused, aim to produce sustainable products of excellent quality,
-and provide frameworks that provide a safe environment for learning and support.
-of our team.
+Thoth Tech (est. 2022) is a new software development company currently building from the ground up
+in Melbourne Australia. Thoth Tech’s mission is to build, operate, and deploy education
+technologies, creating tools that enhance education outcomes by empowering students, connecting them
+with tutors, and facilitating personalised learning experiences. We value our people, and we value
+excellence: We are people-focused, aim to produce sustainable products of excellent quality, and
+provide frameworks that provide a safe environment for learning and support. of our team.
 
-This report is for stakeholders, investors, and employees, and will outline the
-company structure, charter, objectives – both short and long term, and explore
-each product’s goals in depth.
+This report is for stakeholders, investors, and employees, and will outline the company structure,
+charter, objectives – both short and long term, and explore each product’s goals in depth.
 
-Within the first third of 2022, Thoth Tech has recruited approximately 92 employees
-including four area leads, three product leads and eleven delivery leads.
+Within the first third of 2022, Thoth Tech has recruited approximately 92 employees including four
+area leads, three product leads and eleven delivery leads.
 
-The second third of 2022 has seen Thoth Tech grow to approximately 104 employees,
-including five product leads and sixteen delivery leads.
+The second third of 2022 has seen Thoth Tech grow to approximately 104 employees, including five
+product leads and sixteen delivery leads.
 
-There will be another recruitment phase during the last third of the year, with the
-potential for internships throughout the company.
+There will be another recruitment phase during the last third of the year, with the potential for
+internships throughout the company.
 
-Along with recruitment, Thoth Tech has taken onboard three external products, two
-live and well-established products – OnTrack and SplashKit – and DreamBig, a in
-development product which will leverage the OnTrack technology stack. Thoth Tech
-will also be creating our internal architecture and platform for employees throughout
-this third of the year, referred to as the Internal System project.
+Along with recruitment, Thoth Tech has taken onboard three external products, two live and
+well-established products – OnTrack and SplashKit – and DreamBig, a in development product which
+will leverage the OnTrack technology stack. Thoth Tech will also be creating our internal
+architecture and platform for employees throughout this third of the year, referred to as the
+Internal System project.
 
-Both the OnTrack and SplashKit products have been identified as requiring extensions
-and additional features to improve the quality and usability of the product. OnTrack
-is a platform designed to facilitate student learning and reducing the pressure of
-achieving unrealistic grades. The focus is on providing a tailored learning experience,
-using tasks and a portfolio assessment. This product is live and is currently being
-upgraded to newer technology stacks and improving security and documentation. SplashKit
-is currently a 2D game development Software Development Kit used to teach object-oriented
-coding to beginners. It has been identified that SplashKit can be expanded to explore
-other areas and languages. The DreamBig product is in response to a need identified
-by Deakin,to provide a personalised development roadmaps to enhance students’ employability.
-Due to a partnership with the School of IT at Deakin University, Thoth Tech and
-the subsequent products are funded, supported, and leveraged by Deakin. However,
-all contributions by Thoth Tech members are acknowledged due to the Open-Source
-nature of the company. Deakin provides ground zero end-user testing and focus groups
-for product improvements.
+Both the OnTrack and SplashKit products have been identified as requiring extensions and additional
+features to improve the quality and usability of the product. OnTrack is a platform designed to
+facilitate student learning and reducing the pressure of achieving unrealistic grades. The focus is
+on providing a tailored learning experience, using tasks and a portfolio assessment. This product is
+live and is currently being upgraded to newer technology stacks and improving security and
+documentation. SplashKit is currently a 2D game development Software Development Kit used to teach
+object-oriented coding to beginners. It has been identified that SplashKit can be expanded to
+explore other areas and languages. The DreamBig product is in response to a need identified by
+Deakin,to provide a personalised development roadmaps to enhance students’ employability. Due to a
+partnership with the School of IT at Deakin University, Thoth Tech and the subsequent products are
+funded, supported, and leveraged by Deakin. However, all contributions by Thoth Tech members are
+acknowledged due to the Open-Source nature of the company. Deakin provides ground zero end-user
+testing and focus groups for product improvements.
 
 Signed off by the Acting Director.
 
@@ -71,8 +66,7 @@ Table of contents
 
 ## Leadership Team
 
-TODO:
-(insert image of leadership team structure here)
+TODO: (insert image of leadership team structure here)
 
 ---
 
@@ -80,8 +74,7 @@ TODO:
 
 ### Objective 1
 
-Continue to grow Thoth Tech as a company in line with our mission
-and values.
+Continue to grow Thoth Tech as a company in line with our mission and values.
 
 - Even distribution of roles and responsibilities
 - Foster and encourage self-motivation and autonomy
@@ -94,7 +87,8 @@ and values.
 
 ### Objective 2
 
-Create a safe, supportive, and collaborative company culture that empowers our employees to learn and develop their skills
+Create a safe, supportive, and collaborative company culture that empowers our employees to learn
+and develop their skills
 
 - Maintain a company culture where feedback is welcome, and success is celebrated
 - Support development of chosen skills in every team member
@@ -107,10 +101,8 @@ Create a safe, supportive, and collaborative company culture that empowers our e
 
 Add value to the SplashKit Product by extending functionality and languages
 
-- Improve the SplashKit product through realistic physics, data visualisations
-and machine learning
-- Improve SplashKit language compatibilities to expand learning accessibility
-for users
+- Improve the SplashKit product through realistic physics, data visualisations and machine learning
+- Improve SplashKit language compatibilities to expand learning accessibility for users
 - Improve SplashKit installation process and compatibilties
 - Complete a hardware product to showcase student game creations
 
@@ -135,11 +127,11 @@ Create the DreamBig prototype as a new product that adds value to the Thoth Tech
 
 ## Company Structure and Projects Overview
 
-TODO:
-List the different projects within the company this trimester. Provide details on how these projects interact to progress the company holistically.
+TODO: List the different projects within the company this trimester. Provide details on how these
+projects interact to progress the company holistically.
 
-TODO:
-Provide a visual diagram of the company structure – showing projects, their relationships, lead students, and team members.
+TODO: Provide a visual diagram of the company structure – showing projects, their relationships,
+lead students, and team members.
 
 ---
 
@@ -149,23 +141,21 @@ Provide a visual diagram of the company structure – showing projects, their re
 
 ## SplashKit
 
-SplashKit is an open-source Software Development Kit (SDK), created with the purpose
-of reducing the overhead required for truly technical coding and allowing students
-new to coding to create satisfying programs in a short period of time.
+SplashKit is an open-source Software Development Kit (SDK), created with the purpose of reducing the
+overhead required for truly technical coding and allowing students new to coding to create
+satisfying programs in a short period of time.
 
-SplashKit enables beginning coders to quickly learn to construct fun and functional
-programs which they can be proud to showcase. SplashKit is an open-source Software
-Development Kit (SDK), created with the purpose of reducing the overhead required
-for truly technical coding which enables students new to coding to create satisfying
-programs in a short period of time. SplashKit enables novice coders to quickly learn
-to construct fun and functional programs which they can be proud to showcase.
-It includes a large library of functions which can be utilized by the user to
-experiment and apply for their own application or game.
+SplashKit enables beginning coders to quickly learn to construct fun and functional programs which
+they can be proud to showcase. SplashKit is an open-source Software Development Kit (SDK), created
+with the purpose of reducing the overhead required for truly technical coding which enables students
+new to coding to create satisfying programs in a short period of time. SplashKit enables novice
+coders to quickly learn to construct fun and functional programs which they can be proud to
+showcase. It includes a large library of functions which can be utilized by the user to experiment
+and apply for their own application or game.
 
-This product is currently
-used by the students at Deakin University and aims to become a global educational
-toolkit. Currently the language used for development is C++ and the direction of
-the product is to improve and expand the capabilities to increase SplashKit accessibility.
+This product is currently used by the students at Deakin University and aims to become a global
+educational toolkit. Currently the language used for development is C++ and the direction of the
+product is to improve and expand the capabilities to increase SplashKit accessibility.
 
 ---
 
@@ -173,20 +163,19 @@ the product is to improve and expand the capabilities to increase SplashKit acce
 
 ### Overview, Goals, and Objectives
 
-This trimester, the arcade machine team has a solid foundation to build on, given
-the creation of a Windows application capable of cloning the games repository,
-and executing the games on a playable interface. The work of last trimester allows
-the team of this trimester to take closer steps to creating a physical arcade machine.
-The machine will perform similarly to a Multi-Game Arcade Machine, allowing users
-to select a game from a local library of games. Objectives include:
+This trimester, the arcade machine team has a solid foundation to build on, given the creation of a
+Windows application capable of cloning the games repository, and executing the games on a playable
+interface. The work of last trimester allows the team of this trimester to take closer steps to
+creating a physical arcade machine. The machine will perform similarly to a Multi-Game Arcade
+Machine, allowing users to select a game from a local library of games. Objectives include:
 
 o Software which:
 
 - Is cross platform compatible
 - Allows for game compilation on the host machine
 - Is authored to be consistent with a chosen programming convention/style guide
-- Implements an architecture that ensures long term maintainability is possible for
-      future contributors
+- Implements an architecture that ensures long term maintainability is possible for future
+  contributors
 
 o The development of:
 
@@ -198,29 +187,32 @@ o Research of:
 - Appropriate tooling that can be used to assist with these objectives
 - Unit tests and determining if they have any value for the project
 
-Additional features which may be considered later in the lifecycle of the project include the development and deployment of a website which:
+Additional features which may be considered later in the lifecycle of the project include the
+development and deployment of a website which:
 
-o Supports the uploading of games
-o Stores and displays:
+o Supports the uploading of games o Stores and displays:
 
 - User Reviews
 - High Scores and Achievements
 
 ### Aims for Trimester
 
-The primary aim of this trimester is to enhance the exisitng application to accomodate cross-platform compatibility. This will include developing methods to faciliate the compilation of games on the host machine. Access to the game library will be offered through the platform where the user can configure settings and select and play their desired game. If time permits, a physical Arcade Machine will be designed and manufactured however the software platform is the primary focus for the trimester.
+The primary aim of this trimester is to enhance the exisitng application to accomodate
+cross-platform compatibility. This will include developing methods to faciliate the compilation of
+games on the host machine. Access to the game library will be offered through the platform where the
+user can configure settings and select and play their desired game. If time permits, a physical
+Arcade Machine will be designed and manufactured however the software platform is the primary focus
+for the trimester.
 
 ### Deliverables
 
 #### Short-term
 
-o Decoupling functional behaviour and modularising existing software
-o Adding support for all three major operating systems
-o Adding support for locally compiled games on the host machine
-o Completion of an options menu
-o Discussing and agreeing upon a programming convention and style
-o Addressing style inconsistencies throughout the project’s source code
-o Producing documentation around the project
+o Decoupling functional behaviour and modularising existing software o Adding support for all three
+major operating systems o Adding support for locally compiled games on the host machine o Completion
+of an options menu o Discussing and agreeing upon a programming convention and style o Addressing
+style inconsistencies throughout the project’s source code o Producing documentation around the
+project
 
 #### Long-term
 
@@ -228,30 +220,34 @@ o Physical Arcade Machine built using RaspberryPi
 
 ### Project Members
 
-Delivery Lead:  Anthony George
+Delivery Lead: Anthony George
 
-Software Developers:
-Riley Dellios,
-Huy Nguyen,
-Richard Douglas-Denton,
-Lachlan Foy,
-Mohamed Zirufaan
+Software Developers: Riley Dellios, Huy Nguyen, Richard Douglas-Denton, Lachlan Foy, Mohamed
+Zirufaan
 
 ## SplashKit: Applications - Build An Exceptional Game
 
 ### Overview, Goals, and Objectives
 
-This trimester, this team will collaborate as a unit to create a single game of exceptional class and quality.
+This trimester, this team will collaborate as a unit to create a single game of exceptional class
+and quality.
 
-The goal is to make a game so good it is worthy of commercial release game. The intension here is to showcase to the world, the power of the SplashKit SDK, and encourage developers to develop games using the engine. This trimesters student developers will aim to utilise as many methods that SplashKit has to offer in order to ‘advertise’ SplashKit’s ability as a game engine.
+The goal is to make a game so good it is worthy of commercial release game. The intension here is to
+showcase to the world, the power of the SplashKit SDK, and encourage developers to develop games
+using the engine. This trimesters student developers will aim to utilise as many methods that
+SplashKit has to offer in order to ‘advertise’ SplashKit’s ability as a game engine.
 
-The long-term objectives will showcase how by using SplashKit, game development quality can be achieved such that the product created is of a high enough professional standard, the game can be made available commercially. Syncronously, the game will be showcased on the arcade machine in development.
+The long-term objectives will showcase how by using SplashKit, game development quality can be
+achieved such that the product created is of a high enough professional standard, the game can be
+made available commercially. Syncronously, the game will be showcased on the arcade machine in
+development.
 
 ### Aims for Trimester
 
 The aim for this trimester is to
 
-- Compartmentalise the tasks to focus teams on specific areas of games development (Design, Mechanics, Animations, Collisions, AI, etc)
+- Compartmentalise the tasks to focus teams on specific areas of games development (Design,
+  Mechanics, Animations, Collisions, AI, etc)
 - Construct UML and foundational designs and specifications
 - Acquire artwork and sound assets suitable to specifications
 - Develop the foundations of the game
@@ -274,38 +270,49 @@ The aim for this trimester is to
 
 #### Project Members
 
-Delivery Lead:  Morgaine Barter
+Delivery Lead: Morgaine Barter
 
-Software Developers:
-Daniel Agbay,
-Lachlan Morgan,
-Roy Chen,
-Zac Brydon,
-Robert Osborne,
-Lily Lan,
+Software Developers: Daniel Agbay, Lachlan Morgan, Roy Chen, Zac Brydon, Robert Osborne, Lily Lan,
 Jiahao Zheng
 
 ## SplashKit: Modules Enhancements
 
 ### Overview, Goals, and Objectives
 
-The Splashkit modules team has an exciting semester ahead of them, with each module in a position to have deliverable components completed.
+The Splashkit modules team has an exciting semester ahead of them, with each module in a position to
+have deliverable components completed.
 
-The machine learning module had a working reinforcement learning agent that can play turn based games. Refactoring and code review was performed on the physics module, but external dependencies on the Box2D library has left the module requiring a major refactor. This refactor would mean that Splashkit would contain a native physics engine. The data analytics module has a structure for a dataframe, pending it passing code review and testing.
+The machine learning module had a working reinforcement learning agent that can play turn based
+games. Refactoring and code review was performed on the physics module, but external dependencies on
+the Box2D library has left the module requiring a major refactor. This refactor would mean that
+Splashkit would contain a native physics engine. The data analytics module has a structure for a
+dataframe, pending it passing code review and testing.
 
 Objectives for the modules project include:
 
-- Building multiple machine learning agents utilising different algorithms to be used by developers for different features
-- Create a 2D physics engine within SplashKit, allowing physics to be easily added to objects within a project
-- Implement a dataframe structure that loads structured data and create an API that allows a data scientist to pre-process, transform and visualise the data.
+- Building multiple machine learning agents utilising different algorithms to be used by developers
+  for different features
+- Create a 2D physics engine within SplashKit, allowing physics to be easily added to objects within
+  a project
+- Implement a dataframe structure that loads structured data and create an API that allows a data
+  scientist to pre-process, transform and visualise the data.
 
-With the addition of these modules, there is potential for Splashkit to be utilised in a greater capacity within more disciplines. Building the data analytics module allows for more focused classes to be designed for data science students, rather than only using Splashkit for building games. Both the physics and machine learning modules will advance the quality and capability of games and animations built while using Splashkit.
+With the addition of these modules, there is potential for Splashkit to be utilised in a greater
+capacity within more disciplines. Building the data analytics module allows for more focused classes
+to be designed for data science students, rather than only using Splashkit for building games. Both
+the physics and machine learning modules will advance the quality and capability of games and
+animations built while using Splashkit.
 
 ### Aims for Trimester
 
-The primary aim for this trimester is to have the reinforcement learning agent ready to use by developers and to complete the first stage of deliverables for the physics and data analytics modules. These initial deliverables are to complete the basic dataframe for data analytics and to replace the existing Box2D library uses with native methods.
+The primary aim for this trimester is to have the reinforcement learning agent ready to use by
+developers and to complete the first stage of deliverables for the physics and data analytics
+modules. These initial deliverables are to complete the basic dataframe for data analytics and to
+replace the existing Box2D library uses with native methods.
 
-Secondary aims for the semester are to create a neural network agent, develop plots and visualisations from the data in the dataframes and to begin creating methods for gravity, sinking and projectile motion.
+Secondary aims for the semester are to create a neural network agent, develop plots and
+visualisations from the data in the dataframes and to begin creating methods for gravity, sinking
+and projectile motion.
 
 ### Deliverables
 
@@ -355,23 +362,23 @@ Secondary aims for the semester are to create a neural network agent, develop pl
 
 Delivery Lead: Timothy Moore
 
-Software Developers:
-Alex Hocking,
-Devesh Juggiah,
-Gaganjeet Singh,
-Harry Dentry,
-Jingyu Zhang,
+Software Developers: Alex Hocking, Devesh Juggiah, Gaganjeet Singh, Harry Dentry, Jingyu Zhang,
 Munatsi Matipano
 
 ## SplashKit: Extensions
 
 ### Overview, Goals, and Objectives
 
-This trimester, the Extensions team will continue to develop the SplashKit translator Ruby application and enahnce it to translate the original C++ library into Python versions > 3.8. The SplashKit Extensions project’s aim is to provide the SplashKit library interface in additional languages.
+This trimester, the Extensions team will continue to develop the SplashKit translator Ruby
+application and enahnce it to translate the original C++ library into Python versions > 3.8. The
+SplashKit Extensions project’s aim is to provide the SplashKit library interface in additional
+languages.
 
-This team has a goal of taking last trimesters exisitng research and foundation, and extending on that to succeed in fixing the incompatibilities it encountered.
+This team has a goal of taking last trimesters exisitng research and foundation, and extending on
+that to succeed in fixing the incompatibilities it encountered.
 
-The team also has the objective to translate other languages if possible, and reserach and develop an alternative means to the use of MSYS during installation.
+The team also has the objective to translate other languages if possible, and reserach and develop
+an alternative means to the use of MSYS during installation.
 
 ### Aims for Trimester
 
@@ -397,22 +404,25 @@ The aim for this trimester is to
 
 #### Project Members
 
-Delivery Lead:  Bella Chhour
+Delivery Lead: Bella Chhour
 
-Software Developers:
-Lachlan Cayzer,
-Nelson La,
-Nick Agiazis
+Software Developers: Lachlan Cayzer, Nelson La, Nick Agiazis
 
 ## SplashKit: Operations
 
 ### Overview, Goals, and Objectives
 
-The Operations team are responsible for delivering developments at a system level. This includes foundational project, installation processes ('skm'), bug fixes and solutions to ongoing system level problems.
+The Operations team are responsible for delivering developments at a system level. This includes
+foundational project, installation processes ('skm'), bug fixes and solutions to ongoing system
+level problems.
 
-This team has a goal of taking last trimesters exisitng research and extending on that to succeed in delivering an installation process that is effectively 'one-click' and compatible across all operating systems.
+This team has a goal of taking last trimesters exisitng research and extending on that to succeed in
+delivering an installation process that is effectively 'one-click' and compatible across all
+operating systems.
 
-The team also has the objective to research and document the possibilty (or lack thereof) a browser based implementation, and should one exist, design and document an approach to take to make this feasable.
+The team also has the objective to research and document the possibilty (or lack thereof) a browser
+based implementation, and should one exist, design and document an approach to take to make this
+feasable.
 
 ### Aims for Trimester
 
@@ -437,23 +447,23 @@ The aim for this trimester is to
 
 #### Project Members
 
-Delivery Lead:  Ryan Lawrence
+Delivery Lead: Ryan Lawrence
 
-Developers:
-Ismail Hassan,
-Auden Vitasa,
-Kevin Nguyen
+Developers: Ismail Hassan, Auden Vitasa, Kevin Nguyen
 
 ---
 
 ## Company Operations
 
-Managing company processes and operations. Keeping Thoth-Tech running. Help employees to understand the systems, equipment, people, and processes need to make the organization function.
-Product Lead: Ishrat Jahan
+Managing company processes and operations. Keeping Thoth-Tech running. Help employees to understand
+the systems, equipment, people, and processes need to make the organization function. Product Lead:
+Ishrat Jahan
 
 ### Documentation Infrastructure System
 
-Internal systems website will be for holding all company related documentation. This will provide the benefit of making documentation centrally locatable and easily accessible for relevant internal audiences.
+Internal systems website will be for holding all company related documentation. This will provide
+the benefit of making documentation centrally locatable and easily accessible for relevant internal
+audiences.
 
 #### Overview, Goals, and Objectives
 
@@ -487,26 +497,65 @@ Long-term:
 
 #### Project Members
 
-Delivery Lead:  Ishrat Jahan
+Delivery Lead: Ishrat Jahan
 
-Software Developers:
-Harrison Paul Allwood,
-Manveen Kaur Bhullar,
-Pratham Gupta,
-Sherap Thakur,
+Software Developers: Harrison Paul Allwood, Manveen Kaur Bhullar, Pratham Gupta, Sherap Thakur,
 Tanish Dhapola
 
-### TODO: Company Documentation
+### Company Documentation
+
+#### Overview, Goals, and Objectives
+
+The Company Documentation team is respnsible for reviewing, managing and improving the state of
+documentation across the whole of the Thoth Tech company and all of its products. Our goal is to
+review the current state of company documentation within the OnTrack, DreamBig, SplashKit and
+Company Operations projects and to improve and expand upon this documentation. In doing so, our
+objectives are to streamline the quality and processes of documentation across the whole company and
+to create additional documentation to support the needs of the company as it continues to grow and
+change.
+
+#### Aims for the Trimester
+
+This trimester, the Company Documentation team aims to create, manage, maintain, and improve the
+state of company documentation across the whole company and all products. In meeting this aim, the
+team will:
+
+- Review the current state of documentation across the company
+- Identify gaps or areas of improvement
+- Create new documentation, including templates, in order to address these areas
+- Continue to think critically about the documentation needs of the company and create additional
+  documentation to accomodate such needs
+- Work to the best of our abilities to create meaningful and high quality documentation
+
+#### Deliverables
+
+Short-term:
+
+- Various documentation to supplement current documents in order to better meet company needs
+- Reviewed and improved documentation to better the state of documentation across the whole company
+
+Long-term:
+
+- Reviewed and improved company policies, guides, and Onboarding and Offboarding procedures
+- Improvements to the Company Handbook
+
+#### Project Members
+
+Project Lead: James Micallef
+
+Company Documentation Members (specific roles TBA): Sarah Nicole Dyson, Ethan Graham Keirs, Durga
+Maya Ghallay, Charanjeet Singh, Faiq Rehman
 
 ---
 
 ## DreamBig
 
-DreamBig is a new product innovation driven by the School of IT at Deakin. DreamBig aims to provide a personalised
-roadmap integrated with Ontrack to support students to develop their professional identity across their course and
-improve their employability after graduation. In addition, it aims to provide a platform to help set realistic expectations
-for students graduating into the real world. In line with this vision, it is proposed to build a prototype that can help
-achieve the following goals:
+DreamBig is a new product innovation driven by the School of IT at Deakin. DreamBig aims to provide
+a personalised roadmap integrated with Ontrack to support students to develop their professional
+identity across their course and improve their employability after graduation. In addition, it aims
+to provide a platform to help set realistic expectations for students graduating into the real
+world. In line with this vision, it is proposed to build a prototype that can help achieve the
+following goals:
 
 - Multi-dimensional visualisation of each student's growing professional identity
 - Used within curriculum to encourage engagement.
@@ -518,11 +567,18 @@ achieve the following goals:
 
 #### Overview, Goals, and Objectives
 
-DreamBig is at its early inception. The customer needs and product requirements are gradually discovered and refined. The Prototype Technical project is an attempt to explore the technicality and possibility of the features discovered by the design team. The process includes determining Backend API functionality and preparing frontend pages to prove that, identifying underserved customer needs, UML diagram for backend DB design, database, specifying the MVP feature set, building, and testing small build components of the prototype with the customers.
+DreamBig is at its early inception. The customer needs and product requirements are gradually
+discovered and refined. The Prototype Technical project is an attempt to explore the technicality
+and possibility of the features discovered by the design team. The process includes determining
+Backend API functionality and preparing frontend pages to prove that, identifying underserved
+customer needs, UML diagram for backend DB design, database, specifying the MVP feature set,
+building, and testing small build components of the prototype with the customers.
 
 #### Aims for Trimester
 
-Research will be conducted to investigate finalised frontend components and design the backend for them and prioritise high-value features. These will form the minimum viable product (MVP). As part of this work, the following will be established:
+Research will be conducted to investigate finalised frontend components and design the backend for
+them and prioritise high-value features. These will form the minimum viable product (MVP). As part
+of this work, the following will be established:
 
 - Documentation of app developments
 - Research and analysis on prototype backend functionality
@@ -535,8 +591,7 @@ Short-term
 
 - Detailed UML diagram for backend DB design
 - Documentation on how to setup DreamBig app using Docker
-- Frontend pages that prove backend API functionality
-Long-term
+- Frontend pages that prove backend API functionality Long-term
 - Build frontend pages that deliver DreamBig planned functionality
 - Ensure all aspects of DreamBig app have been unit tested
 - Create e2e tests for DreamBig
@@ -545,22 +600,24 @@ Long-term
 
 Delivery Lead: Linden Hutchinson
 
-Software Developers:
-Norbert Pop,
-Way Yan Min
+Software Developers: Norbert Pop, Way Yan Min
 
-Technical Documentation Specialist:
-Xue Ting Jing
+Technical Documentation Specialist: Xue Ting Jing
 
 ### DreamBig Prototype Technical Team
 
 #### Overview, Goals, and Objectives
 
-DreamBig Frontend design is at its early inception. The customer needs and product requirements are discovered and are being refined at every step. The Prototype Design project is an attempt to explore the product-market fit. The process includes re-determining our target customer, identifying underserved customer needs, defining the product value proposition, specifying the MVP feature set, building, and testing design the prototype with the customers.
+DreamBig Frontend design is at its early inception. The customer needs and product requirements are
+discovered and are being refined at every step. The Prototype Design project is an attempt to
+explore the product-market fit. The process includes re-determining our target customer, identifying
+underserved customer needs, defining the product value proposition, specifying the MVP feature set,
+building, and testing design the prototype with the customers.
 
 #### Aims for Trimester
 
-Research will be conducted to investigate customer needs and prioritise high-value features. These will form the minimum viable product (MVP). As part of this work, the following will be established:
+Research will be conducted to investigate customer needs and prioritise high-value features. These
+will form the minimum viable product (MVP). As part of this work, the following will be established:
 
 - Work on the UI design for every features
 - Work on the UX design for application
@@ -571,58 +628,54 @@ Research will be conducted to investigate customer needs and prioritise high-val
 Short-term
 
 - Finishing wireframes update and high-quality model.
-- Complete high quality design documentation to communicate design concepts.
-Long-term
+- Complete high quality design documentation to communicate design concepts. Long-term
 - Complete a good quality UI/UX design prototype incorporating above analysis
-- Keeping updating  any users prefer features and UI.
+- Keeping updating any users prefer features and UI.
 
 #### Project Members
 
 Delivery lead: Harry Liu
 
-UI&UX designer:
-Adam Sawczuk,
-Josephine Hannah,
-Junhua Ma,
-Monica Valentina Tasmin,
-Wei Min Voon
+UI&UX designer: Adam Sawczuk, Josephine Hannah, Junhua Ma, Monica Valentina Tasmin, Wei Min Voon
 
 ### DreamBig Documentation and Quality Assurance Team
 
 #### Overview, Goals, and Objectives
 
-DreamBig Frontend design is at its early inception. The customer needs and product requirements are discovered and are being refined at every step. The Prototype Documentation and QA project is an attempt to explore and build a standard structured framework of documentation and QA processes. The process includes and testing of design/technical prototype with company standards.
+DreamBig Frontend design is at its early inception. The customer needs and product requirements are
+discovered and are being refined at every step. The Prototype Documentation and QA project is an
+attempt to explore and build a standard structured framework of documentation and QA processes. The
+process includes and testing of design/technical prototype with company standards.
 
 #### Aims for Trimester
 
-Research will be conducted to investigate possible structure and frameworks for documentations and QA testings. These will form the minimum viable product (MVP). As part of this work, the following will be established:
+Research will be conducted to investigate possible structure and frameworks for documentations and
+QA testings. These will form the minimum viable product (MVP). As part of this work, the following
+will be established:
 
 - Build a framework for documentation and QA testing
 - Completed aligning the previous documents to the new framework
-- Work on QA testing for existing design features and wireframes and keep doing the same for the work that will be completed in the project going forward
+- Work on QA testing for existing design features and wireframes and keep doing the same for the
+  work that will be completed in the project going forward
 
 #### Deliverables
 
 Short-term
 
 - Complete research and trials of new frameworks for documentation and QA
-- Test the framework with new documentation and features for QA
-Long-term
+- Test the framework with new documentation and features for QA Long-term
 - Once the build of design prototype is done do the required testing
-- Once the build of technical prototype (backend, frontend, API, database) is being built, do regular testing to see if they are produced according to company standards
+- Once the build of technical prototype (backend, frontend, API, database) is being built, do
+  regular testing to see if they are produced according to company standards
 - Finish converting previous documentation according to the new framework
 
 #### Project Members
 
 Delivery lead: Neha Makineni
 
-Technical writers:
-Alicia Threatt,
-Ashar Kamal
+Technical writers: Alicia Threatt, Ashar Kamal
 
-Quality Assurance testing specialists:
-Gurpreet Kaur,
-Tiomothy Davies
+Quality Assurance testing specialists: Gurpreet Kaur, Tiomothy Davies
 
 ---
 
@@ -632,7 +685,11 @@ Tiomothy Davies
 
 #### Overview, Goals, and Objectives
 
-Due to the rise in contract cheating, audio submissions to the OnTrack system need to be reviewed in order to ensure that the Speaker within the submission is the student to be submitting the work. The long term goal of this project is to implement a Voice Verification system into OnTrack Audio submissions. This will allow assessors to identify cheating where possible, and to discourage students from submitting work that is not their own.
+Due to the rise in contract cheating, audio submissions to the OnTrack system need to be reviewed in
+order to ensure that the Speaker within the submission is the student to be submitting the work. The
+long term goal of this project is to implement a Voice Verification system into OnTrack Audio
+submissions. This will allow assessors to identify cheating where possible, and to discourage
+students from submitting work that is not their own.
 
 #### Aims for Trimester
 
@@ -653,18 +710,15 @@ Short Term:
 
 Long Term:
 
-- Full implementation, Testing and Documentation of Voice Verification system within the existing OnTrack System.
+- Full implementation, Testing and Documentation of Voice Verification system within the existing
+  OnTrack System.
 
 #### Project Members
 
-Delivery Lead:  Shaine Christmas
-  
-Software Developers:  
-Ha Nguyen,
-Devin Oshada Uvin Jayasinghe,
-Daniel Le,
-Simon Agahi,
-Jesse Kyle Hancock
+Delivery Lead: Shaine Christmas
+
+Software Developers:
+Ha Nguyen, Devin Oshada Uvin Jayasinghe, Daniel Le, Simon Agahi, Jesse Kyle Hancock
 
 ---
 
@@ -672,8 +726,8 @@ Jesse Kyle Hancock
 
 #### Overview, Goals, and Objectives
 
-Describe the project, its motivation, overall/long-term goals of the project,
-and how it impacts stakeholders…
+Describe the project, its motivation, overall/long-term goals of the project, and how it impacts
+stakeholders…
 
 #### Aims for Trimester
 
@@ -681,17 +735,14 @@ Describe the aims of the project for this trimester.
 
 #### Deliverables
 
-Describe the deliverables associated with this project – distinguish between
-long-term and trimester deliverables.
+Describe the deliverables associated with this project – distinguish between long-term and trimester
+deliverables.
 
 #### Project Members
 
 Delivery Lead: Grady Ramsay
 
-Software Developers:
-Daniel Patrick Norris,
-Ricky Dodd,
-Mat Perkins
+Software Developers: Daniel Patrick Norris, Ricky Dodd, Mat Perkins
 
 ---
 
@@ -699,8 +750,8 @@ Mat Perkins
 
 #### Overview, Goals, and Objectives
 
-Describe the project, its motivation, overall/long-term goals of the project,
-and how it impacts stakeholders…
+Describe the project, its motivation, overall/long-term goals of the project, and how it impacts
+stakeholders…
 
 #### Aims for Trimester
 
@@ -708,19 +759,14 @@ Describe the aims of the project for this trimester.
 
 #### Deliverables
 
-Describe the deliverables associated with this project – distinguish between
-long-term and trimester deliverables.
+Describe the deliverables associated with this project – distinguish between long-term and trimester
+deliverables.
 
 #### Project Members
 
 Delivery Lead: Nandini Kaushal
 
-Software Developers:
-Keerat Kaur,
-Aaryan Sharma,
-Gurpartap Singh Panesar,
-Jayant,
-Yongqi Huang,
+Software Developers: Keerat Kaur, Aaryan Sharma, Gurpartap Singh Panesar, Jayant, Yongqi Huang,
 Aryan Bagoria
 
 ---
@@ -729,8 +775,8 @@ Aryan Bagoria
 
 #### Overview, Goals, and Objectives
 
-Describe the project, its motivation, overall/long-term goals of the project,
-and how it impacts stakeholders…
+Describe the project, its motivation, overall/long-term goals of the project, and how it impacts
+stakeholders…
 
 #### Aims for Trimester
 
@@ -738,15 +784,14 @@ Describe the aims of the project for this trimester.
 
 #### Deliverables
 
-Describe the deliverables associated with this project – distinguish between
-long-term and trimester deliverables.
+Describe the deliverables associated with this project – distinguish between long-term and trimester
+deliverables.
 
 #### Project Members
 
 Delivery Lead: Ereena Bagga
 
-Developers:
-Ben Thomas
+Developers: Ben Thomas
 
 ---
 
@@ -754,8 +799,8 @@ Ben Thomas
 
 #### Overview, Goals, and Objectives
 
-Describe the project, its motivation, overall/long-term goals of the project,
-and how it impacts stakeholders…
+Describe the project, its motivation, overall/long-term goals of the project, and how it impacts
+stakeholders…
 
 #### Aims for Trimester
 
@@ -763,19 +808,15 @@ Describe the aims of the project for this trimester.
 
 #### Deliverables
 
-Describe the deliverables associated with this project – distinguish between
-long-term and trimester deliverables.
+Describe the deliverables associated with this project – distinguish between long-term and trimester
+deliverables.
 
 #### Project Members
 
 Delivery Lead: Leo Luong
 
-Software Developers:
-Anthony Papoutsis,
-Ahmed Ali,
-Aldy Putra Shavira,
-Kosta Constantinou,
-Nelson Lai
+Software Developers: Anthony Papoutsis, Ahmed Ali, Aldy Putra Shavira, Kosta Constantinou, Nelson
+Lai
 
 ---
 
@@ -783,8 +824,8 @@ Nelson Lai
 
 #### Overview, Goals, and Objectives
 
-Describe the project, its motivation, overall/long-term goals of the project,
-and how it impacts stakeholders…
+Describe the project, its motivation, overall/long-term goals of the project, and how it impacts
+stakeholders…
 
 #### Aims for Trimester
 
@@ -792,20 +833,14 @@ Describe the aims of the project for this trimester.
 
 #### Deliverables
 
-Describe the deliverables associated with this project – distinguish between
-long-term and trimester deliverables.
+Describe the deliverables associated with this project – distinguish between long-term and trimester
+deliverables.
 
 #### Project Members
 
 Delivery Lead: Harshpreet Kaur
 
-Developers:
-Anshuman Bishnoi,
-Dan Eastaugh,
-Sicheng Liu,
-Chetan Nagar,
-Pratham Gupta,
-Xuetong Zhao
+Developers: Anshuman Bishnoi, Dan Eastaugh, Sicheng Liu, Chetan Nagar, Pratham Gupta, Xuetong Zhao
 
 ---
 
@@ -813,7 +848,9 @@ Xuetong Zhao
 
 #### Overview, Goals, and Objectives
 
-OnTrack is a growing and evolving system. OnTrack should be documented to ensure that future teams who work on the project have a starting point to understanding and making changes to the existing system. This will help all members of the OnTrack development team, current and future.
+OnTrack is a growing and evolving system. OnTrack should be documented to ensure that future teams
+who work on the project have a starting point to understanding and making changes to the existing
+system. This will help all members of the OnTrack development team, current and future.
 
 #### Aims for Trimester
 
@@ -840,12 +877,7 @@ Long Term:
 
 Delivery Lead: Shaine Christmas
 
-Documentors:
-Matt Clark,
-Jasdeep Singh,
-MD Fahim Mizi,
-Shiv Bhanu,
-Adrienne Gelbhauer
+Documentors: Matt Clark, Jasdeep Singh, MD Fahim Mizi, Shiv Bhanu, Adrienne Gelbhauer
 
 ---
 
@@ -853,8 +885,8 @@ Adrienne Gelbhauer
 
 #### Overview, Goals, and Objectives
 
-Describe the project, its motivation, overall/long-term goals of the project,
-and how it impacts stakeholders…
+Describe the project, its motivation, overall/long-term goals of the project, and how it impacts
+stakeholders…
 
 #### Aims for Trimester
 
@@ -862,15 +894,13 @@ Describe the aims of the project for this trimester.
 
 #### Deliverables
 
-Describe the deliverables associated with this project – distinguish between
-long-term and trimester deliverables.
+Describe the deliverables associated with this project – distinguish between long-term and trimester
+deliverables.
 
 #### Project Members
 
 Delivery Lead: Matthew Paul Fletcher
 
-Testers:
-David Kwiatkowski,
-Parth Aneja
+Testers: David Kwiatkowski, Parth Aneja
 
 ---
