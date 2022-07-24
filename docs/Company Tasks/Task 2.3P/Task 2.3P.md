@@ -754,8 +754,7 @@ Mat Perkins
 
 #### Overview, Goals, and Objectives
 
-Describe the project, its motivation, overall/long-term goals of the project,
-and how it impacts stakeholders…
+This project aims for enhance the file submission project for the OnTrack system. By increasing the types of files that can be used for submission to OnTrack, ease of submitting tasks for students and importing submissions for assessors will be increased. This project mainly effects the students, as it will reduce steps needed to submit tasks; specifically the conversion of different file types. Long term, this project aims to document accepted file types, identify file types that can be used for the OnTrack system, and implement and document any new file types added to the system.
 
 #### Aims for Trimester
 
