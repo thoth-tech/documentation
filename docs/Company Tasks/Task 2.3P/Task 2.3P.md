@@ -496,7 +496,7 @@ Tanish Dhapola
 
 #### Overview, Goals, and Objectives
 
-The Company Documentation team is respnsible for reviewing, managing and improving the state of
+The Company Documentation team is responsible for reviewing, managing and improving the state of
 documentation across the whole of the Thoth Tech company. Our goal is to
 review the current state of company documentation within the company to improve and expand upon this documentation. In doing so, our
 objectives are to streamline the quality and processes of documentation across the whole company and
