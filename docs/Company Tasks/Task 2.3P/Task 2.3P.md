@@ -180,7 +180,7 @@ o Software which:
 o The development of:
 
 - A programming convention / style guide document
-- Other General Prject Documentation
+- Other General Project Documentation
 
 o Research of:
 
@@ -197,21 +197,19 @@ o Supports the uploading of games o Stores and displays:
 
 ### Aims for Trimester
 
-The primary aim of this trimester is to enhance the exisitng application to accomodate
-cross-platform compatibility. This will include developing methods to faciliate the compilation of
-games on the host machine. Access to the game library will be offered through the platform where the
-user can configure settings and select and play their desired game. If time permits, a physical
-Arcade Machine will be designed and manufactured however the software platform is the primary focus
-for the trimester.
+The aim of this trimester is to enhance the existing application to accommodate cross-platform compatibility. This will include developing methods to facilitate the compilation of games on the host machine. Access to the game library will be offered through the platform where the user can configure settings and select and play their desired game. If time permits, a physical Arcade Machine will be designed and manufactured however the software platform is the primary focus for the trimester.
 
 ### Deliverables
 
 #### Short-term
 
-o Decoupling functional behaviour and modularising existing software o Adding support for all three
-major operating systems o Adding support for locally compiled games on the host machine o Completion
-of an options menu o Discussing and agreeing upon a programming convention and style o Addressing
-style inconsistencies throughout the project’s source code o Producing documentation around the
+o Decoupling functional behaviour and modularising existing software  
+o Adding support for all three major operating systems  
+o Adding support for locally compiled games on the host machine  
+o Completion of an options menu  
+o Discussing and agreeing upon a programming convention and style  
+o Addressing style inconsistencies throughout the project’s source code  
+o Producing documentation around the
 project
 
 #### Long-term
@@ -229,18 +227,12 @@ Riley Dellios, Huy Nguyen, Richard Douglas-Denton, Lachlan Foy, Mohamed Zirufaan
 
 ### Overview, Goals, and Objectives
 
-This trimester, this team will collaborate as a unit to create a single game of exceptional class
-and quality.
+This trimester, this team will collaborate as a unit to create a single game of exceptional class and quality.
 
-The goal is to make a game so good it is worthy of commercial release game. The intension here is to
-showcase to the world, the power of the SplashKit SDK, and encourage developers to develop games
-using the engine. This trimesters student developers will aim to utilise as many methods that
-SplashKit has to offer in order to ‘advertise’ SplashKit’s ability as a game engine.
+The goal is to make a game so good it is worthy of commercial release game. The intension here is to showcase to the world, the power of the SplashKit SDK, and encourage developers to develop games using the engine. This trimester's student developers will aim to utilise as many methods that SplashKit has to offer in order to ‘advertise’ SplashKit’s ability as a game engine.
 
-The long-term objectives will showcase how by using SplashKit, game development quality can be
-achieved such that the product created is of a high enough professional standard, the game can be
-made available commercially. Syncronously, the game will be showcased on the arcade machine in
-development.
+The long-term objectives will showcase how by using SplashKit, game development quality can be achieved such that the product created is of a high enough professional standard, the game can be
+made available commercially. Synchronously, the game will be showcased on the arcade machine in development.
 
 ### Aims for Trimester
 
@@ -363,20 +355,15 @@ and projectile motion.
 
 Delivery Lead: Timothy Moore
 
-Software Developers: Alex Hocking, Devesh Juggiah, Gaganjeet Singh, Harry Dentry, Jingyu Zhang,
-Munatsi Matipano
+Software Developers: Alex Hocking, Devesh Juggiah, Gaganjeet Singh, Harry Dentry, Jingyu Zhang, Munatsi Matipano
 
 ## SplashKit: Extensions
 
 ### Overview, Goals, and Objectives
 
-This trimester, the Extensions team will continue to develop the SplashKit translator Ruby
-application and enahnce it to translate the original C++ library into Python versions > 3.8. The
-SplashKit Extensions project’s aim is to provide the SplashKit library interface in additional
-languages.
+This trimester, the Extensions team will continue to develop the SplashKit translator Ruby application and enhance it to translate the original C++ library into Python versions > 3.8. The SplashKit Extensions project’s aim is to provide the SplashKit library interface in additional languages.
 
-This team has a goal of taking last trimesters exisitng research and foundation, and extending on
-that to succeed in fixing the incompatibilities it encountered.
+This team has a goal of taking last trimesters existing research and foundation, and extending on that to succeed in fixing the incompatibilities it encountered.
 
 The team also has the objective to translate other languages if possible, and reserach and develop
 an alternative means to the use of MSYS during installation.
@@ -385,6 +372,9 @@ an alternative means to the use of MSYS during installation.
 
 The aim for this trimester is to
 
+- Understand how the language translators works
+- Investigate changes in Python between 3.8x versions and earlier to identify which of these changes have caused current incompatibilities
+- Get SplashKit successfully working on the latest Python version (3.10.x)
 - Fix Python incompatibilities
 - Complete Python and Rust language extensions
 - Translate to other languages if possible
@@ -417,13 +407,13 @@ The Operations team are responsible for delivering developments at a system leve
 foundational project, installation processes ('skm'), bug fixes and solutions to ongoing system
 level problems.
 
-This team has a goal of taking last trimesters exisitng research and extending on that to succeed in
+This team has a goal of taking last trimesters existing research and extending on that to succeed in
 delivering an installation process that is effectively 'one-click' and compatible across all
 operating systems.
 
-The team also has the objective to research and document the possibilty (or lack thereof) a browser
+The team also has the objective to research and document the possibility (or lack thereof) a browser
 based implementation, and should one exist, design and document an approach to take to make this
-feasable.
+feasible.
 
 ### Aims for Trimester
 
@@ -431,7 +421,7 @@ The aim for this trimester is to
 
 - Design a bespoke SplashKit installer
 - Develop this as an out-of-the-box SplashKit installer
-- Research a browser based implementation
+- Research a browser-based implementation
 
 ### Deliverables
 
@@ -523,7 +513,7 @@ team will:
 - Review the current state of documentation across the company (including company handbook)
 - Identify gaps or areas of improvement
 - Create new documentation, including templates, in order to address these areas
-- Continue to think critically about the documentation needs of the company and create additional documentation to accomodate such needs
+- Continue to think critically about the documentation needs of the company and create additional documentation to accommodate such needs
 - Work to the best of our abilities to create meaningful and high quality documentation
 
 #### Deliverables
@@ -542,7 +532,7 @@ Long-term:
 
 #### Project Members
 
-Project Lead: James Micallef
+Delivery Lead: James Micallef
 
 Company Documentation Members (specific roles TBA): Sarah Nicole Dyson, Ethan Graham Keirs, Durga
 Maya Ghallay, Charanjeet Singh, Faiq Rehman
