@@ -59,8 +59,21 @@ Table of contents
     - [Extensions](#splashkit-extensions)
     - [Operations](#splashkit-operations)
   - [Company Operations](#company-operations)
-  - [OnTrack](#ontrack)
+    - [Documentation Infrastructure System](#documentation-infrastructure-system)
+    - [Company Documentation](#company-documentation)
   - [DreamBig](#dreambig)
+    - [DreamBig Prototype Technical Team](#dreambig-prototype-technical-team)
+    - [DreamBig Prototype Design Team](#dreambig-prototype-design-team)
+    - [Dreambig Documentation and Quality Assurance Team](#dreambig-documentation-and-quality-assurance-team)
+  - [OnTrack](#ontrack)
+    - [Voice Verification](#ontrack---voice-verification)
+    - [Task and Submission Redesign](#ontrack---task-and-submission-redesign)
+    - [File Submission Enhancements](#ontrack---file-submission-enhancements)
+    - [Security Analysis](#ontrack---security-analysis)
+    - [User Interface Enhancement](#ontrack---user-interface-enhancement)
+    - [Google Cloud Deployment](#ontrack---google-cloud-deployment)
+    - [Documentation](#ontrack---documentation)
+    - [Quality Assurance and Testing](#ontrack---quality-assurance-and-testing)
 
 ---
 
@@ -594,7 +607,7 @@ Software Developers: Norbert Pop, Way Yan Min
 
 Technical Documentation Specialist: Xue Ting Jing
 
-### DreamBig Prototype Technical Team
+### DreamBig Prototype Design Team
 
 #### Overview, Goals, and Objectives
 
