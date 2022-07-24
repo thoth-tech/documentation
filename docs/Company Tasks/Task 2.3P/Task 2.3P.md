@@ -79,7 +79,7 @@ Table of contents
 
 ## Leadership Team
 
-![leadership-team](./images/leadership-team.png)
+![leadership-team](images/leadership-team.png)
 
 ---
 
@@ -143,7 +143,7 @@ Create the DreamBig prototype as a new product that adds value to the Thoth Tech
 Click here to view image externally
 <https://deakin365.sharepoint.com/:i:/r/sites/ThothTech2/Shared%20Documents/General/company_structure.png?csf=1&web=1&e=MJBk6i>
 
-![company-structure](./images/company_structure.png)
+![company-structure](images/company_structure.png)
 
 ---
 
