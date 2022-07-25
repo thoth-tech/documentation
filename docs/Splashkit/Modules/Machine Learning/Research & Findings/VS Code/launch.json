@@ -1,11 +1,8 @@
 {
-	// Use IntelliSense to learn about possible attributes.
-	// Hover to view descriptions of existing attributes.
-	// For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
 	"version": "0.2.0",
 	"configurations": [
 		{
-			"name": "(gdb) sktest.exe",
+			"name": "sktest.exe",
 			"type": "cppdbg",
 			"request": "launch",
 			"program": "${workspaceFolder}/bin/sktest.exe",
@@ -14,8 +11,15 @@
 			"cwd": "${workspaceFolder}/bin",
 			"environment": [],
 			"externalConsole": false,
-			"MIMode": "gdb",
-			"miDebuggerPath": "C:\\msys64\\mingw64\\bin\\gdb.exe",
+			"windows": {
+				"MIMode": "gdb",
+				"miDebuggerPath": "C:\\msys64\\mingw64\\bin\\gdb.exe"
+			},
+			"osx": {
+				"MIMode": "lldb",
+				"program": "${workspaceFolder}/bin/sktest",
+				"type": "lldb" // https://marketplace.visualstudio.com/items?itemName=vadimcn.vscode-lldb
+			},
 			"setupCommands": [
 				{
 					"description": "Enable pretty-printing for gdb",

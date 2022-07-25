@@ -92,7 +92,9 @@ system are as follows:
 - The system will accept a game format to so that game states can be read and moves can be made by
   the AI.
 - The system can accept new game states and analyses the game state to produce a move.
-- The system will return the move it wishes to play so that the game state can be updated.
+- The system will return a move vector containing the information about the move it 
+wishes to play so that the game state can be updated. This move vector is to be processed 
+by the user.
 
 ## Non-functional requirements.
 
@@ -102,6 +104,8 @@ of the system. These include:
 - The system will adapt and work with different games.
 - The system should be easy to use.
 - The system should be in line with other Splashkit systems.
+- Flexibility, Neural Networks may be needed elsewhere the ability to reuse the existing 
+code for other purposes should be considered.
 
 ## Definitions, Acronyms, Abbreviations
 

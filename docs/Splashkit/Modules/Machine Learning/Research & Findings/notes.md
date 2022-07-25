@@ -2,39 +2,25 @@
 
 ## Future Prospects
 
-**NEAT – Real Time AI Agent?**
+NEAT – Real Time AI Agent
 
 Deep auto encoder for feature compression: random board state plus moves available? Encode into a
 compressive neural network and decompress for training. Delete decompression stage after training
 
-## Questions
+## FAQ
 
-Confirm do we have to work with C++? Other versions of SplashKit?  
-Are we allowed to use libraries? Not really.  
-how much can we rely on them? Not much, since they may break in the future.
+* Do we have to work with C++? 
+	* Yes. The main sdk is written in C++ and that is the focus of the SplashKit Modules team for the foreseeable future.
+* Are we allowed to use libraries? 
+	* Not recommended. Library usage should be kept to a minimum. Any proposed library needs to be accepted by the lead team as it would not only affect the rights/license of the project but also the compile process. (Which could have other unintended consequences)
+	* Libraries that are used need to be monitored and updated accordingly (to fix security flaws or bugs), and also need to be compatible with the SplashKit SDK.
 
-## Initial Design
+## Artificial Neural Network Design
 
-Board state, possible moves, submit moves  
-Simulated board state, possible moves, submit moves (returns next possible moves), reuse this
-object.  
-Clone board state, default overridable,
+A Tensorflow like library needs to be implemented in C++ for neural networks.
 
-Environment Get_board_state(Game)  
-Move[] Get_possible_moves(Environment)  
-Void submit_move(move move)  
-Environment get_virtual()
-
-Virtual:  
-(score, move)[] try_move(move moveid)
-
-Use virtual board states to augment the AI  
-Depth  
-Get the q-value depth moves in and sum the q-values for an augmented value
-
-Possibly use horizontal depth instead? This means that you count the amount of possible moves you’ve
-considered rather than possible moves played/submitted. And use average rather than sum due to
-differing depths.
+It needs variable layers so that different difficulties can be implemented.  
+The game API can be bypassed to directly access this library for other purposes.  
 
 ## Evaluation
 
@@ -107,21 +93,6 @@ for their game.
 Source or create functions to allow for neural networks to be added to SplashKit
 
 This can greatly improve performance when the game is very complex.
-
-## perf: Add symmetry reduction to InputFormat::convert_input()
-
-Allow the user (defaults to no symmetries) to indicate what symmetries are present in their game to
-be used to reduce possible board states.
-
-Example 1: Player symmetry, What number player you are does not change the rules. In chess no matter
-if you are white or black pawns always capture diagonally. So if we were to invert the board colours
-the reward values should not change.
-
-Example 2: Rotation symmetry. You can rotate a tic tac toe board in any direction and the same moves
-are considered winning.
-
-Ensure the implementation is dynamic, multiple symmetries can be added. Apply symmetries in all
-Agents to improve performance.
 
 ## refactor: Move functions from header file to cpp file
 

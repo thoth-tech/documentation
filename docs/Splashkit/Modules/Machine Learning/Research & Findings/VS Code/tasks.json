@@ -16,19 +16,27 @@
 			"label": "cmake",
 			"command": "C:\\msys64\\msys2_shell.cmd",
 			"args": [
-				// Set terminal to mingw
 				"-defterm",
 				"-no-start",
 				"-mingw64",
 
-				// Set Starting Directory
 				"-where",
 				"./projects/cmake/",
 
-				// Execute command
 				"-c",
 				"cmake -DCMAKE_BUILD_TYPE=Debug -G \"Ninja\""
-			]
+			],
+			"osx": {
+				"command": "cmake",
+				"args": [
+					"-DCMAKE_BUILD_TYPE=Debug",
+					"."
+				],
+				"options": {
+					"cwd": "${workspaceFolder}/projects/cmake/"
+				}
+			},
+			"problemMatcher": []
 		},
 		{
 			"type": "process",
@@ -44,7 +52,15 @@
 
 				"-c",
 				"ninja"
-			]
+			],
+			"osx": {
+				"command": "make",
+				"args": [],
+				"options": {
+					"cwd": "${workspaceFolder}/projects/cmake/"
+				}
+			},
+			"problemMatcher": []
 		},
 		{
 			"type": "process",
@@ -60,16 +76,28 @@
 				
 				"-c",
 				"./sktest.exe"
-			]
+			],
+			"osx": {
+				"command": "sktest",
+				"args": [],
+				"options": {
+					"cwd": "${workspaceFolder}/bin"
+				}
+			},
+			"problemMatcher": [],
 		},
 		{
 			"label": "Compile + Run",
 			"dependsOrder": "sequence",
-			"dependsOn": ["Compile", "Run"],
+			"dependsOn": [
+				"Compile",
+				"Run"
+			],
 			"group": {
 				"kind": "build",
 				"isDefault": true
-			}
+			},
+			"problemMatcher": [],
 		}
 	],
 	"version": "2.0.0"
