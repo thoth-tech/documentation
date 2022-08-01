@@ -9,18 +9,22 @@ compressive neural network and decompress for training. Delete decompression sta
 
 ## FAQ
 
-* Do we have to work with C++? 
-	* Yes. The main sdk is written in C++ and that is the focus of the SplashKit Modules team for the foreseeable future.
-* Are we allowed to use libraries? 
-	* Not recommended. Library usage should be kept to a minimum. Any proposed library needs to be accepted by the lead team as it would not only affect the rights/license of the project but also the compile process. (Which could have other unintended consequences)
-	* Libraries that are used need to be monitored and updated accordingly (to fix security flaws or bugs), and also need to be compatible with the SplashKit SDK.
+- Do we have to work with C++?
+  - Yes. The main sdk is written in C++ and that is the focus of the SplashKit Modules team for the
+    foreseeable future.
+- Are we allowed to use libraries?
+  - Not recommended. Library usage should be kept to a minimum. Any proposed library needs to be
+    accepted by the lead team as it would not only affect the rights/licence of the project but also
+    the compile process. (Which could have other unintended consequences)
+  - Libraries that are used need to be monitored and updated accordingly (to fix security flaws or
+    bugs), and also need to be compatible with the SplashKit SDK.
 
 ## Artificial Neural Network Design
 
 A Tensorflow like library needs to be implemented in C++ for neural networks.
 
 It needs variable layers so that different difficulties can be implemented.  
-The game API can be bypassed to directly access this library for other purposes.  
+The game API can be bypassed to directly access this library for other purposes.
 
 ## Evaluation
 
