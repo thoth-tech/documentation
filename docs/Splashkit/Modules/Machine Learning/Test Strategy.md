@@ -21,7 +21,7 @@ Relevant links and helpful information about the project and its tech stack
   - [machine_learning.cpp](https://github.com/thoth-tech/splashkit-core/blob/modules/machine_learning/coresdk/src/coresdk/machine_learning.cpp)
   - [machine_learning.h](https://github.com/thoth-tech/splashkit-core/blob/modules/machine_learning/coresdk/src/coresdk/machine_learning.h)
 - [Tensorflow Keras](https://www.tensorflow.org/api_docs/python/tf/keras)
-  - A python library for machine learning, we will create library similar to this for SplashKit in
+  - A python library for machine learning, we will create a library similar to this for SplashKit in
     C++, simplified and designed to be used by learning developers.
 
 ## **QA Deliverables**
@@ -43,11 +43,9 @@ and versions, and test data.
 
 What types of tests exist for this project?
 
-### **Examples**
-
-- There are unit tests, 80% coverage, written in Jasmine
-- Written during development—by developers
-- Automated UI tests for high-level workflows
+- There are unit tests to be written as seen in [Test Cases.md](<Testing/Test Cases.md>)
+- Regular less automated tests are also to be created as required ([Testing.md](Testing/Testing.md)).
+	- Some of these are already available from last trimester.
 
 _Based on template from_
 [_Programming Foundations: Software Testing/QA_](https://www.linkedin.com/learning/programming-foundations-software-testing-qa/create-a-test-strategy?autoSkip=true&autoplay=true&contextUrn=urn%3Ali%3AlyndaLearningPath%3A57f7e27c3dd559e018dfe994&resume=false&u=2104084)
