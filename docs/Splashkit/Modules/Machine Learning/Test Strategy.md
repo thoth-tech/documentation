@@ -44,8 +44,9 @@ and versions, and test data.
 What types of tests exist for this project?
 
 - There are unit tests to be written as seen in [Test Cases.md](<Testing/Test Cases.md>)
-- Regular less automated tests are also to be created as required ([Testing.md](Testing/Testing.md)).
-	- Some of these are already available from last trimester.
+- Regular less automated tests are also to be created as required
+  ([Testing.md](Testing/Testing.md)).
+  - Some of these are already available from last trimester.
 
 _Based on template from_
 [_Programming Foundations: Software Testing/QA_](https://www.linkedin.com/learning/programming-foundations-software-testing-qa/create-a-test-strategy?autoSkip=true&autoplay=true&contextUrn=urn%3Ali%3AlyndaLearningPath%3A57f7e27c3dd559e018dfe994&resume=false&u=2104084)

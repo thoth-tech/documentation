@@ -124,6 +124,8 @@ maintainability of the system. These include:
 - The system should be in line with other Splashkit systems.
 - Flexibility, Neural Networks may be needed elsewhere the ability to reuse the existing code for
   other purposes should be considered.
-- The system should be stable for the user, any new feature added needs to be tested by the developer before reaching end-users and related features should not be negatively affected.
-  - Unit tests should be run on affected features to ensure that any changes made do not affect the existing components.
+- The system should be stable for the user, any new feature added needs to be tested by the
+  developer before reaching end-users and related features should not be negatively affected.
+  - Unit tests should be run on affected features to ensure that any changes made do not affect the
+    existing components.
 - The system should provide a move for any given game state in a reasonable amount of time.

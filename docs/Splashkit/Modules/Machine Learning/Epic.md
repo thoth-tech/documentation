@@ -26,7 +26,8 @@ TBA
 
 - This module will be in the greater `splashkit_lib` namespace
 - System will have time to train a model and space to save that model for a given game before use.
-- System will have a clear score to maximise. (Expand on this for less goal oriented AI? e.g. background NPC)
+- System will have a clear score to maximise. (Expand on this for less goal oriented AI? e.g.
+  background NPC)
 - There is a discrete time step between moves.
 - The search space will remain constant for each move.
 
