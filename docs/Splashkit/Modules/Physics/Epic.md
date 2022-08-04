@@ -7,7 +7,7 @@ addition of realistic physics is one of the recognised areas for improvement.
 
 ## Business Value
 
-The addition of realistic physics enhances the quality and capabilities of games and animations
+The addition of realistic physics will enhance the quality and capabilities of games and animations
 that users can build in SplashKit.
 
 ## In Scope
@@ -40,7 +40,7 @@ N/A
 
 ## Analytics Considerations
 
-None Known
+None known
 
 ## Regulation & Compliance Considerations
 
