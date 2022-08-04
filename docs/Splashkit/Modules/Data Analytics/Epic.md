@@ -35,6 +35,7 @@ science students, rather than only using SplashKit for building games.
 ## Assumptions / Dependencies
 
 - Everything is customizable by the user (for example, the colours in visualisations)
+- Previous contribution code is accessible and working
 
 ## UX/UI Considerations
 
@@ -51,6 +52,7 @@ N/A
 ## Operations / Support / Training Considerations
 
 - Team members must become familiar with SplashKit, C++, Ninja and CMake
+- Advise teams 2 weeks in advance of planned release
 
 ## Acceptance criteria
 
