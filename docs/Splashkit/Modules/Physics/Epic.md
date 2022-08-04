@@ -2,11 +2,13 @@
 
 ## Background / Context
 
-SplashKit is a live product, which can be improved as per valid suggestions and observations. The addition of realistic physics is one of the recognised areas for improvement.
+SplashKit is a live product, which can be improved as per valid suggestions and observations. The
+addition of realistic physics is one of the recognised areas for improvement.
 
 ## Business Value
 
-The addition of realistic physics will enhance the quality and capabilities of games and animations that users can build in SplashKit.
+The addition of realistic physics will enhance the quality and capabilities of games and animations
+that users can build in SplashKit.
 
 ## In Scope
 
