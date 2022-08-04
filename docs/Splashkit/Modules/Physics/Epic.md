@@ -1,47 +1,59 @@
 # Physics Epic
 
-TBA
-
 ## Background / Context
 
-TBA
+SplashKit is a live product, which can be improved as per valid suggestions and observations. The
+addition of realistic physics is one of the recognised areas for improvement.
 
 ## Business Value
 
-TBA
+The addition of realistic physics will enhance the quality and capabilities of games and animations
+that users can build in SplashKit.
 
 ## In Scope
 
-TBA
+- SplashKit Core SDK (program code for the feature)
+- SplashKit.io (articles on usage of the feature)
 
 ## Out of Scope
 
-TBA
+- SplashKit Translator
+- SKM
 
 ## What needs to happen
 
-TBA
+- Complete the code review from T2 2022 on the existing collisions and gravity functions.
+- Refactor the code to remove any external dependencies on the Box2D library
+- Create one-line methods to allow elastic sprite and object collisions as well as gravity
+- Expand the methods to include inertia and the sinking of objects
+- Produce documentation for the usage of the module
 
 ## Assumptions / Dependencies
 
-TBA
+- Previous contribution code is accessible and working
 
 ## UX/UI Considerations
 
-TBA
+N/A
 
 ## Analytics Considerations
 
-TBA
+None known
 
 ## Regulation & Compliance Considerations
 
-TBA
+N/A
 
 ## Operations / Support / Training Considerations
 
-TBA
+- Team members must become familiar with SplashKit, C++, Ninja and CMake
+- Upskilling may be needed if team members do not have prior knowledge of physics
+- Advise teams 2 weeks in advance of planned release
 
 ## Acceptance criteria
 
-TBA
+- Successful addition of realistic physics into SplashKit
+- Functional and passing QA
+- Easy to use (user acceptance testing completed)
+- Documentation completed for design decisions and work
+- Documentation fits current expectations as set by SplashKit.io and stakeholders
