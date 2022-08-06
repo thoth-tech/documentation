@@ -1,6 +1,6 @@
 # Company Documentation Documentation Index
 
-## [Company Documentation Epic] ()
+## [Company Documentation Epic]()
 
 Epic for Company Documentation.
 
