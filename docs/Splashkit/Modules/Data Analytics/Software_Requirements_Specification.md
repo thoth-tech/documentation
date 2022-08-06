@@ -1,7 +1,7 @@
 # Software Requirement Specification (SRS) Document Template
 
 ## 1. Introduction
-
+The purpose of Data Analytics module is to allowing users to load datasets from various file formats, then perform data manipulations and visualisation for the goal of extracting useful insights from the dataset.
 ### 1.1 Purpose
 
 ### 1.2 Intended Audience
