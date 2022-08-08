@@ -20,19 +20,28 @@
 				"program": "${workspaceFolder}/bin/sktest",
 				"type": "lldb" // https://marketplace.visualstudio.com/items?itemName=vadimcn.vscode-lldb
 			},
-			"setupCommands": [
-				{
-					"description": "Enable pretty-printing for gdb",
-					"text": "-enable-pretty-printing",
-					"ignoreFailures": true
-				},
-				{
-					"description":  "Set Disassembly Flavor to Intel",
-					"text": "-gdb-set disassembly-flavor intel",
-					"ignoreFailures": true
-				}
-			],
-			"preLaunchTask": "Compile"
+			"preLaunchTask": "Full Compile"
+		},
+		{
+			"name": "skunit_test.exe",
+			"type": "cppdbg",
+			"request": "launch",
+			"program": "${workspaceFolder}/bin/skunit_test.exe",
+			"args": [],
+			"stopAtEntry": false,
+			"cwd": "${workspaceFolder}/bin",
+			"environment": [],
+			"externalConsole": false,
+			"windows": {
+				"MIMode": "gdb",
+				"miDebuggerPath": "C:\\msys64\\mingw64\\bin\\gdb.exe"
+			},
+			"osx": {
+				"MIMode": "lldb",
+				"program": "${workspaceFolder}/bin/skunit_test",
+				"type": "lldb" // https://marketplace.visualstudio.com/items?itemName=vadimcn.vscode-lldb
+			},
+			"preLaunchTask": "Full Compile"
 		}
 	]
 }
