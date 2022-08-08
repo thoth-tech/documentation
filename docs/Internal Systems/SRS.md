@@ -127,8 +127,8 @@ The following documents are recommended to be read alongside the SRS document:
 
 ## 1.3 Project Scope
 
-The intention of the project for T2, 2022 is to create a comprehensive and organized website where
-members of capstone organisations can upload, download, exchange, collaborate and organize various
+The intention of the project for T2, 2022 is to create a comprehensive and organised website where
+members of capstone organisations can upload, download, exchange, collaborate and organise various
 types of documented works as it pertains to the progression of projects within the Deakin IT
 Capstone programs. Throughout the semester, working prototypes will be developed and visualized
 using various software.
@@ -233,7 +233,7 @@ functionality standpoint for the project:
 - Capstone area division based on project discipline, and internal links to access specific works.
 
 - Contributions within projects clearly listed in grid array,
-- in chronological order to promote organized presentation of large amounts of information.
+- in chronological order to promote organised presentation of large amounts of information.
 
 - Forms of contact for support and feedback at the bottom of the website, which will feed inquiries
   into a ticket-based system likely supported by existing Deakin University infrastructure.
@@ -346,7 +346,7 @@ scratch or through third-party vendors such as GoDaddy or Cisco.
 
 - SSL A cryptographic protocol for Providing secure communications over a computer network.
 
-- SSO An authentication scheme that allows a user to login with a single ID to more than one
+- SSO An authentication scheme that allows a user to log in with a single ID to more than one
   software system.
 
 - SQL Domain specific language used for programming and managing data held in relational database
