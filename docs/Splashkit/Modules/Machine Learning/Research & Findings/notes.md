@@ -10,7 +10,7 @@ compressive neural network and decompress for training. Delete decompression sta
 ## FAQ
 
 - Do we have to work with C++?
-  - Yes. The main sdk is written in C++ and that is the focus of the SplashKit Modules team for the
+  - Yes. The main SDK is written in C++ and that is the focus of the SplashKit Modules team for the
     foreseeable future.
 - Are we allowed to use libraries?
   - Not recommended. Library usage should be kept to a minimum. Any proposed library needs to be
@@ -30,7 +30,7 @@ The game API can be bypassed to directly access this library for other purposes.
 
 ![Evaluation of QLearning and Minimax shows QLearning with 94% (9492) games won and Minimax with 90% (90) of games won](https://i.imgur.com/8caHmdY.png)  
 Here is an example of Evaluation of agent performance we can see that QLearning performs optimally.
-Since we know Minimax is optimal we can compare it’s performance with QLearning and determine if
+Since we know Minimax is optimal we can compare it's performance with QLearning and determine if
 QLearning is playing at approximately the same level as Minimax.
 
 # T2 notes:

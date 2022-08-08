@@ -18,7 +18,7 @@ that users can build in SplashKit.
 ## Out of Scope
 
 - SplashKit Translator
-- SKM
+- SKM (SplashKit Manager)
 
 ## What needs to happen
 

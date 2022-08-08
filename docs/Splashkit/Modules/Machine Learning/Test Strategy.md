@@ -37,13 +37,13 @@ and versions, and test data.
 - VS Code configuration files are [available](<Research & Findings/VS Code/VS Code Guide.md>) for
   debugging purposes.
 - [test_machine_learning.cpp](https://github.com/thoth-tech/splashkit-core/blob/modules/machine_learning/coresdk/src/test/test_machine_learning.cpp)
-  is our main testing file and will be used to test newly implemented features.
+  is our main testing file and is used to test newly implemented features.
 
 ## **Scope of Testing**
 
 What types of tests exist for this project?
 
-- There are unit tests to be written as seen in [Test Cases.md](<Testing/Test Cases.md>)
+- [Test Cases.md](<Testing/Test Cases.md>) contains unit tests to be written for the system.
 - Regular less automated tests are also to be created as required
   ([Testing.md](Testing/Testing.md)).
   - Some of these are already available from last trimester.
