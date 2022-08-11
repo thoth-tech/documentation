@@ -7,8 +7,8 @@ addition of realistic physics is one of the recognised areas for improvement.
 
 ## Business Value
 
-The addition of realistic physics will enhance the quality and capabilities of games and animations
-that users can build in SplashKit.
+The addition of realistic physics enhances the quality and capabilities of games and animations that
+users can build in SplashKit.
 
 ## In Scope
 
@@ -18,9 +18,9 @@ that users can build in SplashKit.
 ## Out of Scope
 
 - SplashKit Translator
-- SKM
+- SplashKit Manager (SKM)
 
-## What needs to happen:
+## What must happen
 
 - Complete the code review from T2 2022 on the existing collisions and gravity functions.
 - Refactor the code to remove any external dependencies on the Box2D library
@@ -31,8 +31,6 @@ that users can build in SplashKit.
 ## Assumptions / Dependencies
 
 - Previous contribution code is accessible and working
-- Everything is customizable by the user (i.e., for visual data, they can choose colour, etc, for presentation)
-- Previous data to make it visible
 
 ## UX/UI Considerations
 
@@ -40,7 +38,7 @@ N/A
 
 ## Analytics Considerations
 
-None known
+None Known
 
 ## Regulation & Compliance Considerations
 
@@ -49,7 +47,7 @@ N/A
 ## Operations / Support / Training Considerations
 
 - Team members must become familiar with SplashKit, C++, Ninja and CMake
-- Upskilling may be needed if team members do not have prior knowledge of physics
+- Up-skilling may be needed if team members do not have prior knowledge of physics
 - Advise teams 2 weeks in advance of planned release
 - Current supportive documentation exists explaining creation procedures, etc).
 
@@ -57,6 +55,6 @@ N/A
 
 - Successful addition of realistic physics into SplashKit
 - Functional and passing QA
-- Simple to use (user acceptance testing completed)
+- Straightforward to use (user acceptance testing completed)
 - Documentation completed for design decisions and work
 - Documentation fits current expectations as set by SplashKit.io and stakeholders
