@@ -55,7 +55,7 @@
 				"kind": "build",
 				"isDefault": true
 			},
-			"problemMatcher": [],
+			"problemMatcher": []
 		}
 	],
 	"version": "2.0.0"
