@@ -21,7 +21,7 @@ AI but cannot spend lots of time on the project.
 ### 1.3 Intended Use
 
 The systems intended use is for the creation of AI agents that can be attached to a user's game. A
-variety of features will allow any game to be created and used by this system.
+Game API allows any game to utilise and attach agents to any game.
 
 ### 1.4 Scope
 

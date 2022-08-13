@@ -18,7 +18,7 @@ games, where a game player can then co-operate or compete against an AI characte
 ## Out of Scope
 
 - SplashKit Translator
-- SKM (SplashKit Manager)
+- SplashKit Manager (SKM)
 
 ## What needs to happen
 

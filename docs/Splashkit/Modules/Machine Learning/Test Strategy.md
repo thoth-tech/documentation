@@ -2,7 +2,11 @@
 
 ## **Introduction**
 
-A high-level summary of the project
+The purpose of the Machine Learning module for SplashKit is to add the ability for users to easily
+build a machine co-op or villain character, so that the player can have real challenges that
+increase difficulty throughout playing. Specifically, this it to abstract the complexity behind
+building an AI for games so that the user can focus on the task at hand rather than the AI used for
+demonstrating the game.
 
 ### **Example**
 

@@ -2,12 +2,12 @@
 
 ## Future Prospects
 
-NEAT – Real Time AI Agent
+NEAT (NeuroEvolution of Augmenting Topologies) – Real Time AI Agent?
 
 Deep auto encoder for feature compression: random board state plus moves available? Encode into a
 compressive neural network and decompress for training. Delete decompression stage after training
 
-## FAQ
+## Questions
 
 - Do we have to work with C++?
   - Yes. The main SDK is written in C++ and that is the focus of the SplashKit Modules team for the
@@ -16,8 +16,8 @@ compressive neural network and decompress for training. Delete decompression sta
   - Not recommended. Library usage should be kept to a minimum. Any proposed library needs to be
     accepted by the lead team as it would not only affect the rights/licence of the project but also
     the compile process. (Which could have other unintended consequences)
-  - Libraries that are used need to be monitored and updated accordingly (to fix security flaws or
-    bugs), and also need to be compatible with the SplashKit SDK.
+  - Libraries that are used must be monitored and updated accordingly (to fix security flaws or
+    bugs), and also must be compatible with the SplashKit SDK.
 
 ## Artificial Neural Network Design
 

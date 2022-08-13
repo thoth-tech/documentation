@@ -18,7 +18,7 @@ science students, rather than only using SplashKit for building games.
 ## Out of Scope
 
 - SplashKit Translator
-- SKM (SplashKit Manager)
+- SplashKit Manager (SKM)
 
 ## What needs to happen
 
