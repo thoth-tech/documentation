@@ -36,7 +36,7 @@ in a machine learning model.
 - Dataframe: Representation of dataset as an object in the program which allows users to use method
   calls to preform actions on the dataset.
 - Standardizing: the process of converting data to a common format to enable users to process and
-  analyze it
+  analyse it
 
 ## Overall Description
 
