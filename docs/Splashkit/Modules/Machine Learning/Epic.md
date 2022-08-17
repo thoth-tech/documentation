@@ -31,15 +31,22 @@ games, where a game player can then co-operate or compete against an AI characte
 
 ## Assumptions / Dependencies
 
-- Previous contribution code is accessible and working
+- This module will be in the greater `splashkit_lib` namespace
+- System will have time to train a model and space to save that model for a given game before use.
+- System will have a clear score to maximise. (Expand on this for less goal oriented AI? e.g.
+  background NPC)
+- There is a discrete time step between moves.
+- The search space will remain constant for each move.
 
 ## UX/UI Considerations
 
-N/A
+- During AI training user needs a general guide of how long the process will take.
+- API should follow the conventions of the SplashKit Platform.
+- End user should be able to use the system without any training. (i.e. save the model to disk)
 
 ## Analytics Considerations
 
-None known
+N/A
 
 ## Regulation & Compliance Considerations
 
@@ -47,6 +54,7 @@ N/A
 
 ## Operations / Support / Training Considerations
 
+- Guides and Documentation should be written for ease of use.
 - Team members must become familiar with SplashKit, C++, Ninja and CMake
 - Upskilling may be needed if team members do not have prior knowledge of reinforcement learning and
   artificial neural networks
@@ -54,9 +62,10 @@ N/A
 
 ## Acceptance criteria
 
-- Successful addition of machine learning into SplashKit with the capability of adding an AI agent
-  to a variety of user games
-- Functional and passing QA
-- Easy to use (user acceptance testing completed)
-- Documentation completed for design decisions and work
+See [Test Strategy](<Test Strategy.md>)
+
+- Test with multiple games with different properties and genres.
+- Test ANN components with regular AI training set.
+- Test against human opponent.
+- System can produce a move for any given game state in a reasonable amount of time.
 - Documentation fits current expectations as set by SplashKit.io and stakeholders
