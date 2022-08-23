@@ -31,8 +31,8 @@ in a machine learning model.
 
 ### 1.5 Definitions and Acronyms
 
-- Dataset: A collection of data in tabular form. fFiles ending in comma separated values (.csv), tab
-  separated values (.tbv), Excel (.xlsx) file extension.
+- Dataset: A collection of data in tabular form. Files ending in comma separated values (.csv), tab
+  separated values (.tbv), Excel (.xlsx), test (.txt) file extension.
 - Dataframe: Representation of dataset as an object in the program which allows users to use method
   calls to preform actions on the dataset.
 - Standardizing: the process of converting data to a common format to enable users to process and
