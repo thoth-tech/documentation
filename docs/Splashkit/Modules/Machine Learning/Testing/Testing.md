@@ -58,5 +58,5 @@ test relative performance of the AI. We make the AI verse a random Agent over ma
 it's win rate against the random Agent. We can then compare this win rate against previous versions
 of the Agent or we can compare the results against `MinimaxAgent` since we know that it always
 performs optimal moves. This testing also ensures that `MinimaxAgent` is performing as expected, as
-if it returns a lower (within a certain threshold) win rate than the Agent being tested it may be
-faulty.
+if it (`MinimaxAgent`) returns a lower (within a certain threshold) win rate than the Agent being
+tested it (`MinimaxAgent`) may be faulty.
