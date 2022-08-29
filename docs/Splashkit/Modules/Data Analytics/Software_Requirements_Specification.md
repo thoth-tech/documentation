@@ -18,7 +18,7 @@ The intended audience is Data Analysts, Machine Learning Engineers, and develope
 
 ### 1.3 Intended Use
 
-The intended use of this module is to create data visualisations and prepossess the data to be used
+The intended use of this module is to create data visualisations and preprocess the data to be used
 in a machine learning model.
 
 ### 1.4 Scope
