@@ -23,9 +23,9 @@ in a machine learning model.
 
 ### 1.4 Scope
 
-- Create dataframes by importing datasets. Adding and removing rows and columns on the dataset.
-- Overwriting data inside the dataset.
-- Preprocessing functionality for cleaning and standardizing the dataframe for the goal of making it
+- Create dataframes by importing datasets. Adding and removing rows/columns in a dataset.
+- Changing data inside a dataset.
+- Preprocessing functionality for cleaning and standardising the dataframe for the goal of making it
   fit to be used in a machine learning model.
 - Create data visualisations like bar graphs, histograms.
 
