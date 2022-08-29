@@ -16,9 +16,14 @@
 				"miDebuggerPath": "C:\\msys64\\mingw64\\bin\\gdb.exe"
 			},
 			"osx": {
-				"MIMode": "lldb",
 				"program": "${workspaceFolder}/bin/sktest",
+				"MIMode": "lldb",
 				"type": "lldb" // https://marketplace.visualstudio.com/items?itemName=vadimcn.vscode-lldb
+			},
+			"linux": {
+				"program": "${workspaceFolder}/bin/sktest",
+				"MIMode": "gdb",
+				"miDebuggerPath": "/usr/bin/gdb"
 			},
 			"setupCommands": [
 				{
@@ -52,6 +57,11 @@
 				"MIMode": "lldb",
 				"program": "${workspaceFolder}/bin/skunit_test",
 				"type": "lldb" // https://marketplace.visualstudio.com/items?itemName=vadimcn.vscode-lldb
+			},
+			"linux": {
+				"program": "${workspaceFolder}/bin/skunit_test",
+				"MIMode": "gdb",
+				"miDebuggerPath": "/usr/bin/gdb"
 			},
 			"setupCommands": [
 				{
