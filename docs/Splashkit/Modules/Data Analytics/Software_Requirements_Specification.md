@@ -8,9 +8,9 @@ insights from the dataset.
 
 ### 1.1 Purpose
 
-The purpose of Data Analytics module is that it is a tools that allows users to import crate data
-visualisations and use pre written algorithms to perform statistical analysis of the data, and
-pre-process the data for use in machine learning model.
+The purpose of Data Analytics module is that it is a tool that allows users to import, create data
+visualisations, and use pre-written algorithms to perform statistical analysis of the data, and
+pre-process data for use in a machine learning model.
 
 ### 1.2 Intended Audience
 
