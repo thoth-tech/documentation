@@ -34,8 +34,8 @@ in a machine learning model.
 - Dataset: A collection of data in tabular form. Files ending in comma separated values (.csv), tab
   separated values (.tbv), Excel (.xlsx), test (.txt) file extension.
 - Dataframe: Representation of dataset as an object in the program which allows users to use method
-  calls to preform actions on the dataset.
-- Standardizing: the process of converting data to a common format to enable users to process and
+  calls to perform actions on the dataset.
+- Standardising: the process of converting data to a common format to enable users to process and
   analyse it
 
 ## Overall Description
