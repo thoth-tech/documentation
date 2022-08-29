@@ -14,7 +14,7 @@ pre-process data for use in a machine learning model.
 
 ### 1.2 Intended Audience
 
-The intended audience is Data Analysts, Machine Learning Engineer and developer.
+The intended audience is Data Analysts, Machine Learning Engineers, and developers.
 
 ### 1.3 Intended Use
 
