@@ -11,7 +11,7 @@ Minutes by: Morgaine Barter
 
 ## Agenda
 - Documentation
-    - Spoke about where documenation currently is.
+- Spoke about where documenation currently is.
  
 
 ## Announcements 
@@ -42,7 +42,7 @@ Minutes by: Morgaine Barter
 
 - Bug report template 
 
-    - (How to load games using config file) - user guide   
+- (How to load games using config file) - user guide   
 
 - Data collection strategy (work on next week as a user feedback metric) 
 
