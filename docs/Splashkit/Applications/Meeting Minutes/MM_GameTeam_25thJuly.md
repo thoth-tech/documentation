@@ -22,7 +22,7 @@ Minutes by: Morgaine Barter
 5.  ask if anyone has comfortability creating a character or visual assets for the game
 
 6.  (as I would like to at least get a list of the visual assets we require for our game of choice,
-    choose a color story/theme) and add this information to the design doc for planning
+    choose a colour story/theme) and add this information to the design doc for planning
 
 7.  set another meeting for thursday to continue brainstorming
 
