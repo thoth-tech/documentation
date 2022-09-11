@@ -22,6 +22,7 @@ In the form, "As a \[persona\], I \[want to\], \[so that\]."
 ### Tutors
 1. As a tutor, I want to make sure that my students understand a concept, so that they can succeed at their studies.
 1. As a tutor, I want to see a clear, linear log of my interactions through the OnTrack platform, so that I can orient myself with the student and their current position easier and quicker.
+1. As a tutor, I want to be able to compare student code files they have submitted.
 1. As a masker, I want to be able to highlight and leave notes on files, so that I can provide feedback to my students.
 
 ### Convenors
@@ -39,6 +40,8 @@ In the form, "As a \[persona\], I \[want to\], \[so that\]."
 1. Stages for tasks.
     - Derived from tutor user story no. 1.
 1. In-browser file viewer with comment appending capabilities.
-    - Derived from student user story no. 5 and tutor user story no. 3.
+    - Derived from student user story no. 5 and tutor user story no. 4.
 1. Selective file replacement.
     - Derived from student user story no. 2.
+1. Diff viewer
+    - Derived from tutor user story no. 3.
