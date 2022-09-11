@@ -31,9 +31,9 @@ Minutes by: Morgaine Barter
 | Name            | Intro to Programming | OOP                  | game making experience  |
 | --------------- | -------------------- | -------------------- | ----------------------- |
 | Morgaine Barter | 2018                 | 2022 (currently) yes | basic                   |
-| Lily Lan        |
+| Lily Lan        | 2020                 | 2021                 | only last trimester     |
 | Lachlan Morgan  | 2018                 | 2019                 | only from last semester |
-| Daniel Agbay    |
+| Daniel Agbay    | 2020                 | 2021                 | yes game design and more|
 | Roy Chen        | 2020                 | 2022 (currently)     | no                      |
 | Jiahao Zheng    | 2019                 | 2022 (currently) yes | basic                   |
 | Robert Osborne  | 2020                 | 2021 yes             | game design 2021        |
