@@ -13,6 +13,7 @@ Features:
 - [Commit system for uploads and comments](#commit-system)
 - [File viewer within browser](#file-viewer)
 - [Selective file replacer](#file-replacer)
+- [Diff viewer](#diff-viewer)
 - [Testing environment](#testing-environment)
 
 ### Chatbot
