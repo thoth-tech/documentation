@@ -1,17 +1,19 @@
 # Architecture Document | Voice Verification for OnTrack Delivery
 ## Introduction
 ### Purpose
-This document provides a comprehensive architectural overview of the system, using a few different architectural views to depict different aspects of the system. It is intended to capture and convey the significant architectural decisions which have been made on the system. 
+This document provides a comprehensive architectural overview of the Voice Verification system, using a few different architectural views to depict different aspects of the system. It is intended to capture and convey the significant architectural decisions which have been made on the system. 
 ### Scope
 This Architecture Document provides an architectural overview of Voice Verification System. The Voice Verification System is being developed to address the issues concerning contract cheating on online learning management platforms. 
 
 ## Architectural Goals and Constraints
-- Front-end components should comply with existing OnTrack requirements. 
+### Goals
 - Students can register their voice on OnTrack using the Speaker Verification system. 
-- Speaker Verification system must have compatibility for voice recording across multiple browsers. 
 - Upon task submission, the attached voice file is analysed for verification. 
 - Deployed on the OnTrack instance in a docker container format. 
 - Support for gathering both front and backend telemetry should be present in the system to allow for analysis of user interaction, and system performance. 
+### Constraints
+- Speaker Verification system must have compatibility for voice recording across multiple browsers. 
+- Front-end components should comply with existing OnTrack requirements. 
 - System should adhere to existing OnTrack privacy/compliance requirements in addition to existing OnTrack security requirements. 
 
 ## Use-Case View
@@ -30,7 +32,7 @@ This Architecture Document provides an architectural overview of Voice Verificat
 
 
 ### Detailed description of the architecture diagram
-The diagram shows the communication types between each of the systems of the project. The User interacts with both the frontend website OnTrack and the voice verification system through a Ruby app.  
+The diagram shows the communication types between each of the systems of the project. The User interacts with both the frontend website OnTrack and the voice verification system through a Ruby app. The voice verification method used takes advantage of Deep Speaker. Deep Speaker is a deep learning model that can be used to verify a user's identity by comparing their voice to a voiceprint. The voice verification system is deployed in a docker container format. 
 
 ### General Flow diagram
 ![Figure 3: General Flow Diagram](Research%20&%20Findings/images/Flow%20Diagram.png)
