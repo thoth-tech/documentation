@@ -3,7 +3,7 @@
 ### Purpose
 This document provides a comprehensive architectural overview of the system, using a few different architectural views to depict different aspects of the system. It is intended to capture and convey the significant architectural decisions which have been made on the system. 
 ### Scope
-This Architecture Document provides an architectural overview of Voice Verification System. The Voice Verification System is being developed to address the issues concerning contract cheating within online learning management platforms. 
+This Architecture Document provides an architectural overview of Voice Verification System. The Voice Verification System is being developed to address the issues concerning contract cheating on online learning management platforms. 
 
 ## Architectural Goals and Constraints
 - Front-end components should comply with existing OnTrack requirements. 
@@ -16,24 +16,24 @@ This Architecture Document provides an architectural overview of Voice Verificat
 
 ## Use-Case View
 ### Architecturally Significant Use Cases
-![Figure 1: Architecturally Significant Use Cases](https://github.com/thoth-tech/documentation/blob/89e17ecb3033c6491c9e7d7ee161198b2ee04653/docs/OnTrack/Voice%20Verification/Images/Use%20Cases.png)
+![Figure 1: Architecturally Significant Use Cases](Research%20&%20Findings/images/Use%20Cases.png)
 
 
 - Enrol the voiceprint: This use case allows a student to register a voiceprint for later verification 
-- Submit a voice file: This use case allows a student to submit an assignment audio to Ontrack System 
-- Compare two audio samples: The Deep Speaker Model is an actor involved within this use case which will automatically confirm student’s identity by comparing their new voice submission to their voiceprint. This takes place within the Voice Verification Container 
+- Submit a voice file: This use case allows a student to submit an assignment audio to OnTrack System 
+- Compare two audio samples: The Deep Speaker Model is an actor involved in this use case which automatically confirms a student's identity by comparing their new voice submission to their voiceprint. This takes place in the Voice Verification Container 
 - Receive the result of voice verification: This use case allows student and tutor to receive the voice verification result (a confidence score of how likely it is that the voice in the recording is the student in question)   
 
 ## Logical View
-### Architecture Overview
-![Figure 2: High Level Architecture](https://github.com/thoth-tech/documentation/blob/89e17ecb3033c6491c9e7d7ee161198b2ee04653/docs/OnTrack/Voice%20Verification/Images/Architecture%20Diagram.png)
+### Architecture
+![Figure 2: High Level Architecture](Research%20&%20Findings/images/Architecture%20Diagram.png)
 
 
 ### Detailed description of the architecture diagram
-The diagram shows the communication types between each of the systems of the project. The User interacts with both the frontend website Ontrack and the voice verification system through a Ruby app.  
+The diagram shows the communication types between each of the systems of the project. The User interacts with both the frontend website OnTrack and the voice verification system through a Ruby app.  
 
 ### General Flow diagram
-![Figure 3: General Flow Diagram](https://github.com/thoth-tech/documentation/blob/doc/Voice-Verification---Architecture-Document/docs/OnTrack/Voice%20Verification/Images/Flow%20Diagram.png)
+![Figure 3: General Flow Diagram](Research%20&%20Findings/images/Flow%20Diagram.png)
 
 
 The User has its requests go through the existing OnTrack system, with the OnTrack system sending further requests to the Voice Verification API. The sends the voice files to the docker container. 
@@ -46,7 +46,7 @@ The Size and Performance as of this stage cannot be calculated. However, the fol
 - Throughput of API calls 
 
 ## Quality
-The Quality of the system needs to be further measured. The required information is as follows: 
+The Quality of the system must be further measured. The required information is as follows: 
 
 - Quality of Voice Validation results 
 - Testing of Voice Submissions (placing multiple speakers in the audio file, placing the speech at different stage of the audio file) 
