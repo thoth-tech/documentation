@@ -4,7 +4,7 @@
 
 ---
 
-- Author: Shae Christmas
+- Author: [ShaeChristmas](https://github.com/ShaeChristmas)
 - Team: OnTrack - Voice Verification
 - Team (Delivery and/or Product) Lead: Shae Christmas
 
