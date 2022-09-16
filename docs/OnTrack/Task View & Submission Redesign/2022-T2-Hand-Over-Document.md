@@ -18,3 +18,6 @@ The purpose of this document is to explain to future collaborators on this proje
 - We re-defined the features we previously conceived.
     - Close communication with a Thoth Tech managing director and the OnTrack area lead was maintained. They evaluated the feature list to ensure we didn't drift away from the core of the project.
 - We altered the two competing designs (i.e, we performed a third iteration of the two designs) to conform with the changes in requirements (how the requirements were re-defined/re-interpreted).
+
+## What Next?
+- Read [Project On-boarding](Project-On-Boarding.md)
