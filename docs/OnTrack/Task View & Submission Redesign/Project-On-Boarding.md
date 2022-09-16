@@ -1,3 +1,5 @@
+[Back to Index](Index.md)
+
 # Project On-boarding
 ## Purpose of Document
 The purpose of this document is to position you, the potential contributor, in such a way that you can contribute to the on-going progress of the Task View and Submission Redesign project. It is assumed that you have already begun, if not finished, the on-boarding process for the Thoth Tech company and the OnTrack product.
