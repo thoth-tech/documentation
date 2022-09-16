@@ -13,6 +13,7 @@ Features:
 - [Commit system for uploads and comments](#commit-system)
 - [File viewer within browser](#file-viewer)
 - [Selective file replacer](#file-replacer)
+- [Diff viewer](#diff-viewer)
 - [Testing environment](#testing-environment)
 
 ### Chatbot
@@ -32,6 +33,9 @@ The implementation of a commit system for tasks, this will allow students to upl
 
 ### File replacer
 The ability for students, tutors/teachers to view submitted files within their browser as well as write and view submitted comments regarding those files. This will be supported by the uplifted file management system.
+
+### Diff viewer
+The ability for tutors to be able to compare code files submitted by students via a difference viewer.
 
 ### Testing environment
 To emulate and develop our backend git solution we will build a very simple HTTP server and establish a REST API. This is to emulate requests from Ontrack front-end without tightly integrating it. This will drastically lower the learning curve to contribute to this project.
