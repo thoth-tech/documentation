@@ -15,7 +15,7 @@ In the form, "As a \[persona\], I \[want to\], \[so that\]."
 ### Students
 1. As a \[student\], I \[want to be able to easily navigate OnTrack\], so that I \[can submit my work with ease\].
 1. As a student, I \[want to be able to re-submit some of many files\], so that I \[do not have to re-upload all files related to a task\].
-1. As a student, I \[want to be able to see a history of events\], so that I \[can see the last time I uploaded a file or messaged the tutor\].
+1. As a student, I \[want to be able to see a history of events\], so that I \[can see the last time a file was uploaded or a message was sent by the tutor\].
 1. As a student, I \[want to be able to include comments with my uploads\], so that I \[may discuss the task with my tutor\].
 1. As a student, I \[want to be able to view my submissions in my browser\], so that I \[don't have to keep downloading copies of my submissions\].
 
