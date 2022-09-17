@@ -20,8 +20,8 @@ The purpose of this document is to position you, the potential contributor, such
     - Are there any users that are not served in the user stories or by the features?
 - Become familiar with [the requirements](Requirements.md)
     - Are all stakeholders sufficiently provided for, with this set of requirements?
-- Examine [Grady's proposed design](Wireframe%20Iteration%20designs/Iteration%203%20Design%201%20by%20Grady%20Ramsay.png) and ensure all requirements are met, and that the inclusion of the features are user-friendly.
-- Examine [Ricky's proposed design](Wireframe%20Iteration%20designs/Iteration-3-Design-2-by-Ricky-Dodd.png) and ensure all requirements are met, and that the inclusion of the features are user-friendly.
+- Examine [Grady's proposed design](design_images/Iteration%203%20Design%201%20by%20Grady%20Ramsay.png) and ensure all requirements are met, and that the inclusion of the features are user-friendly.
+- Examine [Ricky's proposed design](design_images/Iteration-3-Design-2-by-Ricky-Dodd.png) and ensure all requirements are met, and that the inclusion of the features are user-friendly.
     - Examine [Ricky's prototype](https://www.figma.com/proto/XmKxWQ43MwrD6Red1DvYq6/Wire-Frame-Designs?node-id=478%3A4466&scaling=min-zoom&page-id=476%3A4327&starting-point-node-id=478%3A4466).
 - Select a front-end design to modify, improve, extend, or implement.
 - Examine Matt's back-end emulator.
