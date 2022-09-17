@@ -27,12 +27,12 @@ By further modernising OnTrack, institutions can deploy the OnTrack platform to 
 ## What Must Happen
 - Organise a meeting with a managing director, the OnTrack area lead, and project team to ensure requirements are communicated first-hand.
 - Create user stories derived from several stakeholder personas.
-- Four high-fidelity wireframes must be created using [Figma](https://www.figma.com/).
+- Four high-fidelity wire-frames must be created using [Figma](https://www.figma.com/).
     - Of these, two must be selected by a managing director and the OnTrack area lead.
-- Two high-fidelity wireframes must be further refined, working on interation-based feedback and incorporating OnTrack's visual style.
+- Two high-fidelity wire-frames must be further refined, working on interation-based feedback and incorporating OnTrack's visual style.
     - Of these, one must be selected by the managing director and the OnTrack area lead.
 - A prototype must be created using [Figma](https://www.figma.com/).
-    - The prototype must have click-through capabilities.
+    - The prototype must have model the design.
 - A document must be created that contains the current interface the back-end provides the front-end.
 - A proof of concept must be created for the back-end.
 
@@ -45,7 +45,7 @@ By further modernising OnTrack, institutions can deploy the OnTrack platform to 
     - Can all features be navigated to?
         - New features?
         - Previous features that were retained?
-        - A prototype must be created with click-through capabilities.
+        - A prototype must be created that models the design.
 - Accessibility
 
 ## Regulation & Compliance Considerations

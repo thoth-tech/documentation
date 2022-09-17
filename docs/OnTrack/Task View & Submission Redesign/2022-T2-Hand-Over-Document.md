@@ -7,7 +7,7 @@ The purpose of this document is to explain to future collaborators of this proje
 ## State of Project When Received
 - The Task View and Submission Redesign project had just been conceived.
 - No material had been produced on the project.
-- Besides the goal of reducing PDF processing on the server and that we should explore using git on the back-end, there were little requirements yet.
+- Besides the goal of reducing PDF processing on the server and that we should explore using git on the back-end, there were little requirements at this point.
 
 ## State of Project at Hand-Over
 - We identified several key stakeholders.
