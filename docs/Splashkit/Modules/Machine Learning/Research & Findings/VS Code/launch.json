@@ -40,10 +40,10 @@
 			"preLaunchTask": "Full Compile" // Swap this with "Compile" to skip the cmake step
 		},
 		{
-			"name": "skunit_test.exe",
+			"name": "skunit_tests.exe",
 			"type": "cppdbg",
 			"request": "launch",
-			"program": "${workspaceFolder}/bin/skunit_test.exe",
+			"program": "${workspaceFolder}/bin/skunit_tests.exe",
 			"args": [],
 			"stopAtEntry": false,
 			"cwd": "${workspaceFolder}/bin",
@@ -55,11 +55,11 @@
 			},
 			"osx": {
 				"MIMode": "lldb",
-				"program": "${workspaceFolder}/bin/skunit_test",
+				"program": "${workspaceFolder}/bin/skunit_tests",
 				"type": "lldb" // https://marketplace.visualstudio.com/items?itemName=vadimcn.vscode-lldb
 			},
 			"linux": {
-				"program": "${workspaceFolder}/bin/skunit_test",
+				"program": "${workspaceFolder}/bin/skunit_tests",
 				"MIMode": "gdb",
 				"miDebuggerPath": "/usr/bin/gdb"
 			},
