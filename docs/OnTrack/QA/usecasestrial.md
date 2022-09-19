@@ -7,8 +7,7 @@ As a \[Student\] I want \[to be able to see all my subjects\] so that
 Student user stories
 
 ![Graphical user interface, application, Teams Description automatically
-generated](./images/media/image1.png){width="6.80207239720035in"
-height="3.296593394575678in"}
+generated](./images/media/image1.png)
 
 As a student, I want to be able to identify all my units, so that I can
 select the unit I want to work on.
@@ -21,8 +20,7 @@ scheduled for, so that I can understand if I am to complete or have
 completed courses.
 
 ![Graphical user interface, chart Description automatically
-generated](./images/media/image2.png){width="6.779663167104112in"
-height="3.2083333333333335in"}
+generated](./images/media/image2.png)
 
 As a student, I want to be able to understand my progress through the
 trimester, so that I can be aware of remaining and completed tasks
@@ -35,8 +33,7 @@ trimester, so I can visualize my completion in comparison to the
 requirements.
 
 ![Graphical user interface Description automatically
-generated](./images/media/image3.png){width="1.96875in"
-height="4.097128171478565in"}
+generated](./images/media/image3.png)
 
 As a student, I want to see the status of my task with ease, so that I
 can be quickly informed of any updates
@@ -51,8 +48,7 @@ As a student, I want to see what grade of task I have, so that I can
 ensure I complete all grade relevant tasks
 
 ![Graphical user interface, application Description automatically
-generated](./images/media/image4.png){width="1.9411811023622048in"
-height="4.322916666666667in"}
+generated](./images/media/image4.png)
 
 As a student, I want to sync my OnTrack tasks with my calendar, so that
 I can schedule my work
@@ -67,8 +63,7 @@ As a student, I want settings access to my profile, so I can make
 amendments to my personal profile
 
 ![Graphical user interface, text, application Description automatically
-generated](./images/media/image5.png){width="6.669280402449694in"
-height="1.9479166666666667in"}
+generated](./images/media/image5.png)
 
 As a student, I want to quick switch between my units, so that I can
 change unit pages
@@ -80,8 +75,7 @@ As a student, I want to see my "Active" units, so that I can see what I
 am currently studying
 
 ![Graphical user interface, text, application, email Description
-automatically generated](./images/media/image6.png){width="6.5in"
-height="2.3402777777777777in"}
+automatically generated](./images/media/image6.png)
 
 As a student, I want to view the task sheet and resources for a task, so
 that I can understand the work and task requirements.
@@ -136,8 +130,7 @@ Admin Portal User stories
 
 ![Graphical user interface, text, application, chat or text message
 Description automatically
-generated](./images/media/image7.png){width="5.323659230096238in"
-height="4.354774715660542in"}
+generated](./images/media/image7.png)
 
 As an administrator, I want to set trimester dates, so that students can
 be aware of study periods throughout the year
@@ -153,8 +146,7 @@ so that I can configure campuses
 
 ![Graphical user interface, text, application, chat or text message
 Description automatically
-generated](./images/media/image8.png){width="4.323520341207349in"
-height="2.906655730533683in"}
+generated](./images/media/image8.png)
 
 As an administrator, I want to view the tutor settings, so I can make
 unit relevant changes
@@ -163,8 +155,7 @@ As an administrator, I want to see the commencement month of the unit,
 so I can see if its scheduled correctly
 
 ![Graphical user interface, application, Word Description automatically
-generated](./images/media/image9.png){width="1.5873676727909012in"
-height="3.560554461942257in"}
+generated](./images/media/image9.png)
 
 As an administrator, I want to be able to change my profile options, so
 that I can change my personal details
@@ -173,8 +164,7 @@ As an administrator, I want to be able to change my notification
 options, so that I can change what sends me notifications
 
 ![Graphical user interface, application, email Description automatically
-generated](./images/media/image10.png){width="5.399597550306212in"
-height="7.546643700787402in"}
+generated](./images/media/image10.png)
 
 As an administrator, I want to change my details, so that I can update
 details if required
@@ -188,8 +178,7 @@ gathered, so I can ensure my privacy
 Tutor user stories
 
 ![Graphical user interface, application Description automatically
-generated](./images/media/image11.png){width="3.7003160542432196in"
-height="5.079064960629921in"}
+generated](./images/media/image11.png)
 
 As a tutor, I want to check students within my unit, so that I can
 ensure I have the correct class list
@@ -217,8 +206,7 @@ on student submissions within the unit
 
 ![Graphical user interface, text, application, email Description
 automatically
-generated](./images/media/image12.png){width="6.166972878390201in"
-height="7.667047244094488in"}
+generated](./images/media/image12.png)
 
 As a tutor, I want to change my details, so that they can be updated
 when required
@@ -227,8 +215,7 @@ As a tutor, I want to be able to select whether my data is gathered, so
 I can ensure my privacy
 
 ![Graphical user interface, text, application Description automatically
-generated](./images/media/image13.png){width="3.7921959755030623in"
-height="6.740523840769904in"}
+generated](./images/media/image13.png)
 
 As a tutor, I want to be able to check my tasks inbox, so that I can
 view student submissions and provide feedback and marking
@@ -246,8 +233,7 @@ As a tutor, I want to be able to tell which tasks I am marking, so that
 I can ensure I am up to date with marking
 
 ![Table Description automatically generated with medium
-confidence](./images/media/image14.png){width="6.5in"
-height="2.415277777777778in"}
+confidence](./images/media/image14.png)
 
 As a tutor, I want to be able to select a marking option, so that I can
 provide vital feedback for students
@@ -261,15 +247,13 @@ can review their work
 Convenor
 
 ![Graphical user interface, text, application Description automatically
-generated](./images/media/image15.png){width="1.6252263779527558in"
-height="5.6674573490813644in"}
+generated](./images/media/image15.png)
 
 As a convenor, I want to be able to admin my managed units, so that I
 can setup units for students and tutors
 
 ![Graphical user interface, table Description automatically generated
-with medium confidence](./images/media/image16.png){width="6.5in"
-height="5.585416666666666in"}
+with medium confidence](./images/media/image16.png)
 
 As a convenor, I want to be able to configure and alter the unit site,
 so that students can be provided with all of the correct unit-based
@@ -287,39 +271,32 @@ As a convenor, I want to be able to mark my units as active or inactive,
 so that I can ensure only the correct units are published
 
 ![Graphical user interface, text, application, email Description
-automatically generated](./images/media/image17.png){width="6.5in"
-height="2.5708333333333333in"}
+automatically generated](./images/media/image17.png)
 
 ![Graphical user interface, application Description automatically
-generated](./images/media/image18.png){width="6.5in"
-height="2.292361111111111in"}
+generated](./images/media/image18.png)
 
 ![A screenshot of a computer Description automatically generated with
-low confidence](./images/media/image19.png){width="6.5in"
-height="3.877083333333333in"}
+low confidence](./images/media/image19.png)
 
-![](./images/media/image20.png){width="6.5in"
-height="2.532638888888889in"}
+![](./images/media/image20.png)
 
 ![Graphical user interface, text, application, email Description
-automatically generated](./images/media/image21.png){width="6.5in"
-height="4.819444444444445in"} ![Table Description automatically
+automatically generated](./images/media/image21.png)
+![Table Description automatically
 generated with medium
-confidence](./images/media/image22.png){width="6.5in"
-height="4.9631944444444445in"} ![Graphical user interface, text,
+confidence](./images/media/image22.png)
+![Graphical user interface, text,
 application Description automatically
-generated](./images/media/image23.png){width="6.5in"
-height="1.6534722222222222in"}
+generated](./images/media/image23.png)
 
 Public Doubtfire/Ontrack cloud deployment for testing and development
 purposes
 
-![](./images/media/image24.png){width="6.5in"
-height="5.269444444444445in"}
+![](./images/media/image24.png)
 
 ![Graphical user interface, application Description automatically
-generated](./images/media/image25.png){width="3.448397856517935in"
-height="2.437840113735783in"}
+generated](./images/media/image25.png)
 
 Doubtfire-web = Website front end docker container running all the code
 required to publish a front end and provide visuals
@@ -331,8 +308,7 @@ Doubtfire-dev-db = the docker container in which all the database is
 housed and managed, providing all the required data to service user
 requests, the database houses
 
-![](./images/media/image26.png){width="6.046821959755031in"
-height="7.347276902887139in"}
+![](./images/media/image26.png)
 
 The doubtfire-web docker instance, the doubtfire web frontend is running
 on a range of different utilities but is mostly compacted with a range
@@ -343,8 +319,7 @@ framework led by the Angular Team at Google. This framework is utilized
 for its responsive and well-rounded application while being actively
 developed and open source
 
-![](./images/media/image27.png){width="5.740510717410324in"
-height="7.4418121172353455in"}
+![](./images/media/image27.png)
 
 Doubtfire -- API
 
@@ -355,5 +330,4 @@ work interchangeably as they all provide each other with the required
 information required for day-to-day functionality.
 
 ![Graphical user interface, text Description automatically
-generated](./images/media/image28.png){width="3.1566907261592303in"
-height="0.9063768591426071in"}
+generated](./images/media/image28.png)
