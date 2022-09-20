@@ -1,6 +1,6 @@
-**[Thoth Tech Quality Assurance:]{.underline}**
+**Thoth Tech Quality Assurance**
 
-**[Ontrack Feature List]{.underline}**
+**Ontrack Feature List**
 
 ![Graphical user interface, application, Teams Description automatically
 generated](./Feature_Images/media/image1.png)
@@ -15,7 +15,6 @@ generated](./Feature_Images/media/image1.png)
 
 ![](./Feature_Images/media/image2.png)
 
-**\`**
 
 -   Ontrack logo is clickable which directs user to the home screen
 
@@ -26,8 +25,9 @@ generated](./Feature_Images/media/image1.png)
     Notifications, Calendar, About and Sign
     out.![](./Feature_Images/media/image3.png)![](./Feature_Images/media/image4.png)
 
-![](./Feature_Images/media/image5.png){width="1.5673611111111112in"
-height="3.2618055555555556in"}**Ontrack Unit Dashboard Screen**
+![](./Feature_Images/media/image5.png)
+
+**Ontrack Unit Dashboard Screen**
 
 -   Task List
 
@@ -75,7 +75,7 @@ height="3.2618055555555556in"}**Ontrack Unit Dashboard Screen**
 automatically
 generated](./Feature_Images/media/image7.png)
 
-**[Admin Perspective]{.underline}**
+**Admin Perspective**
 
 **Admin Home Screen**
 
@@ -141,7 +141,7 @@ generated](./Feature_Images/media/image11.png)
 ![Graphical user interface, application Description automatically
 generated](./Feature_Images/media/image12.png)
 
-**[Convenor Perspective]{.underline}**
+**Convenor Perspective**
 
 **Tutorials Setup**
 
@@ -153,7 +153,7 @@ generated](./Feature_Images/media/image12.png)
     individually
 
 ![](./Feature_Images/media/image13.png)
-(./Feature_Images/media/image14.png)
+
 **Unit Configuration**
 
 -   Categorized Configuration tabs
@@ -171,4 +171,4 @@ generated](./Feature_Images/media/image12.png)
     notifications, extension availability, option to change tutorial
     etc.
 
- 
+ ![](./Feature_Images/media/image14.png)
