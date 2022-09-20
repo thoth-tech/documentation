@@ -18,7 +18,7 @@ games, where a game player can then co-operate or compete against an AI characte
 ## Out of Scope
 
 - SplashKit Translator
-- SKM
+- SplashKit Manager (SKM)
 
 ## What needs to happen
 
@@ -31,12 +31,12 @@ games, where a game player can then co-operate or compete against an AI characte
 
 ## Assumptions / Dependencies
 
-- This module will be in the greater `splashkit_lib` namespace
-- System will have time to train a model and space to save that model for a given game before use.
-- System will have a clear score to maximise. (Expand on this for less goal oriented AI? e.g.
-  background NPC)
+- This module is in the greater `splashkit_lib` namespace
+- System has time to train a model and space to save that model for a given game before use.
+- System has a clear score to maximise. (Expand on this for less goal oriented AI? e.g. background
+  NPC)
 - There is a discrete time step between moves.
-- The search space will remain constant for each move.
+- The search space remains constant for each move.
 
 ## UX/UI Considerations
 
