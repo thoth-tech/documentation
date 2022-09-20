@@ -3,7 +3,7 @@ can accomplish this goal\]**
 
 As a \[Student\] I want \[to be able to see all my subjects\] so that
 \[I can choose the one I need\]
-
+<br></br>
 # User Stories for Students
 
 ![Graphical user interface, application, Teams Description automatically
@@ -94,6 +94,8 @@ that I can discuss regarding my submission.
 
 <https://github.com/doubtfire-lms/doubtfire-web/pull/564#issue-1313949947>
 
+<br></br>
+
 # User Stories for Markers:
 
 As a marker, I want to be able to simply rate students' task with an
@@ -125,6 +127,8 @@ When I complete marking a students work
 
 Then I should be able to select a classification to assign a students
 grade (Fail, Pass, Credit, Distinction, High Distinction)
+
+<br></br>
 
 # User Stories for Administrators
 
@@ -174,6 +178,8 @@ can ensure the correct roles are assigned
 
 As an administrator, I want to be able to select whether my data is
 gathered, so I can ensure my privacy
+
+<br></br>
 
 # User Stories for Tutors
 
@@ -244,6 +250,8 @@ students can complete any additional work that may be required.
 As a tutor, I want to be able to see what a student has submitted, so I
 can review their work
 
+<br></br>
+
 # User Stories for Convenors
 
 ![Graphical user interface, text, application Description automatically
@@ -290,8 +298,9 @@ confidence](./images/media/image22.png)
 application Description automatically
 generated](./images/media/image23.png)
 
-# Public Doubtfire/Ontrack cloud deployment for testing and development
-purposes
+<br></br>
+
+# Public Doubtfire/Ontrack cloud deployment for testing and development purposes
 
 ![](./images/media/image24.png)
 
