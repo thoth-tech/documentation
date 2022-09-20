@@ -18,14 +18,14 @@ science students, rather than only using SplashKit for building games.
 ## Out of Scope
 
 - SplashKit Translator
-- SKM
+- SplashKit Manager (SKM)
 
 ## What needs to happen
 
 - Review the code from previous trimesters to determine if any of the existing data frames code can
   be reused
 - Re-create the expected functionality of data frames, including capabilities to perform the loading
-  of structured data, multiple data types, data modification and cleaning, standardisation,
+  of structured data, multiple data types, data modification, data cleaning, standardisation,
   transformation, feature selection, feature extraction, and descriptive statistics
 - Expand the functionality so that the user can visualise data with customizable parameters through
   pie-charts, bar graphs, etc. (potentially through the existing SplashKit drawing modules)

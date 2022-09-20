@@ -89,7 +89,21 @@ building a core range of methods. These methods include:
 
 ### 2.1 User Needs
 
+The user requirements for this module are that the module must be usable by game programmers that
+use Splashkit. These requirements include:
+
+- Wrapper for the user's game to be implemented by the user
+- Each physics attribute can be implemented using a single method call
+- Speed and weight of objects are able to be set by the user
+- Use of physics methods on shapes, bitmaps and sprites.
+
 ### 2.2 Assumptions and Dependencies
+
+This module has a few assumptions. These include:
+
+- Length measurements are all the same scale based on pixel ratio to metres
+- Default gravity is standardised to Earths value (9.8 m/s/s/).
+- Separate physics methods should be able to coexist without breaking.
 
 ## System Features and Requirements
 
