@@ -1,9 +1,4 @@
-**Thoth Tech Quality Assurance**
-
-**Ontrack Feature List**
-
-![Graphical user interface, application, Teams Description automatically
-generated](./Feature_Images/media/image1.png)
+**<div align="center">Thoth Tech Quality Assurance: Ontrack Feature List </div>**
 
 **Ontrack Home Screen**:
 
@@ -12,8 +7,11 @@ generated](./Feature_Images/media/image1.png)
 
 -   History Button on the right to show all past units that have been
     completed or discontinued
+    
+![Graphical user interface, application, Teams Description automatically
+generated](./Feature_Images/media/image1.png)
+<br></br>
 
-![](./Feature_Images/media/image2.png)
 
 
 -   Ontrack logo is clickable which directs user to the home screen
@@ -23,9 +21,12 @@ generated](./Feature_Images/media/image1.png)
 
 -   User Initials/Avatar in top right corner with dropdown to Profile,
     Notifications, Calendar, About and Sign
-    out.![](./Feature_Images/media/image3.png)![](./Feature_Images/media/image4.png)
+    out.
+    
+    ![](./Feature_Images/media/image2.png)
+    ![](./Feature_Images/media/image3.png)![](./Feature_Images/media/image4.png)
 
-![](./Feature_Images/media/image5.png)
+
 
 **Ontrack Unit Dashboard Screen**
 
@@ -42,6 +43,8 @@ generated](./Feature_Images/media/image1.png)
 
     -   Timeline Icon (Hourglass to show if task is to be started or
         should have been started along with how many days/weeks ago)
+        
+        ![](./Feature_Images/media/image5.png)
 
 -   Progress Dashboard
 
@@ -99,7 +102,6 @@ generated](./Feature_Images/media/image7.png)
 Teams Description automatically
 generated](./Feature_Images/media/image8.png)
 
-![](./Feature_Images/media/image9.png)
 
 **Task Explorer**
 
@@ -112,6 +114,8 @@ generated](./Feature_Images/media/image8.png)
 
 -   Mark Buttons (7): Fail, Feedback Exceeded, Redo, Resubmit, Discuss,
     Demonstrate and Complete
+    
+    ![](./Feature_Images/media/image9.png)
 
 ![](./Feature_Images/media/image10.png)
 
