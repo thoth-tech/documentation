@@ -4,7 +4,7 @@ can accomplish this goal\]**
 As a \[Student\] I want \[to be able to see all my subjects\] so that
 \[I can choose the one I need\]
 
-Student user stories
+# # User Stories for Students
 
 ![Graphical user interface, application, Teams Description automatically
 generated](./images/media/image1.png)
@@ -94,7 +94,7 @@ that I can discuss regarding my submission.
 
 <https://github.com/doubtfire-lms/doubtfire-web/pull/564#issue-1313949947>
 
-User Story:
+# User Stories for Markers:
 
 As a marker, I want to be able to simply rate students' task with an
 easy-to-read interface, so that I can provide correct marks to students.
@@ -126,7 +126,7 @@ When I complete marking a students work
 Then I should be able to select a classification to assign a students
 grade (Fail, Pass, Credit, Distinction, High Distinction)
 
-Admin Portal User stories
+# User Stories for Administrators
 
 ![Graphical user interface, text, application, chat or text message
 Description automatically
@@ -175,7 +175,7 @@ can ensure the correct roles are assigned
 As an administrator, I want to be able to select whether my data is
 gathered, so I can ensure my privacy
 
-Tutor user stories
+# User Stories for Tutors
 
 ![Graphical user interface, application Description automatically
 generated](./images/media/image11.png)
@@ -244,7 +244,7 @@ students can complete any additional work that may be required.
 As a tutor, I want to be able to see what a student has submitted, so I
 can review their work
 
-Convenor
+# User Stories for Convenors
 
 ![Graphical user interface, text, application Description automatically
 generated](./images/media/image15.png)
@@ -290,7 +290,7 @@ confidence](./images/media/image22.png)
 application Description automatically
 generated](./images/media/image23.png)
 
-Public Doubtfire/Ontrack cloud deployment for testing and development
+# Public Doubtfire/Ontrack cloud deployment for testing and development
 purposes
 
 ![](./images/media/image24.png)
