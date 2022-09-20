@@ -4,7 +4,7 @@ can accomplish this goal\]**
 As a \[Student\] I want \[to be able to see all my subjects\] so that
 \[I can choose the one I need\]
 
-# # User Stories for Students
+# User Stories for Students
 
 ![Graphical user interface, application, Teams Description automatically
 generated](./images/media/image1.png)
