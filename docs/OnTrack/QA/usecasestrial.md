@@ -281,22 +281,6 @@ so that I can ensure only the correct units are published
 ![Graphical user interface, text, application, email Description
 automatically generated](./images/media/image17.png)
 
-![Graphical user interface, application Description automatically
-generated](./images/media/image18.png)
-
-![A screenshot of a computer Description automatically generated with
-low confidence](./images/media/image19.png)
-
-![](./images/media/image20.png)
-
-![Graphical user interface, text, application, email Description
-automatically generated](./images/media/image21.png)
-![Table Description automatically
-generated with medium
-confidence](./images/media/image22.png)
-![Graphical user interface, text,
-application Description automatically
-generated](./images/media/image23.png)
 
 <br></br>
 
