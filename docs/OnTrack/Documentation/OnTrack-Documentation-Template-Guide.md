@@ -134,7 +134,7 @@ still current.
 
 A **Date of Next Documentation Review** should be included to give readers the date when the
 document will/could/should next be reviewed. This could be recorded either by the author(s), or an
-authorized company member. Including this data ensures that the document can be reviewed
+authorised company member. Including this data ensures that the document can be reviewed
 periodically to ensure continuing accuracy. Depending on how often the data in the document may
 change or become obsolete, this could be altered.
 
