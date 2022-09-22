@@ -1,6 +1,51 @@
 [Back to index](Index.md)
+## Author Information
 
-# View Task and Submission Epic
+---
+
+- Author(s): [Ricky Dodd](https://github.com/rickydodd), [Grady Ramsay](https://github.com/Gradox9), [Mat Perkins](https://github.com/mperkins808).
+- Team: Ontrack - Task view and submission redesign
+- Team (Delivery and/or Product) Lead: Grady Ramsay
+
+## Document Summary
+
+---
+
+- Documentation Title: Epic Document
+- Documentation Type: Technical
+- Documentation Information Summary: Epic Project document detailing implmentation of the task view and submission redesign project.
+
+## Document Review Information
+
+---
+
+- Date of Original Document Submission to GitHub: 22/09/2022
+- Documentation Version: 1.0
+- Date of Previous Documentation Review: 22/09/2022
+- Date of Next Documentation Review: To be decided
+
+## Key Terms
+
+---
+
+## Key Links/Resources
+
+---
+
+## Contacts for further information
+
+---
+
+see [Thoth Tech Hanbook](https://github.com/thoth-tech/handbook/blob/main/README.md)
+
+## Related Documents
+
+---
+
+- [Task Submission redesign requirements and specifications document](Requirements.md)
+
+
+# View Task and Submission Epic Document
 ## Background / Context
 OnTrack is employed by multiple institutions as a learning management system. The View Task and Submission project intends to create modern, user-centric modifications to the OnTrack platform. OnTrack requires the modification of existing features, addition of new features, and an overhaul of the UI/UX.
 
