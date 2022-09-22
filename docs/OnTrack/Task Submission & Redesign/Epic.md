@@ -1,10 +1,11 @@
 [Back to index](Index.md)
+
 ## Author Information
 
 ---
 
-- Author(s): [Ricky Dodd](https://github.com/rickydodd), [Grady Ramsay](https://github.com/Gradox9), [Mat Perkins](https://github.com/mperkins808).
-- Team: Ontrack - Task view and submission redesign
+- Authors: [Ricky Dodd](https://github.com/rickydodd), [Grady Ramsay](https://github.com/Gradox9), [Mat Perkins](https://github.com/mperkins808).
+- Team: OnTrack - Task view and submission redesign
 - Team (Delivery and/or Product) Lead: Grady Ramsay
 
 ## Document Summary
@@ -13,7 +14,7 @@
 
 - Documentation Title: Epic Document
 - Documentation Type: Technical
-- Documentation Information Summary: Epic Project document detailing implmentation of the task view and submission redesign project.
+- Documentation Information Summary: Epic Project document detailing implementation of the task view and submission redesign project.
 
 ## Document Review Information
 
@@ -28,15 +29,23 @@
 
 ---
 
+Trello: A web-based list-making application designed with a focus on teams that implement a Kanban or scrum style of organisation.
+Figma: A web-based application for user interface and user experience design.
+UI: User Interface; the means by which a human interacts with a machine, these are typically graphical interfaces that accept input from an end-user.
+UX: User Experience; all aspects of the end-user's interactions with an application or device.
+
 ## Key Links/Resources
 
 ---
+- [OnTrack Overseer Repository](https://github.com/thoth-tech/doubtfire-overseer)
+- [OnTrack Web Repository](https://github.com/thoth-tech/doubtfire-web)
+- [OnTrack API Repository](https://github.com/thoth-tech/doubtfire-api)
 
 ## Contacts for further information
 
 ---
 
-see [Thoth Tech Hanbook](https://github.com/thoth-tech/handbook/blob/main/README.md)
+see [Thoth Tech Handbook](https://github.com/thoth-tech/handbook/blob/main/README.md)
 
 ## Related Documents
 
