@@ -24,7 +24,7 @@ Here's how to enable Windows Subsystem for Linux component in Windows 10:
 wsl --install -d ubuntu
 ```
 
-**Upgrade version from WSL 1 to WSL 2**
+### **Upgrade version from WSL 1 to WSL 2**
 
 To see whether your Linux distribution is set to WSL 1 or WSL 2, use the command: 
 

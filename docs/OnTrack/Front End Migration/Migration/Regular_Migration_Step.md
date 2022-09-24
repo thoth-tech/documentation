@@ -1,4 +1,4 @@
-# You should do this after Create the Branch and Finish the Initial Migration.
+# You should do this after Create the Branch and Finish the Initial Migration
 
 > Trimester 2 2022 – SIT374
 

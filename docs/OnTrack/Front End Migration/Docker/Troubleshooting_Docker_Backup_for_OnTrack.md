@@ -30,14 +30,14 @@ Success deploy:
 2. doubtfire-web doesn’t compile successfully:
    - Open terminal
    - Head to folder doubtfire-deploy/development by cd
-   - Run this in 1 line: 
+   - Run this in 1 line:
 
     ```sh
     doubtfire-web: docker-compose run -u 0 -p 4200:4200 doubtfire-web bash -c
     "npm install; npm start"
     ```
 
-1. doubtfire-api don’t run and exit with code 0/1.
+3. doubtfire-api don’t run and exit with code 0/1.
    - Open terminal
    - Head to folder doubtfire-deploy/development by cd
    - Run this in 1 line:

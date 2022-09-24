@@ -38,7 +38,7 @@ git remote -v
 
 ## Migration
 
-### 1.	Create a typescript, scss, and html file to replace the coffeescript, scss, and html files from the angular.js project.
+### 1. Create a typescript, scss, and html file to replace the coffeescript, scss, and html files from the angular.js project.
 
 For the Task Description Card we had the files:
 
