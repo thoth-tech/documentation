@@ -4,7 +4,7 @@
 
 ## Add Branch
 
-```sh
+```shell
 git checkout development # make sure you are on develop
 git pull --rebase upstream development # sync your local develop with upstream's develop
 git remote add thoth https://github.com/thoth-tech/doubtfire-web.git
@@ -12,13 +12,13 @@ git remote add thoth https://github.com/thoth-tech/doubtfire-web.git
 
 ![remote add thoth](./imgs/remote_add.jpg)
 
-```sh
+```shell
 git fetch thoth
 ```
 
 ![fetch thoth](imgs/fetch_thoth.png)
 
-```sh
+```shell
 cd doubtfire-web
 git checkout -b thoth/migrate/not-found
 ```
@@ -30,7 +30,7 @@ When click into the branch, you should see the newly created branch.
 ![vscode_change_branch_1](imgs/vscode_change_branch_1.png)
 ![vscode_change_branch_1](imgs/vscode_change_branch_2.png)
 
-```sh
+```shell
 git remote -v
 ```
 
@@ -57,19 +57,19 @@ Notice the naming convention. When migrating a component we use the format name.
 ![Start of the TypeScript](imgs/start_typescript.png)
 We can’t see any of these changes yet, but it is a good clean start so let’s commit this before we move on.
 
-```sh
+```shell
 git add .
 git commit -m "NEW: Create initial files for migration of not-found”
 git push --set-upstream origin touth/migrate/not-found
 ```
 
-```sh
+```shell
 git commit -m "New: Create initial files for migration of your-component-name"
 ```
 
 Then we should make sure to push this back to GitHub so others can see our progress. As this is a new branch you will need to set the upstram branch, but if you forget the `git push` will remind you anyway.
 
-```sh
+```shell
 git push --set-upstream origin migrate/your-somponent-name
 ```
 
@@ -77,7 +77,7 @@ git push --set-upstream origin migrate/your-somponent-name
 
 Run checkout to see the change.
 
-```sh
+```shell
 git checkout
 ```
 

@@ -15,7 +15,7 @@
 1. Fork **doubtfire-deploy:development**, **doubtfire-api:development**, and **doubtfire-web:development**
 2. Clone your doubtfire-deploy. Make sure to fetch submodules to get the subprojects.
 
-    ```sh
+    ```shell
     git clone -b development --recurse-submodules https://github.com/[your_github_username]/doubtfire-deploy
     ```
 
@@ -25,7 +25,7 @@ Open a Terminal that supports sh scripts (on Windows, you will need WSL, Msys2, 
 
 4. Change into the development directory and use Docker Compose to setup the database.
 
-    ```sh
+    ```shell
     cd development 
     docker compose up -d 
     docker compose run --rm doubtfire-api bash -c "bundle exec rails db:environment:set RAILS_ENV=development && bundle exec rake db:populate"

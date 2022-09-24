@@ -20,7 +20,7 @@ Here's how to enable Windows Subsystem for Linux component in Windows 10:
 
 ## Install Ubuntu in WSL
 
-```sh
+```shell
 wsl --install -d ubuntu
 ```
 
@@ -28,13 +28,13 @@ wsl --install -d ubuntu
 
 To see whether your Linux distribution is set to WSL 1 or WSL 2, use the command: 
 
-```sh
+```shell
 wsl -l -v
 ```
 
 To change versions, use the command:
 
-```sh
+```shell
 wsl --set-version <distro name> 2
 ```
 
@@ -44,7 +44,7 @@ Once Ubuntu has finished its initial setup you will need to create a username an
 ![Sub System](imgs/ubuntu_sub_system.png)
 Finally, it’s always good practice to install the latest updates with the following commands, entering your password when prompted.
 
-```sh
+```shell
 sudo apt update
 sudo apt upgrade
 ```

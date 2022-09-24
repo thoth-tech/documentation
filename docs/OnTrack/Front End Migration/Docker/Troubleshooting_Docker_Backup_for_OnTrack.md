@@ -32,7 +32,7 @@ Success deploy:
    - Head to folder doubtfire-deploy/development by cd
    - Run this in 1 line:
 
-    ```sh
+    ```shell
     doubtfire-web: docker-compose run -u 0 -p 4200:4200 doubtfire-web bash -c
     "npm install; npm start"
     ```
