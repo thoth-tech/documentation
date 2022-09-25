@@ -38,7 +38,7 @@ As a junior we suggest that you should:
    - **Windows (WSL2)**
       1. Follow [Docker Compose with WSL2](Docker/Docker_Compose_with_WSL2.md) guideline.
       2. Read [Docker Setup Tutorial](Docker/Docker_Setup_Tutorial.md) guideline.
-      3. Watch [Docker Setup Tutorial](waiting_video_upload)
+      3. Watch [Docker Setup Tutorial](https://drive.google.com/file/d/16A5zzG3g0S1B0PCKWrFK9anLhheXgi_b/view?usp=sharing)
             > Please note that the tutorial used Windows CMD enviroment, it should use WSL2 machine instead. See the [issue](https://teams.microsoft.com/l/message/19:bd20175d09414f079490a2403f7fca74@thread.tacv2/1659408245022?tenantId=d02378ec-1688-46d5-8540-1c28b5f470f6&amp;groupId=0e15669c-3f66-49aa-b023-640fe1dda2e0&amp;parentMessageId=1659398288375&amp;teamName=Thoth).
    - **Mac / Linux**
       1. Read [Docker Setup Tutorial](Docker/Docker_Setup_Tutorial.md) guideline.
