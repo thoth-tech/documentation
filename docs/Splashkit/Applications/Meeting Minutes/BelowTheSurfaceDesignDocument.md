@@ -212,7 +212,7 @@ mission.
 
 ##### Sewer Reference Art 
 
-![image](./images/sewerreferenceart.png)
+![image](/images/sewerreferenceart.png)
 
 ##### Water Reference Art 
 
