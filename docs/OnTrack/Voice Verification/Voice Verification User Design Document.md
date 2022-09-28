@@ -5,7 +5,7 @@
 
 - Author: [Ha Nguyen](https://github.com/hantt-8)
 - Team: OnTrack - Voice Verification
-- Team (Delivery and/or Product) Lead: Shaine Christmas
+- Team (Delivery and/or Product) Lead: ShaeChristmas
 ## Document Summary
 ---
 
@@ -62,7 +62,7 @@ Voice Verification system has two phases:
 
 - Verification - Student's audio submission is compared against a previously created voice print.
 
-## Process Overview
+## Main Process Flow
 
 ![Proposed how voice verification system work](Research%20&%20Findings/images/Voice-Verification-Overview-Process.png)
 
@@ -74,15 +74,18 @@ Voice Verification system has two phases:
 ## Pre-enrolment Requirements
 
 ---
- To use Ontrack Voice Verification system, you must first login to Ontrack site as student, choosing [Voiceprint enrolment] to getting started to create voice recordings and alow browser use device's microphone
+User Constraints:
+ - First Login to On-Track site as student
+ - Allow browser use device's microphone
 
+Recording Constraints:
 1. Speaking language: English
 
 2. The voice must be between three seconds and one minute
 
 3. The volumes must not exceed 5 MB
 
-4. Supported file types: wav, mp3, m4a, FLAC (now the voice system only accepts .flac type files)
+4. Supported file types: .wav, mp3, m4a, .flac (now the voice system only accepts .flac type files)
 
 Tips: Speak at a normal cadence and clearly.
 
