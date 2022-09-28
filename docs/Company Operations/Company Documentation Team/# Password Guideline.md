@@ -62,7 +62,7 @@ The following passwords are discouraged:
 - A string of numbers or letters like “1234” or “abcd.”
 - A series of characters appear sequentially on the keyboard, like “@#$%^&.”
 - A user’s given name, the name of a spouse or partner, or other names
-- The user’s phone number or license plate number, anybody’s birth date, or additional information
+- The user’s phone number or licence plate number, anybody’s birth date, or additional information
   easily obtained about a user (e.g., address or alma mater)
 - The same character typed multiple times, like “zzzzzz.”
 - Words that can be found in a dictionary
