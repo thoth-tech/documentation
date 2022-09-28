@@ -58,7 +58,7 @@ using the pre-existing audio submission system.
 
 Voice Verification system has two phases:
 
-- Enrollment - Student's voice is recorded and specific voice features are extracted into a voice print.
+- Enrolment - Student's voice is recorded and specific voice features are extracted into a voice print.
 
 - Verification - Student's audio submission is compared against a previously created voice print.
 
