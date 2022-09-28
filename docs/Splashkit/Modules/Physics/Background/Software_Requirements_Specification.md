@@ -94,21 +94,40 @@ use Splashkit. These requirements include:
 
 - Wrapper for the user's game to be implemented by the user
 - Each physics attribute can be implemented using a single method call
-- Speed and weight of objects are able to be set by the user
-- Use of physics methods on shapes, bitmaps and sprites.
+- Methods must be compatible with existing sprite, bitmap and physics structures.
+  - Where appropriate attributes can be added, but should be avoided if basic alternative is
+    available.
+- Default values for gravity and liquid density constants are set to earth and water respectively.
+- Use of physics methods on individual shapes, bitmaps and sprites only.
+- Length scale is settable by the user
 
 ### 2.2 Assumptions and Dependencies
 
 This module has a few assumptions. These include:
 
-- Length measurements are all the same scale based on pixel ratio to metres
 - Default gravity is standardised to Earths value (9.8 m/s/s/).
 - Separate physics methods should be able to coexist without breaking.
+- Surface area to be used instead of volume
 
 ## System Features and Requirements
 
 ### 3.1 Functional Requirements
 
+- Each physics method to be activated with a single method call
+- Functional tests created for each method
+- Unit tests created for each method
+  - Logging created where possible
+  -
+
 ### 3.2 External Interface Requirements
 
+N/A
+
 ### 3.3 Nonfunctional Requirements
+
+- Methods for physics attribute calculations should be as reusable as possible
+  - Not passing through specific objects (for example sprites)
+- Module should be compatible with each operating system
+- Methods do not slow performance of program.
+- Module and methods are scalable for future complexity increases
+- Code is readable and commented thoroughly to make it easier to maintain
