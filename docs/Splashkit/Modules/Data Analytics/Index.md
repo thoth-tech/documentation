@@ -6,9 +6,8 @@ date on progress, issues faced and future scope.
 
 ## Links to SplashKit Modules Documentation:
 
+- [Background](Background/Index.md)
 - [Research & Findings](Research%20&%20Findings/Index.md)
-- [Code Repositories](Code%20Repositories/Index.md)
-- [Scope for Data Analytics Module](Scope/Index.md)
-- [Testing Strategy](Testing%20Strategy/Index.md)
+- [Testing](Testing/Index.md)
 
 ---
