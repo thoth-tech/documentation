@@ -148,8 +148,6 @@ These values are appended to the existing documents in the SQLite Database.
 
 ### Data Flow
 
----
-
 The messages in the Voice Verification Message Queue should follow the same structure as the OnTrack
 Overseer Message Queue. Requests to the database have the following parameters:
 
