@@ -55,14 +55,14 @@ See [Thoth Tech Handbook](https://github.com/thoth-tech/handbook/blob/main/READM
 **Figure 1** below shows the initial sketches and brainstorming put into place for the tutors
 interface when accessing the voice verification results.
 
-![figure 1](Images/figure1.jpeg)
+![figure 1](Research%20&%20Findings/images/figure1.jpeg)
 
 **Figure 2** below shows a digital draft design for the flowchart between the three different
 results and visualisations shown in Figure 1. The visualisations are shown for the results and
 similar conventions used for display. Branching off to the main processes that would subsequently
 become an output from clicking on these results.
 
-![figure 2](Images/figure2.PNG)
+![figure 2](Research%20&%20Findings/images/figure2.PNG)
 
 ## High Fidelity Designs
 
@@ -71,20 +71,20 @@ become an output from clicking on these results.
 **Figures 3 and 4** below shows the process and results when the tutor clicks on an audio file.
 These figures show files that are still pending.
 
-![figure 2](Images/figure3.PNG)
+![figure 2](Research%20&%20Findings/images/figure3.PNG)
 
-![figure 3](Images/figure4.PNG)
+![figure 3](Research%20&%20Findings/images/figure4.PNG)
 
 **Figures 5 and 6** below shows the process and results of when the tutor clicks on an verification
 pending audio file.
 
-![figure 5](Images/figure5.PNG)
+![figure 5](Research%20&%20Findings/images/figure5.PNG)
 
-![figure 6](Images/figure6.PNG)
+![figure 6](Research%20&%20Findings/images/figure6.PNG)
 
 **Figures 7 and 8** shows the process and results of when the tutor clicks on an audio file that has
 completed the Verification process.
 
-![figure 7](Images/figure7.PNG)
+![figure 7](Research%20&%20Findings/images/figure7.PNG)
 
-![figure 8](Images/figure8.PNG)
+![figure 8](Research%20&%20Findings/images/figure8.PNG)
