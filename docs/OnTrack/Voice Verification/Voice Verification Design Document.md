@@ -137,12 +137,11 @@ The Voice Verification system uses similar data formats to the OnTrack system. T
 stored in an SQLite database, attached to the OnTrack API. In the database, three new values are
 appended to audio submissions:
 
-| Database Tag | Purpose                                                                        | Possible Values | Example |
-| ------------ | ------------------------------------------------------------------------------ | --------------- | ------- |
-| `Verified`   | To determine if the file has already been verified                             | Boolean         | `True`  |
-| `Baseline`   | To determine if this is the baseline file to verify new submissions            | Boolean         | `False` |
-| `Confidence` | Returned confidence values from verification. Number between 0-1. 0 if not yet |
-| verified.    | Real                                                                           | `0.87`          |
+| Database Tag | Purpose                                                                                  | Possible Values | Example |
+| ------------ | ---------------------------------------------------------------------------------------- | --------------- | ------- |
+| `Verified`   | To determine if the file has already been verified                                       | Boolean         | `True`  |
+| `Baseline`   | To determine if this is the baseline file to verify new submissions                      | Boolean         | `False` |
+| `Confidence` | Returned confidence values from verification. Number between 0-1. 0 if not yet verified. | Real            | `0.87`  |
 
 These values are appended to the existing documents in the SQLite Database.
 
