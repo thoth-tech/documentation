@@ -6,7 +6,7 @@
 
 - Author: [agahis](https://github.com/agahis)
 - Team: OnTrack – Voice Verification
-- Team (Delivery and/or Product) Lead: Shae Christmas
+- Team (Delivery and/or Product) Lead: [Shae Christmas](https://github.com/ShaeChristmas)
 
 ## Document Summary
 
@@ -15,9 +15,9 @@
 - Documentation Title: Audio System Interface Design Document
 - Documentation Type: Technical
 - Documentation Information Summary: Design document detailing the implementation of the OnTrack
-  Voice Verification audio system interface, showcased by wireframes for frontend development.
+  Voice Verification audio system interface, showcased by wire frames for frontend development.
   Interface to allow tutors to see the results from the voice verification test with the new OnTrack
-  Overseer system as well. The perspective is from a tutor’s as they are the only ones who will have
+  Overseer system as well. The perspective is from a tutors as they are the only ones who have
   access to it.
 
 ## Document Review Information
@@ -33,8 +33,8 @@
 
 ---
 
-- [Ontrack Overseer Repository](https://github.com/thoth-tech/doubtfire-overseer)
-- [Ontrack Web Repository](https://github.com/thoth-tech/doubtfire-web)
+- [OnTrack Overseer Repository](https://github.com/thoth-tech/doubtfire-overseer)
+- [OnTrack Web Repository](https://github.com/thoth-tech/doubtfire-web)
 - [OnTrack API Repository](https://github.com/thoth-tech/doubtfire-api)
 - [OnTrack Voice Verification Python Container Repository](https://github.com/thoth-tech/speaker-verification)
 - [OnTrack Voice Verification API Repository](https://github.com/thoth-tech/speaker-verification-api)
@@ -52,15 +52,15 @@ See [Thoth Tech Handbook](https://github.com/thoth-tech/handbook/blob/main/READM
 
 ---
 
-**Figure 1** below shows the initial sketches and brainstorming put into place for the tutor’s
+**Figure 1** below shows the initial sketches and brainstorming put into place for the tutors
 interface when accessing the voice verification results.
 
 ![figure 1](Images/figure1.jpeg)
 
 **Figure 2** below shows a digital draft design for the flowchart between the three different
-results and visualisations I had sketched in figure 1 earlier. The visualisations are shown for the
-results and similar conventions that I would use for them to be displayed, while then branching off
-to the main processes that would subsequently become an output from clicking on these results.
+results and visualisations shown in Figure 1. The visualisations are shown for the results and
+similar conventions used for display. Branching off to the main processes that would subsequently
+become an output from clicking on these results.
 
 ![figure 2](Images/figure2.PNG)
 
@@ -68,22 +68,22 @@ to the main processes that would subsequently become an output from clicking on 
 
 ---
 
-**Figures 3 and 4** below shows the process and results when the tutor clicks on an audio file that
-has been unverified from the OnTrack Overseer system.
+**Figures 3 and 4** below shows the process and results when the tutor clicks on an audio file.
+These figures show files that are still pending.
 
 ![figure 2](Images/figure3.PNG)
 
 ![figure 3](Images/figure4.PNG)
 
-**Figures 5 and 6** below shows the process and results of when the tutor clicks on an audio file
-that is still pending and hasn’t finished the OnTrack Overseer process yet.
+**Figures 5 and 6** below shows the process and results of when the tutor clicks on an verification
+pending audio file.
 
 ![figure 5](Images/figure5.PNG)
 
 ![figure 6](Images/figure6.PNG)
 
 **Figures 7 and 8** shows the process and results of when the tutor clicks on an audio file that has
-completed the OnTrack Overseer process and has established the audio file as being verified.
+completed the Verification process.
 
 ![figure 7](Images/figure7.PNG)
 
