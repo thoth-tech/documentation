@@ -2,11 +2,15 @@
 
 # **Author Information**
 
-- Author: Simon Agahi
+---
+
+- Author: [agahis](https://github.com/agahis)
 - Team: OnTrack – Voice Verification
 - Team (Delivery and/or Product) Lead: Shae Christmas
 
 # **Document Summary**
+
+---
 
 - Documentation Title: Audio System Interface Design Document
 - Documentation Type: Technical
@@ -14,12 +18,16 @@
 
 # **Document Review Information**
 
+---
+
 - Date of Original Document Submission to GitHub: 26/09/2022
 - Documentation Version: 1.0
 - Date of Previous Documentation Review: 26/09/2022
 - Date of Next Documentation Review: to be decided
 
 # **Key Links/Resources**
+
+---
 
 - <https://github.com/thoth-tech/doubtfire-overseer>
 - <https://github.com/thoth-tech/doubtfire-web>
@@ -32,9 +40,13 @@
 
 # **Contacts for further information**
 
+---
+
 See <https://github.com/thoth-tech/handbook/blob/main/README.md> .
 
 # **Low Fidelity Designs**
+
+---
 
 \
 **Figure 1** below shows the initial sketches and brainstorming put into place for the tutor’s interface when accessing the voice verification results.
@@ -49,6 +61,8 @@ See <https://github.com/thoth-tech/handbook/blob/main/README.md> .
 ![figure 2](Images/figure2.PNG)
 
 # **High Fidelity Designs**
+
+---
 
 \
 **Figures 3 and 4** below shows the process and results when the tutor clicks on an audio file that has been unverified from the OnTrack Overseer system.
