@@ -22,8 +22,8 @@
 ---
 
 - Date of Original Document Submission to GitHub: 14/09/2022
-- Documentation Version: 1.0
-- Date of Previous Documentation Review: 14/09/2022
+- Documentation Version: 1.1
+- Date of Previous Documentation Review: 30/09/2022
 - Date of Next Documentation Review: to be decided
 
 ## Key Terms
@@ -33,7 +33,9 @@
 CLI: Command Line Interface; Interacting with something through the terminal
 
 Docker Container: A small program contained inside a virtual machine. The containerisation program
-used is called Docker
+used is called Docker.
+
+RabbitMQ: A message broker that allows for the communication between different programs.
 
 ## Key Links/Resources
 
@@ -113,17 +115,62 @@ for automatic verification and display of results.
 
 ---
 
-The Design of the voice verification interaction should be handled through the message queue OnTrack
-utilises, OnTrack Overseer.
+The Voice Verification Architecture uses similar to a system in place within OnTrack called OnTrack
+Overseer.
 
-When an audio file is sent through the OnTrack Overseer message queue, the file may be validated
-against the baseline file collected for that student. Then, the confidence value appended to the
-message on the message queue. This can then be later sent off to the assessor alongside the audio
-submission using the OnTrack Overseer message queue.
+When an audio file is received in the database, a trigger is sent to the Message Queue system that
+the Voice Verification architecture employs. This system uses RabbitMQ as a message queue, to send
+files to be verified to the main Voice Verification container. This container uses Deep Speaker
+verification to test the new file against the baseline file collected for that student. Then, the
+confidence value appended to the message on the message queue, and saved in the database.
+
+After the confidence value is saved in the database alongside the file, this can be retrieved by the
+system. This retrieval takes place when the file is requested for marking.
 
 ### Architecture
 
 ![Proposed Architecture of Voice Verification implementation](Research%20&%20Findings/images/Voice-Verification-Architecture-Diagram.png)
+
+### Data Formats
+
+The Voice Verification system uses similar data formats to the OnTrack system. The audio files are
+stored in an SQLite database, attached to the OnTrack API. In the database, three new values are
+appended to audio submissions:
+
+| Database Tag | Purpose                                                                        | Possible Values | Example |
+| ------------ | ------------------------------------------------------------------------------ | --------------- | ------- |
+| `Verified`   | To determine if the file has already been verified                             | Boolean         | `True`  |
+| `Baseline`   | To determine if this is the baseline file to verify new submissions            | Boolean         | `False` |
+| `Confidence` | Returned confidence values from verification. Number between 0-1. 0 if not yet |
+| verified.    | Real                                                                           | `0.87`          |
+
+These values are appended to the existing documents in the SQLite Database.
+
+### Data Flow
+
+---
+
+The messages in the Voice Verification Message Queue should follow the same structure as the OnTrack
+Overseer Message Queue. Requests to the database have the following parameters:
+
+- `task_id`: task associated with the submission
+- `submission`: path to the submission zip file or folder
+- `overseer_assessment_id`: id of the overseer message. used to keep track of individual
+  assessments.
+
+Messages to the Voice Verification system also contain a `baseline` parameter, which is the file
+path to the baseline audio sample for that student.
+
+Messages from the Voice Verification system have the following parameters:
+
+- `task_id`: task associated with the submission
+- `submission`: path to the submission zip file or folder
+- `overseer_assessment_id`: id of the overseer message. used to keep track of individual
+  assessments.
+- `confidence`: confidence value returned from the verification system
+- `verification time`: when the verification was completed.
+
+These values are then appended to the existing documents in the SQLite Database.
 
 ### User Interaction
 
