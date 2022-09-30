@@ -1,6 +1,6 @@
-# **Audio System Interface Design Document**
+# Audio System Interface Design Document
 
-# **Author Information**
+## Author Information
 
 ---
 
@@ -8,7 +8,7 @@
 - Team: OnTrack – Voice Verification
 - Team (Delivery and/or Product) Lead: Shae Christmas
 
-# **Document Summary**
+## Document Summary
 
 ---
 
@@ -16,7 +16,7 @@
 - Documentation Type: Technical
 - Documentation Information Summary: Design document detailing the implementation of the OnTrack Voice Verification audio system interface, showcased by wireframes for frontend development. Interface to allow tutors to see the results from the voice verification test with the new OnTrack Overseer system as well. The perspective is from a tutor’s as they are the only ones who will have access to it.
 
-# **Document Review Information**
+## Document Review Information
 
 ---
 
@@ -25,26 +25,26 @@
 - Date of Previous Documentation Review: 26/09/2022
 - Date of Next Documentation Review: to be decided
 
-# **Key Links/Resources**
+## Key Links/Resources
 
 ---
 
-- <https://github.com/thoth-tech/doubtfire-overseer>
-- <https://github.com/thoth-tech/doubtfire-web>
-- <https://github.com/thoth-tech/doubtfire-api>
-- <https://github.com/thoth-tech/speaker-verification>
-- <https://github.com/thoth-tech/speaker-verification-api>
-- <https://github.com/thoth-tech/documentation/blob/main/docs/OnTrack/Documentation/OnTrack%20Documentation%20Template.md>
-- <https://github.com/thoth-tech/documentation/blob/main/docs/OnTrack/Documentation/OnTrack-Documentation-Template-Guide.md>
-- <https://github.com/thoth-tech/documentation/blob/main/docs/OnTrack/Voice%20Verification/Voice%20Verification%20SRS%20Document.md>
+- [Ontrack Overseer Repository](https://github.com/thoth-tech/doubtfire-overseer)
+- [Ontrack Web Repository](https://github.com/thoth-tech/doubtfire-web)
+- [OnTrack API Repository](https://github.com/thoth-tech/doubtfire-api)
+- [OnTrack Voice Verification Python Container Repository](https://github.com/thoth-tech/speaker-verification)
+- [OnTrack Voice Verification API Repository](https://github.com/thoth-tech/speaker-verification-api)
+- [Thoth Tech Documentation Template](https://github.com/thoth-tech/documentation/blob/main/docs/OnTrack/Documentation/OnTrack%20Documentation%20Template.md)
+- [OnTrack Documentation Template Guide](https://github.com/thoth-tech/documentation/blob/main/docs/OnTrack/Documentation/OnTrack-Documentation-Template-Guide.md)
+- [Software Requirements Specifications Document](https://github.com/thoth-tech/documentation/blob/main/docs/OnTrack/Voice%20Verification/Voice%20Verification%20SRS%20Document.md)
 
-# **Contacts for further information**
+## Contacts for further information
 
 ---
 
-See <https://github.com/thoth-tech/handbook/blob/main/README.md> .
+See [Thoth Tech Handbook](https://github.com/thoth-tech/handbook/blob/main/README.md).
 
-# **Low Fidelity Designs**
+## Low Fidelity Designs
 
 ---
 
@@ -60,7 +60,7 @@ See <https://github.com/thoth-tech/handbook/blob/main/README.md> .
 \
 ![figure 2](Images/figure2.PNG)
 
-# **High Fidelity Designs**
+## High Fidelity Designs
 
 ---
 
