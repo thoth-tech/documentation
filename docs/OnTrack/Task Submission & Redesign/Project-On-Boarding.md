@@ -23,7 +23,7 @@ on-boarding process for the Thoth Tech company.
 
 ## Cloning the Documentation
 
-This will enable you to contribute to the project documentation.
+This enables you to contribute to the project documentation.
 
 ```shell
 git clone -b doc/view-task-and-submission-redesign --single-branch https://github.com/thoth-tech/documentation.git
@@ -31,7 +31,7 @@ git clone -b doc/view-task-and-submission-redesign --single-branch https://githu
 
 ## Get OnTrack/Doubtfire Running on Local Machine
 
-You will need a terminal that supports shell scripts (on Windows, you will need WSL2, Msys2, or
+You need a terminal that supports shell scripts (on Windows, you need WSL2, Msys2, or
 Cygwin).
 
 1. Clone the fork of doubtfire-lms.
@@ -47,6 +47,8 @@ Cygwin).
    ```shell
    ./change_remotes.sh
    ```
+
+1. You can now follow the remaining instructions, from instruction four, [here](https://github.com/rickydodd/doubtfire-deploy/blob/main/CONTRIBUTING.md#working-with-docker-compose).
 
 ## What Next?
 
