@@ -31,7 +31,8 @@ git clone -b doc/view-task-and-submission-redesign --single-branch https://githu
 
 ## Get OnTrack/Doubtfire Running on Local Machine
 
-You will need a terminal that supports shell scripts (on Windows, you will need WSL2, Msys2, or Cygwin).
+You will need a terminal that supports shell scripts (on Windows, you will need WSL2, Msys2, or
+Cygwin).
 
 1. Clone the fork of doubtfire-lms.
 
