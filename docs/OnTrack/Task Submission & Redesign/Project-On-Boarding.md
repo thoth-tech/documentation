@@ -6,7 +6,7 @@
 
 The purpose of this document is to position you, the potential contributor, such that you can
 contribute to the project. It is assumed that you have already begun, if not finished, the
-on-boarding process for the Thoth Tech company, and the OnTrack product.
+on-boarding process for the Thoth Tech company.
 
 ## Trello
 
@@ -20,6 +20,32 @@ on-boarding process for the Thoth Tech company, and the OnTrack product.
 - Register a [Figma](https://www.figma.com/) account.
 - Confirm your Figma account by email (may go to Trash, so be sure to check there).
 - Join the [Figma project](https://www.figma.com/team_invite/redeem/SLuOCrE5wV5JuGc5tdlbBH).
+
+## Cloning the Documentation
+
+This will enable you to contribute to the project documentation.
+
+```shell
+git clone -b doc/view-task-and-submission-redesign --single-branch https://github.com/thoth-tech/documentation.git
+```
+
+## Get OnTrack/Doubtfire Running on Local Machine
+
+You will need a terminal that supports shell scripts (on Windows, you will need WSL2, Msys2, or Cygwin).
+
+1. Clone the fork of doubtfire-lms.
+
+   ```shell
+   git clone --recurse-submodules https://github.com/rickydodd/doubtfire-deploy
+   ```
+
+1. Open a terminal that supports shell scripts.
+
+   Run the following command to set the fork on `rickydodd` as the remote.
+
+   ```shell
+   ./change_remotes.sh
+   ```
 
 ## What Next?
 
