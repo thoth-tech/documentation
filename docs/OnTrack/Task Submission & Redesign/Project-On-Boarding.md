@@ -21,6 +21,16 @@ on-boarding process for the Thoth Tech company.
 - Confirm your Figma account by email (may go to Trash, so be sure to check there).
 - Join the [Figma project](https://www.figma.com/team_invite/redeem/SLuOCrE5wV5JuGc5tdlbBH).
 
+## Configuring git (global)
+
+If you haven't already, you must configure git.
+
+1. Set your git username by `git config --global user.name "FIRST_NAME LAST_NAME"`, where
+   `FIRST_NAME` is your first name and `LAST_NAME` is your last name.
+1. Set your git email by `git config --global user.email "YOUR_EMAIL"`, where `YOUR_EMAIL` is your
+   email. It is advised that you use your `@users.noreply.github.com` email address, which is, by
+   default, `<username>@users.noreply.github.com`, where `<username>` is your GitHub username.
+
 ## Cloning the Documentation
 
 This enables you to contribute to the project documentation.
@@ -31,8 +41,7 @@ git clone -b doc/view-task-and-submission-redesign --single-branch https://githu
 
 ## Get OnTrack/Doubtfire Running on Local Machine
 
-You need a terminal that supports shell scripts (on Windows, you need WSL2, Msys2, or
-Cygwin).
+You need a terminal that supports shell scripts (on Windows, you need WSL2, Msys2, or Cygwin).
 
 1. Clone the fork of doubtfire-lms.
 
@@ -48,7 +57,8 @@ Cygwin).
    ./change_remotes.sh
    ```
 
-1. You can now follow the remaining instructions, from instruction four, [here](https://github.com/rickydodd/doubtfire-deploy/blob/main/CONTRIBUTING.md#working-with-docker-compose).
+1. You can now follow the remaining instructions, from instruction four,
+   [here](https://github.com/rickydodd/doubtfire-deploy/blob/main/CONTRIBUTING.md#working-with-docker-compose).
 
 ## What Next?
 
