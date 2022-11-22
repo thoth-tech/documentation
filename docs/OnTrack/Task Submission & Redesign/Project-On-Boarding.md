@@ -43,21 +43,26 @@ git clone -b doc/view-task-and-submission-redesign --single-branch https://githu
 
 You need a terminal that supports shell scripts (on Windows, you need WSL2, Msys2, or Cygwin).
 
-1. Clone the fork of doubtfire-lms.
+1. Fork these forks of [doubtfire-deploy](https://github.com/rickydodd/doubtfire-deploy),
+   [doubtfire-api](https://github.com/rickydodd/doubtfire-api), and
+   [doubtfire-web](https://github.com/rickydodd/doubtfire-web)
+
+2. Clone your [doubtfire-deploy](https://github.com/doubtfire-lms/doubtfire-deploy). Make sure to
+   fetch submodules to get the subprojects.
 
    ```shell
-   git clone --recurse-submodules https://github.com/rickydodd/doubtfire-deploy
+   git clone --recurse-submodules https://github.com/YOUR_USERNAME/doubtfire-deploy
    ```
 
-1. Open a terminal that supports shell scripts.
-
-   Run the following command to set the fork on `rickydodd` as the remote.
+3. Open a terminal that supports `sh` scripts (on Windows, you will need WSL2, Msys2, or Cygwin).
+   Run the following command to set your fork as the remote and your delivery lead's fork as the
+   remote.
 
    ```shell
    ./change_remotes.sh
    ```
 
-1. You can now follow the remaining instructions, from instruction four,
+4. You can now follow the remaining instructions, from instruction four,
    [here](https://github.com/rickydodd/doubtfire-deploy/blob/main/CONTRIBUTING.md#working-with-docker-compose).
 
 ## What Next?
