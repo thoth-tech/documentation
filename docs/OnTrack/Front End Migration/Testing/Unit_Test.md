@@ -27,16 +27,16 @@ describe('NotFoundComponent', () => {
 });
 ```
 
-*Replace the (NotFoundComponent) component name with your choosen compoent name.*
+_Replace the (NotFoundComponent) component name with your choosen compoent name._
 
-```sh
+```console
 npm install
 npm test
 ```
 
-![unit test terminal output](./imgs/unit_test_terminal_output.png)
+![unit test terminal output]("imgs/unit_test_terminal_output.png")
 
-```sh
+```console
 git add .
 git commit -m “Migrate: Add unit test”
 git push

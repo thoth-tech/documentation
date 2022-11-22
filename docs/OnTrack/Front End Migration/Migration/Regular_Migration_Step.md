@@ -15,20 +15,20 @@ git config --global user.name "Freddy Smith"
 
 **Step 1.** Set up for new feature branch:
 
-```shell
+````shell
 git checkout development                # make sure you are on develop
 git pull --rebase upstream development  # sync your local develop with upstream's develop
 git fetch thoth
 git checkout -b my-new-branch           # create your new feature branch```
-```
+````
 
 **Step 2.** Make changes, and repeat until you are done:
 
-```shell
+````shell
 git add ...
 git commit
 git push     # make changes, commit, and push to origin```
-```
+````
 
 **Step 3.** Submit a pull request and if unable to merge:
 
