@@ -56,7 +56,7 @@ You need a terminal that supports shell scripts (on Windows, you need WSL2, Msys
 
 3. Open a terminal that supports `sh` scripts (on Windows, you will need WSL2, Msys2, or Cygwin).
    Run the following command to set your fork as the remote and your delivery lead's fork as the
-   remote.
+   upstream.
 
    ```shell
    ./change_remotes.sh
