@@ -72,17 +72,9 @@ git commit -m "NEW: Create initial files for migration of not-found”
 git push --set-upstream origin touth/migrate/not-found
 ```
 
-```console
-git commit -m "New: Create initial files for migration of your-component-name"
-```
-
 Then we should make sure to push this back to GitHub so others can see our progress. As this is a
 new branch you will need to set the upstram branch, but if you forget the `git push` will remind you
 anyway.
-
-```console
-git push --set-upstream origin migrate/your-somponent-name
-```
 
 ![Push to origin](imgs/push_to_origin.png)
 
