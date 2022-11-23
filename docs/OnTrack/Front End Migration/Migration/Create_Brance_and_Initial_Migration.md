@@ -1,26 +1,30 @@
 # Create Brance and Initial Migration
 
-> Trimester 2 2022 – SIT374
+> Trimester 3 2022
 
-## Add Branch
+**IMPORTANT!!! Make sure you already deploy OnTrack locally following
+[Docker Setup Tutorial](../Deploy%20OnTrack%20using%20Docker/Docker_Setup_Tutorial.md).**
+
+---
+
+## Create Branch in your Repo
+
+---
 
 ```console
 git checkout development # make sure you are on develop
 git pull --rebase upstream development # sync your local develop with upstream's develop
-git remote add thoth https://github.com/thoth-tech/doubtfire-web.git
 ```
 
-![remote add thoth](imgs/remote_add.jpg)
-
 ```console
-git fetch thoth
+git fetch origin
 ```
 
 ![fetch thoth](imgs/fetch_thoth.png)
 
 ```console
 cd doubtfire-web
-git checkout -b thoth/migrate/not-found
+git checkout -b migrate/not-found
 ```
 
 ![create branch](imgs/create_branch.png)
@@ -34,11 +38,13 @@ When click into the branch, you should see the newly created branch.
 git remote -v
 ```
 
-![git remote](imgs/git_remote.jpg)
+![git remote](imgs/git_remote.png)
 
-## Migration
+## Initial Migration
 
-### 1. Create a typescript, scss, and html file to replace the coffeescript, scss, and html files from the angular.js project.
+---
+
+### **1. Create a typescript, scss (if exists), and html file**
 
 For the Task Description Card we had the files:
 
@@ -55,8 +61,10 @@ For the Task Description Card we had the files:
 Notice the naming convention. When migrating a component we use the format name.component.extension.
 Add the start of the TypeScript using something based on the following:
 
-![Start of the TypeScript](imgs/start_typescript.png) We can’t see any of these changes yet, but it
-is a good clean start so let’s commit this before we move on.
+![Start of the TypeScript](imgs/start_typescript.png)
+
+We can’t see any of these changes yet, but it is a good clean start so let’s commit this before we
+move on.
 
 ```console
 git add .
@@ -86,24 +94,32 @@ git checkout
 
 ![git checkout](imgs/git_checkout.png)
 
-## 2. Linking New and Unlink Old Module
+### **2. Linking New and Unlink Old Module**
 
 In the ./src/app you should see
 
-![Dependency Injection](imgs/Dependency_Injection.png) Because we want to migrate AngularJS to
-Angular, therefore we need to unlink the module from AngularJS and link to Angular.
+![Dependency Injection](imgs/Dependency_Injection.png)
+
+Because we want to migrate AngularJS to Angular, therefore we need to unlink the module from
+AngularJS and link to Angular.
 
 1. Delete the import from related module from (doubtfire-web/src/app.doubtfire-angularjs.module.ts)
-   ![delete import](imgs/delete_import.png)
-2. Import the newly created TypeScript component ![import new TS](imgs/Import_TS_component.png)
+   - ![delete import](imgs/delete_import.png)
+2. Import the newly created TypeScript component
+   - ![import new TS](imgs/Import_TS_component.png)
 3. Downgrade the TypeScript Component from (doubtfire-web/src/app.doubtfire-angularjs.module.ts)
-   ![Downgrade](imgs/downgrade.png)
+   - ![Downgrade](imgs/downgrade.png)
 4. Import the new Component to Angular
-   ![Import new component to Angular](imgs/import_to_angular.png)
-5. Add to the Ng Module ![Inject to Ng module](imgs/import_to_ng_module.png)
+   - ![Import new component to Angular](imgs/import_to_angular.png)
+5. Add to the Ng Module
+   - ![Inject to Ng module](imgs/import_to_ng_module.png)
 6. Delete module injection if neccessary (parent_folder_name/parent_folder_name.coffee)
-   ![Delete injection](imgs/delete_injection.png)
+   - ![Delete injection](imgs/delete_injection.png)
 
-**Congratulations**, It is DONE for the initial migration. At this stage, you will need to upskill
-yourself about TypeScript, Angular and AngularJS and working in the code base and read the document
-about Regular Migration. Good Luck!
+---
+
+## **Congratulations**
+
+It is **DONE** for the initial migration. At this stage, you will need to upskill yourself about
+TypeScript, Angular and AngularJS and working in the code base and read the document about Regular
+Migration. Good Luck!
