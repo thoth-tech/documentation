@@ -4,7 +4,8 @@
 
 ---
 
-Uinsg Windows Operating System needed an extra step to deploy OnTrack locally inorder it to work properly.
+Uinsg Windows Operating System needed an extra step to deploy OnTrack locally inorder it to work
+properly.
 
 **Steps:**
 
