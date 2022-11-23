@@ -77,7 +77,7 @@ You need a terminal that supports shell scripts (on Windows, you need WSL2, Msys
    ```
 
 6. You can now follow the remaining instructions, from instruction four,
-   [here](https://github.com/rickydodd/doubtfire-deploy/blob/main/CONTRIBUTING.md#working-with-docker-compose).
+   [here](https://github.com/doubtfire-lms/doubtfire-deploy/blob/development/CONTRIBUTING.md#working-with-docker-compose).
 
 ## What Next?
 
