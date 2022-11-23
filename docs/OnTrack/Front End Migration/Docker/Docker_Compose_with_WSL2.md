@@ -1,6 +1,6 @@
 # Docker Setup with WSL2
 
-> Trimester 2 2022 – SIT374
+> Trimester 3 2022
 
 ## How to Enable Windows Subsystem for Linux
 
@@ -41,10 +41,17 @@ wsl --set-version <distro name> 2
 ```
 
 Once installed, you can either launch the application directly from the store or search for Ubuntu
-in your Windows search bar. ![Search Bar](imgs/search_bar.png) Once Ubuntu has finished its initial
-setup you will need to create a username and password (this does not need to match your Windows user
-credentials). ![Sub System](imgs/ubuntu_sub_system.png) Finally, it’s always good practice to
-install the latest updates with the following commands, entering your password when prompted.
+in your Windows search bar.
+
+![Search Bar](imgs/search_bar.png)
+
+Once Ubuntu has finished its initial setup you will need to create a username and password (this
+does not need to match your Windows user credentials).
+
+![Sub System](imgs/ubuntu_sub_system.png)
+
+Finally, it’s always good practice to install the latest updates with the following commands,
+entering your password when prompted.
 
 ```console
 sudo apt update
@@ -54,7 +61,9 @@ sudo apt-get install net-tools (windows/linux installation)
 
 ## Enable Docker Support for WSL2
 
-1. From the Docker menu, select Settings > General. ![Docker Support](imgs/docker_support.png)
+![Docker Support](imgs/docker_support.png)
+
+1. From the Docker menu, select Settings > General.
 2. Select the Use WSL 2 based engine check box. _If you have installed Docker Desktop on a system
    that supports WSL 2, this option will be enabled by default._
 3. Click Apply & Restart.
@@ -65,18 +74,40 @@ If you are using WSL1 You will need Windows 10 build 18917 or higher to be able 
 note, you will need to have the Powershell Administrator window up. If you are converting WSL 1 to
 WSL 2 I’d assume you have Linux Subsystem for Windows installed. If not, the following command will
 install it for you.
-`Enable-WindowsOptionalFeature -Online -FeatureName Microsoft-Windows-Subsystem-Linux`
 
-Once you do that you will need to run
-`Enable-WindowsOptionalFeature -Online -FeatureName VirtualMachinePlatform`
+```console
+Enable-WindowsOptionalFeature -Online -FeatureName Microsoft-Windows-Subsystem-Linux
+```
+
+Once you do that you will need to run:
+
+```console
+Enable-WindowsOptionalFeature -Online -FeatureName VirtualMachinePlatform
+```
 
 Now you should be able to run, substitute "Distro" with your specific distribution. You can get a
-list by using the command: wsl --list --verbose . `wsl --set-version <Distro> 2`
+list by using the command:
+
+```console
+wsl --list --verbose
+wsl --set-version <Distro> 2
+```
 
 For setting all future distributions to use WSL 2, you will need to use the following command:
-`wsl --set-default-version 2`
 
-Now the last step is to verify your changes worked: `wsl --list --verbose`
+```console
+wsl --set-default-version 2
+```
+
+Now the last step is to verify your changes worked:
+
+```console
+wsl --list --verbose
+```
 
 Then you can now follow the standard step for the git clone and docker compose. For development in
-the project, run `$ code .`
+the project, run:
+
+```console
+code .
+```
