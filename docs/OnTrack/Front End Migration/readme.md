@@ -2,11 +2,16 @@
 
 > T3 / 2022
 
-OnTrack is now a hybrid project which is using Bootstrap/AngularJS + MUI/Angular, it is build using different reusable components.
+OnTrack is now a hybrid project which is using Bootstrap/AngularJS + MUI/Angular, it is build using
+different reusable components.
 
-AngularJS support has officially ended as of **January 2022**. The code will remain accessible on GitHub, npm, Bower, and Release archive. This website will remain here indefinitely. The GitHub repository will be in an archived state, meaning that no new issues or pull requests can be submitted. CoffeeScript can be viewed as a fine complement to JavaScript, not a replacement.
+AngularJS support has officially ended as of **January 2022**. The code will remain accessible on
+GitHub, npm, Bower, and Release archive. This website will remain here indefinitely. The GitHub
+repository will be in an archived state, meaning that no new issues or pull requests can be
+submitted. CoffeeScript can be viewed as a fine complement to JavaScript, not a replacement.
 
-Therefore, the OnTrack frontend is looking forward to switching to the new MUI/Angular approach and trying to keep things more up to date going forward.
+Therefore, the OnTrack frontend is looking forward to switching to the new MUI/Angular approach and
+trying to keep things more up to date going forward.
 
 ## **_Aims for Trimester_**
 
@@ -78,7 +83,7 @@ As a junior we suggest that you should:
         > If the servers in the docker running into issues, please follow the backup plan -
         > [Troubleshooting Docker - Backup for OnTrack](Docker/Troubleshooting_Docker_Backup_for_OnTrack.md)
 3. Migration
-   1. Read [Create Brach and Initial Migration](Migration/Create_Brance_and_Initial_Migration)
+   1. Read [Create Brach and Initial Migration](Migration/Create_Branch_and_Initial_Migration)
       guideline.
    2. Read [Regular Commit](Migration/Regular_Migration_Step.md) guideline.
 4. Testing
