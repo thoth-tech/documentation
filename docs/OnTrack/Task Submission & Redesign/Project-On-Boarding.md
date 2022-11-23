@@ -33,7 +33,8 @@ If you haven't already, you must configure git.
 
 ## Cloning the Documentation
 
-This enables you to contribute to the project documentation.
+This enables you to contribute to the project documentation. You should also read the
+[documentation contribution guidelines](https://github.com/thoth-tech/documentation/blob/main/CONTRIBUTING.md).
 
 ```shell
 git clone -b doc/view-task-and-submission-redesign --single-branch https://github.com/thoth-tech/documentation.git
@@ -43,9 +44,9 @@ git clone -b doc/view-task-and-submission-redesign --single-branch https://githu
 
 You need a terminal that supports shell scripts (on Windows, you need WSL2, Msys2, or Cygwin).
 
-1. Fork these forks of [doubtfire-deploy](https://github.com/rickydodd/doubtfire-deploy),
-   [doubtfire-api](https://github.com/rickydodd/doubtfire-api), and
-   [doubtfire-web](https://github.com/rickydodd/doubtfire-web)
+1. Fork [doubtfire-deploy](https://github.com/doubtfire-lms/doubtfire-deploy),
+   [doubtfire-api](https://github.com/doubtfire-lms/doubtfire-api), and
+   [doubtfire-web](https://github.com/doubtfire-lms/doubtfire-web)
 
 2. Clone your [doubtfire-deploy](https://github.com/doubtfire-lms/doubtfire-deploy). Make sure to
    fetch submodules to get the subprojects.
@@ -54,15 +55,28 @@ You need a terminal that supports shell scripts (on Windows, you need WSL2, Msys
    git clone --recurse-submodules https://github.com/YOUR_USERNAME/doubtfire-deploy
    ```
 
-3. Open a terminal that supports `sh` scripts (on Windows, you will need WSL2, Msys2, or Cygwin).
-   Run the following command to set your fork as the remote and your delivery lead's fork as the
-   remote.
+3. `cd` into the development directory.
+
+```shell
+cd development
+```
+
+4. Open a terminal that supports `sh` scripts (on Windows, you will need WSL2, Msys2, or Cygwin).
+   Run the following command to set your fork as the remote.
 
    ```shell
    ./change_remotes.sh
    ```
 
-4. You can now follow the remaining instructions, from instruction four,
+5. Your delivery lead will provide you with the GitHub username to use in this command. This will
+   allow you to use `git fetch task-view-submission`, `git pull task-view-submission`, and
+   `git push task-view-submission`.
+
+```shell
+git remote add task-view-submission https://github.com/PROVIDED_USERNAME/doubtfire-deploy
+```
+
+6. You can now follow the remaining instructions, from instruction four,
    [here](https://github.com/rickydodd/doubtfire-deploy/blob/main/CONTRIBUTING.md#working-with-docker-compose).
 
 ## What Next?
