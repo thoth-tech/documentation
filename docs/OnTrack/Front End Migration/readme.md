@@ -1,36 +1,54 @@
 # Entry point of OnTrack UIEnhancemnt
 
-The overarching goal of this project is to migrate the current components, which utilise AngularJS
-with CoffeeScript and Bootstrap, to Angular framework with Typescript. AngularJS support has
-officially **ended as of January 2022**, meaning that no new issues or pull requests can be
-submitted. CoffeeScript has outlived its usefulness and falls short of more contemporary frameworks
-in terms of support, functionality, and security.
+> T3 / 2022
 
-Developers can easily design dynamic single-page applications using Angular because to its
-component-based architecture. As TypeScript provides types and enables early problem identification,
-its use in its construction ensures improved security.
+OnTrack is now a hybrid project which is using Bootstrap/AngularJS + MUI/Angular, it is build using different reusable components.
+
+AngularJS support has officially ended as of **January 2022**. The code will remain accessible on GitHub, npm, Bower, and Release archive. This website will remain here indefinitely. The GitHub repository will be in an archived state, meaning that no new issues or pull requests can be submitted. CoffeeScript can be viewed as a fine complement to JavaScript, not a replacement.
+
+Therefore, the OnTrack frontend is looking forward to switching to the new MUI/Angular approach and trying to keep things more up to date going forward.
 
 ## **_Aims for Trimester_**
 
-- Use bottom-up progression to migrate at existing components
-- Restrict the conflicts between the old and new components
-- Gain experience to enable speedier growth in future trimesters
+---
+
+1. Testing new branch
+
+   - We have a special request from our director Andrew that we need to execute some on testing the
+     doubtfire-web(quality/entity-service-to-npm) branch with
+     doubtfire-api(refactor/entity-service-backend), write up some test scripts for people to run to
+     verify that things work branch.
+   - Tests cases can just be actions for someone to perform. Now those branches have migrated much
+     of the front end. We now need to exhaustively test it to make sure things work. Log the issue
+     and report to director
+
+2. Components Migration
+
+   - There is **168 components** waiting to be migrated, in T3/2022, I hope we can continue the work
+     that we left in previous trimester and assign some simple components for Juniors. Delivery lead
+     should involve continuing the ongoing components, seniors should continue his work from
+     previous trimester.
 
 ## **_Deliverables_**
 
+---
+
 **_Short Term:_**
 
-- Develop and deliver at components migration
-- Carry on the components that are in the middle of migrating in last trimester
+- Gather information and continue the migration work that left from previous trimester.
+- Develop and deliver at least 5 migrated components.
+- Understand and plan for testing new branch
+- Give Juniors OnTrack ASAP.
+- Improve and fix outdated documents.
 
 **_Long Term:_**
 
-- Ensure all migrated components have been tested and function as expected by implementing test
-  units.
-- Prior to CoffeeScript support being removed, make sure that future team members are supported and
-  set up for success to migrate all remaining components
+- Give enough passion for junior to involve into the same project next trimester
+- Extent documentation for new member to be able to understand the project quickly.
 
-## What to do next
+## **What to do next**
+
+---
 
 If you are new member into this team, welcome! and we are going to guide you step by step to show
 you what you sould do next if you are:
@@ -73,5 +91,7 @@ As a junior we suggest that you should:
 
 1. Answer question from junior report the issue to the lead if no solution.
 2. Carry on the components that are in the middle of migrating in last trimester.
+
+---
 
 **Once again, welcome to the team!**
