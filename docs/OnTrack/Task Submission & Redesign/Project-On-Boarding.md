@@ -57,9 +57,9 @@ You need a terminal that supports shell scripts (on Windows, you need WSL2, Msys
 
 3. `cd` into the development directory.
 
-```shell
-cd development
-```
+   ```shell
+   cd development
+   ```
 
 4. Open a terminal that supports `sh` scripts (on Windows, you will need WSL2, Msys2, or Cygwin).
    Run the following command to set your fork as the remote.
@@ -72,12 +72,12 @@ cd development
    allow you to use `git fetch task-view-submission`, `git pull task-view-submission`, and
    `git push task-view-submission`.
 
-```shell
-git remote add task-view-submission https://github.com/PROVIDED_USERNAME/doubtfire-deploy
-```
+   ```shell
+   git remote add task-view-submission https://github.com/PROVIDED_USERNAME/doubtfire-deploy
+   ```
 
 6. You can now follow the remaining instructions, from instruction four,
-   [here](https://github.com/rickydodd/doubtfire-deploy/blob/main/CONTRIBUTING.md#working-with-docker-compose).
+   [here](https://github.com/doubtfire-lms/doubtfire-deploy/blob/development/CONTRIBUTING.md#working-with-docker-compose).
 
 ## What Next?
 
