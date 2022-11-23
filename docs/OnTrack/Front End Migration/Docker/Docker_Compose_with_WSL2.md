@@ -49,6 +49,7 @@ install the latest updates with the following commands, entering your password w
 ```console
 sudo apt update
 sudo apt upgrade
+sudo apt-get install net-tools (windows/linux installation)
 ```
 
 ## Enable Docker Support for WSL2
