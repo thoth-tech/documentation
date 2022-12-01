@@ -55,10 +55,10 @@ You need a terminal that supports shell scripts (on Windows, you need WSL2, Msys
    git clone --recurse-submodules https://github.com/YOUR_USERNAME/doubtfire-deploy
    ```
 
-3. `cd` into the development directory.
+3. `cd` into the directory.
 
    ```shell
-   cd development
+   cd doubtfire-deploy
    ```
 
 4. Open a terminal that supports `sh` scripts (on Windows, you will need WSL2, Msys2, or Cygwin).
