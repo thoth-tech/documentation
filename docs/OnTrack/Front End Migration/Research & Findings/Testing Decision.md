@@ -1,4 +1,4 @@
-## What is the current state of testing?
+# What is the current state of testing?
 
 In this issue, we will discuss the current state of testing and what tools are we proposing. While
 there are some existing unit tests for components written in TypeScript, there are no existing unit
@@ -32,7 +32,7 @@ remote execution.
 
 ## Selenium
 
-## Pros
+### Pros
 
 -Selenium is an Open Source Software. -Selenium supports various programming languages to write
 programs (Test scripts) -Selenium supports various operating systems (MS Windows, Linux, Macintosh
@@ -40,7 +40,7 @@ etc...) -Selenium supports various Browsers (Mozilla Firefox, Google Chrome, IE,
 etc...) -Selenium supports Parallel Test Execution. -Selenium uses fewer Hardware resources. -Good
 choice for ongoing regression testing and end to end testing.
 
-## Cons
+### Cons
 
 -No reliable Technical Support from anybody. -It supports Web-based applications only. -Difficult to
 use, and takes more time to create Test cases. Takes more time to learn. -Difficult to set up Test
@@ -50,14 +50,14 @@ unit testing.
 
 ## Jest
 
-## Pros
+### Pros
 
 -The biggest advantage of using Jest is minimal setup or configuration. -It comes with an assertion
 library and mocking support -The tests are written in BDD style -You can put your tests inside of a
 directory called tests or name them with a .spec.js or .test.js - extension, then run jest and it
 works -Jest also supports snapshot testing
 
-## Cons
+### Cons
 
 -Jest’s biggest weaknesses stem from being newer and less widely used among JavaScript developers.
 -It has less tooling and library support available compared to more mature libraries (like Mocha).
@@ -67,7 +67,7 @@ difficult to use Jest across the board for larger projects that utilize differen
 
 ## Karma + Jasmine
 
-## Pros
+### Pros
 
 -When creating Angular projects using the Angular CLI, Jasmine and Karma are used to create and run
 unit tests by default. -Karma is a test runner built by the angularJS to make TDD easy in Angular
@@ -83,7 +83,7 @@ Karma configuration, transpilation and bundling of your files -It offers clean a
 -Jasmine provides a rich set of built-in matchers that can match expectations and add asserts to the
 test cases
 
-## Cons
+### Cons
 
 -Asynchronous testing can be a bit of a headache -js is required for running Karma -Expects a
 specific suffix to all test files (\*spec.js by default)

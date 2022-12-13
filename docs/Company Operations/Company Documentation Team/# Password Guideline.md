@@ -35,7 +35,7 @@ information. The purpose of this policy is to determine the creation of strong p
 protection of these passwords, and, therefore, the frequency of password change must be followed.”
 (Chaudary, Varsha, Feb. 2022)
 
-### Purpose:
+### Purpose
 
 This policy aims to provide a standard for developing secure passwords, their protection, and how
 frequently they should be changed.
@@ -70,7 +70,7 @@ The following passwords are discouraged:
 - Usernames or host names used as passwords
 - Passwords that form a pattern by incrementing a number or character at the beginning or end
 
-## Account Management Policy:
+## Account Management Policy
 
 This policy aims to establish a precise procedure for setting up, managing, and deleting accounts
 that permit access to Thoth Tech's information. In Thoth Tech, we use Miro, Trello, Microsoft Teams,
@@ -78,7 +78,7 @@ Docker hub, lucid chart etc. The top system administrator, like the leaders, has
 management roles in creating, editing, and maintaining group access. Credentials dedicated to users'
 access are identified, and data security bridging is controlled.
 
-## References:
+## References
 
 1. Cukier, Michel. “Hackers Attack Every 39 Seconds.” Security Magazine RSS, Security Magazine, 24
    May 2020, https://www.securitymagazine.com/articles/ 87787-hackers-attack-every-39-seconds.
