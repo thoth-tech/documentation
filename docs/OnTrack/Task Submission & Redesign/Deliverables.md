@@ -1,4 +1,4 @@
-# Project Deliverables
+# Deliverable Items
 
 ## Purpose of this Document
 
@@ -7,7 +7,7 @@ to deliver upon. Each trimester, this document is to be reassessed. All team mem
 express their expertise by breaking down deliverable items into smaller, actionable tasks on a
 collaborative technology such as Trello.
 
-## Structure of the Deliverables
+## Structure of the Deliverable Items Document
 
 All deliverable items are grouped into roles, but team members are allowed (and encouraged) to
 operate outside of their selected roles.
@@ -22,7 +22,7 @@ All deliverable items have the common form:
 These deliverable items should then be decomposed into constituting tasks, mediated by some
 collaborative technology (for example, [Trello](https://trello.com/)).
 
-## Deliverables
+## Deliverable Items
 
 ### Documentation Oriented
 
@@ -95,8 +95,7 @@ collaborative technology (for example, [Trello](https://trello.com/)).
   - Multiple images in [thoth-tech/documentation](https://github.com/thoth-tech/documentation/), as
     output from [Figma](https://www.figma.com/).
 
-- [ ] Modify the existing design of OnTrack/Doubtfire to conform with the completed and approved
-      designs.
+- [ ] Modify the existing design of OnTrack to conform with the completed and approved designs.
   - Addition, subtraction, or alteration of the team fork of doubtfire-web.
 
 ### Back-end Oriented
@@ -132,21 +131,20 @@ collaborative technology (for example, [Trello](https://trello.com/)).
 
   - A markdown document in [thoth-tech/documentation](https://github.com/thoth-tech/documentation/).
 
-- [ ] Modify OnTrack/Doubtfire to use the [git ruby gem](https://github.com/ruby-git/ruby-git) to
-      store files.
+- [ ] Modify OnTrack to use the [git ruby gem](https://github.com/ruby-git/ruby-git) to store files.
 
   - Addition, subtraction, or alteration of the team fork of doubtfire-api.
 
-- [ ] Modify OnTrack/Doubtfire to serve the git history, via the
+- [ ] Modify OnTrack to serve the git history, via the
       [git ruby gem](https://github.com/ruby-git/ruby-git).
 
   - Addition, subtraction, or alteration of the team fork of doubtfire-api.
 
-- [ ] Modify OnTrack/Doubtfire to facilitate selective file replacement.
+- [ ] Modify OnTrack to facilitate selective file replacement.
 
   - Addition, subtraction, or alteration of the team fork of doubtfire-api.
 
-- [ ] Modify OnTrack/Doubtfire to serve raw files, where appropriate.
+- [ ] Modify OnTrack to serve raw files, where appropriate.
   - Addition, subtraction, or alteration of the team fork of doubtfire-api.
 
 ### Cyber-security Oriented
@@ -155,7 +153,7 @@ collaborative technology (for example, [Trello](https://trello.com/)).
 
   - A markdown document in [thoth-tech/documentation](https://github.com/thoth-tech/documentation/).
 
-- [ ] Create a document, or documents, that introduce OnTrack/Doubtfire administrators to potential
+- [ ] Create a document, or documents, that introduce OnTrack administrators to potential
       cyber-security threats or issues.
 
   - A markdown document (or multiple) in

@@ -30,11 +30,15 @@
 
 ---
 
-Trello: A web-based list-making application designed with a focus on teams that implement a Kanban
-or scrum style of organisation. Figma: A web-based application for user interface and user
-experience design. UI: User Interface; the means by which a human interacts with a machine, these
-are typically graphical interfaces that accept input from an end-user. UX: User Experience; all
-aspects of the end-user's interactions with an application or device.
+Trello: A web-based list-making application designed with a focus on teams that implement a scrum
+style of organisation.
+
+Figma: A web-based application for user interface and user experience design.
+
+UI: User Interface; the means by which a human interacts with a machine, these are typically
+graphical interfaces that accept input from an end-user.
+
+UX: User Experience; all aspects of the end-user's interactions with an application or device.
 
 Flow: A frame-by-frame image of a user (a student, tutor, convenor, or administrator) performing a
 necessary function from beginning to end. Flows allow designers to think critically about how the

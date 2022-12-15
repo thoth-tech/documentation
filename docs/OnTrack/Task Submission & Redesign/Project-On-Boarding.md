@@ -44,7 +44,7 @@ git clone -b doc/view-task-and-submission-redesign --single-branch https://githu
 
 If you are on a Windows machine, then we recommend that you install WSL2.
 
-## Get OnTrack/Doubtfire Running on Local Machine
+## Get OnTrack Running on Local Machine
 
 You need a terminal that supports shell scripts (on Windows, you need WSL2, Msys2, or Cygwin).
 
@@ -53,7 +53,7 @@ You need a terminal that supports shell scripts (on Windows, you need WSL2, Msys
    [doubtfire-web](https://github.com/doubtfire-lms/doubtfire-web)
 
 2. Clone your [doubtfire-deploy](https://github.com/doubtfire-lms/doubtfire-deploy). Make sure to
-   fetch submodules to get the subprojects.
+   fetch submodules to get the sub-projects.
 
    ```shell
    git clone --recurse-submodules https://github.com/YOUR_USERNAME/doubtfire-deploy
@@ -65,23 +65,23 @@ You need a terminal that supports shell scripts (on Windows, you need WSL2, Msys
    cd doubtfire-deploy
    ```
 
-4. Open a terminal that supports `sh` scripts (on Windows, you will need WSL2, Msys2, or Cygwin).
-   Run the following command to set your fork as the remote.
+4. Open a terminal that supports `sh` scripts (on Windows, you require WSL2, Msys2, or Cygwin). Run
+   the following command to set your fork as the remote.
 
    ```shell
    ./change_remotes.sh
    ```
 
-5. Your delivery lead will provide you with the GitHub username to use in this command. This will
-   allow you to use `git fetch task-view-submission`, `git pull task-view-submission`, and
+5. Your delivery lead provides you with the GitHub username to use in this command. This will allow
+   you to use `git fetch task-view-submission`, `git pull task-view-submission`, and
    `git push task-view-submission`.
 
    ```shell
    git remote add task-view-submission https://github.com/PROVIDED_USERNAME/doubtfire-deploy
    ```
 
-6. You can now follow the remaining instructions, from instruction four,
-   [here](https://github.com/doubtfire-lms/doubtfire-deploy/blob/development/CONTRIBUTING.md#working-with-docker-compose).
+6. You can now follow the remaining instructions, from instruction four, in the `doubtfire-deploy`
+   [contributing file](https://github.com/doubtfire-lms/doubtfire-deploy/blob/development/CONTRIBUTING.md#working-with-docker-compose).
 
 ## What Next?
 
@@ -94,10 +94,10 @@ You need a terminal that supports shell scripts (on Windows, you need WSL2, Msys
   - Are there deliverable items that should be added?
   - Are there deliverable items that should be removed?
   - Are there deliverable items that can be decomposed into smaller deliverable items?
-- Examine [the first proposed design](design_images/iteration-3-design-1.png) and ensure all
+- Examine [the first proposed design](design_images/T2-2022/iteration-3-design-1.png) and ensure all
   requirements are met, and that the inclusion of the features are user-friendly.
-- Examine [the second proposed design](design_images/iteration-3-design-2.png) and ensure all
-  requirements are met, and that the inclusion of the features are user-friendly.
+- Examine [the second proposed design](design_images/T2-2022/iteration-3-design-2.png) and ensure
+  all requirements are met, and that the inclusion of the features are user-friendly.
   - Examine
     [the second design's prototype](https://www.figma.com/proto/XmKxWQ43MwrD6Red1DvYq6/Wire-Frame-Designs?node-id=478%3A4466&scaling=min-zoom&page-id=476%3A4327&starting-point-node-id=478%3A4466).
 - Select a front-end design to modify, improve, extend, or implement.
