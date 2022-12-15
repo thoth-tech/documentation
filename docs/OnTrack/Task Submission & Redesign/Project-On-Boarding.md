@@ -5,8 +5,8 @@
 ## Purpose of Document
 
 The purpose of this document is to position you, the potential contributor, such that you can
-contribute to the project. It is assumed that you have already begun, if not finished, the
-on-boarding process for the Thoth Tech company.
+contribute to the project. Regardless of your selected role, it is paramount that you join and
+configure all facets of the project. You are encouraged to work outside of your role.
 
 ## Trello
 
@@ -39,6 +39,10 @@ This enables you to contribute to the project documentation. You should also rea
 ```shell
 git clone -b doc/view-task-and-submission-redesign --single-branch https://github.com/thoth-tech/documentation.git
 ```
+
+## WSL2
+
+If you are on a Windows machine, then we recommend that you install WSL2.
 
 ## Get OnTrack/Doubtfire Running on Local Machine
 
@@ -86,6 +90,10 @@ You need a terminal that supports shell scripts (on Windows, you need WSL2, Msys
   - Are there any users that are not served in the user stories or by the features?
 - Become familiar with [the requirements](Requirements.md)
   - Are all stakeholders sufficiently provided for, with this set of requirements?
+- Become familiar with [the deliverables](Deliverables.md)
+  - Are there deliverable items that should be added?
+  - Are there deliverable items that should be removed?
+  - Are there deliverable items that can be decomposed into smaller deliverable items?
 - Examine [the first proposed design](design_images/iteration-3-design-1.png) and ensure all
   requirements are met, and that the inclusion of the features are user-friendly.
 - Examine [the second proposed design](design_images/iteration-3-design-2.png) and ensure all

@@ -2,40 +2,42 @@
 
 ## Purpose of this Document
 
-This document outlines the deliverables the Task View and Submission Redesign project intends to
-deliver upon. Each trimester, this document is to be reassessed.
+This document outlines the deliverable items the Task View and Submission Redesign project intends
+to deliver upon. Each trimester, this document is to be reassessed. All team members are expected to
+express their expertise by breaking down deliverable items into smaller, actionable tasks on a
+collaborative technology such as Trello.
 
 ## Structure of the Deliverables
 
-The deliverables are grouped into long-term and short-term deliverables. Both of these groups are
-further grouped into role-specific groups, where documentation is an outlier (all team members are
-to complete documentation).
+All deliverable items are grouped into roles, but team members are allowed (and encouraged) to
+operate outside of their selected roles.
 
-All deliverables have the common form:
+All deliverable items have the common form:
 
 ```
 - [ ] What needs to be done.
     - What evidence needs to be produced to show this is completed or on-going.
 ```
 
-These deliverables should then be decomposed into constituting tasks, mediated by some collaborative
-technology (for example, [Trello](https://trello.com/)).
+These deliverable items should then be decomposed into constituting tasks, mediated by some
+collaborative technology (for example, [Trello](https://trello.com/)).
 
 ## Deliverables
 
-### Short Term
+### Documentation Oriented
 
-#### Documentation Oriented
-
-- [ ] Modify the project epic (make it relevant to T3/2022).
+- [x] Modify the project epic (make it relevant to T3/2022).
 
   - A modification to a markdown document in
     [thoth-tech/documentation](https://github.com/thoth-tech/documentation/).
 
-- [x] Create a document that outlines the deliverables of the project.
+- [x] Create a document that outlines the deliverable items of the project.
   - A markdown document in [thoth-tech/documentation](https://github.com/thoth-tech/documentation/).
 
-#### Front-end Oriented
+- [ ] Create a T3/2022 hand-over document.
+  - A markdown document in [thoth-tech/documentation](https://github.com/thoth-tech/documentation/).
+
+### Front-end Oriented
 
 - [ ] Create multiple artefacts that explain the smart defaults of the tutor- and student-views.
 
@@ -62,54 +64,6 @@ technology (for example, [Trello](https://trello.com/)).
 - [ ] Complete the student-view design on [Figma](https://www.figma.com/).
   - An image in [thoth-tech/documentation](https://github.com/thoth-tech/documentation/), as output
     from [Figma](https://www.figma.com/).
-
-#### Back-end Oriented
-
-- [ ] Create a document that evaluates the back-end work of T2/2022.
-
-  - A markdown document in [thoth-tech/documentation](https://github.com/thoth-tech/documentation/).
-
-- [x] Refactor the implementation of the developer environment in the back-end of the
-      `ChatHistoryDisplayer` application.
-
-  - Addition, subtraction, or alteration of
-    [thoth-tech/ChatHistoryDisplayer](https://github.com/thoth-tech/ChatHistoryDisplayer/).
-
-- [x] Implement a developer environment, via Docker, into the front-end of the
-      `ChatHistoryDisplayer` application.
-
-  - Addition, subtraction, or alteration of
-    [thoth-tech/ChatHistoryDisplayer](https://github.com/thoth-tech/ChatHistoryDisplayer/).
-
-- [x] Integrate Docker Compose to configure the front-end container and the back-end container with
-      `docker compose up`.
-
-  - Addition, subtraction, or alteration of
-    [thoth-tech/ChatHistoryDisplayer](https://github.com/thoth-tech/ChatHistoryDisplayer/).
-
-- [ ] Extend the functionalities of the back-end of the `ChatHistoryDisplayer` application.
-  - Addition, subtraction, or alteration of
-    [thoth-tech/ChatHistoryDisplayer](https://github.com/thoth-tech/ChatHistoryDisplayer/).
-
-#### Cyber-security Oriented
-
-- [ ] Create a document that outlines the cyber-security protocols for project group members.
-
-  - A markdown document in [thoth-tech/documentation](https://github.com/thoth-tech/documentation/).
-
-- [ ] Create a document, or documents, that introduce OnTrack/Doubtfire administrators to potential
-      cyber-security threats or issues.
-  - A markdown document (or multiple) in
-    [thoth-tech/documentation](https://github.com/thoth-tech/documentation/).
-
-### Long Term
-
-#### Documentation Oriented
-
-- [ ] Create a T3/2022 hand-over document.
-  - A markdown document in [thoth-tech/documentation](https://github.com/thoth-tech/documentation/).
-
-#### Front-end Oriented
 
 - [ ] Create frame-by-frame flows of students performing current and new features using the primary
       design.
@@ -143,7 +97,33 @@ technology (for example, [Trello](https://trello.com/)).
       designs.
   - Addition, subtraction, or alteration of the team fork of doubtfire-web.
 
-#### Back-end Oriented
+### Back-end Oriented
+
+- [ ] Create a document that evaluates the back-end work of T2/2022.
+
+  - A markdown document in [thoth-tech/documentation](https://github.com/thoth-tech/documentation/).
+
+- [x] Refactor the implementation of the developer environment in the back-end of the
+      `ChatHistoryDisplayer` application.
+
+  - Addition, subtraction, or alteration of
+    [thoth-tech/ChatHistoryDisplayer](https://github.com/thoth-tech/ChatHistoryDisplayer/).
+
+- [x] Implement a developer environment, via Docker, into the front-end of the
+      `ChatHistoryDisplayer` application.
+
+  - Addition, subtraction, or alteration of
+    [thoth-tech/ChatHistoryDisplayer](https://github.com/thoth-tech/ChatHistoryDisplayer/).
+
+- [x] Integrate Docker Compose to configure the front-end container and the back-end container with
+      `docker compose up`.
+
+  - Addition, subtraction, or alteration of
+    [thoth-tech/ChatHistoryDisplayer](https://github.com/thoth-tech/ChatHistoryDisplayer/).
+
+- [ ] Extend the functionalities of the back-end of the `ChatHistoryDisplayer` application.
+  - Addition, subtraction, or alteration of
+    [thoth-tech/ChatHistoryDisplayer](https://github.com/thoth-tech/ChatHistoryDisplayer/).
 
 - [ ] Create a document that outlines the API endpoints required to meet proposed features.
 
@@ -166,7 +146,16 @@ technology (for example, [Trello](https://trello.com/)).
 - [ ] Modify OnTrack/Doubtfire to serve raw files, where appropriate.
   - Addition, subtraction, or alteration of the team fork of doubtfire-api.
 
-#### Cyber-security Oriented
+### Cyber-security Oriented
+
+- [ ] Create a document that outlines the cyber-security protocols for project group members.
+
+  - A markdown document in [thoth-tech/documentation](https://github.com/thoth-tech/documentation/).
+
+- [ ] Create a document, or documents, that introduce OnTrack/Doubtfire administrators to potential
+      cyber-security threats or issues.
+  - A markdown document (or multiple) in
+    [thoth-tech/documentation](https://github.com/thoth-tech/documentation/).
 
 - [ ] Create a document outlining the security concerns of propositional changes (or current enacted
       changes).
@@ -175,12 +164,4 @@ technology (for example, [Trello](https://trello.com/)).
 
 - [ ] Create a document that surveys group member compliance with security protocols.
 
-  - A markdown document in [thoth-tech/documentation](https://github.com/thoth-tech/documentation/).
-
-- [ ] Create a document that outlines internal penetration testing.
-
-  - A markdown document in [thoth-tech/documentation](https://github.com/thoth-tech/documentation/).
-
-- [ ] Create a document that examines the security vulnerabilities in the current OnTrack/Doubtfire
-      implementation.
   - A markdown document in [thoth-tech/documentation](https://github.com/thoth-tech/documentation/).
