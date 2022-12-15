@@ -32,6 +32,7 @@ collaborative technology (for example, [Trello](https://trello.com/)).
     [thoth-tech/documentation](https://github.com/thoth-tech/documentation/).
 
 - [x] Create a document that outlines the deliverable items of the project.
+
   - A markdown document in [thoth-tech/documentation](https://github.com/thoth-tech/documentation/).
 
 - [ ] Create a T3/2022 hand-over document.
@@ -62,6 +63,7 @@ collaborative technology (for example, [Trello](https://trello.com/)).
     from [Figma](https://www.figma.com/).
 
 - [ ] Complete the student-view design on [Figma](https://www.figma.com/).
+
   - An image in [thoth-tech/documentation](https://github.com/thoth-tech/documentation/), as output
     from [Figma](https://www.figma.com/).
 
@@ -122,6 +124,7 @@ collaborative technology (for example, [Trello](https://trello.com/)).
     [thoth-tech/ChatHistoryDisplayer](https://github.com/thoth-tech/ChatHistoryDisplayer/).
 
 - [ ] Extend the functionalities of the back-end of the `ChatHistoryDisplayer` application.
+
   - Addition, subtraction, or alteration of
     [thoth-tech/ChatHistoryDisplayer](https://github.com/thoth-tech/ChatHistoryDisplayer/).
 
@@ -154,6 +157,7 @@ collaborative technology (for example, [Trello](https://trello.com/)).
 
 - [ ] Create a document, or documents, that introduce OnTrack/Doubtfire administrators to potential
       cyber-security threats or issues.
+
   - A markdown document (or multiple) in
     [thoth-tech/documentation](https://github.com/thoth-tech/documentation/).
 
