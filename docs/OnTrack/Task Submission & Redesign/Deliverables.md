@@ -17,10 +17,14 @@ All deliverable items have the common form:
 ```
 - [ ] What needs to be done.
     - What evidence needs to be produced to show this is completed or on-going.
+    - (OPTIONAL) Pre-requisites: The pre-requisite deliverable items for this deliverable.
+    - (OPTIONAL) Additional information: Any additional information that may inform a reader about the deliverable.
 ```
 
 These deliverable items should then be decomposed into constituting tasks, mediated by some
-collaborative technology (for example, [Trello](https://trello.com/)).
+collaborative technology (for example, [Trello](https://trello.com/)). All team members should
+participate in the decomposition of deliverable items. Team members are also encouraged to
+contribute ideas for deliverable items, as informed by their CLOs.
 
 ## Deliverable Items
 
@@ -51,21 +55,41 @@ collaborative technology (for example, [Trello](https://trello.com/)).
   - Multiple images in [thoth-tech/documentation](https://github.com/thoth-tech/documentation/), as
     output from [Figma](https://www.figma.com/).
 
+  - Pre-requisite: A single, primary design must be selected for this to be followed through with.
+
+  - Additional information: These flows should determine whether an alteration to the single,
+    primary design is required and what specific alteration is required.
+
 - [ ] Create frame-by-frame flows of students performing current and new features using the primary
       design.
 
   - Multiple images in [thoth-tech/documentation](https://github.com/thoth-tech/documentation/), as
     output from [Figma](https://www.figma.com/).
 
+  - Pre-requisite: A single, primary design must be selected for this to be followed through with.
+
+  - Additional information: These flows should determine whether an alteration to the single,
+    primary design is required and what specific alteration is required.
+
 - [ ] Complete the tutor-view design on [Figma](https://www.figma.com/).
 
   - An image in [thoth-tech/documentation](https://github.com/thoth-tech/documentation/), as output
     from [Figma](https://www.figma.com/).
 
+  - Pre-requisite: The creation of all the flows of the single, primary tutor-view design.
+
+  - Additional information: This deliverable item is completed once all changes, as informed by
+    usability and smart default problems obtained from the construction of the flows, are fixed.
+
 - [ ] Complete the student-view design on [Figma](https://www.figma.com/).
 
   - An image in [thoth-tech/documentation](https://github.com/thoth-tech/documentation/), as output
     from [Figma](https://www.figma.com/).
+
+  - Pre-requisite: The creation of all the flows of the single, primary student-view design.
+
+  - Additional information: This deliverable item is completed once all changes, as informed by
+    usability and smart default problems obtained from the construction of the flows, are fixed.
 
 - [ ] Create frame-by-frame flows of students performing current and new features using the primary
       design.
@@ -84,28 +108,37 @@ collaborative technology (for example, [Trello](https://trello.com/)).
     from [Figma](https://www.figma.com/).
 
 - [ ] Create frame-by-frame flows of administrators performing current and new features using the
-      administrator-view design.
+      new administrator-view design.
 
   - Multiple images in [thoth-tech/documentation](https://github.com/thoth-tech/documentation/), as
     output from [Figma](https://www.figma.com/).
 
-- [ ] Create frame-by-frame flows of convenors performing current and new features using the
+  - Pre-requisite: The administrator-view deliverable item from this deliverable document must be
+    completed.
+
+- [ ] Create frame-by-frame flows of convenors performing current and new features using the new
       convenor-view design.
 
   - Multiple images in [thoth-tech/documentation](https://github.com/thoth-tech/documentation/), as
     output from [Figma](https://www.figma.com/).
 
-- [ ] Modify the existing design of OnTrack to conform with the completed and approved designs.
+  - Pre-requisite: The conventor-view deliverable item from this deliverable document must be
+    completed.
+
+- [ ] Modify the existing front-end implementation of OnTrack to conform with the completed and
+      approved designs.
+
   - Addition, subtraction, or alteration of the team fork of doubtfire-web.
+
+- [ ] Expand on the front-end of the `ChatHistoryDisplayer` application.
+
+  - Addition, subtraction, or alteration of
+    [thoth-tech/ChatHistoryDisplayer](https://github.com/thoth-tech/ChatHistoryDisplayer/).
 
 ### Back-end Oriented
 
-- [ ] Create a document that evaluates the back-end work of T2/2022.
-
-  - A markdown document in [thoth-tech/documentation](https://github.com/thoth-tech/documentation/).
-
-- [x] Refactor the implementation of the developer environment in the back-end of the
-      `ChatHistoryDisplayer` application.
+- [x] Refactor the implementation of Docker in the back-end of the `ChatHistoryDisplayer`
+      application.
 
   - Addition, subtraction, or alteration of
     [thoth-tech/ChatHistoryDisplayer](https://github.com/thoth-tech/ChatHistoryDisplayer/).
@@ -122,27 +155,36 @@ collaborative technology (for example, [Trello](https://trello.com/)).
   - Addition, subtraction, or alteration of
     [thoth-tech/ChatHistoryDisplayer](https://github.com/thoth-tech/ChatHistoryDisplayer/).
 
+- [x] Add the functionality to the `ChatHistoryDisplayer` application to create user directories.
+
+  - Addition, subtraction, or alteration of
+    [thoth-tech/ChatHistoryDisplayer](https://github.com/thoth-tech/ChatHistoryDisplayer/).
+
+- [x] Add the functionality to the `ChatHistoryDisplayer` application to create project directories
+      and initialise these directories as git repositories.
+
+  - Addition, subtraction, or alteration of
+    [thoth-tech/ChatHistoryDisplayer](https://github.com/thoth-tech/ChatHistoryDisplayer/).
+
+  - Pre-requisite: The create user directories function.
+
+  - Additional information: Project directories are created in user directories, that is why that is
+    a pre-requisite.
+
+- [x] Add to the API of the `ChatHistoryDisplayer` application.
+
+  - Addition, subtraction, or alteration of
+    [thoth-tech/ChatHistoryDisplayer](https://github.com/thoth-tech/ChatHistoryDisplayer/).
+
 - [ ] Extend the functionalities of the back-end of the `ChatHistoryDisplayer` application.
 
   - Addition, subtraction, or alteration of
     [thoth-tech/ChatHistoryDisplayer](https://github.com/thoth-tech/ChatHistoryDisplayer/).
 
-- [ ] Create a document that outlines the API endpoints required to meet proposed features.
+- [x] Create design propositions on how the `ChatHistoryDisplayer` integrates with the OnTrack
+      platform.
 
-  - A markdown document in [thoth-tech/documentation](https://github.com/thoth-tech/documentation/).
-
-- [ ] Modify OnTrack to use the [git ruby gem](https://github.com/ruby-git/ruby-git) to store files.
-
-  - Addition, subtraction, or alteration of the team fork of doubtfire-api.
-
-- [ ] Modify OnTrack to serve the git history, via the
-      [git ruby gem](https://github.com/ruby-git/ruby-git).
-
-  - Addition, subtraction, or alteration of the team fork of doubtfire-api.
-
-- [ ] Modify OnTrack to facilitate selective file replacement.
-
-  - Addition, subtraction, or alteration of the team fork of doubtfire-api.
+  - An image file in [thoth-tech/documentation](https://github.com/thoth-tech/documentation/).
 
 - [ ] Modify OnTrack to serve raw files, where appropriate.
   - Addition, subtraction, or alteration of the team fork of doubtfire-api.
