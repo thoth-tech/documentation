@@ -72,7 +72,7 @@ You need a terminal that supports shell scripts (on Windows, you need WSL2, Msys
    ./change_remotes.sh
    ```
 
-5. Your delivery lead provides you with the GitHub username to use in this command. This will allow
+5. Your delivery lead provides you with the GitHub username to use in this command. This allows
    you to use `git fetch task-view-submission`, `git pull task-view-submission`, and
    `git push task-view-submission`.
 
