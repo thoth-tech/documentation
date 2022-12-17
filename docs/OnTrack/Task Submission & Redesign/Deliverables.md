@@ -55,7 +55,8 @@ contribute ideas for deliverable items, as informed by their CLOs.
   - Pre-requisite: A single, primary design must be selected for this to be followed through with.
 
   - Additional information: These flows should determine whether an alteration to the single,
-    primary design is required and what specific alteration is required. This could be broken down into tasks regarding specific flows for showing the use of specific features.
+    primary design is required and what specific alteration is required. This could be broken down
+    into tasks regarding specific flows for showing the use of specific features.
 
 - [ ] Create frame-by-frame flows of students performing current and new features using the primary
       design.
@@ -66,7 +67,8 @@ contribute ideas for deliverable items, as informed by their CLOs.
   - Pre-requisite: A single, primary design must be selected for this to be followed through with.
 
   - Additional information: These flows should determine whether an alteration to the single,
-    primary design is required and what specific alteration is required. This could be broken down into tasks regarding specific flows for showing the use of specific features.
+    primary design is required and what specific alteration is required. This could be broken down
+    into tasks regarding specific flows for showing the use of specific features.
 
 - [ ] Complete the tutor-view design on [Figma](https://www.figma.com/).
 
@@ -107,7 +109,8 @@ contribute ideas for deliverable items, as informed by their CLOs.
   - Pre-requisite: The administrator-view deliverable item from this deliverable document must be
     completed.
 
-  - Additional information: This could be broken down into tasks regarding specific flows for showing the use of specific features.
+  - Additional information: This could be broken down into tasks regarding specific flows for
+    showing the use of specific features.
 
 - [ ] Create frame-by-frame flows of convenors performing current and new features using the new
       convenor-view design.
@@ -117,12 +120,14 @@ contribute ideas for deliverable items, as informed by their CLOs.
 
   - Pre-requisite: The conventor-view deliverable item from this deliverable document must be
     completed.
-  
-  - Additional information: This could be broken down into tasks regarding specific flows for showing the use of specific features.
+
+  - Additional information: This could be broken down into tasks regarding specific flows for
+    showing the use of specific features.
 
 #### Code
 
-- [ ] Modify the existing front-end implementation of OnTrack to conform with any of the completed designs.
+- [ ] Modify the existing front-end implementation of OnTrack to conform with any of the completed
+      designs.
 
 - [x] Expand the `chathistorydisplayer-web` web application.
 
@@ -145,7 +150,8 @@ contribute ideas for deliverable items, as informed by their CLOs.
 
 - [x] Add functionality to `chathistorydisplayer-api`: create user directories.
 
-- [x] Add functionality to `chathistorydisplayer-api`: create project directories in user directories.
+- [x] Add functionality to `chathistorydisplayer-api`: create project directories in user
+      directories.
 
   - Additional information: Project directories must be initialised as git repositories.
 
@@ -153,19 +159,25 @@ contribute ideas for deliverable items, as informed by their CLOs.
 
   - Additional information: Pertains to text files.
 
-- [x] Add functionality to `chathistorydisplayer-api`: API end-point that retrieves the last `git diff` of a text file.
+- [x] Add functionality to `chathistorydisplayer-api`: API end-point that retrieves the last
+      `git diff` of a text file.
 
 - [ ] Add functionality to `chathistorydisplayer-api`: authorisation at API end-points.
 
-- [ ] Add functionality to `chathistorydisplayer-api`: version control of PDF documents using the `git gem`.
+- [ ] Add functionality to `chathistorydisplayer-api`: version control of PDF documents using the
+      `git gem`.
 
 #### `Doubtfire`
 
 - [ ] Modify OnTrack to serve raw files, where appropriate.
-  
-  - Additional information: This contributes towards the integration of the `chathistorydisplayer-api` into the OnTrack platform, as the OnTrack platform needs PDF processing removed and separate handling for different classes of files (text files and PDFs come to mind).
 
-- [ ] The integration of `chathistorydisplayer-api` into the Docker environment of the OnTrack platform.
+  - Additional information: This contributes towards the integration of the
+    `chathistorydisplayer-api` into the OnTrack platform, as the OnTrack platform needs PDF
+    processing removed and separate handling for different classes of files (text files and PDFs
+    come to mind).
+
+- [ ] The integration of `chathistorydisplayer-api` into the Docker environment of the OnTrack
+      platform.
 
 ### Cyber-security Oriented
 

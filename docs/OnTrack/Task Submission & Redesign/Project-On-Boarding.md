@@ -9,7 +9,9 @@ contribute to the project. Regardless of your selected role, it is paramount tha
 configure all facets of the project. You are encouraged to work outside of your role.
 
 ## Notice
-All team members are expected to have all facets of the project set up, irrespective of your selected or designated roles. This increases the team agility.
+
+All team members are expected to have all facets of the project set up, irrespective of your
+selected or designated roles. This increases the team agility.
 
 ## Trello
 
@@ -75,8 +77,8 @@ You need a terminal that supports shell scripts (on Windows, you need WSL2, Msys
    ./change_remotes.sh
    ```
 
-5. Your delivery lead provides you with the GitHub username to use in this command. This allows
-   you to use `git fetch task-view-submission`, `git pull task-view-submission`, and
+5. Your delivery lead provides you with the GitHub username to use in this command. This allows you
+   to use `git fetch task-view-submission`, `git pull task-view-submission`, and
    `git push task-view-submission`.
 
    ```shell
