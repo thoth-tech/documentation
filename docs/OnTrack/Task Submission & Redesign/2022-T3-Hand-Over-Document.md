@@ -20,8 +20,10 @@ ought to be.
 - The so-called "back-end emulator" and "front-end simulator" were redefined as an API and a front-end for test-related purposes.
 - The back-end team integrated quality of life features into the [thoth-tech/ChatHistoryDisplayer](https://github.com/thoth-tech/ChatHistoryDisplayer/) application (containerisation, container orchestration, a static code analyser, linter, and a testing suite).
 - The back-end team fixed 83 offenses manually, as determined by the newly implemented static text analyser.
-- The back-end team altered the [thoth-tech/ChatHistoryDisplayer](https://github.com/thoth-tech/ChatHistoryDisplayer/) API to create user directories and project directories, initialise project directories as git repositories, create files from a JSON payload (for text files), collect the git difference of a file created from a JSON payload, and commit files created from JSON payloads to the local git history of a project repository.
+- The back-end team altered the [thoth-tech/ChatHistoryDisplayer](https://github.com/thoth-tech/ChatHistoryDisplayer/). The `chathistorydisplayer-api` was altered to facilitate the creation of user directories, project directories, initialising project directories as git repositories, creating a text file that stores the `git diff` whenever one exists for a file, and more.
+- The back-end team added API end-points for the deletion of various artefacts created by other end-points, as well.
 - The back-end team created a proposition for how the [thoth-tech/ChatHistoryDisplayer](https://github.com/thoth-tech/ChatHistoryDisplayer/)'s API (`chathistorydisplayer-api`) may be integrated into OnTrack.
+- The `chathistorydisplayer-web` application received a substantial visual upgrade from a member of the back-end team.
 
 ## What Next?
 

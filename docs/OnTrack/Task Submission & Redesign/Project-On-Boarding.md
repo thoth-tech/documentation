@@ -8,6 +8,9 @@ The purpose of this document is to position you, the potential contributor, such
 contribute to the project. Regardless of your selected role, it is paramount that you join and
 configure all facets of the project. You are encouraged to work outside of your role.
 
+## Notice
+All team members are expected to have all facets of the project set up, irrespective of your selected or designated roles. This increases the team agility.
+
 ## Trello
 
 - Register a [Trello](https://trello.com/signup) account.

@@ -28,7 +28,7 @@ contribute ideas for deliverable items, as informed by their CLOs.
 
 ## Deliverable Items
 
-### Documentation Oriented
+### Purely Documentation Oriented
 
 - [x] Modify the project epic (make it relevant to T3/2022).
 
@@ -44,10 +44,7 @@ contribute ideas for deliverable items, as informed by their CLOs.
 
 ### Front-end Oriented
 
-- [ ] Create multiple artefacts that explain the smart defaults of the tutor- and student-views.
-
-  - A markdown document and/or image files in
-    [thoth-tech/documentation](https://github.com/thoth-tech/documentation/).
+#### Design
 
 - [ ] Create frame-by-frame flows of tutors performing current and new features using the primary
       design.
@@ -58,7 +55,7 @@ contribute ideas for deliverable items, as informed by their CLOs.
   - Pre-requisite: A single, primary design must be selected for this to be followed through with.
 
   - Additional information: These flows should determine whether an alteration to the single,
-    primary design is required and what specific alteration is required.
+    primary design is required and what specific alteration is required. This could be broken down into tasks regarding specific flows for showing the use of specific features.
 
 - [ ] Create frame-by-frame flows of students performing current and new features using the primary
       design.
@@ -69,7 +66,7 @@ contribute ideas for deliverable items, as informed by their CLOs.
   - Pre-requisite: A single, primary design must be selected for this to be followed through with.
 
   - Additional information: These flows should determine whether an alteration to the single,
-    primary design is required and what specific alteration is required.
+    primary design is required and what specific alteration is required. This could be broken down into tasks regarding specific flows for showing the use of specific features.
 
 - [ ] Complete the tutor-view design on [Figma](https://www.figma.com/).
 
@@ -91,12 +88,6 @@ contribute ideas for deliverable items, as informed by their CLOs.
   - Additional information: This deliverable item is completed once all changes, as informed by
     usability and smart default problems obtained from the construction of the flows, are fixed.
 
-- [ ] Create frame-by-frame flows of students performing current and new features using the primary
-      design.
-
-  - Multiple images in [thoth-tech/documentation](https://github.com/thoth-tech/documentation/), as
-    output from [Figma](https://www.figma.com/).
-
 - [ ] Create an administrator-view [Figma](https://www.figma.com/) design.
 
   - An image in [thoth-tech/documentation](https://github.com/thoth-tech/documentation/), as output
@@ -116,6 +107,8 @@ contribute ideas for deliverable items, as informed by their CLOs.
   - Pre-requisite: The administrator-view deliverable item from this deliverable document must be
     completed.
 
+  - Additional information: This could be broken down into tasks regarding specific flows for showing the use of specific features.
+
 - [ ] Create frame-by-frame flows of convenors performing current and new features using the new
       convenor-view design.
 
@@ -124,70 +117,55 @@ contribute ideas for deliverable items, as informed by their CLOs.
 
   - Pre-requisite: The conventor-view deliverable item from this deliverable document must be
     completed.
+  
+  - Additional information: This could be broken down into tasks regarding specific flows for showing the use of specific features.
 
-- [ ] Modify the existing front-end implementation of OnTrack to conform with the completed and
-      approved designs.
+#### Code
 
-  - Addition, subtraction, or alteration of the team fork of doubtfire-web.
+- [ ] Modify the existing front-end implementation of OnTrack to conform with any of the completed designs.
 
-- [ ] Expand on the front-end of the `ChatHistoryDisplayer` application.
-
-  - Addition, subtraction, or alteration of
-    [thoth-tech/ChatHistoryDisplayer](https://github.com/thoth-tech/ChatHistoryDisplayer/).
+- [x] Expand the `chathistorydisplayer-web` web application.
 
 ### Back-end Oriented
 
-- [x] Refactor the implementation of Docker in the back-end of the `ChatHistoryDisplayer`
-      application.
-
-  - Addition, subtraction, or alteration of
-    [thoth-tech/ChatHistoryDisplayer](https://github.com/thoth-tech/ChatHistoryDisplayer/).
-
-- [x] Implement a developer environment, via Docker, into the front-end of the
-      `ChatHistoryDisplayer` application.
-
-  - Addition, subtraction, or alteration of
-    [thoth-tech/ChatHistoryDisplayer](https://github.com/thoth-tech/ChatHistoryDisplayer/).
-
-- [x] Integrate Docker Compose to configure the front-end container and the back-end container with
-      `docker compose up`.
-
-  - Addition, subtraction, or alteration of
-    [thoth-tech/ChatHistoryDisplayer](https://github.com/thoth-tech/ChatHistoryDisplayer/).
-
-- [x] Add the functionality to the `ChatHistoryDisplayer` application to create user directories.
-
-  - Addition, subtraction, or alteration of
-    [thoth-tech/ChatHistoryDisplayer](https://github.com/thoth-tech/ChatHistoryDisplayer/).
-
-- [x] Add the functionality to the `ChatHistoryDisplayer` application to create project directories
-      and initialise these directories as git repositories.
-
-  - Addition, subtraction, or alteration of
-    [thoth-tech/ChatHistoryDisplayer](https://github.com/thoth-tech/ChatHistoryDisplayer/).
-
-  - Pre-requisite: The create user directories function.
-
-  - Additional information: Project directories are created in user directories, that is why that is
-    a pre-requisite.
-
-- [x] Add to the API of the `ChatHistoryDisplayer` application.
-
-  - Addition, subtraction, or alteration of
-    [thoth-tech/ChatHistoryDisplayer](https://github.com/thoth-tech/ChatHistoryDisplayer/).
-
-- [ ] Extend the functionalities of the back-end of the `ChatHistoryDisplayer` application.
-
-  - Addition, subtraction, or alteration of
-    [thoth-tech/ChatHistoryDisplayer](https://github.com/thoth-tech/ChatHistoryDisplayer/).
+#### Documentation
 
 - [x] Create design propositions on how the `ChatHistoryDisplayer` integrates with the OnTrack
       platform.
 
   - An image file in [thoth-tech/documentation](https://github.com/thoth-tech/documentation/).
 
+#### `ChatHistoryDisplayer`
+
+- [x] Refactor the implementation of Docker at `chathistorydisplayer-api`.
+
+- [x] Implement Docker at `chathistorydisplayer-web`.
+
+- [x] Integrate Docker Compose at the root of the [thoth-tech/ChatHistoryDisplayer] repository.
+
+- [x] Add functionality to `chathistorydisplayer-api`: create user directories.
+
+- [x] Add functionality to `chathistorydisplayer-api`: create project directories in user directories.
+
+  - Additional information: Project directories must be initialised as git repositories.
+
+- [x] Add functionality to `chathistorydisplayer-api`: write file from JSON payload.
+
+  - Additional information: Pertains to text files.
+
+- [x] Add functionality to `chathistorydisplayer-api`: API end-point that retrieves the last `git diff` of a text file.
+
+- [ ] Add functionality to `chathistorydisplayer-api`: authorisation at API end-points.
+
+- [ ] Add functionality to `chathistorydisplayer-api`: version control of PDF documents using the `git gem`.
+
+#### `Doubtfire`
+
 - [ ] Modify OnTrack to serve raw files, where appropriate.
-  - Addition, subtraction, or alteration of the team fork of doubtfire-api.
+  
+  - Additional information: This contributes towards the integration of the `chathistorydisplayer-api` into the OnTrack platform, as the OnTrack platform needs PDF processing removed and separate handling for different classes of files (text files and PDFs come to mind).
+
+- [ ] The integration of `chathistorydisplayer-api` into the Docker environment of the OnTrack platform.
 
 ### Cyber-security Oriented
 
