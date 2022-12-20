@@ -5,8 +5,13 @@
 ## Purpose of Document
 
 The purpose of this document is to position you, the potential contributor, such that you can
-contribute to the project. It is assumed that you have already begun, if not finished, the
-on-boarding process for the Thoth Tech company.
+contribute to the project. Regardless of your selected role, it is paramount that you join and
+configure all facets of the project. You are encouraged to work outside of your role.
+
+## Notice
+
+All team members are expected to have all facets of the project set up, irrespective of your
+selected or designated roles. This increases the team agility.
 
 ## Trello
 
@@ -33,32 +38,55 @@ If you haven't already, you must configure git.
 
 ## Cloning the Documentation
 
-This enables you to contribute to the project documentation.
+This enables you to contribute to the project documentation. You should also read the
+[documentation contribution guidelines](https://github.com/thoth-tech/documentation/blob/main/CONTRIBUTING.md).
 
 ```shell
 git clone -b doc/view-task-and-submission-redesign --single-branch https://github.com/thoth-tech/documentation.git
 ```
 
-## Get OnTrack/Doubtfire Running on Local Machine
+## WSL2
+
+If you are on a Windows machine, then we recommend that you install WSL2.
+
+## Get OnTrack Running on Local Machine
 
 You need a terminal that supports shell scripts (on Windows, you need WSL2, Msys2, or Cygwin).
 
-1. Clone the fork of doubtfire-lms.
+1. Fork [doubtfire-deploy](https://github.com/doubtfire-lms/doubtfire-deploy),
+   [doubtfire-api](https://github.com/doubtfire-lms/doubtfire-api), and
+   [doubtfire-web](https://github.com/doubtfire-lms/doubtfire-web)
+
+2. Clone your [doubtfire-deploy](https://github.com/doubtfire-lms/doubtfire-deploy). Make sure to
+   fetch submodules to get the sub-projects.
 
    ```shell
-   git clone --recurse-submodules https://github.com/rickydodd/doubtfire-deploy
+   git clone --recurse-submodules https://github.com/YOUR_USERNAME/doubtfire-deploy
    ```
 
-1. Open a terminal that supports shell scripts.
+3. `cd` into the directory.
 
-   Run the following command to set the fork on `rickydodd` as the remote.
+   ```shell
+   cd doubtfire-deploy
+   ```
+
+4. Open a terminal that supports `sh` scripts (on Windows, you require WSL2, Msys2, or Cygwin). Run
+   the following command to set your fork as the remote.
 
    ```shell
    ./change_remotes.sh
    ```
 
-1. You can now follow the remaining instructions, from instruction four,
-   [here](https://github.com/rickydodd/doubtfire-deploy/blob/main/CONTRIBUTING.md#working-with-docker-compose).
+5. Your delivery lead provides you with the GitHub username to use in this command. This allows you
+   to use `git fetch task-view-submission`, `git pull task-view-submission`, and
+   `git push task-view-submission`.
+
+   ```shell
+   git remote add task-view-submission https://github.com/PROVIDED_USERNAME/doubtfire-deploy
+   ```
+
+6. You can now follow the remaining instructions, from instruction four, in the `doubtfire-deploy`
+   [contributing file](https://github.com/doubtfire-lms/doubtfire-deploy/blob/development/CONTRIBUTING.md#working-with-docker-compose).
 
 ## What Next?
 
@@ -67,10 +95,14 @@ You need a terminal that supports shell scripts (on Windows, you need WSL2, Msys
   - Are there any users that are not served in the user stories or by the features?
 - Become familiar with [the requirements](Requirements.md)
   - Are all stakeholders sufficiently provided for, with this set of requirements?
-- Examine [the first proposed design](design_images/iteration-3-design-1.png) and ensure all
+- Become familiar with [the deliverables](Deliverables.md)
+  - Are there deliverable items that should be added?
+  - Are there deliverable items that should be removed?
+  - Are there deliverable items that can be decomposed into smaller deliverable items?
+- Examine [the first proposed design](design_images/T2-2022/iteration-3-design-1.png) and ensure all
   requirements are met, and that the inclusion of the features are user-friendly.
-- Examine [the second proposed design](design_images/iteration-3-design-2.png) and ensure all
-  requirements are met, and that the inclusion of the features are user-friendly.
+- Examine [the second proposed design](design_images/T2-2022/iteration-3-design-2.png) and ensure
+  all requirements are met, and that the inclusion of the features are user-friendly.
   - Examine
     [the second design's prototype](https://www.figma.com/proto/XmKxWQ43MwrD6Red1DvYq6/Wire-Frame-Designs?node-id=478%3A4466&scaling=min-zoom&page-id=476%3A4327&starting-point-node-id=478%3A4466).
 - Select a front-end design to modify, improve, extend, or implement.
