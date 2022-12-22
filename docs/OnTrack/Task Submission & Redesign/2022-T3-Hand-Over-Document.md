@@ -34,9 +34,6 @@ ought to be.
   `chathistorydisplayer-api` and `chathistorydisplayer-web` applications.
 - Quality of life features were integrated into the `chathistorydisplayer-api` application. Namely,
   a static code analyser and linter (`rubocop`) and a testing suite (`RSpec` and `Capybara`).
-- The back-end team integrated quality of life features into the
-  [thoth-tech/ChatHistoryDisplayer](https://github.com/thoth-tech/ChatHistoryDisplayer/) application
-  (containerisation, container orchestration, a static code analyser, linter, and a testing suite).
 - 83 offenses in the `chathistorydisplayer-api`, as detected by the newly integrated static code
   analyser, were fixed manually.
 - The `chathistorydisplayer-api` application was altered to facilitate the creation of user
@@ -44,11 +41,10 @@ ought to be.
   only created user directories and initialised those are git repositories. The back-end team deemed
   it appropriate to change this, so that each project is handled as a git repository; this will
   allow each project to have its history queries for integration into a chat interface.
-- An API end-point was created in the `chathistorydisplayer-api` application to handle
+- An API end-point was created in the `chathistorydisplayer-api` application to fetch the most
+  recent `git diff` of a file.
 - API end-points were created in the `chathistorydisplayer-api` application to handle the deletion
   of user directories, project directories, and files in project directories.
-- The back-end team added API end-points for the deletion of various artefacts created by other
-  end-points, as well.
 - A diagram, which acts as a proposition, was created on how the
   [thoth-tech/ChatHistoryDisplayer](https://github.com/thoth-tech/ChatHistoryDisplayer/) may be
   integrated into [thoth-tech/doubtfire-api](https://github.com/thoth-tech/doubtfire-api).
@@ -56,8 +52,10 @@ ought to be.
   then leveraged. This resulted in a visual overhaul of the web application.
 - The `chathistorydisplayer-web` application had visual buttons created for the deletion of user
   directories, project directories, and files in project directories.
-- The `chathistorydisplayer-web` application had `Javascript` events integrated into the text input fields, so that it would be clearer what variables were set to during testing.
-- The `chathistorydisplayer-web` application had `Javascript` events integrated into the buttons, so that appropriate API end-points were called.
+- The `chathistorydisplayer-web` application had `Javascript` events integrated into the text input
+  fields, so that it would be clearer what variables were set to during testing.
+- The `chathistorydisplayer-web` application had `Javascript` events integrated into the buttons, so
+  that appropriate API end-points were called.
 
 ## What Next?
 
