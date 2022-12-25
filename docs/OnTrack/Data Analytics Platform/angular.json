@@ -1,0 +1,162 @@
+import { Component, VERSION } from '@angular/core';
+
+@Component({
+  selector: 'my-app',
+  templateUrl: './app.component.html',
+  styleUrls: ['./app.component.css'],
+})
+export class AppComponent {
+  name = 'Angular ' + VERSION.major;
+}
+
+angular
+  .module('studyapp.controllers')
+
+  .controller(
+    'echartctrl',
+    function ($scope, $rootscope, $ionichistory, $location) {
+      $scope.title = 'Overall Progess';
+
+      $scope.goback = function () {
+        $ionichistory.goback();
+      };
+
+      //Used for formatting data
+      $scope.datalist = {
+        incomedata: '',
+      };
+      // Pie Chart
+      $scope.pieconfig = {};
+      // Donut chart
+      $scope.donutconfig = {};
+
+      init();
+
+      function init() {
+        initchartsconfig();
+        initincome();
+        initconfigchart();
+      }
+
+      //The pie chart configuration is initialized
+      function initchartsconfig() {
+        $scope.pieconfig = {
+          center: [120, '50%'],
+          radius: 90,
+        };
+        $scope.donutconfig = {
+          radius: [0, 90],
+        };
+      }
+      //Pie Chart data
+      function initincome() {
+        var temp = [
+          {
+            name: 'Not started',
+            num: 11,
+          },
+          {
+            name: 'Need help',
+            num: 22,
+          },
+          {
+            name: 'Working on it',
+            num: 33,
+          },
+          {
+            name: 'Completed',
+            num: 44,
+          },
+          {
+            name: 'Overdue',
+            num: 55,
+          },
+        ];
+
+        if (temp) {
+          // Processing data
+          var temp2 = [];
+          angular.foreach(temp, function (item) {
+            var t = { x: item.name, y: item.num };
+            temp2.push(t);
+          });
+          $scope.datalist.incomedata = [
+            {
+              name: 'Piechart',
+              datapoints: temp2,
+            },
+          ];
+        }
+      }
+
+      //Bar graph data
+      function initconfigchart() {
+        var parkaccountchart = echarts.init(document.getelementbyid('id0001')); //div id
+        var serieslabel = {
+          normal: {
+            show: true,
+            textbordercolor: '#333',
+            textborderwidth: 2,
+          },
+        };
+        var option = {
+          tooltip: {
+            trigger: 'axis',
+            axispointer: {
+              type: 'shadow',
+            },
+          },
+          legend: {
+            data: ['Complete', 'Working on it', 'Need help', 'Not started'],
+            bottom: true,
+          },
+          grid: {
+            left: '1%',
+            right: '4%',
+            bottom: '8%',
+            top: '5%',
+            containlabel: true,
+          },
+          xaxis: {
+            type: 'value',
+            name: '',
+            axislabel: {
+              formatter: '{value}',
+            },
+          },
+          yaxis: {
+            type: 'category',
+            inverse: true,
+            data: ['WEEK1', 'WEEK2', 'WEEK3'],
+          },
+          series: [
+            {
+              name: 'Complete',
+              type: 'bar',
+              label: serieslabel,
+              data: [15, 20, 30],
+            },
+            {
+              name: 'Working on it',
+              type: 'bar',
+              label: serieslabel,
+              data: [20, 25, 50],
+            },
+            {
+              name: 'Need help',
+              type: 'bar',
+              label: serieslabel,
+              data: [5, 15, 10],
+            },
+            {
+              name: 'Not started',
+              type: 'bar',
+              label: serieslabel,
+              data: [30, 15, 10],
+            },
+          ],
+        };
+        parkaccountchart.setoption(option);
+      }
+    }
+  );
