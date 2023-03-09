@@ -8,6 +8,10 @@
 				"-no-start",
 				"-mingw64"
 			]
+		},
+		"wsl": {
+			"path": "C:\\Windows\\system32\\wsl.exe",
+			"args": ["-d", "Ubuntu"]
 		}
 	},
 	"terminal.integrated.defaultProfile.windows": "MINGW64"

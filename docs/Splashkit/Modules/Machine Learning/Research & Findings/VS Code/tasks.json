@@ -2,102 +2,76 @@
 	"windows": {
 		"options": {
 			"shell": {
-				"executable": "cmd",
-				"args": [
-					"/d",
-					"/c"
-				]
+				"executable": "C:\\msys64\\msys2_shell.cmd",
+				"args": ["-defterm", "-mingw64", "-here", "-no-start", "-c"],
+				// "executable": "C:\\Windows\\system32\\wsl.exe",
+				// "args": ["-d", "Ubuntu"],
 			}
 		}
 	},
 	"tasks": [
 		{
-			"type": "process",
+			"type": "shell",
 			"label": "cmake",
-			"command": "C:\\msys64\\msys2_shell.cmd",
-			"args": [
-				"-defterm",
-				"-no-start",
-				"-mingw64",
-
-				"-where",
-				"./projects/cmake/",
-
-				"-c",
-				"cmake -DCMAKE_BUILD_TYPE=Debug -G \"Ninja\""
-			],
-			"osx": {
-				"command": "cmake",
-				"args": [
-					"-DCMAKE_BUILD_TYPE=Debug",
-					"."
-				],
+			"windows": {
+				"command": "'cmake -DCMAKE_BUILD_TYPE=Debug -G \"Ninja\"'",
+				"args": [],
 				"options": {
-					"cwd": "${workspaceFolder}/projects/cmake/"
+					"cwd": "${workspaceFolder}\\projects\\cmake"
 				}
+			},
+			"command": "cmake",
+			"args": [
+				"-DCMAKE_BUILD_TYPE=Debug",
+				"-G",
+				"Ninja"
+			],
+			"options": {
+				"cwd": "${workspaceFolder}/projects/cmake/"
 			},
 			"problemMatcher": []
 		},
 		{
-			"type": "process",
+			"type": "shell",
 			"label": "Compile",
-			"command": "C:\\msys64\\msys2_shell.cmd",
-			"args": [
-				"-defterm",
-				"-no-start",
-				"-mingw64",
-
-				"-where",
-				"./projects/cmake/",
-
-				"-c",
-				"ninja"
-			],
-			"osx": {
-				"command": "make",
-				"args": [],
+			"command": "'ninja'",
+			"windows": {
 				"options": {
-					"cwd": "${workspaceFolder}/projects/cmake/"
+					"cwd": "${workspaceFolder}\\projects\\cmake"
 				}
+			},
+			"options": {
+				"cwd": "${workspaceFolder}/projects/cmake/"
 			},
 			"problemMatcher": []
 		},
 		{
-			"type": "process",
-			"label": "Run",
-			"command": "C:\\msys64\\msys2_shell.cmd",
-			"args": [
-				"-defterm",
-				"-no-start",
-				"-mingw64",
-
-				"-where",
-				"./bin/",
-				
-				"-c",
-				"./sktest.exe"
-			],
-			"osx": {
-				"command": "sktest",
-				"args": [],
+			"type": "shell",
+			"label": "Delete Cache",
+			"command": "rm -rf CMakeCache.txt CMakeFiles",
+			"windows": {
+				"command": "'rm -rf CMakeCache.txt CMakeFiles'",
 				"options": {
-					"cwd": "${workspaceFolder}/bin"
+					"cwd": "${workspaceFolder}\\projects\\cmake"
 				}
 			},
-			"problemMatcher": [],
+			"options": {
+				"cwd": "${workspaceFolder}/projects/cmake/"
+			},
+			"problemMatcher": []
 		},
 		{
-			"label": "Compile + Run",
+			"label": "Full Compile",
 			"dependsOrder": "sequence",
 			"dependsOn": [
-				"Compile",
-				"Run"
+				"cmake",
+				"Compile"
 			],
 			"group": {
 				"kind": "build",
 				"isDefault": true
 			},
-			"problemMatcher": [],
+			"problemMatcher": []
 		}
 	],
 	"version": "2.0.0"

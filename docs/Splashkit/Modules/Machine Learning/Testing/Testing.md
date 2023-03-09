@@ -30,8 +30,8 @@ Ideally more games of different genres should be implemented using the `Game` AP
 `TicTacToe` is implemented.  
 Example games could include:
 
-- Pong, as a realtime game it covers a wide range of new features to account for and is still simple
-  to implement.
+- Pong, as a real-time game it covers a wide range of new features to account for and is still
+  simple to implement.
 - Battleship, as a imperfect information game it may pose a challenge to some `Agent` types. It also
   has two different phases that could be hard to account for (Choosing locations for battleships,
   and targeting enemy battleships)
