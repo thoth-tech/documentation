@@ -14,20 +14,20 @@ from the [handbook](https://github.com/thoth-tech/handbook).
      - `/bin/sktest.exe` (Which is the executable we will be debugging).
 2. Copy the 2 included files ([`launch.json`](launch.json) and [`tasks.json`](tasks.json)) to the
    `/.vscode` folder, and create the folder if it doesn't already exist.
-   - The [`tasks.json`](tasks.json) contains tasks for Running cmake, Compiling, and Running the
-     `sktest.exe` file. These can be accessed through Quick Open (`Ctrl+P`) by typing 'task', Space
-     and the command name (`cmake`, `Compile`, `Run`).
+   - The [`tasks.json`](tasks.json) contains tasks for Running cmake and make/ninja. These can be
+     accessed through the Command Palette (`F1`) by typing 'task', Space, and the command name
+     (`cmake`, `Compile`, `Full Compile`).
    - The [`launch.json`](launch.json) contains the configuration for the debugger. This can be
      accessed through wither using the Run/Debug menu (`Ctrl+Shift+D`) or pressing `F5`.
 3. OS Dependent issues to take care of:
    - **Windows**: If you changed the default install location of MSYS `C:/msys64/` you will need to
-     manually change all references to `C:/msys64/` to the correct location.
+     manually change all references of `C:/msys64/` to the correct location.
    - **MacOS**: Install the
      [CodeLLDB](https://marketplace.visualstudio.com/items?itemName=vadimcn.vscode-lldb) extension
      from the VSCode extensions tab.
 4. Otherwise you are good to go!
-   - Run the `cmake` task (`Ctrl+P`, then type `task cmake`), this needs to be run every time you
-     add or remove files from the SplashKit repo.
-   - Now you can run the launch config with `F5` and it should automatically compile and run the
-     `sktest.exe` file. Sometimes this will fail especially if you run it in quick succession, if so
-     you can try running it again.
+   - Run the `cmake` task (`F1`, then type `task cmake`), this needs to be run every time you add or
+     remove files from the SplashKit repo.
+   - Now you can run the launch config with `F5` or by opening the Run/Debug menu on the left menu
+     bar and it should automatically compile and run the `sktest.exe` file. Very rarely this can
+     fail if you try run it in quick succession, if so you can try running it again.
