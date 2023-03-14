@@ -1,113 +1,132 @@
-# Dicey Combat
+#Dicey Combat#
 
-***Table of content***
+***Table of contents***
+
 - [Dicey Combat](#dicey-combat)
-  - [Game Concept](#game-concept)
-    - [Introduction](#introduction)
-    - [Specification](#specification)
-  - [User Stories](#user-stories)
-  - [Procedures](#procedures)
-  - [Version History](#version-history)
-    - [Background asset](#background-asset)
-    - [Dice asset](#dice-asset)
-  - [Further Plan](#further-plan)
-    
 
-#
++ [Game Concept](#game-concept)
 
-## Game Concept
-Dicey Combat is a 2D arcade game for 2 players.  
+* [Introduction](#introduction)
 
-### Introduction
+* [Specification](#specification)
 
-In the game, players roll two die to move forward. Players conquer the opponents’ region and eat the token. Each player has four lives. The game will end when one player loses all of the four lives. 
++ [User Stories](#user-stories)
 
-### Specification
-* Handle 2 player input in one screen 
-* Developed using C++ on Splashkit 
-* On arcade machine, player controls one button for rolling dice, one button for moving game characters, one button for restart the game 
++ [Procedures](#procedures)
 
-#
++ [Version History](#version-history)
 
-## User Stories
-* As a student I want a machine with the ability to play my game creations so that I can showcase and share them with my peers.
-* As a student I want to be able to have a guide so I can figure out how to use the machine and how I can get my game on the machine
-* As a creator I want to know that I can safely upload my games without them being stolen or re uploaded to other sources so that I can continue to have it as an individual title.
-* As a creator I want a server with the capability to update and deploy iterations of my game so that I can showcase it
+* [Background asset](#background-asset)
 
-#
+* [Dice asset](#dice-asset)
+
++ [Further Plan](#further-plan)
 
 
-## Procedures
+##Game Concept##
+
+Dicey Combat is a 2D arcade game for 2 players.
+
+*Introduction*
+
+In the game, players roll two die to move forward. Players conquer the opponents' region and eat the token. Each player has four lives. The game will end when one player loses all of the four lives.
+
+*Specification*
+
+- Handle 2 player input in one screen 
+
+- Developed using C++ on Splashkit 
+
+- On arcade machine, player controls one button for rolling dice, one button for moving game characters, one button for restart the game
+
+
+##User Stories##
+
++ As a student I want a machine with the ability to play my game creations so that I can showcase and share them with my peers.
+
++ As a student I want to be able to have a guide so I can figure out how to use the machine and how I can get my game on the machine
+
++ As a creator I want to know that I can safely upload my games without them being stolen or re uploaded to other sources so that I can continue to have it as an individual title.
+
++ As a creator I want a server with the capability to update and deploy iterations of my game so that I can showcase it
+
+
+##Procedures##
+
 Read more on :
+
 [Trello Board](https://trello.com/b/ZqLqB2VB/cool-game-team)
 
-* Writing a step-by-step user guide for git pull request 
+- Writing a step-by-step user guide for git pull request
 
-* Planning, design and implementation  
+- Planning, design and implementation
 
-* Draft plan of the design and code implementation 
+- Draft plan of the design and code implementation
 
-* Researching on image assets 
+- Researching on image assets
 
-* Sketching design  
+- Sketching design
 
-* Low fidelity representation of the game (using simple shapes on powerpoint) 
+- Low fidelity representation of the game (using simple shapes on powerpoint)
 
-* Upskill on Procreate (graphic editor application) 
+- Upskill on Procreate (graphic editor application)
 
-* Creating image assets 
+- Creating image assets
 
-  Background 
+- Background
 
-  Players 
+- Players
 
-  Roll and Pass buttons 
+ - Roll and Pass buttons
 
-  Dice 
+- Dice
 
-  Indicators 
+- Indicators
 
-* Research on code implementation 
+- Research on code implementation
 
-* Write a Pseudocode for the game play 
+- Write a Pseudocode for the game play
 
-#
 
-## Version History
-[Time-Lapse of Image Assets](https://youtu.be/5eA3UTkKqgs) 
+##Version History##
 
-[Draft prototype presentation of game design](https://docs.google.com/presentation/d/1NAFD1ZbJFT7JtbG1qoaIBiS6UfSF0FfsAPnxu15A-Gk/edit?usp=sharing)  
+[Time-Lapse of Image Assets](https://youtu.be/5eA3UTkKqgs)
 
-### Background asset
+[Draft prototype presentation of game design](https://docs.google.com/presentation/d/1NAFD1ZbJFT7JtbG1qoaIBiS6UfSF0FfsAPnxu15A-Gk/edit?usp=sharing)
+
+*Background asset*
 
 ![image](Images\Background1.png)
+
 Figure 1. Draft prototype presentation of game design
 
 ![image](Images\DiceyCombatBackground.png)
-Figure 2. Rought draft of the background on PhotoShop 
+
+Figure 2. Rought draft of the background on PhotoShop
 
 ![image](Images\Background2.png)
+
 Figure 3. Semi-finished background on Procreate
 
 ![image](Images\Background3.png)
-Figure 4. Final version of the background on Procreate 
 
-### Dice asset
+Figure 4. Final version of the background on Procreate
+
+*Dice asset*
 
 ![image](Images\Tokens.png)
-Figure 4. Final version of the indicators, dices, and players on Procreate  
+
+Figure 4. Final version of the indicators, dices, and players on Procreate
 
 ![image](Images\Dice1.png)
+
 Figure 5. Dice version 1
 
 ![image](Images\Dice2.png)
+
 Figure 6. Dice version 2
 
-#
 
-## Further Plan
+##Further Plan##
+
 In the next trimester, Dicey Combat will be refined and completed. It will be successfully presented on the arcade machine to be played.
-
-
-
