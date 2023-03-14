@@ -37,12 +37,22 @@ online learning management platforms.
 
 ![Figure 1: Architecturally Significant Use Cases](Research%20&%20Findings/images/Use%20Cases.png)
 
-1. As a student, I want Ontrack to have a function that can identifies me by my voice. <br> **Description:** The feature highlighted through this user story is having a "Enrol the voiceprint". This feature allows a student to register a voiceprint for later verification
+1. As a student, I want Ontrack to have a function that can identifies me by my voice. <br>
+   **Description:** The feature highlighted through this user story is having a "Enrol the
+   voiceprint". This feature allows a student to register a voiceprint for later verification
 
-2. As a student submitting my assignments, I want able to upload audio files to Ontrack.<br> **Description:** The feature highlighted through this user story is having a "Submit a voice file”. This feature allows a student to submit an assignment audio to Ontrack System.
-3. As a Deep Speaker Classifier, “I” can recognise student by their voice at a confidence level.<br> **Description:** The Deep Speaker Model is an actor involved within “Compare two audio samples” which will automatically confirm student’s identity by comparing their new voice submission to their voiceprint. This takes place within the Voice Verification Container.
+2. As a student submitting my assignments, I want able to upload audio files to Ontrack.<br>
+   **Description:** The feature highlighted through this user story is having a "Submit a voice
+   file”. This feature allows a student to submit an assignment audio to Ontrack System.
+3. As a Deep Speaker Classifier, “I” can recognise student by their voice at a confidence level.<br>
+   **Description:** The Deep Speaker Model is an actor involved within “Compare two audio samples”
+   which will automatically confirm student’s identity by comparing their new voice submission to
+   their voiceprint. This takes place within the Voice Verification Container.
 
-4. As a tutor/student, I want to receive the result of voice verification to be aware of the outcome of the verification.<br> **Description:** Voice Verification system will return/export the voice verification result to the Tutor and Student (a confidence score of how likely it is that the voice in the recording is the student in question) in a readable way.
+4. As a tutor/student, I want to receive the result of voice verification to be aware of the outcome
+   of the verification.<br> **Description:** Voice Verification system will return/export the voice
+   verification result to the Tutor and Student (a confidence score of how likely it is that the
+   voice in the recording is the student in question) in a readable way.
 
 ## Logical View
 

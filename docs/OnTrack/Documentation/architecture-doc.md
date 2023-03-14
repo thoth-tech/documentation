@@ -34,10 +34,12 @@ which explains its working.
 ## Introduction
 
 ### Purpose This document provides a high-level overview of the OnTrack system, it intends to
+
 communicate the project structure and architecture to varying levels of complexity appropriate for
 various stakeholders withing the organisation and varying levels of technical literacy.
 
 ### Scope This Architecture document uses a context diagram and container diagram to provide a
+
 high-level overview of the system, both are highly visual and aim to be easy to comprehend, the
 context diagram aims to be non-technical, and the container diagram provides further information to
 understand system structures.
@@ -45,11 +47,13 @@ understand system structures.
 ---
 
 ## Context diagram:
+
 ![Context_Diagram](https://user-images.githubusercontent.com/110685225/191164865-672927d8-7f16-47f4-865f-4a413bd249ab.png)
 
 ---
 
 ## Container Diagram:
+
 ![OnTrack Container Diagram](https://user-images.githubusercontent.com/110685225/191168107-472c363d-2007-4409-81d5-6bd5800639c4.png)
 
 ## Architectural Goals and Constraints
@@ -68,5 +72,6 @@ understand system structures.
 - System generates progress reports that are sent through email system, users can also track
   progress relating to each unit and their set learning outcome goals.
 
-## Use-Case View  
+## Use-Case View
+
 ![Use case view](https://user-images.githubusercontent.com/110685225/192712777-1d306d7d-380a-48a6-be08-8dbbc14ab492.jpeg)
