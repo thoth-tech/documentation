@@ -1,55 +1,52 @@
 #Dicey Combat#
 
-***Table of contents***
+**_Table of contents_**
 
 - [Dicey Combat](#dicey-combat)
 
-+ [Game Concept](#game-concept)
+* [Game Concept](#game-concept)
 
-* [Introduction](#introduction)
+- [Introduction](#introduction)
 
-* [Specification](#specification)
+- [Specification](#specification)
 
-+ [User Stories](#user-stories)
+* [User Stories](#user-stories)
 
-+ [Procedures](#procedures)
+* [Procedures](#procedures)
 
-+ [Version History](#version-history)
+* [Version History](#version-history)
 
-* [Background asset](#background-asset)
+- [Background asset](#background-asset)
 
-* [Dice asset](#dice-asset)
+- [Dice asset](#dice-asset)
 
-+ [Further Plan](#further-plan)
-
+* [Further Plan](#further-plan)
 
 ##Game Concept##
 
 Dicey Combat is a 2D arcade game for 2 players.
 
-*Introduction*
+_Introduction_
 
 In the game, players roll two die to move forward. Players conquer the opponents' region and eat the token. Each player has four lives. The game will end when one player loses all of the four lives.
 
-*Specification*
+_Specification_
 
-- Handle 2 player input in one screen 
+- Handle 2 player input in one screen
 
-- Developed using C++ on Splashkit 
+- Developed using C++ on Splashkit
 
 - On arcade machine, player controls one button for rolling dice, one button for moving game characters, one button for restart the game
 
-
 ##User Stories##
 
-+ As a student I want a machine with the ability to play my game creations so that I can showcase and share them with my peers.
+- As a student I want a machine with the ability to play my game creations so that I can showcase and share them with my peers.
 
-+ As a student I want to be able to have a guide so I can figure out how to use the machine and how I can get my game on the machine
+- As a student I want to be able to have a guide so I can figure out how to use the machine and how I can get my game on the machine
 
-+ As a creator I want to know that I can safely upload my games without them being stolen or re uploaded to other sources so that I can continue to have it as an individual title.
+- As a creator I want to know that I can safely upload my games without them being stolen or re uploaded to other sources so that I can continue to have it as an individual title.
 
-+ As a creator I want a server with the capability to update and deploy iterations of my game so that I can showcase it
-
+- As a creator I want a server with the capability to update and deploy iterations of my game so that I can showcase it
 
 ##Procedures##
 
@@ -77,7 +74,7 @@ Read more on :
 
 - Players
 
- - Roll and Pass buttons
+- Roll and Pass buttons
 
 - Dice
 
@@ -87,14 +84,13 @@ Read more on :
 
 - Write a Pseudocode for the game play
 
-
 ##Version History##
 
 [Time-Lapse of Image Assets](https://youtu.be/5eA3UTkKqgs)
 
 [Draft prototype presentation of game design](https://docs.google.com/presentation/d/1NAFD1ZbJFT7JtbG1qoaIBiS6UfSF0FfsAPnxu15A-Gk/edit?usp=sharing)
 
-*Background asset*
+_Background asset_
 
 ![image](Images\Background1.png)
 
@@ -112,7 +108,7 @@ Figure 3. Semi-finished background on Procreate
 
 Figure 4. Final version of the background on Procreate
 
-*Dice asset*
+_Dice asset_
 
 ![image](Images\Tokens.png)
 
@@ -125,7 +121,6 @@ Figure 5. Dice version 1
 ![image](Images\Dice2.png)
 
 Figure 6. Dice version 2
-
 
 ##Further Plan##
 
