@@ -1,5 +1,5 @@
 #include "splashkit.h"
-#include "all the headers" 
+#include "all the headers"
 
 using namespace std;
 
@@ -26,7 +26,7 @@ int main()
         }
         else
         {
-            draw game 
+            draw game
             insert game input handle
         }
     }
@@ -35,15 +35,15 @@ int main()
 }
 
 //headers required to load the game, eg image assets...etc
-//all headers must be in txt file 
+//all headers must be in txt file
 
 //player header
-#define the game player 
+#define the game player
 #include "splashkit.h"
 
 using namespace std;
 
-#define any public variables 
+#define any public variables
 
 player
 {
@@ -51,9 +51,9 @@ player
     player 2
 }
 
-struct player data 
+struct player data
 {
-    list all the player data, if sprite is used then 
+    list all the player data, if sprite is used then
 }
 
 void handle_input(inserting player data file)
@@ -63,7 +63,7 @@ void draw_player(insert const player data & draw player)
 #endif
 
 
-// player cpp 
+// player cpp
 #include "splashkit.h"
 #include "player.h"
 #include "game.h"
@@ -85,14 +85,14 @@ defining new player()
 
 void input handle(plater data & player)
 {
-    if analogstick is moved then 
+    if analogstick is moved then
     {
         cursor moves
     }
 
-    if A button is pressed 
+    if A button is pressed
     {
-        the option is selected 
+        the option is selected
     }
 }
 
@@ -102,23 +102,23 @@ void draw player
 }
 
 
-//dice roll header 
-#define the game player 
+//dice roll header
+#define the game player
 #include "splashkit.h"
 
 using namespace std;
 
-#define any public variables 
+#define any public variables
 
 dice
 {
     dice 1
     dice 2
-    dice 3 
+    dice 3
     dice 4
 }
 
-struct dice data 
+struct dice data
 {
     defining sprites
 }
@@ -128,16 +128,16 @@ void handle_input(inserting input handling file)
 void draw_dice(insert const dice data & draw dice)
 
 
-//dice roll cpp 
+//dice roll cpp
 #include "splashkit.h"
 #include "dice.h"
 #include "game.h"
 
 using namespace std;
 
-#define any public variables 
+#define any public variables
 
-drawing dice bitmap 
+drawing dice bitmap
 {
     list all the dices;
 }
@@ -145,7 +145,7 @@ drawing dice bitmap
 void draw_dice(const dice data & dice to draw)
 {
     draw sprite(dice to draw main sprite)
-} 
+}
 
 void dice timer(dice data)
 {
@@ -155,12 +155,12 @@ void dice timer(dice data)
 
 void update dice(dice data & dice to update)
 {
-    applying the movement and reset of dice bitmap; 
+    applying the movement and reset of dice bitmap;
     set sprites location to the updated coordinates;
 }
 
-//game header 
-#define dicey game 
+//game header
+#define dicey game
 
 #include "splashkit.h"
 #include "dice.h"
@@ -184,16 +184,14 @@ void update game(game data & game);
 void input handle(game data & game);
 
 
-
-//game cpp 
-
+//game cpp
 #include "splashkit.h"
 #include "game.h"
 #include "player.h"
 
 using namespace std;
 
-void add dicey game to game 
+void add dicey game to game
 {
     start new game, clear existing dicey game;
     adding dicey to game dicey vector;
@@ -210,8 +208,8 @@ void draw all elements on screen(constant game data & game)
     draw bitmap;
     draw player 1, player 2;
     draw dice roll;
-    draw cursor; 
-    draw indicator; 
+    draw cursor;
+    draw indicator;
     refresh screen;
 }
 
@@ -219,21 +217,20 @@ update all elements in game()
 {
     update players location;
     update indicators;
-    update dice roll; 
+    update dice roll;
 }
 
 void input handle()
 {
-    button 'A' = deciding/selecting button; 
+    button 'A' = deciding/selecting button;
     analog = moving the cursor around
 }
-
 
 //roll and pass header
 #include "splashkit.h"
 using namespace std;
 
-#define any public variables 
+#define any public variables
 
 button
 {
@@ -241,7 +238,7 @@ button
     pass;
 }
 
-struct button data 
+struct button data
 {
     defining sprites
 }
@@ -250,7 +247,7 @@ void handle_input(inserting input handling file)
 
 void draw_button(insert const button data & draw button)
 
-//roll and pass cpp 
+//roll and pass cpp
 #include "splashkit.h"
 #include "dice.h"
 #include "roll.h"
@@ -276,4 +273,3 @@ void input handle(plater data & player)
         update player;
     }
 }
-
