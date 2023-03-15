@@ -8,7 +8,8 @@
 
 **Objectives**
 1. Analyse website with Google lighthouse to identify areas of improvement
-2. results for website scan (report)
-3. suggested ways to improve
-4. implement improvements
-5. what is outstanding
+2. Identify other front end testing tools that could be used in addition to Lighthouse
+2. Compile Report outlining findings and action points derived from this
+3. Timeline for implementing actions
+4. Implement Improvements
+5. What is Outstanding - Handover Tasks in GitHub/Trello
