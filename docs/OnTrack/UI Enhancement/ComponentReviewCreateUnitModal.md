@@ -1,33 +1,34 @@
 
-**Student Name: Gaganjeet Singh**
+# Component Review
 
-**Student ID: 220032936**
+## Student Name: Gaganjeet Singh
 
-**Term:  T1 2023 – SIT 378**
+## Student ID: 220032936
 
-**Ontrack Component review check**
+## Term:  T1 2023 – SIT 378
+
+## Ontrack Component review check
 
 First select a component to review from the list below:
 
 [https://deakin365.sharepoint.com/:x:/r/sites/ThothTech2/Shared%20Documents/OnTrack%20-%20UI%20Enhancement/T3_2022/Management%20%5BT3_2022%5D/selected_task(revised).xlsx?d=wac02013da5224c958ac60fd96fac7b20&csf=1&web=1&e=UfCmZ5](https://deakin365.sharepoint.com/:x:/r/sites/ThothTech2/Shared%20Documents/OnTrack%20-%20UI%20Enhancement/T3_2022/Management%20%5BT3_2022%5D/selected_task(revised).xlsx?d=wac02013da5224c958ac60fd96fac7b20&csf=1&web=1&e=UfCmZ5)
 
-**Component Name**
+## Component Name
 
-** **./src/app/admin/modals/create-unit-modal/create-unit-modal.coffee
+****./src/app/admin/modals/create-unit-modal/create-unit-modal.coffee
 
-**File Name: **create-unit-modal.coffee
+**File Name:**create-unit-modal.coffee
 
-**Component purpose**
+## Component purpose
 
-**It is used to create a new unit**
+## It is used to create a new unit
 
-**Component outcomes/interactions**
+## Component outcomes/interactions
 
 It creates a new unit.
+![image](Images/CreateUnitModal.png)
 
 **Component migration Check list** – What is needs to be checked for this component to work once migrated?
-
-
 
 1. The modal for creating the unit is working.
 
