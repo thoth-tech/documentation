@@ -17,47 +17,49 @@ _Backend (.NET minimal web api) (weeks 4-7)_
 - Splitting base images makes build and run more efficient
 - Initial base image uses .NET sdk -> this builds binaries
 - In Dockerfile
-
-  - FROM [mcr.microsoft.com/dotnet/sdk:6-0-focal](http://mcr.microsoft.com/dotnet/sdk:6-0-focal) as
-    BUILD
-  - Set working directory (WORKDIR /source)
-  - Copy everything from current working directory into that new /source (COPY . .)
-  - Restore project dependencies (RUN dotnet restore "\*.csproj" - -disable-parallel
-  - Publish artefacts to output directory (RUN dotnet publish "\*.csproj" -c release -o /app -
-    -no-restore
+  - `FROM [mcr.microsoft.com/dotnet/sdk:6-0-focal](http://mcr.microsoft.com/dotnet/sdk:6-0-focal) as BUILD`
+  - Set working directory (`WORKDIR /source`)
+  - Copy everything from current working directory into that new /source (`COPY . .`)
+  - Restore project dependencies (`RUN dotnet restore "\*.csproj" - -disable-parallel`)
+  - Publish artefacts to output directory
+    (`RUN dotnet publish "\*.csproj" -c release -o /app - -no-restore`)
 
 - Second base image uses .NET runtime
 
 - In Dockerfile
-  - FROM [mcr.microsoft.com/dotnet/aspnet:6-0-focal](http://mcr.microsoft.com/dotnet/sdk:6-0-focal)
-  - Create new working directory (WORKDIR /app)
-  - Copy output from build into current working directory (COPY - -from=build /app ./
-  - Expose port (EXPOSE 5000)
-  - Define entrypoint (ENTRYPOINT ["dotnet", "ProjName.dll"]
+  - `FROM [mcr.microsoft.com/dotnet/aspnet:6-0-focal](http://mcr.microsoft.com/dotnet/sdk:6-0-focal)`
+  - Create new working directory (`WORKDIR /app`)
+  - Copy output from build into current working directory (`COPY - -from=build /app ./`)
+  - Expose port (`EXPOSE 5000`)
+  - Define entrypoint (`ENTRYPOINT ["dotnet", "ProjName.dll"`]
 
 **To build container:**
 
+```
 docker build - -rm -t productive-dev/proj-name:latest .
+```
 
 ^^ must be run inside root directory of project
 
+```
 docker image ls -> lists built images (use to check if built)
+```
 
 **To run container:**
 
+```
 docker run - -rm -p 5000:5000 -p 5001:5001 -e ASPNETCORE_HTTP_PORT=<https://+:5001> -e
 ASPNETCORE_URLS=<https://+:5000> productive-dev/proj-name
+```
 
 **To stop container:**
 
-docker container stop <first 3 digits from container id>
+`docker container stop <first 3 digits from container id>`
 
 **Add a health check for container:**
 
-Before _var app = builder.Build(_) add builder.Services.AddHealthChecks(), then after var app line,
-map to end point:
-
-app.MapHealthChecks("/health")
+Before `var app = builder.Build()` add `builder.Services.AddHealthChecks()`, then after var app
+line, map to end point: `app.MapHealthChecks("/health")`
 
 Then test end point in browser as per normal
 
