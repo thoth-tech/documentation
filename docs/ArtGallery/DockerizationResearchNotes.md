@@ -45,7 +45,7 @@ project
 
 **To run container:**
 
-```text
+```plaintext
 docker run - -rm -p 5000:5000 -p 5001:5001 -e ASPNETCORE_HTTP_PORT=<https://+:5001> -e
 ASPNETCORE_URLS=<https://+:5000> productive-dev/proj-name
 ```
