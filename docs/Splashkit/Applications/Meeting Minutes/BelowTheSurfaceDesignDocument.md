@@ -275,7 +275,7 @@ mission.
 
 ### Description of Game Mechanics using Rules
 
-Must move pipes (of the same color as the player’s uniform) and turn valve wheels to redirect or
+Must move pipes (of the same colour as the player’s uniform) and turn valve wheels to redirect or
 control waterflow/path blocking obstacles Enemies can be defeated by being jumped on or hit with a
 wrench, ladders can be used to move up and down the play area. If all lives(hearts) are lost and no
 checkpoint is reached return to the first level. Otherwise restart at checkpoint with 3 hearts.
