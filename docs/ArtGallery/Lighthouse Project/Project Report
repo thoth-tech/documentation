@@ -51,7 +51,7 @@ Fork repo in GUI (only needs to be done once per repo at the start) -> then clon
 git clone <[http:// etc... the link from the repo](http://%20etc...%20the%20link%20from%20the%20repo)>
 
 
-**Creating a new branch:**
+**Creating a new branch (by Chloee Hulme):**
 
 git checkout -b <topic>/<branch description>
 
