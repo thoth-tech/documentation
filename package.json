@@ -9,7 +9,7 @@
     "lint": "npm run format:check && npm run prose:check"
   },
   "devDependencies": {
-    "prettier": "^2.7.1"
+    "prettier": "^2.8.5"
   },
   "engines": {
     "node": ">=16.14.2",
