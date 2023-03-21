@@ -44,6 +44,33 @@ frontend:
 
 https://github.com/thoth-tech/art-gallery-frontend
 
+GitHub (first steps created by Chloee Hulme)
+
+Fork repo in GUI (only needs to be done once per repo at the start) -> then clone forked repo into a local directory:
+
+git clone <[http:// etc... the link from the repo](http://%20etc...%20the%20link%20from%20the%20repo)>
+
+
+**Creating a new branch:**
+
+git checkout -b <topic>/<branch description>
+
+*Using 'checkout' will automatically switch you onto this branch*
+
+**After making your changes:**
+
+git add .
+
+git commit ------>> press 'i' key to edit then: <topic>:<message>, hit esc, then type :wq and hit enter
+
+git push -u origin <your new branch name>
+
+
+**Creating a draft pull request:**
+
+Go into GUI and create a draft pull request (pull request will be between Thoth Techs file vs your repo's file, ie. Thoth tech/Art Gallery/README.md vs My Forked Repo/Art Gallery/README.md), add in a relevant comment, then mark it as ready for review.
+
+
 **Trello**
 
 Where you will find Trello board containing small and large project tasks that involved with the Art Gallery - Lighthouse Project / Front end enhancement specifically, team members can modify and action tasks collaboratively in this area to help ensure the team meets the project objectives..
@@ -55,6 +82,7 @@ https://trello.com/b/6sj1F0qp/thoth-tech-gallery-google-lighthouse-project
 Meetings, Logbook (log all the work you do including meetings - see under files tab), connect with team members for support, feedback, offer assistance, etc
 
 Objectives for Semester 1 2023
+
 
 **Goals/Objectives**
 
