@@ -16,22 +16,23 @@ _Backend (.NET minimal web api) (weeks 4-7)_
 - use multi-stage build (build stage and serve stage in Dockerfile)
 - Splitting base images makes build and run more efficient
 - Initial base image uses .NET sdk -> this builds binaries
-- In Dockerfile
+- In Dockerfile:
+
   - `FROM [mcr.microsoft.com/dotnet/sdk:6-0-focal](http://mcr.microsoft.com/dotnet/sdk:6-0-focal) as BUILD`
   - Set working directory (`WORKDIR /source`)
   - Copy everything from current working directory into that new /source (`COPY . .`)
-  - Restore project dependencies (`RUN dotnet restore "\*.csproj" - -disable-parallel`)
+  - Restore project dependencies (`RUN dotnet restore "\*.csproj" --disable-parallel`)
   - Publish artefacts to output directory
-    (`RUN dotnet publish "\*.csproj" -c release -o /app - -no-restore`)
+    (`RUN dotnet publish "\*.csproj" -c release -o /app --no-restore`)
 
 - Second base image uses .NET runtime
 
-- In Dockerfile
+- In Dockerfile:
   - `FROM [mcr.microsoft.com/dotnet/aspnet:6-0-focal](http://mcr.microsoft.com/dotnet/sdk:6-0-focal)`
   - Create new working directory (`WORKDIR /app`)
-  - Copy output from build into current working directory (`COPY - -from=build /app ./`)
+  - Copy output from build into current working directory (`COPY --from=build /app ./`)
   - Expose port (`EXPOSE 5000`)
-  - Define entrypoint (`ENTRYPOINT ["dotnet", "ProjName.dll"`]
+  - Define entrypoint (`ENTRYPOINT ["dotnet", "ProjName.dll"]`)
 
 **To build container:**
 
