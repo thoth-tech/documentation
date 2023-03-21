@@ -10,7 +10,7 @@ The aim is to introduce Numbas tests into the Ontrack platform,
 to ultimately save these results in the Database.
 
 The first part of the project will be to enable the creation and use of a Numbas test,
-without storing the data, then time dependent we will look at enhancing this to saving the data 
+without storing the data, then time dependent we will look at enhancing this to saving the data
 to the backend and a means to access that information.
 
 ## Key Outcomes
