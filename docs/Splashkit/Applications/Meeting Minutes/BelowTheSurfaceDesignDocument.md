@@ -70,15 +70,15 @@
 
 ## Name of Game
 
-Below the Surface_
+Below the Surface\_
 
 ## Genre
 
-Collaborative Puzzle Platformer_
+Collaborative Puzzle Platformer\_
 
 ## Art Style
 
-Pixel Art_
+Pixel Art\_
 
 ## How the Game Works
 
@@ -130,10 +130,10 @@ however many lives collected from the checkpoint,  if YOU LOSE: start again/pla
 **NO: Roll credits  IF WON**: proceed to explore the bunker.  **Level 6**: blob monsters are
 introduced  (a short convo between players):  _"What is that?!"_
 
-_"Looks like matters are worse than we thought, there is a barrel of toxic waste knocked over and
+\_"Looks like matters are worse than we thought, there is a barrel of toxic waste knocked over and
 contaminating the water!”
 
-_“No wonder those rats were so big! But I was talking about that weird blob thing!”
+\_“No wonder those rats were so big! But I was talking about that weird blob thing!”
 
 _"We'd better be careful and redirect those pipes quickly! let's go!"  / “I’d better redirect those
 pipes carefully.”_
