@@ -1,6 +1,8 @@
-**Daniel Maddern**
+# Project guideline document
 
-**Project guideline – Numbas Integration to Ontrack.**
+Daniel Maddern
+
+Project guideline – Numbas Integration to Ontrack
 
 Aim
 
