@@ -212,19 +212,19 @@ mission.
 
 ## Sewer Reference Art
 
-![image](./images/SewerReferenceArt.png)
+![image](images/SewerReferenceArt.png)
 
 ## Water Reference Art
 
-![Image](./images/WaterReferenceArt.png)
+![Image](images/WaterReferenceArt.png)
 
 ## Pipes Early Sketch
 
-![images](./images/EarlyPipes.png)
+![images](images/EarlyPipes.png)
 
 ## Created Assets
 
-![image](./images/CreatedAssets.png)
+![image](images/CreatedAssets.png)
 
 ## Appendices
 
@@ -300,7 +300,7 @@ checkpoint is reached return to the first level. Otherwise restart at checkpoint
 
 ## Key Terminologies
 
-**Operational Rules**: Those that directly guide behavior concerning being able to complete a level
+**Operational Rules**: Those that directly guide behaviour concerning being able to complete a level
 of the game.
 
 **Constitutive Rules**: Those that have a creative function, such as moving pipes to clear a
@@ -314,11 +314,11 @@ can operate purple, purple player can operate all pipes as they are a solo playe
 
 **Intangible Resources**: Something with no physical properties such as the health bar.
 
-**Classical Conditioning**: Relates to a behavior in regard to a biological response. Animals and
+**Classical Conditioning**: Relates to a behaviour in regard to a biological response. Animals and
 humans can be easily controlled under classical conditioning principles. This is not often a
 voluntary process, it’s about the provision of stimulus and the expected response.
 
-**Operant Conditioning**: Relates to the observation of behavior responses. Related to classical
+**Operant Conditioning**: Relates to the observation of behaviour responses. Related to classical
 conditioning, we observe the player within the surrounding environment for maximum gain or
 punishment.
 

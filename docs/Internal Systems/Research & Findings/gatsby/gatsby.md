@@ -39,7 +39,7 @@ new Gatsby website either in the Terminal on your computer, or in the integrated
 VsCode, if you are using that. To start adding Auth0 to your Gatsby application, you need to install
 Auth0s SDK for React single page applications into your application.
 
-we can use Auth0, which is an authentication and authorization platform, to add authentication to
+we can use Auth0, which is an authentication and authorisation platform, to add authentication to
 your GatsbyJS app, as well as to your serverless functions on Netlify. Auth0 provides a secure
 access infrastructure for authenticating users to your app. wehreas you can set up GatsbyJS
 authentication with Auth0 by
