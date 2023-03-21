@@ -1,17 +1,19 @@
-#Dockerization: Preliminary Research# ##Chloe Hulme##
+# Dockerization: Preliminary Research
 
-_Preamble_
+## Chloe Hulme
+
+### Preamble
 
 The goal of this research is to better understand how to fully dockerize a .NET minimal web api,
 with a Vue based front end. The research will include an in-depth look into how we can begin to
 complete this, as well as projected timelines and useful tutorials.
 
-_General_
+### General
 
 - create dockerfile in root of project (Dockerfile -> no ext)
 - Whenever a change is made to code, container needs to be rebuilt
 
-_Backend (.NET minimal web api) (weeks 4-7)_
+### Backend (.NET minimal web api) (weeks 4-7)
 
 - use multi-stage build (build stage and serve stage in Dockerfile)
 - Splitting base images makes build and run more efficient
@@ -36,19 +38,14 @@ _Backend (.NET minimal web api) (weeks 4-7)_
 
 **To build container:**
 
-```
-docker build - -rm -t productive-dev/proj-name:latest .
-```
+`docker build - -rm -t productive-dev/proj-name:latest .` ^^ must be run inside root directory of
+project
 
-^^ must be run inside root directory of project
-
-```
-docker image ls -> lists built images (use to check if built)
-```
+`docker image ls -> lists built images (use to check if built)`
 
 **To run container:**
 
-```
+```text
 docker run - -rm -p 5000:5000 -p 5001:5001 -e ASPNETCORE_HTTP_PORT=<https://+:5001> -e
 ASPNETCORE_URLS=<https://+:5000> productive-dev/proj-name
 ```
@@ -67,11 +64,11 @@ Then test end point in browser as per normal
 **Docker-compose.yml file will be required to run database and backend at the same time**
 <https://www.youtube.com/watch?v=9ZEbJT36-Uk>
 
-_Frontend (Vue) (weeks 7-10)_
+### Frontend (Vue) (weeks 7-10)
 
-_Tbc after backend build is successful_
+Tbc after backend build is successful
 
-_Documentation (weeks 10+)_
+### Documentation (weeks 10+)
 
 Documentation detailing how users can install docker and run containers will be packaged inside the
 Art Gallery repo. This documentation will specify build and run commands as well as how each
