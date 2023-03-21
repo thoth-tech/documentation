@@ -1,6 +1,6 @@
-#Gatsby User Manual#
+# Gatsby User Manual
 
-##Introduction##
+## Introduction
 
 Gatsby is a React-based open-source framework for creating websites and apps. It's great whether
 you're building a portfolio site or blog, or a high-traffic e-commerce store or company homepage. is
@@ -12,7 +12,7 @@ The diagram below gives a high-level view of how all the pieces of this process 
 
 ![gatsby1](images/gatsby1.png)
 
-_Detailed Description_
+Detailed Description
 
 First, you write the code for your Gatsby site from your computer. When you're ready to make your
 changes live on the internet, you go through the following steps:
@@ -26,7 +26,7 @@ builds your site from your code on GitHub.
 Gatsby Cloud hosts the finished version of your site at a unique URL, which users can use to access
 the latest version of your site.
 
-**In other words**
+## In other words
 
 The Gatsby.js web framework is a static website builder framework built on top of React.js, unlike
 the server-rendered ones such as Next.js. This will let you view your apps Gatsby.js web framework
@@ -89,7 +89,7 @@ help with localizing your Gatsby.
   data. Yes, Gatsby is an open-source framework which integrates features of React, GraphQL, and
   Webpack in one tool to create static websites and applications.
 
-_You can use the following sites which can also guide you while setting up your Gatsby_
+You can use the following sites which can also guide you while setting up your Gatsby\_
 
 - <https://auth0.com/blog/securing-gatsby-with-auth0/>
 

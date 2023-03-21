@@ -85,7 +85,7 @@ Platforms Cloud Hosting Worth It?Containers, Instant Messaging Services, Databas
 available on Google Cloud Platform, but the costs can get out of hand fast if you are not careful.
 Google Cloud Web Hosting has a pay-as-you-use structure, so costs vary depending on what you need,
 and the Pricing Calculator (opens in a new tab) helps users understand what their preferred options
-are going to cost. At $24.2725/month, it is pretty much in the same price range as many managed
+are going to cost. At \$24.2725/month, it is pretty much in the same price range as many managed
 WordPress web hosts, but there is one key difference: managed hosts typically offer a hands-off
 experience, while Google Cloud puts you in control of your own cloud accounts.
 
