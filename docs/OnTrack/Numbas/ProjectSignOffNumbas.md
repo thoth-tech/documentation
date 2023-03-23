@@ -8,11 +8,10 @@
 
 ## **Scope**
 
-The purpose of this project is to integrate Numbas testing into Ontrack. With the
-aim for a test to be presented to the student on submission of a task, prior to submitting
-reflections or other required documents. The aim is to be able to let the Unit Chair import, setup
-and assign tests to the tasks. Also for students to be able to complete tests as part of the
-submission process.
+The purpose of this project is to integrate Numbas testing into Ontrack. With the aim for a test to
+be presented to the student on submission of a task, prior to submitting reflections or other
+required documents. The aim is to be able to let the Unit Chair import, setup and assign tests to
+the tasks. Also for students to be able to complete tests as part of the submission process.
 
 ## **Outcomes**
 
@@ -31,6 +30,7 @@ This project will be deliverying:
 ## **Delivery**
 
 ### Features
+
 - Deliverables
   - Design document - sketches of new UI, model changes, API changes
   - Web and API changes
@@ -39,7 +39,8 @@ This project will be deliverying:
   - Unit chairs can validate that the test works
   - Unit chairs can set the required pass level for the test
   - Unit chairs can set the number of attempts before test needs to be reset by a tutor
-  - Unit chairs can set the delay between attempts to be a set number of minutes, or a built-in increasing delay
+  - Unit chairs can set the delay between attempts to be a set number of minutes, or a built-in
+    increasing delay
   - Students are required to pass the test before they can submit work for feedback
   - Students can view their test attempts (can unit chairs disable this?)
   - Tutors can view student test attempts
@@ -54,8 +55,8 @@ There will need to be a configuration section within the Unit chair task setup p
 
 We will provide different options for the test setup such as:
 
-1: Restricted / Unlimited test attempts 
-2: Delays in test attempts - minutes, or built-in increamenting delay
+1: Restricted / Unlimited test attempts 2: Delays in test attempts - minutes, or built-in
+increamenting delay
 
 We will also need to either enable or disable a test.
 
