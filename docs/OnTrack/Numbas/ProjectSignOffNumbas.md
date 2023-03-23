@@ -1,10 +1,10 @@
-# Project Name:  Numbas Integration
+# Project Name: Numbas Integration
 
-## Delivery Lead:  Daniel Maddern
+## Delivery Lead: Daniel Maddern
 
-## Student Name:  Daniel Maddern
+## Student Name: Daniel Maddern
 
-## Clients:  Julien, Andrew, Jake
+## Clients: Julien, Andrew, Jake
 
 ## **Scope**
 
@@ -42,12 +42,13 @@ Incremental delays in test attempts 3: Unlimited retrys on a test attempt.
 We will also need to either enable or disable a test.
 
 **Student View**
-![StudentView](https://github.com/thoth-tech/documentation/tree/docs/NumbasdocUpdates/docs/OnTrack/Numbas/StudentView.jpg "Student View Design")
+![StudentView](/StudentView.jpg "Student View Design")
 
 **Unit Chair View**
-![UnitChair](https://github.com/thoth-tech/documentation/tree/docs/NumbasdocUpdates/docs/OnTrack/Numbas/UnitChair.jpg "Unit Chair Design")
+![UnitChair](/UnitChair.jpg "Unit Chair Design")
 
-**Data Flow Design** ![DataFlow](https://github.com/thoth-tech/documentation/tree/docs/NumbasdocUpdates/docs/OnTrack/Numbas/DataFlow.jpg "Data Flow Design")
+**Data Flow Design**
+![DataFlow](/DataFlow.jpg "Data Flow Design")
 
 In terms of the changes we will require, we will need a new table in the DB to store the tests.
 
