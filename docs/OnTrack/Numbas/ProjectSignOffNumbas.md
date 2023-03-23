@@ -8,7 +8,7 @@
 
 ## **Scope**
 
-The purpose of this project is to look at how we can integrate Numbas testing into Ontrack. With the
+The purpose of this project is to integrate Numbas testing into Ontrack. With the
 aim for a test to be presented to the student on submission of a task, prior to submitting
 reflections or other required documents. The aim is to be able to let the Unit Chair import, setup
 and assign tests to the tasks. Also for students to be able to complete tests as part of the
@@ -16,17 +16,17 @@ submission process.
 
 ## **Outcomes**
 
-This project will be deliverying a project scope for the clients to sign off on.
+This project will be deliverying:
 
-A feasiblity study of the ways this can be implemetned.
-
-Rough hand drawn design documents for how this intergration will work.
-
-A data flow diagram of how different data will be accesssed and encapsualted.
-
-Backend coding changes to accomodate and store the tests.
-
-Front end code to support the changes from the Unit chair and student view.
+- A project scope for the clients to sign off on.
+- A feasiblity study of the ways this can be implemented.
+- A rough design document including:
+  - Rough hand drawn design documents for how this intergration will work.
+  - A data flow diagram of how different data will be accesssed and encapsualted.
+  - Diagrams showing model changes to the core model
+  - Backend coding changes to accomodate and store the tests.
+  - Front end code to support the changes from the Unit chair and student view.
+- Unit tests to ensure features work as expected
 
 ## **Delivery**
 
