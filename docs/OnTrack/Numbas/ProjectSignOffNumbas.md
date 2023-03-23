@@ -30,14 +30,32 @@ Front end code to support the changes from the Unit chair and student view.
 
 ## **Delivery**
 
+### Features
+- Deliverables
+  - Design document - sketches of new UI, model changes, API changes
+  - Web and API changes
+- Features
+  - Unit chairs can upload Numbas tests to a task definition
+  - Unit chairs can validate that the test works
+  - Unit chairs can set the required pass level for the test
+  - Unit chairs can set the number of attempts before test needs to be reset by a tutor
+  - Unit chairs can set the delay between attempts to be a set number of minutes, or a built-in increasing delay
+  - Students are required to pass the test before they can submit work for feedback
+  - Students can view their test attempts (can unit chairs disable this?)
+  - Tutors can view student test attempts
+  - Tutors can reset student tests to enable additional attempts - or require resit on resubmission
+  - Test results are included in the portfolio when generated
+
 There will need to be a means to upload the test files that are created locally via Numbas. An
 Addtional window after "requesting feedback" on a task that will present the test, this will then
 either take you to the next stage if you pass or go back to the task screen if you do not pass.
 
 There will need to be a configuration section within the Unit chair task setup page.
 
-We will provide different options for the test setup such as: 1: Restricted test attempts 2:
-Incremental delays in test attempts 3: Unlimited retrys on a test attempt.
+We will provide different options for the test setup such as:
+
+1: Restricted / Unlimited test attempts 
+2: Delays in test attempts - minutes, or built-in increamenting delay
 
 We will also need to either enable or disable a test.
 
