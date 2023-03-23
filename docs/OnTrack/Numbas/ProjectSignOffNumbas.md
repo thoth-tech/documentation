@@ -1,10 +1,10 @@
-# Project Name: Numbas Integration
+# Project Name:  Numbas Integration
 
 ## Delivery Lead:  Daniel Maddern
 
-## Student Name:Daniel Maddern
+## Student Name:  Daniel Maddern
 
-## Clients:Julien, Andrew, Jake
+## Clients:  Julien, Andrew, Jake
 
 ## **Scope**
 
