@@ -47,7 +47,8 @@ We will also need to either enable or disable a test.
 **Unit Chair View**
 ![UnitChair](/UnitChair.jpg "Unit Chair Design")
 
-**Data Flow Design** ![DataFlow](/DataFlow.jpg "Data Flow Design")
+**Data Flow Design**
+![DataFlow](/DataFlow.jpg "Data Flow Design")
 
 In terms of the changes we will require, we will need a new table in the DB to store the tests.
 
