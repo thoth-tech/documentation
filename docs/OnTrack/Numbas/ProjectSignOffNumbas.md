@@ -42,12 +42,12 @@ Incremental delays in test attempts 3: Unlimited retrys on a test attempt.
 We will also need to either enable or disable a test.
 
 **Student View**
-![StudentView](/documentation\docs\OnTrack\Numbas\StudentView.jpg "Student View Design")
+![StudentView](https://github.com/thoth-tech/documentation/tree/docs/NumbasdocUpdates/docs/OnTrack/Numbas/StudentView.jpg "Student View Design")
 
 **Unit Chair View**
-![UnitChair](/documentation\docs\OnTrack\Numbas\UnitChair.jpg "Unit Chair Design")
+![UnitChair](https://github.com/thoth-tech/documentation/tree/docs/NumbasdocUpdates/docs/OnTrack/Numbas/UnitChair.jpg "Unit Chair Design")
 
-**Data Flow Design** ![DataFlow](/documentation\docs\OnTrack\Numbas\DataFlow.jpg "Data Flow Design")
+**Data Flow Design** ![DataFlow](https://github.com/thoth-tech/documentation/tree/docs/NumbasdocUpdates/docs/OnTrack/Numbas/DataFlow.jpg "Data Flow Design")
 
 In terms of the changes we will require, we will need a new table in the DB to store the tests.
 
