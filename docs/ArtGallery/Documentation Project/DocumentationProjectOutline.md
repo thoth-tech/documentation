@@ -4,14 +4,22 @@
 
 ### Aim
 
-The aim of this project is to produce a knowledge base that can be utilized by members of the Art Gallery Project for the purposes of creating guides and "how-tos", and troubleshooting between the members of the project. It will also aims to be of use to the client, providing greater insight into the project's inner-workings.
+The aim of this project is to produce a knowledge base that can be utilized by members of the Art
+Gallery Project for the purposes of creating guides and "how-tos", and troubleshooting between the
+members of the project. It will also aims to be of use to the client, providing greater insight into
+the project's inner-workings.
 
 ### Key Outcomes/Deliverables
 
-- Feasibility Report: a document determining how this project can be achieved and any potential issues and solutions that may be integral to the project's success.
-- Research Notes: a document that describes key points of interest surrounding the use of knowledge bases and Confluence, and includes any important or helpful resources that are currently and will be of use.
-- Initial Design: document(s)/image(s)/sketch(s) that outlines the possible structure of the knowledge base, and how it would be integrated through Confluence.
-- Knowledge Base: the structure of knowledge base created within Confluence, ready to begin collecting information.
+- Feasibility Report: a document determining how this project can be achieved and any potential
+  issues and solutions that may be integral to the project's success.
+- Research Notes: a document that describes key points of interest surrounding the use of knowledge
+  bases and Confluence, and includes any important or helpful resources that are currently and will
+  be of use.
+- Initial Design: document(s)/image(s)/sketch(s) that outlines the possible structure of the
+  knowledge base, and how it would be integrated through Confluence.
+- Knowledge Base: the structure of knowledge base created within Confluence, ready to begin
+  collecting information.
 
 ### Delivery Time frames
 

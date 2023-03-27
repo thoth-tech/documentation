@@ -4,7 +4,8 @@
 
 ### Preamble
 
-The purpose of this document is to check the feasibility of documentation within the Indigenous Art Gallery Project through the use of a knowledge base.
+The purpose of this document is to check the feasibility of documentation within the Indigenous Art
+Gallery Project through the use of a knowledge base.
 
 ### Research Information
 
