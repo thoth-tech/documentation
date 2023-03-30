@@ -15,17 +15,16 @@ Besides this report, what else was created ie UML, code, reports_
 
 - Code see /spikes/spike04/
 - Short Report titled “IDE Comparison”
-- …
 
 ## Technologies, Tools, and Resources used
 
 List of information needed by someone trying to reproduce this work_
 
-- Internet Browser; Google Chrome, FireFox, Safari
+- Internet Browser; Google Chroame, FireFox, Safari
 - Programming Languages:
-  - Ruby
+- Ruby
 - Programming Libraries:
-  - Minitest
+- Minitest
 - Text Editor: VsCode
 - Terminal
 
