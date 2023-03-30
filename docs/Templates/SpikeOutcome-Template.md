@@ -1,4 +1,4 @@
-# Spike Outcomes
+# **Spike Outcomes
 
 ==================
 
@@ -18,7 +18,7 @@ Besides this report, what else was created ie UML, code, reports*
 
 ## Technologies, Tools, and Resources used
 
-List of information needed by someone trying to reproduce this work\_
+List of information needed by someone trying to reproduce this work\
 
 - Internet Browser; Google Chroame, FireFox, Safari
 - Programming Languages:
@@ -53,3 +53,4 @@ spike is required for the team to resolve new issues identified (or) indicate
 that this spike has increased the teams confidence in XYZ and should move on.*
 
 - e.g. Recommendation X:
+**
