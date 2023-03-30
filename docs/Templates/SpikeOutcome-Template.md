@@ -1,16 +1,17 @@
 # Spike Outcomes
 
 ==================
-**Spike:** Spike_No
 
-**Title:** Spike_Title
+## **Spike:** Spike_No
 
-**Author:** John Doe, john.doe@example.com
+## **Title:** Spike_Title
+
+## **Author:** John Doe, john.doe@example.com
 
 ## Goals / Deliverables
 
-_#### Summarise from the spike plan goal_
-_#### Besides this report, what else was created ie UML, code, reports_
+Summarise from the spike plan goal_
+Besides this report, what else was created ie UML, code, reports_
 
 - Code see /spikes/spike04/
 - Short Report titled “IDE Comparison”
@@ -18,7 +19,7 @@ _#### Besides this report, what else was created ie UML, code, reports_
 
 ## Technologies, Tools, and Resources used
 
-_#### List of information needed by someone trying to reproduce this work_
+List of information needed by someone trying to reproduce this work_
 
 - Internet Browser; Google Chrome, FireFox, Safari
 - Programming Languages:
@@ -30,13 +31,13 @@ _#### List of information needed by someone trying to reproduce this work_
 
 ## Tasks undertaken
 
-#### List key tasks likely to help another developer
+### List key tasks likely to help another developer
 
 - ...
 
 ## What we found out
 
-#### Describe (sentences), + graphs/screenshots/outcomes as needed
+### Describe (sentences), + graphs/screenshots/outcomes as needed
 
 ## Open issues/risks _[Optional – remove heading/section if not used!]_
 

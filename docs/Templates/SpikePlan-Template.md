@@ -1,7 +1,8 @@
 # Spike Plan
 
 ==============
-**Name**:
+
+## **Name:**
 
 ## Context
 
@@ -9,11 +10,11 @@ Outline the reason and context for the spike.
 
 Example: Team needs to make a decision on the best type of Data Analytics Algorithm for the new Feature.
 
-**Knowledge Gap:**
+## **Knowledge Gap:**
 
-**Skill Gap:**
+## **Skill Gap:**
 
-**Technology Gap:**
+## **Technology Gap:**
 
 Provide details of the appropriate gaps related to this spike.
 
