@@ -27,6 +27,12 @@ It creates a new unit.
 Currently, the modal had 2 text input fields unit code and unit name. In the new modal a 3rd dorp
 down field is to be added, teaching period.
 
+So, in the updated modal the user provides the following:
+
+1. Unit Code
+2. Unit Name
+3. Teaching period
+
 New design sketch: Existing UI components are to be used for the input fields and button etc.
 
 ![new modal sketch](/Image/ComponentReviewCreateUnitModal.png)
