@@ -1,4 +1,4 @@
-# **Spike Plan
+# \*\*Spike Plan
 
 ==============
 
@@ -8,7 +8,8 @@
 
 Outline the reason and context for the spike.
 
-Example: Team needs to make a decision on the best type of Data Analytics Algorithm for the new Feature.
+Example: Team needs to make a decision on the best type of Data Analytics Algorithm for the new
+Feature.
 
 **Knowledge Gap:**
 
@@ -22,15 +23,14 @@ Example: The Team is not familar with Data Analytics Aglorthms and needs to inve
 
 ## Goals/Deliverables
 
-What are the goals and deliverables of this spike?
-Example:
+What are the goals and deliverables of this spike? Example:
 
 - Test out 3 different Aglorithms that can be used
 - Report on each Algorithms pros and cons.
 
-**Planned start date:**  Example: Week 6 T1 2023
+**Planned start date:** Example: Week 6 T1 2023
 
-**Deadline:**  Week 7 T1 2023
+**Deadline:** Week 7 T1 2023
 
 ## Planning notes
 
