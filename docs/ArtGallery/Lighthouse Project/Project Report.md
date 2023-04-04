@@ -2,7 +2,7 @@
 
 ## Capstone SIT374 - Part A
 
-## Art Gallery - Version 2
+## Art Gallery - Version 3
 
 ## Google Lighthouse
 
@@ -60,7 +60,7 @@ Objectives for Semester 1 2023
 ### Goals/Objectives
 
 1\. Analyse website with Google lighthouse to identify areas of improvement
-First round of reports complete pending upload to GitHub
+First round of reports complete pending upload to GitHub - Added to GitHub 4 April 2023
 
 2\. Identify other front end testing tools that could be used in addition to Lighthouse
 
