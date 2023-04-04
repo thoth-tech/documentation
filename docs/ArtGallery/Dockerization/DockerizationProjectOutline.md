@@ -1,6 +1,6 @@
-#Indigenous Art Gallery#
+# Indigenous Art Gallery #
 
-##Dockerization project outline##
+## Dockerization project outline ##
 
 **Capstone SIT374 - Chloe Hulme**
 
