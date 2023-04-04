@@ -88,7 +88,7 @@ website increasing companies brand.
 ### DDGIT Website
 
 Our first task, we will need to locate or document website site map, create a file that we can use
-to document our findings for each page. We will need comparisons for how it is is displaying in
+to document our findings for each page. We will need comparisons for how it is displaying in
 different web browsers and devices. We can collaborate on this excel file in Teams but less work if
 we can add it to GitHub and then our contributions will be tracked as was mentioned in class today.
 
