@@ -1,6 +1,6 @@
-#Indigenous Art Gallery#
+# Indigenous Art Gallery #
 
-##Dockerization feasibility check##
+## Dockerization feasibility check ##
 
 **Capstone SIT374 - Chloe Hulme**
 
