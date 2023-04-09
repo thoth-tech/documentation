@@ -3,7 +3,7 @@
 **Fork repo in GUI (only needs to be done once per repo at the start) -> then clone forked repo into
 a local directory:**
 
-git clone <http:// etc... the link from the repo>
+git clone <<http://> etc... the link from the repo>
 
 **Creating a new branch:**
 
@@ -26,8 +26,9 @@ Go into GUI and create a draft pull request **(pull request will be between Thot
 repo's file, ie. Thoth tech/Art Gallery/README.md vs My Forked Repo/Art Gallery/README.md)**, add in
 a relevant comment,then mark it as ready for review.
 
-##Some useful tools:## **Run your contribution through these to ensure your pull request can be
-approved!**
+## Some useful tools:## \*\*Run your contribution through these to ensure your pull request can be
+
+approved!\*\*
 
 _Markdown:_ <https://euangoddard.github.io/clipboard2markdown/>
 

@@ -54,15 +54,24 @@ ASPNETCORE_URLS=<https://+:5000> productive-dev/proj-name
 
 `docker container stop <first 3 digits from container id>`
 
-**Add a health check for container:**
-
-Before `var app = builder.Build()` add `builder.Services.AddHealthChecks()`, then after var app
-line, map to end point: `app.MapHealthChecks("/health")`
-
-Then test end point in browser as per normal
-
 **Docker-compose.yml file will be required to run database and backend at the same time**
 <https://www.youtube.com/watch?v=9ZEbJT36-Uk>
+
+- `docker-compose up` and `docker-compose up --build` to run containers from .yml file
+- Link containers using bridge network
+- Specify each service: postgreSQL image and image build from Dockerfile
+- Automatically dump .sql file into db on first build by mounting .sql scrip to
+  `docker-entrypoint-initdb.d`
+- change db connection string in api to match docker-compose, Server=host.docker.local
+
+### Useful resources
+
+- <https://www.youtube.com/watch?v=9ZEbJT36-Uk>
+- <https://1kevinson.com/how-to-create-a-postgres-database-in-docker/>
+- <https://www.baeldung.com/ops/postgresql-docker-setup>
+- <https://medium.com/front-end-weekly/net-core-web-api-with-docker-compose-postgresql-and-ef-core-21f47351224f>
+- <https://wkrzywiec.medium.com/how-to-run-database-backend-and-frontend-in-a-single-click-with-docker-compose-4bcda66f6de>
+- <https://github.com/DanWahlin/AspNetCorePostgreSQLDockerApp/blob/master/AspNetCorePostgreSQLDockerApp/aspnetcore.prod.dockerfile>
 
 ### Frontend (Vue) (weeks 7-10)
 
