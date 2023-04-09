@@ -6,7 +6,7 @@ Security Review
 
 Overview
 
-***Scope:*** 
+***Scope:***
 
 Thoth Tech is creating an Art Gallery for Indigenous art to be displayed
 and bought, there are different stages in which security will need to be
