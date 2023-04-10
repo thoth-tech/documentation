@@ -179,13 +179,13 @@ Objectives for Semester 1 2023
 
 **Goals/Objectives**
 
-1\. Analyse website with Google lighthouse to identify areas of improvement
+1\. Analyse website with Google lighthouse to identify areas of improvement - Complete Proceed to Step 3
 
 2\. Identify other front end testing tools that could be used in addition to Lighthouse
 
 2\. Compile Report outlining findings and action points derived from this
 
-3\. Timeline for implementing actions
+3\. Timeline for implementing actions - See Trello and Below
 
 4\. Implement Improvements
 
@@ -198,3 +198,14 @@ Cleaner platform, minimising errors (technical and cosmetic), improving overall 
 **DDGIT Website**
 
 Our first task, we will need to locate or document website site map, create an excel file that we can use to document our findings for each page. We will need comparisons for how it is is displaying in different web browsers and devices. We can collaborate on this excel file in Teams but less work if we can add it to GitHub and then our contributions will be tracked as was mentioned in class today.
+
+
+**Lighthouse Action Points**
+1\. SiteMap
+2\. Lang-en to page headers (<html> element does not have a [lang] attribute)
+3\. Rollover actions
+4\. Optimise Images (plus width/height and alt tags)
+5\. Naming convention for Link names (Links do not have a discernible name)
+6\. Document Meta details (Document does not have a meta description)
+7\. CSS Action Items (meta theme, start_url, splash screen)
+8\. Apple-Touch-Icon
