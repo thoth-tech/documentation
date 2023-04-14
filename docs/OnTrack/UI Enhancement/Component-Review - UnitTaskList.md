@@ -24,6 +24,8 @@ Displays the task list in the left panel of OnTrack.
 
 It populates the task list based on unit in the current context and filters by grade and also the input search terms and allows a task to be selected.
 
+![unit-task-list](Resources/unit-task-list.png)
+
 **Component outcomes/interactions**
 
 The expected outcome is a list of required tasks for the assigned unit which is filtered by the chosen grade. The list should update if a new grade is selected. Above the list there should also be a search bar which allows the tasks to be filtered based on the search input. Each task item should display a task name, an abbreviation, a target grade and status. When a task is selected it should be highlighted in the task list. The component should track the currently selected task.
