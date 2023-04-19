@@ -17,7 +17,7 @@ submitted for the sake of this project:
 ## Goals Achieved
 
 Since joining the company and organizing into the appropriate groups for each project, there has
-been a sizable amount of upskilling required to proceed with the project. Upskilling has been
+been a sizeable amount of upskilling required to proceed with the project. Upskilling has been
 achieved in the use of Trello, the use of GitHub and the use of Confluence, all of which are vital
 for project members to successfully deploy self-management, to contribute to the project, and to
 design, test and implement the knowledge base solution. There has also been some testing with
