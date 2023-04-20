@@ -90,7 +90,7 @@ ASPNETCORE_URLS=<https://+:5000> productive-dev/proj-name
 - `docker-compose up --build` to build and tun containers
 - Repos will need to be re-structured as follows:
 
-```bash
+```plaintext
   ├── art-gallery-backend
   │   ├── .vs
   │   ├── art-gallery-backend
@@ -131,7 +131,7 @@ ASPNETCORE_URLS=<https://+:5000> productive-dev/proj-name
   development teams quickly test their individual contributions. The updated directory tree is as
   follows:
 
-```bash
+```plaintext
   ├── art-gallery-backend
   │   ├── .vs
   │   ├── art-gallery-backend
@@ -172,7 +172,7 @@ ASPNETCORE_URLS=<https://+:5000> productive-dev/proj-name
 - The final production environment will contain production copies of each docker file, as shown
   here:
 
-```bash
+```plaintext
   ├── art-gallery-backend
   │   ├── .vs
   │   ├── art-gallery-backend
