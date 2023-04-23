@@ -42,7 +42,7 @@ to the benefit of various learning preferences.
 - Pages are live documents that make up the knowledge base, collaborative pieces that can be used
   for notes, guides or policies.
 - Spaces are how pages are organized, with pages of similar content being in the same space.
-  Depending on the amount of content you have to organize or how large each page is, you may only
+  Depending on the amount of content you have to organise or how large each page is, you may only
   need a single space with each page acting as the central document for a particular topic or area
   of the project.
 - A page tree organizes pages hierarchically under related spaces and other pages to allow for
@@ -54,7 +54,7 @@ to the benefit of various learning preferences.
 
 ### Features
 
-- Pages and content within pages can be labelled in order to organize or contextualize a page, such
+- Pages and content within pages can be labelled in order to organise or contextualize a page, such
   as a page being currently worked on being labelled as “In Progress” or certain content being
   labelled as “Disputed” if there are disagreements surrounding it that need to be resolved.
 - Content can be restricted (read-only) depending on the space settings, and certain members may
