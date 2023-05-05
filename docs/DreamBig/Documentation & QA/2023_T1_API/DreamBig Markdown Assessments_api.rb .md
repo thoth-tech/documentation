@@ -68,6 +68,13 @@ This method requires three parameters:
 
 Used within variable 'created_assessment' to create an answer, variable is presented to user via ['AssessmentsEntity'](https://github.com/thoth-tech/dream-big/blob/d72249d788068c71962e5a760ab1e15caef50ce5/dream-big-api/app/api/assessments_api.rb) class.
 
+The parameters journey_id and category_id are related to the API files:
+
+- [journeys_api.rb](https://github.com/thoth-tech/dream-big/blob/d72249d788068c71962e5a760ab1e15caef50ce5/dream-big-api/app/api/journeys_api.rb)
+- [category_api.rb](https://github.com/thoth-tech/dream-big/blob/d72249d788068c71962e5a760ab1e15caef50ce5/dream-big-api/app/api/category_api.rb)
+
+These is to specify what student's journey these assessments belong to, and for which category (essentialy a subject/unit) they are undertaking.
+
 ### Update assessments
 
 ```ruby
