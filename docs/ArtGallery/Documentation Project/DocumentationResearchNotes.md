@@ -10,37 +10,61 @@ working on this project with direction to helpful and important information.
 
 ### Resources
 
-- [BookStack Installation Page:](https://www.bookstackapp.com/docs/admin/installation/) Details for installing bookstack, which can be partially followed for installing a local instance for Windows.
-- [Manual BookStack Installation on Windows 10:](https://www.youtube.com/watch?v=_v-4BhVz7OI) Installing BookStack for local testing purposes, works with Windows 11.
-- [Installing BookStack on Ubuntu Server:](https://www.youtube.com/watch?v=wq78komr9rs) Basic overview of setting up a knowledge base online using an Ubuntu droplet with DigitalOcean.
-- [Awesome Open Source Overview:](https://www.youtube.com/watch?v=2izkat9tzoY) Independently made guide that goes over some features and demonstrates the launching of a BookStack site using Ubuntu via DigitalOcean and Hover to manage the domain.
-- [Noted Overview:](https://noted.lol/bookstack/) A review of features and a brief overview of installing BookStack with Docker Compose.
-- [DigitalOcean Higher Education:](https://www.digitalocean.com/landing/do-for-higher-education) Opportunities available to educational institutions for using DigitalOcean.
+- [BookStack Installation Page:](https://www.bookstackapp.com/docs/admin/installation/) Details for
+  installing bookstack, which can be partially followed for installing a local instance for Windows.
+- [Manual BookStack Installation on Windows 10:](https://www.youtube.com/watch?v=_v-4BhVz7OI)
+  Installing BookStack for local testing purposes, works with Windows 11.
+- [Installing BookStack on Ubuntu Server:](https://www.youtube.com/watch?v=wq78komr9rs) Basic
+  overview of setting up a knowledge base online using an Ubuntu droplet with DigitalOcean.
+- [Awesome Open Source Overview:](https://www.youtube.com/watch?v=2izkat9tzoY) Independently made
+  guide that goes over some features and demonstrates the launching of a BookStack site using Ubuntu
+  via DigitalOcean and Hover to manage the domain.
+- [Noted Overview:](https://noted.lol/bookstack/) A review of features and a brief overview of
+  installing BookStack with Docker Compose.
+- [DigitalOcean Higher Education:](https://www.digitalocean.com/landing/do-for-higher-education)
+  Opportunities available to educational institutions for using DigitalOcean.
 
 ### Practical Notes
 
-- For the purposes of this project, BookStack needs to be installed onto a live server with URL access and HTTPS.
-- To export a local database, on localhost (when running Apache) go to phpMyAdmin, go to the bookstack database, click on export at the top, and you’ll be able to export it in SQL format, which can be transferred into other MySQL and MariaDB databases.
-  - This means that the knowledge base can be created locally and then transferred onto a live server for use.
+- For the purposes of this project, BookStack needs to be installed onto a live server with URL
+  access and HTTPS.
+- To export a local database, on localhost (when running Apache) go to phpMyAdmin, go to the
+  bookstack database, click on export at the top, and you’ll be able to export it in SQL format,
+  which can be transferred into other MySQL and MariaDB databases.
+  - This means that the knowledge base can be created locally and then transferred onto a live
+    server for use.
 - Hosting options (for Ubuntu) are needed to get the knowledge base online.
-  - DigitalOcean, which offers a certain amount of free initial credits which would likely suffice for this project’s use and appears to be commonly used for BookStack hosting.
-    - There’s also Hollie’s Hub for Good, an part of DigitalOcean which gives out credits to non-profit, social enterprise organisations with applications resuming May 2023 (the current month as of writing).
+  - DigitalOcean, which offers a certain amount of free initial credits which would likely suffice
+    for this project’s use and appears to be commonly used for BookStack hosting.
+    - There’s also Hollie’s Hub for Good, an part of DigitalOcean which gives out credits to
+      non-profit, social enterprise organisations with applications resuming May 2023 (the current
+      month as of writing).
 - Local installation on Windows requires Git, Composer, and XAMPP, which comes with PHP and MySQL.
 
 ### Features
 
 - The editor used for contributing to the site can be WYSIWYG or MarkDown, suiting preference.
-- In settings, “Public Access” can be enabled to allow users (through the “Guest” account) to access and view the content on the site. They won’t be able to make changes, but it’s a good way for project members who only need to read the information to access the site.
-- Sites can allow for registration, which allows for users to sign up using their emails and will then be given a default role that can be altered in the settings.
+- In settings, “Public Access” can be enabled to allow users (through the “Guest” account) to access
+  and view the content on the site. They won’t be able to make changes, but it’s a good way for
+  project members who only need to read the information to access the site.
+- Sites can allow for registration, which allows for users to sign up using their emails and will
+  then be given a default role that can be altered in the settings.
 - BookStack content can be exported as PDF, plaintext or Markdown files for external use.
 - Every page has its own privacy settings, limiting who can view it.
-- The homepage of the site is generally a display of the most recent activity on the site, however the default homepage can be changed to display a list of shelves, books, or of a specific page.
-- While the editor is less flamboyant when compared to Confluence, it is still completely serviceable and allows for plenty of customization, along with media in documents that can make the documents more animated.
+- The homepage of the site is generally a display of the most recent activity on the site, however
+  the default homepage can be changed to display a list of shelves, books, or of a specific page.
+- While the editor is less flamboyant when compared to Confluence, it is still completely
+  serviceable and allows for plenty of customization, along with media in documents that can make
+  the documents more animated.
 
 ### Concepts
 
-- Users on the site will have their own page that displays their recently activity on the site. Each user can have a display name, a profile picture, and a preferred language.
-- Roles are allocated to users and effect the privileges of the user they are assigned to. There is a selection of default roles that can be utilised, and custom roles can be created for more specific purposes. Roles can restrict what users can view, what they can contribute, and how they can otherwise interact with the knowledge base.
+- Users on the site will have their own page that displays their recently activity on the site. Each
+  user can have a display name, a profile picture, and a preferred language.
+- Roles are allocated to users and effect the privileges of the user they are assigned to. There is
+  a selection of default roles that can be utilised, and custom roles can be created for more
+  specific purposes. Roles can restrict what users can view, what they can contribute, and how they
+  can otherwise interact with the knowledge base.
 - The overall hierarchy on BookStack is Shelves -> Books -> Chapters -> Pages.
   - Shelves are categories that contain Books.
   - Books are collections of Pages.
