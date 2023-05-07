@@ -23,44 +23,58 @@ working on this project with direction to helpful and important information.
   installing BookStack with Docker Compose.
 - [DigitalOcean Higher Education:](https://www.digitalocean.com/landing/do-for-higher-education)
   Opportunities available to educational institutions for using DigitalOcean.
+- [Techdox Bookstack Docker Install:](https://www.youtube.com/watch?v=VQj5kg7orAM) A brief tutorial
+  on self-hosting BookStack using Docker.
+- [Vultr BookStack Hosting](https://serveravatar.com/deployments/host-bookstack-on-vultr-server)
 
 ### Practical Notes
 
-- For the purposes of this project, BookStack needs to be installed onto a live server with URL
-  access and HTTPS.
+- For the purposes of this project, BookStack has to be installed onto a live server with URL access
+  and HTTPS.
 - To export a local database, on localhost (when running Apache) go to phpMyAdmin, go to the
-  bookstack database, click on export at the top, and you’ll be able to export it in SQL format,
-  which can be transferred into other MySQL and MariaDB databases.
+  bookstack database, select export at the top, and you’ll be able to export it in SQL format, which
+  can be transferred into other MySQL and MariaDB databases.
   - This means that the knowledge base can be created locally and then transferred onto a live
     server for use.
 - Hosting options (for Ubuntu) are needed to get the knowledge base online.
   - DigitalOcean, which offers a certain amount of free initial credits which would likely suffice
-    for this project’s use and appears to be commonly used for BookStack hosting.
-    - There’s also Hollie’s Hub for Good, an part of DigitalOcean which gives out credits to
+    for this project's use and appears to be commonly used for BookStack hosting.
+    - There's also Hollie's Hub for Good, an part of DigitalOcean which gives out credits to
       non-profit, social enterprise organisations with applications resuming May 2023 (the current
       month as of writing).
+  - Hosting through Deakin's Public Hosting Web Cluster could be a possible option depending on if
+    it's open for this project and what the service can host.
+  - Cloudron allows for hosting apps on your self-hosted server, including BookStack, so it's a
+    setup that could work well with something like DigitalOcean. It also has a free tier that allows
+    for two apps, so BookStack can be installed free onto a server.
+  - Vultr is another possible option that can allow for low-cost pricing.
 - Local installation on Windows requires Git, Composer, and XAMPP, which comes with PHP and MySQL.
 
 ### Features
 
 - The editor used for contributing to the site can be WYSIWYG or MarkDown, suiting preference.
-- In settings, “Public Access” can be enabled to allow users (through the “Guest” account) to access
-  and view the content on the site. They won’t be able to make changes, but it’s a good way for
-  project members who only need to read the information to access the site.
+- In settings, "Public Access" can be enabled to allow users (through the "Guest" account) to access
+  and view the content on the site. They aren't be able to make changes, but it's a good way for
+  project members who only need to access the site for its information.
 - Sites can allow for registration, which allows for users to sign up using their emails and will
   then be given a default role that can be altered in the settings.
-- BookStack content can be exported as PDF, plaintext or Markdown files for external use.
+- BookStack content can be exported as PDF, plain text or Markdown files for external use.
 - Every page has its own privacy settings, limiting who can view it.
 - The homepage of the site is generally a display of the most recent activity on the site, however
   the default homepage can be changed to display a list of shelves, books, or of a specific page.
 - While the editor is less flamboyant when compared to Confluence, it is still completely
   serviceable and allows for plenty of customization, along with media in documents that can make
   the documents more animated.
+- Every page includes a changelog full of revisions. You can customise your session changelog while
+  you edit a page, and every revision can be previewed and its changes reviewed. A page can be
+  reverted to a previous revision at any time.
+  - The number of revisions kept (that is, when older revision are removed) is customizable
+    depending on the system configuration.
 
 ### Concepts
 
-- Users on the site will have their own page that displays their recently activity on the site. Each
-  user can have a display name, a profile picture, and a preferred language.
+- Users on the site have their own page that displays their recently activity on the site. Each user
+  can have a display name, a profile picture, and a preferred language.
 - Roles are allocated to users and effect the privileges of the user they are assigned to. There is
   a selection of default roles that can be utilised, and custom roles can be created for more
   specific purposes. Roles can restrict what users can view, what they can contribute, and how they
