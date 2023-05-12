@@ -38,3 +38,9 @@ a way that is in line with the previous works to maintain consistency.
 `edit-profile-form`
 
 ![edit-profile-form](Resources/edit-profile-form.png)
+
+## Component Post-Migration
+
+The work required to migrate the component is now complete and the migrated component is shown below. 
+
+![teaching-period-details-editor-migrated](Resources/teaching-period-details-editor-migrated.png)
