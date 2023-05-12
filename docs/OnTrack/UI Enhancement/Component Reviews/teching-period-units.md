@@ -48,6 +48,7 @@ such a way that is in line with the previous works to maintain consistency.
 
 ## Component Post-Migration
 
-The work required to migrate the component is now complete and the migrated component is shown below. 
+The work required to migrate the component is now complete and the migrated component is shown
+below.
 
 ![teaching-period-units-migrated](Resources/teaching-period-units-migrated.png)
