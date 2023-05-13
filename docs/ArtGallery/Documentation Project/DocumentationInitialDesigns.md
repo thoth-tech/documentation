@@ -56,6 +56,14 @@ strucure proposed by Matthew Hesketh. Takes into account both developer and clie
 designed to also accommodate onboarding by creating a space designed to aid in learning more about
 the knowledge base itself (in the sketch this is shown as "Confluence Support", however this could
 be applied to any platform), allowing newer members and clientele to get more easily acquainted with
-navigating through the content. Internal content is seperated between active projects, and generally
-contains information on the technonology and practices used in the project. This is a fairly
-well-rounded design, and is both accessable and practical in its structure.
+navigating through the content. Internal content is separated between active projects, and generally
+contains information on the technology and practices used in the project. This is a fairly
+well-rounded design, and is both accessible and practical in its structure.
+
+### BookStack Design
+
+![BookStack Design](https://github.com/thoth-tech/documentation/blob/48eaf79ad87b6ee81435563b74ae0d0dff9cf0a5/docs/ArtGallery/Documentation%20Project/Documentation%20Design%20Sketches/InitialDesign5.png "BookStack Design")
+
+Design created from client and delivery lead feedback. Provides sections for each project, newer
+members, and clientele. Uses BookStack concepts, but can still be applied to other platforms like
+GitHub pages. Last design created for the project.
