@@ -6,7 +6,7 @@ Security Review
 
 Overview
 
-***Scope:***
+**_Scope:_**
 
 Thoth Tech is creating an Art Gallery for Indigenous art to be displayed
 and bought, there are different stages in which security will need to be
@@ -17,7 +17,7 @@ With the completion of this product we have to ensure that we have a
 secure method of allowing users to purchase items from sellers without
 having their data being breached.
 
-***Assets:***
+**_Assets:_**
 
 -Domain
 
@@ -29,7 +29,7 @@ having their data being breached.
 
 -User Data
 
-***Current Security:***
+**_Current Security:_**
 
 Currently, we are still developing the applications so there is no
 current security level. Therefore the purpose of this review is a
@@ -37,7 +37,7 @@ baseline in which once the application is running, this document can be
 used to help review the system and then increase the security where
 needed.
 
-***Vulnerabilities:***
+**_Vulnerabilities:_**
 
 Possible vulnerabilities within this project would be the level of
 authentication, whether it is decided that the public can view and use
@@ -52,7 +52,7 @@ multiple methods of payments such as credit card, paypal, afterpay,
 zippay e.t.c. Then there is the keeping the users data secure during
 processing.
 
-***Recommendations:***
+**_Recommendations:_**
 
 As the company is a strictly online business at the moment majority of
 the recommendations would be the basics of website design and coding
@@ -64,7 +64,7 @@ sensitive information. Thus we must use the best practices for secure
 payment, encryption, multi-factor authentication, if possible have a
 system to flag and monitor any suspicious activity.
 
-***Implementation of Recommendations:***
+**_Implementation of Recommendations:_**
 
 With the implementation of the recommendations with where the project is
 at, the biggest one for all contributors would be to use latest versions
