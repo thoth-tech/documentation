@@ -32,8 +32,8 @@ All of the above deliverables should be completed and submitted by the end of Tr
 ### Team Members (ID)
 
 - Kyle Adams (220220216)
-- Matthew Hesketh (?)
-- Jaron Chen (?)
+- Matthew Hesketh (218380133)
+- Jaron Chen (220296732)
 
 ## Skills Required
 
