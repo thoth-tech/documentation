@@ -1,6 +1,7 @@
 # Documentation - avatar_hairs_api.rb
 
-Github Link- [avatar_hairs_api.rb](https://github.com/thoth-tech/dream-big/blob/d72249d788068c71962e5a760ab1e15caef50ce5/dream-big-api/app/api/avatar_hairs_api.rb)
+Github Link-
+[avatar_hairs_api.rb](https://github.com/thoth-tech/dream-big/blob/d72249d788068c71962e5a760ab1e15caef50ce5/dream-big-api/app/api/avatar_hairs_api.rb)
 
 **Requires [Grape Framework](https://github.com/ruby-grape/grape#what-is-grape)**
 
@@ -14,7 +15,9 @@ Github Link- [avatar_hairs_api.rb](https://github.com/thoth-tech/dream-big/blob/
 
 **Code does not perform validation currently, or anything relatively complex.**
 
-**The avatar service is currently partially implemented in the frontend with a created service, but no data is beign sent to the backend.This file is linked to [avatar.service.ts](https://github.com/thoth-tech/dream-big/blob/d72249d788068c71962e5a760ab1e15caef50ce5/dream-big-ui/src/app/services/avatar.service.ts#L16)**
+**The avatar service is currently partially implemented in the frontend with a created service, but
+no data is beign sent to the backend.This file is linked to
+[avatar.service.ts](https://github.com/thoth-tech/dream-big/blob/d72249d788068c71962e5a760ab1e15caef50ce5/dream-big-ui/src/app/services/avatar.service.ts#L16)**
 
 Future updates could include:
 
@@ -36,7 +39,8 @@ desc 'Allow retrieval of a users avatar-hairs'
 
 ```
 
-Uses avatar hair ID as a parameter within variable 'hair', where if it exists, it is presented to user using AvatarHairsEntity class.
+Uses avatar hair ID as a parameter within variable 'hair', where if it exists, it is presented to
+user using AvatarHairsEntity class.
 
 ### Creation of avatar hairs
 
@@ -63,7 +67,9 @@ This method requires a single parameters:
 
 - imgpath
 
-Used within variable 'created_hair' to create an avatar hair, variable is presented to user via ['AvatarHairsEntity'](https://github.com/thoth-tech/dream-big/blob/d72249d788068c71962e5a760ab1e15caef50ce5/dream-big-api/app/api/entities/avatar_hairs_entity.rb#L2) class.
+Used within variable 'created_hair' to create an avatar hair, variable is presented to user via
+['AvatarHairsEntity'](https://github.com/thoth-tech/dream-big/blob/d72249d788068c71962e5a760ab1e15caef50ce5/dream-big-api/app/api/entities/avatar_hairs_entity.rb#L2)
+class.
 
 ### Update avatar hairs
 
@@ -94,7 +100,9 @@ This method updates an existing avatar hair, requiring one variable as optional:
 
 Parameters are placed within variable 'avatar_hairs_parameters'.
 
-Within variable 'update_avatar_hair' using 'AvatarHair' class find function with avatar hair ID, it updates an existing avatar hair using values within 'avatar_hairs_parameters'. This is presented to user via 'AvatarHairsEntity' class.
+Within variable 'update_avatar_hair' using 'AvatarHair' class find function with avatar hair ID, it
+updates an existing avatar hair using values within 'avatar_hairs_parameters'. This is presented to
+user via 'AvatarHairsEntity' class.
 
 ### Delete avatar hairs with indicated ID
 
@@ -110,7 +118,8 @@ desc 'Delete the Avatar Hairs with the indicated id'
     end
 ```
 
-This method requires an avatar hairs ID as a parameter. Should the avatar hair be found, it is deleted using 'AvatarHair' class' destroy function.
+This method requires an avatar hairs ID as a parameter. Should the avatar hair be found, it is
+deleted using 'AvatarHair' class' destroy function.
 
 ### Get all avatar hairs
 
@@ -124,6 +133,7 @@ desc 'Get all the avatar hairs'
 end
 ```
 
-This method uses the 'AvatarHair' class' all function, which acts as a value within the variable 'avatar_hairs' holding all existing avatar hairs.
+This method uses the 'AvatarHair' class' all function, which acts as a value within the variable
+'avatar_hairs' holding all existing avatar hairs.
 
 This is presented to the user via 'AvatarHairsEntity' class.
