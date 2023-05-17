@@ -46,6 +46,6 @@ This component’s code is too simple, I reckon that it does not need a lot of c
 
  
 
-[ ] Successfully define a module called 'doubtfire.projects.states.all' 
+Successfully define a module called 'doubtfire.projects.states.all' 
 
-[ ] Its dependency module is 'doubtfire.projects.states.all.directives’
+Its dependency module is 'doubtfire.projects.states.all.directives’
