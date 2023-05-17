@@ -15,6 +15,8 @@ Github Link-
 
 **Code does not perform validation currently, or anything relatively complex.**
 
+**The avatar service is currently partially implemented in the frontend with a created service, but no data is being sent to the backend.**
+
 Future updates could include:
 
 - Boolean checks
