@@ -15,8 +15,8 @@ Github Link-
 
 **Code does not perform validation currently, or anything relatively complex.**
 
-**The sections service is currently partially implemented in the frontend with a created service,
-but no data is being sent to the backend.This file is linked to
+**The sections service is partially implemented in the frontend with a created service, but no data
+is being sent to the backend. This file is linked to
 [section.service.ts](https://github.com/thoth-tech/dream-big/blob/d72249d788068c71962e5a760ab1e15caef50ce5/dream-big-ui/src/app/services/section.service.ts#L16)**
 
 Future updates could include:
