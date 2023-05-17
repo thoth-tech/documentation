@@ -1,6 +1,7 @@
 # Documentation - category_questions_api.rb
 
-Github Link- [category_questions_api.rb](https://github.com/thoth-tech/dream-big/blob/d72249d788068c71962e5a760ab1e15caef50ce5/dream-big-api/app/api/category_questions_api.rb)
+Github Link-
+[category_questions_api.rb](https://github.com/thoth-tech/dream-big/blob/d72249d788068c71962e5a760ab1e15caef50ce5/dream-big-api/app/api/category_questions_api.rb)
 
 **Requires [Grape Framework](https://github.com/ruby-grape/grape#what-is-grape)**
 
@@ -14,7 +15,9 @@ Github Link- [category_questions_api.rb](https://github.com/thoth-tech/dream-big
 
 **Code does not perform validation currently, or anything relatively complex.**
 
-**The category question service is partially implemented in the frontend with a created service, but no data is being sent to the backend. This file is found in [category_question.service.ts](https://github.com/thoth-tech/dream-big/blob/d72249d788068c71962e5a760ab1e15caef50ce5/dream-big-ui/src/app/services/category_question.service.ts#L16)**
+**The category question service is partially implemented in the frontend with a created service, but
+no data is being sent to the backend. This file is found in
+[category_question.service.ts](https://github.com/thoth-tech/dream-big/blob/d72249d788068c71962e5a760ab1e15caef50ce5/dream-big-ui/src/app/services/category_question.service.ts#L16)**
 
 Future updates could include:
 
@@ -35,7 +38,8 @@ class CategoryQuestionsApi < Grape::API
   end
 ```
 
-Uses category questions ID as a parameter within variable 'category questions', where if it exists, it is presented to user using CategoryQuestionsEntity class.
+Uses category questions ID as a parameter within variable 'category questions', where if it exists,
+it is presented to user using CategoryQuestionsEntity class.
 
 ### Creation of category questions
 
@@ -69,9 +73,14 @@ This method requires a three parameter:
 - description
 - category_id
 
-Used within variable 'created_category_questions' to create an category questions, variable is presented to user via ['CategoryQuestionsEntity'](https://github.com/thoth-tech/dream-big/blob/d72249d788068c71962e5a760ab1e15caef50ce5/dream-big-api/app/api/entities/category_questions_entity.rb#L2) class.
+Used within variable 'created_category_questions' to create an category questions, variable is
+presented to user via
+['CategoryQuestionsEntity'](https://github.com/thoth-tech/dream-big/blob/d72249d788068c71962e5a760ab1e15caef50ce5/dream-big-api/app/api/entities/category_questions_entity.rb#L2)
+class.
 
-These parameters are used to create a question for the related category(unit/subject) which a student will need to answer within their assessments. The parameter 'category_id' is related to API file:
+These parameters are used to create a question for the related category(unit/subject) which a
+student will need to answer within their assessments. The parameter 'category_id' is related to API
+file:
 
 - [category_api.rb](https://github.com/thoth-tech/dream-big/blob/d72249d788068c71962e5a760ab1e15caef50ce5/dream-big-api/app/api/category_api.rb)
 
@@ -105,14 +114,16 @@ This method updates an existing category questions, requiring one variable as ne
 
 - id
 
- Two variable as optional:
+Two variable as optional:
 
 - description
 - category_id
 
 Parameters are placed within variable 'category_questions_parameters'.
 
-Within variable 'update_category_question' using 'CategoryQuestion' class find function with category questions ID, it updates an existing category question using values within 'category_questions_parameters'. This is presented to user via 'CategoryQuestionsEntity' class.
+Within variable 'update_category_question' using 'CategoryQuestion' class find function with
+category questions ID, it updates an existing category question using values within
+'category_questions_parameters'. This is presented to user via 'CategoryQuestionsEntity' class.
 
 ### Delete category questions with indicated ID
 
@@ -127,7 +138,8 @@ desc 'Delete the Category Question with the indicated id'
   end
 ```
 
-This method requires an category questions ID as a parameter. Should the category questions be found, it is deleted using 'CategoryQuestion' class' destroy function.
+This method requires an category questions ID as a parameter. Should the category questions be
+found, it is deleted using 'CategoryQuestion' class' destroy function.
 
 ### Get all categories
 
@@ -141,6 +153,7 @@ desc 'Get all the catagory questions'
 end
 ```
 
-This method uses the 'CategoryQuestionsEntity' class' all function, which acts as a value within the variable 'categories' holding all existing category questions.
+This method uses the 'CategoryQuestionsEntity' class' all function, which acts as a value within the
+variable 'categories' holding all existing category questions.
 
 This is presented to the user via 'CategoryQuestionsEntity' class.
