@@ -38,6 +38,9 @@ The expected outcome is a list of required tasks for the assigned unit which is 
 4. Update application code to reference new typescript component.
 5. Remove old component
 
+`unit-task-list-mockup`
+![unit-task-list-mockup](Resources/unit-task-list-mockup.png)
+
 **Component review checklist** – What is needs to be checked for this component to work once migrated?
 
 Once migrated the task lists should exhibit the same behaviour as the coffee script component. It should display a filtered list of tasks curated to each user. Each item in the list should include the correct details. All tasks in the list should selectable and communicate this status to other components such as the dashboard.
