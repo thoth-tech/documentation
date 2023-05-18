@@ -60,7 +60,9 @@ The proposed visualisation for "Task Completion Stats" will work as follows:
    goes as follows: | Completed Task | Number of Tasks Submitted by this Date |
    |----------------|----------------------------------------| | This is the number of task with the
    completed status in the .csv file | This is the aggregate of all submitted task by a student till
-   date. | This data was taken in account for over a week during the changes were made to submission
+   date. |
+
+   This data was taken in account for over a week during the changes were made to submission
    statuses.
 
 The final aim is to procure daily data on students' engagement/completion of tasks in the unit and
