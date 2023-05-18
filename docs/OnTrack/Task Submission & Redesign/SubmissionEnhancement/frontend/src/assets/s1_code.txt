@@ -1,0 +1,12 @@
+#include "stdafx.h"
+#include <string>
+#include <iostream>
+
+using namespace std;
+
+int _tmain(int argc, _TCHAR* argv[])
+{
+    string strMytestString("The quick brown fox jumps over the lazy dog");
+    cout << strMytestString;
+    return 0;
+}

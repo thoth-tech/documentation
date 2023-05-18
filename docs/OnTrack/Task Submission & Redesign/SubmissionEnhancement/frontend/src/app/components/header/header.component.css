@@ -1,0 +1,89 @@
+*{
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+h1{
+  color:rgb(216,216,216);
+}
+
+.cls-1{fill:#3691ff;}
+.cls-2{fill:#3939ff;}
+.cls-3{fill:#5639ff;}
+
+.caret {
+  display: inline-block;
+  width: 0;
+  height: 0;
+  margin-left: 2px;
+  vertical-align: middle;
+  border-top: 4px dashed;
+  border-top: 4px solid;
+  border-right: 4px solid transparent;
+  border-left: 4px solid transparent;
+}
+.header-container{
+  display: flex;
+  flex-direction: row;
+  padding: 0 20px;
+  height: 72px;
+  box-shadow: inset 0 -1px #f3f3f4;
+  margin-bottom: 20px;
+}
+.header-left{
+  flex: 1;
+}
+.header-right{
+  flex: 1;
+}
+.ontrack-logo{
+  width: 36px;
+  vertical-align: middle;
+  cursor: pointer;
+}
+.unit-btn{
+  vertical-align: middle;
+  margin-left: 20px;
+  background-color: #3939ff;
+  color: #fff;
+  font-size: 14px;
+  font-weight: 100px;
+  border: none;
+  border-radius: 16px;
+  padding: 7px 12px;
+  cursor: pointer;
+  min-height: 32px;
+  width: 145px;
+}
+.unit-btn:hover{
+  opacity: 0.8;
+}
+.dash{
+  display: inline-block;
+  vertical-align: middle;
+  margin-left: 8px;
+}
+.dashboard-btn{
+  border: none;
+  background-color: transparent;
+  height: 32px;
+  margin-left: 8px;
+  vertical-align: middle;
+  font-weight: bold;
+  cursor: pointer;
+}
+.dashboard-btn:hover{
+  background-color: #f3f3f4;
+}
+.user-icon{
+  margin-top: 18px;
+  width: 32px;
+  border-radius: 16px;
+  background-color: rgba(207, 11, 11, 0.842);
+  float: right;
+  vertical-align: middle;
+  cursor: pointer;
+}
+.user-icon:hover{
+  opacity: 0.8;
+}
