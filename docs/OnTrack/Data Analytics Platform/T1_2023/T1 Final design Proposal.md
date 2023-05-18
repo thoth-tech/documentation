@@ -100,8 +100,8 @@ student data, protecting their privacy and maintaining data security.
 
 ## Conclusion
 
-In conclusion, the proposed data analytics system will assist tutors and instructors in monitoring
-student progress and identifying struggling students. The system will provide early intervention
-mechanisms to help struggling students get back on track, and it will help instructors identify
-areas of the course that may need improvement. The system is planned to thoroughly tested and
-designed to comply with data protection regulations to address ethical concerns.
+In conclusion, the proposed data analytics system can assist tutors and instructors in monitoring
+student progress and identifying struggling students. The system can provide early intervention
+mechanisms to help struggling students get back on track, and it can help instructors identify areas
+of the course that may need improvement. The system is planned to thoroughly tested and designed to
+comply with data protection regulations to address ethical concerns.
