@@ -51,9 +51,20 @@ The proposed system will consist of the following components:
 The proposed visualisation for "Task Completion Stats" will work as follows:
 
 1. **Data Collection**: The existing functionality implements the collection of data through the
-   "Task Completion Stats" feature, which provides a downloadable CSV file containing relevant
-   fields such as Student ID, Username, Student Name, Target Grade, Email, Portfolio, Grade, and
-   Rationale.
+   "Task Completion Stats" feature, From ruby app/models/task_status.rb:15:in ... with fields which
+   are provided in a downloadable CSV file containing differnet fields such as | Student ID |
+   Username | Student Name | Target Grade | Email | Portfolio | Grade | Rationale | As well as
+   feilds for every subsequent task in the unit. This feature was made for tutors to download a list
+   of students alongside their grades and completion status which was ultimately used in our graphs.
+   A few changes we made to this file to make the proposed graphs in this report, the calculation
+   goes as follows: | Completed Task | Number of Tasks Submitted by this Date |
+   |----------------|----------------------------------------| | This is the number of task with the
+   completed status in the .csv file | This is the aggregate of all submitted task by a student till
+   date. | This data was taken in account for over a week during the changes were made to submission
+   statuses.
+
+The final aim is to procure daily data on students' engagement/completion of tasks in the unit and
+produce a subsequent visualization for it
 
 2. **Data Analytics**: The system will use data analytics to identify patterns and trends in student
    performance. This can be achieved by analyzing the data collected from the "Task Completion
