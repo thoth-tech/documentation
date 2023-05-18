@@ -2,10 +2,10 @@
 
 ## Introduction
 
-The purpose of this report is to outline the design of a data analytics system that will be used to
-monitor and analyze student performance in a unit. The system will be designed to help tutors and
-instructors identify students who are struggling and provide them with early intervention and
-support. The system will also help instructors identify areas of the course that may need
+The purpose of this report is to outline the design of a data analytics system that is planned to
+used to monitor and analyse student performance in a unit. The system is planned to designed to help
+tutors and instructors identify students who are struggling and provide them with early intervention
+and support. The system will also help instructors identify areas of the course that may need
 improvement and make adjustments to improve the learning outcomes for students.
 
 ## Problem Statement
@@ -37,8 +37,8 @@ The proposed system will consist of the following components:
 1. **Data Collection**: The system will collect data from various sources, including learning
    management systems, student information systems, and other relevant data sources.
 
-2. **Data Storage**: The collected data will be stored in a central database that will be used for
-   analysis and reporting.
+2. **Data Storage**: The collected data is planned to stored in a central database that is planned
+   to used for analysis and reporting.
 
 3. **Data Analytics**: The system will use data analytics techniques such as machine learning,
    clustering, and regression analysis to identify patterns and trends in student performance.
@@ -75,21 +75,22 @@ The proposed visualisation for "Task Completion Stats" will work as follows:
 ## Testing and Maintenance
 
 The proposed system will undergo rigorous testing to ensure that it meets the outlined requirements.
-The system will be tested for accuracy, scalability, and usability. Once tested and validated, the
-system will be deployed for use by tutors and instructors. Regular maintenance will be performed to
-ensure the system functions correctly and to incorporate updates and improvements as necessary.
+The system is planned to tested for accuracy, scalability, and usability. Once tested and validated,
+the system is planned to deployed for use by tutors and instructors. Regular maintenance is planned
+to performed to ensure the system functions correctly and to incorporate updates and improvements as
+necessary.
 
 ## Ethical Concerns
 
 The proposed system raises ethical concerns regarding data privacy and security. To address these
-concerns, the system will be designed to comply with relevant data protection regulations. Access
-controls will be implemented to ensure that only authorized personnel have access to student data,
-protecting their privacy and maintaining data security.
+concerns, the system is planned to designed to comply with relevant data protection regulations.
+Access controls is planned to implemented to ensure that only authorised personnel have access to
+student data, protecting their privacy and maintaining data security.
 
 ## Conclusion
 
 In conclusion, the proposed data analytics system will assist tutors and instructors in monitoring
 student progress and identifying struggling students. The system will provide early intervention
 mechanisms to help struggling students get back on track, and it will help instructors identify
-areas of the course that may need improvement. The system will be thoroughly tested and designed to
-comply with data protection regulations to address ethical concerns.
+areas of the course that may need improvement. The system is planned to thoroughly tested and
+designed to comply with data protection regulations to address ethical concerns.
