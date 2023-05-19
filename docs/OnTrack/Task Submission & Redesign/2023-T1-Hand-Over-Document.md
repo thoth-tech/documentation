@@ -5,12 +5,8 @@
 ## Purpose of Document
 
 This document aims to inform potential collaborators about the project progress and accomplishments.
-It guides collaborators by outlining the next steps and actions they should take.The document
-ensures project continuity and coherence by detailing previous work. It helps newcollaborators
-understand the project status and build on it.This document also helps future collaborators make
-strategic and informed decisions. It helps themidentify gaps, challenges, and opportunities and
-suggests next steps. It streamlines projectefforts, and empowers future collaborators to effectively
-contribute to project success byleveraging past successes and experiences.
+It guides collaborators by outlining the next steps and actions they should take. The document ensures project continuity and coherence by detailing previous work. It helps new collaborators understand the project status and build on it. This document also helps future collaborators make strategic and informed decisions. It helps them identify gaps, challenges, and opportunities and suggests next steps. It streamlines project efforts and empowers future collaborators to effectively contribute to project success by leveraging past successes and experiences.
+
 
 ## Project Overview, Goals, and Objectives
 
