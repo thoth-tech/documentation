@@ -86,26 +86,27 @@ In order to minimise the risks distinguished above, it is recommended that the f
 - Securely store submitted files and student data using encrypted databases and file systems.
 - Maintain regular data backups and rest restoration processes to minimise data loss risks.
 
-2.Regular Security Checks
+  2.Regular Security Checks
 
 - Identify and address potential security weaknesses through regular penetration testing and vulnerability assessments.
 - Review and audit code for secure coding practices.
 - Monitor security threats and vulnerabilities related to the APIs and apply patches and updates as soon as possible.
 
-3.Secure Authentication and Authorisation:
+  3.Secure Authentication and Authorisation:
 
 - Implement multi-factor authentication mechanisms to ensure strong authentication.
+
   - Implement and maintain strong password policies that include password complexity requirements and regular password changes.
   - Implement strong password policies, such as requiring a complex password and changing it regularly.
   - Ensure that only authorised users can access sensitive functions and data by applying role-based access controls.
 
-4.Secure File Uploads
+    4.Secure File Uploads
 
 - Ensure that file types and sizes are validated, and size limits are enforced so that malicious or oversized files cannot be uploaded.
 - Detect and prevent files containing malware or viruses by using antivirus scanning mechanisms.
 - Prevent code execution vulnerabilities and mitigate the risk of injection attacks by sanitising user input.
 
-5.API Security
+  5.API Security
 
 - In order to address known vulnerabilities, APIs should be regularly updated and patched.
 - Prevent common API security issues by implementing secure coding practices, such as input validation and output encoding.
@@ -145,7 +146,7 @@ IBM (2022), _How Risk Assessment Scores Are Calculated_, IBM, Accessed 17 May 20
 
 JP Morgan (2022), _12 Tips for Mitigating Cyber_ _Risk_, JP Morgan Chase, Accessed 08 May 2023. <https://www.jpmorgan.com/commercial-banking/insights/12-tips-for-mitigating-cyber-> risk.
 
-Kapil, B (2023), _Introduction to Github Api’s_, Login Radius, Accessed 10 May 2023. <https://www.loginradius.com/blog/engineering/github-api/>.
+Kapil, B (2023), _Introduction to Github Apis_, Login Radius, Accessed 10 May 2023. <https://www.loginradius.com/blog/engineering/github-api/>.
 
 Nyakundi, H (2023), _5 Ways to Improve Your Web Application and API Security_, The New Stack, Accessed 17 May 2023.
 

@@ -188,32 +188,32 @@ It is possible to significantly enhance the cybersecurity protection level of On
 
 ## **9.0 References**
 
-ACS (2016) ‘Cybersecurity Threats, Challenges, Opportunities’, _ACS_, accessed 21 March 2023
+ACS (2016) Cybersecurity Threats, Challenges, Opportunities, _ACS_, accessed 21 March 2023
 
-Acunetix (n.d) ‘Web Server Security and Database Server Security’, _Acunetix by Invicti,_ accessed 19 April 2023
+Acunetix (n.d) Web Server Security and Database Server Security, _Acunetix by Invicti,_ accessed 19 April 2023
 
-Atlassian (n.d) ‘Incident management for high-velocity teams’, _Atlassian_, accessed 26 April 2023
+Atlassian (n.d) Incident management for high-velocity teams, _Atlassian_, accessed 26 April 2023
 
-Cloudflare (n.d) ‘What is a brute force attack?’, _Cloudflare_, accessed 3 April 2023 Cloudflare (n.d) ‘What is a DDoS attack?’, _Cloudflare_, accessed 30 March 2023 Cloudflare (n.d) ‘What is SQL Injection?’, _Cloudflare_, accessed 3 April 2023
+Cloudflare (n.d) What is a brute force attack?, _Cloudflare_, accessed 3 April 2023 Cloudflare (n.d) ‘What is a DDoS attack?’, _Cloudflare_, accessed 30 March 2023 Cloudflare (n.d) ‘What is SQL Injection?’, _Cloudflare_, accessed 3 April 2023
 
-CrowdStrike (2022) ‘Incident Response Plan: Frameworks and Steps’, _CrowdStrike_, accessed 5 April 2023
+CrowdStrike (2022) Incident Response Plan: Frameworks and Steps, _CrowdStrike_, accessed 5 April 2023
 
-Essential Tech (2022) ‘Network Security Threats and Solutions You Need To Know’, _Essential Tech,_ accessed 8 April 2023
+Essential Tech (2022) Network Security Threats and Solutions You Need To Know, _Essential Tech,_ accessed 8 April 2023
 
-Hendricks D (n.d) ’10 Essential Steps to Improve Your Website Security’, _IEEE Computer Society_, accessed 6 April 2023
+Hendricks D (n.d) 10 Essential Steps to Improve Your Website Security, _IEEE Computer Society_, accessed 6 April 2023
 
-Irei A and Shea S (n.d) ‘What is incident response? Plans, teams and tools’, _TechTarget_, accessed 3 May 2023
+Irei A and Shea S (n.d) What is incident response? Plans, teams and tools, _TechTarget_, accessed 3 May 2023
 
-Jones J (n.d) ’11 Best Practices for Developing Secure Web Applications’, _LRS Web Solutions_, accessed 10 April 2023
+Jones J (n.d) 11 Best Practices for Developing Secure Web Applications, _LRS Web Solutions_, accessed 10 April 2023
 
-LogSign (2019) ‘How to ensure Network Security?’, _LogSign,_ accessed 10 April 2023 ManageEngine (n.d) ‘Vulnerability Management’, _ManageEngine_, accessed 30 April 2023
+LogSign (2019) How to ensure Network Security?’, _LogSign,_ accessed 10 April 2023 ManageEngine (n.d) ‘Vulnerability Management’, _ManageEngine_, accessed 30 April 2023
 
-Newton S (2021) ‘5 Incident Response Best Practices Your Organisation Should Consider’, _Stickman Cyber_, accessed 9 May 2023
+Newton S (2021) 5 Incident Response Best Practices Your Organisation Should Consider, _Stickman Cyber_, accessed 9 May 2023
 
-Schoeman J (2000) ‘Web site security? Is the threat real?’, _South African Journal of Information Management_, 2(2/3), accessed 28 March 2023
+Schoeman J (2000) Web site security? Is the threat real?, _South African Journal of Information Management_, 2(2/3), accessed 28 March 2023
 
-Tagade K (2023) ‘A Complete Guide on Vulnerability Assessment Methodology’, _Astra_, accessed 23 April 2023
+Tagade K (2023) A Complete Guide on Vulnerability Assessment Methodology, _Astra_, accessed 23 April 2023
 
-Varghese J (92023) ‘Web Server Security-Beginner’s Guide’, _Astra_, accessed 13 April 2023
+Varghese J (92023) Web Server Security-Beginner’s Guide, _Astra_, accessed 13 April 2023
 
-Williams L (2023) ‘10 Most Common Web Security Vulnerabilities’, _Guru99_, accessed 23 March 2023
+Williams L (2023) 10 Most Common Web Security Vulnerabilities, _Guru99_, accessed 23 March 2023
