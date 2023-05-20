@@ -56,14 +56,10 @@ sketches or diagrams, what will the migrated component look like compared to the
 Migration from AngularJS/Coffeescript to Angular/Typescript: 
 
 1. Create a new TS file, doubtfire.units.states.groups.ts.
-2. 
-3. Create the necessary child components: group-set-manager.ts and the corresponding HTML template file.
-4. 
-5. Replace the functionality with Angular TypeScript, migrating away from AngularJS.
-6. 
-7. Use @Input and @Output decorators to replace the usage of $scope.
-8. 
-9. Remove the old components.
+2. Create the necessary child components: group-set-manager.ts and the corresponding HTML template file.
+3. Replace the functionality with Angular TypeScript, migrating away from AngularJS.
+4. Use @Input and @Output decorators to replace the usage of $scope.
+5. Remove the old components.
 
 
 ## Component review checklist
