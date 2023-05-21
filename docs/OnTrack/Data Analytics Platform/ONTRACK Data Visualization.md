@@ -1,5 +1,5 @@
 # ONTRACK Data Visualization
-### This document presents an overview, pros and cons, scope, data collection method, sample data, and details for three graphs: "Subject Accesses (Weekly Analysis)", "Scatter Plot for Time Spent in Subjects", and "Average Student Opting for D (Grade vs. Time before Deadline)".
+### This document presents an overview, pros and cons, scope, data collection method, sample data, and details for five graphs: "Subject Accesses (Weekly Analysis)", "Scatter Plot for Time Spent in Subjects",  "Average Student Opting for D (Grade vs. Time before Deadline)", "Ellucian Analytics: Trending Performance Rates by Total Funnel Headcount" and "Grade Distribution".
 
 ## 1.Subject Accesses (Weekly Analysis) Graph
 ## Overview
