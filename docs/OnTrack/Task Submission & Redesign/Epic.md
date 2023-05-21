@@ -4,9 +4,9 @@
 
 ---
 
-- Authors: [Ricky Dodd](https://github.com/rickydodd)
+- Authors: [Yaser Deeb](https://github.com/YADEEB21)
 - Team: OnTrack - Task View and Submission Redesign
-- Team Delivery Lead: Ricky Dodd
+- Team Delivery Lead: Yaser Deeb
 
 ## Document Summary
 
@@ -21,10 +21,10 @@
 
 ---
 
-- Date of Original Document Submission to GitHub: 22/09/2022
-- Documentation Version: 2.0
-- Date of Previous Documentation Review: 15/12/2022
-- Date of Next Documentation Review: T1/2023
+- Date of modified Document Submission to GitHub: 15/05/2023
+- Documentation Version: 3.0
+- Date of Previous Documentation Review: 22/09/2022
+- Date of Next Documentation Review: T2/2023
 
 ## Key Terms
 
@@ -49,12 +49,13 @@ dead-ends.
 
 ---
 
+- [T1/2023 Trello Board](https://trello.com/b/FWyBUYG8/task-view-re-design-team-ontrack-project)
 - [OnTrack Overseer Repository](https://github.com/thoth-tech/doubtfire-overseer)
 - [OnTrack Web Repository](https://github.com/thoth-tech/doubtfire-web)
 - [OnTrack API Repository](https://github.com/thoth-tech/doubtfire-api)
 - [thoth-tech/ChatHistoryDisplayer](https://github.com/thoth-tech/ChatHistoryDisplayer)
 - [T3/2022 Delivery Lead's ChatHistoryDisplayer](https://github.com/rickydodd/ChatHistoryDisplayer)
-- [T3/2022 Trello Board](https://trello.com/b/elHhcRZO/task-view-taskforce)
+- [T1/2023 Figma](https://www.figma.com/files/project/61538483/Team-project?fuid=1226098815565608315)
 
 ## Contacts for further information
 
@@ -73,9 +74,8 @@ see [Thoth Tech Handbook](https://github.com/thoth-tech/handbook/blob/main/READM
 ## Background / Context
 
 OnTrack is employed by multiple institutions as a learning management system. The View Task and
-Submission project intends to create modern, user-centric modifications to the OnTrack platform.
-OnTrack requires the modification of existing features, addition of new features, and an overhaul of
-the UI/UX.
+Submission project intends to create user-centric modifications to existing features, addition of
+new features to the task submission and view in the OnTrack platform.
 
 ## Business Value
 
@@ -143,8 +143,7 @@ arise.
 
 ## Acceptance Criteria
 
-- Managing director must approve of the design that is followed through with.
-- Implementation must follow design.
-  - If a change is required, then an alteration to the design (with approval from the managing
-    director) must be completed first.
+- Managing director must approve of the design before implementation.
+- If a change is required, then an alteration to the design (with approval from the managing
+  director) must be completed first.
 - All code must be tested before an attempt to pull into the upstream repositories.
