@@ -3,8 +3,8 @@
 + controller：[AngularJS-controll](https://docs.angularjs.org/guide/controller)
 + UI component library：[Echarts](https://echarts.apache.org/en/theme-builder.html)
 ## requirements document
-+ [Final design Proposal](./T1 Final design Proposal.md)
++ [Final design Proposal](./T1_Final_design_Proposal.md)
 ## Design Visual Draft
-+ [DAP Fount-end desing](./DAP-1 design.pdf)
++ [DAP Fount-end desing](./DAP-1_design.pdf)
 ## Test demo Case
-+ [angularjs echart demo code](./angularjs echart demo code.pdf)
++ [angularjs echart demo code](./angularjs_echart_demo_code.pdf)
