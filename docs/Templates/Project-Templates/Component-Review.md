@@ -2,35 +2,53 @@
 
 ## Team Member Name
 
-First select a component to review from the list below:
-<https://deakin365.sharepoint.com/:x:/r/sites/ThothTech2/Shared%20Documents/OnTrack%20-%20UI%20Enhancement/T3_2022/Management%20%5BT3_2022%5D/selected_task(revised).xlsx?d=wac02013da5224c958ac60fd96fac7b20&csf=1&web=1&e=UfCmZ5>
+SICHENG LIU - Thoth Tech - UI Enhancement
 
 ## Component Name
 
-Here you should enter the component name, also list all the files in this component.
+99. src/app/projects/states/all/all.coffee
 
 ## Component purpose
 
-What is the primary purpose of this component and how doesit work? Screenshots are advised.
+This component only has one module called ‘doubtfire.project.states.all’. It relies on another module called ‘doubtfire.project.states.all.directives’. 
+
+In this case, I think doubtfire.projects.states.all’ module is very likely to be used for containing the status (router) and related functions of specific functions or application parts of this project. 
+
+ 
+
+```AngularJS
+angular.module('doubtfire.projects.states.all', [
+  'doubtfire.projects.states.all.directives'
+])
+```
 
 ## Component outcomes and interactions
 
-What are the expected outcomes of the component and what does it interact with, what kind of data
-objects is it taking in and passing out?
+This component does not provide any outcomes. It is just a definition of module based on instructions of ‘doubtfire.projects.states.all.directives’. Nothing more is done. 
+
+## *Component migration plan*
+
+**1.** ***Analyse current AngularJS components and create a new one***: Use Angular CLI or manually create a new component.
+
+**2.** ***Update Dependencies and migration*** : Import ‘doubtfire.projects.states.all.directives’ as instruction dependency.
+
+**3.** ***Testing***
 
 ## Component migration plan
 
 First add your plan for the migration, how will you do this, what steps are needed. Add some
 sketches or diagrams, what will the migrated component look like compared to the current one.
 
+The website interface is actually the same as the previous one because there is no code about defining interface components. As a result, the website will be completely blank.
+
 ## Component review checklist
 
-Next add a checklist similar to: then create a checklist:
+This component’s code is too simple, I reckon that it does not need a lot of checklists as long as the syntax is correct.
 
-[ ] ability to collect details from the user [ ] succeeds when data is valid [ ] handles errors -
-duplicate unit code in the teaching period, or invalid dates [ ] created unit is shown on success
+ 
 
-## Discussion with Client (Andrew Cain)
+[ ] Successfully define a module called 'doubtfire.projects.states.all' 
 
-Finally you will need to take the feedback from Andrew and Discuss any addtional considertions he
-may have with this component before writing any code.
+[ ] Its dependency module is 'doubtfire.projects.states.all.directives’
+
+
