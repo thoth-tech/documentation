@@ -6,7 +6,7 @@
 
 ## requirements document
 
-- [Final design Proposal](./T1_Final_design_Proposal.md)
+- [T1_Final_design_Proposal.md]
 
 ## Design Visual Draft
 
