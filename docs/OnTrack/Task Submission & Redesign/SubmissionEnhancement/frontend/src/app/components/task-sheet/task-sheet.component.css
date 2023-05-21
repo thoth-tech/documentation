@@ -1,33 +1,33 @@
-*{
-  box-sizing: border-box ;
+* {
+  box-sizing: border-box;
 }
-ul{
+ul {
   font-size: 14px;
 }
 
-mat-card{
+mat-card {
   padding: 16px;
   border-radius: 4px;
   background: white;
 }
-mat-card-header{
+mat-card-header {
   font-size: 20px;
   font-weight: 500;
   margin-bottom: 12px;
 }
-.task-dashboard{
+.task-dashboard {
   height: 100%;
   border: 1px solid #ddd;
   border-radius: 4px;
 }
-.panel{
+.panel {
   margin-bottom: 20px;
   background-color: #fff;
   border: 1px solid transparent;
   border-radius: 4px;
   box-shadow: 0 1px 1px #0000000d;
 }
-.panel-default{
+.panel-default {
   border-color: #ddd;
 }
 .panel-heading {
@@ -38,7 +38,7 @@ mat-card-header{
   border-top-right-radius: 3px;
   border-top-left-radius: 3px;
 }
-.task-status{
+.task-status {
   width: 100%;
   height: 46px;
   border-radius: 3px;
@@ -51,40 +51,40 @@ mat-card-header{
   background-color: #f0ad4e;
   color: white;
 }
-.task-status:hover{
+.task-status:hover {
   background-color: #eb8f06;
 }
-.panel-body{
+.panel-body {
   padding: 15px 20px;
 }
-.task-card{
+.task-card {
   background-color: #fdfdfd;
   box-shadow: 0 2px 2px #00000024, 0 1px 5px #0000001f, 0 3px 1px -2px #0003;
 }
-.card-heading{
+.card-heading {
   background-color: #f5f5f5;
   padding: 15px 20px;
-  border-bottom: 1px solid rgba(160,160,160,.2);
+  border-bottom: 1px solid rgba(160, 160, 160, 0.2);
 }
-.card-heading-text{
+.card-heading-text {
   font-weight: 400;
   font-size: 18px;
   margin-top: 10px;
   margin-bottom: 10px;
   line-height: 1.1;
 }
-.card-body{
+.card-body {
   padding: 15px;
 }
-.card-body-text{
+.card-body-text {
   margin: 0 0 10px;
   font-size: 12px;
 }
-.card-body-footer{
+.card-body-footer {
   padding: 20px;
   border-top: 1px solid rgba(160, 160, 160, 0.2);
 }
-.upload-submission-files{
+.upload-submission-files {
   color: #fff;
   background-color: #337ab7;
   border: none;
@@ -96,10 +96,10 @@ mat-card-header{
   border-radius: 4px;
   cursor: pointer;
 }
-.upload-submission-files:hover{
+.upload-submission-files:hover {
   opacity: 0.9;
 }
-.extension-button{
+.extension-button {
   border: none;
   background-color: #5cb85c;
   color: white;
@@ -112,17 +112,17 @@ mat-card-header{
   margin-left: 10px;
   cursor: pointer;
 }
-.extension-button:hover{
+.extension-button:hover {
   opacity: 0.9;
 }
-.task-description-card{
+.task-description-card {
   padding-top: 10px;
 }
-.task-first-child{
+.task-first-child {
   margin-top: 0;
   font-size: 14px;
 }
-.task-last-child{
+.task-last-child {
   margin-bottom: 0;
 }
 .mat-card-actions {
@@ -132,14 +132,14 @@ mat-card-header{
   display: block;
   margin-bottom: 16px;
 }
-.task-sheet-button{
+.task-sheet-button {
   cursor: pointer;
   border-radius: 4px;
   font-size: 14px;
   font-weight: 500;
   background: transparent;
 }
-.pull-right{
+.pull-right {
   float: right;
   text-align: center;
   cursor: pointer;
@@ -165,7 +165,7 @@ mat-card-header{
   border-right: 4px solid transparent;
   border-left: 4px solid transparent;
 }
-.actions-btn:hover{
+.actions-btn:hover {
   background-color: lightgray;
 }
 .dropdown-btn {
@@ -177,7 +177,7 @@ mat-card-header{
   height: 34px;
   cursor: pointer;
 }
-.dropdown-btn:hover{
+.dropdown-btn:hover {
   background-color: lightgrey;
 }
 .dropdown {
@@ -188,7 +188,7 @@ mat-card-header{
   display: none;
   position: absolute;
   background-color: white;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
 }
 .dropdown-content a {
   color: black;
@@ -203,5 +203,3 @@ mat-card-header{
 .show {
   display: block;
 }
-
-

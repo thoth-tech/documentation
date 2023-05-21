@@ -1,9 +1,7 @@
 <mat-card>
   <mat-card-content>
     <div class="full-card-view">
-      <div class="card-header">
-        Diff Test
-      </div>
+      <div class="card-header">Diff Test</div>
       <div class="card-body">
         <div class="input-container">
           <label>Text 1:</label>
@@ -11,7 +9,7 @@
         </div>
         <div class="input-container">
           <label>Text 2:</label>
-          <input [(ngModel)]="text2" (ngModelChange)="computeDiff()"/>
+          <input [(ngModel)]="text2" (ngModelChange)="computeDiff()" />
         </div>
         <div class="output-container">
           <label>Output:</label>
@@ -19,7 +17,8 @@
         </div>
       </div>
       <div>
-        Link to diff-match-patch library: <a href="https://github.com/google/diff-match-patch">Here</a>
+        Link to diff-match-patch library:
+        <a href="https://github.com/google/diff-match-patch">Here</a>
       </div>
     </div>
   </mat-card-content>

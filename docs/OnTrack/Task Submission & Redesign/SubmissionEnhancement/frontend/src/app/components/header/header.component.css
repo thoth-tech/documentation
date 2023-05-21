@@ -1,15 +1,21 @@
-*{
+* {
   padding: 0px;
   margin: 0px;
   box-sizing: border-box;
 }
-h1{
-  color:rgb(216,216,216);
+h1 {
+  color: rgb(216, 216, 216);
 }
 
-.cls-1{fill:#3691ff;}
-.cls-2{fill:#3939ff;}
-.cls-3{fill:#5639ff;}
+.cls-1 {
+  fill: #3691ff;
+}
+.cls-2 {
+  fill: #3939ff;
+}
+.cls-3 {
+  fill: #5639ff;
+}
 
 .caret {
   display: inline-block;
@@ -22,7 +28,7 @@ h1{
   border-right: 4px solid transparent;
   border-left: 4px solid transparent;
 }
-.header-container{
+.header-container {
   display: flex;
   flex-direction: row;
   padding: 0 20px;
@@ -30,18 +36,18 @@ h1{
   box-shadow: inset 0 -1px #f3f3f4;
   margin-bottom: 20px;
 }
-.header-left{
+.header-left {
   flex: 1;
 }
-.header-right{
+.header-right {
   flex: 1;
 }
-.ontrack-logo{
+.ontrack-logo {
   width: 36px;
   vertical-align: middle;
   cursor: pointer;
 }
-.unit-btn{
+.unit-btn {
   vertical-align: middle;
   margin-left: 20px;
   background-color: #3939ff;
@@ -55,15 +61,15 @@ h1{
   min-height: 32px;
   width: 145px;
 }
-.unit-btn:hover{
+.unit-btn:hover {
   opacity: 0.8;
 }
-.dash{
+.dash {
   display: inline-block;
   vertical-align: middle;
   margin-left: 8px;
 }
-.dashboard-btn{
+.dashboard-btn {
   border: none;
   background-color: transparent;
   height: 32px;
@@ -72,10 +78,10 @@ h1{
   font-weight: bold;
   cursor: pointer;
 }
-.dashboard-btn:hover{
+.dashboard-btn:hover {
   background-color: #f3f3f4;
 }
-.user-icon{
+.user-icon {
   margin-top: 18px;
   width: 32px;
   border-radius: 16px;
@@ -84,6 +90,6 @@ h1{
   vertical-align: middle;
   cursor: pointer;
 }
-.user-icon:hover{
+.user-icon:hover {
   opacity: 0.8;
 }
