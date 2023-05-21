@@ -1,0 +1,161 @@
+.body-container {
+  padding: 10px;
+  height: 1000px;
+  display: flex;
+  flex-direction: column;
+}
+.header-container {
+  height: 72px;
+  text-align: center;
+}
+.task-container {
+  border: 1px solid #ddd;
+  flex: 1;
+  margin-bottom: 0;
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  overflow: scroll;
+}
+.displayer-container {
+  flex: 2;
+  margin-bottom: 0;
+  margin-top: 10px;
+  overflow: scroll;
+  display: flex;
+  flex-direction: column;
+}
+.title-text {
+  font-weight: lighter;
+  flex: 3;
+}
+.task-title {
+  flex: 1;
+}
+.task-uploads {
+  flex: 3;
+}
+.title-items {
+  display: flex;
+  flex-direction: row;
+  height: 100%;
+  align-items: center;
+  border: 1px solid #e5e5e5;
+  border-radius: 5px;
+  background-color: #f5f5f5;
+}
+.title-items-title {
+  flex: 1;
+}
+.title-items-status {
+  flex: 1;
+}
+.title-items-upload {
+  flex: 1;
+}
+.title-items-hide {
+  width: 60px;
+  align-items: center;
+}
+.dropdown-btn {
+  background-color: white;
+  border: 1px solid lightgray;
+  cursor: pointer;
+  border-radius: 4px;
+}
+.dropdown-btn:hover {
+  background-color: lightgray;
+}
+.task-uploads {
+  display: flex;
+  flex-direction: row;
+}
+.uploads-left {
+  flex: 1;
+}
+.uploads-right {
+  flex: 4;
+  display: flex;
+  flex-direction: column;
+}
+.right-item {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  cursor: pointer;
+}
+.right-item:hover {
+  background-color: lightgray;
+}
+.right-item-title {
+  flex: 1;
+}
+.right-item-download {
+  flex: 1;
+}
+.right-item-date {
+  flex: 1;
+}
+.right-item-display {
+  flex: 1;
+}
+.middle-task {
+  border-bottom: solid 1px #ccc;
+  border-top: solid 1px #ccc;
+}
+.display-header {
+  height: 36px;
+  text-align: center;
+  font-size: 18px;
+  font-weight: bold;
+}
+.file-displayer {
+  flex: 1;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 10px;
+}
+.displayer-header-task {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.display-box {
+  border: solid 1px;
+  height: 100%;
+}
+.home-btn {
+  width: 100px;
+  height: 32px;
+  background-color: #3939ff;
+  color: white;
+  border-radius: 16px;
+  border: none;
+  cursor: pointer;
+}
+.home-btn:hover {
+  opacity: 0.8;
+}
+.displayer-task {
+  text-align: center;
+}
+.task-status-complete {
+  background-color: #5bb75b;
+  margin-bottom: 1px;
+  border-radius: 20px;
+}
+.task-status-fix {
+  background-color: #a48fce;
+  margin-bottom: 1px;
+  margin-right: 5px;
+  border-radius: 20px;
+}
+.test-img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+.tester-btn {
+  width: 40px;
+  height: 40px;
+}
