@@ -6,7 +6,7 @@ Student Name: Xuetong Zhao
 
 Student ID: 291499588
 
-Term:  T1 2023 – SIT 378
+Term: T1 2023 – SIT 378
 
 ## Component Name
 
@@ -41,7 +41,7 @@ There are two internal child components, 'task-outcomes-card' and 'task-descript
 Create a new TypeScript file named taskDetailsView.component.ts and remove the old task-details-view.coffee file. Move the template code to an HTML file located in the same directory as taskDetailsView.component.ts, for example, taskDetailsView.component.html, and update the template code accordingly.
 
 Create two child components: task-outcomes-card.component.ts and task-description-card.component.ts. These components correspond to the task-outcomes-card and task-description-card components in the original code. Use Angular's property binding for data communication between components. As the following:
- `<app-task-outcomes-card [taskDef]="taskDef" [unit]="unit"></app-task-outcomes-card>
+`<app-task-outcomes-card [taskDef]="taskDef" [unit]="unit"></app-task-outcomes-card>
               <app-task-description-card [taskDef]="taskDef" [unit]="unit" (taskChanged)="onTaskChanged($event)"></app-task-description-card>`
 
 ## Component review checklist

@@ -6,7 +6,7 @@ Student Name: Xuetong Zhao
 
 Student ID: 291499588
 
-Term:  T1 2023 – SIT 378
+Term: T1 2023 – SIT 378
 
 ## Component Name
 
@@ -18,7 +18,7 @@ Module file: groups.coffee
 
 ## Component purpose
 
-The purpose of this component is to display the detailed information of a group, and allows users to edit the group information. The component can display the group name and the allocation of members (such as students and tutors). 
+The purpose of this component is to display the detailed information of a group, and allows users to edit the group information. The component can display the group name and the allocation of members (such as students and tutors).
 
 The working principle of this component is:
 
@@ -33,13 +33,11 @@ The code shows how to dynamically show or hide HTML elements based on data by us
 
 The specific implementation is: using the ng-hide and ng-if directives to judge the value of unit.hasGroupwork() to determine the display of element. If its value is true, then the group-set-manager component will be displayed. The unit.hasGroupwork function will check if the unit has group work.
 
-
 ## Component outcomes and interactions
 
-The expected outcome of the component is to display the detailed information and functionality of a group, and allow users to edit the group information. The component interact with other parts of the project, such as components and code that relate to group state. 
+The expected outcome of the component is to display the detailed information and functionality of a group, and allow users to edit the group information. The component interact with other parts of the project, such as components and code that relate to group state.
 
 The component receives the data object 'group' as input, which contains the detailed information of the group, such as the group name, group code, and the allocation of members. After the group information is edited, the component can output the updated group information object.
-
 
 ## Component migration plan
 
@@ -48,7 +46,6 @@ The component receives the data object 'group' as input, which contains the deta
 3. Replace the functionality with Angular TypeScript, migrating away from AngularJS.
 4. Use @Input and @Output decorators to replace the usage of $scope.
 5. Remove the old components.
-
 
 ## Component review checklist
 

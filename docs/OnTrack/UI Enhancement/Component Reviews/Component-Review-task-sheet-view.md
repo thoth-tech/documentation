@@ -6,7 +6,7 @@ Student Name: Xuetong Zhao
 
 Student ID: 291499588
 
-Term:  T1 2023 – SIT 378
+Term: T1 2023 – SIT 378
 
 ## Component Name
 
