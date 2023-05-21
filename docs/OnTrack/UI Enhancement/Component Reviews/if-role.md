@@ -22,7 +22,7 @@ which is used once the element has been linked, and requires a whitelist.
 
 If a user’s role is not included in the whitelist, the element is removed from the DOM. This is a
 conditional removal. Interactions include the authenticationService, which the directive relies upon
-to determine what role the user is authorized to.
+to determine what role the user is authorised to.
 
 ## Component migration plan
 
