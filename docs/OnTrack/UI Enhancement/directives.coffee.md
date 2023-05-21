@@ -7,7 +7,7 @@ SICHENG LIU - Thoth Tech - UI Enhancement
 ## Component Name
 
 directives.coffee
-
+cd
 ## Component Purpose
 
 This code implements an Angular module called doubfire.projects.states.all.directives, which relies on another submodule called doubfire.projects.states.all.directives.all-projects-list, which is an all-projects-list component in its peer directory.
