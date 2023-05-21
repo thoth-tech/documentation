@@ -17,14 +17,15 @@ selected or designated roles. This increases the team agility.
 
 - Register a [Trello](https://trello.com/signup) account.
 - Confirm your Trello account by email (may go to Trash, so be sure to check there).
-- Join the
-  [Trello board](https://trello.com/invite/b/elHhcRZO/289cb5bab080aeac1cf7dd9184a4fabe/task-view-taskforce)
+- Join the Trello board that is assigned by your delivery Lead. The previous team's
+  [Trello board](https://trello.com/b/FWyBUYG8/task-view-re-design-team-ontrack-project)
 
 ## Figma
 
 - Register a [Figma](https://www.figma.com/) account.
 - Confirm your Figma account by email (may go to Trash, so be sure to check there).
-- Join the [Figma project](https://www.figma.com/team_invite/redeem/SLuOCrE5wV5JuGc5tdlbBH).
+- Join the
+  [Figma project](https://www.figma.com/files/project/61538483/Team-project?fuid=1226098815565608315).
 
 ## Configuring git (global)
 
