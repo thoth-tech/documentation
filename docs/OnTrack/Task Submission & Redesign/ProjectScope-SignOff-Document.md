@@ -30,74 +30,76 @@ The following items will be completed to verify that the project scope has been 
 
 ### Purely Documentation Oriented
 
-- [ ] Modify the project epic (make it relevant to T1/2023).
+- [x] Modify the project epic and other related documents (make it relevant to T1/2023).
 
   - A modification to a markdown document in
-    [thoth-tech/documentation](https://github.com/thoth-tech/documentation/).
+    [thoth-tech/documentation](https://github.com/thoth-tech/documentation/tree/main/docs/OnTrack/Task%20Submission%20%26%20Redesign).
 
-- [ ] Update the document that outlines the deliverable items of the project.
+- [x] Update the document that outlines the deliverable items of the project.
 
-  - A markdown document in [thoth-tech/documentation](https://github.com/thoth-tech/documentation/).
+  - A markdown document in
+    [thoth-tech/documentation](https://github.com/thoth-tech/documentation/tree/main/docs/OnTrack/Task%20Submission%20%26%20Redesign).
 
-- [ ] Create a T1/2023 hand-over document.
-  - A markdown document in [thoth-tech/documentation](https://github.com/thoth-tech/documentation/).
+- [x] Create a T1/2023 hand-over document.
+  - A markdown document in
+    [thoth-tech/documentation](https://github.com/thoth-tech/documentation/tree/main/docs/OnTrack/Task%20Submission%20%26%20Redesign).
 
 ### Front-end Oriented
 
 #### Design
 
-- [ ] Check and Complete the tutor-view design on [Figma](https://www.figma.com/).
+- [x] Create frame-by-frame flows of tutors using the primary design.
 
-  - An image in [thoth-tech/documentation](https://github.com/thoth-tech/documentation/), as output
-    from [Figma](https://www.figma.com/).
+  - Multiple images and a video showcase, as output from [Figma](https://www.figma.com/), in
+    [thoth-tech/documentation](https://github.com/thoth-tech/documentation/tree/main/docs/OnTrack/Task%20Submission%20%26%20Redesign/design_images),
 
-  - Pre-requisite: The creation of all the flows of the single, primary tutor-view design.
+  - Additional information: These flows should determine whether an alteration to the single,
+    primary design is required and what specific alteration is required. This could be broken down
+    into tasks regarding specific flows for showing the use of specific features.
 
-  - Additional information: This deliverable item is completed once all changes, as informed by
-    usability and smart default problems obtained from the construction of the flows, are fixed.
+- [x] Create `TaskSubmissionEnhancement` new Features to the student-view design.
+
+  - Multiple images and a video showcase in
+    [thoth-tech/documentation](https://github.com/thoth-tech/documentation/tree/main/docs/OnTrack/Task%20Submission%20%26%20Redesign/design_images),
+    as output from [Figma](https://www.figma.com/).
+
+  - A markdown document that explains the functions and implementation of the new features in
+    [thoth-tech/documentation](https://github.com/thoth-tech/documentation/tree/main/docs/OnTrack/Task%20Submission%20%26%20Redesign).
 
 ### Back-end Oriented
 
-#### `ChatHistoryDisplayer`
+#### `TaskSubmissionEnhancement`
 
-- [ ] Add functionality to `chathistorydisplayer-api`: authorisation at API end-points.
+- [x] Create a prototype of `TaskSubmissionEnhancement` Component of the Ontrack platform that adds:
 
-#### `FileViewer`
+  - The ability to submit files regardless of the task state.
+  - The ability to submit individual task files.
+  - The ability to submit optional additional files outside of the task requirements.
+  - The ability to observe task file upload differences.
 
-- [ ] Create a prototype of `fileviewer-api`: Focusing on .txt and PDF files where task sheets will
-      be viewed on the OnTrack platform.
-
-- [ ] Integrate `fileviewer-api` into the OnTrack platform.
+- [x] Create `Submission enhancement test environment` for the new features on Student View.
 
 ### Cyber-security Oriented
 
-- [ ] Create a document that outlines the cyber-security protocols for project group members.
+- [x] Create a document that outlines the cybersecurity concerns of the current changes.
 
-  - A markdown document in [thoth-tech/documentation](https://github.com/thoth-tech/documentation/).
+  - A markdown document in
+    [thoth-tech/documentation](https://github.com/thoth-tech/documentation/tree/main/docs/OnTrack/Task%20Submission%20%26%20Redesign).
 
-- [ ] Create a document, or documents, that introduce OnTrack administrators to potential
-      cyber-security threats or issues.
+- [x] Create a document that introduce administrators to potential cyber security threats or issues.
 
   - A markdown document (or multiple) in
-    [thoth-tech/documentation](https://github.com/thoth-tech/documentation/).
+    [thoth-tech/documentation](https://github.com/thoth-tech/documentation/tree/main/docs/OnTrack/Task%20Submission%20%26%20Redesign).
 
-## Acceptance Criteria
+- [x] Create a code script of malware-detection software to implement for the new feature.
 
-The following acceptance criteria have been met to verify that the client's expectations have been
-fulfilled:
-
-- Documentation updated to reflect changes during T1/2023, handover document, onboarding, and next
-  steps
-- Tutuor view designs are completed in Figma and approved by the client.
-- `chathistorydisplayer-api` has an added functionality.
-- `fileviewer-api` prototype is created and integrated into OnTrack platform.
-
-- cyber-security protocols and potential cyber-security threats or issues documents are complete.
+  - A markdown document in
+    [thoth-tech/documentation](https://github.com/thoth-tech/documentation/tree/main/docs/OnTrack/Task%20Submission%20%26%20Redesign).
 
 ## Sign Off
 
-- Client Signature: [Insert client signature]
-- Date: [Insert date of signature]
+- Client: Andrew Cain
 
-- Team Lead Signature: [Insert signature]
-- Date: [Insert date of signature]
+- Team Lead: Yaser Deeb
+
+- Code Guru Team: William Lowe, Sivasamyuktha A Selvarajuh 🔥
