@@ -26,7 +26,7 @@ There are tons of javascript components that use this alert services. It is also
 as the parameter to provide the corresponding alert when the user takes an action. For example, if a user submits a portfolio,
 the 'controller' will give 'danger' message when there is error when submitting the file.
 
-![alert-interaction](images/alert-interactions.png)
+![alert-interaction](images/alert-interaction.png)
 
 In general, all components which are relevant to Tasks or Project are using the 'controller' and this 'controller'
 makes use of listener component to return a corresponding action.
