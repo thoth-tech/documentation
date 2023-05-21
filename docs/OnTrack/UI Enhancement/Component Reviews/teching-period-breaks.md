@@ -43,3 +43,10 @@ such a way that is in line with the previous works to maintain consistency.
 `unit-students-editor`
 
 ![unit-students-editor](Resources/unit-students-editor.png)
+
+## Component Post-Migration
+
+The work required to migrate the component is now complete and the migrated component is shown
+below.
+
+![teaching-period-breaks-migrated](Resources/teaching-period-breaks-migrated.png)
