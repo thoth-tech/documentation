@@ -276,7 +276,7 @@ reaches as many IT students as possible.
 ### E. Data Collection
 
 The data collected will be stored in Google Forms and accessible by the testing team. As the survey
-questions are standardized, the testing team can compare the responses across all participants. In
+questions are standardised, the testing team can compare the responses across all participants. In
 addition to that, participants can optionally choose to provide information about their gender,
 sexual orientation and ethnicity to provide an additional aspect of data analysis.
 
@@ -313,7 +313,7 @@ The following are ethical considerations to be taken into account while conducti
 **Privacy issues:** Participants should be fully informed of how their information is stored and
 used. Consent is obtained to ensure they are aware and agree to the usage of this information.
 
-**Bias:** Testing should be conducted in a standardized manner for all participants. Facilitators
+**Bias:** Testing should be conducted in a standardised manner for all participants. Facilitators
 should deliver instructions and prompts objectively and neutrally to avoid biasing the testing as
 much as possible.
 
