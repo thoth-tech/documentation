@@ -9,5 +9,6 @@
    https://docs.google.com/forms/d/13MqjewcLLS2hZljvZY_YmQTPTmb6DQ1Lle8jL8GNyRI/edit
 4. **UX In Person testing template**
    [UX In person testing template.xlsx](https://github.com/thoth-tech/documentation/files/11507286/UX.In.person.testing.template.xlsx)
-   <br/> 
-5. **Infographic** https://www.canva.com/design/DAFjOQRbKfo/-LSMUif5MnnX8hP1YUHcdg/watch?utm_content=DAFjOQRbKfo&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink
+   <br/>
+5. **Infographic**
+   https://www.canva.com/design/DAFjOQRbKfo/-LSMUif5MnnX8hP1YUHcdg/watch?utm_content=DAFjOQRbKfo&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink
