@@ -2,29 +2,30 @@
 
 #### vitest has been added to the project with dependencies listed below
 
-We have chosen Vitest to run the testing for the Art-Gallery site due to it's integration and current testing requirements.
+We have chosen Vitest to run the testing for the Art-Gallery site due to it's integration and
+current testing requirements.
 
-Since the official setup created by create-vue is based on Vite, we recommend using a unit testing framework that can leverage the same configuration and transform pipeline directly from Vite. Vitest is a unit testing framework designed specifically for this purpose, created and maintained by Vue / Vite team members. It integrates with Vite-based projects with minimal effort, and is blazing fast.
+Since the official setup created by create-vue is based on Vite, we recommend using a unit testing
+framework that can leverage the same configuration and transform pipeline directly from Vite. Vitest
+is a unit testing framework designed specifically for this purpose, created and maintained by Vue /
+Vite team members. It integrates with Vite-based projects with minimal effort, and is blazing fast.
 
 This has been setup in the package.json file under the devdependencies section
 
-- Installing Vue test utilities
-  npm install --save-dev @vue/test-utils@next
+- Installing Vue test utilities npm install --save-dev @vue/test-utils@next
 
 From <https://www.vuemastery.com/blog/getting-started-with-vitest/>
 
-- Installing Jsdom
-  npm I -D jsdom development install.
+- Installing Jsdom npm I -D jsdom development install.
 
--Installing Vue CLI
-npm install -g @vue/clinpm
+-Installing Vue CLI npm install -g @vue/clinpm
 
--Vue Testing Library
-npm install --save-dev @testing-library/dom
+-Vue Testing Library npm install --save-dev @testing-library/dom
 
 #### Running the tests in VScode
 
-Follow the instructions in the Art Gallery setup guide or refer to new docker setup to run the project.
+Follow the instructions in the Art Gallery setup guide or refer to new docker setup to run the
+project.
 
 The tests are all contained in the
 

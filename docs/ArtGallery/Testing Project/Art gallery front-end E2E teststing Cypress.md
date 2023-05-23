@@ -8,7 +8,8 @@
 
 ## Running the tests
 
-Follow the instructions in the Art Gallery setup guide or refer to new docker setup to run the project.
+Follow the instructions in the Art Gallery setup guide or refer to new docker setup to run the
+project.
 
 NB You must have the project running in order to run the tests.
 
@@ -63,4 +64,5 @@ File name is based on the html page name e.g. exhibition.spec.cy.js
 #### Additional Notes
 
 To run the user login test, you will need to run the signup test first.  
-If you need to run the signup test again you will need to delete the user it creates from thebackend database.
+If you need to run the signup test again you will need to delete the user it creates from thebackend
+database.
