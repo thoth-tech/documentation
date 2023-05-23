@@ -8,8 +8,8 @@ services or APIs integrated into the project. These include image hosting servic
 third-party services used by the backend. Authentication and Authorisation: Authentication and
 authorisation mechanisms implemented in the project. This involve technologies like OAuth, JSON Web
 Tokens (JWT), or session-based authentication. Dependencies: external libraries, frameworks, or
-packages used in the project such as : Frameworks :Microsoft. AspNetCore. App 6.0.15 &
-Microsoft. NETCore. App 6.0.15 Packages : NuGet Packages such as –
+packages used in the project such as : Frameworks :Microsoft. AspNetCore. App 6.0.15 & Microsoft.
+NETCore. App 6.0.15 Packages : NuGet Packages such as –
 
 - BCrypt. Net-Next
 - DateOnlyTimeOnly. AspNet

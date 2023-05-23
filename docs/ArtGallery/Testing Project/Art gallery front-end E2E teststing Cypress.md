@@ -55,7 +55,7 @@ File name is based on the html page name e.g. exhibition.spec.cy.js
 | 16      | displays the correct heading                         | exhibitions     | http://localhost:8080/exhibitions  | exhibitions.spec.cy.js     | Success         |
 | 17      | displays mock data correctly in table                | exhibitions     | http://localhost:8080/exhibitions  | exhibitions.spec.cy.js     | Success         |
 | 18      | displays login modal                                 | login           | http://localhost:8080/             | login.spec.cy.js           | Success         |
-| 19      | allows user to log in                                 | login           | http://localhost:8080/             | login.spec.cy.js           | Success         |
+| 19      | allows user to log in                                | login           | http://localhost:8080/             | login.spec.cy.js           | Success         |
 | 20      | displays correct heading                             | homepage        | http://localhost:8080/             | mainpage.spec.cy.js        | Success         |
 | 21      | displays banner image                                | homepage        | http://localhost:8080/             | mainpage.spec.cy.js        | Success         |
 | 22      | should display signup page                           | register        | http://localhost:8080/signup       | registeruser.spec.cy.js    | Success         |
