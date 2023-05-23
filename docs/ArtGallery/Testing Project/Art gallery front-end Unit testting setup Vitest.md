@@ -1,6 +1,6 @@
 #### Requirements for running the front end unit tests
 
-###### vitest has been added to the project with dependencies listed below
+#### vitest has been added to the project with dependencies listed below
 
 We have chosen Vitest to run the testing for the Art-Gallery site due to it's integration and current testing requirements.
 
