@@ -150,3 +150,214 @@ to the benefit of various learning preferences.
   important markdown snippets from GitHub can be more easily transferred to Confluence if needed,
   and MS Teams integration can allow for less divide between communication and learning channels for
   members of the project, given that Teams is a core communication channel.
+
+## research notes dump
+
+### Knowledge Base research
+
+Knowledge Base
+
+- online library of information about a product, service, department, or topic.
+- The knowledge base may include FAQs, manuals, troubleshooting guides, runbooks, and other information your team may want or need to know.
+- It simplifies everything from troubleshooting to training/onboarding and general how-to and support questions
+- strong knowledge base will find your organization is more nimble and able to deliver faster service.
+
+- A knowledge base is used by companies/businesses/teams to help with structuring information that can be used to help the team draw upon.
+- It is an online library that holds information about a particular product/service/department/topic.
+- A knowledge base holds a range of information – including:
+  - FAQs
+  - Manuals
+  - Troubleshooting guides
+  - Runbooks
+
+Along with any other information the team may want/need to know.
+
+- Implemented Knowledge bases simplify any new training/onboarding with the convenience of having all relevant information in one area.
+- Having a strong and detailed knowledge base will allow the team to develop and deliver outcomes faster.
+
+How to build a knowledge base
+
+1. Determine that you need one
+   - The Thoth Tech company has determined that with the implementation of a knowledge base, development and production for new members will become more efficient.
+1. Determine what topics/information should be covered
+   - Outline an initial list of topics that the knowledge base should cover. (ie. project outline, how to use Confluence, how to commit messages and commit pull requests on GitHub, etc.)
+1. Customise pages. Stay consistent
+   - Create a style guide, so that all of the information you pour into your knowledge base looks and sounds the same. This covers the entire visual presentation including font, type size, colors, and even images.  
+1. Get your content together.
+   - Collect FAQs (and answers) from any department that provides service. And we mean any department, like the guys who build trade shows, the people in IT, HR. Teams across the organization all can and should contribute to your knowledge base. And they should be part of the knowledge management process that maintains it.
+1. Customize pages. Stay consistent.
+   - Create a style guide, so that all of the information you pour into your knowledge base looks and sounds the same. This covers the entire visual presentation including font, type size, colors, and even images.  
+1. Find your voice and stick with it.
+   - Figure out how your company or organization talks.
+1. Get the right tools to manage it.
+   - Make sure you have the right tools for hosting and managing your knowledge base.
+1. Make it easy. And keep it that way
+   - Once it’s up and running, remember that your knowledge base is a self-serve operation. You’ll need to make sure your knowledge base is easy to navigate. And easy to use. Allow contributors to use speed-templates to upload data.
+1. Keep it relevant. And up to date.
+   - This is where the creation of your knowledge base flows into the ongoing task of knowledge management. Implement a system of analytics, so you understand how people are using your content. Allow users to leave feedback and ratings.
+
+### CONFLUENCE RESEARCH
+
+Confluence
+
+- Confluence a digital brain for your organisation
+- Stores standards and processes
+- Write your apps changelog in confluence
+
+Confluence terms
+
+- Pages
+  - Pages are where content lives
+- Macros
+  - Dynamic content on pages
+- Spaces
+  - Where the pages live
+  - A way of organizing all the things we want to store
+
+Space types
+
+- Team space
+  - Need to be created be an admin
+  - Intended to be used be our whole organisation
+- Personal space
+  - Can be created by anyone
+  - Are intended to be used individually
+
+Both can contain the same type of content
+
+creating a personal space
+
+- Click user on top right
+- Click add personal space
+- Name space
+
+Navigate personal space
+
+- In the left column, overview, blog and space settings are located
+
+Creating a page in personal space
+
+- Navigate into space
+- Click create in top row
+- Enter a page title
+- On the right column, choose what template to use, or Enter any content bellow title
+- Enter content then click publish when finished
+
+Delete a personal space
+
+- Go to space settings
+- Under manage space, press delete space
+
+Creating and pages in a team space
+
+- Creating a team space requires confluence admin permissions
+- In spaces in the top row, press create a space
+- Choose blank space, or choose template
+- Give space name a name
+- Space key requires a unique key as it is required in the URL
+- Press create
+
+- In the team space, press create
+- Choose from template or start adding content
+
+Page drafts and unpublished versions
+
+- When creating a page, press close instead of publish
+- Press recent, then into drafts
+- OR go to homepage, and find the draft tab
+
+Once the page is published for the first time, any new content added into page but not published can be seen by editing original page
+
+On the top right 3 dots, click view changes to see what has been changed
+
+Editing an existing page
+
+- Once the page has been created with the template,  
+
+### BOOKSTACK RESEARCH
+
+- BookStack is an open-source documentation platform.
+- It provides a user-friendly interface for creating and organizing documentation.
+- It offers features for content structuring, version control, and collaboration.
+- BookStack enables users to create pages, chapters, and books to organize their documentation.
+- It supports rich text formatting, including headings, lists, tables, and images.
+- BookStack includes a powerful search functionality for quick access to information.
+- Users can collaborate and contribute to documentation through permissions and roles.
+- It supports revision history and allows for the rollback of changes if needed.
+- BookStack offers customization options through themes and plugins.
+- It has an active community and ecosystem for support, updates, and third-party integrations.
+- BookStack is designed to be self-hosted, giving users control over their documentation environment.
+- It provides security measures to protect user data and ensure data integrity.
+- BookStack is licensed under the MIT License, allowing for free use and modification.
+- It offers both a cloud-hosted solution and a self-hosted option for deployment.
+- BookStack has a growing user base and is continually improving through community contributions and updates.
+
+Bookstack tools:
+
+- Page Editor: BookStack provides a visual page editor where users can create and edit content using a rich text editor with formatting options.
+
+- Content Organization: Users can structure their documentation using chapters, books, and pages, allowing for hierarchical organization and easy navigation.
+- Version Control: BookStack supports version control, allowing users to track changes made to their documentation over time and revert to previous versions if needed.
+
+- Collaboration Tools: BookStack offers collaboration features, such as user roles and permissions, enabling multiple users to contribute and collaborate on documentation.
+- Search Functionality: BookStack includes a powerful search functionality that allows users to quickly search and find specific information within the documentation.
+- Media Management: Users can upload and manage images, files, and other media within BookStack, making it convenient to include multimedia content in the documentation.
+- Comments and Discussions: BookStack allows users to add comments and engage in discussions on specific pages or sections of the documentation, fostering collaboration and feedback.
+- Notifications: BookStack provides notifications to keep users informed about updates, comments, and activities related to the documentation.
+- Theme Customization: Users can customize the look and feel of their BookStack instance by choosing from available themes or creating their own custom themes.
+- Plugin System: BookStack has a plugin system that allows users to extend the functionality of the platform by integrating additional features and integrations.
+- Import and Export: BookStack supports importing and exporting content, making it easy to migrate existing documentation or backup data.
+- Accessibility: BookStack aims to be accessible to all users, adhering to web accessibility standards and providing features that enhance accessibility.
+- User Management: BookStack provides user management capabilities, allowing administrators to create and manage user accounts, roles, and permissions.
+- API: BookStack offers an API that enables integration with external systems and the ability to automate tasks or interact with the platform programmatically.
+- Mobile Responsiveness: BookStack is designed to be mobile responsive, ensuring that users can access and navigate documentation on various devices, including smartphones and tablets.
+
+### KNOWLEDGE BASE STRUCTURE
+
+- Testing
+  - Manual testing
+    - Test cases and scenarios
+    - Testing processes and methodologies
+  - Automated testing
+    - Test automation tools and frameworks
+    - Test automation best practices
+  - Regression testing
+    - Regression testing processes and methodologies
+    - Regression testing tools and frameworks
+- Front End Development
+  - HTML
+    - HTML tags and attributes
+    - HTML best practices
+  - CSS
+    - CSS selectors and properties
+    - CSS best practices
+  - JavaScript
+    - JavaScript syntax and structures
+    - JavaScript libraries and frameworks
+- Dockerisation/Deployment
+  - Docker basics
+  - Docker concepts and terminology
+  - Docker installation and configuration
+  - Docker orchestration
+    - Docker Swarm
+    - Kubernetes
+  - Deployment tools
+    - Continuous integration and deployment (CI/CD) tools
+    - Deployment best practices
+- Cyber Security
+  - Network security
+    - Firewall configurations and best practices
+    - Network security protocols
+  - Application security
+    - Web application security best practices
+    - Application security testing tools
+  - Data security
+    - Data encryption techniques
+    - Data security protocols
+- Documentation
+  - Technical writing
+    - Writing technical documents
+    - Document formatting and templates
+  - Knowledge management
+    - Knowledge sharing tools and best practices
+    - Collaboration and communication tools
