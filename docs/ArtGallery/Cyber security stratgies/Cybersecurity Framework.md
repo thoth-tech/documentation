@@ -1,4 +1,4 @@
-A Comprehensive Cybersecurity Strategy for the Art Gallery Project:
+git A Comprehensive Cybersecurity Strategy for the Art Gallery Project:
 Combining Essential Eight, NIST Cybersecurity Framework, and CIS
 Critical Security Controls
 
