@@ -64,4 +64,3 @@ File name is based on the html page name e.g. exhibition.spec.cy.js
 
 To run the user login test, you will need to run the signup test first.  
 If you need to run the signup test again you will need to delete the user it creates from the backend database.
-

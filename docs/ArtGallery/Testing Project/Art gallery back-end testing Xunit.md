@@ -2,7 +2,6 @@
 
 #### Information and Dependencies
 
-<https://github.com/thoth-tech/art-gallery-backend.git>, is a Git repository hosting the backend codebase for an art gallery application. 
 Programming Language and Framework: programming language and framework used in the backend project or by me as well is C# language and Microsoft .Net framework.
 APIs and External Services: external services or APIs integrated into the project. These include image hosting services, or any other third-party services used by the backend.
 Authentication and Authorization: Authentication and authorization mechanisms implemented in the project. This involve technologies like OAuth, JSON Web Tokens (JWT), or session-based authentication.
@@ -48,4 +47,3 @@ Testing Instructions: I used Xunit testing suite and Microsoft studio’s framew
 #### Additional Notes
 
 Around 20% of the tests currently fail. 
-

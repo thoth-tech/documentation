@@ -21,4 +21,3 @@ There has been a discussion around changing the technology stack for the Art-Gal
 If this was to occur the tests would need to be reviewed and ported over to the new system.
 
 A list of all the current tests are in the documentation.
-
