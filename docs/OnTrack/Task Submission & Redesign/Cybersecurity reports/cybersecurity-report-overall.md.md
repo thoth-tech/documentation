@@ -18,11 +18,11 @@ An SS attack involves injecting malicious code into web pages viewed by users in
 
 - DDoS (Distributed Denial of Service) Attacks
 
-A DDoS attack uses a large number of compromised devices (botnet) to flood a website’s server with a tremendous amount of traffic or requests. As a result, the server cannot handle legitimate user requests because of its exhaustion of resources.
+A DDoS attack uses a large number of compromised devices (botnet) to flood a website server with a tremendous amount of traffic or requests. As a result, the server cannot handle legitimate user requests because of its exhaustion of resources.
 
 - CSRF (Cross Site Request Forgery)
 
-As a confused deputy cyber-attack, CSRF exploits users’ credentials by tricking them into inadvertently using their credentials to change their state, such as moving money from their account, changing their email address and changing their password.
+As a confused deputy cyber-attack, CSRF exploits users credentials by tricking them into inadvertently using their credentials to change their state, such as moving money from their account, changing their email address and changing their password.
 
 - SQL (Structured Query Language) Injection Attacks
 
@@ -54,7 +54,7 @@ A brute force attack involves trial and error in decoding private data. The most
 
 ## **3.0Potential Threats and Vulnerabilities**
 
-Keeping sensitive information secure and ensuring the integrity of online platforms is paramount in today’s digital world. As a result of the nature of the OnTrack website, it is particularly vulnerable to various threats. This is why it is essential to identify potential vulnerabilities and take appropriate steps to address them.
+Keeping sensitive information secure and ensuring the integrity of online platforms is paramount in todays digital world. As a result of the nature of the OnTrack website, it is particularly vulnerable to various threats. This is why it is essential to identify potential vulnerabilities and take appropriate steps to address them.
 
 1. Web Architecture
    1. Taking advantage of software vulnerabilities in order to execute malicious code.
@@ -63,7 +63,7 @@ Keeping sensitive information secure and ensuring the integrity of online platfo
 1. Network Security Threats
 
 - Interception of communication between users and the website through MitM (Man- in-the-Middle) attacks.
-- Attacks that cripple the website’s availability, such as Distributed Denial of Service (DDoS).
+- Attacks that cripple the website availability, such as Distributed Denial of Service (DDoS).
 - Insecure Wi-Fi networks, for instance, increase the risk of eavesdropping.
   - Data Security Risks
 - Unauthorised access to sensitive data due to inadequate encryption.
@@ -144,7 +144,7 @@ Vulnerability management is an important part in ensuring the prevention of atta
 
 1.Consistent Monitoring
 
-Regularly monitor the website and its components for known vulnerabilities using an automated vulnerability scanning tool. Update the vulnerability scanner’s database frequently to ensure the newer vulnerabilities are detected.
+Regularly monitor the website and its components for known vulnerabilities using an automated vulnerability scanning tool. Update the vulnerability scanner database frequently to ensure the newer vulnerabilities are detected.
 
 2.Patch and Updates Management
 

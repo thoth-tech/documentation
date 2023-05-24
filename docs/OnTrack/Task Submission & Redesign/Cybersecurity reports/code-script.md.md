@@ -6,7 +6,7 @@ Attached below is a basic code script of a malware-detection program that can be
 
 The code conducts a few checks to ensure the security of the files. The first check is checking if a file is an executable file with the “.exe” extension. If that is not the case, the code checks if the file is an executable file disguised as a different file type. If this does not occur to be the case, the code checks if the file contains or is very similar to any viruses that are recognised in a specific online database. Finally, the code checks the text in the document to ensure that there are no suspicious patterns that could be malicious.
 
-## **Code:**
+**Code:**
 
 - To work with file paths from pathlib import Path
 - To import hashlib import hashlib
