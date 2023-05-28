@@ -2,9 +2,16 @@
 
 (Malware-detection Program)
 
-Attached below is a basic code script of a malware-detection program that can be worked with to ensure that the additional files uploaded by students do not contain any suspicious or malicious content.
+Attached below is a basic code script of a malware-detection program that can be worked with to
+ensure that the additional files uploaded by students do not contain any suspicious or malicious
+content.
 
-The code conducts a few checks to ensure the security of the files. The first check is checking if a file is an executable file with the “.exe” extension. If that is not the case, the code checks if the file is an executable file disguised as a different file type. If this does not occur to be the case, the code checks if the file contains or is very similar to any viruses that are recognised in a specific online database. Finally, the code checks the text in the document to ensure that there are no suspicious patterns that could be malicious.
+The code conducts a few checks to ensure the security of the files. The first check is checking if a
+file is an executable file with the “.exe” extension. If that is not the case, the code checks if
+the file is an executable file disguised as a different file type. If this does not occur to be the
+case, the code checks if the file contains or is very similar to any viruses that are recognised in
+a specific online database. Finally, the code checks the text in the document to ensure that there
+are no suspicious patterns that could be malicious.
 
 **Code:**
 
@@ -22,7 +29,8 @@ def do_all_checks(submission_path):
 
 Step 1:Check if the file itself could be malicious
 
-Step 1a: Check if the path has a suspicious extension (e.g. '.exe') Step 1b: Check if the file is executable
+Step 1a: Check if the path has a suspicious extension (e.g. '.exe') Step 1b: Check if the file is
+executable
 
 Step 1c: Check if the file is a known virus (compare with a Virus Database API)
 
@@ -38,7 +46,8 @@ Step 2d: Chekc if the urls are known to be malicious (compare with a Malicious U
 
 """
 
-- Step 1:Check if the file itself could be malicious step_1a = is_suspicious_file_extension(submission_path) step_1b = is_file_executable(submission_path)
+- Step 1:Check if the file itself could be malicious step_1a =
+  is_suspicious_file_extension(submission_path) step_1b = is_file_executable(submission_path)
 
 step_1c = is_file_a_known_virus(submission_path)
 
@@ -101,7 +110,8 @@ def is_file_executable(submission_path):
 
 """Opens the file in binary mode and reads the first two bytes.
 
-The logic checks if the first two bytes are MZ. The first two bytes of an executable file are always MZ.
+The logic checks if the first two bytes are MZ. The first two bytes of an executable file are always
+MZ.
 
 """
 
@@ -121,7 +131,8 @@ return False
 
 def is_file_a_known_virus(submission_path):
 
-"""Checks if the file's signature is in a well known database (VirusTotal.com). Checks if the file's hash is known to be malicious by querying VirusTotal.
+"""Checks if the file's signature is in a well known database (VirusTotal.com). Checks if the file's
+hash is known to be malicious by querying VirusTotal.
 
 """
 
@@ -197,7 +208,8 @@ r"document\.write", # Wri ng to the HTML document ]
 
 sql_pa erns = [
 
-r"(\s+|;)(drop|truncate|delete|update|insert)\s+table", # SQL destruc ve ac ons r"(\s+|;)exec(\s|\()", # SQL EXEC command
+r"(\s+|;)(drop|truncate|delete|update|insert)\s+table", # SQL destruc ve ac ons
+r"(\s+|;)exec(\s|\()", # SQL EXEC command
 
 r"(\s+|;)xp_cmdshell", # SQL Server xp_cmdshell func on
 
