@@ -1,0 +1,109 @@
+<mat-card class="card-dashboard">
+  <mat-card-content>
+    <div class="body-container">
+      <div class="header-container">
+        <h1 class="title-text">Upload History Displayer</h1>
+      </div>
+      <div class="task-container">
+        <div class="task-title">
+          <div class="title-items">
+            <div class="title-items-title">Task 1.1P</div>
+            <div class="title-items-status">
+              <strong>Completed</strong>
+            </div>
+            <div class="title-items-upload"><strong>3</strong> Files Uploaded</div>
+            <div class="title-items-hide">
+              <button class="dropdown-btn">
+                <span class="material-symbols-outlined">expand_less</span>
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <div class="task-uploads">
+          <div class="uploads-left"></div>
+
+          <div class="uploads-right">
+            <div class="right-item">
+              <div class="right-item-title">s1_code.cpp</div>
+              <div class="right-item-download">
+                <span class="download-icon material-symbols-outlined">download</span>
+              </div>
+              <div class="right-item-date"><strong>Uploaded: </strong>04/03/2023</div>
+              <div class="right-item-display">
+                <label for="display-checkbox">Display:</label>
+                <input type="checkbox" id="first-item-checkbox" [(ngModel)]="isChecked" />
+              </div>
+            </div>
+            <div class="right-item middle-task">
+              <div class="right-item-title">s1_answers.pdf</div>
+              <div class="right-item-download">
+                <span class="download-icon material-symbols-outlined">download</span>
+              </div>
+              <div class="right-item-date"><strong>Uploaded: </strong>04/03/2023</div>
+              <div class="right-item-display">
+                <label for="display-checkbox">Display:</label>
+                <input type="checkbox" onclick="return false" />
+              </div>
+            </div>
+            <div class="right-item">
+              <div class="right-item-title">s1_code_reupload.cpp</div>
+              <div class="right-item-download">
+                <span class="download-icon material-symbols-outlined">download</span>
+              </div>
+              <div class="right-item-date"><strong>Uploaded: </strong>11/03/2023</div>
+              <div class="right-item-display">
+                <label for="display-checkbox">Display:</label>
+                <input
+                  (change)="computeDiff()"
+                  type="checkbox"
+                  id="first-item-checkbox"
+                  [(ngModel)]="isAlsoChecked"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="task-title">
+          <div class="title-items">
+            <div class="title-items-title">Task 2.1P</div>
+            <div class="title-items-status">
+              <strong>Not Started</strong>
+            </div>
+            <div class="title-items-upload"><strong>0</strong> Files Uploaded</div>
+            <div class="title-items-hide">
+              <button class="dropdown-btn">
+                <span class="material-symbols-outlined">expand_more</span>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="displayer-container">
+        <div class="display-header">Submission Viewer</div>
+        <div class="displayer-header-task">
+          <div class="displayer-task" id="first-title-text" *ngIf="isChecked">s1_code.cpp</div>
+          <div class="displayer-task" *ngIf="isAlsoChecked">s1_code_reupload.cpp</div>
+          <div class="displayer-task task-status-fix" id="first-status-text" *ngIf="isChecked">
+            <strong>Status: </strong> Fix/Resubmit
+          </div>
+          <div class="displayer-task task-status-complete" *ngIf="isAlsoChecked">
+            <strong>Status: </strong> Complete
+          </div>
+        </div>
+        <div class="file-displayer">
+          <div class="display-box" id="first-display" *ngIf="isChecked">
+            <img src="../../../assets/s1_code.PNG" class="test-img" />
+          </div>
+          <div class="display-box" *ngIf="isAlsoChecked">
+            <img src="../../../assets/s1_code_reupload.PNG" class="test-img" />
+          </div>
+        </div>
+      </div>
+    </div>
+    <button class="tester-btn" (click)="openDialog()">
+      <span class="material-symbols-outlined">step_out</span>
+    </button>
+  </mat-card-content>
+</mat-card>
