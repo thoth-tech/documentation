@@ -16,6 +16,7 @@
     "npm": "^8.5.0"
   },
   "dependencies": {
+    "i": "^0.3.7",
     "markdownlint": "^0.26.0"
   }
 }
