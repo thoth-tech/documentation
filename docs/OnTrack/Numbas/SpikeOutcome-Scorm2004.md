@@ -6,7 +6,7 @@
 
 **Title:** Understanding the SCORM 2004 API structure
 
-**Author:** Daniel Maddern, maddernd@deakin.edu.au
+**Author:** Daniel Maddern, <maddernd@deakin.edu.au>
 
 ## Goals / Deliverables
 
@@ -29,12 +29,12 @@ List of information needed by someone trying to reproduce this work\
 
 Key Tasks
 
-- Review the key functions avaiable in SCORM 2004 (https://scorm.com/scorm-explained/technical-scorm/run-time/run-time-reference/)
+- Review the key functions avaiable in SCORM 2004 (<https://scorm.com/scorm-explained/technical-scorm/run-time/run-time-reference/>)
 
 - See how each function could be applied to NUMBAS
 
 - Test the functionality out in the PoC
- 
+
 ## What we found out
 
 There are some big changes between SCORM 1.1 and 2004, the key methods used in 2004 are:
@@ -85,9 +85,7 @@ By making use of the flags in the data model we can implement a resume test func
 
 A new end point will need to be created to store the suspend data json string, as well as the Attempt number, status and isnew flag.
 
-
-
-## Recommendations 
+## Recommendations
 
 It is reccomended to build out the new endpoint needed in the PoC and then to implement a resume test functionality there
 
