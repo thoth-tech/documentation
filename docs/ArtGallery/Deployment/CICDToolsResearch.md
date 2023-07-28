@@ -88,7 +88,7 @@ deployment.
 
 **Cons:**
 
-- License required for commercial use (does that include us?)
+- Licence required for commercial use (does that include us?)
 - Free tier is limited
 - On-premise service, infrastructure management required
 
