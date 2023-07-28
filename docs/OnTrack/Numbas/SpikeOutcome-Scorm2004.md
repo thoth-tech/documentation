@@ -1,4 +1,4 @@
-# \*\*Spike Outcomes
+# Spike Outcomes
 
 ==================
 
@@ -29,7 +29,7 @@ List of information needed by someone trying to reproduce this work\
 
 Key Tasks
 
-- Review the key functions avaiable in SCORM 2004 (<https://scorm.com/scorm-explained/technical-scorm/run-time/run-time-reference/>)
+- Review the key functions available in SCORM 2004 (<https://scorm.com/scorm-explained/technical-scorm/run-time/run-time-reference/>)
 
 - See how each function could be applied to NUMBAS
 
@@ -79,7 +79,7 @@ They Key Data Model elements for our use are:
 
 - cmi.success_status (“passed”, “failed”, “unknown”, RW) Indicates whether the learner has mastered the SCO
 
-- cmi.session_time (timeinterval (second,10,2), WO) Amount of time that the learner has spent in the current learner session for this SCO
+- cmi.session_time (time interval (second,10,2), WO) Amount of time that the learner has spent in the current learner session for this SCO
 
 By making use of the flags in the data model we can implement a resume test functionality, this will be done by saving the suspend data json string in the DB.
 
@@ -89,10 +89,8 @@ A new end point will need to be created to store the suspend data json string, a
 
 It is reccomended to build out the new endpoint needed in the PoC and then to implement a resume test functionality there
 
-prior to starting the build in Ontrack. The new Endpoint would be in addtion to the current Numbas API that streams the test.
+prior to starting the build in Ontrack. The new Endpoint would be in addition to the current Numbas API that streams the test.
 
 It would need a get and put functionlaity and would be making use of cmi.mode, cmi.suspend_data during both Commit and Terminate functions.
 
-We also need to move the intitaliztion of the Window object outside of the launch test in the front end Angualer code.
-\*\*
-\*\*
+We also need to move the intitaliztion of the Window object outside of the launch test in the front end Angular code.
