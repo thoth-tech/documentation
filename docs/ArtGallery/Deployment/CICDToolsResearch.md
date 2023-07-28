@@ -92,16 +92,16 @@ deployment.
 - Free tier is limited
 - On-premise service, infrastructure management required
 
-|---------------------------------|Jenkins-CircleCI-GitLab-GitHub Actions-TeamCity-|
-|Completely free                  |   ✓   |   ✗    |  ✗   |      ✗       |    ✗    |
-|Free-tier available              |   ✓   |   ✓    |  ✓   |      ✓       |    ✓    |
-|Cloud hosted                     |   ✗   |   ✓    |  ✗   |      ✓       |    ✗    |
-|Branch-specific deployment       |   ✓   |   ✓    |  ✓   |      ✓       |    ✓    |
-|Natively integration with GitHub |   ✓   |   ✓    |  ✓   |      ✓       |    ✓    |
-|Native support for Docker        |   ✗   |   ✓    |  ✓   |      ✓       |    ✗    |
-|Ease of setup/config             |   ✗   |   ✓    |  ✓   |      ✓       |    ✓    |
-|Well-established tool            |   ✓   |   ✓    |  ✗   |      ✗       |    ✓    |
-|----------------------------------------------------------------------------------|
+┌----------------------------------Jenkins-CircleCI-GitLab-GitHub Actions-TeamCity ┐
+|Completely free------------------┼-- ✓ --┼-- ✗ ---┼- ✗ --┼----- ✗ ------┼--- ✗ ---|
+|Free-tier available--------------┼-- ✓ --┼-- ✓ ---┼- ✓ --┼----- ✓ ------┼--- ✓ ---|
+|Cloud hosted---------------------┼-- ✗ --┼-- ✓ ---┼- ✗ --┼----- ✓ ------┼--- ✗ ---|
+|Branch-specific deployment-------┼-- ✓ --┼-- ✓ ---┼- ✓ --┼----- ✓ ------┼--- ✓ ---|
+|Natively integration with GitHub-┼-- ✓ --┼-- ✓ ---┼- ✓ --┼----- ✓ ------┼--- ✓ ---|
+|Native support for Docker--------┼-- ✗ --┼-- ✓ ---┼- ✓ --┼----- ✓ ------┼--- ✗ ---|
+|Ease of setup/config-------------┼-- ✗ --┼-- ✓ ---┼- ✓ --┼----- ✓ ------┼--- ✓ ---|
+|Well-established tool------------┼-- ✓ --┼-- ✓ ---┼- ✗ --┼----- ✗ ------┼--- ✓ ---|
+└──--------------------------------------------------------------------------------┘
 
 **Recommendation:** GitHub Actions is the best choice as a CI/CD pipeline tool in this project. The
 team is already familiar with this tool given the currently utilised CI pipeline. Additionally, the
