@@ -2,7 +2,8 @@
 
 Author: Chloe Hulme
 
-Research discussing popular CI/CD tools, and which is best suited to automating the Art Gallery's deployment.
+Research discussing popular CI/CD tools, and which is best suited to automating the Art Gallery's
+deployment.
 
 ## Jenkins
 
@@ -46,7 +47,7 @@ Research discussing popular CI/CD tools, and which is best suited to automating 
 
 - Integrates with GitHub
 - Free tier
-- Setup and configuration straightforward 
+- Setup and configuration straightforward
 - Easily defined pipelines using ‘.gitlab-ci.yml’
 - Supports Docker
 - Cloud hosted or on-premise service
@@ -63,7 +64,7 @@ Research discussing popular CI/CD tools, and which is best suited to automating 
 
 - Native integration with GitHub repositories (easy setup and configuration)
 - Generous free tier for public repositories
-- Offers a variety of pre-built actions 
+- Offers a variety of pre-built actions
 - We already have a working CI pipeline here that can be extended
 - Supports Docker
 - Cloud-hosted service
@@ -102,6 +103,11 @@ Research discussing popular CI/CD tools, and which is best suited to automating 
 |Well-established tool            |   ✓   |   ✓    |  ✗   |      ✗       |    ✓    |
 |----------------------------------------------------------------------------------|
 
-**Recommendation:** GitHub Actions is the best choice as a CI/CD pipeline tool in this project. The team is already familiar with this tool given the currently utilised CI pipeline. Additionally, the generous free tier makes this an attractive choice. Finally, centralising our work will allow us to streamline future changes/fixes to our pipeline as the team inevitably hands the project over to future cohorts.
+**Recommendation:** GitHub Actions is the best choice as a CI/CD pipeline tool in this project. The
+team is already familiar with this tool given the currently utilised CI pipeline. Additionally, the
+generous free tier makes this an attractive choice. Finally, centralising our work will allow us to
+streamline future changes/fixes to our pipeline as the team inevitably hands the project over to
+future cohorts.
 
-UPDATE (27/7): After discussion with the client, it is confirmed that GitHub Actions will be our CI/CD tool of choice.
+UPDATE (27/7): After discussion with the client, it is confirmed that GitHub Actions will be our
+CI/CD tool of choice.
