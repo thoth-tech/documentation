@@ -15,7 +15,7 @@ successful use of the `skm new` command on windows as well as a successful compi
 
 ### Functions Used (Link to Splashkit documentation)
 
-1. Write (https://splashkit.io/api/terminal/#write)
+1. [Write](https://splashkit.io/api/terminal/#write)
 
 ### Table of Contents
 
