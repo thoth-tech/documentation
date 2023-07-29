@@ -20,25 +20,25 @@ successful use of the `skm new` command on windows as well as a successful compi
 ### Table of Contents
 
 1. **[Installing and compiling a C++ Splashkit programme on windows]**
+
    - Installation of the MSYS2 terminal
    - Installation of the Splashkit SDK
    - Installation of Visual Studio Code / Language Tools
    - Hello World compile
-
 
 2. **[Installing and compiling a C# Splashkit programme on windows]**
+
    - Installation of the MSYS2 terminal
    - Installation of the Splashkit SDK
    - Installation of Visual Studio Code / Language Tools
    - Hello World compile
-
 
 3. **[Installing and compiling a Python Splashkit programme on windows]**
+
    - Installation of the MSYS2 terminal
    - Installation of the Splashkit SDK
    - Installation of Visual Studio Code / Language Tools
    - Hello World compile
-
 
 4. **[Installing and compiling a Pascal Splashkit programme on windows]**
 
@@ -46,7 +46,6 @@ successful use of the `skm new` command on windows as well as a successful compi
    - Installation of the Splashkit SDK
    - Installation of Visual Studio Code / Language Tools
    - Hello World compile
-
 
    Maybe consolidate first two/three steps into a single tutorial, it would just be copy-pasting the
    first parts of each to every other otherwise. Maybe that would be OK though, given that it's
@@ -60,7 +59,6 @@ successful use of the `skm new` command on windows as well as a successful compi
    - Installation of the MSYS2 terminal
    - Installation of the Splashkit SDK
 
-
    2. **[Installing Visual Studio Code / FreePascal(?) on windows]**
 
    - Installation of Visual Studio Code
@@ -68,7 +66,6 @@ successful use of the `skm new` command on windows as well as a successful compi
      langauge down except this one, FreePascal is an IDE and Compiler, trying to see if it can be
      rooted into VSCode, as well as how to get splashkit to be identified successfully without
      compile errors
-
 
    3. **[Hello Splashkit on windows]**
 
