@@ -79,7 +79,7 @@
 - As a part time student, I want to be able to edit my course map so that I can have a lower
   workload while also graduating as quickly as possible.
 
-- As a lecturer, I want passionate students to enroll in my unit as an elective based on suggestions
+- As a lecturer, I want passionate students to enrol in my unit as an elective based on suggestions
   made to them regarding their interests so that I can teach passionate students.
 
 - As a student thinking of reattempting or deferring units, I want to understand how my unit
