@@ -11,7 +11,7 @@ This documentation outlines the functionality and the way the new feature is goi
 - Create a test case for front end that upheld the user experience of the feature.
 - UML Diagram
 - Create a UML diagram that will show the flow of incorporating content on Ontrack and the flow during the process.  
-- ` `How it will interact with front end, backend as well as with other features that are already in place.
+- How it will interact with front end, backend as well as with other features that are already in place.
 - Coding
 - Code the new feature, that will allow unit chairs to host content and make it accessible for students to view.
 - Code the part where it will allow student to access content from their end. 
