@@ -1,4 +1,3 @@
-using System.Security.Cryptography;
 using System;
 using SplashKitSDK;
 
@@ -91,7 +90,7 @@ namespace KCB_test
             }
         }
 
-        private static void KeyEventDown(int code)  // key held, Depending on keyboard, holding N number of keys can cause this to stop
+        private static void KeyEventDown(int code)  // key held
         {
             kcb_Down_Held++;
         }
