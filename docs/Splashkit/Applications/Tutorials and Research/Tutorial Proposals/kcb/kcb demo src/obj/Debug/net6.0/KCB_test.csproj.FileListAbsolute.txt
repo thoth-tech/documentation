@@ -1,0 +1,15 @@
+C:\Users\PF\Desktop\bb\projjy\VSC\KCB_test\bin\Debug\net6.0\KCB_test.exe
+C:\Users\PF\Desktop\bb\projjy\VSC\KCB_test\bin\Debug\net6.0\KCB_test.deps.json
+C:\Users\PF\Desktop\bb\projjy\VSC\KCB_test\bin\Debug\net6.0\KCB_test.runtimeconfig.json
+C:\Users\PF\Desktop\bb\projjy\VSC\KCB_test\bin\Debug\net6.0\KCB_test.dll
+C:\Users\PF\Desktop\bb\projjy\VSC\KCB_test\bin\Debug\net6.0\KCB_test.pdb
+C:\Users\PF\Desktop\bb\projjy\VSC\KCB_test\obj\Debug\net6.0\KCB_test.csproj.AssemblyReference.cache
+C:\Users\PF\Desktop\bb\projjy\VSC\KCB_test\obj\Debug\net6.0\KCB_test.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\PF\Desktop\bb\projjy\VSC\KCB_test\obj\Debug\net6.0\KCB_test.AssemblyInfoInputs.cache
+C:\Users\PF\Desktop\bb\projjy\VSC\KCB_test\obj\Debug\net6.0\KCB_test.AssemblyInfo.cs
+C:\Users\PF\Desktop\bb\projjy\VSC\KCB_test\obj\Debug\net6.0\KCB_test.csproj.CoreCompileInputs.cache
+C:\Users\PF\Desktop\bb\projjy\VSC\KCB_test\obj\Debug\net6.0\KCB_test.dll
+C:\Users\PF\Desktop\bb\projjy\VSC\KCB_test\obj\Debug\net6.0\refint\KCB_test.dll
+C:\Users\PF\Desktop\bb\projjy\VSC\KCB_test\obj\Debug\net6.0\KCB_test.pdb
+C:\Users\PF\Desktop\bb\projjy\VSC\KCB_test\obj\Debug\net6.0\KCB_test.genruntimeconfig.cache
+C:\Users\PF\Desktop\bb\projjy\VSC\KCB_test\obj\Debug\net6.0\ref\KCB_test.dll
