@@ -43,7 +43,7 @@ Readers should have:
 
 1. **Source Files and Includes**
 
-   - Organizing source files for building the SplashKit core library.
+   - Organising source files for building the SplashKit core library.
    - Including directories and header files.
 
 1. **Building the SplashKit Core Library**
@@ -62,7 +62,7 @@ This tutorial will provide a comprehensive explanation of the CMakeLists.txt fil
 SplashKit core library. It will cover directory setup, platform detection, linking libraries,
 handling source files, and compiling the shared library on different platforms. The tutorial is
 aimed at computer science students and programmers who want to gain a deeper understanding of CMake
-and learn to customize it for their projects.
+and learn to customise it for their projects.
 
 ### Expected Learning Outcomes
 
@@ -71,13 +71,13 @@ After completing this tutorial, readers will:
 - Understand the structure and purpose of CMakeLists.txt in building the SplashKit core library.
 - Know how to configure CMake for different platforms (Windows, macOS, Linux).
 - Be able to link libraries and frameworks with the SplashKit project.
-- Learn how to organize source files and include directories effectively.
+- Learn how to organise source files and include directories effectively.
 - Feel confident in modifying CMakeLists.txt for their own projects.
 
 ### Conclusion
 
 Understanding CMakeLists.txt is a valuable skill for readers interested in managing complex build
 processes. By mastering the concepts presented in this tutorial, readers will be well-equipped to
-work with CMake and customize it according to the requirements of their projects. So, let's delve
+work with CMake and customise it according to the requirements of their projects. So, let's delve
 into the world of CMake and unleash the full potential of SplashKit in game development and
 multimedia applications!
