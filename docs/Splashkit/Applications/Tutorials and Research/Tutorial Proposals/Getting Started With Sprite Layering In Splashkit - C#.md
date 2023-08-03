@@ -36,8 +36,8 @@ sprites to create visually appealing scenes without excess Sprite / Bitmap manag
 2. **[Creation of practical use case]**
 
    - Show practical instantiation of previously taught concepts for a more practical use case (maybe
-     for first section, use explicit sprites that are labelled for easier tutorial understanding, one
-     in the corner or information drawn onto the sprite for example)
+     for first section, use explicit sprites that are labelled for easier tutorial understanding,
+     one in the corner or information drawn onto the sprite for example)
    - Highlight use cases for sprite layers (shifting background maybe)
 
 ### Tutorial Details
