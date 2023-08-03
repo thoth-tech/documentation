@@ -3,7 +3,6 @@
 title: Using Key Callbacks
 date: 2023-07-30 06:21 UTC
 author: Ro
-author_url:
 tags: Input
 summary: |
   Key Callbacks provide a method to indirectly run commands based on detected key events.
@@ -103,7 +102,7 @@ The KeyCode enumerable can be used instead for the dictionary keys, and can help
 Once you have a function to be used for callbacks, a KeyCallback object is
 needed to refer to the function and be registered for process event to be aware of.
 
-```C#
+```c#
 
 public KeyCallback kcb;
 
