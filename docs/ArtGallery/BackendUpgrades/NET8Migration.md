@@ -29,7 +29,7 @@ compatible with new technologies and platforms, if we take this proactive step t
 
 ## What's new in .NET 8
 
-- Improvements to JSON serialisation and deserialisation. This is impacting System.Text.Json.
+- Improvements to JSON serialisation and deserialisation. This is impacting `System.Text.Json`.
 - Introduction of Time abstraction, including timers with the new TimeProvider class and ITimer
   interface.
 - UTF-8 improvements
@@ -61,7 +61,7 @@ need to modify some parts of our source code to make it compatible with the new 
 
 **Behavioral changes:** These are changes in .NET 8 that can cause our app, even if it's
 successfully compiled with .NET 8, to behave differently than before when it runs. If this new
-behavior is not what we want, we will need to update our app's code to handle the changes correctly
+behaviour is not what we want, we will need to update our app's code to handle the changes correctly
 and then recompile it with .NET 8.
 
 So, before we migrate our app to .NET 8, we need to be aware of these possible issues and check if
@@ -110,8 +110,8 @@ NuGet packages may be out of date, this will impact the API until rectified.
 
 ## Potential enhancements to implement in our API
 
-- Data validation (System.ComponentModel.DataAnnotations.AllowedValuesAttribute,
-  System.ComponentModel.DataAnnotations.LengthAttribute) to validate dates for artists and artworks,
+- Data validation (`System.ComponentModel.DataAnnotations.AllowedValuesAttribute`,
+  `System.ComponentModel.DataAnnotations.LengthAttribute`) to validate dates for artists and artworks,
   as well as a length attribute to help validate passwords.
 - An updated hashing algorithm to explore for password security. We are currently using bearer token
   authentication.
