@@ -111,8 +111,8 @@ NuGet packages may be out of date, this will impact the API until rectified.
 ## Potential enhancements to implement in our API
 
 - Data validation (`System.ComponentModel.DataAnnotations.AllowedValuesAttribute`,
-  `System.ComponentModel.DataAnnotations.LengthAttribute`) to validate dates for artists and artworks,
-  as well as a length attribute to help validate passwords.
+  `System.ComponentModel.DataAnnotations.LengthAttribute`) to validate dates for artists and
+  artworks, as well as a length attribute to help validate passwords.
 - An updated hashing algorithm to explore for password security. We are currently using bearer token
   authentication.
 - Improvements to the Reflection library
