@@ -3,7 +3,8 @@
 title: Using Key Callbacks
 date: 2023-07-30 06:21 UTC
 author: Ro
-tags: Input
+author_url:
+tags: input
 summary: |
   Key Callbacks provide a method to indirectly run commands based on detected key events.
   Instead of directly checking the state of a key press, process event will run the callback function
