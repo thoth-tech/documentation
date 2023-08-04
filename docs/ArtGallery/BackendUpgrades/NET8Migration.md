@@ -33,8 +33,8 @@ compatible with new technologies and platforms, if we take this proactive step t
 - Introduction of Time abstraction, including timers with the new TimeProvider class and ITimer
   interface.
 - UTF-8 improvements
-- The `System.Random` and `System.Security.Cryptography.RandomNumberGenerator` types introduce two new
-  methods for working with randomness.
+- The `System.Random` and `System.Security.Cryptography.RandomNumberGenerator` types introduce two
+  new methods for working with randomness.
 - Introduction of performance-focussed types:
   `FrozenDictionary<TKey,TValue>, FrozenSet<T>, System.Buffers.SearchValues<T>, System.Text.CompositeFormat, System.IO.Hashing.XxHash3 and System.IO.Hashing.XxHash128`
 - Improvements to data validation
