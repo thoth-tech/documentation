@@ -1,45 +1,5 @@
 # Requirements Document: OnTrack - Staff Grant Extension Feature
 
-## Contents
-
-1. [Introduction](#1-introduction)
-
-2. [Use Case](#2-use-case)
-
-   2.1. [User Story](#2-1-user-story)
-
-   2.2 [Acceptance Criteria](#2-2-acceptance-criteria)
-
-3. [Functional Requirements](#3-functional-requirements)
-
-   3.1 [Frontend Functionality](#3-1-frontend-functionality)
-
-   3.2 [Backend Functionality](#3-2-backend-functionality)
-
-4. [Technical Requirements](#4-technical-requirements)
-
-   4.1 [Technology Stack](#4-1-technology-stack)
-
-   4.2 [Data Management](#4-2-data-management)
-
-   4.3. [User Authentication and Authorization](#4-3-user-authentication-and-authorization)
-
-5. [Non-Functional Requirements](#5-non-functional-requirements)
-
-   5.1. [Usability](#5-1-usability)
-
-   5.2. [Performance](#5-2-performance)
-
-6. [Future Considerations](#6-future-considerations)
-
-7. [Testing](#7-testing)
-
-   7.1. [Test Cases for Backend Extension Granting Endpoint](#7-1-test-cases-for-backend-extension-granting-endpoint)
-
-   7.2. [Running Tests and Interpreting Results](#7-2-running-tests-and-interpreting-results)
-
-8. [Conclusion](#8-conclusion)
-
 ## 1-Introduction
 
 The purpose of this document is to outline the requirements for the implementation of the "Staff Grant Extension" feature in the OnTrack (also known as Doubtfire). This feature aims to empower staff members to grant extensions to students, even in cases where there are no formal extension requests within the system.
