@@ -67,7 +67,7 @@ namespace SEH_test
             sprs[2].Y = 200;
 
             Bitmap ast = new Bitmap("Rock", "RockLarge.png");   // anim test event bitmap
-            ast.SetCellDetails(200,200,3,3,7);
+            ast.SetCellDetails(200,200,3,3,9);
 
             SprEveHand1 = new SpriteEventHandler(SprEventHandler); // initialise, with function we want to call
             SprEveHand2 = new SpriteEventHandler(SprEventHandler2); // will run different function than above
