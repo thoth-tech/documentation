@@ -8,9 +8,8 @@ describe('UploadPopupMenuComponent', () => {
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ UploadPopupMenuComponent ]
-    })
-    .compileComponents();
+      declarations: [UploadPopupMenuComponent],
+    }).compileComponents();
 
     fixture = TestBed.createComponent(UploadPopupMenuComponent);
     component = fixture.componentInstance;

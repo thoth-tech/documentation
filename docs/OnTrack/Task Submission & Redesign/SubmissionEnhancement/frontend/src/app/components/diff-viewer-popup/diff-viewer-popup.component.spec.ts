@@ -8,9 +8,8 @@ describe('DiffViewerPopupComponent', () => {
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ DiffViewerPopupComponent ]
-    })
-    .compileComponents();
+      declarations: [DiffViewerPopupComponent],
+    }).compileComponents();
 
     fixture = TestBed.createComponent(DiffViewerPopupComponent);
     component = fixture.componentInstance;

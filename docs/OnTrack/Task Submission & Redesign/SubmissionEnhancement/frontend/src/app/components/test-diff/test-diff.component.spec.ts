@@ -8,9 +8,8 @@ describe('TestDiffComponent', () => {
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ TestDiffComponent ]
-    })
-    .compileComponents();
+      declarations: [TestDiffComponent],
+    }).compileComponents();
 
     fixture = TestBed.createComponent(TestDiffComponent);
     component = fixture.componentInstance;
