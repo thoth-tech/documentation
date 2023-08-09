@@ -64,9 +64,9 @@ Doubtfire system.
 - Extension records should be stored in the system's database, associated with the relevant student
   and staff member.
 
-### 4-3-User Authentication and Authorization
+### 4-3-User Authentication and Authorisation
 
-- Only authorized staff members should have access to the "Grant Extension" functionality.
+- Only authorised staff members should have access to the "Grant Extension" functionality.
 - Appropriate access controls should be implemented to ensure data security.
 
 ## 5-Non-Functional Requirements
@@ -120,9 +120,9 @@ Steps:
 Expected Outcome: The system displays an error message indicating that the entered duration is
 invalid. No extension record is created.
 
-#### _Test Case 3: Unauthorized Access_
+#### _Test Case 3: Unauthorised Access_
 
-Description: Verify that unauthorized users cannot access the "Grant Extension" functionality.
+Description: Verify that unauthorised users cannot access the "Grant Extension" functionality.
 
 Steps:
 
