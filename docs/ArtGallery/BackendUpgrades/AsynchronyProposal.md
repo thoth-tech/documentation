@@ -5,16 +5,16 @@ Author: Chloe Hulme
 ## Objective
 
 The objective of this proposal is to outline the concept of asynchrony in an API, highlight the
-benefits of implementing asynchrony in our C# based API, and provide guidelines along with sample code for
-effectively incorporating asynchrony into our API design this trimester.
+benefits of implementing asynchrony in our C# based API, and provide guidelines along with sample
+code for effectively incorporating asynchrony into our API design this trimester.
 
 ### Introduction to Asynchrony in APIs
 
 Asynchrony in APIs refers to the ability to perform operations concurrently without blocking the
 main thread of execution. Traditionally, APIs perform tasks synchronously, meaning they execute one
-operation at a time and wait for each operation to complete before moving to the next one.
-Whereas, asynchronous APIs allow multiple operations to be executed in parallel, which
-significantly enhances performance and responsiveness. Particularly across larger data sets.
+operation at a time and wait for each operation to complete before moving to the next one. Whereas,
+asynchronous APIs allow multiple operations to be executed in parallel, which significantly enhances
+performance and responsiveness. Particularly across larger data sets.
 
 ### Benefits of Implementing Asynchrony in our API
 
