@@ -2,7 +2,7 @@
 
 ==================
 
-**Spike:** 1a
+**Spike:** 1
 
 **Title:** Understanding the SCORM 2004 API structure
 
