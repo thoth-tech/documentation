@@ -15,7 +15,7 @@ This documentation outlines the functionality and the way the new feature is goi
 
 ## UML Diagram
 
-- Create a UML diagram that will show the flow of incorporating content on Ontrack and the flow during the process.  
+- Create a UML diagram that will show the flow of incorporating content on Ontrack and the flow during the process.
 - How it will interact with front end, backend as well as with other features that are already in place.
 
 ## Coding
