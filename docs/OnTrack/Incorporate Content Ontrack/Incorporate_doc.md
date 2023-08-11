@@ -9,8 +9,8 @@ This documentation will outline what needs to be done to achieve this feature.
 ## Requirements
 
 - Clearly define what the feature meant to do and the use case.
-- Describe how the feature will interact with front-end and the back end? And what changes need to be done in
-  the backend to add this new feature.
+- Describe how the feature will interact with front-end and the back end?
+- What changes need to be done in the backend to add this new feature.
 
 ## Front end design
 
