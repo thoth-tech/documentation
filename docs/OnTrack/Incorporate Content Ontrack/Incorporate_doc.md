@@ -1,5 +1,7 @@
 # Incorporate content in OnTrack
 
+Author: Devanshi Patel
+
 This documentation outlines the functionality and the way the new feature is going to be implemented on OnTrack that will enable unit chairs to host content on OnTrack, which can be accessible from the students end.
 This feature aims to provide better flexibility by adding the content in one place where it makes it easier for students to access both the content and the tasksheet for the unit in one place.
 This documentation will outline what needs to be done to achieve this feature.
