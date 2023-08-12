@@ -12,12 +12,12 @@ Splashkit. We have to have Bitmap images to pass into our
 [Create Sprite](https://splashkit.io/api/sprites/#create-sprite) function so that it can create a
 workable _Sprite_ file type for us. This looks something like this inside your Main() method:
 
-![](image.png)
+![image](image1.png)
 
 Line by line, this can be broken down as:
 
 > Instantiate a new Object HappySun, of Type [Bitmap](https://splashkit.io/api/types/#bitmap) <br>
-> ![](image2.png) ![](image3.png) <br> Relevant overloads are shown above, we pass in a string name,
+> ![image2](image2.png) ![image3](image3.png) <br> Relevant overloads are shown above, we pass in a string name,
 > and we can either give a filename to assign from a file or URL we have access to, or denote an int
 > for width and height to have a workable 'empty' sprite.
 
@@ -35,7 +35,7 @@ So we have a Sprite, HappySunSprite (or whatever you have named yours.) Let's cr
 to show it off. We'll start with creating a Window object for us to draw it onto. This can follow
 after the pervious lines in your Main() method.
 
-![Alt text](image1.png)
+![image4](image4.png)
 
 As above, we create a new Object of type Window (this is important because Splashkit has specific
 implementation for multi-window and window-specific method handling), and then we assign that value
@@ -47,7 +47,7 @@ title 'Learning Sprites!', but with nothing on the screen. In order to remedy th
 of the [Move Sprite To](https://splashkit.io/api/sprites/#move-sprite-to) and
 [Draw Sprite](https://splashkit.io/api/sprites/#group-draw-sprite) methods as below:
 
-![](image5.png)
+![image5](image5.png)
 
 You might be wondering why we _move_ our sprite _before_ we draw it. In this instance, this is just
 for clarity purposes and to have our image pop up in the middle of our window, but for future
@@ -61,10 +61,10 @@ is because we still have to do a basic
 [Window Refresh](https://splashkit.io/api/windows/#refresh-window) to 'update' or 'paint' what
 Sprites and where we have told SplashKit to put them. After you add these lines to your Main() :
 
-![](image6.png)
+![image6](image6.png)
 
 You will see our (or your) little Sprite sitting there in the window.
 
-![Alt text](image7.png)
+![image7](image7.png)
 
 ## [Using Splashkit to move our Sprite around]
