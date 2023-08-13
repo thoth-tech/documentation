@@ -47,14 +47,14 @@ designed to help organizations transform their data into actionable insights. It
 features that can benefit educational institutions and other sectors:
 
 - Data Integration: Track One Studio supports data integration from various sources, allowing
-  educational institutions to consolidate and analyze data from student information systems,
+  educational institutions to consolidate and analyse data from student information systems,
   academic records, financial databases, and more.
 - Visualization and Dashboards: The platform offers tools for creating interactive dashboards and
   visualizations, enabling users to explore data trends and patterns visually. Customizable
-  dashboards can provide insights into student performance, enrollment data, resource allocation,
+  dashboards can provide insights into student performance, enrolment data, resource allocation,
   and more.
 - Advanced Analytics: Track One Studio may provide advanced analytics capabilities, such as
-  predictive modeling, forecasting, and statistical analysis. These features can help educational
+  predictive modelling, forecasting, and statistical analysis. These features can help educational
   institutions make data-driven decisions to improve student outcomes and optimize operations.
 - Collaboration and Sharing: The platform seems to facilitate collaboration among stakeholders by
   allowing users to share reports, dashboards, and insights. This can enhance communication and
@@ -86,7 +86,7 @@ Educational institutions commonly seek the following attributes in a data analyt
   and stakeholders.
 - User-Friendly Interface: Intuitive tools that empower non-technical users to explore data and
   generate insights.
-- Predictive Capabilities: Tools for predictive modeling and forecasting to support data-driven
+- Predictive Capabilities: Tools for predictive modelling and forecasting to support data-driven
   decision-making.
 - Security: Robust security measures to protect sensitive student and institutional data.
 
@@ -96,7 +96,7 @@ Educational institutions commonly seek the following attributes in a data analyt
 | ----------------------- | -------------------------- | ------------------------ | ------------------------ |
 | Data Integration        | Multiple sources           | Wide range of connectors | Data integration support |
 | Visualization           | Customizable dashboards    | Advanced visualizations  | Interactive dashboards   |
-| Analytics               | Basic capabilities         | Advanced analytics       | Predictive modeling      |
+| Analytics               | Basic capabilities         | Advanced analytics       | Predictive modelling      |
 | User-Friendly Interface | User-friendly              | Intuitive UI             | User-friendly            |
 | Collaboration           | Sharing & commenting       | Collaboration features   | Collaboration features   |
 | Data Customization      | Customizable reports       | Tailored dashboards      | Customizable             |
