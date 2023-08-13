@@ -2,7 +2,12 @@
 
 ## Existing Image
 
-Download current arcade Image from here: [placehold]
+Download current arcade Image from here (accessible to Thoth-Tech Team Members): https://deakin365.sharepoint.com/:u:/r/sites/ThothTech2/Shared%20Documents/SplashKit/Arcade%20Machine%20Image/ArcadeMachine.img?csf=1&web=1&e=7cuS7Z
+
+SHA256 Hash 
+`31f0ea11c8492000d003108bf84afbb261ad6ee7c1be989f52a2b4add9d8821e`
+
+
 
 Use a program like [etcher](https://etcher.balena.io/) to create a bootable USB or SD card with the
 Arcade image.
