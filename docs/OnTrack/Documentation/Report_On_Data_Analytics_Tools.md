@@ -51,8 +51,8 @@ features that can benefit educational institutions and other sectors:
   academic records, financial databases, and more.
 - Visualization and Dashboards: The platform offers tools for creating interactive dashboards and
   visualizations, enabling users to explore data trends and patterns visually. Customizable
-  dashboards can provide insights into student performance, enrolment data, resource allocation,
-  and more.
+  dashboards can provide insights into student performance, enrolment data, resource allocation, and
+  more.
 - Advanced Analytics: Track One Studio may provide advanced analytics capabilities, such as
   predictive modelling, forecasting, and statistical analysis. These features can help educational
   institutions make data-driven decisions to improve student outcomes and optimize operations.
@@ -96,7 +96,7 @@ Educational institutions commonly seek the following attributes in a data analyt
 | ----------------------- | -------------------------- | ------------------------ | ------------------------ |
 | Data Integration        | Multiple sources           | Wide range of connectors | Data integration support |
 | Visualization           | Customizable dashboards    | Advanced visualizations  | Interactive dashboards   |
-| Analytics               | Basic capabilities         | Advanced analytics       | Predictive modelling      |
+| Analytics               | Basic capabilities         | Advanced analytics       | Predictive modelling     |
 | User-Friendly Interface | User-friendly              | Intuitive UI             | User-friendly            |
 | Collaboration           | Sharing & commenting       | Collaboration features   | Collaboration features   |
 | Data Customization      | Customizable reports       | Tailored dashboards      | Customizable             |
