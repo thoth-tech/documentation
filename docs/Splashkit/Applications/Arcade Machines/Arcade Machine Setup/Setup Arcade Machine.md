@@ -264,7 +264,7 @@ The Pi will now be broadcasting a WiFi network called Arcade1 with the password 
     ![RetroPi Config Screen with Autostart selected](/docs/Splashkit/Applications/Arcade%20Machines/Arcade%20Machine%20Setup/Images/RetroPiConfigAutostart.png)
 
 1.  Select Start Emulation Station at boot
-        ![RetroPi Config Screen with Start Emulation Station at boot selected](/docs/Splashkit/Applications/Arcade%20Machines/Arcade%20Machine%20Setup/Images/RetroPiConfigStartEmulationStation.png)
+    ![RetroPi Config Screen with Start Emulation Station at boot selected](/docs/Splashkit/Applications/Arcade%20Machines/Arcade%20Machine%20Setup/Images/RetroPiConfigStartEmulationStation.png)
 1.  Select Ok
 1.  Select Finish
 1.  Select Perform Reboot
