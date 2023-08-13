@@ -1,6 +1,6 @@
 # Research Spike - Report on data analytics tools
 
-**Introduction:**
+## Introduction
 
 In today's data-driven educational landscape, schools and universities rely on advanced analytics
 tools to gain insights, make informed decisions, and optimize operations. This report offers an
@@ -8,7 +8,7 @@ in-depth comparison of three prominent analytics tools: OctopusBI, Tableau, and 
 focus on their features, potential integration with the OnTrack platform, and alignment with the
 specific needs of educational institutions.
 
-**OctopusBI:**
+## OctopusBI
 
 OctopusBI is a robust business intelligence platform with a range of features designed to facilitate
 data exploration, visualization, and reporting. It offers the following key features:
@@ -27,7 +27,7 @@ enabling stakeholders to explore data trends and insights more effectively.
 Collaboration and Sharing: OctopusBI facilitates collaboration through commenting and sharing
 functionalities, enhancing communication among faculty and staff members.
 
-**Tableau:**
+## Tableau
 
 Tableau is a renowned data visualization and analytics tool known for its user-friendly interface
 and comprehensive capabilities. Key features include:
@@ -46,7 +46,7 @@ proactive decision-making.
 Scalability and Performance: Tableau's scalable architecture ensures that as data volumes grow, the
 system remains efficient and capable of handling increasing demands.
 
-**Track One Studio:**
+## Track One Studio
 
 Track One Studio appears to be a comprehensive data analytics and business intelligence platform
 designed to help organizations transform their data into actionable insights. It offers a range of
@@ -79,14 +79,14 @@ Customization: Educational institutions often have unique data requirements. Tra
 provide customization options to tailor the platform to the specific needs of schools and
 universities.
 
-**Integration with OnTrack:**
+## Integration with OnTrack
 
 The successful integration of an analytics tool with the OnTrack platform is crucial for maximizing
 data utilization in educational institutions. Integration considerations include data compatibility,
 API availability, and seamless workflow alignment. Each tool's integration potential with OnTrack
 needs to be assessed based on the platform's requirements and APIs provided by the analytics tools.
 
-**What Schools and Universities Seek:**
+## What Schools and Universities Seek
 
 Educational institutions commonly seek the following attributes in a data analytics system:
 
@@ -104,7 +104,7 @@ decision-making.
 
 Security: Robust security measures to protect sensitive student and institutional data.
 
-**Comparison Table: OctopusBI vs. Tableau vs. Track One Studio:**
+## Comparison Table: OctopusBI vs. Tableau vs. Track One Studio
 
 | **Feature**             | **OctopusBI**              | **Tableau**              | **Track One Studio**     |
 | ----------------------- | -------------------------- | ------------------------ | ------------------------ |
@@ -119,7 +119,7 @@ Security: Robust security measures to protect sensitive student and institutiona
 | Scalability             | Suitable for growth        | Scalable architecture    | Scalable solution        |
 | Security                | Standard security measures | Robust security measures | Data security            |
 
-**Conclusion:**
+## Conclusion
 
 After analyzing the features and capabilities of OctopusBI, Tableau, and Track One Studio, it's
 evident that each tool offers distinct advantages that can benefit educational institutions seeking
