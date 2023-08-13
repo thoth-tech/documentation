@@ -238,4 +238,3 @@ The Pi will now be broadcasting a WiFi network called Arcade1 with the password 
 1. Select Ok
 1. Select Finish
 1. Select Perform Reboot
-
