@@ -10,22 +10,36 @@ don't interact with those.
 In order to be able to draw an image to a screen, we first have to provide some information to
 Splashkit. We have to have Bitmap images to pass into our
 [Create Sprite](https://splashkit.io/api/sprites/#create-sprite) function so that it can create a
-workable _Sprite_ file type for us. This looks something like this inside your Main() method:
+workable _Sprite_ file type for us. This looks something like this inside our Main() method:
 
-![image](image1.png)
+```c++
+Private Bitmap HappySun;
+Private Sprite HappySunSprite;
+```
 
 Line by line, this can be broken down as:
 
-> Instantiate a new Object HappySun, of Type [Bitmap](https://splashkit.io/api/types/#bitmap) <br>
-> ![image2](image2.png) ![image3](image3.png) <br> Relevant overloads are shown above, we pass in a string name,
-> and we can either give a filename to assign from a file or URL we have access to, or denote an int
-> for width and height to have a workable 'empty' sprite.
+1. Instantiate a new Object HappySun, of Type [Bitmap](https://splashkit.io/api/types/#bitmap)
 
-> Instantiate a new Object HappySunSprite, of Type Sprite
+   ```c++
+   Bitmap(string name, string file);
+   Bitmap(string name, int width int height);
+   ```
 
-> Assign to Object HappySunSprite the loaded Bitmap HappySun, using one of the overloaded
-> [Create Sprite](https://splashkit.io/api/sprites/#create-sprite) methods, specifically
-> [the method where we provide a String and a Bitmap object](https://splashkit.io/api/sprites/#create-sprite-named)
+   Relevant overloads are shown above, we pass in a string name, and we can either give a filename
+   to assign from a file or URL we have access to, or denote an int for width and height to have a
+   workable 'empty' sprite.
+
+1. Instantiate a new Object HappySunSprite, of Type Sprite
+
+1. Assign to Object HappySunSprite the loaded Bitmap HappySun, using one of the overloaded
+   [Create Sprite](https://splashkit.io/api/sprites/#create-sprite) methods, specifically
+   [the method where we provide a String and a Bitmap object](https://splashkit.io/api/sprites/#create-sprite-named)
+
+   ```c++
+            HappySun = new Bitmap("Happy Sun", "sprite01.png");
+            HappySunS = SplashKit.CreateSprite("Happy Sun", HappySun);
+   ```
 
 After these steps, we now have an instantiated Bitmap and Sprite for us to play with.
 
@@ -33,9 +47,12 @@ After these steps, we now have an instantiated Bitmap and Sprite for us to play 
 
 So we have a Sprite, HappySunSprite (or whatever you have named yours.) Let's create a small scene
 to show it off. We'll start with creating a Window object for us to draw it onto. This can follow
-after the pervious lines in your Main() method.
+after the pervious lines in our Main() method.
 
-![image4](image4.png)
+```c++
+Window SpriteWindow;
+SpriteWindow = new Window("Learning Sprites!, 800, 800);
+```
 
 As above, we create a new Object of type Window (this is important because Splashkit has specific
 implementation for multi-window and window-specific method handling), and then we assign that value
@@ -47,7 +64,10 @@ title 'Learning Sprites!', but with nothing on the screen. In order to remedy th
 of the [Move Sprite To](https://splashkit.io/api/sprites/#move-sprite-to) and
 [Draw Sprite](https://splashkit.io/api/sprites/#group-draw-sprite) methods as below:
 
-![image5](image5.png)
+```c++
+SplashKit.MoveSpriteTo(HappySunS, 400, 400);
+SplashKit.DrawSprite(HappySunS);
+```
 
 You might be wondering why we _move_ our sprite _before_ we draw it. In this instance, this is just
 for clarity purposes and to have our image pop up in the middle of our window, but for future
@@ -59,12 +79,40 @@ be seen at Origin point first, to move them and then Draw them to our window.
 If you go ahead and compile and run the above command, you'll still see nothing in the window. This
 is because we still have to do a basic
 [Window Refresh](https://splashkit.io/api/windows/#refresh-window) to 'update' or 'paint' what
-Sprites and where we have told SplashKit to put them. After you add these lines to your Main() :
+Sprites and where we have told SplashKit to put them. After you add these lines to our Main() :
 
-![image6](image6.png)
+```c++
+SpriteWindow.Refresh(60);
+SplashKit.Delay(5000);
+```
 
-You will see our (or your) little Sprite sitting there in the window.
+You will see our little Sprite sitting there in the window.
 
 ![image7](image7.png)
 
-## [Using Splashkit to move our Sprite around]
+At this point, our Main() method should look something like this:
+
+```c++
+    //Instantiation of Bitmap Object(s)
+    Bitmap(string name, string file);
+    Bitmap(string name, int width int height);
+
+    //Instantiation of Sprite Object(s)
+    HappySun = new Bitmap("Happy Sun", "sprite01.png");
+    HappySunS = SplashKit.CreateSprite("Happy Sun", HappySun);
+
+    //Creation of Window
+    Window SpriteWindow;
+    SpriteWindow = new Window("Learning Sprites!", 800, 800);
+
+    //Set Sprite position, then draw it to the window
+    SplashKit.MoveSpriteTo(HappySunS, 400, 400);
+    SplashKit.DrawSprite(HappySunS);
+
+    //Update the screen and hold
+    SpriteWindow.Refresh(60);
+    SplashKit.Delay(5000);
+
+```
+
+## Using Splashkit to move our Sprite around
