@@ -33,6 +33,7 @@ compatible with new technologies and platforms, if we take this proactive step t
 - Introduction of Time abstraction, including timers with the new TimeProvider class and ITimer
   interface.
 - UTF-8 improvements
+- Default port for containers has changed from 80 to 8080
 - The `System.Random` and `System.Security.Cryptography.RandomNumberGenerator` types introduce two
   new methods for working with randomness.
 - Introduction of performance-focussed types:
@@ -74,7 +75,7 @@ None that affect our product.
 
 ### Containers
 
-None that affect our product.
+Default port has changed from 80 to 8080.
 
 ### Core .NET libraries
 
@@ -116,3 +117,11 @@ NuGet packages may be out of date, this will impact the API until rectified.
 - An updated hashing algorithm to explore for password security. We are currently using bearer token
   authentication.
 - Improvements to the Reflection library
+
+## Update: 9/8/23
+
+Preliminary steps to migrate the API have been taken. The most current Docker image release for .NET
+is .NET 8.1. The containers have been rebuilt accordingly and breaking changes affecting container
+operation have been rectified. Prior to thorough testing, the API appears to have been successfully
+migrated to .NET 8.1 stable preview. Further, and more thorough, testing will be conducted to
+confirm this.
