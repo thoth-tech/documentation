@@ -61,8 +61,8 @@ ensuring data security. Backend components include:
   involved, along with the specified extension duration. Ruby on Rails, the backend framework,
   manages data interactions and database updates.
 
-- **User Authentication and Authorization:** The backend enforces user authentication to ensure that
-  only authorized staff members can access the "Grant Extension" functionality. Access controls are
+- **User Authentication and Authorisation:** The backend enforces user authentication to ensure that
+  only authorised staff members can access the "Grant Extension" functionality. Access controls are
   implemented to secure data and maintain system integrity.
 
 The collaboration between frontend and backend components ensures a cohesive user experience. Staff
@@ -116,15 +116,15 @@ ensuring secure data handling:
   Associate each record with the relevant student and staff member. Utilize Ruby on Rails' ORM
   (Object-Relational Mapping) for seamless data management.
 
-#### _User Authentication and Authorization:_
+#### _User Authentication and Authorisation:_
 
-Implement user authentication and authorization to secure the feature:
+Implement user authentication and authorisation to secure the feature:
 
 - **Authentication:** Leverage existing authentication mechanisms to ensure only authenticated staff
   members access the "Grant Extension" functionality.
 
-- **Authorization:** Apply access controls to authorize staff members based on their roles and
-  permissions. This guarantees data security and minimizes unauthorized access.
+- **Authorisation:** Apply access controls to authorise staff members based on their roles and
+  permissions. This guarantees data security and minimizes unauthorised access.
 
 The successful integration of the frontend and backend components ensures the seamless operation of
 the feature. Staff members interact with the frontend form, which triggers backend processes to
@@ -249,9 +249,9 @@ the "Staff Grant Extension" feature.
 - **Expected Outcome:** The system displays an error message, no extension record is created, and
   the form remains accessible for correction.
 
-### Test Case 3: Unauthorized Access
+### Test Case 3: Unauthorised Access
 
-- **Description:** Verify that unauthorized users cannot access the "Grant Extension" functionality.
+- **Description:** Verify that unauthorised users cannot access the "Grant Extension" functionality.
 - **Steps:**
   1. Attempt to access the "Grant Extension" functionality without proper authentication.
 - **Expected Outcome:** The system denies access and displays an appropriate error message.
@@ -270,7 +270,7 @@ the "Staff Grant Extension" feature.
 
 Frontend components will undergo testing to ensure a seamless user experience.
 
-- **Form Validation Testing:** Validate the form's behavior when inputs are correct and incorrect,
+- **Form Validation Testing:** Validate the form's behaviour when inputs are correct and incorrect,
   ensuring error messages display appropriately.
 - **Integration Testing:** Test the integration of the "Grant Extension" form into the staff
   dashboard, ensuring proper rendering and interaction.
@@ -279,7 +279,7 @@ Frontend components will undergo testing to ensure a seamless user experience.
 - **Responsive Testing:** Test the form's responsiveness across various devices and screen sizes.
 
 By executing comprehensive backend and frontend tests, we ensure the "Staff Grant Extension" feature
-functions accurately, is secure from unauthorized access, and provides a seamless experience to
+functions accurately, is secure from unauthorised access, and provides a seamless experience to
 staff and students. Successful testing will lead to a reliable and user-friendly addition to the
 OnTrack system.
 
