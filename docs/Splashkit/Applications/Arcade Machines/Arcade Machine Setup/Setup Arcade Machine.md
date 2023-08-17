@@ -271,3 +271,11 @@ The Pi will now be broadcasting a WiFi network called Arcade1 with the password 
 1.  Select Ok
 1.  Select Finish
 1.  Select Perform Reboot
+
+## Installing The Splahkit Theme
+
+1. Download the Themes folder located at: docs/Splashkit/Applications/Arcade Machines/Arcade Machine Setup/Files
+
+2. Copy the Themes folder into your .emulationstation folder, which can be found at ~/.emulationstation on the Raspberry Pi or at %HOMEPATH%/.emulationstation on windows devices.
+
+3. In the es_systems.cfg file, which is found in the file paths mentioned above in step 2, you will need to change the XML code for the theme to be sk.
