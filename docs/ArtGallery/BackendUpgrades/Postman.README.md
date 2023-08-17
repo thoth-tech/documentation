@@ -116,6 +116,8 @@ follow these best practices:
 - **Ensure that environment variables used in production remain private, as the invite to join our
   team is public on this document in GitHub!!!**
 
+Invite to team: <https://app.getpostman.com/join-team?invite_code=9a8aa672abf8164d99d84185f7fab50b>
+
 If you have any questions or need assistance, please refer to the Art Gallery's workspace and
 collection as an example. Otherwise, feel free to reach out!
 
