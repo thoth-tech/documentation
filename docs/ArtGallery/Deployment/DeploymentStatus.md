@@ -1,7 +1,6 @@
-# Mid-Trimester Deployment Update
+# Mid-Trimester Deployment Update (17/8/23)
 
 Author: Chloe Hulme
-Date: 17/8/23
 
 ## Introduction
 
