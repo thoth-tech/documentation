@@ -278,4 +278,12 @@ The Pi will now be broadcasting a WiFi network called Arcade1 with the password 
 
 2. Copy the Themes folder into your .emulationstation folder, which can be found at ~/.emulationstation on the Raspberry Pi or at %HOMEPATH%/.emulationstation on windows devices.
 
-3. In the es_systems.cfg file, which is found in the file paths mentioned above in step 2, you will need to change the XML code for the theme to be sk.
+3. In the es_systems.cfg file, which is found in the file paths mentioned above in step 2, you will need to change the XML code for the theme to be "sk".
+
+   ![es_systems.cfg file open showing where to change the theme](/docs/Splashkit/Applications/Arcade%20Machines/Arcade%20Machine%20Setup/Images/SytemThemeSetup.jpg)
+
+4. Launch EmlationStation, open the start menu, and under UI settings change Theme set to "Splashkit".
+
+   ![Theme Set selection in EmulationStation](/docs/Splashkit/Applications/Arcade%20Machines/Arcade%20Machine%20Setup/Images/SettingsThemeSelection.png)
+
+   
