@@ -19,6 +19,7 @@ Then come back here for the Next Step.
 
 **Next Step:** In the “Edit environment variable” window, click "New" (Red box), then add the
 path shown in the Green box:
+
 ![](https://i.imgur.com/T6wIBWt.png)
 
 Once it is added, click “OK” on all the windows, open a **new** MINGW64 terminal and try running the program again.

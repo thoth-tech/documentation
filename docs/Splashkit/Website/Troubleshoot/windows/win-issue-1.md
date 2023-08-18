@@ -1,4 +1,4 @@
----
+![](https://i.imgur.com/pbIntVv.png)---
 
 title: FAQs on Splashkit installation
 tags: faq,error,troubleshoot
@@ -21,10 +21,14 @@ tags: faq,error,troubleshoot
 
     Then click the “Download raw file” button shown below (where the red arrow is pointing
     to) and save it to somewhere like the Downloads folder:
+
     ![](https://i.imgur.com/MWhWHRO.png)
+
     Then open File Explorer to wherever you saved it.
 In the MINGW64 terminal, type `bash` and then drag and drop the file from File Explorer
 into the terminal window:
+
     ![](https://i.imgur.com/ZbcghXz.png)
+
     Press "`Enter`" and that should run the script. That will install skm, and you can carry on in the
 tutorial from after the "`bash <( curl -s....)`" step.

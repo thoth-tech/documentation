@@ -1,4 +1,4 @@
-
+![](https://i.imgur.com/pbIntVv.png)
 <h1> Splashkit SDK Installation Guide (WSL)</h1>
 
 *This guide provides step-by-step instructions for installing the Splashkit SDK through WSL (Windows Subsystem for Linux). The Splashkit SDK allows you to develop cross-platform applications using C++, C#, and more.*
@@ -41,6 +41,8 @@ Before you begin, make sure you have the following:
     ```bash
     sudo apt install git curl
     ```
+    ![](https://i.imgur.com/ZKXjGyV.png)
+
     **[OPTIONAL]** *Install additional dependencies required by Splashkit:*
     ```bash
     sudo apt install build-essential libsdl2-dev libsdl2-image-dev libsdl2-ttf-dev libsdl2-mixer-dev
@@ -72,8 +74,10 @@ Before you begin, make sure you have the following:
     ```bash
     skm linux install
     ```
+    ![](https://i.imgur.com/JtAFvq5.png)
+
     **Note:** This installation requires approximately 508 MB of disk space.
-    <br>
+    <br><br><br>
 ## Test SKM
 Execute skm to test it was successfully installed.
 ```bash
@@ -85,6 +89,7 @@ Splashkit is installed successfully!
 Missing skm command. For help use 'skm help'
 ```
 SplashKit supports a number of languages. Run `skm help` at the terminal to see the different commands you can run.
+<br><br><br>
 ## Testing a C++ program
 
 To test your Splashkit gcc/clang++ compiler, you can use the following C++ program:

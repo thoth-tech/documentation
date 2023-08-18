@@ -29,7 +29,9 @@ terminal) and create the project files in its own directory/folder.
 
     **Next Step:** In the “Edit environment variable” window, you should have these two paths
     shown in the image below (Green Box) – on the next page
+    
     ![](https://i.imgur.com/lTzyRSo.png)
+    
     If you are missing one of the paths in the Green box, click "New" (Red box), then add the
     path you are missing. It will be similar to what is shown in the Green box - just using your
     own username.
@@ -45,7 +47,9 @@ terminal) and create the project files in its own directory/folder.
 your username.)*
 
     The contents of the folder should look something like this:
+    
     ![](https://i.imgur.com/XRha19P.png)
+    
     Copy all of these into the build output of your SplashKit project.
     This will usually be: 
     
