@@ -285,5 +285,3 @@ The Pi will now be broadcasting a WiFi network called Arcade1 with the password 
 4. Launch EmlationStation, open the start menu, and under UI settings change Theme set to "Splashkit."
 
    ![Theme Set selection in EmulationStation](/docs/Splashkit/Applications/Arcade%20Machines/Arcade%20Machine%20Setup/Images/SettingsThemeSelection.png)
-
-   
