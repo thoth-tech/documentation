@@ -53,11 +53,11 @@ sudo ./retropie_setup.sh
 ```
 or search for RetrPie under your Ubuntu applications and double-click RetroPie icon to open
 
-![image](images/rpie.png)
+![image](rpie.png)
 
 Select RetroPie and press 'A' in your keyboard (assuming you have configured your input device)
 
-![image](images/trer.png)
+![image](trer.png)
 
 Move down to 'RetroPie Setup' and press 'A' in your keyboard
 
@@ -65,7 +65,7 @@ On the next screen type your `user-password` and press 'enter'
 
 Move down to 'Manage packages' and press 'enter'
 
-![image](images/mana.png)
+![image](mana.png)
 
 Move down to 'Manage experimental packages' and press 'enter'
 
@@ -84,4 +84,4 @@ Then, you can restart your RetroPie and there will be an icon for a category wit
 
 Press 'A' to load the area with your games and you will need select the the emulator that you loaded on the previous step to get going with your game.
 
-![image](images/arca.png)
+![image](arca.png)
