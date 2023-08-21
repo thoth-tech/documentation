@@ -99,7 +99,7 @@ SplashKit.Delay(5000);
 
 You will see our little `Sprite` sitting there in the window.
 
-![image7](image.png)
+![image](image.png)
 
 At this point, our Main() method should look something like this:
 
