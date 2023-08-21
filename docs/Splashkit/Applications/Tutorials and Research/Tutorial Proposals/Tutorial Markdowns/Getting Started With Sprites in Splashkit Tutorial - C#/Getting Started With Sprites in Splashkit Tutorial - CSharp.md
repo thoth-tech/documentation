@@ -109,30 +109,31 @@ using SplashKitSDK;
 
 namespace learningSprites
 {
-public class Program{
-      public static void Main()
-      {
+      public class Program{
+            public static void Main()
+            {
 
-         //Instantiation of Bitmap and Sprite Object(s)
-         Bitmap happySun;
-         Sprite happySunSprite;
+            //Instantiation of Bitmap and Sprite Object(s)
+            Bitmap happySun;
+            Sprite happySunSprite;
 
-         //Instantiation of Sprite Object(s)
-         happySun = new Bitmap("Happy Sun", "sprite01.png");
-         happySunSprite = SplashKit.CreateSprite("Happy Sun", happySun);
+            //Instantiation of Sprite Object(s)
+            happySun = new Bitmap("Happy Sun", "sprite01.png");
+            happySunSprite = SplashKit.CreateSprite("Happy Sun", happySun);
 
-         //Creation of Window
-         Window spriteWindow;
-         spriteWindow = new Window("Learning Sprites!", 800, 800);
+            //Creation of Window
+            Window spriteWindow;
+            spriteWindow = new Window("Learning Sprites!", 800, 800);
 
-         //Set Sprite position, then draw it to the window
-         SplashKit.MoveSpriteTo(happySunSprite, 400, 400);
-         SplashKit.DrawSprite(happySunSprite);
+            //Set Sprite position, then draw it to the window
+            SplashKit.MoveSpriteTo(happySunSprite, 400, 400);
+            SplashKit.DrawSprite(happySunSprite);
 
-         //Update the screen and hold
-         spriteWindow.Refresh(60);
-         SplashKit.Delay(5000);
+            //Update the screen and hold
+            spriteWindow.Refresh(60);
+            SplashKit.Delay(5000);
 
+            }
       }
 }
 ```
@@ -215,25 +216,25 @@ public class Program{
       public static void Main()
       {
 
-         //Instantiation of Bitmap and Sprite Object(s)
-         Bitmap happySun;
-         Sprite happySunSprite;
+            //Instantiation of Bitmap and Sprite Object(s)
+            Bitmap happySun;
+            Sprite happySunSprite;
 
-         //Instantiation of Sprite Object(s)
-         happySun = new Bitmap("Happy Sun", "sprite01.png");
-         happySunSprite = SplashKit.CreateSprite("Happy Sun", happySun);
+            //Instantiation of Sprite Object(s)
+            happySun = new Bitmap("Happy Sun", "sprite01.png");
+            happySunSprite = SplashKit.CreateSprite("Happy Sun", happySun);
 
-         //Creation of Window
-         Window spriteWindow;
-         spriteWindow = new Window("Learning Sprites!", 800, 800);
+            //Creation of Window
+            Window spriteWindow;
+            spriteWindow = new Window("Learning Sprites!", 800, 800);
 
-         //Set Sprite position, then draw it to the window
-         SplashKit.MoveSpriteTo(happySunSprite, 400, 400);
-         SplashKit.DrawSprite(happySunSprite);
+            //Set Sprite position, then draw it to the window
+            SplashKit.MoveSpriteTo(happySunSprite, 400, 400);
+            SplashKit.DrawSprite(happySunSprite);
 
-      //    //Update the screen and hold
-      //    spriteWindow.Refresh(60);
-      //    SplashKit.Delay(5000);
+            //    //Update the screen and hold
+            //    spriteWindow.Refresh(60);
+            //    SplashKit.Delay(5000);
 
             //Loop through and iterate happySunSprite position
             for (int i = 0; i < 150; i++)
@@ -248,6 +249,7 @@ public class Program{
                   SplashKit.Delay(10);
             }
 
+            }
       }
 }
 ```
