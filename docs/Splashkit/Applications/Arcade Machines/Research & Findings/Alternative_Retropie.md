@@ -1,63 +1,71 @@
 # RetroPie in your local PC
+
 Table of content
 
-- [About RetroPie](#About)
-- [Prerequisites](#Prerequisites)
-- [Installation](#Installation)
-- [Activate your RetroPie/an emulator](#Activate)
-- [Load games](#Load)
+- [About RetroPie](#about-retropie)
+- [Prerequisites](#prerequisites)
+- [Installation](#installation)
+- [Activate your RetroPie](#activate-your-retropie)
+- [Load games](#load-games)
 
 ## About RetroPie
 
-Raspbery Pi (with RetroPie pre-installed) is an operating system, and one of its uses is for playing games. The portable standalone Raspbery Pi device requires a screen, keyboard, mouse, and power cable. While the games are saved on a Micro SD card and inserted in the relevant slot in the Raspbery Pi. 
+Raspbery Pi (with RetroPie pre-installed) is an operating system, and one of its uses is for playing games. The portable standalone Raspbery Pi device requires a screen, keyboard, mouse, and power cable. While the games are saved on a Micro SD card and inserted in the relevant slot in the Raspbery Pi.
 
 For your learning, if you do not have access to an arcade machine, which in this company we test our games on, we will guide you to install RetroPie in your Ubuntu virtual machine.
 
 ## Prerequisites
 
 You will need to:
+
 - have a computer (or laptop)
-- set up a virtual machine and load the latest version of Ubuntu, see https://www.oracle.com/virtualization/technologies/vm/downloads/virtualbox-downloads.html and https://ubuntu.com/download.
+- set up a virtual machine and load the latest version of Ubuntu, see <https://www.oracle.com/virtualization/technologies/vm/downloads/virtualbox-downloads.html> and <https://ubuntu.com/download>.
 
 ## Installation
 
 Open Ubuntu terminal input
+
 ```cpp
 sudo apt install git dialog unzip xmlstarlet
 ```
 
 Press 'enter' and input in the terminal
+
 ```cpp
 git clone --depth=1 https://github.com/RetroPie/RetroPie-Setup.git
 ```
 
 Press 'enter' and input in the terminal
+
 ```cpp
 cd RetroPie-Setup
 ```
 
 Press 'enter' and input in the terminal
+
 ```cpp
 sudo ./retropie_setup.sh
 ```
 
 Press 'enter' and on the screen that will appear, select 'Basic install'. When installation is done, select `<OK>` and Press 'enter'. Now, you can 'close/exit' this screen.
 
-## Activate your RetroPie/select an emulator
+## Activate your RetroPie
 
-Since your VM RetroPie is different from the unit you would have bought with its OS functionalities already installed, you will need to activate your copied one.
+Since your VM RetroPie is different from the unit you would have bought with its OS functionalities already installed, you will need to activate your copied one and select an emulator.
 
 Open Ubuntu terminal input
+
 ```cpp
 sudo ./retropie_setup.sh
 ```
+
 or search for RetrPie under your Ubuntu applications and double-click RetroPie icon to open
 
-![image](rpie.png)
+![image](images/rpie.png)
 
 Select RetroPie and press 'A' in your keyboard (assuming you have configured your input device)
 
-![image](trer.png)
+![image](images/trer.png)
 
 Move down to 'RetroPie Setup' and press 'A' in your keyboard
 
@@ -65,7 +73,7 @@ On the next screen type your `user-password` and press 'enter'
 
 Move down to 'Manage packages' and press 'enter'
 
-![image](mana.png)
+![image](images/mana.png)
 
 Move down to 'Manage experimental packages' and press 'enter'
 
@@ -84,4 +92,4 @@ Then, you can restart your RetroPie and there will be an icon for a category wit
 
 Press 'A' to load the area with your games and you will need select the the emulator that you loaded on the previous step to get going with your game.
 
-![image](arca.png)
+![image](images/arca.png)
