@@ -202,3 +202,52 @@ And there we go. A basic and simple tutorial outling creation and modification o
 SplashKit. Remember it's important to do practical self-taught projects and lessons to incentivize
 learning and memory building. Try and have the Sun react to a button input, or move vertically, or
 even change Sprites once it's reached a certain position!
+
+Our final code snippet:
+
+```csharp
+using System;
+using SplashKitSDK;
+
+namespace learningSprites
+{
+public class Program{
+      public static void Main()
+      {
+
+         //Instantiation of Bitmap and Sprite Object(s)
+         Bitmap happySun;
+         Sprite happySunSprite;
+
+         //Instantiation of Sprite Object(s)
+         happySun = new Bitmap("Happy Sun", "sprite01.png");
+         happySunSprite = SplashKit.CreateSprite("Happy Sun", happySun);
+
+         //Creation of Window
+         Window spriteWindow;
+         spriteWindow = new Window("Learning Sprites!", 800, 800);
+
+         //Set Sprite position, then draw it to the window
+         SplashKit.MoveSpriteTo(happySunSprite, 400, 400);
+         SplashKit.DrawSprite(happySunSprite);
+
+      //    //Update the screen and hold
+      //    spriteWindow.Refresh(60);
+      //    SplashKit.Delay(5000);
+
+            //Loop through and iterate happySunSprite position
+            for (int i = 0; i < 150; i++)
+            {
+                  spriteWindow.Clear(Color.White);
+                  SplashKit.MoveSpriteTo(happySunSprite, (SplashKit.SpriteX(happySunSprite) - 3)
+                  ,(SplashKit.SpriteY(happySunSprite)));
+
+                  SplashKit.DrawSprite(happySunSprite);
+
+                  spriteWindow.Refresh();
+                  SplashKit.Delay(10);
+            }
+
+      }
+}
+```
