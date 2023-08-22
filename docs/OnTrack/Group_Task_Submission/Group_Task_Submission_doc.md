@@ -53,7 +53,7 @@ allowed.
 
 - **Notifications:**
 
-Instructors might want to be notified when a student submits a task, or when a submission is
+Instructors may want to be notified when a student submits a task, or when a submission is
 rejected due to eligibility.
 
 <a name="_hlk143111371"></a>**Solution 2: Adding Password for Certain Students**
