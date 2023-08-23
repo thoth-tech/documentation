@@ -1,3 +1,5 @@
+**Author: Wei Min & Cynthia**
+
 # Meeting Report
 On August 7, Cynthia and Wei conducted a meeting to review and discuss the designs
 previously made by the team members of CourseFlow. Before this meeting, both of them had
