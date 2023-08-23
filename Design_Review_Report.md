@@ -1,6 +1,7 @@
-**Author: Wei Min & Cynthia**
-
 # Meeting Report
+
+## Author: Wei Min & Cynthia
+
 On August 7, Cynthia and Wei conducted a meeting to review and discuss the designs
 previously made by the team members of CourseFlow. Before this meeting, both of them had
 been working on creating new designs for CourseFlow on Figma.
@@ -9,7 +10,7 @@ View, CourseFlow Discovery Page and Analytics Page. Cynthia is responsible for r
 Timetable and Discovery Page whereas Wei is responsible to create the pop up design on
 Timetable Page and review Analytics Page.
 
-**Review: Analytics Page**
+## Review: Analytics Page
 
 **Overview:** The purpose of the analytics page is to give students an overview on how they have
 progressed in their course. This will give students an idea on how many units they have
@@ -17,6 +18,7 @@ completed, how many more units they need to complete and what is their estimated
 based on the units they have completed.
 
 **Pros:**
+
 - This view will provide a summary of what the students have completed. This will be
 shown on the pie chart where the number of completed units and the number of
 on-going units will be on it.
@@ -24,6 +26,7 @@ on-going units will be on it.
 be able to grab this information and make sure they are on track for their desired goals.
 
 **Cons:**
+
 - This view included an unnecessary bar chart to show a certain information. However, bar
 chart style is not suitable to present the information we have.
 - Checkbox for skills and prerequisites are not applicable to every student as each
@@ -37,7 +40,7 @@ has achieved. The components that are unnecessary will be removed such as the ch
 and bar chart. They will be replaced with useful information such as information of their course,
 how their WAM are calculated and the requirement to pass their course and unit.
 
-**Review: Pop-Up Design**
+## Review: Pop-Up Design
 
 **Overview:** The given example for pop-up design is very simple and generic. Based on the
 requirements, this pop-up design will be implemented on the Discovery Page where students
@@ -47,7 +50,7 @@ necessary to include buttons. The pop-up view will display information about the
 will be provided to students if they get more detailed information about the unit. This link will be
 the handbook link provided by Deakin.
 
-**Review: Timetable Page**
+## Review: Timetable Page
 
 **Overview:** The timetable page shows the course map along with the student’s progress so far
 into their course. The course map is generated from a search and filter function according to
@@ -55,6 +58,7 @@ faculty, course, campus and so on. It is considered the “main” page when the
 CourseFlow.
 
 **Pros:**
+
 - The structure of the page allows students to see an overview of their progress. The icons
 with their colours represent different statuses (complete, in progress, etc.) so at a glance
 students can see how many units they have completed, and how many remaining.
@@ -63,6 +67,7 @@ corequisite units.
 - Site focuses greatly on visual presentation and less text.
 
 **Cons:**
+
 - While the circles make it easy to visualize related units, students need to hover over
 each circle individually to see the unit name and code.
 - Side search bar might not be “visually appealing” or is better placed in a different
@@ -72,6 +77,7 @@ were multiple related units or related units are far apart (Year 1 to Year 3), t
 stretch too far, overlap with each other or go over/under the circles.)
 
 **Suggestions:**
+
 - Using a card/rectangular structure to represent the units instead of circle icons. This way,
 more information can be included such as unit name, unit code, status, core/elective and
 so on.
@@ -87,6 +93,7 @@ the field of study. They can see units that are similar, with each linked circle
 related unit. Clicking on the circles will bring up further information about that unit.
 
 **Pros:**
+
 - Units are grouped according to their field of study. It allows students to discover units
 offered that are in their field of interest, including those outside their course.
 - Certain units have overlap between study areas can be shown between the groups.
@@ -94,13 +101,15 @@ offered that are in their field of interest, including those outside their cours
 prerequisite/corequisite units.
 
 **Cons:**
--  Certain units that have overlap between study areas, but not directly related may form an
+
+- Certain units that have overlap between study areas, but not directly related may form an
 “isolated island” in the view. Steps should be taken to ensure they are not easy to
 overlook.
 - Placement and grouping of some units may be difficult if they overlap with multiple fields
 of study (if such units exist).
 
 **Suggestions:**
+
 - Consider various ways to present the discovery view, whichever is the most
 user-friendly. Examples include groups of stars (in a galaxy theme), a map format with
 each field represented as a country, a puzzle with each field as a puzzle piece, etc..
