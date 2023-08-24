@@ -112,5 +112,5 @@ Implement secure password storage practices (such as hashing and salting) to pro
 
 - **Password Management:**
 
-Provide a way for users to reset their submission password if needed and ensure secure password
+Provide a way for users to reset their submission password if needed and, ensure secure password
 reset procedures.
