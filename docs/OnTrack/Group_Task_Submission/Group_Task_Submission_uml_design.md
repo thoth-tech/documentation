@@ -11,7 +11,6 @@ system checks the CanSubmitTask attribute to determine if the submission is allo
 SubmissionStatus attribute of the task is updated to "Submitted." If not, the submission is
 rejected.
 
-
 ![](Solution_1.png)
 
 **Solution 2: Adding Password for Certain Students**
@@ -24,6 +23,5 @@ When a user attempts to submit a task, they need to provide their SubmissionPass
 validates this password against the user's stored password. If the passwords match, the task is
 considered submitted, and the SubmissionStatus attribute of the task is updated to "Submitted."
 Otherwise, the submission is rejected.
-
 
 ![](Solution_2.png)
