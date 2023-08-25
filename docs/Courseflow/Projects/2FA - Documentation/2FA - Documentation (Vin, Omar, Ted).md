@@ -1,9 +1,11 @@
-﻿<a name="_page0_x69.00_y73.00"></a>CourseFlow Website - Two Factor Authentication (2FA)
+﻿# CourseFlow Website - Two Factor Authentication (2FA)
 Documentation
 
 _Sovinhou Ung Hazratomar Hassanzada Ted Wang_
 
-<a name="_page1_x69.00_y73.00"></a>Introduction
+
+## Introduction
+
 
 2FA, also known as 2 factor authentication. It is an extra layer of security used to protect user
 accounts, systems, databases, or applications from unauthorised access and potential attacks. With
@@ -38,14 +40,14 @@ cyberattacks. By installing 2FA, Course Flow’s database will have less chance 
 better defence to cyberattacks, by protecting sensitive and valuable information, Course Flow will
 be gaining trust and secureness from its clients and stakeholders.
 
-<a name="_page2_x69.00_y73.00"></a>Frontend Design
+## Frontend Design
 
 An important aspect of the 2FA, is the design, specifically areas of usability as well as
 pleasantness. This should be through a user-friendly and an informative interface for the users when
 they are prompted to set up the Two Factor Authentication on the CourseFlow website. This would be
 done through the language JavaScript.
 
-<a name="_page2_x69.00_y162.00"></a>User Interface (UI) Components
+## User Interface (UI) Components
 
 _Login Page_
 
@@ -60,7 +62,7 @@ _Registration Page_
 The registration page is important as the user would set up their account initially. Here the user
 would be prompted to turn on 2FA right away.
 
-<a name="_page2_x69.00_y341.00"></a>User Experience (UX) Considerations
+## User Experience (UX) Considerations
 
 There are many things to keep in conideration of the user, such as the simplicity of the information
 and to reduce technical jargon to a minimum, to make the instruction simpler to understand.
@@ -80,14 +82,14 @@ these prototypes we envision our 2FA to make use of Duo Mobile/single sign-on, t
 currently by Deakin students. The purpose of this is to make the experience of our website more
 seamline and connected. However, we are currently working on a prototype using google services.
 
-<a name="_page3_x69.00_y73.00"></a>Figma Design Prototypes
+## Figma Design Prototypes
 
 ![](Aspose.Words.c1eaed0e-7d01-4b23-bd08-e2a37f23ccf6.001.png)
 
 Figma
 Design:[ https://www.figma.com/file/8ysP7PILvnv8Qensruz7X6/Untitled?type=design&node-id=0- 1&mode=design&t=gf1Q60nXWClcf97T-0 ](https://www.figma.com/file/8ysP7PILvnv8Qensruz7X6/Untitled?type=design&node-id=0-1&mode=design&t=gf1Q60nXWClcf97T-0)![](Aspose.Words.c1eaed0e-7d01-4b23-bd08-e2a37f23ccf6.002.png)![](Aspose.Words.c1eaed0e-7d01-4b23-bd08-e2a37f23ccf6.003.jpeg)
 
-<a name="_page4_x69.00_y87.00"></a>Backend Design
+## Backend Design
 
 `      `We will be using typescript in order to complete this task. The backend designs will be
 consisted with the use of Google OAuth 2.0, this is to test the log in client using this method. We
@@ -105,7 +107,7 @@ What we have right now is:
 `      `We have coded and made the early prototype work, now we need to use C# to implement this and
 connect it with frontend.
 
-<a name="_page4_x69.00_y599.00"></a>Advantages of 2FA
+## Advantages of 2FA
 
 **Enhanced security:** Beyond just a password, 2FA adds another layer of security, in the case of
 someone stealing your password, a person would still need access to the device that receives the 2FA
@@ -116,14 +118,14 @@ cyberattacks such as phishing. This occurs when the attacker uses social enginee
 coerce the victim into giving up private information. 2FA would mitigate this as the password alone
 would be inadequate to gain access to the account without the second factor.
 
-<a name="_page5_x69.00_y73.00"></a>Plans of Google Log In Client and Plans of Deakin Log In
+## Plans of Google Log In Client and Plans of Deakin Log In
 
 `     `As google is trusted by many, it makes sense to implement this in. 2FA is already included in
 Gmail, so we do not need to worry about implementing that in our code. In a way, this helps us save
 time. However, this will only be the testing part as we will then improve on this and add more ways
 for user to log in such as Deakin Log in and single sign on.
 
-<a name="_page5_x69.00_y162.00"></a>Single Sign On
+## Single Sign On
 
 `     `Our goal at the end will be to implement a single sign on method which allows user to have
 email verifications sent of a onetime password.
