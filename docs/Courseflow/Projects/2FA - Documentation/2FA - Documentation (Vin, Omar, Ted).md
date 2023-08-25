@@ -1,11 +1,10 @@
 ﻿# CourseFlow Website - Two Factor Authentication (2FA)
+
 Documentation
 
 _Sovinhou Ung Hazratomar Hassanzada Ted Wang_
 
-
 ## Introduction
-
 
 2FA, also known as 2 factor authentication. It is an extra layer of security used to protect user
 accounts, systems, databases, or applications from unauthorised access and potential attacks. With
@@ -91,20 +90,20 @@ Design:[ https://www.figma.com/file/8ysP7PILvnv8Qensruz7X6/Untitled?type=design&
 
 ## Backend Design
 
-`      `We will be using typescript in order to complete this task. The backend designs will be
-consisted with the use of Google OAuth 2.0, this is to test the log in client using this method. We
-will be able to see if we can integrate and implement this into our Course Flow project afterwards.
+` `We will be using typescript in order to complete this task. The backend designs will be consisted
+with the use of Google OAuth 2.0, this is to test the log in client using this method. We will be
+able to see if we can integrate and implement this into our Course Flow project afterwards.
 
-`     `A prototype has been built for this method, we have successfully used Google API and OAuth
-2.0 to sign in and sign out account successfully, the next step would be to create a working page on
-the frontend side and connect it with the backend side that will allow user to use their google
-account to log in to Courseflow.
+` `A prototype has been built for this method, we have successfully used Google API and OAuth 2.0 to
+sign in and sign out account successfully, the next step would be to create a working page on the
+frontend side and connect it with the backend side that will allow user to use their google account
+to log in to Courseflow.
 
 What we have right now is:
 
 ![](Aspose.Words.c1eaed0e-7d01-4b23-bd08-e2a37f23ccf6.004.jpeg)
 
-`      `We have coded and made the early prototype work, now we need to use C# to implement this and
+` `We have coded and made the early prototype work, now we need to use C# to implement this and
 connect it with frontend.
 
 ## Advantages of 2FA
@@ -120,12 +119,12 @@ would be inadequate to gain access to the account without the second factor.
 
 ## Plans of Google Log In Client and Plans of Deakin Log In
 
-`     `As google is trusted by many, it makes sense to implement this in. 2FA is already included in
+` `As google is trusted by many, it makes sense to implement this in. 2FA is already included in
 Gmail, so we do not need to worry about implementing that in our code. In a way, this helps us save
 time. However, this will only be the testing part as we will then improve on this and add more ways
 for user to log in such as Deakin Log in and single sign on.
 
 ## Single Sign On
 
-`     `Our goal at the end will be to implement a single sign on method which allows user to have
-email verifications sent of a onetime password.
+` `Our goal at the end will be to implement a single sign on method which allows user to have email
+verifications sent of a onetime password.
