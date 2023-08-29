@@ -12,7 +12,7 @@ tags: faq,error,troubleshoot
 **Verify installation:** _Check if the SKM executable is present in the .splashkit directory by
 running the following command:_
 
-```bash
+```shell
 ls -l .splashkit
 ```
 
@@ -24,13 +24,13 @@ directory, including the SKM executable._
     If the skm executable is present, you can add it to your system's PATH by running the following
     command:
 
-    ```bash
+    ```shell
     echo 'export PATH="$HOME/.splashkit:$PATH"' >> ~/.bashrc
     ```
 
     Refresh the environment variables:
 
-    ```bash
+    ```shell
     source ~/.bashrc
     ```
 
@@ -38,13 +38,13 @@ directory, including the SKM executable._
 
     Open the .bashrc file:
 
-    ```bash
+    ```shell
     nano ~/.bashrc
     ```
 
     Add the following lines at the end of the file:
 
-    ```bash
+    ```shell
     export LD_LIBRARY_PATH=/usr/local/lib
     export PKG_CONFIG_PATH=/usr/local/lib/pkgconfig
     ```
@@ -53,6 +53,6 @@ directory, including the SKM executable._
 
     Refresh the environment variables:
 
-    ```bash
+    ```shell
     source ~/.bashrc
     ```

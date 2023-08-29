@@ -13,7 +13,7 @@ tags: faq,error,troubleshoot
 
 The corrected command is:
 
-```bash
+```shell
 brew install dotnet-sdk --cask
 ```
 

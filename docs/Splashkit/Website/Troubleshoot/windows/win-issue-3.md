@@ -12,7 +12,7 @@ tags: faq,error,troubleshoot
 ## Solution:
 
 Firstly, go through Steps 1 – 3 shown in the “Update your system “Path” variable” section
-[here](./update-system-path.md)
+[here](update-system-path.md)
 
 Then come back here for the Next Step. Disable any antivirus software on your computer.
 

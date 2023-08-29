@@ -23,7 +23,7 @@ Before you begin, make sure you have the following:
    Ubuntu, Debian, or openSUSE) and install it._ ![](https://i.imgur.com/6jYdhsO.png)
    _Alternatively, open PowerShell (admin) and enter the following script:_
 
-   ```bash
+   ```shell
    wsl --install
    ```
 
@@ -35,7 +35,7 @@ Before you begin, make sure you have the following:
    _In the WSL terminal, run the following commands to update the package lists and upgrade the
    installed packages:_
 
-   ```bash
+   ```shell
    sudo apt update
    sudo apt upgrade
    ```
@@ -44,7 +44,7 @@ Before you begin, make sure you have the following:
 
    _In the WSL terminal, run the following command to install Git and Curl:_
 
-   ```bash
+   ```shell
    sudo apt install git curl
    ```
 
@@ -52,7 +52,7 @@ Before you begin, make sure you have the following:
 
    **[OPTIONAL]** _Install additional dependencies required by Splashkit:_
 
-   ```bash
+   ```shell
    sudo apt install build-essential libsdl2-dev libsdl2-image-dev libsdl2-ttf-dev libsdl2-mixer-dev
 
    ```
@@ -60,7 +60,7 @@ Before you begin, make sure you have the following:
 5. **Download and install Splashkit using SKM (Splashkit Manager):** _In the WSL terminal, run the
    following command to download and install Splashkit using the SKM installation script:_
 
-   ```bash
+   ```shell
    bash <(curl -s https://raw.githubusercontent.com/splashkit/skm/master/install-scripts/skm-install.sh)
 
    ```
@@ -68,7 +68,7 @@ Before you begin, make sure you have the following:
 6. **Verify installation:** _Check if the SKM executable is present in the .splashkit directory by
    running the following command:_
 
-   ```bash
+   ```shell
    ls -l .splashkit
    ```
 
@@ -76,7 +76,7 @@ Before you begin, make sure you have the following:
    directory, including the SKM executable._
 
 7. **Add SKM to system's PATH:**
-   ```bash
+   ```shell
    echo 'export PATH="$HOME/.splashkit:$PATH"' >> ~/.bashrc
    source ~/.bashrc
    ```
@@ -84,7 +84,7 @@ Before you begin, make sure you have the following:
 8. Install SKM tools for Linux **[Optional]** _In the WSL terminal, you can install additional SKM
    tools for Linux by running the following command:_
 
-   ```bash
+   ```shell
    skm linux install
    ```
 
@@ -96,13 +96,13 @@ Before you begin, make sure you have the following:
 
 Execute skm to test it was successfully installed.
 
-```bash
+```shell
     skm
 ```
 
 You should see the following messages:
 
-```bash
+```shell
 Splashkit is installed successfully!
 Missing skm command. For help use 'skm help'
 ```
@@ -124,7 +124,7 @@ int main() {
 
 Run this by executing the following command in WSL terminal:
 
-```bash
+```shell
 skm clang++ <filename>.cpp -o <outputfile>
 ./<outputfile>
 ```

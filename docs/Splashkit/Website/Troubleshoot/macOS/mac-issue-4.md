@@ -15,15 +15,15 @@ tags: faq,error,troubleshoot
 2. **Solution 2:** For older macOS versions (**pre-12.0**), you can use the following commands in
    the terminal to change SplashKit to a previous version (run each line separately):
 
-   ```bash
+   ```shell
    cd ~/.splashkit
    ```
 
-   ```bash
+   ```shell
    git fetch –unshallow
    ```
 
-   ```bash
+   ```shell
    git checkout cbb68dc
    ```
 

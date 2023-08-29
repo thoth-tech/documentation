@@ -13,7 +13,7 @@ tags: faq,error,troubleshoot
 
 Run the following command, and then enter your password:
 
-```bash
+```shell
 sudo ln -s /usr/local/share/dotnet/dotnet /usr/local/bin
 ```
 

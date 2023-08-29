@@ -5,4 +5,5 @@ This repository provides solutions to known installation issues encountered by M
 
 ## Table of Contents
 
-- [Issue 1:](./linux-issue-q.md) "`skm: command not found`"
+- [Issue 1:](linux-issue-1.md) "`bash: skm command not found`"
+- [Issue 2:](linux-issue-2.md) "`bash: dotnet command not found`"

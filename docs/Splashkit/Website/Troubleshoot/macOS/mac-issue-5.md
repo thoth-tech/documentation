@@ -24,19 +24,19 @@ You might need to show hidden files. Hold down the shift and command keys, and t
 
 Open the `.zshrc` file and add the following line:
 
-```bash
+```shell
 export PATH="$HOME/.splashkit:$PATH"
 ```
 
 As an added precaution for dotnet, you can also add this line to the same file:
 
-```bash
+```shell
 export PATH="/usr/local/share/dotnet:$PATH"
 ```
 
 And while you are adding to this file, you can also add the following line, which will allow you to
 use the command `code .` to open Visual Studio Code from your terminal:
 
-```bash
+```shell
 export PATH="$PATH:/Applications/Visual Studio Code.app/Contents/Resources/app/bin"
 ```

@@ -1,4 +1,4 @@
-![](https://i.imgur.com/pbIntVv.png)---
+---
 
 title: FAQs on Splashkit installation tags: faq,error,troubleshoot
 
