@@ -135,4 +135,3 @@ Change the **<filename>** and **<outputfile>** with your file names.
 
 - [WSL installation](https://learn.microsoft.com/en-us/windows/wsl/install)
 - [SplashKit SDK](https://splashkit.io/)
-
