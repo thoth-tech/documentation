@@ -1,4 +1,4 @@
-# Title: Getting Started With Sprites in Splashkit - C#
+# Getting Started With Sprites in Splashkit - C#
 
 ## What _is_ a Sprite in Splashkit?
 
