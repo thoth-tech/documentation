@@ -8,11 +8,12 @@ Two joysticks and buttons are controls found on the deck of the arcade machine. 
 
 ## User Story
 
+| Label | Details |
 | --- | --- |
 | Description | Players use a joystick and buttons in the deck of the arcade machine to start, control, pause and end actions of the objects on the game’s screen. |
 | User story | As a player, I want to use game controls to play games on the Deakin School of IT's arcade machine. |
-| Acceptance criteria | --- |
-| Data validation | --- |
+| Acceptance criteria | a |
+| Data validation | a |
 | API/Code | ..to be added/linked |
 
 ## Use Case Diagram
