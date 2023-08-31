@@ -17,13 +17,16 @@
 2. Select the USB drive from the 'Device' dropdown.
 3. Click the 'SELECT' button to choose the Ubuntu ISO (should be in your downloads folder).
 4. Click the 'START' button at the bottom.
+
    ![Rufus Start](images/rufus_screenshot.png)
 
 ## 3. Prepare Booting
 
 1. Plug the USB or SSD into your PC.
 2. Restart your PC and continually hit the boot menu key to open BIOS settings.
+
    ![Boot Keys](images/bootkeys.png)
+
 3. There should be a list of boot options including Windows Boot Manager. Select the bootable USB
    with the Ubuntu ISO.
 4. The Ubuntu OS will load in portable mode from the USB.
@@ -31,21 +34,30 @@
 ## 4. Install Ubuntu on External SSD
 
 1. After booting into Ubuntu you should be provided with the option to Try Ubuntu or Install Ubuntu.
-   Select Install Ubuntu. ![Ubuntu Boot Options](images/ubuntu_options.png)
+   Select Install Ubuntu.
+
+   ![Ubuntu Boot Options](images/ubuntu_options.png)
+
 2. If not prompted, open the "Install Ubuntu" application from the desktop.
+
    ![Ubuntu Desktop](images/install_ubuntu.png)
+
 3. Proceed through the initial steps until you reach the "Installation type" step.
 4. Choose the "Something else" option to manually configure partitions.
 5. Identify the external SSD as a device like `/dev/sdb`.
+
    ![Installation Type](images/installation_type.png)
 
 ## 5. Partitioning
 
 1. Create the root partition:
+
    - Use as: Ext4 journaling file system.
    - Mount point: /
    - Tick the box to format.
+
    ![Root Partition](images/root_partition.png)
+
 2. Click OK to start the installation.
 3. Select your timezone.
 
@@ -53,7 +65,9 @@
 
 1. Connect to the Deakin Setup WiFi network.
 2. It should launch this webpage in your browser.
+
    ![Deakin Setup Page](images/deakin_setup_page.png)
+
 3. Click the JoinNow button to download the setup wizard.
 4. Change directory into the `Downloads` folder in the terminal.
 
