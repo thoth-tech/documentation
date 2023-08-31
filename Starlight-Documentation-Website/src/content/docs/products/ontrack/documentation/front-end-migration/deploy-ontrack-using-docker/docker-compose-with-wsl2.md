@@ -16,10 +16,10 @@ Here's how to enable Windows Subsystem for Linux component in Windows 10:
 2. Select Apps.
 3. Click Programs and Features under the Related settings section on the right.
    <!-- ![programs and Features](imgs/programs_and_features.png) -->
-   ![programs and features](/Starlight-Documentation-Website/public/programs_and_features.png)
+   ![programs and features](/public/programs_and_features.png)
 4. Under the Programs and Features page, click Turn Windows features on or off on the left panel.
 5. Scroll down and enable Windows Subsystem for Linux.
-   ![Windows Features](/Starlight-Documentation-Website/public/windows_features.png)
+   ![Windows Features](/public/windows_features.png)
 6. Click OK to save your changes.
 7. Hit Restart now to finish the process.
 
@@ -46,12 +46,12 @@ wsl --set-version <distro name> 2
 Once installed, you can either launch the application directly from the store or search for Ubuntu
 in your Windows search bar.
 
-![Search Bar](/Starlight-Documentation-Website/public/search_bar.png)
+![Search Bar](/public/search_bar.png)
 
 Once Ubuntu has finished its initial setup you will need to create a username and password (this
 does not need to match your Windows user credentials).
 
-![Sub System](/Starlight-Documentation-Website/public/ubuntu_sub_system.png)
+![Sub System](/public/ubuntu_sub_system.png)
 
 Finally, it’s always good practice to install the latest updates with the following commands,
 entering your password when prompted.
@@ -64,7 +64,7 @@ sudo apt-get install net-tools (windows/linux installation)
 
 ## Enable Docker Support for WSL2
 
-![Docker Support](/Starlight-Documentation-Website/public/dockersupport.png)
+![Docker Support](/public/dockersupport.png)
 
 1. From the Docker menu, select Settings > General.
 2. Select the Use WSL 2 based engine check box. _If you have installed Docker Desktop on a system

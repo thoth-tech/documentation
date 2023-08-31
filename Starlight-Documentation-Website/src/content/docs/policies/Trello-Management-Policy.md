@@ -18,28 +18,28 @@ To associate you Trello card with a GitHub commit, follow the steps provided bel
 
 - On the right hand side of the opened card, Click on GitHub.
 
-  ![trello](/Starlight-Documentation-Website/public/trellocardcapture.png)
+  ![trello](/public/trellocardcapture.png)
 
 - Then select "**Attach Commit**" or "**Attach Branch**" depending on your scenario. In this
   scenario, I would attach a commit.
 
-  ![Attach commit](/Starlight-Documentation-Website/public/attachcommit.png)
+  ![Attach commit](/public/attachcommit.png)
 
 - Select "**Choose repo**" and click on the repo containing your commits.
 
-  ![Choose repo](/Starlight-Documentation-Website/public/chooserepo.png)
+  ![Choose repo](/public/chooserepo.png)
 
 - Choose the branch that has the completed task.
 
-  ![Choose branch](/Starlight-Documentation-Website/public/choosebranch.png)
+  ![Choose branch](/public/choosebranch.png)
 
 - Choose the right commit from the list provided.
 
-  ![Choose commit](/Starlight-Documentation-Website/public/choosecommit.png)
+  ![Choose commit](/public/choosecommit.png)
 
 - Your card would now look like this.
 
-  ![Final look](/Starlight-Documentation-Website/public/finalcardlook.png)
+  ![Final look](/public/finalcardlook.png)
 
 ### Add Timelines to your Trello Card
 
@@ -52,18 +52,18 @@ To add a timeline to your card follow the steps below.
 - Locate and click on the created Trello card.
 - On the side navigation bar, select Dates.
 
-  ![Final look](/Starlight-Documentation-Website/public/timeline1.png)
+  ![Final look](/public/timeline1.png)
 
 - Tick the Start date check box and enter a start date.
 - On the Due date box, enter the date and expected time of completion.
 
-  ![Final look](/Starlight-Documentation-Website/public/timeline2.png)
+  ![Final look](/public/timeline2.png)
 
 - For "Set due date reminder," select a time of your choice, for e.g., "1 Day before" and click on
   Save.
 - Exit the Card and now you should see the Timeline on your card.
 
-  ![Final look](/Starlight-Documentation-Website/public/timeline3.png)
+  ![Final look](/public/timeline3.png)
 
 ### Use Labels to Differentiate Sprints
 

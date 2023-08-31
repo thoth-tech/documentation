@@ -92,7 +92,7 @@ team culture:
 Below is the up to date structure of Thoth Tech Company. This is led by the following Managing
 Director - Andrew Cain and Glory Lee.
 
-![Org chart](/Starlight-Documentation-Website/public/image1.png)
+![Org chart](/public/image1.png)
 
 ## Your Impact
 
@@ -214,12 +214,12 @@ still in the build stage however, you can catch a glimpse of the work done so fa
 - For below example we have selected “Company Operations Trello Board”. The team member can see the
   backlog tasks within this board.
 
-  ![Image 2](/Starlight-Documentation-Website/public/image2.png)
+  ![Image 2](/public/image2.png)
 
 - You can assign the task from backlog to yourself simply by following below steps, in the member
   section add your name
 
-  ![Image 3](/Starlight-Documentation-Website/public/image3.png)
+  ![Image 3](/public/image3.png)
 
 Reference links: you can refer to Getting started with
 Trello -<https://www.youtube.com/watch?v=xky48zyL9iA&ab_channel=Trello>
@@ -237,40 +237,40 @@ work would reside
 
 - For example, see the below steps followed for installing Github on Windows 11 machine
 
-  ![Image 4](/Starlight-Documentation-Website/public/image4.png)
+  ![Image 4](/public/image4.png)
 
 - Once the exe file is downloaded, click and start the installation process
-  ![Image 5](/Starlight-Documentation-Website/public/image5.png)
-- Accept the terms and conditions ![Image 6](/Starlight-Documentation-Website/public/image6.png)
+  ![Image 5](/public/image5.png)
+- Accept the terms and conditions ![Image 6](/public/image6.png)
 
 - Select the location where you want to store the file
-  ![Image 7](/Starlight-Documentation-Website/public/image7.png)
+  ![Image 7](/public/image7.png)
 
 - Select the editor (here we have selected Visual Studio as Git’s default editor)
-  ![Image 8](/Starlight-Documentation-Website/public/image8.png)
+  ![Image 8](/public/image8.png)
 
-  ![Image 9](/Starlight-Documentation-Website/public/image9.png)
+  ![Image 9](/public/image9.png)
 
-  ![Image 10](/Starlight-Documentation-Website/public/image10.png)
+  ![Image 10](/public/image10.png)
 
-  ![Image 11](/Starlight-Documentation-Website/public/image11.png)
+  ![Image 11](/public/image11.png)
 
 - And follow rest of installation steps (as pre-selected one’s)
 
 - For git pull setting select as below
-  ![Image 12](/Starlight-Documentation-Website/public/image12.png)
+  ![Image 12](/public/image12.png)
 
 - Configuring experimental options select both and hit install button
-  ![Image 13](/Starlight-Documentation-Website/public/image13.png)
+  ![Image 13](/public/image13.png)
 
 - Once installed select “Launch Git Bash”
-  ![Image 14](/Starlight-Documentation-Website/public/image14.png)
+  ![Image 14](/public/image14.png)
 
-- Git Bash would open up ![Image 15](/Starlight-Documentation-Website/public/image15.png)
+- Git Bash would open up ![Image 15](/public/image15.png)
 
 - In order to work on any Thoth Tech projects or relevant git links you would need to clone and then
   create pull request for merging the work with the master repository
-  ![Image 16](/Starlight-Documentation-Website/public/image16.png)
+  ![Image 16](/public/image16.png)
 
 ## Getting help in Thoth Tech
 
