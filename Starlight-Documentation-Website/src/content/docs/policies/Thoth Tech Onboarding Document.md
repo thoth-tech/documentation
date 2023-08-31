@@ -243,8 +243,7 @@ work would reside
   ![Image 5](/public/image5.png)
 - Accept the terms and conditions ![Image 6](/public/image6.png)
 
-- Select the location where you want to store the file
-  ![Image 7](/public/image7.png)
+- Select the location where you want to store the file ![Image 7](/public/image7.png)
 
 - Select the editor (here we have selected Visual Studio as Git’s default editor)
   ![Image 8](/public/image8.png)
@@ -257,14 +256,12 @@ work would reside
 
 - And follow rest of installation steps (as pre-selected one’s)
 
-- For git pull setting select as below
-  ![Image 12](/public/image12.png)
+- For git pull setting select as below ![Image 12](/public/image12.png)
 
 - Configuring experimental options select both and hit install button
   ![Image 13](/public/image13.png)
 
-- Once installed select “Launch Git Bash”
-  ![Image 14](/public/image14.png)
+- Once installed select “Launch Git Bash” ![Image 14](/public/image14.png)
 
 - Git Bash would open up ![Image 15](/public/image15.png)
 
