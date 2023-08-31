@@ -71,14 +71,14 @@
 3. Click the JoinNow button to download the setup wizard.
 4. Change directory into the `Downloads` folder in the terminal.
 
-   ```bash
+   ```shell
    cd Downloads
    ```
 
 5. Enter the following command in the terminal to connect to the wifi network and follow the prompts
    to enter your Deakin username and password.
 
-   ```bash
+   ```shell
     sh SecureW2_JoinNow.run
    ```
 
@@ -89,19 +89,19 @@
 1. After installation, open a terminal.
 2. Install Git:
 
-   ```bash
+   ```shell
    sudo apt install git
    ```
 
 3. Install Docker
 
-   ```bash
+   ```shell
    sudo apt install docker.io
    ```
 
 4. Install vscode
 
-   ```bash
+   ```shell
    sudo snap install --classic code
    ```
 
@@ -109,20 +109,20 @@
 
 1. Clone the OnTrack repository (change `YOUR_USERNAME` to your GitHub username):
 
-   ```bash
+   ```shell
    git clone --recurse-submodules git clone https://github.com/YOUR_USERNAME/doubtfire-deploy
    ```
 
 2. Open the `doubtfire-deploy` folder in vscode:
 
-   ```bash
+   ```shell
    cd doubtfire-deploy
    code .
    ```
 
 3. Run change remotes script in the integrated terminal to change the remote to your own repository.
 
-   ```bash
+   ```shell
    ./change-remotes.sh
    ```
 
