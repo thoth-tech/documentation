@@ -86,7 +86,7 @@ export default defineConfig({
             {
               label: "CourseFlow",
               autogenerate: { directory: "products/courseflow" },
-            },   
+            },
             // {
             //   label: "OnTrack",
             //   autogenerate: { directory: "products/ontrack" },
@@ -122,10 +122,10 @@ export default defineConfig({
               label: "SplashKit",
               autogenerate: { directory: "products/splashkit" },
             },
-            ],
-          },
-        ],
-      }),
+          ],
+        },
+      ],
+    }),
   ],
   // Process images with sharp: https://docs.astro.build/en/guides/assets/#using-sharp
   image: {
