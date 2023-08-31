@@ -49,30 +49,42 @@ formatting, install the C# extension in Visual Studio Code as well. This can be 
 the 4 boxes icon on the bottom of the top left menu, near the magnifying glass, and just typing C#
 and clicking install.
 
-
-
-For C++, if you've already run the code snippet above, nothing has to be done. Otherwise, run that code snippet as well, and then simply install the C++ extension in Visual Studio Code, just like for C#.
-
+For C++, if you've already run the code snippet above, nothing has to be done. Otherwise, run that
+code snippet as well, and then simply install the C++ extension in Visual Studio Code, just like for
+C#.
 
 ## Creation and Compiling
 
-This is the fun part. You've installed some language tools, and SplashKit itself. Now the question is "How do we actually *make* something?" In order to set up the necessary files and dependencies for SplashKit project creation, all you have to do is:
+This is the fun part. You've installed some language tools, and SplashKit itself. Now the question
+is "How do we actually _make_ something?" In order to set up the necessary files and dependencies
+for SplashKit project creation, all you have to do is:
 
-1. Navigate to a folder to act as a base, as an example my folder path will be ```C:\Users\{User}\Desktop\testSplashKit```
+1. Navigate to a folder to act as a base, as an example my folder path will be
+   `C:\Users\{User}\Desktop\testSplashKit`
 
-1. Once there, open a MSYS2 terminal and navigate to that folder with the ```cd``` (change directory) command. Either by copy-pasting the path in the windows explorer by just clicking it, or typing it. You'll know you are in the right position because the location line will change from ```~``` to your location, like below:
+1. Once there, open a MSYS2 terminal and navigate to that folder with the `cd` (change directory)
+   command. Either by copy-pasting the path in the windows explorer by just clicking it, or typing
+   it. You'll know you are in the right position because the location line will change from `~` to
+   your location, like below:
 
-    ![Screenshot of changing directories](image.png) 
+   ![Screenshot of changing directories](image.png)
 
+1. Once you have navigated the MSYS2 terminal to the base location that you want your project to be
+   in, you can run either of the following commands:
 
-1. Once you have navigated the MSYS2 terminal to the base location that you want your project to be in, you can run either of the following commands:
-    
-    1. For C#, the command is ```skm dotnet new```, which will intialize some VSCode settings, create a Program.cs file to initially edit, as well as a .csproj file to open
+   1. For C#, the command is `skm dotnet new`, which will intialize some VSCode settings, create a
+      Program.cs file to initially edit, as well as a .csproj file to open
 
-    1. For C++, the command is ```skm new c++```, which will do the same as above, but initialize a cpp file instead 
+   1. For C++, the command is `skm new c++`, which will do the same as above, but initialize a cpp
+      file instead
 
-1. After having created your project files to edit, and assumedly editing them with some amount of code, the process to compile and run are as follows:
-    
-    1. For C#, ```skm dotnet run``` will compile and run but not output an exe, for that functionality you run ```skm dotnet publish``` and navigate to the created bin folder file structure to find the output. 
+1. After having created your project files to edit, and assumedly editing them with some amount of
+   code, the process to compile and run are as follows:
 
-    1. For C++, ```skm clang++ program.cpp``` will output an exe compiled and ready to run, can be ammended with an ```-O``` parameter to give a file name, such as ```skm clang++ program.cpp -o SpriteLayering``` giving you a SpriteLayering.exe 
+   1. For C#, `skm dotnet run` will compile and run but not output an exe, for that functionality
+      you run `skm dotnet publish` and navigate to the created bin folder file structure to find the
+      output.
+
+   1. For C++, `skm clang++ program.cpp` will output an exe compiled and ready to run, can be
+      ammended with an `-O` parameter to give a file name, such as
+      `skm clang++ program.cpp -o SpriteLayering` giving you a SpriteLayering.exe
