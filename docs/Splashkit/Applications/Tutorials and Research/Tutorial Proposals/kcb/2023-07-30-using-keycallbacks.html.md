@@ -3,7 +3,7 @@ title: Using Key Callbacks
 date: 2023-07-30 06:21 UTC
 author: Ro
 author_url:
-tags: Input
+tags: input
 summary: |
   Key Callbacks provide a method to indirectly run commands based on detected key events.
   Instead of directly checking the state of a key press, process event will run the callback function
@@ -102,7 +102,7 @@ pairs.
 Once you have a function to be used for callbacks, a KeyCallback object is needed to refer to the
 function and be registered for process event to be aware of.
 
-```C#
+```c#
 
 public KeyCallback kcb;
 
