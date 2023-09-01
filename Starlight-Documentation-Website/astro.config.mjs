@@ -77,21 +77,93 @@ export default defineConfig({
             },
             {
               label: "Art Gallery",
-              autogenerate: { directory: "products/art-gallery" },
+              items: [
+                {
+                  label: "Get to Know Us",
+                  link: "/products/art-gallery/example",
+                },
+                {
+                  label: "Projects",
+                  autogenerate: {
+                    directory: "products/art-gallery/projects",
+                  },
+                },
+                {
+                  label: "Documentation",
+                  autogenerate: {
+                    directory: "products/art-gallery/documentation",
+                  },
+                },
+                {
+                  label: "Issues and Resolutions",
+                  autogenerate: {
+                    directory: "products/art-gallery/issues-and-resolution",
+                  },
+                },
+              ],
             },
             {
               label: "Company Operations",
-              autogenerate: { directory: "products/company-operations" },
+              items: [
+                {
+                  label: "Get to Know Us",
+                  link: "/products/company-operations/example",
+                },
+                {
+                  label: "Projects",
+                  autogenerate: {
+                    directory: "products/company-operations/projects",
+                  },
+                  items: [
+                    {
+                      label: "Docusaurus Documentation",
+                      autogenerate: {
+                        directory: "products/company-operations/projects/docusaurus-documentation",
+                      },
+                    },
+                  ],
+                },
+                {
+                  label: "Documentation",
+                  autogenerate: {
+                    directory: "products/company-operations/documentation",
+                  },
+                },
+                {
+                  label: "Issues and Resolutions",
+                  autogenerate: {
+                    directory: "products/company-operations/issues-and-resolution",
+                  },
+                },
+              ],
             },
             {
               label: "CourseFlow",
-              autogenerate: { directory: "products/courseflow" },
+              items: [
+                {
+                  label: "Get to Know Us",
+                  link: "/products/courseflow/example",
+                },
+                {
+                  label: "Projects",
+                  autogenerate: {
+                    directory: "products/courseflow/projects",
+                  },
+                },
+                {
+                  label: "Documentation",
+                  autogenerate: {
+                    directory: "products/courseflow/documentation",
+                  },
+                },
+                {
+                  label: "Issues and Resolutions",
+                  autogenerate: {
+                    directory: "products/courseflow/issues-and-resolution",
+                  },
+                },
+              ],
             },
-            // {
-            //   label: "OnTrack",
-            //   autogenerate: { directory: "products/ontrack" },
-
-            // },
             {
               label: "OnTrack",
               items: [
@@ -100,10 +172,30 @@ export default defineConfig({
                   link: "/products/ontrack/example",
                 },
                 {
+                  label: "Projects",
+                  autogenerate: {
+                    directory: "products/ontrack/projects",
+                  },
+                },
+                {
                   label: "Documentation",
                   autogenerate: {
                     directory: "products/ontrack/documentation",
                   },
+                  items: [
+                    {
+                      label: "Front End Migration",
+                      autogenerate: {
+                        directory: "products/ontrack/documentation/front-end-migration",
+                      },
+                    },
+                    {
+                      label: "Numbas",
+                      autogenerate: {
+                        directory: "products/ontrack/documentation/numbas",
+                      },
+                    },
+                  ],
                 },
                 {
                   label: "Issues and Resolutions",
@@ -111,16 +203,34 @@ export default defineConfig({
                     directory: "products/ontrack/issues-and-resolution",
                   },
                 },
-                // {label: "Deploy OnTrack Using Docker",
-                //   autogenerate: {
-                //     directory: "products/ontrack/front-end-migration/deploy-ontrack-using-docker",
-                //   },
-                // },
               ],
             },
             {
               label: "SplashKit",
-              autogenerate: { directory: "products/splashkit" },
+              items: [
+                {
+                  label: "Get to Know Us",
+                  link: "/products/splashkit/example",
+                },
+                {
+                  label: "Projects",
+                  autogenerate: {
+                    directory: "products/splashkit/projects",
+                  },
+                },
+                {
+                  label: "Documentation",
+                  autogenerate: {
+                    directory: "products/splashkit/documentation",
+                  },
+                },
+                {
+                  label: "Issues and Resolutions",
+                  autogenerate: {
+                    directory: "products/splashkit/issues-and-resolution",
+                  },
+                },
+              ],
             },
           ],
         },
