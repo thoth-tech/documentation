@@ -10,12 +10,12 @@
 
 3. Open `Visual Studio Code` After installing or confirming the above. Search and install the `C# extension` on `Visual Studio Code`.
 
-    ![image](publ0/case.png)
+    ![image](images/publ0.png)
 
 4. Create or open your c# project. Note, if you are using an existing code, you may need to update or reinstall old versions of `.NET core`, and don't forget to update/load the `SplashKit` library on your project.
 
-    ![image](publ/case.png)
-    ![image](publ2/case.png)
+    ![image](images/publ.png)
+    ![image](images/publ2.png)
 
 5. For illustration, we will use the following c# code, which goes to two `.cs` files:
 
@@ -154,7 +154,7 @@
     ```
 
     You will need to update the metadata for the discoverability of your package, before the following commands.
-    ![image](publ2/case.png)
+    ![image](images/publ2.png)
 
     ```cpp
     dotnet pack .....
