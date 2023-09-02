@@ -60,7 +60,7 @@ Make sure that only authenticate unit chair for certain unit is allowed to host 
 ## Database Design
 
 - **Table:** Create a table called ‘ContentRecord’ which stores all the information about when the
-unit chair hosted content within OnTrack and when last modified.
+  unit chair hosted content within OnTrack and when last modified.
 
 **Column:**
 
@@ -72,9 +72,9 @@ unit chair hosted content within OnTrack and when last modified.
 ## Validation
 
 - **Error messages:** Display error messages in its relevant place when unit chair puts irrelevant
-date for when the content should be seen on the OnTrack application.
+  date for when the content should be seen on the OnTrack application.
 - **API validation:** Validate that the input from the frontend is appropriate and that it meets the
-requirement.
+  requirement.
 
 ## Exception handling
 
@@ -143,7 +143,7 @@ will be introduced in the current system of OnTrack.
 - Run testing for both frontend and backend to identify any issues.
 - Ensure that the code follows the standards and its best practices.
 - Make announcement to students and unit chairs about the new feature, along with any downtime when
-the deployment process is taking place.
+  the deployment process is taking place.
 - Include instructions for unit chair on how to use the new feature.
 - Record the new feature during the first few days for any problems that can occur.
 
