@@ -153,8 +153,8 @@
     dotnet run
     ```
 
-    You will need to update the metadata for the discoverability of your package, before the following commands.
-    ![image](images/publ2.png)
+    You will need to update the `metadata` for the discoverability of your package, before the following commands.
+    ![image](images/publ3.png)
 
     ```cpp
     dotnet pack .....
