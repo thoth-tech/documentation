@@ -1,0 +1,8 @@
+{
+  "MD033": {
+    "allowed_elements": ["ul", "li", "img"]
+  },
+  "MD013": {
+    "tables": false
+  }
+}
