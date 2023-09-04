@@ -7,7 +7,6 @@ import { Card, LinkCard, CardGrid, Icon } from '@astrojs/starlight/components';
 
 <Card
     title="Welcome to the Art Gallery"
-    href="/products/art-gallery/example/"
     icon="bars"
 />
 
@@ -24,4 +23,4 @@ import { Card, LinkCard, CardGrid, Icon } from '@astrojs/starlight/components';
 
 ### About Us
 
-The Art Gallery is a product being created to help sell and advertise rural Art in Australia. We made some good progress last trimester and have some amended goals this trimester to move the product forward. The key focuses this trimester will be about getting the system deployed with a working knowledge base. So future work on the system can be easier we will also look at implementing a CI/CD pipeline.
+The Art Gallery is a product being created to help sell and advertise rural Art in Australia.
