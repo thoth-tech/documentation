@@ -1,0 +1,11 @@
+C:\Users\loliw\source\repos\Window1\Window1\bin\Debug\Window1.exe.config
+C:\Users\loliw\source\repos\Window1\Window1\bin\Debug\Window1.exe
+C:\Users\loliw\source\repos\Window1\Window1\bin\Debug\Window1.pdb
+C:\Users\loliw\source\repos\Window1\Window1\obj\Debug\Window1.csproj.AssemblyReference.cache
+C:\Users\loliw\source\repos\Window1\Window1\obj\Debug\Window1.csproj.SuggestedBindingRedirects.cache
+C:\Users\loliw\source\repos\Window1\Window1\obj\Debug\Window1.Properties.Resources.resources
+C:\Users\loliw\source\repos\Window1\Window1\obj\Debug\Window1.csproj.GenerateResource.cache
+C:\Users\loliw\source\repos\Window1\Window1\obj\Debug\Window1.csproj.CoreCompileInputs.cache
+C:\Users\loliw\source\repos\Window1\Window1\obj\Debug\Window1.exe
+C:\Users\loliw\source\repos\Window1\Window1\obj\Debug\Window1.pdb
+C:\Users\loliw\source\repos\Window1\Window1\obj\Debug\Window1.Form1.resources
