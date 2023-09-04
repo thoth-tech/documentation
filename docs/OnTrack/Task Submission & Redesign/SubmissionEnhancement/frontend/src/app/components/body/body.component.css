@@ -1,7 +1,0 @@
-.body-container{
-  display: grid;
-  grid-template-columns: 1fr 2fr 1fr;
-  column-gap: 20px;
-  padding: 0px 20px;
-  height: 1000px;
-}
