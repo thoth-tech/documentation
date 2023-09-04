@@ -1,0 +1,81 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "sktest.exe",
+      "type": "cppdbg",
+      "request": "launch",
+      "program": "${workspaceFolder}/bin/sktest.exe",
+      "args": [],
+      "stopAtEntry": false,
+      "cwd": "${workspaceFolder}/bin",
+      "environment": [],
+      "externalConsole": false,
+      "windows": {
+        "MIMode": "gdb",
+        "miDebuggerPath": "C:\\msys64\\mingw64\\bin\\gdb.exe"
+      },
+      "osx": {
+        "program": "${workspaceFolder}/bin/sktest",
+        "MIMode": "lldb",
+        "type": "lldb" // https://marketplace.visualstudio.com/items?itemName=vadimcn.vscode-lldb
+      },
+      "linux": {
+        "program": "${workspaceFolder}/bin/sktest",
+        "MIMode": "gdb",
+        "miDebuggerPath": "/usr/bin/gdb"
+      },
+      "setupCommands": [
+        {
+          "description": "Enable pretty-printing for gdb",
+          "text": "-enable-pretty-printing",
+          "ignoreFailures": true
+        },
+        {
+          "description": "Set Disassembly Flavor to Intel",
+          "text": "-gdb-set disassembly-flavor intel",
+          "ignoreFailures": true
+        }
+      ],
+      "preLaunchTask": "Full Compile" // Swap this with "Compile" to skip the cmake step
+    },
+    {
+      "name": "skunit_tests.exe",
+      "type": "cppdbg",
+      "request": "launch",
+      "program": "${workspaceFolder}/bin/skunit_tests.exe",
+      "args": [],
+      "stopAtEntry": false,
+      "cwd": "${workspaceFolder}/bin",
+      "environment": [],
+      "externalConsole": false,
+      "windows": {
+        "MIMode": "gdb",
+        "miDebuggerPath": "C:\\msys64\\mingw64\\bin\\gdb.exe"
+      },
+      "osx": {
+        "MIMode": "lldb",
+        "program": "${workspaceFolder}/bin/skunit_tests",
+        "type": "lldb" // https://marketplace.visualstudio.com/items?itemName=vadimcn.vscode-lldb
+      },
+      "linux": {
+        "program": "${workspaceFolder}/bin/skunit_tests",
+        "MIMode": "gdb",
+        "miDebuggerPath": "/usr/bin/gdb"
+      },
+      "setupCommands": [
+        {
+          "description": "Enable pretty-printing for gdb",
+          "text": "-enable-pretty-printing",
+          "ignoreFailures": true
+        },
+        {
+          "description": "Set Disassembly Flavor to Intel",
+          "text": "-gdb-set disassembly-flavor intel",
+          "ignoreFailures": true
+        }
+      ],
+      "preLaunchTask": "Full Compile" // Swap this with "Compile" to skip the cmake step
+    }
+  ]
+}

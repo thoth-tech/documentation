@@ -1,0 +1,22 @@
+{
+  "name": "documentation",
+  "description": "Thoth Tech documentation",
+  "private": true,
+  "scripts": {
+    "format": "prettier --write \"**/*.md\"",
+    "format:check": "prettier --check \"**/*.md\"",
+    "prose:check": "vale --minAlertLevel error --output=docs/.vale/vale.tmpl docs",
+    "lint": "npm run format:check && npm run prose:check"
+  },
+  "devDependencies": {
+    "prettier": "2.8.8"
+  },
+  "engines": {
+    "node": ">=16.14.2",
+    "npm": "^8.5.0"
+  },
+  "dependencies": {
+    "i": "^0.3.7",
+    "markdownlint": "^0.26.0"
+  }
+}

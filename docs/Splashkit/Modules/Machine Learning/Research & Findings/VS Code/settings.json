@@ -1,0 +1,13 @@
+{
+  "terminal.integrated.profiles.windows": {
+    "MINGW64": {
+      "path": "C:\\msys64\\msys2_shell.cmd",
+      "args": ["-defterm", "-here", "-no-start", "-mingw64"]
+    },
+    "wsl": {
+      "path": "C:\\Windows\\system32\\wsl.exe",
+      "args": ["-d", "Ubuntu"]
+    }
+  },
+  "terminal.integrated.defaultProfile.windows": "MINGW64"
+}

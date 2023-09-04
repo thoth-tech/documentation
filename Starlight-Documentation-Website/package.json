@@ -1,0 +1,19 @@
+{
+  "name": "starlight-documentation-website",
+  "type": "module",
+  "version": "0.0.1",
+  "scripts": {
+    "dev": "astro dev",
+    "start": "astro dev",
+    "build": "astro build && cp _redirects dist/_redirects",
+    "preview": "astro preview",
+    "astro": "astro"
+  },
+  "dependencies": {
+    "@astrojs/netlify": "^3.0.0",
+    "@astrojs/starlight": "^0.7.1",
+    "astro": "^2.10.5",
+    "prettier": "^3.0.1",
+    "sharp": "^0.32.3"
+  }
+}

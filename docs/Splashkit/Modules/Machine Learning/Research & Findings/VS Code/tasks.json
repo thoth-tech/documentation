@@ -1,0 +1,71 @@
+{
+  "windows": {
+    "options": {
+      "shell": {
+        "executable": "C:\\msys64\\msys2_shell.cmd",
+        "args": ["-defterm", "-mingw64", "-here", "-no-start", "-c"]
+        // "executable": "C:\\Windows\\system32\\wsl.exe",
+        // "args": ["-d", "Ubuntu"],
+      }
+    }
+  },
+  "tasks": [
+    {
+      "type": "shell",
+      "label": "cmake",
+      "windows": {
+        "command": "'cmake -DCMAKE_BUILD_TYPE=Debug -G \"Ninja\"'",
+        "args": [],
+        "options": {
+          "cwd": "${workspaceFolder}\\projects\\cmake"
+        }
+      },
+      "command": "cmake",
+      "args": ["-DCMAKE_BUILD_TYPE=Debug", "-G", "Ninja"],
+      "options": {
+        "cwd": "${workspaceFolder}/projects/cmake/"
+      },
+      "problemMatcher": []
+    },
+    {
+      "type": "shell",
+      "label": "Compile",
+      "command": "'ninja'",
+      "windows": {
+        "options": {
+          "cwd": "${workspaceFolder}\\projects\\cmake"
+        }
+      },
+      "options": {
+        "cwd": "${workspaceFolder}/projects/cmake/"
+      },
+      "problemMatcher": []
+    },
+    {
+      "type": "shell",
+      "label": "Delete Cache",
+      "command": "rm -rf CMakeCache.txt CMakeFiles",
+      "windows": {
+        "command": "'rm -rf CMakeCache.txt CMakeFiles'",
+        "options": {
+          "cwd": "${workspaceFolder}\\projects\\cmake"
+        }
+      },
+      "options": {
+        "cwd": "${workspaceFolder}/projects/cmake/"
+      },
+      "problemMatcher": []
+    },
+    {
+      "label": "Full Compile",
+      "dependsOrder": "sequence",
+      "dependsOn": ["cmake", "Compile"],
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      },
+      "problemMatcher": []
+    }
+  ],
+  "version": "2.0.0"
+}
