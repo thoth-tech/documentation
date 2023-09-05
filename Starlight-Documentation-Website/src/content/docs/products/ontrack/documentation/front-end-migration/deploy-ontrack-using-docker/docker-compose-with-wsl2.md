@@ -2,7 +2,7 @@
 title: Docker Compose with WSL2
 ---
 
-## Trimester 3 2022
+## T3 2022
 
 ## How to Enable Windows Subsystem for Linux
 
