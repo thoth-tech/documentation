@@ -9,7 +9,7 @@
 
 2. [Functional Requirements](#2-functional-requirements) 2.1 [Data Storage](#21-data-storage) 2.2
    [API Endpoints](#22-api-endpoints) 2.3
-   [Authentication and Authorization](#23-authentication-and-authorization) 2.4
+   [Authentication and Authorisation](#23-authentication-and-authorisation) 2.4
    [Background Jobs/Triggers](#24-background-jobstriggers) 2.5 [Data Schema](#25-data-schema)
 
 3. [Non-Functional Requirements](#3-non-functional-requirements) 3.1 [Performance](#31-performance)
@@ -65,10 +65,10 @@ implementing the "Tutor Times" feature.
   - `PUT /api/tutor-times/:id`: Update an existing marking session record.
   - `DELETE /api/tutor-times/:id`: Delete a marking session record.
 
-### 2.3 Authentication and Authorization
+### 2.3 Authentication and Authorisation
 
-- Implement user authentication and authorization to secure access to marking time data.
-- Ensure that only authorized users (tutors and unit chairs) can perform CRUD operations on marking
+- Implement user authentication and authorisation to secure access to marking time data.
+- Ensure that only authorised users (tutors and unit chairs) can perform CRUD operations on marking
   session records.
 
 ### 2.4 Background Jobs/Triggers
@@ -94,7 +94,7 @@ implementing the "Tutor Times" feature.
 
 ### 3.2 Security
 
-- Implement necessary security measures to protect marking time data and prevent unauthorized
+- Implement necessary security measures to protect marking time data and prevent unauthorised
   access.
 - Use encryption to secure sensitive data, such as user credentials.
 
