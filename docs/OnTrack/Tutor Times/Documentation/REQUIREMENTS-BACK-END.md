@@ -5,7 +5,7 @@
 ## Table of Contents
 
 1. [Introduction](#1-introduction) 1.1 [Purpose](#11-purpose) 1.2 [Scope](#12-scope) 1.3
-   [Document Conventions](#13-document-conventions) 1.4 [Intended Audience](#14-intended-audience)
+   [Intended Audience](#13-intended-audience)
 
 2. [Functional Requirements](#2-functional-requirements) 2.1 [Data Storage](#21-data-storage) 2.2
    [API Endpoints](#22-api-endpoints) 2.3
@@ -38,12 +38,7 @@ tutors and students.
 The scope of this document covers the functional and non-functional requirements for the backend
 implementation of the "Tutor Times" feature.
 
-### 1.3 Document Conventions
-
-This document follows standard naming conventions and uses the [naming conventions and standards]
-for code and database objects.
-
-### 1.4 Intended Audience
+### 1.3 Intended Audience
 
 This document is intended for backend developers and the development team responsible for
 implementing the "Tutor Times" feature.
