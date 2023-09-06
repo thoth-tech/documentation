@@ -227,4 +227,4 @@ and they can access its resources and functionalities.
 **Conclusion**
 
 These test cases cover both backend and frontend functionalities comprehensively to ensure that the
-multi-organisation feature functions correctly and provides a seamless experience for users.
+multi-organisation feature functions correctly and provides a seamless experience for the users.
