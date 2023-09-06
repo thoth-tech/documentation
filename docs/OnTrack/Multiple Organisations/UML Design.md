@@ -8,11 +8,11 @@ remove users and organizations, assign and remove user roles, and retrieve lists
 users, and user roles.
 
 Organization Class: Represents an organization within the system. It has attributes like ID, name,
-and description, and a list of users associated with it. Methods allows us to retrieve information
+and description, and a list of users associated with it. Methods allows one to retrieve information
 about the organization and manage its users.
 
 User Class: Represents a user in the system. It has attributes like ID, username, email, the
-organization to which the user belongs, and a list of roles assigned to the user. Methods enable us
+organization to which the user belongs, and a list of roles assigned to the user. Methods enable one
 to retrieve user information, set the user's organization, and manage user roles.
 
 UserRole Class: Represents a role that can be assigned to users. It has attributes like ID, name,
