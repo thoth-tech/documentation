@@ -1,4 +1,8 @@
-﻿**Test Cases for Incorporating Multiple Organisations on OnTrack Server**
+﻿**Gather Requirements:** Test Cases for Incorporating Multiple Organisations on OnTrack Server
+
+**Author:** Sanah Quazi
+
+**Company:** Thoth Tech
 
 **Introduction**
 
