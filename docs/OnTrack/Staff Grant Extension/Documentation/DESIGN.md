@@ -166,7 +166,7 @@ students, staff members, and extension records. This architecture guarantees dat
 simplifies reporting and auditing, and contributes to the seamless operation of the feature within
 the OnTrack system.
 
-[UML - Staff Grant Extension](https://www.figma.com/team_invite/redeem/MRSQ5n3VRvoVqTm4Eu3sGc)
+[UML - Staff Grant Extension](https://lucid.app/lucidchart/06237ce4-9cd9-4aad-838f-45bff2249059/edit?invitationId=inv_da8c9660-84a6-46a3-9690-f210fc5ceb8d)
 
 ## 6-User Interface Design
 
