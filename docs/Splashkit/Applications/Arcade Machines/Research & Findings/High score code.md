@@ -86,6 +86,28 @@ public class Score
 }
 ```
 
+Alternatively, we could use a `comparison delegation` to compare values stored in the list.
+
+```cpp
+_scores.Sort((x, y) => x.Score.CompareTo(y.Score));
+Console.WriteLine($"Top 10 highest scores");
+for(int j = 0; j < 10; j++)
+{   
+    SplashKit.ClearScreen(Color.White);
+    Console.WriteLine((j + 1) + " score: " + _scores[j]);
+    SplashKit.RefreshScreen();
+    SplashKit.ProcessEvents();
+    SplashKit.Delay(10000);
+}
+.
+.
+
+private static int CompareByScores(PlayerScore s1, PlayerScore s2)
+{
+    return s1.Score.CompareTo(s2.Score);
+}
+```
+
 ## Score Made
 
 Above, we also initiate the `_scores` list (i.e., `public List<Highest<int, string>> _scores { get; } = new List<Highest>();`) and will save the players' scores and names in it. You will notice that we have a `GetScore` method that access the `_scores` list and reading its contents. After, we compare the scores in the list to the current player's `score`. Furthermore, we have a method that calls the `scoreMade` class. Below, we have the `Player` class, which captures the `scoreMade` in another class.
