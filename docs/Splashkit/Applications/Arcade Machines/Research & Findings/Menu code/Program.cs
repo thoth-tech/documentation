@@ -78,8 +78,6 @@ public class Program
             st.HandleInput();
             st.StayOnWindow(menuWindow);
         }
-
-        //SplashKit.Delay(10000);
     }
    
 }
@@ -103,7 +101,6 @@ public class Hand
         _menuWindow = menuWindow;
         handBitmap = SplashKit.LoadBitmap("Pointer", "pinting.png");    
 
-        //handBitmap = new Bitmap("Bird", "piqrnAXrT.gif");
         X = (menuWindow.Width - Width)/2;
         Y = (menuWindow.Height - Height)/2;        
         Quit = false;
@@ -114,7 +111,6 @@ public class Hand
     {
         SplashKit.ProcessEvents();
         SplashKit.DrawBitmap(handBitmap, X, Y);
-        //_menuWindow.Refresh(60); 
     }
 
     public void HandleInput()
@@ -144,8 +140,7 @@ public class Hand
         {
             Quit = true;
             Environment.Exit(2);
-        }  
-        
+        }      
     }
 
     public void StayOnWindow(Window menuWindow)
@@ -158,7 +153,6 @@ public class Hand
         }
         else if (Y > GAP + 306)
         {
-            //Y = menuWindow.Height - GAP - Height;
             Y = GAP + 306;
         }
     }
