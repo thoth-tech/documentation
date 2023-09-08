@@ -86,11 +86,12 @@ public class Score
 }
 ```
 
-Alternatively, we could use a `comparison delegation` to compare values stored in the list.
+Alternatively, we could use a `comparison delegation` to compare values stored in the `_scores` list.
 
 ```cpp
 _scores.Sort((x, y) => x.Score.CompareTo(y.Score));
 Console.WriteLine($"Top 10 highest scores");
+
 for(int j = 0; j < 10; j++)
 {   
     SplashKit.ClearScreen(Color.White);
@@ -102,7 +103,7 @@ for(int j = 0; j < 10; j++)
 .
 .
 
-private static int CompareByScores(PlayerScore s1, PlayerScore s2)
+private static int CompareByScores(Highest s1, Highest s2)
 {
     return s1.Score.CompareTo(s2.Score);
 }
