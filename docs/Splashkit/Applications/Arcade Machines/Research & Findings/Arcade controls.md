@@ -20,8 +20,8 @@ Two `joysticks` and `buttons` are controls found on the deck of the arcade machi
 | --- | --- |
 | Description | Players use a joystick and buttons in the deck of the arcade machine to start, control, pause and end actions of the objects on the arcade machine’s screen. |
 | User story | As a player, I want to use game controls to play games on the Deakin School of IT's arcade machine. |
-| Acceptance criteria | - a player should not be able to interact with (or play) a game without pressing the `start` button (or inserting a coin). <br>- These controls must be the only user interface a player has with the game in the arcade machine. <br>- Code testing is required. |
-| Data validation | 1. Ensure that the arcade machine is connected to the power and switched on. <br>2. Ensure that games are loaded on the machine. <br>3. Confirm whether a `start` button has been engaged (or a coin has been inserted). |
+| Acceptance criteria | (1) a player should not be able to interact with (or play) a game without pressing the `start` button (or inserting a coin). (2) These controls must be the only user interface a player has with the game in the arcade machine. (3) Code testing is required. |
+| Data validation | (1) Ensure that the arcade machine is connected to the power and switched on. (2) Ensure that games are loaded on the machine. (3) Confirm whether a `start` button has been engaged (or a coin has been inserted). |
 
 ## Use Case Diagram
 
