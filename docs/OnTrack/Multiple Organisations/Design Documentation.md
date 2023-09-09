@@ -1,4 +1,4 @@
-﻿**Design Document: OnTrack - Incorporating Multiple Organizations**
+﻿**Design Document: OnTrack - Incorporating Multiple Organisations**
 
 Author: Sanah Quazi
 
@@ -6,26 +6,26 @@ Company: Thoth Tech
 
 **Introduction**
 
-This design document outlines the approach for incorporating multiple organizations into the OnTrack
-server, enhancing its functionality to accommodate various organizations within a single system
-instance. The goal is to provide a comprehensive solution that enables effective organization
+This design document outlines the approach for incorporating multiple organisations into the OnTrack
+server, enhancing its functionality to accommodate various organisations within a single system
+instance. The goal is to provide a comprehensive solution that enables effective organisation
 management, user assignment, and access control while maintaining the integrity and security of the
 OnTrack system.
 
 **User Story**
 
-As a Site administrator, I want to be able to manage multiple organizations within the OnTrack
-system. This will allow me to efficiently organize users and data, ensuring that each organization
+As a Site administrator, I want to be able to manage multiple organisations within the OnTrack
+system. This will allow me to efficiently organise users and data, ensuring that each organisation
 operates independently.
 
 **Acceptance Criteria**
 
-- Site administrators can create new organizations, providing details such as name and description.
-- Organizations can be edited to update their details.
-- Organizations can be disabled when they are no longer in use.
-- Users can be associated with specific organizations.
-- Users with access to multiple organizations can smoothly switch between them.
-- Data access is restricted based on a user's associated organization.
+- Site administrators can create new organisations, providing details such as name and description.
+- Organisations can be edited to update their details.
+- Organisations can be disabled when they are no longer in use.
+- Users can be associated with specific organisations.
+- Users with access to multiple organisations can smoothly switch between them.
+- Data access is restricted based on a user's associated organisation.
 
 **System Architecture -**
 
@@ -33,84 +33,84 @@ operates independently.
 
 The frontend of the system incorporates the following components:
 
-- Organization Management UI: This component allows administrators to create, edit, and disable
-  organizations. It includes a user-friendly interface for managing organization details.
-- User Management UI: Users are associated with organizations through this interface. It provides a
-  seamless experience for assigning users to organizations and managing user profiles.
-- Organization Switching UI: Users with access to multiple organizations can easily switch between
-  them using this interface. It ensures a smooth transition from one organization's context to
+- Organisation Management UI: This component allows administrators to create, edit, and disable
+  organisations. It includes a user-friendly interface for managing organisation details.
+- User Management UI: Users are associated with organisations through this interface. It provides a
+  seamless experience for assigning users to organisations and managing user profiles.
+- Organisation Switching UI: Users with access to multiple organisations can easily switch between
+  them using this interface. It ensures a smooth transition from one organisation's context to
   another.
 
 **Backend Architecture:**
 
 The backend of the system handles data management and access control:
 
-- Organization Management: Backend services manage the creation, editing, and disabling of
-  organizations. Data is stored securely in the database, and appropriate permissions are enforced.
-- User Organization Assignment: Backend processes allow site administrators to associate users with
-  specific organizations. These associations are maintained in the database.
+- Organisation Management: Backend services manage the creation, editing, and disabling of
+  organisations. Data is stored securely in the database, and appropriate permissions are enforced.
+- User Organisation Assignment: Backend processes allow site administrators to associate users with
+  specific organisations. These associations are maintained in the database.
 - Access Control: The backend enforces access control rules to ensure that users can only access
-  data within their associated organization. This is achieved through role-based access control
+  data within their associated organisation. This is achieved through role-based access control
   mechanisms where site administrator is a new role.
 
 **Technical Implementation-**
 
 **Frontend Implementation:**
 
-Organization Management UI:
+Organisation Management UI:
 
-- Create user interfaces for creating, editing, and disabling organizations.
-- Implement forms for entering organization details.
+- Create user interfaces for creating, editing, and disabling organisations.
+- Implement forms for entering organisation details.
 - Ensure responsive design using modern frontend technologies.
 
 User Management UI:
 
-- Develop interfaces for assigning users to organizations and managing user profiles.
+- Develop interfaces for assigning users to organisations and managing user profiles.
 - Implement user-friendly features for easy association and disassociation of users with
-  organizations.
+  organisations.
 
-Organization Switching UI:
+Organisation Switching UI:
 
-- Create an intuitive interface for users to switch between organizations.
-- Implement secure mechanisms for handling organization context switches.
+- Create an intuitive interface for users to switch between organisations.
+- Implement secure mechanisms for handling organisation context switches.
 
 **Backend Implementation:**
 
-Organization Management:
+Organisation Management:
 
-- Develop API endpoints for creating, editing, and disabling organizations.
-- Implement data validation to ensure the integrity of organization details.
+- Develop API endpoints for creating, editing, and disabling organisations.
+- Implement data validation to ensure the integrity of organisation details.
 - Ensure data is securely stored and updated in the database.
 
-User Organization Assignment:
+User Organisation Assignment:
 
-- Create API endpoints for associating and disassociating users with organizations.
+- Create API endpoints for associating and disassociating users with organisations.
 - Implement validation checks to prevent unauthorized assignments.
-- Update user profiles to reflect organization associations.
+- Update user profiles to reflect organisation associations.
 
 Access Control:
 
-- Enforce access control rules based on user roles and organization associations.
+- Enforce access control rules based on user roles and organisation associations.
 - Implement middleware to check permissions before granting access to data.
-- Securely manage data queries to ensure isolation between organizations.
+- Securely manage data queries to ensure isolation between organisations.
 - The technical implementation aims to provide a seamless user experience while ensuring data
-  security and access control across multiple organizations.
+  security and access control across multiple organisations.
 
 **Database Design**
 
-The database design ensures that organizations can be efficiently managed, users can be associated
-with organizations, and access control can be enforced based on these associations. The database
-design for incorporating multiple organizations includes the following elements:
+The database design ensures that organisations can be efficiently managed, users can be associated
+with organisations, and access control can be enforced based on these associations. The database
+design for incorporating multiple organisations includes the following elements:
 
-- Organizations Table: Create a table named ‘organizations’ to store organization-specific details.
+- Organisations Table: Create a table named ‘organisations’ to store organisation-specific details.
 
 Columns:
 
-- organization_id: Unique identifier for each organization (primary key).
-- name: Name of the organization.
-- description: Description of the organization.
-- Email: official email id of the organization.
-- is_enabled: Flag indicating whether the organization is active or disabled.
+- organisation_id: Unique identifier for each organisation (primary key).
+- name: Name of the organisation.
+- description: Description of the organisation.
+- Email: official email id of the organisation.
+- is_enabled: Flag indicating whether the organisation is active or disabled.
 
 - Users Table: Update the existing ‘users’ table to include organisation_id as the foreign key.
 
@@ -127,14 +127,14 @@ components should undergo thorough testing to identify and address issues.
 
 **Deployment Plan**
 
-The deployment plan outlines the steps for introducing the multiple organizations feature into the
+The deployment plan outlines the steps for introducing the multiple organisations feature into the
 OnTrack system, ensuring a smooth transition for users.
 
 **Conclusion**
 
-The incorporation of multiple organizations into the OnTrack server is a significant enhancement
+The incorporation of multiple organisations into the OnTrack server is a significant enhancement
 that enhances the system's flexibility and scalability. By following the design outlined in this
 document and implementing it effectively, the OnTrack system will provide a powerful solution for
-managing multiple organizations while maintaining data security and access control. This design
+managing multiple organisations while maintaining data security and access control. This design
 document serves as a roadmap for achieving these goals and delivering a feature-rich, user-friendly
 system.
