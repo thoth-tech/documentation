@@ -134,7 +134,6 @@ OnTrack system, ensuring a smooth transition for users.
 
 The incorporation of multiple organisations into the OnTrack server is a significant enhancement
 that enhances the system's flexibility and scalability. By following the design outlined in this
-document and implementing it effectively, the OnTrack system will provide a powerful solution for
-managing multiple organisations while maintaining data security and access control. This design
-document serves as a roadmap for achieving these goals and delivering a feature-rich, user-friendly
-system.
+document and implementing it effectively, OnTrack will provide a powerful solution for managing
+multiple organisations while maintaining data security and access control. This design document
+serves as a roadmap for achieving these goals and delivering a feature-rich, user-friendly system.
