@@ -1,0 +1,125 @@
+/*global theme*/
+/* Dark mode colors. */
+:root {
+  --sl-color-accent-low: #242424;
+  --sl-color-accent: #6a6a6a;
+  --sl-color-accent-high: #c8c8c8;
+  --sl-color-white: #ffffff;
+  --sl-color-gray-1: #eeeeee;
+  --sl-color-gray-2: #c2c2c2;
+  --sl-color-gray-3: #8b8b8b;
+  --sl-color-gray-4: #585858;
+  --sl-color-gray-5: #383838;
+  --sl-color-gray-6: #272727;
+  --sl-color-black: #181818;
+}
+/* Light mode colors!!! */
+:root[data-theme="light"] {
+  --sl-color-accent-low: #d7d7d7;
+  --sl-color-accent: #6b6b6b;
+  --sl-color-accent-high: #323232;
+  --sl-color-white: #181818;
+  --sl-color-gray-1: #272727;
+  --sl-color-gray-2: #383838;
+  --sl-color-gray-3: #585858;
+  --sl-color-gray-4: #8b8b8b;
+  --sl-color-gray-5: #c2c2c2;
+  --sl-color-gray-6: #eeeeee;
+  --sl-color-gray-7: #f6f6f6;
+  --sl-color-black: #ffffff;
+}
+
+/*landing page*/
+.aboutContainer {
+  width: 100%;
+  float: left;
+}
+
+.aboutAbout {
+  width: 20%;
+}
+.aboutButtons {
+  width: 60%;
+}
+
+/*products page*/
+.ontrack {
+  --sl-color-gray-1: #3691ff; /*??*/
+  --sl-color-gray-2: #3691ff; /*hover outline*/
+  --sl-color-gray-3: #3691ff; /*Text Colour*/
+  --sl-color-gray-4: #3691ff; /*??*/
+  --sl-color-gray-5: #00459a; /*non-hover outline*/
+  --sl-color-gray-6: #131313; /*hover background*/
+  --sl-color-black: #3691ff; /*Text colour light mode*/
+  --sl-color-white: #3691ff; /*Text colour dark mode*/
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+img.ontrack {
+  float: right;
+}
+
+.splashkit {
+  --sl-color-gray-1: #f5a623; /*??*/
+  --sl-color-gray-2: #f5a623; /*hover outline*/
+  --sl-color-gray-3: #f5a623; /*Text Colour*/
+  --sl-color-gray-4: #f5a623; /*??*/
+  --sl-color-gray-5: #855506; /*non-hover outline*/
+  --sl-color-gray-6: #131313; /*hover background*/
+  --sl-color-black: #f5a623; /*Text colour light mode*/
+  --sl-color-white: #f5a623; /*Text colour dark mode*/
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.artGallery {
+  --sl-color-gray-1: #545454; /*??*/
+  --sl-color-gray-2: #545454; /*hover outline*/
+  --sl-color-gray-3: #545454; /*Text Colour*/
+  --sl-color-gray-4: #545454; /*??*/
+  --sl-color-gray-5: #2a2a2a; /*non-hover outline*/
+  --sl-color-gray-6: #131313; /*hover background*/
+  --sl-color-black: #545454; /*Text colour light mode*/
+  --sl-color-white: #545454; /*Text colour dark mode*/
+  display: flex;
+  justify-content: center;
+}
+
+.courseFlow {
+  --sl-color-gray-1: #7089fd; /*??*/
+  --sl-color-gray-2: #7089fd; /*hover outline*/
+  --sl-color-gray-3: #7089fd; /*Text Colour*/
+  --sl-color-gray-4: #7089fd; /*??*/
+  --sl-color-gray-5: #0221b3; /*non-hover outline*/
+  --sl-color-gray-6: #131313; /*hover background*/
+  --sl-color-black: #7089fd; /*Text colour light mode*/
+  --sl-color-white: #7089fd; /*Text colour dark mode*/
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.operations {
+  --sl-color-gray-1: #fc486b; /*??*/
+  --sl-color-gray-2: #fc486b; /*hover outline*/
+  --sl-color-gray-3: #fc486b; /*Text Colour*/
+  --sl-color-gray-4: #fc486b; /*??*/
+  --sl-color-gray-5: #9f0221; /*non-hover outline*/
+  --sl-color-gray-6: #131313; /*hover background*/
+  --sl-color-black: #fc486b; /*Text colour light mode*/
+  --sl-color-white: #fc486b; /*Text colour dark mode*/
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/*product images*/
+.pi {
+  width: 50px;
+  height: 50px;
+  object-fit: scale-down;
+  margin: 30px;
+}
