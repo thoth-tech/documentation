@@ -18,8 +18,7 @@ Here's how to enable Windows Subsystem for Linux component in Windows 10:
    <!-- ![programs and Features](imgs/programs_and_features.png) -->
    ![programs and features](/programs_and_features.png)
 4. Under the Programs and Features page, click Turn Windows features on or off on the left panel.
-5. Scroll down and enable Windows Subsystem for Linux.
-   ![Windows Features](/windows_features.png)
+5. Scroll down and enable Windows Subsystem for Linux. ![Windows Features](/windows_features.png)
 6. Click OK to save your changes.
 7. Hit Restart now to finish the process.
 

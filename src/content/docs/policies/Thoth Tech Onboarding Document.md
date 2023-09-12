@@ -239,8 +239,7 @@ work would reside
 
   ![Image 4](/image4.png)
 
-- Once the exe file is downloaded, click and start the installation process
-  ![Image 5](/image5.png)
+- Once the exe file is downloaded, click and start the installation process ![Image 5](/image5.png)
 - Accept the terms and conditions ![Image 6](/image6.png)
 
 - Select the location where you want to store the file ![Image 7](/image7.png)
@@ -258,16 +257,14 @@ work would reside
 
 - For git pull setting select as below ![Image 12](/image12.png)
 
-- Configuring experimental options select both and hit install button
-  ![Image 13](/image13.png)
+- Configuring experimental options select both and hit install button ![Image 13](/image13.png)
 
 - Once installed select “Launch Git Bash” ![Image 14](/image14.png)
 
 - Git Bash would open up ![Image 15](/image15.png)
 
 - In order to work on any Thoth Tech projects or relevant git links you would need to clone and then
-  create pull request for merging the work with the master repository
-  ![Image 16](/image16.png)
+  create pull request for merging the work with the master repository ![Image 16](/image16.png)
 
 ## Getting help in Thoth Tech
 

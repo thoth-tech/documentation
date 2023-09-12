@@ -31,8 +31,7 @@ The following steps were used to test the publishing of docusaurus website on re
    ![New button](/render-tut-2.png)
 3. On the next page, input the GitHub repository. The repository used for this test was,
    [https://github.com/thoth-tech/Company-Operations/tree/main/Projects/docusaurus-website](https://github.com/thoth-tech/Company-Operations/tree/main/Projects/docusaurus-website)
-4. Input the link and click continue.
-   ![Input link](/render-tut-1.png)
+4. Input the link and click continue. ![Input link](/render-tut-1.png)
 5. Input the following values to configure the web service.
    - Name: Docusaurus Hosting
    - Branch: main
@@ -67,8 +66,7 @@ For Test 2, the deployment server was successfully started but the build failed.
 
 After testing with a different GitHub repository that contained the docusaurus website
 configuration, the build was successful and Render logs showcased the Site as being live. However,
-on going to the provided URL, it shows the message "Not found."
-![Input link](/render-tut-6.png)
+on going to the provided URL, it shows the message "Not found." ![Input link](/render-tut-6.png)
 
 The failure could be because Render has not been given permission to our repository.
 
@@ -76,8 +74,7 @@ The failure could be because Render has not been given permission to our reposit
 
 - Render does not have required permission to our repository.
 - On navigating to the link provided by Render for the Live site which deployed successfully, it
-  gives a "Not found" error message.
-  ![Input link](/render-tut-7.png)
+  gives a "Not found" error message. ![Input link](/render-tut-7.png)
 
 ## Recommendations
 
