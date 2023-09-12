@@ -1,0 +1,59 @@
+---
+title: Welcome to Thoth Tech!
+description: Get started building your docs site with Starlight.
+template: splash
+hero:
+  tagline: One location for all Thoth Tech documentation!
+  actions:
+    - text: Our Products
+      link: /products/products/
+      icon: right-arrow
+      variant: primary
+    - text: How to Use Starlight
+      link: https://deakin365.sharepoint.com/:v:/r/sites/ThothTech2/Shared%20Documents/General/Instructional%20Video%20-%20How%20To%20Upload%20Documents%20to%20Starlight.mp4?csf=1&web=1&e=s26lMo
+      icon: right-arrow
+      variant: primary
+---
+
+import { Card, LinkCard, CardGrid } from "@astrojs/starlight/components";
+
+## About Us:
+
+<Card title="What we do">
+  Thoth tech creates tools that enhance education outcomes by empowering
+  students, connecting them with tutors and facilitating personalised learning
+  experiences. Values Our values describe how we work, what we represent, and
+  guide us to be the kind of company and team members we want to be. When we
+  live up to these values we will: Be people-focused We expect the best from
+  each other, give each other the benefit of the doubt, encourage each other to
+  take initiative to improve ourselves and the company, and provide direct and
+  constructive help to each other. We collaborate with kindness while being
+  respectful of each other. Uphold sustainable excellence We create working,
+  maintainable, and understandable software that is enjoyable and easy to use. 8
+  We strive to do it in a way that is sustainable for our team members and for
+  our environment. Be inclusive and supportive We celebrate diverse perspectives
+  and embrace uncomfortable ideas and conversations.
+</Card>
+
+<CardGrid>
+  <LinkCard
+    title="Policies"
+    description="Understand what we stand for."
+    href="/policies/github-management-policy/"
+  />
+  <LinkCard
+    title="Process"
+    description="Learn how Thoth Tech functions."
+    href="/processes/introduction/"
+  />
+  <LinkCard
+    title="News"
+    description="View the latest in Thoth Tech news."
+    href="/processes/introduction/"
+  />
+  <LinkCard
+    title="Leadership"
+    description="Meet our team."
+    href="/teams-and-leadership/leadership-t2-2023/"
+  />
+</CardGrid>
