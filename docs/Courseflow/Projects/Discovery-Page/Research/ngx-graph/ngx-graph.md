@@ -17,16 +17,15 @@ described in the documentation:
 
 https://swimlane.github.io/ngx-graph/.
 
-However, please be aware of a few issues that occured for me when installing use ngx-graph version
-8.2.2 and Angular version 16.2.0:
+However, please be aware of a few issues that occured for me when installing ngx-graph version 8.2.2
+and Angular version 16.2.0:
 
 - You will get get 4 high severity security issues related to versions of d3.js libraries used as
   dependencies for ngx-graph.
-- Add information on browser error.
-- Add information on typing error.
-
-Attempts to use previous versions of ngx-graph failed, likely due to the version of Angular being
-used.
+- You will get errors in the browser related to BrowserAnimationModule.
+- You will get errors on types.
+- Attempts to use previous versions of ngx-graph failed, likely due to the version of Angular being
+  used.
 
 The steps I took to resolve the issues are detailed below.
 
@@ -66,6 +65,35 @@ The steps I took to resolve the issues are detailed below.
    }
    ```
 
+   Make sure to delete the node modules folder and package-lock (didn't work if not done) and then
+   run npm install.
+
+3. To resolve the browser errors:
+
+   Go to your app.module.ts file and do the following import and module addition:
+
+   ```json
+    import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+
+    @NgModule({
+      declarations: [
+
+      ],
+      imports: [
+        BrowserAnimationsModule,
+      ],
+      bootstrap: [AppComponent]
+    })
+   ```
+
+4. To resolve the typing issues:
+
+   Installing the d3 types fixed these issues for me:
+
+   ```
+   npm i @types/d3
+   ```
+
 ### Clone from CourseFlow Research Branch
 
 All above modifications have already been handled if cloning from the CourseFlow research branch.
@@ -95,6 +123,10 @@ underlying libraries:
 To get the force directed graph going, we need to provide the layout property with either
 "d3ForceDirected" or "colaForceDirected".
 
+The screenshot below shows a cut down version of the data using the cola based force directed graph:
+
+![force-directed-graph](force-directed-graph.png)
+
 #### Advantages
 
 - Simple to use.
@@ -102,6 +134,7 @@ To get the force directed graph going, we need to provide the layout property wi
 - By default:
   - It comes with zooming and panning capabilities.
   - Nodes can be moved upon dragging.
+  - Collisions are enabled by default, which helps with the layout of the nodes.
 
 #### Disadvantages
 
@@ -109,11 +142,26 @@ To get the force directed graph going, we need to provide the layout property wi
 
 ### Custom Layouts for Positioning
 
-To be filled.
+To deal with the extreme slowness of the force directed graph, I tried using a custom layout where I
+would set the positions with pre-calculated positions.
+
+The rendering of the nodes worked but I could not figure out a way to get the links/edges to render.
+
+There was also strange behaviour where the interface implemented run method was getting called 4
+times. Additionally, while logging the graph edges would show the edges, logging the graph object
+itself would not show the edges which is a very unexpected behaviour.
+
+The screenshot below depicts a simple example with some simple data with pre-calculated positions to
+show the nodes.
+
+![ngx-graph ](custom-layout.png)
 
 ### Modification of Dagre Layout Positions
 
-To be filled.
+This attempt failed due to strange behaviour when trying to access properties. Similar to the edges
+issue mentioned above, the nodes object would show the position array but attempts to access the
+specific position array property resulted in undefined. This prevented me from going into the nodes
+and updating the positions after the internal calculations were done.
 
 ## Comparison to d3.js
 
@@ -136,8 +184,15 @@ Here are a few final remarks regarding ngx-graph and the Discovery Page in gener
 - Not enough documentation around this library.
 - Examples online are lacking.
 - d3.js, if you know how to use it, is much better and flexible than this library.
-- Until ngx-graph is updated, I think it will be better to work with d3.js and make components more flexible (essentially creating our own version of ngx-graph).
-- After working on ngx-graph, I realized that doing the force-simulation on the front end is a bad idea.
-    - Despite the d3.js version actually loading unlike the ngx-graph with large amounts of data, slower devices may not be capable of handling the simulation (even with smaller numbers).
-    - This led to my decision to use pre-calculated positions.
-    - Due to issues with ngx-graph and setting positions manually, d3.js will be the better choice for this.
+- Until ngx-graph is updated, I think it will be better to work with d3.js and make components more
+  flexible (essentially creating our own version of ngx-graph).
+- After working on ngx-graph, I realized that doing the force-simulation on the front end is a bad
+  idea.
+  - Despite the d3.js version actually loading unlike the ngx-graph with large amounts of data,
+    slower devices may not be capable of handling the simulation (even with smaller numbers).
+  - This led to my decision to use pre-calculated positions.
+  - Due to issues with ngx-graph and setting positions manually, d3.js will be the better choice for
+    this.
+
+If future students would like to continue work on this library, please go to the CourseFlow
+repository and find the project inside the research branch.
