@@ -9,7 +9,7 @@
 - Unit chairs can select a course and upload various types of content (documents, presentations,
   videos, etc.).
 - An "Upload" button allows them to select files from their local storage.
-- Unit chairs can organize content by creating folders or categories for different topics or modules
+- Unit chairs can organise content by creating folders or categories for different topics or modules
   like Week 1, Week 2 and so on.
 - They can also set access permissions for each content item, determining whether it's visible to
   all students or just them.
