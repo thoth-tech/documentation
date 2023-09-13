@@ -34,7 +34,7 @@ additional optional process.
      https://www.wikihow.com/Format-a-Flash-Drive)
 1. Connect the USB key to the Pi
 
-   ![Image of Pi with a USB key](./Images/PI_USB.jpg)
+   ![Image of Pi with a USB key](Images/PI_USB.jpg)
 
 1. On the Pi, open a terminal and run the following to install pishrink.sh and move it to
    /usr/local/bin
@@ -49,7 +49,7 @@ additional optional process.
    lsblk
    ```
 
-   ![Screen shot of the output of the lsblk command](./Images/Command_lsblk.png)
+   ![Screen shot of the output of the lsblk command](Images/Command_lsblk.png)
 
    You should be able to see the mount point for the USB ours has been mounted at
    `/media/deakin/Spare` (Spare is the volume name set during formatting)
@@ -70,5 +70,5 @@ additional optional process.
    ```
 
 You should now have a compressed image file, i.e. `ArcadeImage-19.08.2023.img.gz` refer to
-[Setup Arcade Machine.md](./Setup%20Arcade%20Machine.md) for instructions on burning the image to a
+[Setup Arcade Machine.md](Setup%20Arcade%20Machine.md) for instructions on burning the image to a
 new SD card or USB.
