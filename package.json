@@ -17,6 +17,7 @@
     "@astrojs/netlify": "^3.0.0",
     "@astrojs/starlight": "^0.9.0",
     "astro": "^3.0.7",
+    "netlify": "^13.1.10",
     "prettier": "^3.0.3",
     "sharp": "^0.32.3"
   },
