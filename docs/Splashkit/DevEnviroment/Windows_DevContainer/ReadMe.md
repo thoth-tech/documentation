@@ -30,7 +30,7 @@ This enviroment hs been tested on
 - Windows 11 Pro 22H2
 - Docker Desktop for Windows v4.22.1
 - WSL 2 (5.15.90.1-microsoft-standard-WSL2)
-- (WSL) Ubuntu Ubuntu 22.04.2 LTS
+- (WSL) Ubuntu 22.04.2 LTS
 - (Dev Enviroment) Debian GNU/Linux 11 (bullseye)
 
 ## Fist Time Setup
