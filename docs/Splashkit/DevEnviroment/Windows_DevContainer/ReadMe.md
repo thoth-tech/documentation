@@ -110,12 +110,14 @@ At this stage you will have to manaully add the dev container to your project.
 
    ![VSCode Terminal SKM Command](images/VSCodeTerminalSKM.png)
 
-1. Test Video and Sound to validate the contatiner, a windowed version of DXBall has been included in the .devcontainer folder
-1. Change to the DXBall Folder and run the DXBallGame (note ifyou don't cahgne folders the game can not find the resources folder)
-    ```
-    cd .devcontainer/DXBall/
-    ./DXBallGame 
-    ```
+1. Test Video and Sound to validate the contatiner, a windowed version of DXBall has been included
+   in the .devcontainer folder
+1. Change to the DXBall Folder and run the DXBallGame (note ifyou don't cahgne folders the game can
+   not find the resources folder)
+   ```
+   cd .devcontainer/DXBall/
+   ./DXBallGame
+   ```
 1. Game Window Will open, Press 1 to start, left and right arrows to move, esc to exit
 
 ![Image DXBall Title screen](images/DXBallTitle.png)
