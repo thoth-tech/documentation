@@ -42,6 +42,5 @@ List of information needed by someone trying to reproduce this work\
 ## Open issues/risks
 
 - Can't connect to local MySQL server through socket '/run/mysqld/mysqld.sock' (2) is the current error.
-The webpages are successfully deployed but mysql server is not running on Sockets so that it cannot retrieve the resources from MariaDB and the result looks like this: ![OnTrack webpage error](docs\OnTrack\Documentation\Research & Findings\Spikes\pictures\OnTrack webpage.png)
-
-
+This error is caused by Ubuntu cannot find mysql server running: ![Screenshot](/docs/OnTrack/Documentation/Research%20&%20Findings/Spikes/pictures/socket.png)\
+- The webpages are successfully deployed but mysql server is not running on Sockets so that it cannot retrieve the resources from MariaDB and the result looks like this: ![Screenshot](/docs/OnTrack/Documentation/Research%20&%20Findings/Spikes/pictures/OnTrack%20webpage.png)
