@@ -15,12 +15,12 @@ There will be different installation requirements depending on how you start up 
 If you are not planning to clone the research repository, you will have to install ngx-graph as
 described in the documentation:
 
-https://swimlane.github.io/ngx-graph/.
+https://swimlane.github.io/ngx-graph
 
-However, please be aware of a few issues that occured for me when installing ngx-graph version 8.2.2
-and Angular version 16.2.0:
+However, please be aware of a few issues that occurred for me when installing ngx-graph version
+8.2.2 and Angular version 16.2.0:
 
-- You will get get 4 high severity security issues related to versions of d3.js libraries used as
+- You will get 4 high severity security issues related to versions of d3.js libraries used as
   dependencies for ngx-graph.
 - You will get errors in the browser related to BrowserAnimationModule.
 - You will get errors on types.
@@ -96,9 +96,10 @@ The steps I took to resolve the issues are detailed below.
 
 ### Clone from CourseFlow Research Branch
 
-All above modifications have already been handled if cloning from the CourseFlow research branch.
+All above modifications have already been handled if cloning from the CourseFlow Repo and switching
+the branch to research/discovery-page.
 
-Simply run the below command:
+Simply run the below command once the branch has been switched:
 
 ```shell
 npm install
@@ -107,7 +108,7 @@ npm install
 ## Features Explored
 
 Overall, ngx-graph is quite simple to use due to its out of the box component that can be used to
-display different types of graph.
+display different types of graphs.
 
 All we really need to do is format the data correctly into a list of nodes and create the links we
 want between the nodes and then, feed them into the component.
@@ -135,6 +136,7 @@ The screenshot below shows a cut down version of the data using the cola based f
   - It comes with zooming and panning capabilities.
   - Nodes can be moved upon dragging.
   - Collisions are enabled by default, which helps with the layout of the nodes.
+- These default capabilities require a fair amount of work in d3.js to get the same functionality.
 
 #### Disadvantages
 
@@ -195,4 +197,4 @@ Here are a few final remarks regarding ngx-graph and the Discovery Page in gener
     this.
 
 If future students would like to continue work on this library, please go to the CourseFlow
-repository and find the project inside the research branch.
+repository and find the project inside the research/discovery-page branch.
