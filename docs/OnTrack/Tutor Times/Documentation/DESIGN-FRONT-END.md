@@ -48,11 +48,11 @@ cohesive visual identity and navigation structure.
 The UI will be responsive to ensure a consistent user experience across various devices, including
 desktops, tablets, and mobile phones.
 
-### 2.4 Color Scheme
+### 2.4 Colour Scheme
 
-- **Primary Color**: OnTrack primary color
-- **Secondary Color**: OnTrack secondary color
-- **Text Color**: OnTrack text colors
+- **Primary Colour**: OnTrack primary colour
+- **Secondary Colour**: OnTrack secondary colour
+- **Text Colour**: OnTrack text colours
 
 ### 2.5 Typography
 
