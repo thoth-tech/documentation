@@ -15,7 +15,7 @@ The scope of this design document covers the following aspects of the backend de
 
 - Data Models and Schema
 - API Endpoints
-- Authentication and Authorization
+- Authentication and Authorisation
 - Background Jobs/Triggers
 - Data Integrity Constraints
 - Performance Optimization
@@ -66,10 +66,10 @@ in the implementation of the "Tutor Times" feature.
   - `PUT /api/tutor-times/:id`: Update an existing marking session record.
   - `DELETE /api/tutor-times/:id`: Delete a marking session record.
 
-### 3.2 Authentication and Authorization
+### 3.2 Authentication and Authorisation
 
-- Implement user authentication and authorization to secure access to marking time data.
-- Ensure that only authorized users (tutors and unit chairs) can perform CRUD operations on marking
+- Implement user authentication and authorisation to secure access to marking time data.
+- Ensure that only authorised users (tutors and unit chairs) can perform CRUD operations on marking
   session records.
 
 ## 4. Background Jobs/Triggers
