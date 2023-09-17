@@ -54,8 +54,7 @@
 
   comment. ‘\*’ indicates that the comment is part of the documentation. The actual documentation
 
-  happens by using some of the common JSDoc tags like '@param', '@returns', '@private' and many
-  more.
+  happens by using some of the common JSDoc tags like '@returns', '@private' and many more.
 
   Lastly, we will close and mark the end of comment by using ‘\*’ symbol.
 
