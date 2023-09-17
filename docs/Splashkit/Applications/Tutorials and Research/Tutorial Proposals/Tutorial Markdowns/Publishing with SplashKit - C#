@@ -1,0 +1,59 @@
+# Publishing in SplashKit - C# / C++
+
+## Sharing created programs
+
+So let's say you've made something. Congragulations! But, you probably want to be able to send this
+to someone for whatever reason without guiding them through a compile instruction process, or the
+entire SplashKit install procedure, or send through any individual assets, or any other numbers of
+more complicated than just sending a folder methods.
+
+In previous guides, you might have seen usage of `skm dotnet run` or `skm clang++ program.cpp` to
+compile programs, this guide intends to go a little more in-depth as to the nature of publishing and
+sharing compiled and published programs.
+
+Let's take the following code snippet in C# as an example:
+
+```c#
+public class Program
+{
+    public static void Main()
+    {   //Window Creation
+        Window baseWindow = new Window("publishing!", 800, 800);
+
+        baseWindow.DrawCircle(Color.Black, 400, 400, 100);
+        SplashKit.RefreshScreen();
+        SplashKit.Delay(2000);
+    }
+}
+```
+
+You can run the code if interested, but it's just a simple program that opens a window, draws a
+SplashKit generated circle, and then quits. What's important about this code snippet is that it has
+no external object references, so we're not loading in any files such as bitmaps, or audio or
+animation files, or anything else SplashKit might let us use.
+
+If you were to run `skm dotnet publish`, a folder would be created in the directory of the
+accompanying source code called `bin`, and then a further folder called `debug` holds our created
+`program.exe` file. It's safest to share the entire debug folder, especially in reference to the
+upcoming behavior and section of the guide.
+
+## Sharing created programs with assets
+
+Now if you were to copy the above steps, but in a piece of code that does explicitly reference
+object pointers that get read in by SplashKit for local files, such as Bitmap instantiations, you
+would see a lot of errors pop up in the console accompanying your `program.exe` saying something
+akin to:
+
+```
+Unable to locate file for {sprite} ({filepath})
+```
+
+Where sprite and filepath would be your locally referenced bitmap and filepath respectively. What's
+important to know is that SplashKit doesn't transfer over these resources during the publishing
+process. In order to remedy this as an example, just copy over your `images` folder that we
+described in an earlier guide (that would house all of your bitmaps for instantiation) into the
+debug/netx.0 folder manually.
+
+This trend runs true for both C# and C++, compiling and publishing via `skm dotnet publish` for C#
+and `skm clang++ program.cpp -o program.exe` will both require manual copying of any imported assets
+into the shared root folder of an associated .exe file.
