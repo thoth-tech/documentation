@@ -37,7 +37,7 @@
   how to use components that are already in place or even how to extend them. If we want to create
   JSDoc comment we can use ‘/\*\*’ and press entry, which indicated the opening delimiter for the
   comment. ‘\*’ indicates that the comment is part of the documentation. The actual documentation
-  happens by using some of the common JSDoc tags like @param, @returns, @private and many more.
+  happens by using some of the common JSDoc tags like '@param', '@returns', '@private' and many more.
   Lastly, we will close and mark the end of comment by using ‘\*’ symbol.
 
 1. Download compodoc in your system by running this command: npm install -g @compodoc/compodoc into
