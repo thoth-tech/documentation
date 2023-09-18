@@ -53,7 +53,7 @@ sign up. However as many things identified in that report were changed or ended 
 fruition completely, this report aims to rectify that.
 
 Overall we will detail the developments process, indicating both technical and non-technical choices
-made and the practices used to to implement the login and registration page.
+made and the practices used to implement the login and registration page.
 
 ## Project Background
 
@@ -71,7 +71,7 @@ libraries that they provide allows for a much more scalable, maintainable and ro
 Furthermore angular provides a resources called angular material which provides basic materials such
 as buttons and search bars which can be used in CourseFlow web application.
 
-Typescript will be the primary programming language in in the development of this application, which
+Typescript will be the primary programming language in the development of this application, which
 is a version of Javascript that allows for static typing. In general it adds another layer of syntax
 on top of Javascript, this the name Typescript. And when used in conjunction with angular, the
 web-applications carted will be more powerful as Angular utilises javascript and typescript.
@@ -121,7 +121,7 @@ which is why the DUO option would have been outside the scope of this unit
 
 ### Google Firebase
 
-Eventually we decide that Googles Firebase would be the best viable option based on the the
+Eventually we decide that Googles Firebase would be the best viable option based on the
 resources we had and the timeframe provided. Firebase is a comprehensive and accessible platform and
 is mostly used for developing web applications. It allows for the deployment and management for web
 applications more efficiently and effectively as they carry most of the technical weight in terms of
@@ -315,7 +315,7 @@ const database = firebase.database(); const databaseRef = database.ref();
 
 Then, in order to read the data, we would have to use methods to retrieve data through real-time
 updates, which fire base provides as a functionality. Then we would need to write the data into the
-database. However, the issues with writing the the users details into the database as we are not
+database. However, the issues with writing the users details into the database as we are not
 verifying the email and we are saving the users information without authorisation. Therefore, we had
 to also integrate email verification as a form of authorisation.
 
