@@ -1,4 +1,4 @@
-# UML diagram: Tutor Time in OnTrack
+# UML diagram: New feature Tutor Times in OnTrack
 
 Author: Devanshi Patel
 
