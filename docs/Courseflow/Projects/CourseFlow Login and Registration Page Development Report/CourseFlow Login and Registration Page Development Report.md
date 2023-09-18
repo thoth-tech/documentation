@@ -71,9 +71,9 @@ libraries that they provide allows for a much more scalable, maintainable and ro
 Furthermore angular provides a resources called angular material which provides basic materials such
 as buttons and search bars which can be used in CourseFlow web application.
 
-Typescript will be the primary programming language in the development of this application, which
-is a version of Javascript that allows for static typing. In general it adds another layer of syntax
-on top of Javascript, this the name Typescript. And when used in conjunction with angular, the
+Typescript will be the primary programming language in the development of this application, which is
+a version of Javascript that allows for static typing. In general it adds another layer of syntax on
+top of Javascript, this the name Typescript. And when used in conjunction with angular, the
 web-applications carted will be more powerful as Angular utilises javascript and typescript.
 
 Additionally for the backend, we will be using typescript and Google’s Firebase as well as for the
@@ -121,9 +121,9 @@ which is why the DUO option would have been outside the scope of this unit
 
 ### Google Firebase
 
-Eventually we decide that Googles Firebase would be the best viable option based on the
-resources we had and the timeframe provided. Firebase is a comprehensive and accessible platform and
-is mostly used for developing web applications. It allows for the deployment and management for web
+Eventually we decide that Googles Firebase would be the best viable option based on the resources we
+had and the timeframe provided. Firebase is a comprehensive and accessible platform and is mostly
+used for developing web applications. It allows for the deployment and management for web
 applications more efficiently and effectively as they carry most of the technical weight in terms of
 storage and servers. Essentially they are able to simplify the development process and reduce the
 time-to-market for web-applications.
