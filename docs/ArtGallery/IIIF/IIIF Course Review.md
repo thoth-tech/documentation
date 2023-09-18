@@ -53,6 +53,6 @@ scaled correctly for best zoom results.
 
 DAMS/Repositories/Hosted Service(KloKan, Digirati)
 
-IIP Server or Host our own : After doing research it would be best for us to create our database
-of images which we can upload a manifest too, however, Amazon have a service that is quite
-affordable, being only 1\$ per month for 1000 images.
+IIP Server or Host our own : After doing research it would be best for us to create our database of
+images which we can upload a manifest too, however, Amazon have a service that is quite affordable,
+being only 1\$ per month for 1000 images.
