@@ -1,13 +1,13 @@
-﻿# CI Pipeline Integration with GitHub Actions
+﻿## CI/CD Pipeline Integration with GitHub Actions
 
 **Author:** Ayan Masood, [amasood@deakin.edu.au](mailto:amasood@deakin.edu.au)
 
 **Introduction**
 
-Integration of a continuous integration (CI) pipeline involves automation of different processes
-such as building, testing and deploying of code and/or documentation. This process ensure that code
-quality remains consistent and overall collaboration is more polished and refined due to error and
-bug identification.
+Integration of a continuous integration (CI) and deployment (CD) pipeline involves automation of
+different processes such as building, testing and deploying of code and/or documentation. This
+process ensure that code quality remains consistent and overall collaboration is more polished and
+refined due to error and bug identification.
 
 **Creating a Configuration File (Workflow File)**
 
@@ -21,10 +21,11 @@ modification of steps and processes.
 
 **Using Templates**
 
-The user can also create CI workflows by using provided template by GitHub Actions. This contains
+The user can also create CI/CD workflows by using provided template by GitHub Actions. This contains
 different tests already coded to perform various activities and can be easily modified to be used
 for project purposes. Each template comes with predefined steps for common tasks like building,
-deploying, testing, etc.
+deploying, testing, etc. These tests can be used to simplify implementation as well as reduce the
+time taken for added new steps in the configuration file.
 
 **Tests required in Pipeline**
 
@@ -46,11 +47,17 @@ Evaluate performance and find areas of optimization.
 
 - Integration Tests
 
-Check to see provided resources are able to interact with integrated parts of the system (API's,
+Check to see provided resources are able to interact with integrated parts of the system (API’s,
 Databases, etc.)
+
+- Deployment Tests
+
+These relate to all resources which affect deployment of application to ensure every change which
+directly affects the application is of standard and no compilation errors occur.
 
 **Conclusion**
 
-Through incorporating CI into the project automation of tests and identification of errors can be
-simplified. It minimizes the need for manual testing allowing for less code related errors and
-troubleshooting time required. This helps to develop and commit constant changes to the application.
+Through incorporating CI and CD into the project automation of tests and identification of errors
+can be simplified. It minimizes the need for manual testing allowing for less code related errors
+and troubleshooting time required. This helps to develop and commit constant changes to the
+application.
