@@ -1,11 +1,14 @@
 ﻿# Report on task: Review Research from T1 and create backlog
 
-I have reviewed two reports on the Lighthouse scores and identified the issues that needed to be rectified. One report was a review on the desktop app and the other was a review on the mobile app. Both had many errors so, I had to analyse both reports and did some research on finding recommendations and solutions for the issue identified.  
+I have reviewed two reports on the Lighthouse scores and identified the issues that needed to be
+rectified. One report was a review on the desktop app and the other was a review on the mobile app.
+Both had many errors so, I had to analyse both reports and did some research on finding
+recommendations and solutions for the issue identified.
 
-For the desktop app, here are the problems/recommendations I have identified from the report:  
+For the desktop app, here are the problems/recommendations I have identified from the report:
 
 - Properly size images (add explicit width & height for images)
-- Work on reducing network payloads  
+- Work on reducing network payloads
 - Serve static assets with efficient cache policy
 - Optimise the Largest Contentful Paint (make it faster):
   - Eliminate resource load delay
@@ -31,12 +34,13 @@ For the desktop app, here are the problems/recommendations I have identified fro
 - Minimise critical request depth:
   - Minimise number of critical resources (eliminate them, defer their download, etc)
   - Optimize the number of critical bytes and reduce the download time
-  - Optimize the order for the remaining resources to be loaded (download all critical assets early to shorten critical path length)
+  - Optimize the order for the remaining resources to be loaded (download all critical assets early
+    to shorten critical path length)
 
-For the mobile app, here are the problems/recommendations I have identified from the report:  
+For the mobile app, here are the problems/recommendations I have identified from the report:
 
 - Properly size images (add explicit width & height for images)
-- Work on reducing network payloads  
+- Work on reducing network payloads
 - Serve static assets with efficient cache policy
 - Optimise the Largest Contentful Paint (make it faster):
   - Eliminate resource load delay
@@ -63,9 +67,11 @@ For the mobile app, here are the problems/recommendations I have identified from
 - Minimise critical request depth:
   - Minimise number of critical resources (eliminate them, defer their download, etc)
   - Optimize the number of critical bytes and reduce the download time
-  - Optimize the order for the remaining resources to be loaded (download all critical assets early to shorten critical path length)
+  - Optimize the order for the remaining resources to be loaded (download all critical assets early
+    to shorten critical path length)
 - Shorten main-thread tasks
 - Check and use discernible name for links
 - Add meta description to document
 
-I have added cards and allocated story points for each of these problems and recommendations into the Trello board under the ‘Lighthouse Project Implementation’ section.
+I have added cards and allocated story points for each of these problems and recommendations into
+the Trello board under the ‘Lighthouse Project Implementation’ section.
