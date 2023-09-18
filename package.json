@@ -1,21 +1,26 @@
 {
-  "name": "documentation",
-  "description": "Thoth Tech documentation",
-  "private": true,
+  "name": "starlight-documentation-website",
+  "type": "module",
+  "version": "0.0.1",
   "scripts": {
+    "dev": "astro dev",
+    "start": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "astro": "astro",
     "format": "prettier --write \"**/*.md\"",
     "format:check": "prettier --check \"**/*.md\"",
     "prose:check": "vale --minAlertLevel error --output=docs/.vale/vale.tmpl docs",
     "lint": "npm run format:check && npm run prose:check"
   },
-  "devDependencies": {
-    "prettier": "^2.8.5"
-  },
-  "engines": {
-    "node": ">=16.14.2",
-    "npm": "^8.5.0"
-  },
   "dependencies": {
-    "markdownlint": "^0.26.0"
+    "@astrojs/netlify": "^3.0.0",
+    "@astrojs/starlight": "^0.9.0",
+    "astro": "^3.0.7",
+    "prettier": "^3.0.3",
+    "sharp": "^0.32.3"
+  },
+  "devDependencies": {
+    "markdownlint": "^0.31.0"
   }
 }
