@@ -1,10 +1,10 @@
-﻿**CourseFlow Login and Registration Page Development Report** 
+﻿# CourseFlow Login and Registration Page Development Report
 
-**Prepared by:** Hazratomar Hassanzada, SoVinhou Ung 
+##### Prepared by: Hazratomar Hassanzada, SoVinhou Ung 
 
-**Introduction** 
+## Introduction 
 
-**Project Overview** 
+### Project Overview 
 
 CourseFlow is a dynamic online platform which allows university students to view the progression of their unit as well as prerequisites for any units that must be completed before attending the required unit. Having this allows for a dynamic representation of how the course will be completed throughout their duration.  
 
@@ -14,7 +14,7 @@ And to ensure that whoever is signing into that user is the actual user and not 
 
 Multi-factor authentication well increase the security layer in order to ensure that the correct users are entering and to stop or at the least, minimise attackers from gaining access to potential user data. However, this also increases the inconvenience when entering the application as it also adds an extra step that must be done before, therefore, we must ensure that this process is seamless. 
 
-**Report Purpose** 
+### Report Purpose 
 
 Throughout the creation process of the sign in page as well as the signup page and the authentication, we have made multiple choices, created multiple components and use different coating paradigms, and have written hundreds of lines of code in order to fulfil those choices. Keeping track of this through memory and comments within the code becomes tedious, therefore an alternate approach must be used. 
 
@@ -26,9 +26,9 @@ Finally this report will act as a sort of revision and correction of the previou
 
 Overall we will detail the developments process, indicating both technical and non-technical choices made and the practices used to to implement the login and registration page. 
 
-**Project Background** 
+## Project Background 
 
-**Technical Stack** 
+### Technical Stack 
 
 As chosen by the senior members of CourseFlow and Thoth Tech, the stack that has been chosen for the entirety of CourseFlow is Angular for the frontend development. Angular was chosen as it is a great and popular open source option and is industry used. Its dynamic nature allows for web application to be more intuitive and interactive. Angular follows what is called the model-view-controller(MVC), which allows for the dynamic nature and single page web applications, that we will use for our login and sign up and the multi-factor authentication.  
 
@@ -38,17 +38,19 @@ Typescript will be the primary programming language in in the development of thi
 
 Additionally for the backend, we will be using typescript and Google’s Firebase as well as for the database. Firebase is a great choice when it comes to realtime databases and allows for projects to sync data across multiple devices. 
 
-**Project Goals** 
+### Project Goals 
 
 The goal of the project is to simply create a user friendly and registration page so that it is intuitive and interactive. In order to accomplish we use angular and typescript as well as googles firebase for the banned services in order to a more secure and scalable solution. 
 
-**Authentication and Authorisation** 
+
+
+## Authentication and Authorisation 
 
 Authentication and authorisation is an essential part in the sign and sign up step of a web - application. Therefore choosing a service that can provide necessary tools to do this both efficiently and effectively ensuring both robustness and scalability becomes extremely vital.  
 
 Throughout the development of the Login and Sign up, we had considered different services that would allow for such authentication and authorisation, before eventually settling on Google’s Firebase. In this section of the report we would like to provide an explanation as to why some services were not chosen, especially services mentioned in the previous report. 
 
-**Cisco Secure Access by Duo** 
+### Cisco Secure Access by Duo 
 
 As Deakin students one obvious choice for Authentication was Duo, as it is already implemented into Deakin's system. Cisco Secure Access by Duo is a multi-factor authentication solution which is provided by Cisco Solutions. It allows for enhanced security and an extra layer security when accessing private information or personal data, and to thwart unwanted attackers. This would have been a very good option as Duo provides many services such as Single sign-on (SSO) which is one of the most prominent services used by Deakin.  
 
@@ -56,7 +58,7 @@ SSO essentially allows for a user credentials to be entered once and have access
 
 As Deakin is already using the SSO for authentication, using this for our application would have made it much more seamless for the user when entering CourseFlow, however there were some things that restricted the use of SSO in our application. To use both the users Deakin credentials and SSO, we would have needed Deakin’s API so that we could have access to the database of the users. Doing this would have opened many potential security threats to the data, as we are only students and not trained in handling this type and volume of data. We would have also needed to pay for it as well, which is why the DUO option would have been outside the scope of this unit  
 
-**Google Firebase** 
+### Google Firebase 
 
 Eventually we decide that Googles Firebase would be the best viable option based on the the resources we had and the timeframe provided. Firebase is a comprehensive and accessible platform and is mostly used for developing web applications. It allows for the deployment and management for web applications more efficiently and effectively as they carry most of the technical weight in terms of storage and servers. Essentially they are able to simplify the development process and reduce the time-to-market for web-applications. 
 
@@ -66,7 +68,7 @@ Firebase was the best option for us and for CourseFlow as we did not need to pay
 
 Finally one more reason for the use of Firebase was ease of integration. One thing we were most worried about was the integration into our components, and the difficulty that would arise, however with public documentation was readily available, unlike for DUO, integration was easier than anticipated.  
 
-**Frontend Development** 
+## Frontend Development 
 
 As touched upon previously, we will be using the angular framework as it is robust and allows for the ease of use creation of web applications. Within our angular file, the project structure consists of components services and the routing to each webpage, which is a widely and commonly used business structure. 
 
@@ -74,7 +76,7 @@ As for the language, we will be using type script for programming as it's cold q
 
 ![](Aspose.Words.9bd42fbe-f5d7-4a82-b90e-5313392f192b.001.png)
 
-**Login Component** 
+### Login Component 
 
 The login page was designed to follow the industry standards that are already set in place. A user will have the option to sign in with their own personal email, which does not need be gmail specific. Or if the user would like they can also login with their gmail account. We kept the design 
 
@@ -104,7 +106,7 @@ This is the core application which is programmed in typescript, in angular. This
 
 communicator of for the templates used.  
 
-**Sign-Up Component** 
+### Sign-Up Component 
 
 ![](Aspose.Words.9bd42fbe-f5d7-4a82-b90e-5313392f192b.003.png)
 
@@ -130,7 +132,7 @@ In our registration file, we also have a component, which is a set of files used
 
 This is the primary application that is written in the typescript language and compiled in the language of angular. It is responsible for defining the behaviour of a sing up page and, in essence, the logic of the page and is essentially the communication medium for the templates. 
 
-**Email Verification** 
+### Email Verification 
 
 ![](Aspose.Words.9bd42fbe-f5d7-4a82-b90e-5313392f192b.005.png)
 
@@ -150,11 +152,11 @@ In our verification file, we also have a component, which is a set of files used
 
 This is the primary application that is written in the typescript language and compiled in the language of angular. It is responsible for defining the behaviour of the verification page and, in essence, the logic of the page and is essentially the communication medium for the templates. 
 
-**Backend Development** 
+## Backend Development 
 
 ![](Aspose.Words.9bd42fbe-f5d7-4a82-b90e-5313392f192b.006.png)
 
-**Google OAuth Integration** 
+### Google OAuth Integration 
 
 The Google integration into our web application involved the use of the fire base system as it was a user friendly and a very straightforward procedure, are you Junior developer could follow. Before we set up the database for registration, we first insured that the Google integration worked. We did this by creating a Firebase project , and then we had to set up the fire base for authentication and include the Google sign in method. 
 
@@ -168,7 +170,7 @@ The following these steps we were successfully able to use Google Oauth as a for
 
 ![](Aspose.Words.9bd42fbe-f5d7-4a82-b90e-5313392f192b.008.jpeg)
 
-**Firebase Database** 
+### Firebase Database
 
 After the integration of Google Oauth, naturally, we have to then set up the database correctly so that we can store the user details. Setting up the database is the same as the setup for the Google authorisation. After finishing and completing the config files for firebase, we then had to create a database reference so that we can be able to interact with it. 
 
@@ -182,7 +184,7 @@ able to read right and update the password of the user in the case, it is forgot
 
 ![](Aspose.Words.9bd42fbe-f5d7-4a82-b90e-5313392f192b.009.png)
 
-**Forgot Password** 
+### Forgot Password 
 
 Firebase is great as it allows us a great many forms of functionality, one of them being the forgot password functionality. In the likely case that users forget their password, we have the option to reset their password through their email via a link. 
 
@@ -198,31 +200,31 @@ To ensure that the forgot password functionality worked, we had to test it manua
 
 Through the steps were able to successfully integrate the forgot. Password functionality from Google's Fire base. 
 
-**Codebase and File Structure** 
+## Codebase and File Structure 
 
 ![](Aspose.Words.9bd42fbe-f5d7-4a82-b90e-5313392f192b.011.jpeg)
 
-**Wireframe**  
+### Wireframe 
 
 The file structure of our application can be separated into components and modules. Each component has its own HTML file as well as its own styling sheet. Above is a wire frame diagram, which shows the dependencies for each page and how it interacts with the database. In this wireframe we have the major components listed and how they interact with one another.  
 
-**Security Measures** 
+### Security Measures 
 
 As we are storing potential private data of the users, we must insure the security and have preventative measures in place so that we can mitigate any potential data attacks.  
 
-**Firebase** 
+### Firebase  
 
-Great thing about fire basis security is it has powerful and flexible rules which restricts the amount of access and control, people have based on their level of access. For us this is done through the authentication in which you have to have an account and then verify the email. 
+Great thing about firebase security is it has powerful and flexible rules which restricts the amount of access and control, people have based on their level of access. For us this is done through the authentication in which you have to have an account and then verify the email. 
 
-**OAuth Security practices**  
+### OAuth Security practices  
 
 This also has very good security practices as we are protecting user accounts and data from vulnerabilities from the unauthorised access from attackers through various means such as secure connections such as https when the app will be deployed. 
 
-**Challenges Faced** 
+### Challenges Faced 
 
 During the creation of our login and registration pages, we had many challenges that we had faced. We wanted to implement many components and different ways of implementing it. However, we had to change based on our circumstances. The following are some of the challenges we faced. 
 
-**Cisco Secure Access by Duo** 
+### Cisco Secure Access by Duo 
 
 Given that Duo is already integrated into the Deakin system, as Deakin students it was an easy choice for authentication. Multi-factor authentication is a service offered by Cisco Solutions. It enables an improved security, an additional degree of protection when accessing personal information, and the ability to prevent uninvited invaders. This would have been a great choice because Duo offers a variety of services, including Single Sign-On (SSO), which is one of the most well-known services utilised by Deakin.  
 
@@ -230,7 +232,7 @@ The reason we face challenges with Cisco secure access was that we would need to
 
 We would have needed Deakin's API to access the user database in order to use both the users' Deakin credentials and SSO. As we are merely students and untrained in managing this type and volume of data, doing this would have exposed the data to a wide range of possible security dangers. The DUO option would have been outside the purview of this unit because we would have additionally required to pay for it.  
 
-**Learning Angular** 
+### Learning Angular 
 
 Additionally, another challenge that we faced was learning angular. As we are just merely students an have no experience other than what the units we undertake provide angular was different from the other frameworks that we have tried.  
 
@@ -242,7 +244,7 @@ One great thing that angular provides is called angular materials which we utili
 
 Another key thing that must be understood is routing and how routing for single page applications works through a router link. 
 
-**Conclusion** 
+## Conclusion
 
 In conclusion this report has been able to provide a comprehensive explanation as to how the login and registration pages were developed and executed. We were able to provide a very in depth explanation as to how we were able to connect the database as well as the authentication measures that we integrated into the course flow application through the use of googles fire base.  
 
