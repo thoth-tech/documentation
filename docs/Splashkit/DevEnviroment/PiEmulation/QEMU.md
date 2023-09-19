@@ -43,7 +43,7 @@ an example command for emulating a Raspberry Pi 3B+:
 
 **Copy code** (_Change the configuration if you wish for other devices than 3B+, otherwise ignore_)
 
-```bash
+```shell
 qemu-system-aarch64 -machine raspi3b -cpu cortex-a72 -dtb bcm2710-rpi-3-b-plus.dtb -m 1G -smp 4 -serial stdio -kernel kernel8.img -sd ./2023-05-03-raspios-bullseye-arm64.img -append "rw earlyprintk loglevel=8 console=ttyAMA0,115200 dwc_otg.lpm_enable=0 root=/dev/mmcblk0p2 rootdelay=1" -device usb-mouse -device usb-kbd -device usb-net,netdev=net0 -netdev user,id=net0,hostfwd=tcp::2222-:22
 ```
 
@@ -53,7 +53,7 @@ Launch the QEMU emulator with the configured settings and the Raspberry Pi image
 the output as the kernel boots up. After a couple of seconds, you should see the output from the
 kernel bootup. Eventually, you will see the login prompt:
 
-```bash
+```shell
          Starting Light Display Manager...
 [  OK  ] Started OpenBSD Secure Shell server.
 [  OK  ] Finished Turn on SSH if /boot/ssh is present.
