@@ -16,7 +16,7 @@ Steps:
    [here](https://www.virtualbox.org/wiki/Downloads).
 1. Choose the installer for your operating system (Windows, Linux, or Mac).
 1. Run the installer and follow the on-screen instructions to install VirtualBox on your computer.
-   ![](./images/oracle.png)
+   ![](/images/oracle.png)
 
 ## Download Raspberry Pi OS Desktop ISO:
 
@@ -34,12 +34,12 @@ Steps:
 1. Give your virtual machine a name, such as "Raspberry Pi OS Desktop." Choose the directory, wher
    you want the virtual machine to be installed on. (Note: Disk sould have enough space)
 1. Choose the operating system as Linux and select Debian (64-bit) as the version
-   ![](./images/virtualconfig.png)
+   ![](/images/virtualconfig.png)
 
 1. Allocate an appropriate amount of RAM for your virtual machine. _The least recommended size is
    1GB, but you can allocate more if your computer has enough resources._
 1. Configure the number of CPUs allocated to your virtual machine. _Using 2 to 4 cores is
-   recommended if your machine has 4 or 8 cores._ ![](./images/virtualhardware.png)
+   recommended if your machine has 4 or 8 cores._ ![](/images/virtualhardware.png)
 
 1. Create a virtual hard disk for your virtual machine. _Choose the default options unless you have
    specific requirements._

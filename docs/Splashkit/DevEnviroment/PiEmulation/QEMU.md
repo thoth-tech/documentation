@@ -9,10 +9,10 @@ the architecture used by Raspberry Pi.
 Start by installing QEMU on your computer. You can download the latest version of QEMU from the
 official website [here](https://www.qemu.org/download/).
 
-![](./images/installqemu.png) _You may need to confugure environment variables for the qemu to
+![](/images/installqemu.png) _You may need to confugure environment variables for the qemu to
 aactually work in any sub directory_ Windows:
 
-![](./images/environment.png)
+![](/images/environment.png)
 
 ## Download the Raspberry Pi Image
 
@@ -28,12 +28,12 @@ files are essential for the emulation process.
 Extract the image, to view two image files. _Here 0.fat has kernels, and hardware configs_ while
 1.mg is bootable image.
 
-![](./images/filestructure1.png) Extract the highlighted files from the image. (_You may choose the
+![](/images/filestructure1.png) Extract the highlighted files from the image. (_You may choose the
 raspberry you want to target._)
 
-![](./images/filestructure1.png)
+![](/images/filestructure1.png)
 
-Following should be the final file structure. ![](./images/filestructure1.png)
+Following should be the final file structure. ![](/images/filestructure1.png)
 
 ## Configure QEMU
 
@@ -70,7 +70,7 @@ option to connect to it using SSH or access it through the QEMU console.
 
 Install the splashkit SDK under linux installation.
 
-![](./images/skm.png)
+![](/images/skm.png)
 
 _Please bear in mind that emulating a Raspberry Pi with QEMU has its limitations, and not all
 hardware interactions may function as expected. Nevertheless, it serves as a valuable tool for
