@@ -1,0 +1,863 @@
+{
+	"id": "dd225af8-3de1-4a9b-93ec-10589d736d8d",
+	"name": "Indigenous Art Gallery API",
+	"timestamp": "2023-09-19T23:59:42.764Z",
+	"collection_id": "22125528-61345646-96f3-4686-969b-2af89f43c52a",
+	"folder_id": 0,
+	"environment_id": "0",
+	"totalPass": 27,
+	"delay": 0,
+	"persist": true,
+	"status": "error",
+	"startedAt": "2023-09-19T23:59:41.598Z",
+	"totalFail": 0,
+	"results": [
+		{
+			"id": "f009c462-5a47-4bac-93af-5982e6fc766a",
+			"name": "/api/artists/:artistId",
+			"url": "http://127.0.0.1:7194/api/artists/4",
+			"time": 17,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Successful GET request": true
+			},
+			"testPassFailCounts": {
+				"Successful GET request": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				17
+			],
+			"allTests": [
+				{
+					"Successful GET request": true
+				}
+			]
+		},
+		{
+			"id": "e6091a48-82c1-47e7-96b5-0b5e2d31c42b",
+			"name": "/api/artists/:artistId",
+			"url": "http://127.0.0.1:7194/api/artists/4",
+			"time": 18,
+			"responseCode": {
+				"code": 204,
+				"name": "No Content"
+			},
+			"tests": {
+				"Successful PUT request": true
+			},
+			"testPassFailCounts": {
+				"Successful PUT request": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				18
+			],
+			"allTests": [
+				{
+					"Successful PUT request": true
+				}
+			]
+		},
+		{
+			"id": "acdce390-dccd-4672-a340-8c49ebd39158",
+			"name": "/api/artists/:artistId",
+			"url": "http://127.0.0.1:7194/api/artists/4",
+			"time": 9,
+			"responseCode": {
+				"code": 204,
+				"name": "No Content"
+			},
+			"tests": {
+				"Successful DELETE request": true
+			},
+			"testPassFailCounts": {
+				"Successful DELETE request": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				9
+			],
+			"allTests": [
+				{
+					"Successful DELETE request": true
+				}
+			]
+		},
+		{
+			"id": "6b7a9de1-6920-4c6c-a003-8da1fcc891d0",
+			"name": "/api/artists",
+			"url": "http://127.0.0.1:7194/api/artists",
+			"time": 7,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Successful GET request": true
+			},
+			"testPassFailCounts": {
+				"Successful GET request": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				7
+			],
+			"allTests": [
+				{
+					"Successful GET request": true
+				}
+			]
+		},
+		{
+			"id": "f9173bc3-d889-4d1b-b50b-7be0cce4d5fc",
+			"name": "/api/artists",
+			"url": "http://127.0.0.1:7194/api/artists",
+			"time": 8,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Successful POST request": true
+			},
+			"testPassFailCounts": {
+				"Successful POST request": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				8
+			],
+			"allTests": [
+				{
+					"Successful POST request": true
+				}
+			]
+		},
+		{
+			"id": "c7ef026f-0aab-4d0f-a82f-b12b35303870",
+			"name": "/api/artists/of-the-day",
+			"url": "http://127.0.0.1:7194/api/artists/of-the-day",
+			"time": 8,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Successful GET request": true
+			},
+			"testPassFailCounts": {
+				"Successful GET request": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				8
+			],
+			"allTests": [
+				{
+					"Successful GET request": true
+				}
+			]
+		},
+		{
+			"id": "d501e368-82f8-4a32-9988-21e48cce9d71",
+			"name": "/api/artworks/:artworkId",
+			"url": "http://127.0.0.1:7194/api/artworks/49",
+			"time": 9,
+			"responseCode": {
+				"code": 404,
+				"name": "Not Found"
+			},
+			"tests": {
+				"Successful GET request": true
+			},
+			"testPassFailCounts": {
+				"Successful GET request": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				9
+			],
+			"allTests": [
+				{
+					"Successful GET request": true
+				}
+			]
+		},
+		{
+			"id": "7d4bbb4b-ac8a-4040-ac83-514b1dcfdbb5",
+			"name": "/api/artworks/:artworkId",
+			"url": "http://127.0.0.1:7194/api/artworks/49",
+			"time": 7,
+			"responseCode": {
+				"code": 404,
+				"name": "Not Found"
+			},
+			"tests": {
+				"Successful PUT request": true
+			},
+			"testPassFailCounts": {
+				"Successful PUT request": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				7
+			],
+			"allTests": [
+				{
+					"Successful PUT request": true
+				}
+			]
+		},
+		{
+			"id": "f4029369-aa35-4df8-8857-1d72b882a140",
+			"name": "/api/artworks/:artworkId",
+			"url": "http://127.0.0.1:7194/api/artworks/49",
+			"time": 13,
+			"responseCode": {
+				"code": 404,
+				"name": "Not Found"
+			},
+			"tests": {
+				"Successful DELETE request": true
+			},
+			"testPassFailCounts": {
+				"Successful DELETE request": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				13
+			],
+			"allTests": [
+				{
+					"Successful DELETE request": true
+				}
+			]
+		},
+		{
+			"id": "14da6b9b-ca48-4a91-acfd-7eebc7f7ff56",
+			"name": "/api/artworks/:artworkId/assign/artist/:artistId",
+			"url": "http://127.0.0.1:7194/api/artworks/49/allocate/artist/12",
+			"time": 12,
+			"responseCode": {
+				"code": 404,
+				"name": "Not Found"
+			},
+			"tests": {
+				"Successful POST request": true
+			},
+			"testPassFailCounts": {
+				"Successful POST request": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				12
+			],
+			"allTests": [
+				{
+					"Successful POST request": true
+				}
+			]
+		},
+		{
+			"id": "493fc9df-2859-4f99-8cd2-86e65cdb3e16",
+			"name": "/api/artworks/:artworkId/deassign/artist/:artistId",
+			"url": "http://127.0.0.1:7194/api/artworks/49/deallocate/artist/12",
+			"time": 11,
+			"responseCode": {
+				"code": 404,
+				"name": "Not Found"
+			},
+			"tests": {
+				"Successful DELETE request": true
+			},
+			"testPassFailCounts": {
+				"Successful DELETE request": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				11
+			],
+			"allTests": [
+				{
+					"Successful DELETE request": true
+				}
+			]
+		},
+		{
+			"id": "ce3753d4-3b82-4d7c-9370-24b8318fa81c",
+			"name": "/api/artworks",
+			"url": "http://127.0.0.1:7194/api/artworks",
+			"time": 10,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Successful GET request": true
+			},
+			"testPassFailCounts": {
+				"Successful GET request": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				10
+			],
+			"allTests": [
+				{
+					"Successful GET request": true
+				}
+			]
+		},
+		{
+			"id": "95d75c24-b6ca-45e8-8059-cf750077c158",
+			"name": "/api/artworks",
+			"url": "http://127.0.0.1:7194/api/artworks",
+			"time": 6,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Successful POST request": true
+			},
+			"testPassFailCounts": {
+				"Successful POST request": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				6
+			],
+			"allTests": [
+				{
+					"Successful POST request": true
+				}
+			]
+		},
+		{
+			"id": "544346e4-afee-4d82-9afe-95cc243a9d7c",
+			"name": "/api/artworks/of-the-day",
+			"url": "http://127.0.0.1:7194/api/artworks/of-the-day",
+			"time": 7,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Successful GET request": true
+			},
+			"testPassFailCounts": {
+				"Successful GET request": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				7
+			],
+			"allTests": [
+				{
+					"Successful GET request": true
+				}
+			]
+		},
+		{
+			"id": "282b1a9f-dee3-4f20-b9fe-1f9e8d7f51fc",
+			"name": "/api/media/:mediaId",
+			"url": "http://127.0.0.1:7194/api/media/5",
+			"time": 6,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Successful GET request": true
+			},
+			"testPassFailCounts": {
+				"Successful GET request": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				6
+			],
+			"allTests": [
+				{
+					"Successful GET request": true
+				}
+			]
+		},
+		{
+			"id": "8e988f59-105a-48cd-adb0-eb24fbe0e37c",
+			"name": "/api/media/:mediaId",
+			"url": "http://127.0.0.1:7194/api/media/5",
+			"time": 13,
+			"responseCode": {
+				"code": 204,
+				"name": "No Content"
+			},
+			"tests": {
+				"Successful PUT request": true
+			},
+			"testPassFailCounts": {
+				"Successful PUT request": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				13
+			],
+			"allTests": [
+				{
+					"Successful PUT request": true
+				}
+			]
+		},
+		{
+			"id": "ba8cf599-07fb-4900-a311-c51a6a4cd453",
+			"name": "/api/media/:mediaId",
+			"url": "http://127.0.0.1:7194/api/media/5",
+			"time": 8,
+			"responseCode": {
+				"code": 204,
+				"name": "No Content"
+			},
+			"tests": {
+				"Successful DELETE request": true
+			},
+			"testPassFailCounts": {
+				"Successful DELETE request": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				8
+			],
+			"allTests": [
+				{
+					"Successful DELETE request": true
+				}
+			]
+		},
+		{
+			"id": "45f23529-086a-41e6-a9d8-102b988abd4c",
+			"name": "/api/media",
+			"url": "http://127.0.0.1:7194/api/media",
+			"time": 7,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Successful POST request": true
+			},
+			"testPassFailCounts": {
+				"Successful POST request": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				7
+			],
+			"allTests": [
+				{
+					"Successful POST request": true
+				}
+			]
+		},
+		{
+			"id": "bea2b446-71e0-4bfc-91a8-90c2493eb2bb",
+			"name": "/api/media",
+			"url": "http://127.0.0.1:7194/api/media",
+			"time": 5,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Successful GET request": true
+			},
+			"testPassFailCounts": {
+				"Successful GET request": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				5
+			],
+			"allTests": [
+				{
+					"Successful GET request": true
+				}
+			]
+		},
+		{
+			"id": "aeeadf11-7907-439f-a111-3246bb70b410",
+			"name": "/api/exhibitions/:exhibitionId",
+			"url": "http://127.0.0.1:7194/api/exhibitions/13",
+			"time": 4,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Successful GET request": true
+			},
+			"testPassFailCounts": {
+				"Successful GET request": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				4
+			],
+			"allTests": [
+				{
+					"Successful GET request": true
+				}
+			]
+		},
+		{
+			"id": "21b2ec45-d907-482a-a170-1ad101e4bdab",
+			"name": "/api/exhibitions/:exhibitionId",
+			"url": "http://127.0.0.1:7194/api/exhibitions/13",
+			"time": 7,
+			"responseCode": {
+				"code": 204,
+				"name": "No Content"
+			},
+			"tests": {
+				"Successful PUT request": true
+			},
+			"testPassFailCounts": {
+				"Successful PUT request": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				7
+			],
+			"allTests": [
+				{
+					"Successful PUT request": true
+				}
+			]
+		},
+		{
+			"id": "febc5986-e851-44d8-9800-55d8172c549e",
+			"name": "/api/exhibitions/:exhibitionId",
+			"url": "http://127.0.0.1:7194/api/exhibitions/13",
+			"time": 5,
+			"responseCode": {
+				"code": 204,
+				"name": "No Content"
+			},
+			"tests": {
+				"Successful DELETE request": true
+			},
+			"testPassFailCounts": {
+				"Successful DELETE request": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				5
+			],
+			"allTests": [
+				{
+					"Successful DELETE request": true
+				}
+			]
+		},
+		{
+			"id": "7946353d-4fa6-4c0f-aeb1-c69e872cc9f3",
+			"name": "/api/exhibitions/:exhibitionId/artworks",
+			"url": "http://127.0.0.1:7194/api/exhibitions/14/artworks",
+			"time": 7,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Successful GET request": true
+			},
+			"testPassFailCounts": {
+				"Successful GET request": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				7
+			],
+			"allTests": [
+				{
+					"Successful GET request": true
+				}
+			]
+		},
+		{
+			"id": "83dc1ac0-23b5-4f5c-af22-94c11b96d06e",
+			"name": "/api/exhibitions/:exhibitionId/assign/artwork/:artworkId",
+			"url": "http://127.0.0.1:7194/api/exhibitions/14/allocate/artwork/49",
+			"time": 6,
+			"responseCode": {
+				"code": 404,
+				"name": "Not Found"
+			},
+			"tests": {
+				"Successful POST request": true
+			},
+			"testPassFailCounts": {
+				"Successful POST request": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				6
+			],
+			"allTests": [
+				{
+					"Successful POST request": true
+				}
+			]
+		},
+		{
+			"id": "315282b1-451f-4acc-bf2d-e6e3c58a6e20",
+			"name": "/api/exhibitions/:exhibitionId/deassign/artwork/:artworkId",
+			"url": "http://127.0.0.1:7194/api/exhibitions/14/deallocate/artwork/49",
+			"time": 6,
+			"responseCode": {
+				"code": 404,
+				"name": "Not Found"
+			},
+			"tests": {
+				"Successful DELETE request": true
+			},
+			"testPassFailCounts": {
+				"Successful DELETE request": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				6
+			],
+			"allTests": [
+				{
+					"Successful DELETE request": true
+				}
+			]
+		},
+		{
+			"id": "ec1f41bd-29ff-4b63-994c-f2443b8c2004",
+			"name": "/api/exhibitions",
+			"url": "http://127.0.0.1:7194/api/exhibitions",
+			"time": 5,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Successful GET request": true
+			},
+			"testPassFailCounts": {
+				"Successful GET request": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				5
+			],
+			"allTests": [
+				{
+					"Successful GET request": true
+				}
+			]
+		},
+		{
+			"id": "ff0e966a-c2a1-4a98-9fff-92103e17bcd5",
+			"name": "/api/exhibitions",
+			"url": "http://127.0.0.1:7194/api/exhibitions",
+			"time": 5,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Successful POST request": true
+			},
+			"testPassFailCounts": {
+				"Successful POST request": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				5
+			],
+			"allTests": [
+				{
+					"Successful POST request": true
+				}
+			]
+		}
+	],
+	"count": 1,
+	"totalTime": 226,
+	"collection": {
+		"requests": [
+			{
+				"id": "f009c462-5a47-4bac-93af-5982e6fc766a",
+				"method": "GET"
+			},
+			{
+				"id": "e6091a48-82c1-47e7-96b5-0b5e2d31c42b",
+				"method": "PUT"
+			},
+			{
+				"id": "acdce390-dccd-4672-a340-8c49ebd39158",
+				"method": "DELETE"
+			},
+			{
+				"id": "6b7a9de1-6920-4c6c-a003-8da1fcc891d0",
+				"method": "GET"
+			},
+			{
+				"id": "f9173bc3-d889-4d1b-b50b-7be0cce4d5fc",
+				"method": "POST"
+			},
+			{
+				"id": "c7ef026f-0aab-4d0f-a82f-b12b35303870",
+				"method": "GET"
+			},
+			{
+				"id": "d501e368-82f8-4a32-9988-21e48cce9d71",
+				"method": "GET"
+			},
+			{
+				"id": "7d4bbb4b-ac8a-4040-ac83-514b1dcfdbb5",
+				"method": "PUT"
+			},
+			{
+				"id": "f4029369-aa35-4df8-8857-1d72b882a140",
+				"method": "DELETE"
+			},
+			{
+				"id": "14da6b9b-ca48-4a91-acfd-7eebc7f7ff56",
+				"method": "POST"
+			},
+			{
+				"id": "493fc9df-2859-4f99-8cd2-86e65cdb3e16",
+				"method": "DELETE"
+			},
+			{
+				"id": "ce3753d4-3b82-4d7c-9370-24b8318fa81c",
+				"method": "GET"
+			},
+			{
+				"id": "95d75c24-b6ca-45e8-8059-cf750077c158",
+				"method": "POST"
+			},
+			{
+				"id": "544346e4-afee-4d82-9afe-95cc243a9d7c",
+				"method": "GET"
+			},
+			{
+				"id": "282b1a9f-dee3-4f20-b9fe-1f9e8d7f51fc",
+				"method": "GET"
+			},
+			{
+				"id": "8e988f59-105a-48cd-adb0-eb24fbe0e37c",
+				"method": "PUT"
+			},
+			{
+				"id": "ba8cf599-07fb-4900-a311-c51a6a4cd453",
+				"method": "DELETE"
+			},
+			{
+				"id": "45f23529-086a-41e6-a9d8-102b988abd4c",
+				"method": "POST"
+			},
+			{
+				"id": "bea2b446-71e0-4bfc-91a8-90c2493eb2bb",
+				"method": "GET"
+			},
+			{
+				"id": "aeeadf11-7907-439f-a111-3246bb70b410",
+				"method": "GET"
+			},
+			{
+				"id": "21b2ec45-d907-482a-a170-1ad101e4bdab",
+				"method": "PUT"
+			},
+			{
+				"id": "febc5986-e851-44d8-9800-55d8172c549e",
+				"method": "DELETE"
+			},
+			{
+				"id": "7946353d-4fa6-4c0f-aeb1-c69e872cc9f3",
+				"method": "GET"
+			},
+			{
+				"id": "83dc1ac0-23b5-4f5c-af22-94c11b96d06e",
+				"method": "POST"
+			},
+			{
+				"id": "315282b1-451f-4acc-bf2d-e6e3c58a6e20",
+				"method": "DELETE"
+			},
+			{
+				"id": "ec1f41bd-29ff-4b63-994c-f2443b8c2004",
+				"method": "GET"
+			},
+			{
+				"id": "ff0e966a-c2a1-4a98-9fff-92103e17bcd5",
+				"method": "POST"
+			},
+			{
+				"id": "cca5c39e-e6d3-446b-a2d8-c3262745344a",
+				"method": "GET"
+			}
+		]
+	}
+}
