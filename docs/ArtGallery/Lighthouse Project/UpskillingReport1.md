@@ -21,13 +21,11 @@ CSS Box Model – designing and positioning elements on a website. Structure of 
 Below are the resources used to upskill:
 
 HTML to CSS Full Course (Beginner)
-[https://www.youtube.com/watch?v=G3e-cpL7ofc&pp=ygUgYmFzaWMgamF2YXNjcmlwdCBodG1sIGNzcyBjb3Vyc2U%3D](Course
-link)
+[https://shorturl.at/esBFR](Course link)
 
 JavaScript, HTML & CSS Basics:
 
-[https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/JavaScript_basics#supercharging_our_example_website](Course
-link)
+[https://shorturl.at/gDN48](Course link)
 
 ## CSS and Javascript, vue.js upskilling
 
@@ -43,8 +41,8 @@ have learnt during this upskilling:
 
 Resources used for this upskilling:
 
-Removing unused CSS, JavaScript and HTML code: [https://www.youtube.com/watch?v=NznSPzshs6s] (Course
-link)
+Removing unused CSS, JavaScript and HTML code:
+[https://www.youtube.com/watch?v=NznSPzshs6s] (Course link)
 
 Learn webpacks to help minify CSS, JavaScript and HTML:
 [https://www.youtube.com/watch?v=JlBDfj75T3Y] (Course link)
