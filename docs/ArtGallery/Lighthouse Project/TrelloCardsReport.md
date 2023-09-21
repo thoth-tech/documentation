@@ -1,4 +1,4 @@
-﻿# Report on task: Review Research from T1 and create backlog
+# Report on task: Review Research from T1 and create backlog
 
 I have reviewed two reports on the Lighthouse scores and identified the issues that needed to be
 rectified. One report was a review on the desktop app and the other was a review on the mobile app.
