@@ -88,6 +88,4 @@ useful to review all links and do more research for those who will be creating t
 
 For those who are wanting to get a start and overview of payment API view this link.
 
-<[def]>
-
-[def]: ttps://developer.squareup.com/reference/sdks/web/payments/card-payment
+<https://developer.squareup.com/reference/sdks/web/payments/card-payment>
