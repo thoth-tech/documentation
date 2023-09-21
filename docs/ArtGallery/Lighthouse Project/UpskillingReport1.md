@@ -18,13 +18,11 @@ Chrome DevTools – tool for debugging and inspecting code.
 
 CSS Box Model – designing and positioning elements on a website. Structure of HTML.
 
-Below are the resources used to upskill:
+### Courses for this upskilling
 
-HTML to CSS Full Course (Beginner) [https://shorturl.at/esBFR](Course link)
+HTML to CSS Full Course (Beginner)
 
-JavaScript, HTML & CSS Basics:
-
-[https://shorturl.at/gDN48](Course link)
+JavaScript, HTML & CSS Basics
 
 ## CSS and Javascript, vue.js upskilling
 
@@ -38,15 +36,13 @@ have learnt during this upskilling:
 - including webpacks to help with CSS & JS codes
 - purpose of vue.js, and how it functions
 
-Resources used for this upskilling:
+### Topics covered
 
-Removing unused CSS, JavaScript and HTML code: [https://www.youtube.com/watch?v=NznSPzshs6s](Course
-link)
+Removing unused CSS, JavaScript and HTML code
 
-Learn webpacks to help minify CSS, JavaScript and HTML:
-[https://www.youtube.com/watch?v=JlBDfj75T3Y](Course link)
+Learn webpacks to help minify CSS, JavaScript and HTML
 
-Vue.js for beginners: [https://www.youtube.com/watch?v=FXpIoQ_rT_c](Course link)
+Vue.js for beginners
 
 ## Lazy loading, TreeShaking and Ant Design upskilling
 
@@ -61,15 +57,12 @@ have learnt the following:
 - How to implement TreeShaking
 - What is Ant Design and why is it used
 
-Resources used for this upskilling:
+### Topics covered for this upskilling
 
-Vue router tutorial [https://www.youtube.com/watch?v=juocv4AtrHo](Course link)
+Vue router tutorial
 
 Lazy routing and code splitting
-[https://blog.logrocket.com/vue-lazy-loading-components-code-splitting/](Course link)
 
-What is TreeShaking and how to use [https://webpack.js.org/guides/tree-shaking/](Course link)
+What is TreeShaking and how to implement
 
-How to implement TreeShaking [https://www.youtube.com/watch?v=5u_NUGbjAsY](Course link)
-
-Ant Design courses: [https://www.geeksforgeeks.org/ant-design/](Courses link)
+Ant Design courses
