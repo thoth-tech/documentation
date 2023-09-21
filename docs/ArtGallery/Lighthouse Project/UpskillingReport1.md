@@ -18,7 +18,7 @@ Chrome DevTools – tool for debugging and inspecting code.
 
 CSS Box Model – designing and positioning elements on a website. Structure of HTML.
 
-### Courses for this upskilling
+### Courses completed for this upskilling
 
 HTML to CSS Full Course (Beginner)
 
