@@ -21,7 +21,7 @@ public class SpriteEventContainer : IDisposable
     {
         Console.Out.WriteLine("SPRITE: " + ptr + " EVENT: " + ev);
 
-        if ((SpriteEventKind) ev == SpriteEventKind.SpriteAnimationEndedEvent) // in the test program, we start an animation by U key
+        if ((SpriteEventKind)ev == SpriteEventKind.SpriteAnimationEndedEvent) // in the test program, we start an animation by U key
         {
             if (spr.AnimationName() == "explode")           // first explode animation frame is done
             {
