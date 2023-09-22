@@ -99,9 +99,9 @@ Then locate the folder for arcade games and save the zipped folders of your game
 `~/RetroPie/roms/arcade`
 
 Then, you can restart your RetroPie and there will be an icon for a category with games (e.g.,
-arcade) on it in the center of your screen along side the RetroPie's one.
+arcade) on it in the centre of your screen along side the RetroPie's one.
 
-Press 'A' to load the area with your games and you will need select the the emulator that you loaded
-on the previous step to get going with your game.
+Press 'A' to load the area with your games and you will need select the emulator that you loaded on
+the previous step to get going with your game.
 
 ![image](images/arca.png)
