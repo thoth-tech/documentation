@@ -1,10 +1,10 @@
 ﻿using SplashKitSDK;
 
 public class Program
-{ 
-     public static void Main(string[] args)
+{
+    public static void Main(string[] args)
     {
-       
+
         Window menuWindow;
         menuWindow = new Window("Game Menu", 800, 600);
 
@@ -22,35 +22,36 @@ public class Program
             SplashKit.ProcessEvents();
             menuWindow.Clear(Color.White);
             menuWindow.FillRectangle(Color.Black, 100, 50, 600, 450);
-            
+
             string line, name, authors;
             string[] splitLine;
             int count = 0, errors = 0;
 
             string fileName = @"C:\Users\loliw\OneDrive\ROMS.csv";
 
-            try 
+            try
             {
                 using (StreamReader reader = new StreamReader(new FileStream(fileName, FileMode.Open)))
                 {
-            
+
                     SplashKit.DrawText($" ************************* ", Color.White, 200, 70);
                     SplashKit.DrawText($"        GAME MENU          ", Color.White, 200, 90);
 
                     reader.ReadLine();
                     line = reader.ReadLine();
-                    while(line != null) {
+                    while (line != null)
+                    {
                         count++;
                         try
                         {
                             splitLine = line.Split(',');
                             name = splitLine[0];
                             authors = splitLine[1];
-                            
 
-                            SplashKit.DrawText($" * {count} ", Color.White, 200, 110+20*count);
-                            SplashKit.DrawText($" --> {name}", Color.White, 230, 110+20*count);
-                            SplashKit.DrawText($"{authors}", Color.White, 450, 110+20*count);
+
+                            SplashKit.DrawText($" * {count} ", Color.White, 200, 110 + 20 * count);
+                            SplashKit.DrawText($" --> {name}", Color.White, 230, 110 + 20 * count);
+                            SplashKit.DrawText($"{authors}", Color.White, 450, 110 + 20 * count);
                         }
                         catch (Exception e)
                         {
@@ -67,7 +68,8 @@ public class Program
                         byte[] data = ms.ToArray();
                     }
                 }
-            } catch (Exception e)
+            }
+            catch (Exception e)
             {
                 Console.Write(e.Message);
             }
@@ -79,14 +81,14 @@ public class Program
             st.StayOnWindow(menuWindow);
         }
     }
-   
+
 }
 
 public class Hand
 {
     private Bitmap handBitmap;
     private Window _menuWindow;
-    
+
     const double space = 1.50;
 
     public double X { get; set; }
@@ -97,12 +99,12 @@ public class Hand
     public int Height { get; set; }
 
     public Hand(Window menuWindow)
-    {    
+    {
         _menuWindow = menuWindow;
-        handBitmap = SplashKit.LoadBitmap("Pointer", "pinting.png");    
+        handBitmap = SplashKit.LoadBitmap("Pointer", "pinting.png");
 
-        X = (menuWindow.Width - Width)/2;
-        Y = (menuWindow.Height - Height)/2;        
+        X = (menuWindow.Width - Width) / 2;
+        Y = (menuWindow.Height - Height) / 2;
         Quit = false;
 
     }
@@ -123,7 +125,7 @@ public class Hand
             //{
             //   if(data[i].TogglePower() == SplashKit.DrawBitmap(handBitmap, X, Y))
             //   {
-                    Console.WriteLine("Enter key has been pressed!!");
+            Console.WriteLine("Enter key has been pressed!!");
             //   };
             //}
         }
@@ -135,12 +137,12 @@ public class Hand
         {
             Y = Y - space;
         }
-        
+
         if (SplashKit.KeyDown(KeyCode.EscapeKey))
         {
             Quit = true;
             Environment.Exit(2);
-        }      
+        }
     }
 
     public void StayOnWindow(Window menuWindow)
