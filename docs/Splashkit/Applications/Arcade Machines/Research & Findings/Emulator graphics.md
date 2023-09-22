@@ -1,4 +1,36 @@
-﻿using System;
+# Emulation graphics
+
+As a player, I wish to have a SplashKit graphic screen as part of the Emulation Station or for one of our games. So if we assume that our code Main method is the following, it will need to call the `Form1` class that has our graphics.
+
+```cpp
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Threading.Tasks;
+using System.Windows.Forms;
+
+namespace Window1
+{
+    internal static class Program
+    {
+        /// <summary>
+        /// The main entry point for the application.
+        /// </summary>
+        [STAThread]
+        static void Main()
+        {
+            Application.EnableVisualStyles();
+            Application.SetCompatibleTextRenderingDefault(false);
+            Application.Run(new Form1());
+        }
+    }
+}
+```
+
+The next code is for graphics that will be displayed when our game has been selected.
+
+```cpp
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -160,3 +192,8 @@ namespace Window1
         }
     }
 }
+```
+
+A screenshot of our graphics is below.
+
+![image](images/gr15.png)
