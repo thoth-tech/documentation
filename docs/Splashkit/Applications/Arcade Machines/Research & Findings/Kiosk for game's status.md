@@ -1,6 +1,8 @@
 # Code for separating games
 
-The code below separates completed games from those in the development stage in line with their labelling. **Note** that the `XML` file used in the code is not attached, but that file's data can be viewed in the image below.
+The code below separates completed games from those in the development stage in line with their
+labelling. **Note** that the `XML` file used in the code is not attached, but that file's data can
+be viewed in the image below.
 
 ```cpp
 using System;
@@ -140,7 +142,7 @@ namespace deadr
             foreach (Log b in results)
             {
 
-                Console.Write("\n{0}\t{1}", 
+                Console.Write("\n{0}\t{1}",
                     b.Name, b.Publish_date.ToShortDateString());
             }
             Console.WriteLine();
@@ -161,5 +163,4 @@ namespace deadr
 }
 ```
 
-The above code produces the following output:
-![image](images/nyele.png)
+The above code produces the following output: ![image](images/nyele.png)

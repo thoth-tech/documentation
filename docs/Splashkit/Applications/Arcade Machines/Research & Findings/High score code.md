@@ -8,14 +8,15 @@ Table of content
 
 ## Player details
 
-The code below requires a player to enter his initials or name. We use a `do while` loop to force a player to enter a name not longer than three characters.
+The code below requires a player to enter his initials or name. We use a `do while` loop to force a
+player to enter a name not longer than three characters.
 
 ```cpp
 Console.WriteLine("Enter your name or initials (up to 3 letters): ");
 
 do
 {
-    string name = Console.ReadLine();           
+    string name = Console.ReadLine();
 
     if (name.Length < 1 || name.Length > 3)
     {
@@ -31,7 +32,8 @@ To record the player's name in the list, we implement the following code:
 score.AddScore(name);
 ```
 
-Below, we initiate the `Player` list (i.e., `private List<Player> Players = new List<Player>();`) and save the player's initials or name in it.
+Below, we initiate the `Player` list (i.e., `private List<Player> Players = new List<Player>();`)
+and save the player's initials or name in it.
 
 ```cpp
 using System.Collections.Generic;
@@ -65,7 +67,7 @@ public class Score
         }
 
         for(int j = 0; j < 10; j++)
-        {   
+        {
             SplashKit.ClearScreen(Color.White);
             Console.WriteLine((j + 1) + " score: " + _scores[j]);
             SplashKit.RefreshScreen();
@@ -86,14 +88,15 @@ public class Score
 }
 ```
 
-Alternatively, we could use a `comparison delegation` to compare values stored in the `_scores` list.
+Alternatively, we could use a `comparison delegation` to compare values stored in the `_scores`
+list.
 
 ```cpp
 _scores.Sort((x, y) => x.Score.CompareTo(y.Score));
 Console.WriteLine($"Top 10 highest scores");
 
 for(int j = 0; j < 10; j++)
-{   
+{
     SplashKit.ClearScreen(Color.White);
     Console.WriteLine((j + 1) + " score: " + _scores[j]);
     SplashKit.RefreshScreen();
@@ -111,16 +114,21 @@ private static int CompareByScores(Highest s1, Highest s2)
 
 ## Score Made
 
-Above, we also initiate the `_scores` list (i.e., `public List<Highest<int, string>> _scores { get; } = new List<Highest>();`) and will save the players' scores and names in it. You will notice that we have a `GetScore` method that access the `_scores` list and reading its contents. After, we compare the scores in the list to the current player's `score`. Furthermore, we have a method that calls the `scoreMade` class. Below, we have the `Player` class, which captures the `scoreMade` in another class.
+Above, we also initiate the `_scores` list (i.e.,
+`public List<Highest<int, string>> _scores { get; } = new List<Highest>();`) and will save the
+players' scores and names in it. You will notice that we have a `GetScore` method that access the
+`_scores` list and reading its contents. After, we compare the scores in the list to the current
+player's `score`. Furthermore, we have a method that calls the `scoreMade` class. Below, we have the
+`Player` class, which captures the `scoreMade` in another class.
 
 ```cpp
 using System;
 
 public class Player
-{          
+{
     public string _name;
     public int _score;
-      
+
     public string Name
     {
         get { return _name; }
@@ -136,13 +144,13 @@ public class Player
     {
         if (scoreMade > 0)
         {
-            get { return _endScore; }            
+            get { return _endScore; }
         }
         else
         {
             Console.WriteLine($"{_name} scored {_endScore}. Try again!!");
         }
-    } 
+    }
 }
 ```
 
@@ -175,7 +183,7 @@ public class ScoreMade
     }
 
     public void Execute()
-    { 
+    {
         if (_executed)
         {
             throw new Exception("Your score has been recorded");
