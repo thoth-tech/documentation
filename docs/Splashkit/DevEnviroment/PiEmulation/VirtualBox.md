@@ -16,7 +16,7 @@ Steps:
    [here](https://www.virtualbox.org/wiki/Downloads).
 1. Choose the installer for your operating system (Windows, Linux, or Mac).
 1. Run the installer and follow the on-screen instructions to install VirtualBox on your computer.
-   ![](/images/oracle.png)
+   ![](./images/oracle.png)
 
 ## Download Raspberry Pi OS Desktop ISO:
 
@@ -34,23 +34,23 @@ Steps:
 1. Give your virtual machine a name, such as "Raspberry Pi OS Desktop." Choose the directory, wher
    you want the virtual machine to be installed on. (Note: Disk sould have enough space)
 1. Choose the operating system as Linux and select Debian (64-bit) as the version
-   ![](/images/virtualconfig.png)
+   ![](./images/virtualconfig.png)
 
 1. Allocate an appropriate amount of RAM for your virtual machine. _The least recommended size is
    1GB, but you can allocate more if your computer has enough resources._
 1. Configure the number of CPUs allocated to your virtual machine. _Using 2 to 4 cores is
-   recommended if your machine has 4 or 8 cores._ ![](/images/virtualhardware.png)
+   recommended if your machine has 4 or 8 cores._ ![](./images/virtualhardware.png)
 
 1. Create a virtual hard disk for your virtual machine. _Choose the default options unless you have
    specific requirements._
 1. Allocate enough disk space for your virtual machine. _It is recommended to allocate at least 15
-   to 25GB depending on your usage._ ![](/images/virtualdisk.png)
+   to 25GB depending on your usage._ ![](./images/virtualdisk.png)
 
 1. Click Next, recheck everything as similar to the steps above in the configuration summary. Click
-   on `Finish`. ![](/images/virtuallists.png)
+   on `Finish`. ![](./images/virtuallists.png)
 
 1. Click on settings. Choose Display. Tick Enable 3D acceleration. Allocate 128 MB video memory.
-   ![](/images/virtualgpu.png) _Now you have a virtual box configured. Lets Move to installation of
+   ![](./images/virtualgpu.png) _Now you have a virtual box configured. Lets Move to installation of
    Raspbian OS._
 1. Associate the Raspberry Pi OS Desktop ISO file you downloaded with your virtual machine.
 
@@ -58,7 +58,7 @@ Steps:
    1. Choose Empty under “Controller:IDE”.
    1. Click on disk icon.
 
-   ![](/images/virtualoptical.png)
+   ![](./images/virtualoptical.png)
 
    1. Browse the Raspbian OS ISO, we just downloaded.
    1. Click `“OK”`.
@@ -69,15 +69,15 @@ Steps:
    VirtualBox.
 1. Select “Graphical install”. Follow the on-screen instructions. Choose Guided - use entire disk.
 
-![](/images/virtualdebian.png)
+![](./images/virtualdebian.png)
 
 1. Select “All files in one partition”.
 
-![](/images/virtualdebian2.png)
+![](./images/virtualdebian2.png)
 
 1. Choose the language, partition disks, and configure other settings as per your preferences.
 1. Once the installation is complete, your Raspberry Pi OS Desktop virtual machine is ready to use.
-   ![](/images/virtualrsp.png)
+   ![](./images/virtualrsp.png)
 
 ## Install SplashKit SDK:
 
