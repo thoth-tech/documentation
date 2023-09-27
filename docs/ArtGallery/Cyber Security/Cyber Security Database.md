@@ -6,7 +6,7 @@ Storage Database Security / Hosting
 
 Overview
 
-As we are leading towards the deployment stage of the Art Gallery Application will will need to
+As we are leading towards the deployment stage of the Art Gallery Application will need to
 start looking at storage options for the data that is stored from the website.(This can be further
 discussed with the client)
 
