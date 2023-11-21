@@ -3,8 +3,11 @@ title: SplashKit Tutorials
 description: A compilation of SplashKit tutorials with recommendations for improvement.
 ---
 
+
+
 import { Icon } from '@astrojs/starlight/components'; import { Tabs, TabItem } from
-'@astrojs/starlight/components';
+'@astrojs/starlight/components'; import SplashKitTutorialsTables from
+'./SplashKitTutorialsTables.astro';
 
 On this page is a compilation of SplashKit tutorials and tutorial proposals. Areas of potential
 improvement have been marked.
@@ -12,6 +15,8 @@ improvement have been marked.
 The tutorials have been layed out in categories that seem reasonable for further development. There
 is a need for both tutorials that focus on specific areas (such as sprites, or audio), along with
 tutorials that bring these concepts together cohesively (like the Metroidvania series).
+
+<SplashKitTutorialsTables />
 
 ## Current Tutorials/Proposals
 
@@ -24,6 +29,8 @@ tutorials that bring these concepts together cohesively (like the Metroidvania s
 | <Icon name="rocket" color="#68ee55" size="1.5rem"  />               | Proposed tutorial has been created.                                                                     |
 | <Icon name="information" color="#44ee99" size="1.5rem"  />          | Proposed tutorial has not yet been created.                                                             |
 | <Icon name="random" color="goldenrod" size="1.5rem"  />             | Not sure of the status of the proposed tutorial. Probably incomplete, but not on the backlog on Trello. |
+
+<div class="tutorialsList">
 
 ### Starter
 
@@ -177,6 +184,8 @@ tutorials cohesive even when written by different people.
 | Creating a 2D Metroidvania Game (7, 8, 10, 13)                                                                                                                                                                                                                                                                                                                                                                                                                                                           | The remaining parts in a series on producing a Metroidvania game.                                                                                                                                                                                                                                                     | <Icon name="information" color="#44ee99" size="1.5rem"/> |
 | Using JSON Files                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         | Proposal for a more complete JSON tutorial.                                                                                                                                                                                                                                                                           | <Icon name="information" color="#44ee99" size="1.5rem"/> |
 | Sprite Animation                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         | Proposal for how to use Sprite Animation. May already exist in previous tutorials.                                                                                                                                                                                                                                    | <Icon name="information" color="#44ee99" size="1.5rem"/> |
+
+</div>
 
 ## [For Reference] Current SplashKit Tutorial/Proposal Directories
 
