@@ -1,3 +1,4 @@
+
 # Pingpong Incorrect Play Area Boundary Bug
 
 ## Bug Description
