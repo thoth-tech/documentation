@@ -3,7 +3,7 @@
 
 ## Improvement Suggestion Description
 
-The Player, enemy(or enemies), and gem should all have spawn points.
+The Player, enemy(or enemies), and gem should all have different spawn points.
 
 ## Reasoning
 
