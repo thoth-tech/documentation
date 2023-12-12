@@ -58,5 +58,5 @@ More test needed for the investigation
 
 ## Recommendations
 
-As it is for now, it uses microUI keyword to create the user interface. For future plans, we wish to incorporate the library using Splashkit style code. If possible, we could replace the code with Splashkit existing code to reduce the redundancy. Overall, it is in-need more investigation to ensure everything is stable for public uses.
+As it is for now, it uses microUI keyword to create the user interface. For future plans, we wish to incorporate the library using Splashkit style code. If possible, we could replace the code with Splashkit existing code to reduce the redundancy but that would requires extensive knowledge of SDL. Overall, it is in-need more investigation to ensure everything is stable for public uses.
 
