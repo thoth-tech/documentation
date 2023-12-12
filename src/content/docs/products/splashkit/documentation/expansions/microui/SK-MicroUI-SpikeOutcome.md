@@ -44,7 +44,9 @@ extern "C" {
 `int row[] = { 54, -1 };`
 `mu_layout_row(ctx, 2, row, 0);`
 -	Modify the `test_main.cpp` and `test_main.h` file to accept `test_microui.cpp` as another choice
--	run it and it should look like what it is below
+-	run it with Cmake and it should look like what it is below
+![image](https://github.com/MangoS9/documentation/assets/128771372/50b5da58-1a64-4788-818a-bf6314a6c170)
+
 
 ## What we found out
 
