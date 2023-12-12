@@ -50,7 +50,10 @@ extern "C" {
 
 ## What we found out
 
-So far upon testing the demo, there has not been much issue in the function except for the two buttons when click on the pop-up button. More test needed for the investigation
+So far upon testing the demo, there has not been much issue in the function except for the two buttons when click on the pop-up button.
+![image](https://github.com/MangoS9/documentation/assets/128771372/70d784e5-1981-4ee2-bc30-b84e0bf2dc71)
+
+More test needed for the investigation
 
 
 ## Recommendations
