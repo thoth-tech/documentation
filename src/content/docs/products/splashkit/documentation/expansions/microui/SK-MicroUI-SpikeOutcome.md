@@ -23,7 +23,7 @@ List of information needed by someone trying to reproduce this work
 - Terminal: MSYS
 
 ## Tasks undertaken
-Here are ways to integrate MicroUI lib into the Splashkit Library. 
+Here are ways to use MicroUI lib into the Splashkit Library. 
  - Clone up Splashkit-Core 
  - go to `coresdk\external` folder and create a folder name `microui`
  - copy the .c and header file from the src and demo folder in microUI lib to `microui` folder
