@@ -47,16 +47,15 @@ extern "C" {
 -	run it with Cmake and it should look like what it is below
 ![image](https://github.com/MangoS9/documentation/assets/128771372/50b5da58-1a64-4788-818a-bf6314a6c170)
 
-
 ## What we found out
 
-So far upon testing the demo, there has not been much issue in the function except for the two buttons when click on the pop-up button.
+So far upon testing the demo, there has not been much issue in the function except for the two buttons when click on the pop-up button. 
 ![image](https://github.com/MangoS9/documentation/assets/128771372/70d784e5-1981-4ee2-bc30-b84e0bf2dc71)
 
-More test needed for the investigation
+To completely integrate MicroUI to Splashkit, it requires a lot of research of what Splashkit has in the library and what it lack that won't support the MicroUI function. I modified some code that I was hoping that it will work but turns out crashed the programming and prompting me the errors. Due to the time constraint I am unable to completely integrate MicroUI to Splashkit. More research are needed for the library.
 
 
 ## Recommendations
 
-As it is for now, it uses microUI keyword to create the user interface. For future plans, we wish to incorporate the library using Splashkit style code. If possible, we could replace the code with Splashkit existing code to reduce the redundancy but that would requires extensive knowledge of SDL. Overall, it is in-need more investigation to ensure everything is stable for public uses.
+As it is for now, it uses microUI keyword to create the user interface. For future plans, we wish to incorporate the library using Splashkit style code. As it is right now again, it is not possible due to lack of things that Splashkit has to support the MicroUI library. If enough time, create an UI prototype is possible.
 
