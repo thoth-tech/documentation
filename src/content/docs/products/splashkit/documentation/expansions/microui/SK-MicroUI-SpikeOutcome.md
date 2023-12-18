@@ -5,7 +5,7 @@
 
 **Spike:** NA
 
-**Title:** MicroUI to Splashkit
+**Title:** Splashkit UI Implementation
 
 **Author:** Bryan Taing, staing@deakin.edu.au
 
