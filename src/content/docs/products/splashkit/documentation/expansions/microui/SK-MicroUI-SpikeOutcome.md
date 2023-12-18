@@ -5,7 +5,7 @@
 
 **Spike:** NA
 
-**Title:** Spike_Title
+**Title:** MicroUI to Splashkit
 
 **Author:** Bryan Taing, staing@deakin.edu.au
 
