@@ -37,6 +37,59 @@ These are the Credentials setup on the image
    - Current usernmae and password are `deakin` and `qwerty`
 1. Update all Software to the latestes version
 
+## Connect to eduroam
+Two changes need to be made to allow the Pi to access the eduroam network. One to network interfaces and one to wpa_supplicant:
+1. Modify /etc/network/interfaces to bring the wlan0 interface up automatically, use DHCP and read from the wpa_supplicant config
+   
+   - From the console open the interfaces file:
+      ```
+      sudo nano /etc/network/interfaces
+      ``` 
+   - Copy the following text to to the **bottom** of the interfaces file
+      ```
+      allow-hotplug wlan0
+      iface wlan0 inet manual
+         wpa-conf /etc/wpa_supplicant/wpa_supplicant.conf
+      iface wlan0 inet dhcp
+      ```
+   - Press Ctrl+X to exit and press **y** when prompted to save your changes
+
+1. Modify the wpa_supplicant with the custom eduroam config
+   - From the console open the wpa_supplicant config file:
+      ```
+      sudo nano /etc/wpa_supplicant/wpa_supplicant.conf
+      ```
+   - Copy the following text into the wpa_supplicant file
+      ```
+      ctrl_interface=DIR=/var/run/wpa_supplicant GROUP=netdev
+         update_config=1
+
+         network={
+            ssid="eduroam"
+            priority=1
+            proto=RSN
+            key_mgmt=WPA-EAP
+            pairwise=CCMP
+            auth_alg=OPEN
+            eap=PEAP
+            identity="YOURUSERNAME@deakin.edu.au"
+            password="YOURPASSWORD"
+            phase1="peaplabel=0"
+            phase2="auth=MSCHAPV2"
+         }
+      ```
+   - Replace **YOURUSERNAME** and **YOURPASSWORD** with the arcade machine's eduroam login credentials. Ensure you include the domain I.E. "arcademachine@deakin.edu.au"
+   - Press Ctrl+X to exit and press **y** when prompted to save your changes
+
+1. Reboot and test network connectivity
+   - Reboot the Raspberry Pi by issuing the below command:
+   ```
+   sudo reboot
+   ```
+   - Test network connectivity by pinging an external site, for example Google's DNS:
+   ```
+   ping 8.8.8.8
+   ```
 ## Install Software
 
 1. Install Splashkit
