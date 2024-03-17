@@ -18,9 +18,17 @@
     "@astrojs/starlight": "^0.9.0",
     "astro": "^3.0.7",
     "prettier": "^3.0.3",
-    "sharp": "^0.32.3"
+    "sharp": "^0.32.3",
+    "sqlite3": "^5.1.7"
   },
   "devDependencies": {
     "markdownlint": "^0.31.0"
-  }
+  },
+  "description": "[![CI](https://github.com/thoth-tech/documentation/actions/workflows/ci.yml/badge.svg)](https://github.com/thoth-tech/documentation/actions/workflows/ci.yml)\r [![Prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg)](https://prettier.io/)",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "author": "",
+  "license": "ISC"
 }
