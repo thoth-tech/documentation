@@ -37,6 +37,7 @@ New design sketch: Existing UI components are to be used for the input fields an
 ![new modal sketch](Resources/achievement-custom-bar-chart.coffee_current_2.png)
 
 New design sketch: proposed different design, existing UI components are to be used for the input fields and button etc. 
+
 ![new modal sketch](Resources/achievement-custom-bar-chart_design2.jpeg)
 ![new modal sketch](Resources/achievement-custom-bar-chart_design3.jpeg)
 
