@@ -18,18 +18,20 @@ The component should provide a student who has submited a task with a grade for 
 
 ## Component migration plan
 
-First add your plan for the migration, how will you do this, what steps are needed. Add some
-sketches or diagrams, what will the migrated component look like compared to the current one.
+- Review existing component to understand the functionality and structure.
+- Setup environment.
+- Setup new Angular component.
+- Convert the CoffeeScript code to Tyscript.
+- Update and check templates and styles.
+- Test and debug the new component.
 
 ## Component review checklist
-
-Next add a checklist similar to: then create a checklist:
-
-[ ] ability to collect details from the user [ ] succeeds when data is valid [ ] handles errors -
-duplicate unit code in the teaching period, or invalid dates [ ] created unit is shown on success
+[ ] ability to collect details from the user 
+[ ] succeeds when data is valid 
+[ ] handles errors -
+duplicate unit code in the teaching period, or invalid dates
+[ ] created unit is shown on success
 
 ## Discussion with Client (Andrew Cain)
 
-Finally you will need to take the feedback from Andrew and Discuss any addtional considertions he
-may have with this component before writing any code.
 
