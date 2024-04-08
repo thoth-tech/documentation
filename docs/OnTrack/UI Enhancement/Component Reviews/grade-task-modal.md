@@ -1,22 +1,20 @@
 # Ontrack Component review
 
-## Team Member Name
+## Riley Helmore
 
-First select a component to review from the list below:
-<https://deakin365.sharepoint.com/:x:/r/sites/ThothTech2/Shared%20Documents/OnTrack%20-%20UI%20Enhancement/T3_2022/Management%20%5BT3_2022%5D/selected_task(revised).xlsx?d=wac02013da5224c958ac60fd96fac7b20&csf=1&web=1&e=UfCmZ5>
+## grade-task-modal
 
-## Component Name
-
-Here you should enter the component name, also list all the files in this component.
+- grade-task-model.coffee
+- grade-task-model.scss
+- grade-task-model.tpl.html
 
 ## Component purpose
 
-What is the primary purpose of this component and how doesit work? Screenshots are advised.
+This component adds to OnTracks tasks grading abilities by providing a way to change the tasks grade status and a quality star rating.  
 
 ## Component outcomes and interactions
 
-What are the expected outcomes of the component and what does it interact with, what kind of data
-objects is it taking in and passing out?
+The component should provide a student who has submited a task with a grade for that task and a star rated quality rating. 
 
 ## Component migration plan
 
@@ -34,3 +32,4 @@ duplicate unit code in the teaching period, or invalid dates [ ] created unit is
 
 Finally you will need to take the feedback from Andrew and Discuss any addtional considertions he
 may have with this component before writing any code.
+
