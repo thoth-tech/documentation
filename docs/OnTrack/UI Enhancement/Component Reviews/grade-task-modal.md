@@ -12,6 +12,8 @@
 
 This component adds to OnTracks tasks grading abilities by providing a way to change the tasks grade status and a quality star rating.  
 
+![alt text](Resources/grade-task-modal.png)
+
 ## Component outcomes and interactions
 
 The component should provide a student who has submited a task with a grade for that task and a star rated quality rating. 
