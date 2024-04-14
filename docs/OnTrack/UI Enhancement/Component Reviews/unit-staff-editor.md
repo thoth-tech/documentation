@@ -20,11 +20,14 @@ This component facilitates the management of staff involvement in a unit. You ca
 ## Component outcomes and interactions
 
 The expected outcome from this component is to have the appropriate staff set as convenor or tutor for the selected unit. 
-The unit takes text input and searches for staff to assign a role to for the unit.
+This component will list all staff connected to the selected unit, display their name, role and whether they are the primary convenor or not. 
+The user can also remove staff from the unit or search for staff to add to the unit.
 
 ## Component migration plan
 
 I plan to unpack the code, function by function to understand each piece. I will then compare against the code for other migrate components and test function by function.
+I will create new files and migrate to these new files. I will then test the HTML as I replace the bootstrap components with angular components.
+I will then test each function of the component in the new typescript file as I replace the coffeescript file.
 
 ## Component review checklist
 
