@@ -19,7 +19,9 @@ component files:
 
 ## Component purpose
 
-The purpose of this component is to be able to select a group in the list of group.
+The purpose of this component is to be able to select a group from each unit/subject.
+
+![group-selector](Resources/group-selector.png)
 
 
 ## Component outcomes and interactions
@@ -30,3 +32,6 @@ The expected outcome would be student able to select different group from the gr
 
 Firstly, analyze the current component and understand the functionaity of existing angular js component. Then, setup a directory for each files to began the migration from angular js to angular. Finally, testing the migrated angular component locally and make sure it all works as before.
 
+
+
+[def]: group-selector.png
