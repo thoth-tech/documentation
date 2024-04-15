@@ -10,23 +10,24 @@ Ethan Holley
 
 Relevant files:
 
-- `group-set-selector.coffee`
-- `group-set-selector.tpl.html`
-- `group-set-selector.scss`
-- `group-set-selector.component.ts`
-- `group-set-selector.component.html`
-- `group-set-selector.component.scss`
+- `group-set-selector.coffee` Removed
+- `group-set-selector.tpl.html` Removed
+- `group-set-selector.scss` Removed
+- `group-set-selector.component.ts` Added
+- `group-set-selector.component.html` Added
+- `group-set-selector.component.scss` Added
+- `doubtfire-angular.module.ts` Updated
+- `doubtfire-angularjs.module.ts` Updated
 
 ## Component Purpose
 
-The purpose of this component is to handle selecting group sets in the Groups tab of managing a unit.
+The purpose of this component is a dropdown select that allows the user to change which Group Set is selected if multiple Group Sets exist. The dropdown is circled in red in the screenshot below.
 
 ![group-set-selector](Resources/group-set-selector.png)
 
 ## Component Outcomes and Interactions
 
-The expected outcome of the component is to allow the user to select a group set and return the information
-from that group set object.
+When the select is clicked, a dropdown with a list of available Group Sets will display. The Group Set thats selected by the user will be loaded and the Groups within that set will be displayed.
 
 ## Component Migration Plan
 
@@ -37,4 +38,4 @@ it was in CoffeeScript.
 
 ## Component Post-Migration
 
-Make sure nothing breaks in the future. Perform unit tests. Keep the TypeScript updated too.
+Make sure nothing breaks in the future. Perform unit tests. Keep the TypeScript updated too. Other Group related files need to be migrated as well.
