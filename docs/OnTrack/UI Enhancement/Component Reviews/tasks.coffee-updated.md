@@ -16,7 +16,7 @@ File Name: Component tasks.coffee
 This component allows all the tasks related to task component.
 
 ## Component outcomes/interactions
-"Task component" consists with some subcompoenets which comes together.Although the the  "Task component" has been identified as a one component and mentioned as one in trello board, it needs to be catogerized as follows:
+"Task component" consists with some subcompoenets which comes together. Although the the  "Task component" has been identified as a one component and mentioned as one in trello board, it needs to be catogerized as follows:
 - grade-task-modal.coffee
 - project task list.coffee
 - task-component-composer.coffee
