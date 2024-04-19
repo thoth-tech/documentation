@@ -17,6 +17,7 @@ This component sets the details of the unit and allows for these details to be u
 
 The unit details such as code, name, relevant teaching period and much more can be viewed and edited where appropriate.
 
+![Unit Details Editor](https://github.com/sammyrolfe/documentation/assets/36840091/c766e80a-e089-4c49-8cae-42c91df1ee21)
 
 
 ## Component migration plan
