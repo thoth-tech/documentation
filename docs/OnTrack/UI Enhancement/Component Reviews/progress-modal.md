@@ -11,7 +11,7 @@
 
 This component allows the creation for a popup which takes a title and a message to display while the program completes a task which takes a longer amount of time to finish. 
 
-![alt text](Resources/progress-modal.png)
+![alt text](Resources/progress-modal.PNG)
 
 ## Component outcomes and interactions
 
