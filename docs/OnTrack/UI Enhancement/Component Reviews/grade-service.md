@@ -11,7 +11,7 @@
 The grade-service provides various properties and methods related to grades, such as their values, acronyms, colors, and a function to retrieve the numerical value of a grade.
 
 pictures shows example of when grade-service values are utalized:
-![alt text](Resources/grade-service.png)
+![alt text](Resources/grade-service.PNG)
 
 ## Component outcomes and interactions
 
