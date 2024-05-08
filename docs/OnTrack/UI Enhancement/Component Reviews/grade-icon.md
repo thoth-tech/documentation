@@ -11,8 +11,8 @@
 ## Component purpose
 
 This component provides the grade icons which can be found in numerous areas of OnTrack for tasks such as grading work.
-
-![alt text](Resources/grade-icon.png)
+![alt text](Resources/grade-icon1.PNG)
+![alt text](Resources/grade-icon.PNG)
 
 ## Component outcomes and interactions
 
