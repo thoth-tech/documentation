@@ -1,10 +1,9 @@
-
 # Arcade Game Bug Testing Spike Plan
 
 ## Context
 
-The team needs information regarding the issues and areas for improvement regarding the arcade games,
-as there is limited information regarding bugs and flaws in the various arcade games.
+The team needs information regarding the issues and areas for improvement regarding the arcade
+games, as there is limited information regarding bugs and flaws in the various arcade games.
 
 ## Goals/Deliverables
 
