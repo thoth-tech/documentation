@@ -28,8 +28,6 @@
   - **Insert Stages**: Confirms the selection and adds the stages to the comment.
   - **Cancel Stage Selection**: Closes the modal without saving any changes.
 
-![](file-MncfO9nfxycwNQ3jPWmrHYet) ![](file-iZF5AacEqtGleeQQB1qvwsOD)
-
 ### Workflow
 
 1. **Open Stage Selection Modal**:
