@@ -2,7 +2,8 @@
 
 ## Overview
 
-The Feedback API provides endpoints for managing stages of feedback on tasks for a given task definition.
+The Feedback API provides endpoints for managing stages of feedback on tasks for a given task
+definition.
 
 ## Endpoints
 
@@ -18,7 +19,7 @@ Creates a new stage for feedback on tasks for a given task definition.
 
 #### Example Request
 
-```bash
+```shell
 POST /stages
 Content-Type: application/json
 
@@ -39,7 +40,7 @@ Gets all the stages for a given task definition.
 
 #### Example Request
 
-```bash
+```shell
 GET /stages?task_definition_id=1
 ```
 
@@ -55,7 +56,7 @@ Updates the name and order of a stage.
 
 #### Example Request
 
-```bash
+```shell
 PUT /stages/1
 Content-Type: application/json
 
@@ -75,29 +76,32 @@ Deletes a stage.
 
 #### Example Request
 
-```bash
+```shell
 DELETE /stages/1
 ```
 
 ## Error Handling
 
-If the current user is not authorised to perform the requested action, the API will return a 403 error with the following format:
+If the current user is not authorised to perform the requested action, the API will return a 403
+error with the following format:
 
 ```json
 {
   "error": "Not authorised to perform this action"
 }
 ```
+
 ## Entities
 
-The `StageEntity` is a representation of a stage in the system. It is used to present the data of a stage in a structured format.
+The `StageEntity` is a representation of a stage in the system. It is used to present the data of a
+stage in a structured format.
 
 ### Properties
 
-| Property | Type    | Description                                                                                     |
-|----------|---------|-------------------------------------------------------------------------------------------------|
-| id       | Integer | The `id` property is a unique identifier for the stage. It is automatically assigned when a new stage is created. |
-| title    | String  | The `title` property is a string that represents the title of the stage. This is a human-readable name for the stage. |
+| Property | Type    | Description                                                                                                                                                                                                      |
+| -------- | ------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| id       | Integer | The `id` property is a unique identifier for the stage. It is automatically assigned when a new stage is created.                                                                                                |
+| title    | String  | The `title` property is a string that represents the title of the stage. This is a human-readable name for the stage.                                                                                            |
 | order    | Integer | The `order` property is an integer that represents the order in which the stage should be displayed relative to other stages. Lower numbers represent earlier stages, and higher numbers represent later stages. |
 
 ### Example
