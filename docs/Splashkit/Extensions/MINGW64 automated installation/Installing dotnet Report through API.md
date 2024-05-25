@@ -20,7 +20,7 @@ place:
 
 1. **API Credentials:** Obtain the necessary API credentials, including the account API token, data
    connect API token, and private API token, from the dotnet Report online portal. These credentials
-   are required to authenticate and authorize the API requests.
+   are required to authenticate and authorise the API requests.
 
 2. **Development Environment:** Set up a development environment with the appropriate tools and
    frameworks to interact with the dotnet Report API. This may include an Integrated Development

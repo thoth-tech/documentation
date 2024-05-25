@@ -66,7 +66,7 @@ MinGW offers several advantages over other development environments:
    multiple operating systems with minimal modifications.
 
 3. **Open-Source and Free:** MinGW is an open-source project, which means that it is freely
-   available and can be modified and distributed according to the terms of its license.
+   available and can be modified and distributed according to the terms of its licence.
 
 4. **Compatibility with Existing Tools:** MinGW integrates well with existing tools and libraries
    from the GNU project, providing developers with a wide range of resources and utilities to
