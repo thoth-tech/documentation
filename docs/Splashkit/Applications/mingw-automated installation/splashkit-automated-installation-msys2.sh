@@ -15,44 +15,50 @@ pacman -S --needed --noconfirm git curl unzip
 
 # Install C++ tools (before SplashKit)
 echo "Installing C++ tools..."
-pacman -S --needed --noconfirm mingw-w64-x86_64-gcc mingw-w64-x86_64-make mingw-w64-x86_64-toolchain
-
-# Download .NET SDK Installer
-echo "Downloading .NET SDK installer..."
-curl -L $dotnet_sdk_url -o dotnet-sdk-installer.exe
-
-# Run .NET SDK Installer using PowerShell
-echo "Installing .NET SDK..."
-powershell.exe -Command "Start-Process dotnet-sdk-installer.exe -ArgumentList '/quiet /norestart' -Wait"
-if [ $? -ne 0 ]; then
-    echo ".NET SDK installation failed. Please try installing it manually."
-    exit 1
-fi
+pacman -S --needed --noconfirm mingw-w64-x86_64-gcc mingw-w64-x86_64-gdb mingw-w64-x86_64-make mingw-w64-x86_64-toolchain
 
 # Check if .NET SDK is installed
 if ! command -v dotnet &> /dev/null
 then
-    echo ".NET SDK installation failed or .NET SDK is not in the PATH. Please check the installation and try again."
-    exit 1
-fi
+    echo "Downloading .NET SDK installer..."
+    curl -L $dotnet_sdk_url -o dotnet-sdk-installer.exe
 
-# Download VS Code Installer
-echo "Downloading Visual Studio Code installer..."
-curl -L $vscode_installer_url -o vscode-installer.exe
+    echo "Installing .NET SDK..."
+    powershell.exe -Command "Start-Process dotnet-sdk-installer.exe -ArgumentList '/quiet /norestart' -Wait"
+    if [ $? -ne 0 ]; then
+        echo ".NET SDK installation failed. Please try installing it manually."
+        exit 1
+    fi
 
-# Run VS Code Installer using PowerShell
-echo "Installing Visual Studio Code..."
-powershell.exe -Command "Start-Process vscode-installer.exe -ArgumentList '/silent /mergetasks=!runcode' -Wait"
-if [ $? -ne 0 ]; then
-    echo "Visual Studio Code installation failed. Please try installing it manually."
-    exit 1
+    if ! command -v dotnet &> /dev/null
+    then
+        echo ".NET SDK installation failed or .NET SDK is not in the PATH. Please check the installation and try again."
+        exit 1
+    fi
+else
+    echo ".NET SDK is already installed."
 fi
 
 # Check if VS Code is installed
 if ! command -v code &> /dev/null
 then
-    echo "Visual Studio Code installation failed or VS Code is not in the PATH. Please check the installation and try again."
-    exit 1
+    echo "Downloading Visual Studio Code installer..."
+    curl -L $vscode_installer_url -o vscode-installer.exe
+
+    echo "Installing Visual Studio Code..."
+    powershell.exe -Command "Start-Process vscode-installer.exe -ArgumentList '/silent /mergetasks=!runcode' -Wait"
+    if [ $? -ne 0 ]; then
+        echo "Visual Studio Code installation failed. Please try installing it manually."
+        exit 1
+    fi
+
+    if ! command -v code &> /dev/null
+    then
+        echo "Visual Studio Code installation failed or VS Code is not in the PATH. Please check the installation and try again."
+        exit 1
+    fi
+else
+    echo "Visual Studio Code is already installed."
 fi
 
 # Install SplashKit
