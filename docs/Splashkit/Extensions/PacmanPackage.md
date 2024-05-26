@@ -45,7 +45,7 @@ Installation of the package is done by running pacman -U *.pkg.tar.zst in the sa
 
 Using clang++ <filename>.cpp -l splashkit -o <filename> we are able to compile the guide code by linking the Splashkit library from the /mingw64/include directory.
 
-Running the program using ./<filename>.exe unsuccessfully runs the file. Giving error messages related to multiple `.dll` files not being found (see [Troubleshooting](##Troubleshooting)).
+Running the program using ./<filename>.exe unsuccessfully runs the file. Giving error messages related to multiple `.dll` files not being found (see [Troubleshooting](#troubleshooting)).
 
 
 ## Troubleshooting
