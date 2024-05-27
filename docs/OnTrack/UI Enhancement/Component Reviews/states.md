@@ -15,7 +15,7 @@ Pre req files:
 
 ## Component Purpose
 
-The purpose of the component is manage the timeout and unauthorised components and these two are the pre requisite for this component. This main handles the error notification displays when it is a timeout or an unauthentication error.
+The purpose of the component is manage the timeout and unauthorised components and these two are the pre requisite for this component. This main handles the error notification displays when it is a timeout or an unauthorised error.
 
 path to the component: doubtfire-web/src/app/errors/states
 
