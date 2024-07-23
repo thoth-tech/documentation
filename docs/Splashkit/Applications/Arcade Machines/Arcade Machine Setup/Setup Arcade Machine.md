@@ -126,19 +126,27 @@ and one to wpa_supplicant:
      curl -sSL https://dot.net/v1/dotnet-install.sh | bash /dev/stdin --channel STS
      ```
 
-  2. Add the following to the end of the file `~/.bashrc` with these commands
+  1. Add the following to the end of the file `~/.bashrc` with these commands
 
      ```shell
      echo 'export DOTNET_ROOT=$HOME/.dotnet' >> ~/.bashrc
      echo 'export PATH=$PATH:$HOME/.dotnet' >> ~/.bashrc
+     echo 'export DOTNET_ROOT=$HOME/.dotnet' >> ~/.bash.bash_profile
+     echo 'export PATH=$PATH:$HOME/.dotnet' >> ~/.bash_profile
      source ~/.bashrc
      ```
 
-  3. Verify the insalation with this command
+  1. Verify the insalation with this command
 
      ```shell
      dotnet --version
      ```
+
+   1. Create dotnet symbolic link. Replace `<VERSION>` with your dotnet version e.g. 7.0.5 
+
+      ```shell
+      ln -s ~/.splashkit/lib/linux/libsplashkit.dll ~/.dotnet/shared/Microsoft.NetCore.App/<VERSION>/      
+      ```
 
 ### 3. Install Git
 
