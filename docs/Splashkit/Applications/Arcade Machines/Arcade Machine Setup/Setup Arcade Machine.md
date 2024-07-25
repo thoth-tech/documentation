@@ -144,7 +144,7 @@ and one to wpa_supplicant:
    1. Create dotnet symbolic link. Replace `<VERSION>` with your dotnet version e.g. 7.0.5 
 
       ```shell
-      ln -s ~/.splashkit/lib/linux/libsplashkit.dll ~/.dotnet/shared/Microsoft.NetCore.App/<VERSION>/      
+      ln -s ~/.splashkit/lib/linux/libsplashkit.so ~/.dotnet/shared/Microsoft.NetCore.App/<VERSION>/      
       ```
 
 ### 3. Install Git
