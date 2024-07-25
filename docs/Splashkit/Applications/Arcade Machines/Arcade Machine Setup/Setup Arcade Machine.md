@@ -2,8 +2,7 @@
 
 ## Existing Image
 
-Download current arcade Image from here (accessible to Thoth-Tech Team Members):
-<https://deakin365.sharepoint.com/:u:/r/sites/ThothTech2/Shared%20Documents/SplashKit/Arcade%20Machine%20Image/ArcadeMachine.img?csf=1&web=1&e=7cuS7Z>
+Download current arcade Image from here (accessible to Thoth-Tech Team Members): [here](https://deakin365.sharepoint.com/:u:/r/sites/ThothTech2/Shared%20Documents/SplashKit/Arcade%20Machine%20Image/ArcadeMachine.img?csf=1&web=1&e=7cuS7Z)
 
 SHA256 Hash `31f0ea11c8492000d003108bf84afbb261ad6ee7c1be989f52a2b4add9d8821e`
 
@@ -111,7 +110,7 @@ and one to wpa_supplicant:
 
 ### 1. Install SplashKit
 
-- Follow the instructions [here](https://splashkit.io/articles/installation/ubuntu/).
+- Follow the instructions [here](https://splashkit.io/installation/linux/).
 - Primarly perform steps 1 and 2, VS code is optional unless you whish to adjust programming on the
   PI directly.
 
@@ -303,7 +302,7 @@ and one to wpa_supplicant:
 
 4. Select Console Autologin
 
-   ![Rasberry Pi Boot Option Screen](/docs/Splashkit/Applications/Arcade%20Machines/Arcade%20Machine%20Setup/Images/ConsoleAutoLogin.png)
+   ![Rasberry Pi system Option Screen](/docs/Splashkit/Applications/Arcade%20Machines/Arcade%20Machine%20Setup/Images/ConsoleAutologin.png)
 
 5. Return to main menu
 6. Select Advanced Options
