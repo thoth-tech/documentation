@@ -1,9 +1,11 @@
 # Ontrack Component review
 
 ## Team Member Name
+
 Eliya G | s222313935
 
 ## Component Name
+
 - `comments-modal.coffee`
 - `comments-modal.tpl.html`
 - `comments-modal.scss`
@@ -16,6 +18,7 @@ The purpose of `comments-modal` is to display images and PDFs from task comments
 
 Users can click on the image or `view PDF` comment on task which triggers `comments-modal` to popup with the enlarged image, or an embedded PDF.
 `comments-modal` accepts two objects:
+
 ```ts
   @Input() commentType: string; // either 'image' or 'pdf'
   @Input() commentResourceUrl: string; // the url to the image or pdf
@@ -32,6 +35,7 @@ Original (PDF):
 ![comments-modal-pdf-original](Resources/comments-modal-pdf-original.jpg)
 
 ## Component Post-Migration
+
 Migrated (Image):
 ![comments-modal-image-migrated](Resources/comments-modal-image-migrated.jpg)
 
