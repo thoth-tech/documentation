@@ -21,7 +21,7 @@ tab.
 Users can click on the image or `view PDF` comment on task which triggers `comments-modal` to popup
 with the enlarged image, or an embedded PDF. `comments-modal` accepts two objects:
 
-```ts
+```typescript
   @Input() commentType: string; // either 'image' or 'pdf'
   @Input() commentResourceUrl: string; // the url to the image or pdf
 ```
