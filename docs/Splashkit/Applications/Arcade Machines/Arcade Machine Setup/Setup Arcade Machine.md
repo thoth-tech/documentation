@@ -190,7 +190,7 @@ and one to wpa_supplicant:
    nano ~/.emulationstation/es_systems.cfg
    ```
 
-8. Add the following to the file or downlaod a copy from
+8. Add the following to the file or download a copy from
    [here](/docs/Splashkit/Applications/Arcade%20Machines/Arcade%20Machine%20Setup/Files/es_systems.cfg)
 
    ```config
