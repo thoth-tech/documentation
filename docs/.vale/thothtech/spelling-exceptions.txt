@@ -1,3 +1,0 @@
-trello
-figma
-minimax
