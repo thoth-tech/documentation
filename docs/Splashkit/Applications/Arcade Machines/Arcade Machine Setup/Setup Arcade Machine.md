@@ -135,7 +135,7 @@ and one to wpa_supplicant:
      source ~/.bashrc
      ```
 
-  1. Verify the insalation with this command
+  1. Verify the installation with this command
 
      ```shell
      dotnet --version
@@ -298,11 +298,11 @@ and one to wpa_supplicant:
 
 3. Select Boot / Auto Login
 
-   ![Rasberry Pi system Option Screen](/docs/Splashkit/Applications/Arcade%20Machines/Arcade%20Machine%20Setup/Images/BootAutoLogin.png)
+   ![Rasberry Pi Boot Option Screen](/docs/Splashkit/Applications/Arcade%20Machines/Arcade%20Machine%20Setup/Images/BootAutoLogin.png)
 
 4. Select Console Autologin
 
-   ![Rasberry Pi system Option Screen](/docs/Splashkit/Applications/Arcade%20Machines/Arcade%20Machine%20Setup/Images/ConsoleAutologin.png)
+   ![Rasberry Pi System Option Screen](/docs/Splashkit/Applications/Arcade%20Machines/Arcade%20Machine%20Setup/Images/ConsoleAutologin.png)
 
 5. Return to main menu
 6. Select Advanced Options
