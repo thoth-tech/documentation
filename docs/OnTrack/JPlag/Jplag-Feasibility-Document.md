@@ -45,10 +45,9 @@ supports Java SE 21, such as eclipse-temurin:21-alpine. It will also reference t
 create a volume in the container.
 
 The current **unit_similarity_module.rb** file already defines how the batch process is managed. I
-believe using this method will also be suitable for JPLAG.
+believe using this method will also be suitable for JPLAG. This file can be altered to use ruby shell commands to: start jplag container > run jplag jar file > remove jplag container.
 
-The current MOSS batch process is called from a rake file task. This call will need to be replaced
-with the CLI commands to run JPLAG.
+The current MOSS batch process **unit_similarity_module.rb** is called from a rake file task.
 
 ## Backend
 
