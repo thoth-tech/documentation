@@ -12,7 +12,10 @@ This tutorial covers how to do this...
 
 - [ ] The tutorial is free of spelling and grammatical errors.
 - [ ] The tutorial is easy to follow.
-- [ ] The tutorial uses top level statements in C# and C++.
+- [ ] The tutorial has:
+  - [ ] C# using top level statements
+  - [ ] C++
+  - [ ] Python
 - [ ] The code passes all the Quality Checks.
 
 ## Links:
