@@ -1,5 +1,21 @@
 # Documentation
 
+## Format Checks To Run
+
+Make sure to run the following commands to format the files before you make a Pull Request.
+
+1. To format the files:
+
+   ```shell
+   npm run format
+   ```
+
+2. To run the lint checker:
+
+   ```shell
+   npm run lint
+   ```
+
 [![CI](https://github.com/thoth-tech/documentation/actions/workflows/ci.yml/badge.svg)](https://github.com/thoth-tech/documentation/actions/workflows/ci.yml)
 [![Prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg)](https://prettier.io/)
 

@@ -1,12 +1,10 @@
 # Title
 
-Date Reviewed:
-Reviewed by: 
+Date Reviewed: Reviewed by:
 
 ## Description:
 
 This tutorial covers how to do this...
-
 
 ## Confirmation of Passing Quality Checks:
 
