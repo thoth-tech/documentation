@@ -8,13 +8,6 @@
 
 **Author:** Darren Marchiano Sunandar
 
-## Goals / Deliverables
-
-Summarise from the spike plan goal* Besides this report, what else was created ie UML, code,
-reports*
-
-- Code see /spikes/spike04/
-- Short Report titled “IDE Comparison”
 
 ## Technologies, Tools, and Resources used
 
