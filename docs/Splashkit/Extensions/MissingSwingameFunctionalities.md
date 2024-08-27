@@ -14,11 +14,11 @@ into the `src` files within the
 them to that of the Splashkit `src` files, missing functionalities are found and documented.
 
 ## To be added to Splashkit
-The following funtions and procedures are located within the 
+The following functions and procedures are located within the 
 [src](https://github.com/macite/swingame/tree/develop/CoreSDK/src) folder of the Swingame Github 
-reposotiory, but cannot be located within the 
+repository, but cannot be located within the 
 [Splashkit src](https://github.com/splashkit/splashkit-core/tree/develop/coresdk/src/coresdk) 
-files. All descriptions are taken from their given depending Swingame`src` file.
+files. All function descriptions are taken from their associated Swingame `src` file.
 
 ### sgPhysics.pas
 
@@ -119,7 +119,7 @@ Splashkit animation instead.
 
 ## Further Contributions
 
-Contributions on more missing funtionalities from Swingame or removal of funtionalities 
+Contributions on more missing functionalities from Swingame or removal of functionalities 
 added to Splashkit are encouraged.
 
 Refer to 
