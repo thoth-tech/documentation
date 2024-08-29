@@ -2,20 +2,29 @@
 
 ==================
 
-**Spike:** Splashkit_camera
+**Spike:** Spike_No
 
-**Title:** Test Python Version
+**Title:** Spike_Title
 
-**Author:** Darren Marchiano Sunandar
+**Author:** John Doe, john.doe@example.com
 
+## Goals / Deliverables
+
+Summarise from the spike plan goal* Besides this report, what else was created ie UML, code,
+reports*
+
+- Code see /spikes/spike04/
+- Short Report titled “IDE Comparison”
 
 ## Technologies, Tools, and Resources used
 
+List of information needed by someone trying to reproduce this work\
+
 - Internet Browser; Google Chroame, FireFox, Safari
 - Programming Languages:
-- Python
+- Ruby
 - Programming Libraries:
-- Python libraries
+- Minitest
 - Text Editor: VsCode
 - Terminal
 
@@ -23,12 +32,18 @@
 
 List key tasks likely to help another developer
 
-- I've tested all the python function from the Splashkit website guides such as Animations, Audio, Camera, Graphics, etc. And there is 1 error,
-- From the Splashkit camera guides. In line 49 fill_rectangle() takes 5 positional arguments but 6 were given.
+- ...
 
 ## What we found out
 
-![alt text](image.png)
+Describe (sentences), + graphs/screenshots/outcomes as needed
+
+## Open issues/risks _[Optional – remove heading/section if not used!]_
+
+List out the issues and risks that you have been unable to resolve at the end of the spike. You may
+have uncovered a whole range of new risks as well. Make notes to help the team manage and respond.\*
+
+- e.g. Risk xyz (new)
 
 ## Recommendations _[Optional – remove heading/section if not used!]_
 
@@ -36,6 +51,4 @@ Often based on any open issues/risks Identified. You may state that another spik
 the team to resolve new issues identified (or) indicate that this spike has increased the teams
 confidence in XYZ and should move on.\*
 
-- Check the Function Argument: Confirm that fill_rectangle() indeed expects five arguments. Usually, the arguments might be 'color', 'x', 'y', 'width', 'height'.
-- Review the Argument Passed: Ensure that there are only 5 argument.
-- Update code if necessary: Might need to implement the additional feature seperately or modify how to call fill_rectangle().
+- e.g. Recommendation X: \*\*
