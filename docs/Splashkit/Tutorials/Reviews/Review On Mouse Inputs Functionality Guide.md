@@ -6,7 +6,7 @@ Date Reviewed: 28 August 2024
 Reviewed by: Mounika Angadipeta
 
 ## Description:
-A tutorial review of the tutorial has been done. The code in this tutorial has been run to ensure that it works and outputs the results. The code has all the three languages C++, C#, Python. Modified part of the text description of the sentence and Mouse location Functionality code in C# to make the content clearer.
+A tutorial review of the tutorial has been done. The code in this tutorial has been run to ensure that it works and outputs the results. The code has all the three languages C++, C#, Python. Modified part of the text description of the sentence and Fixed the Code error of Mouse Location Functionality Mouse x in C#.All the rest of the C# code follows top-level statements.
 
 ## Confirmation of Passing Quality Checks:
 
@@ -27,7 +27,4 @@ Pull Request: https://github.com/thoth-tech/splashkit.io-starlight/pull/161
 ## Improvements and suggestions:
 
 If you have any suggestions for improvements or changes, add here:
-
-- updated the sentence formation to make it meaningfull
-- Fixed the Code error of Mouse Location Functionality Mouse x in C#.
-- All the rest of the C# code follows top-level statements
+- No suggestions.
