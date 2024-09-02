@@ -27,5 +27,4 @@ Pull Request:https://github.com/thoth-tech/splashkit.io-starlight/pull/156
 
 If you have any suggestions for improvements or changes, add here:
 
-- Modified part of the text description of the sentence to make the content more coherent and clear
-- All parts of the code run successfully, and the c# code follows the top-level statements
+-I think this one is good as is.
