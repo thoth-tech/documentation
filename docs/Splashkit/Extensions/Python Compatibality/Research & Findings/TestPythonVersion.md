@@ -10,7 +10,6 @@
 
 ## Technologies, Tools, and Resources used
 
-- Internet Browser; Google Chroame, FireFox, Safari
 - Programming Languages:
 - Python
 - Programming Libraries:
@@ -35,12 +34,12 @@
 2. Json
 3. Raspberry GPIO
 
-From all the guides that I tested, there is 1 error:
-- From the Splashkit camera guides. In line 49 fill_rectangle() takes 5 positional arguments but 6 were given.
 
 ## What we found out
 
-![alt text](image.png)
+From all the guides that I tested, there is 1 error:
+- From the Splashkit camera guides. In line 49 fill_rectangle() takes 5 positional arguments but 6 were given.
+![alt text](/Images//PythonFillRectangleError.png)
 
 ## Recommendations
 
