@@ -1,30 +1,30 @@
-# Introduction to JSON in SplashKit
+# SplashKit Camera
 
-Date Reviewed: 25th August 2024
+Date Reviewed: 3 SEP 2024
 Reviewed by:Yuyang Yang
 
 ## Description:
 
-A tutorial review of the tutorial has been done. The code in this tutorial has been run to ensure that it works and outputs the results. The code does not use Python.
+A tutorial review of this tutorial has been completed. You have run the code in this tutorial to ensure that it works properly and outputs the results. Fixed an issue in Python code where the wrong number of parameters were passed when fill_rectangle() was called, removed extra parameters, made sure that C# used a top-level statement style, and made sure that the style was consistent with other languages, changed some text descriptions to more clearly express the relationship between game coordinates and screen coordinates, And how to achieve dynamic effects through camera movement.
 
 ## Confirmation of Passing Quality Checks:
 
 - [x] The tutorial is free of spelling and grammatical errors.
 - [x] The tutorial is easy to follow.
-- [ ] The tutorial has:
+- [x] The tutorial has:
   - [x] C# using top level statements
   - [x] C++
-  - [ ] Python
+  - [x] Python
 - [x] The code passes all the Quality Checks.
 
 ## Links:
 
-Website Link:https://splashkit.io/guides/json/0-json_intro/
+Website Link:https://splashkit.io/guides/camera/0-using-splashkit-camera/
 
-Pull Request:https://github.com/thoth-tech/splashkit.io-starlight/pull/156
+Pull Request:https://github.com/thoth-tech/splashkit.io-starlight/pull/164
 
 ## Improvements and suggestions:
 
 If you have any suggestions for improvements or changes, add here:
 
--I think this one is good as is.
+- This content looks very good.
