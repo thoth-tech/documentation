@@ -41,6 +41,10 @@ From all the guides that I tested, there is 1 error:
 - From the Splashkit camera guides. In line 49 fill_rectangle() takes 5 positional arguments but 6 were given.
 ![alt text](/Images//PythonFillRectangleError.png)
 
+[Splashkit Camera Guides](https://splashkit.io/guides/camera/0-using-splashkit-camera/)
+
+
+
 ## Recommendations
 
 - Check the Function Argument: Confirm that fill_rectangle() indeed expects five arguments. Usually, the arguments might be 'color', 'x', 'y', 'width', 'height'.
