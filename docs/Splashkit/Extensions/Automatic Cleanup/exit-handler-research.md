@@ -60,7 +60,7 @@ int main()
 }
 ```
 
-Run this and once you use CTRL+C you'll see `handle_sigint` and `handle_exit` be called, but the last line is never reached. Run it again with the line `std::signal(SIGINT, handle_sigint);` and you'll see that no messages are printed after "Press CTRL+C to stop the program...".
+Run this and once you use CTRL+C you'll see `handle_sigint` and `handle_exit` be called, but the last line is never reached. Run it again with the line `std::signal(SIGINT, handle_sigint);` commented out and you'll see that no messages are printed after "Press CTRL+C to stop the program...". This is demonstrated below.
 
 ![Terminal Screenshot](./terminal.png)
 
