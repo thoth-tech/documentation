@@ -102,6 +102,16 @@ We have created a button labeled "Download JPLAG Report," which can be seen in t
 
 The below image shows a JPlag report and comparison list, which is what we are aiming to achieve as output after implementing JPlag. This report viewer will display key metrics, including total submissions, number of comparisons, and submission details.
 
+- **Report Viewer:** 
+  - The viewer will visualize a distribution of comparisons, as seen in the graph. 
+  - It breaks down the percentage similarity ranges (0-10%, 11-20%, etc.).
+  - This helps users identify how submissions are distributed in terms of similarity.
+
+- **Comparison List:**
+  - A sortable table of top comparisons will be displayed.
+  - The table will show the submissions involved, their average and maximum similarity, and their respective cluster group.
+  - This table makes it easy for instructors to quickly identify and investigate potential plagiarism cases.
+
 ![JPlag Report Viewer](jplag_reportviewer.png)
 
 We also want to have a UI for the data in the task similarities table too - so that you can see it
