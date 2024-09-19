@@ -100,6 +100,8 @@ We have created a button labeled "Download JPLAG Report," which can be seen in t
 
 ![OnTrack View Similarities Button](frontend.png)
 
+The below image shows a JPlag report and comparison list, which is what we are aiming to achieve as output after implementing JPlag. This report viewer will display key metrics, including total submissions, number of comparisons, and submission details.
+
 ![JPlag Report Viewer](jplag_reportviewer.png)
 
 We also want to have a UI for the data in the task similarities table too - so that you can see it
