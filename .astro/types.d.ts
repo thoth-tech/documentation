@@ -477,4 +477,4 @@ declare module 'astro:content' {
 	type AnyEntryMap = ContentEntryMap & DataEntryMap;
 
 	type ContentConfig = typeof import("../src/content/config");
-	}
+}
