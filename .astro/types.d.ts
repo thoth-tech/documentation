@@ -478,4 +478,3 @@ declare module 'astro:content' {
 
 	type ContentConfig = typeof import("../src/content/config");
 }
-}
