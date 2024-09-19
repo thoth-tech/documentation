@@ -6,6 +6,7 @@ Reviewed by: Hangyu Li
 
 ## Description:
 
+A tutorial review of the "Reading Text" guide. All the codes are tested with no error. The quality of the tutorial is good and there is no spelling error.
 
 
 ## Confirmation of Passing Quality Checks:
@@ -22,7 +23,7 @@ Reviewed by: Hangyu Li
 
 Website Link: https://splashkit.io/guides/input/0-reading-text/
 
-Pull Request:
+Pull Request: https://github.com/thoth-tech/splashkit.io-starlight/pull/188
 
 ## Improvements and suggestions:
 
