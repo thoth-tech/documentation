@@ -22,12 +22,7 @@ declare module 'astro:content' {
 	export { z } from 'astro/zod';
 
 	type Flatten<T> = T extends { [K: string]: infer U } ? U : never;
-
-	export type CollectionKey = keyof AnyEntryMap;
-	export type CollectionEntry<C extends CollectionKey> = Flatten<AnyEntryMap[C]>;
-
-	export type ContentCollectionKey = keyof ContentEntryMap;
-	export type DataCollectionKey = keyof DataEntryMap;
+	export type CollectionEntry<C extends keyof AnyEntryMap> = Flatten<AnyEntryMap[C]>;
 
 	// This needs to be in sync with ImageMetadata
 	export type ImageFunction = () => import('astro/zod').ZodObject<{
@@ -43,7 +38,6 @@ declare module 'astro:content' {
 				import('astro/zod').ZodLiteral<'webp'>,
 				import('astro/zod').ZodLiteral<'gif'>,
 				import('astro/zod').ZodLiteral<'svg'>,
-				import('astro/zod').ZodLiteral<'avif'>,
 			]
 		>;
 	}>;
@@ -433,20 +427,6 @@ declare module 'astro:content' {
 "products/splashkit/applications/Applications Epic-T12022.md": {
 	id: "products/splashkit/applications/Applications Epic-T12022.md";
   slug: "products/splashkit/applications/applications-epic-t12022";
-  body: string;
-  collection: "docs";
-  data: InferEntrySchema<"docs">
-} & { render(): Render[".md"] };
-"products/splashkit/documentation/expansions/splashkit-online-research-outcome.md": {
-	id: "products/splashkit/documentation/expansions/splashkit-online-research-outcome.md";
-  slug: "products/splashkit/documentation/expansions/splashkit-online-research-outcome";
-  body: string;
-  collection: "docs";
-  data: InferEntrySchema<"docs">
-} & { render(): Render[".md"] };
-"products/splashkit/documentation/expansions/splashkit-online-research-plan.md": {
-	id: "products/splashkit/documentation/expansions/splashkit-online-research-plan.md";
-  slug: "products/splashkit/documentation/expansions/splashkit-online-research-plan";
   body: string;
   collection: "docs";
   data: InferEntrySchema<"docs">
