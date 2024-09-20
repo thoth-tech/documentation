@@ -4,7 +4,7 @@
 
 ## Student ID: 223650012
 
-## Component Name
+## Component Name: edit-profile-form component
 
 ## Component purpose
 
@@ -26,7 +26,7 @@ The issue was that the "Add User" UI did not allow the creation or update of use
 ## Component Debugging plan
 
 - **Initial Investigation**:
-  - Observed that the `submit()` method was triggered when clicking "Save Profile," responsible for sending `POST` (create) or `PUT` (update) requests.
+  - Observed that the `submit()` method in "edit-profile-form.component.ts" was triggered when clicking "Save Profile," responsible for sending `POST` (create) or `PUT` (update) requests.
 
 - **Troubleshooting Approach**:
   - Added `console.log()` statements to inspect form inputs and confirmed the data was being passed correctly.
