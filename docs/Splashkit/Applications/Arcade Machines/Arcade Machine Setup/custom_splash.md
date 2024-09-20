@@ -17,7 +17,7 @@ Unfortunately the .svg file format is not well supported by basic image editing 
 1. The right side panel should change to a "Trace Bitmap" menu. Select Single Scan. From the Detection Mode drop down select Autotrace. Then click Apply down the bottom.
 1. Now toggle the pane selection from "Single Scan" to "Multicolor". In Detection mode select Colors. Then click Smooth, then Apply. 
 1. You should have three layers of images. The base raster image, a monochrome outline of the image and a colored vector image. Delete all except the colored vector image. 
-8. Repeat this process for any other image elements you wish to include in the splash. 
+1. Repeat this process for any other image elements you wish to include in the splash. 
 
 When you are done click on File > export and select "Plain SVG (*.svg)" from the drop down just above the Export button. Then click export. You can now transfer this .svg file to the Arcade Machine.
 
