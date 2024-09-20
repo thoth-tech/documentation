@@ -14,12 +14,6 @@ As an admin, I want to be able to "add a new user" to OnTrack. I go to the "Mana
 This documentation is about the debugging process undertaken to resolve a bug in the "Add User UI" component.
 The primary purpose of this component is to allow an admin to add a new user to the OnTrack platform or edit the profile of an existing user. But the issue is the "Add User" UI did not allow the creation or update of users.
 
-## Type of chane
-
-[ ] Bug fix
-[ ] Documentation (update or new)
-
-
 ## Component outcomes and interactions
 
 The expected outcome of this component is that when a user (admin) clicks "Save Profile," a new user is added to the system or an existing user's details are updated.
