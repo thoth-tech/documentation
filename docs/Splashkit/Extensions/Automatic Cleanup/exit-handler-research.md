@@ -1,6 +1,6 @@
-# \*\*Spike Outcomes
+## Spike Outcomes
 
-==================
+---
 
 **Title:** Exit Handling in SplashKit.
 
@@ -8,11 +8,9 @@
 
 ## Goals / Deliverables
 
-- Short Report titled “Exit Handling in SplashKit.”
+- This report.
 
 ## Tasks undertaken
-
-List key tasks likely to help another developer
 
 - Perform research into automatic cleanup upon exiting a SplashKit program.
 - Document this research.
@@ -62,10 +60,10 @@ int main()
 
 Run this and once you use CTRL+C you'll see `handle_sigint` and `handle_exit` be called, but the last line is never reached. Run it again with the line `std::signal(SIGINT, handle_sigint);` commented out and you'll see that no messages are printed after "Press CTRL+C to stop the program...". This is demonstrated below.
 
-![Terminal Screenshot](./terminal.png)
+![Terminal Screenshot](./images/terminal.png)
 
 There are other signals and ways to catch a programs exit, but these (such as `SIGABRT`) only occur in 
-abnormal situations, and thus we should _not_ handle these signals.
+abnormal situations, (for example, invalid memory access) and thus we should _not_ handle these signals.
 
 Relatively simply, we can register particular functions to perform our own cleanup and in doing so can prevent situations in which errors such as `SEGMENTATION FAULT` can occur.
 
@@ -82,3 +80,4 @@ Relatively simply, we can register particular functions to perform our own clean
 - A signal handler function is created that will just call `exit(0)` -- passing in 0 as the exit code.
   - This function is registered to `SIGINT` inside `internal_sk_init()`.
   - This function could also be registered to handle `SIGTERM`, if appropriate.
+
