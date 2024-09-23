@@ -12,7 +12,7 @@ This has the effect of only allowing a single user to control the menu outside o
 
 - Linux is only able to interact with a single keyboard. It is not possible to have two hardware keyboards, and use both for input.
 
-- The desired functionality **is** possible with two discrete controllers. If the user connects and configures two controllers to the arcade machine, both players will be able to interact with menus independent of each other. This has been tested locally with  me using a PlayStation 4 & PlayStation 5 controller connected via USB. 
+- The desired functionality **is** possible with two discrete controllers. If the user connects and configures two controllers to the arcade machine, both players will be able to interact with menus independent of each other. This has been tested locally with me using a PlayStation 4 & PlayStation 5 controller connected via USB. 
    - It is also possible to use one keyboard and one controller, and have each device represent input for each player
 
 - RetroPie & EmulationStation handle input differently. 
@@ -27,7 +27,7 @@ This has the effect of only allowing a single user to control the menu outside o
 - Modifying the Retropie config file directly does not change the Emulationstation controls. 
 - Modifying the EmulationStation config directly breaks input when the program is next started. 
    - This can be fixed by resetting the config 
-   - Running the script  declared in this config file does not appear to update the config either
+   - Running the script declared in this config file does not appear to update the config either
       - Shell script path: `/opt/retropie/supplementary/emulationstation/scripts/inputconfiguration.sh`
    - In order to actually update the config it seems necessary to use the input confg wizard in the GUI.
 
@@ -79,12 +79,12 @@ Adding multiple "inputConfig" sections for keyboards does not work. I.E:
 It does not appear to be possible to implement this functionality given the current state of constituent systems & hardware limitations of the Linux kernel without significantly reworking other aspects of the Arcade Machine's hardware & software configuration. 
 
 #### Main limiting factors are:
-   - Inability to address two  keyboards concurrently - This is extremely unlikely to change, and very difficult to work around
+   - Inability to address two keyboards concurrently - This is extremely unlikely to change, and very difficult to work around
    - Limitations in ability to modify EmulationStation configs to suit arcade machine needs
    - System configuration is brittle - manually editing many of RetroPie (or constituent) configs will silently break functionality
    - Existing dependence on handling Arcade Machine input as an emulated keyboard
 
-### Reccomendations:
+### Recommendations:
 I would assess this enhancement as "low priority" in the grander scheme of the project. To be clear, dual user input is currently supported within SplashKit games themselves. This limitation only affects the EmulationStation overlay. Which essentially means that only player 1 has control over this menu. 
 
 If this is deemed to be a requirement then I would recommend removing JoyToKey from the arcade machine and handling input directly as a joypad. This would also require bifurcating the two joypads into two discrete devices. As mentioned above, this would require a rework of several other systems to accommodate this change. In addition many SplashKit games would need to be reworked to handle joypad input, as most currently use Keyboard input only. 
