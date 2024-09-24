@@ -87,7 +87,7 @@ Whether they are ready for integration into SplashKit, is another question entir
   - Investigate additional libraries that can provide the needed functionalities, possibly with more mature ecosystems.
 
 - Additional Spikes and Testing:
-  - Plan further spikes focused on integrating and testing lgpio/rgpio and MRAA.
+  - Plan further spikes focused on integrating and testing different GPIO libraries.
   - Perform performance benchmarking, especially for time-sensitive operations like PWM and remote GPIO control.
 
 - Long-Term Strategy:
