@@ -2,7 +2,7 @@
 
 Date Reviewed: Reviewed by: Sana Noureen
 
-## Description:
+## Description: 
 
 This tutorial explains how SplashKit uses resource bundles to simplify loading game assets like images, animations, music, and sounds. By grouping resources into a single bundle, it reduces the complexity of managing each asset individually. The documentation lists supported resource types (e.g., ANIM, BITMAP) and provides an example bundle script with extra details for certain resources, like BITMAP for animations.
 
