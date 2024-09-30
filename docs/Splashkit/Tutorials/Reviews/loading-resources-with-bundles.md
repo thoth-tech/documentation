@@ -20,7 +20,7 @@ This tutorial explains how SplashKit uses resource bundles to simplify loading g
 
 Website Link: https://splashkit.io/guides/animations/0-using-animations/#getting-it-working
 
-Pull Request: 
+Pull Request: https://github.com/thoth-tech/documentation/pull/560
 
 ## Improvements and suggestions:
 
