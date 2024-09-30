@@ -20,7 +20,7 @@ This tutorial covers loading resources, setting up animation scripts, and switch
 
 Website Link: https://splashkit.io/guides/animations/0-using-animations/#getting-it-working
 
-Pull Request: 
+Pull Request: https://github.com/thoth-tech/documentation/pull/559
 
 ## Improvements and suggestions:
 
