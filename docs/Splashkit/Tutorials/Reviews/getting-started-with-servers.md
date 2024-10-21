@@ -1,6 +1,8 @@
 # Getting Started With Servers
 
-Date Reviewed: Brianna Laird Reviewed by: 9th August 2024
+Date Reviewed: 9th August 2024
+
+Reviewed by: Brianna Laird
 
 ## Description
 
@@ -22,9 +24,8 @@ fixed.
 
 ## Links
 
-Website Link: [Tutorial](https://splashkit.io/guides/networking/0-getting-started-with-servers/)
-
-Pull Request: [Pull Request](https://github.com/thoth-tech/splashkit.io-starlight/pull/145)
+- [Tutorial Link](https://splashkit.io/guides/networking/0-getting-started-with-servers/)
+- [Pull Request](https://github.com/thoth-tech/splashkit.io-starlight/pull/145)
 
 ## Improvements and suggestions
 
