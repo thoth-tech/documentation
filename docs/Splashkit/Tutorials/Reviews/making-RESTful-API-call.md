@@ -24,9 +24,8 @@ code was trying to accomplish. I also included examples of what the outputs shou
 
 ## Links
 
-Website Link: [Tutorial](https://splashkit.io/guides/networking/2-restful-api-call/)
-
-Pull Request: [Pull Request](https://github.com/thoth-tech/splashkit.io-starlight/pull/147)
+- [Tutorial Link](https://splashkit.io/guides/networking/2-restful-api-call/)
+- [Pull Request](https://github.com/thoth-tech/splashkit.io-starlight/pull/147)
 
 ## Improvements and suggestions
 
