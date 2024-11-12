@@ -33,7 +33,11 @@ Any Component which wants to invoke this components need the following inputs
 
 ### Current Usages
 I noticed that this component was used in `student-list` model.
-In order to view this model we need to log in using the following
+In order to view this model we need to log in using the following credentials.
+> username: atutor
+
+> password: password
+
 ![grade-icon-usage](Resources/grade-icon-usage.png)
 
 ## Component Migration Plan
