@@ -22,7 +22,7 @@ In the styling you can determine the status of the task .
 ## Component migration plan
 
 I will be following
-[thoth-tech's Migration Guide](https://github.com/thoth-tech/doubtfire-web/blob/e70f4c7cd1395eaab942ee389788f75f92e985c9/MIGRATION-GUIDE.md)
+[thoth-tech's Migration Guide](https://github.com/thoth-tech/doubtfire-web/blob/development/MIGRATION-GUIDE.md)
 and refer to existing components already migrated to TypeScript to ensure my code follows the same
 code style & conventions.
 
