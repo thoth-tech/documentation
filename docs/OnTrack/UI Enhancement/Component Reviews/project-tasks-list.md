@@ -26,7 +26,7 @@ I will be following
 and refer to existing components already migrated to TypeScript to ensure my code follows the same
 code style & conventions.
 
-Original (Image): ![projects-task-list-before](Resources/project-tasks-list-before.jpg)
+Original (Image): ![project-task-list-before](Resources/project-tasks-list-before.png)
 
 
 ## Component Post-Migration
