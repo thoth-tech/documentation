@@ -16,7 +16,11 @@ The purpose of `project-tasks-list` is to display the tasks of an individual stu
 In the styling you can determine the status of the task . 
 
 ## Component outcomes and interactions
+The expected outcome of the component is to recreate the previous - `project-tasks-list.coffee` file in an updated angular 17 fashion.
 
+While keeping the same functionality and styling as the previous design
+
+Interaction occurs with the user through selecting a task bringing up a tooltip of the task name.
 
 
 ## Component migration plan
