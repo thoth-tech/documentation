@@ -1,4 +1,4 @@
-# ThothTech Documentation Website
+# ThothTech Documentation
 
 <p align="left">
     <img width="150px" src="https://github.com/thoth-tech/.github/blob/main/images/splashkit.png"
@@ -13,16 +13,21 @@
 
 ## What is this repository used for?
 
-Welcome to the **ThothTech Documentation Website** repository! This project serves as the central
-hub for all Thoth Tech documentation, providing a structured and accessible platform for all team
-resources and product information.
+Welcome to the **ThothTech Documentation** repository! This repository is designed as the dynamic
+hub for all short-term documentation needs within Thoth Tech. It provides a structured and
+accessible platform for managing the fluid and frequently updated documents that support our team's
+agile project management and development cycles.
 
-**Long-term documentation** such as onboarding information, general product guidelines, and detailed
-documentation of company deliverables are stored and managed here.
+**Short-term documentation** such as spike reports, meeting minutes, and sprint reports are
+primarily housed here. These documents are crucial for capturing the fast-paced changes in our
+projects and ensuring that all team members are kept up-to-date with the latest developments and
+decisions.
 
-**Short-term documentation**, including spike reports, meeting minutes, and sprint reports, are also
-an essential part of this repository. These documents help capture the dynamic aspects of project
-management and development cycles, ensuring that all team members are aligned and informed.
+For **long-term documentation**, including onboarding materials, general product guidelines, and
+detailed records of company deliverables, please refer to our
+[ThothTech Documentation Website](https://github.com/thoth-tech/ThothTech-Documentation-Website)
+repository. This separate repository is dedicated to maintaining stable and ongoing documentation
+that supports long-term knowledge management and resource sharing across the company.
 
 ## Format Checks To Run
 
