@@ -27,8 +27,8 @@ sketches or diagrams, what will the migrated component look like compared to the
 
 Next add a checklist similar to: then create a checklist:
 
-[ ] ability to collect details from the user [ ] succeeds when data is valid [ ] handles errors -
-duplicate unit code in the teaching period, or invalid dates [ ] created unit is shown on success
+[ ] ability to collect details from the user [ ] succeeds when data is valid [ ] handles errors - duplicate
+unit code in the teaching period, or invalid dates [ ] created unit is shown on success
 
 ## Discussion with Client (Andrew Cain)
 

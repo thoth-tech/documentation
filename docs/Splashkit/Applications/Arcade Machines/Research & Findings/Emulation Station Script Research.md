@@ -41,8 +41,9 @@ FILE="YOUR-FILEPATH-HERE"
 ## Useful Links
 
 https://unix.stackexchange.com/questions/94322/is-it-possible-for-a-daemon-i-e-background-process-to-look-for-key-presses-fr  
-This is a stack exchange question looking into detecting inputs on a linux/unix device. The answers
-talk about the file paths for devices and gives a sample code using C.
+This
+is a stack exchange question looking into detecting inputs on a linux/unix device. The answers talk
+about the file paths for devices and gives a sample code using C.
 
 https://retropie.org.uk/forum/topic/26927/emulation-game-start-scripts-folder  
 A forum post asking about some issues regarding a game-start script.
