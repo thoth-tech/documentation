@@ -65,11 +65,11 @@ This describes a _persona + need + purpose_.
 A **[persona]** – describes the person we are building this for. The persona is not just a role or
 job title; we want to have an understanding of who the person is, how they work, think and feel.
 
-**[wants to]** – describes the user's _intent_ (what they want to achieve) and not the feature they
-use. If you are describing implementation specifics here, you are taking the wrong approach.
+**[wants to]** – describes the user's _intent_ (what they want to achieve) and not the feature they use.
+If you are describing implementation specifics here, you are taking the wrong approach.
 
-**[so that]** – explains the motivation behind the user's desire and the overall benefit to them
-from what they are trying to achieve.
+**[so that]** – explains the motivation behind the user's desire and the overall benefit to them from
+what they are trying to achieve.
 
 User stories use non-technical language to provide context and an understanding of what is to be
 built and why. They provide a framework for approaching development which is user-focused, discrete

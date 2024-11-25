@@ -29,9 +29,10 @@ The game API can be bypassed to directly access this library for other purposes.
 ## Evaluation
 
 ![Evaluation of QLearning and Minimax shows QLearning with 94% (9492) games won and Minimax with 90% (90) of games won](https://i.imgur.com/8caHmdY.png)  
-Here is an example of Evaluation of agent performance we can see that QLearning performs optimally.
-Since we know Minimax is optimal we can compare it's performance with QLearning and determine if
-QLearning is playing at approximately the same level as Minimax.
+Here
+is an example of Evaluation of agent performance we can see that QLearning performs optimally. Since
+we know Minimax is optimal we can compare it's performance with QLearning and determine if QLearning
+is playing at approximately the same level as Minimax.
 
 # T2 notes:
 

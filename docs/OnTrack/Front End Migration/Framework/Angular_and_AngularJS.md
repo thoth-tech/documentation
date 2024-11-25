@@ -49,5 +49,5 @@ code reusability. So, The AngularJS framework provides reusable components for i
 
 Simplilearn.com. (2018). AngularJS Vs. Angular 2 Vs. Angular 4: Understanding the Differences.
 [online] Available at:
-<https://www.simplilearn.com/angularjs-vs-angular-2-vs-angular-4-differences-article> [Accessed 20
-Sep. 2022].
+<https://www.simplilearn.com/angularjs-vs-angular-2-vs-angular-4-differences-article> [Accessed
+20 Sep. 2022].
