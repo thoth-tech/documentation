@@ -1,0 +1,48 @@
+# Update Arcade Machine Splash Screen
+
+## TL;DR
+Download the default splashkit svg file from the documentation images folder. Copy it to the Arcade Machine. Replace this file: `/opt/retropie/supplementary/emulationstation/resources/splash.svg` with the one you just downloaded. Reload emulationstation.
+
+## Background
+This guide explains how to replace the default arcade machine splash screen with a custom one. By default the user will see an "emulationstation" splash when running emulation station. This is a .svg format file which can be replaced with custom graphics at a power users discretion. 
+
+### Creating Replacement Splash
+Unfortunately the .svg file format is not well supported by basic image editing programs (GIMP, Paint, paint.net etc.). Inkscape is a high quality FOSS program which can work with .svg files. svg (Scalable Vector Graphics), like the name suggests, works with vectors, as opposed to "regular" image formats which typically use raster graphics of a set size. The advantage is that .svg files scale to any size without a loss in quality. The downside is that if your graphics are in a raster format, they must be converted first. 
+
+#### Converting a raster image to a scalable vector in Inkscape
+1. Open a new project in Inkscape
+2. Set your page dimensions to a 16:9 aspect ratio such as 1280x720 
+3. Drag & drop your raster image file (image.png) into the Inkscape window. Leave the default settings in the "image import" window and click "OK".
+4. Select the "Select & transform" tool (mouse icon on the left sidebar, hotkey:S) and click on the image. Then click on the drop down menu for Path > Trace bitmap
+5. The right side panel should change to a "Trace Bitmap" menu. Select Single Scan. From the Detection Mode drop down select Autotrace. Then click Apply down the bottom.
+6. Now toggle the pane selection from "Single Scan" to "Multicolor". In Detection mode select Colors. Then click Smooth, then Apply. 
+7. You should have three layers of images. The base raster image, a monochrome outline of the image and a colored vector image. Delete all except the colored vector image. 
+8. Repeat this process for any other image elements you wish to include in the splash. 
+
+When you are done click on File > export and select "Plain SVG (*.svg)" from the drop down just above the Export button. Then click export. You can now transfer this .svg file to the Arcade Machine.
+
+### Find & Replace .svg file
+By default the emulationstation splash screen is located within the retropie install folder, which should be located here: 
+`/opt/retropie/supplementary/emulationstation/resources/splash.svg`
+
+If you are unable to find this file you can search for it within the Arcade Machine's file structure by using this command: 
+
+`sudo find / -type f -name *splash*.svg`
+
+It is recommended that you make a backup of the default splash screen, which can be done with this command (assuming the file is in it's default location):
+`sudo mv /opt/retropie/supplementary/emulationstation/resources/splash.svg /opt/retropie/supplementary/emulationstation/resources/splash.svg.old`
+
+Once this is done you can copy across the new splash screen from your local machine. If you are able to access the Arcade the network you can use SCP, the syntax for which is typically: 
+
+`scp <input.file>  deakin@<ipaddress>:<folder>`
+E.G.
+`scp /home/user/Desktop/spash.svg  deakin@192.168.0.2:/home/deakin`
+
+Once you have copied the new file across replace the old splash with this command: 
+`sudo mv /home/deakin/splash.svg /opt/retropie/supplementary/emulationstation/resources/splash.svg.old`
+
+Now restart emulationstation. You should immediately see the new splash screen.
+
+### Troubleshooting
+#### I see a loading bar, but no splash image when running emulationstation
+By default most "image to .svg" conversion tools (especially the online ones) will convert a raster image to a vector by tracing it. This process does not capture colours, and creates a monochrome image, typically black which is the same background color that emulationstation uses. The effect of which is that your splash now looks blank. If you encounter this issue make sure to check how you are converting the raster image in Inkscape, or create a white shape to test with. 
