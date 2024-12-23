@@ -7,9 +7,8 @@ Xin Huang | 218161625
 StudentsList Component
 
 ## Files in this Component
-- `students-list.coffee`
-- `students-list.tpl.html`
-- `students-list.scss`
+- `unit-dates-selector.coffee`
+- `unit-dates-selector.tpl.html`
 
 
 ## Component Purpose
