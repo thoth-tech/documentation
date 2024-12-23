@@ -4,7 +4,7 @@
 Xin Huang | 218161625
 
 ## Component Name
-StudentsList Component
+`Unit-dates-selector` Component
 
 ## Files in this Component
 - `unit-dates-selector.coffee`
@@ -13,37 +13,35 @@ StudentsList Component
 
 ## Component Purpose
 
-The `students-list` component is responsible for displaying and managing a list of students within a unit. It allows instructors (Convenors, Tutors, Admins, and Auditors) to filter, sort, search, and view student details, manage pagination, export data, and interact with students' records.
-
+The `unit-dates-selector` component is a date selection tool for editing a unit's key details during the rollover process. It enables users to configure teaching periods, select start and end dates, and save the updated information for the unit.
 **Screenshots:**
-Original (PDF): ![students-list](students-list.png)
+Original (PDF): ![unit-dates-selector](unit-dates-selector.png)
 
 ## Component Functions
-The students-list component allows users to:
+The `unit-dates-selector` component allows users to:
 
-- View and filter the student list** dynamically based on the role (e.g., Convenor sees all students, Tutors see only theirs).
-- Search students** using names, emails, or other properties.
-- Paginate and sort** the student list efficiently.
-- Export student details** as CSV files.
-- View individual student dashboards** for more detailed project insights.
-- Open an enrolment modal** to add new students to the unit.
+- View and select teaching periods: Dynamically load available teaching periods and display them in a dropdown list.
+- Pick start and end dates:Use interactive date pickers for precise selection of custom dates.
+- Save updated unit details:Submit teaching period or date information to the backend for processing.
+- Receive feedback:Display success or error messages after saving data.
 
 ## Interaction with Other Components/Services
-- **UnitStudentEnrolmentModal:**  
-  Output: Trigger enrolment modal for adding new students.
+- **newTeachingPeriodService**  
+  Output: 
+  - Loads and caches available teaching periods.
+  - Filters and formats data for display in the dropdown.
 
-- **newTaskService:**
+- **alertService**
   Outputs:
-  - `statusClass` and `statusText` to display project/task status.
+  - Displays success or error notifications to users.
 
-- **newUserService:**
-  Provides the current user (used to filter Tutor-specific students).
+- **$state**
+  Redirects users to the updated unit admin page after successful save.
 
-- **analyticsService:**
-  Outputs: Logs analytics events when specific actions (e.g., enrol student modal) are triggered.
+- **Date Pickers**
+  Outputs: 
+  - Manages the state of two date pickers for `startDate` and `endDate`.
 
-- **Filters:**
-  Utilizes AngularJS filters like `showStudents`, `projectFilter`, and `paginateAndSort` for sorting, filtering, and paginating the data.
 
 
 ## Migration Steps
@@ -59,7 +57,7 @@ I will be following the
    - Install required dependencies (e.g., Angular Material, ngx-pagination).
 
 3. **Create Angular Component:**
-   - Generate a new Angular component `students-list`.
+   - Generate a new Angular component `unit-dates-selector`.
    - Transfer HTML template and styles to Angular.
 
 4. **Rewrite Core Logic:**
@@ -67,31 +65,31 @@ I will be following the
    - Replace AngularJS `$scope` with reactive properties using Angular's `@Input` and `@Output`.
 
 5. **Integrate Services:**
-   - Migrate `newTaskService`, `newUserService`, `UnitStudentEnrolmentModal`, and `analyticsService` into Angular.
+   - Migrate services (newTeachingPeriodService, alertService) to Angular’s DI system.
+   - Use Angular Router for navigation instead of $state.
 
-6. **Replace Filters:**
-   - Replace AngularJS filters (e.g., `showStudents`, `projectFilter`) with Angular Pipes and RxJS operators.
+6. **Replace Date Picker:**
+   - Integrate Angular Material date pickers.
+   - Replace $scope.calOptions with reactive form controls.
 
 7. **Testing:**
-   - Validate functionality:
-     - Filtering, sorting, pagination.
-     - CSV export.
-     - Navigation to student dashboard.
-   - Fix any bugs or UI inconsistencies.
+    Validate all functionalities:
+    - Teaching period dropdown.
+    - Date pickers’ open/close behavior.
+    - Successful save and error handling.
+    - Navigation to the updated unit admin page.
 
 8. **Downgrade Component (if needed):**
    - Use `UpgradeModule` to allow Angular and AngularJS components to coexist.
 
 ## Component Review Checklist
 
-- [ ] Ability to collect details from the user
-  - The modal allows users to enter and select grading details.
+- [ ] Teaching periods load dynamically and correctly.
 
-- [ ] Succeeds when data is valid
-  - The modal successfully closes and returns valid data.
+- [ ] Date pickers toggle and update values properly.
 
-- [ ] Handles errors
-  - The component gracefully handles errors such as invalid ratings or missing grades.
+- [ ] Data submission (teaching period or dates) works as expected.
 
-- [ ] Created unit is shown on success
-  - The updated task details are visible in the UI after successful grading.
+- [ ] Success and error messages are displayed.
+
+- [ ] Navigation occurs after a successful save.
