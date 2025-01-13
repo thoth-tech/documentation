@@ -5,7 +5,7 @@ The `public` directory contains static images and graphics used for documentatio
 
 ## Key Contents
 - **Logos and Charts**:  
-  Includes files like `CompanyOps-logo.png`, `Org_Chart.png`, and `Thoth_Tech_Org_Chart.png`.
+  Includes files like `CompanyOps-logo.png`, `Org_chart.png`, and `Thoth_Tech_Org_Chart.png`.
 
 - **Project-Specific Images**:  
   Assets for projects such as `artgallery.png`, `courseflow.png`, and `dockersupport.png`.

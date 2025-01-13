@@ -19,7 +19,7 @@ The `docs` directory contains extensive documentation for various projects, poli
   - `Modules/`: Technical documentation for different modules.
   - `Tutorials/`: How-to guides for new users.
 
-### 3. `Courseflow/`
+### 3. `courseflow/`
 - **Purpose**: Detailed documentation for the Courseflow project.
 - **Contents**:
   - `Meeting-Minutes/`: Summaries and decisions from team meetings.
@@ -30,10 +30,10 @@ The `docs` directory contains extensive documentation for various projects, poli
 - **Purpose**: Documentation for various subprojects under the ArtGallery initiative.
 - **Contents**:
   - `BackendUpgrades/`: Files related to API upgrades and proposals.
-  - `Deployment/`: Deployment strategies and policies.
-  - `Testing Project/`: Testing guidelines and notes.
+  - `deployment/`: Deployment strategies and policies.
+  - `testing_project/`: Testing guidelines and notes.
 
-### 5. `DreamBig/`
+### 5. `dreambig/`
 - **Purpose**: Documentation for the DreamBig initiative, including research and findings.
 - **Contents**:
   - `Research_&_Findings/`: Reports and analysis.

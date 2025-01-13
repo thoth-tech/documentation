@@ -1,7 +1,7 @@
 **UX Testing Deliverables T1 2023**
 
 1. **UX Testing Report**
-   [UX-Testing-Report.md](https://github.com/thoth-tech/documentation/files/11507287/UX-Testing-Report.md)
+   [ux_testing_report.md](https://github.com/thoth-tech/documentation/files/11507287/ux_testing_report.md)
    <br/>
 2. **UX Evaluation Rubric**
    [DreamBig UX Evaluation Rubric.xlsx](https://github.com/thoth-tech/documentation/files/11507289/DreamBig.UX.Evaluation.Rubric.xlsx)

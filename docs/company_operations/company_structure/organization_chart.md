@@ -2,4 +2,4 @@
 
 This chart is valid for 2023 Trimester 2.
 
-![Org chart](../images/Org_Chart.png)
+![Org chart](../images/org_chart.png)
