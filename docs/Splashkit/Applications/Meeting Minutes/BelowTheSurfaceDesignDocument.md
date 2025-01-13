@@ -70,7 +70,7 @@
 
 ## Name of Game
 
-Below the Surface\_
+below_the_surface\_
 
 ## Genre
 
