@@ -34,7 +34,7 @@ existing Deakin version and hosted on Google Cloud.
 3. Understanding of the overall OnTrack deployment and components;
 
 ## Findings
-
+F
 ### Google Cloud
 
 **Google Cloud Platform (GCP)** is a cloud service platform that allows you to build cloud resources
