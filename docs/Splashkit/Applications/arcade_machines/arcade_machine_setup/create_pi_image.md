@@ -70,5 +70,5 @@ additional optional process.
    ```
 
 You should now have a compressed image file, i.e. `ArcadeImage-19.08.2023.img.gz` refer to
-[Setup Arcade Machine.md](Setup%20Arcade%20Machine.md) for instructions on burning the image to a
+[setup_arcade_machine.md](Setup%20Arcade%20Machine.md) for instructions on burning the image to a
 new SD card or USB.
