@@ -23,7 +23,7 @@ Testing - Delivery lead - James Burden
 
 Lighthouse Project/Front end enhancement - Delivery lead - Rhonda Jorgensen, Adrienne Gelbhauer
 
-Dockerisation/Deployment - Delivery lead - Chloe Hulme
+Dockerisation/deployment - Delivery lead - Chloe Hulme
 
 Cyber Security review - Delivery lead - Dominic Ryzner
 

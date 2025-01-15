@@ -85,11 +85,12 @@ As a junior we suggest that you should:
         > If the servers in the docker running into issues, please follow the backup plan -
         > [Troubleshooting Docker - Backup for OnTrack](Docker/Troubleshooting_Docker_Backup_for_OnTrack.md)
 3. Migration
-   1. Read [Create Brach and Initial Migration](Migration/Create_Branch_and_Initial_Migration)
+   1. Read [Create Brach and Initial Migration](migration/create_branch_and_initial_migration)
       guideline.
-   2. Read [Regular Commit](Migration/Regular_Migration_Step.md) guideline.
+   2. Read [Regular Commit](migration/regular_migration_step.md
+    ) guideline.
 4. Testing
-   1. Read [Unit Test](Testing/Unit_Test.md) guideline.
+   1. Read [Unit Test](testing/unit_test.md) guideline.
 5. Do **report any issue** or questions to the senior or deilvery lead.
 6. **Writting docemnts** during the learning process which you found intresting or worth to know.
 7. Start to migrate some simple components.

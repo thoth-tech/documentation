@@ -60,11 +60,14 @@ increamenting delay
 
 We will also need to either enable or disable a test.
 
-**Student View** ![StudentView](StudentView.jpg "Student View Design")
+**Student View** ![StudentView](student_view.jpg
+ "Student View Design")
 
-**Unit Chair View** ![UnitChair](UnitChair.jpg "Unit Chair Design")
+**Unit Chair View** ![UnitChair](UnitChair.jpg
+ "Unit Chair Design")
 
-**Data Flow Design** ![DataFlow](DataFlow.jpg "Data Flow Design")
+**Data Flow Design** ![DataFlow](data_flow.jpg
+ "Data Flow Design")
 
 In terms of the changes we will require, we will need a new table in the DB to store the tests.
 

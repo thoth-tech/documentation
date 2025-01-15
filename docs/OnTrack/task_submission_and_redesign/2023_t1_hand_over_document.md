@@ -171,4 +171,4 @@ check the markdown docment in
 - Read 2023 T1 Project Weekly updates, Meeting Minutes and other documents in the project TEAMS
   channel.
 
-- Read [Project On-boarding](Project-On-Boarding.md)
+- Read [Project On-boarding](project_on_boarding.md)

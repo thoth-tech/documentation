@@ -32,7 +32,7 @@ base as a handover document.
 - Rhonda has created a Lighthouse onboarding document, so depending on how it is formatted it could
   just be transferred immediately onto the knowledge base.
 
-### Dockerisation/Deployment - Chloe Hulme
+### Dockerisation/deployment - Chloe Hulme
 
 - How to set up and use docker. Whether external or internal information, having it all in one spot
   is important.

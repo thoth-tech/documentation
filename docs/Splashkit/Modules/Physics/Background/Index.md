@@ -6,5 +6,5 @@ will be required for it to be completed.
 
 ## Links to Physics Documentation:
 
-- [Physics Epic](Epic.md)
+- [Physics Epic](epic.md)
 - [Software Requirements Specification Document](Software_Requirements_Specification.md)

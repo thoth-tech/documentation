@@ -91,12 +91,12 @@ You need a terminal that supports shell scripts (on Windows, you need WSL2, Msys
 
 ## What Next?
 
-- Become familiar with [the project epic](Epic.md)
+- Become familiar with [the project epic](epic.md)
 - Become familiar with [the user stories and features](User-Stories-and-Features.md)
   - Are there any users that are not served in the user stories or by the features?
-- Become familiar with [the requirements](Requirements.md)
+- Become familiar with [the requirements](requirements.md)
   - Are all stakeholders sufficiently provided for, with this set of requirements?
-- Become familiar with [the deliverables](Deliverables.md)
+- Become familiar with [the deliverables](deliverables.md)
   - Are there deliverable items that should be added?
   - Are there deliverable items that should be removed?
   - Are there deliverable items that can be decomposed into smaller deliverable items?

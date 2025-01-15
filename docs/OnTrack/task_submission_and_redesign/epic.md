@@ -67,7 +67,7 @@ see [Thoth Tech Handbook](https://github.com/thoth-tech/handbook/blob/main/READM
 
 ---
 
-- [Task Submission redesign requirements and specifications document](Requirements.md)
+- [Task Submission redesign requirements and specifications document](requirements.md)
 
 # View Task and Submission Epic Document
 
