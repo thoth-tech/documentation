@@ -16,7 +16,7 @@ This bug was found while on a windows 10 laptop.
 Build and attempt to play the DXBallGame. The user interface will not respond to key presses.
 
 ## Expected Results
-F
+
 The user is able to properly inteact with the user interface through the use of their controls.
 
 ## Actual Results
