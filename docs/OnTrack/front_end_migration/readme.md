@@ -1,8 +1,6 @@
----
-title: Entry point of OnTrack UIEnhancemnt
----
+# Entry point of OnTrack UIEnhancemnt
 
-## T3 / 2022
+> T3 / 2022
 
 OnTrack is now a hybrid project which is using Bootstrap/AngularJS + MUI/Angular, it is build using
 different reusable components.
@@ -15,7 +13,7 @@ submitted. CoffeeScript can be viewed as a fine complement to JavaScript, not a 
 Therefore, the OnTrack frontend is looking forward to switching to the new MUI/Angular approach and
 trying to keep things more up to date going forward.
 
-## Aims for Trimester
+## **_Aims for Trimester_**
 
 ---
 
@@ -36,11 +34,11 @@ trying to keep things more up to date going forward.
      should involve continuing the ongoing components, seniors should continue his work from
      previous trimester.
 
-## Deliverables
+## **_Deliverables_**
 
 ---
 
-### Short Term
+**_Short Term:_**
 
 - Gather information and continue the migration work that left from previous trimester.
 - Develop and deliver at least 5 migrated components.
@@ -88,7 +86,7 @@ As a junior we suggest that you should:
    1. Read [Create Brach and Initial Migration](migration/create_branch_and_initial_migration)
       guideline.
    2. Read [Regular Commit](migration/regular_migration_step.md
-    ) guideline.
+) guideline.
 4. Testing
    1. Read [Unit Test](testing/unit_test.md) guideline.
 5. Do **report any issue** or questions to the senior or deilvery lead.
