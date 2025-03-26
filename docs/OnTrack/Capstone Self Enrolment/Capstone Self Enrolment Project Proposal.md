@@ -47,7 +47,7 @@ The enhancement will include the following steps within a single OnTrack task:
 
 ### Data Management
 
-- The task should auatomatically collect student names and IDs.
+- The task should automatically collect student names and IDs.
 - All form responses should be downloadable as a CSV file for each unit separately.
 - Admins should have the ability to modify the form to add/remove project teams or companies.
 
@@ -252,11 +252,11 @@ multiple) from an existing tutorial in another unit. (Not capstone specific)
 
 #### `unit_tutorial_syncs`
 
-| Attribute | Data Type          | Notes |
-| --------- | ------------------ | ----- | --------------------------------------------------- |
-| PK        | id                 |       |
-| FK        | main_tutorial_id   | INT   | References `id` from the `tutorial` in one unit     |
-| FK        | synced_tutorial_id | INT   | References `id` from the `tutorial` in another unit |
+|     | Attribute          | Data Type | Note                                                |
+| --- | ------------------ | --------- | --------------------------------------------------- |
+| PK  | id                 |           |
+| FK  | main_tutorial_id   | INT       | References `id` from the `tutorial` in one unit     |
+| FK  | synced_tutorial_id | INT       | References `id` from the `tutorial` in another unit |
 
 ##### Constraints:
 
@@ -295,11 +295,34 @@ multiple) from an existing tutorial in another unit. (Not capstone specific)
 - Workflow of admins rollover SIT374/SIT378 -> upload csv of groups -> upload csv of tutorials ->
   upload csv of company projects
 
-## Tasks that need to be done (TODO)
+## Tasks that need to be done
 
-- [ ] Implement a "Import tutorials" feature TODO..
+- [ ] Implement a "Import tutorials" feature
+- [ ] BE: Extending `units` entity [Reference](#extending-units)
+- [ ] FE: Toggle capstone button functionality
+      [Reference](./UI/Admin/ui_enable_capstone_management.png)
+- [ ] FE: Enable capstone enrolment form on tasks
+      [Reference](./UI/Admin/ui_admin_task_form_enable.png)
+- [ ] BE: Extending `task_definitions` entity [Reference](#extending-task_definitions)
+- [ ] FE: Capstone tab (Manage projects, tutorial link)
+      [Reference](./UI/Admin/ui_admin_add_projects_tutorials.png)
+  - Similar UI to the Tutorials tab, uses the `capstone_company_projects` and
+    `capstone_company_project_tutorials` entities.
+- [ ] FE: Student task view (if incomplete) [Reference](./UI/Student/ui_begin_enrolment.png)
+- [ ] FE: Student task view (if completed) [Reference](./UI/Student/ui_enrolment_complete.png)
+- [ ] FE: Enrolment form modal [Reference](./UI/Student/ui_enrolment_form_modal_filling.png)
+- [ ] BE: `capstone_company_projects` entity [Reference](#capstone_company_projects)
+- [ ] BE: `capstone_company_project_tutorials` entity
+      [Reference](#capstone_company_project_tutorials)
+- [ ] BE: `capstone_form_responses` entity [Reference](#capstone_form_responses)
+- [ ] BE: `unit_tutorial_syncs` entity [Reference](#unit_tutorial_syncs)
+- [ ] FE: Modify Tutorial admin tab, allowing syncing of tutorials
+      [Reference](#linking-of-tutorials-between-sit374-and-sit378)
 
 ## Future plans
 
-- Dynamic forms? Allow admins to dynamically build their own form and save responses as a JSON,
-  allowing forms to be used outside of the capstone
+- Dynamic forms
+  - Allow admins to dynamically build their own form and save responses as a JSON
+  - Feasible with https://formio.github.io/angular-demo/
+  - `@formio/angular@7.0.0` works with the current version of OnTrack (Angular17)
+  - Restricted to boostrap UI (no native support for material UI)
