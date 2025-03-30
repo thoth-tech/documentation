@@ -1,5 +1,9 @@
 # Capstone company & project self enrolment feature
 
+## Author information:
+
+- Student ID: s222313935
+
 ## Project scope
 
 ### Description
@@ -65,12 +69,6 @@ The enhancement will include the following steps within a single OnTrack task:
 - Streamlined project allocation process within OnTrack.
 - Reduced administrative workload for managing company and project selection.
 - Improved student experience by ensuring clear and error-free selection processes.
-
----
-
-## Use Cases
-
-TODO..
 
 ---
 
@@ -275,8 +273,6 @@ multiple) from an existing tutorial in another unit. (Not capstone specific)
 
 ##### Process:
 
-(TODO: create a sequence diagram)
-
 1. Admin clicks "Import tutorials from existing unit" and selects tutorials to sync.
 2. For each selected tutorial:
    - A new row is created in `unit_tutorial_syncs`:
@@ -287,13 +283,15 @@ multiple) from an existing tutorial in another unit. (Not capstone specific)
    - If yes, it's a synced tutorial and cannot be edited. A tooltip says, "This tutorial cannot be
      edited because it is synced from SIT378".
 4. When modifying a tutorial in **SIT378**:
+
    - The `put '/tutorials/:id'` endpoint should be modified to update the corresponding
      `synced_tutorial_id` in **SIT374** if it exists in `unit_tutorial_syncs`.
 
-## Sequence Diagrams (TODO)
+   _Refer to below sequence diagram for full detail_
 
-- Workflow of admins rollover SIT374/SIT378 -> upload csv of groups -> upload csv of tutorials ->
-  upload csv of company projects
+## Sequence Diagram
+
+<img src="./sequence_diagram.svg"/>
 
 ## Tasks that need to be done
 
@@ -318,6 +316,18 @@ multiple) from an existing tutorial in another unit. (Not capstone specific)
 - [ ] BE: `unit_tutorial_syncs` entity [Reference](#unit_tutorial_syncs)
 - [ ] FE: Modify Tutorial admin tab, allowing syncing of tutorials
       [Reference](#linking-of-tutorials-between-sit374-and-sit378)
+- [ ] And more... (refer to OnTrack planner board on Teams)
+
+## Issues and constraints with current proposal
+
+- This implementation does not allow management of the enrolment form, and is hardcoded into
+  `doubtfire-web`. This could be addressed with dynamic forms, encapsulating the entire the form as
+  a JSON object, and saving response as a JSON. This is challenging due to the custom logic of
+  fetching groups and tutorials, validating that the tutorial capacity limit has not been reached
+  prior to submission. If the form does not require any validation and automatic enrolment, and is
+  only used to collect student's submission as a CSV (which could then be later used to batch enrol
+  students into tutorials and groups), then dynamic forms would be feasible.
+- However, admin's are still able to modify the companies, teams, and tutorial spots, that the form dynamically fetches.
 
 ## Future plans
 
