@@ -20,7 +20,7 @@ The purpose of `group-member-list` is to display members within a selected group
 
 - Sorting members by specific attributes like name, grade, or ID.
 - Dynamically updating the list of members when one is removed.
-- Displaying appropriate messaging for empty groups or unauthorized actions.
+- Displaying appropriate messaging for empty groups or unauthorised actions.
 
 ---
 
@@ -30,7 +30,7 @@ Users can:
 
 - View the list of group members.
 - Sort members by various columns (e.g., name, ID).
-- Remove members dynamically (if authorized).
+- Remove members dynamically (if authorised).
 - See a loading spinner during data fetching.
 
 Inputs used in the component:
@@ -81,7 +81,7 @@ Expected outcomes after migration:
   - Keyboard navigation support.
   - Screen reader-friendly attributes (e.g., `aria` tags).
 - Enhanced error handling:
-  - User-friendly messages for server errors or unauthorized access.
+  - User-friendly messages for server errors or unauthorised access.
 - Validated UI responsiveness for different screen sizes.
 
 ---
