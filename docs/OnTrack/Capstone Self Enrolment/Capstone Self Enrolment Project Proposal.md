@@ -327,7 +327,8 @@ multiple) from an existing tutorial in another unit. (Not capstone specific)
   prior to submission. If the form does not require any validation and automatic enrolment, and is
   only used to collect student's submission as a CSV (which could then be later used to batch enrol
   students into tutorials and groups), then dynamic forms would be feasible.
-- However, admin's are still able to modify the companies, teams, and tutorial spots, that the form dynamically fetches.
+- However, admin's are still able to modify the companies, teams, and tutorial spots, that the form
+  dynamically fetches.
 
 ## Future plans
 
