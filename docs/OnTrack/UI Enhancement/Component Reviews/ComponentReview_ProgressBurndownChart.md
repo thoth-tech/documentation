@@ -15,14 +15,29 @@
 `Pogress Burndown Chart`
 
 ### Files included
-1. `progress-burndown-chart.coffee`
-2. `progress-burndown-chart.scss`
+
+#### Core Component Files
+
+1. `progress-burndown-chart.component.ts`
+2. `progress-burndown-chart.component.html`
+3. `progress-burndown-chart.component.scss`
+
+#### Supporting logic
+
+#### Note: Supporting files like `visualisation.service.ts` and `listener.service.ts` has been migrated into their respective `.ts` version by Lachlan so that it can then be used for the migration of `progress-burndown-chart` component.
+
+| File | Description |
+| --- | --- |
+| `visualisation.service.ts` | Generates NVD3 chart config and visualisation settings used across multiple chart components. |
+| `listener.service.ts` | Angular service that replicates `$scope.$watch` by listening to updates and changes in data. Helps in polling and change detection. |
+| `project.ts` | Defines the `Project` model that contains `burndownChartData` and `refreshBurndownChartData()` which generates the actual series. |
+| `unit.ts` | Defines the `Unit` model, providing `startDate` and `endDate` for chart time range. |
 
 ---
 
 ## Component purpose
 
-The burndown chart visually tracks remaining task workload over time, helping students monitor progress toward their target grade. It dynamically plots lines for target, projected, to-submit, and completed tasks using real-time task completion data.
+This component visualizes a student's progress across a learning unit using a burndown line chart, displaying series such as Target, Projected, Submitted, and Completed work. It dynamically updates over time to reflect current progress using real-time polling and listens to data changes via injected services
 
 ![Progress-burndown-chart-original](Resources/progress-burndown-chart-original.png)
 
@@ -30,26 +45,33 @@ The burndown chart visually tracks remaining task workload over time, helping st
 
 ## Component outcomes and interactions
 
-1. The component takes two inputs:  `project` and `unit`, which are objects passed from the parent.
+### Outcomes:
+- Displays a student’s task progress as a burndown chart using NVD3 library.
+- Visually updates over time based on live project data.
 
-2. `project` contains the task progress data (like `burndownChartData`).
-
-3. `unit` provides the start and end dates for the chart timeline.
-
-4. It listens for updates in `project.burndownChartData` and refreshes the chart when data changes.
-
-5. The chart is drawn using D3.js with custom formatting for lines, tooltips, and colors.
-
-6. It interacts with the backend by calling `refreshBurndownChartData()` to load the latest data.
-
-### Current Uses
-
-- `project-progress-dashboard.tpl.html`
-- `progress-dashboard.tpl.html`
+### Interactions:
+- `Project` → supplies `burndownChartData` and the `refreshBurndownChartData()` method.
+- `Unit` → provides `startDate` and `endDate` to set the chart timeline.
+- `VisualisationService` → generates chart config (`options` and `config`) for rendering.
+- `ListenerService` → manages scoped listeners and cleans up on component destroy.
 
 ---
 
 ## Component migration plan
+
+- I was initially assigned the migration of the `progress-dashboard` component.
+- Since it had two nested components — `progress-burndown-chart` and `student-task-status-pie-chart` — Lachlan and I divided the work.
+  - I took ownership of migrating `progress-burndown-chart`.
+
+- The old CoffeeScript version of `progress-burndown-chart` used:
+  - `VisualisationService`
+  - `ListenerService`
+
+- Lachlan first migrated both of these services into their TypeScript versions. Once his service migrations were complete, I tested them to ensure they worked correctly and didn’t introduce new errors.
+
+- After confirming that, I merged his changes and started migrating the `progress-burndown-chart` component to Angular 17 using TypeScript.
+
+### My Migration Plan for `progress-burndown-chart`
 
 1. Create a new branch called `migrate/progress-burndown-chart` to work on the migration separately.
 
@@ -69,7 +91,7 @@ The burndown chart visually tracks remaining task workload over time, helping st
 
 ## Component Post-Migration
 
-Yet to be implemented...
+- Migration is work in progress...
 
 ---
 
@@ -78,8 +100,3 @@ Yet to be implemented...
 [ ] ability to collect details from the user 
 [ ] succeeds when data is valid 
 [ ] handles errors - duplicate unit code in the teaching period, or invalid dates [ ] created unit is shown on success
-
-## Discussion with Client (Andrew Cain)
-
-Finally you will need to take the feedback from Andrew and Discuss any addtional considertions he
-may have with this component before writing any code.
