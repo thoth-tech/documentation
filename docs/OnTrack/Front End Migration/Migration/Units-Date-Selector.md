@@ -41,7 +41,7 @@ unit-dates-selector.tpl.html
     •	Fix any problems that come up during testing.
 6. Test Everything:
      •	Check that the new setup works just like the old one by running the same tests.
-     •	Fix any problems that come up during testing.
+     •	Fix any problems that come up during testing. 
 
 
 
