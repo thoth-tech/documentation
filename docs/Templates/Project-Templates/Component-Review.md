@@ -1,36 +1,56 @@
-# Ontrack Component review
+# Ontrack Component Review
 
-## Team Member Name
+## Team Member Name  
+Ekamjot Singh
+224235519
 
-First select a component to review from the list below:
-<https://deakin365.sharepoint.com/:x:/r/sites/ThothTech2/Shared%20Documents/OnTrack%20-%20UI%20Enhancement/T3_2022/Management%20%5BT3_2022%5D/selected_task(revised).xlsx?d=wac02013da5224c958ac60fd96fac7b20&csf=1&web=1&e=UfCmZ5>
+## Component Name  
+`group-selector`  
 
-## Component Name
+### Files in this component:
+- `group-selector.component.ts`  
+- `group-selector.component.html`  
+- `group-selector.component.scss`  
 
-Here you should enter the component name, also list all the files in this component.
 
-## Component purpose
+## Component Purpose  
 
-What is the primary purpose of this component and how doesit work? Screenshots are advised.
+The `group-selector` component is designed to allow users (typically staff) to view, edit, and manage student tutorial groups within a unit. It presents a table where each row represents a group, displaying attributes like name, tutorial association, capacity, and lock status.  
+Users can click to edit the group’s details inline using input fields or dropdowns. The interface supports toggling lock status, saving or canceling edits, and deleting groups.  
 
-## Component outcomes and interactions
+> **Screenshot Example**:  
+> - **View mode**: Rows display group info with action buttons (Edit, Lock/Unlock, Delete).  
+> - **Edit mode**: Input fields appear in-place with Save/Cancel options.  
 
-What are the expected outcomes of the component and what does it interact with, what kind of data
-objects is it taking in and passing out?
+## Component Outcomes and Interactions  
 
-## Component migration plan
+### Expected Outcomes:
+- View a list of groups in a unit  
+- Edit group name, tutorial association, and capacity  
+- Save or cancel group edits  
+- Lock/unlock a group  
+- Delete a group  
 
-First add your plan for the migration, how will you do this, what steps are needed. Add some
-sketches or diagrams, what will the migrated component look like compared to the current one.
+### Interactions:
+- **Input**: Accepts a `unit` object that includes groups and tutorials  
+- **Output**: Emits updated group data back to parent or backend service  
+- **Services**: May use `UnitService`, `GroupService`, and related observables for saving and deleting  
 
-## Component review checklist
+## Component Migration Plan  
 
-Next add a checklist similar to: then create a checklist:
+### Migration Goals:
+- Migrate from Angular Material + Bootstrap to Tailwind CSS  
+- Improve accessibility and responsiveness  
+- Ensure smooth inline editing without layout shifts  
 
-[ ] ability to collect details from the user [ ] succeeds when data is valid [ ] handles errors -
-duplicate unit code in the teaching period, or invalid dates [ ] created unit is shown on success
+### Steps:
+1. Analyze current HTML and styling   
+2. Replace UI elements with Tailwind CSS equivalents (`input`, `select`, `button`)  
+3. Use Tailwind spacing and transition utilities for stable layout  
+4. Ensure responsive design using Tailwind’s flex/grid utilities  
+5. Update Angular bindings (`[(ngModel)]` or ReactiveForms)  
+6. Validate UI and UX with mock data  
 
-## Discussion with Client (Andrew Cain)
 
-Finally you will need to take the feedback from Andrew and Discuss any addtional considertions he
-may have with this component before writing any code.
+###Before 
+![image](https://github.com/user-attachments/assets/c65f60db-ef86-4f5c-9b53-2087a791911d)
