@@ -96,8 +96,8 @@ into SplashKit, is another question entirely.
     SplashKit.
 - Explore Alternatives:
 
-  - This is by no means an exhaustive list of options; other libraries may better fulfill
-    SplashKit's requirements.
+  - This is by no means an exhaustive list of options; other libraries may better fulfil SplashKit's
+    requirements.
   - Investigate additional libraries that can provide the needed functionalities, possibly with more
     mature ecosystems.
 
