@@ -1,7 +1,6 @@
 ---
-
-title: FAQs on Splashkit installation tags: faq,error,troubleshoot
-
+title: FAQs on Splashkit installation
+tags: faq,error,troubleshoot
 ---
 
 <h1> Issue : Windows </h1>
