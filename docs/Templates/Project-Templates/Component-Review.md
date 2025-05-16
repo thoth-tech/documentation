@@ -1,36 +1,52 @@
-# Ontrack Component review
+<img width="1511" alt="Screenshot 2025-05-16 at 6 19 06 PM" src="https://github.com/user-attachments/assets/5a5cc093-08d9-4dd8-8792-33d9cb3500a6" /># Ontrack Component review
 
 ## Team Member Name
-
-First select a component to review from the list below:
-<https://deakin365.sharepoint.com/:x:/r/sites/ThothTech2/Shared%20Documents/OnTrack%20-%20UI%20Enhancement/T3_2022/Management%20%5BT3_2022%5D/selected_task(revised).xlsx?d=wac02013da5224c958ac60fd96fac7b20&csf=1&web=1&e=UfCmZ5>
+Lovleen Kala
 
 ## Component Name
 
-Here you should enter the component name, also list all the files in this component.
+Group-Set-Editor
+
+Files Included:
+group-set-editor.component.ts
+group-set-editor.component.html
+group-set-editor.component.scss
+
 
 ## Component purpose
 
-What is the primary purpose of this component and how doesit work? Screenshots are advised.
+The Group Set Editor component is a parent component that contains nested components, including the group-member-list and group-selector. These nested components handle more specific tasks, such as managing individual group members and selecting groups within a group set, while the Group Set Editor serves as the overall manager for group set interactions within a unit context.
+
+![Copy of Blank diagram-2](https://github.com/user-attachments/assets/6bedc863-3a6d-4e3c-82c6-f3f2179afa62)
+
+
+The primary purpose of the Group Set Editor component is to manage group sets within a unit context. It allows tutors and convenors to add, remove, lock, and update groups within a selected group set. It also supports features like group filtering, sorting, and pagination, and integrates with services like newGroupService, alertService, and groupService.
+
+Before Migration:
+
+<img width="1511" alt="Screenshot 2025-05-16 at 6 19 06 PM" src="https://github.com/user-attachments/assets/2b144781-26dc-4a8d-9aa4-526ea3cfed88" />
+
+<img width="1509" alt="Screenshot 2025-05-16 at 6 19 16 PM" src="https://github.com/user-attachments/assets/22871500-b902-4f74-9338-232b49266c58" />
+
 
 ## Component outcomes and interactions
 
-What are the expected outcomes of the component and what does it interact with, what kind of data
-objects is it taking in and passing out?
+Expected outcomes:
+
+Allows users to create, edit, lock, and delete groups within a group set context.
+
+Provides real-time feedback for group updates using alertService.
+
+Supports filtering and sorting of group lists based on group names and tutorial assignments.
+
+Interacts with Group, Unit, Project, GroupSet, and UnitRole models for data handling.
 
 ## Component migration plan
 
-First add your plan for the migration, how will you do this, what steps are needed. Add some
-sketches or diagrams, what will the migrated component look like compared to the current one.
+Migrate the TypeScript file to Angular 17, preserving the original logic for group management.
 
-## Component review checklist
+I plan to manually include the code for group-member-list and group-selector directly within the group-set-editor component rather than pulling from two separate branches. This approach aims to minimize the risk of merge conflicts that could arise from integrating separate branches.
 
-Next add a checklist similar to: then create a checklist:
+Test the component against common scenarios, including group creation, deletion, and data export.
 
-[ ] ability to collect details from the user [ ] succeeds when data is valid [ ] handles errors -
-duplicate unit code in the teaching period, or invalid dates [ ] created unit is shown on success
 
-## Discussion with Client (Andrew Cain)
-
-Finally you will need to take the feedback from Andrew and Discuss any addtional considertions he
-may have with this component before writing any code.
