@@ -84,3 +84,5 @@ access are identified, and data security bridging is controlled.
    May 2020, https://www.securitymagazine.com/articles/ 87787-hackers-attack-every-39-seconds.
 2. Chaudhary, Varsha, “Cyber Security Policy” 22 Feb. 2022, Cyber Security Policy - GeeksforGeeks
 3. https://www.quest.com/solutions/active-directory/what-is-active-directory.aspx
+
+
