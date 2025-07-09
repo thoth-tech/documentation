@@ -1,0 +1,2994 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1"
+    width="1407.501645412009" height="3362.779801522817">
+    <desc>
+        title%20Capstone%20Self%20Enrolment%20Proposal%0A%0A%0Aparticipant%20Student%0A%0Aparticipant%20Admin%0A%0Aparticipant%20Frontend-WEB%0A%0A%0Aparticipant%20Backend-API%0A%0A%0Anote%20over%20Admin%2CBackend-API%3A**Creating%20SIT374%20(Project%20A)**%0A%0AAdmin-%3EFrontend-WEB%3ACreate%20SIT374%20%26%20SIT378%20for%20the%5Cnnew%20trimester%20by%20rolling%20over%5Cnthe%20previous%20units.%0AFrontend-WEB-%3EBackend-API%3ANew%20units%20are%20created.%5CnDuplicates%20the%20%60group_sets%60%20and%20%60tutorial_streams%60%5Cninto%20the%20new%20units.%0A%0A%0A%0AAdmin-%3EFrontend-WEB%3A%3E%20Either%20download%20and%20import%20CSV%20of%20tutorials%20from%20previous%20unit%5Cnor%20manually%20create%20a%20CSV%20of%20tutorials%2C%20importing%20it%20into%20the%20unit.%5Cn(Or%20manually%20create%20tutorials%20one-by-one).%5Cn%3E%20The%20name%20of%20the%20%22Company%22%20tutorials%20will%20be%20used%20in%20the%20groups%20CSV%20file%2C%5Cnlinking%20each%20Company%20group%20to%20a%20Company%20tutorial.%0AAdmin-%3EFrontend-WEB%3ADownload%20list%20of%20groups%5Cnfrom%20the%20'Company'%20group%20set%5Cnfrom%20previous%20unit%0AFrontend-WEB--%3EBackend-API%3AFetch%20list%20of%20groups%0ABackend-API--%3EAdmin%3A%20Return%20list%20of%20groups%20as%20CSV%20file%0AAdmin-%3EFrontend-WEB%3AImport%20%22Company%22%20groups%20via%20CSV%20into%20the%20new%20unit.%0AFrontend-WEB--%3EBackend-API%3AInsert%20groups%20into%20the%20database%20based%20off%20CSV%5Cnlinking%20defined%20tutorials%20to%20group.%0AAdmin--%3EFrontend-WEB%3AImport%20tasks%2C%20import%20unit%20alignment%20outcomes%2C%20etc...%0A%0Anote%20over%20Admin%2CBackend-API%3A**Creating%20SIT378%20(Project%20B)**%0AAdmin-%3EFrontend-WEB%3AImport%2FCreate%20tutorials%20only%20for%5Cnthe%20Company%20%26%20Enrolment%20tutorial%20streams.%0AAdmin-%3EFrontend-WEB%3A%3E%20Use%20the%20%22Sync%20tutorial%20from%20external%20unit%22%20feature%5Cnto%20import%20tutorials%20from%20**SIT374**.%5Cn%3E%20Admin%20selects%20the%20unit%20to%20import%20from%20(SIT374)%2C%20then%5Cnusing%20the%20multi-select%20dropdown%2C%20selects%20all%20the%20%22Mentor%22%5Cntutorials%20from%20SIT374%2C%20they%20will%20then%20have%20to%20assign%20the%20staff%5Cnfrom%20SIT374%20for%20each%20tutorial%20then%20click%20%22Sync%22%20or%20%22Import%22%0AFrontend-WEB-%3EBackend-API%3AThe%20API%20will%20duplicate%20selected%20tutorials%5Cnbut%20link%20them%20under%20SIT378.%20This%20will%5Cncopy%20over%20attributes%20like%20tutorial%20capacity.%5CnThese%20tutorials%20%5Bat%20this%20stage%5D%20are%20unique%20to%20the%20unit%20and%20separated.%0AFrontend-WEB-%3EBackend-API%3AA%20new%20record%20is%20created%20inside%20the%20%60unit_tutorial_syncs%60%5Cntable.%20Linking%20the%20original%20tutorial%20from%20SIT374%20as%5Cnthe%20%22main_tutorial%22%2C%20and%20the%20new%20tutorial%20being%20imported%5Cnas%20the%20%22synced_tutorial%22%0AAdmin-%3EFrontend-WEB%3A%3E%20Viewing%20list%20of%20tutorials%20for%20SIT378%5Cn%3E%20Synced%20tutorials%20have%20their%20inputs%20disabled%20and%5Cncannot%20be%20modified%2C%20with%20a%20tooltip%20showing%3A%20%22This%5Cnunit%20is%20synced%20from%20SIT374%22.%0Anote%20over%20Admin%2CBackend-API%3A**Viewing%20SIT374%20(Project%20A)**%0A%0AAdmin-%3EFrontend-WEB%3A%3E%20Viewing%20list%20of%20tutorials%5Cn%3E%20Tutorials%20can%20be%20modified%5Cn%3E%20Admin%20modifies%20one%20Mentor%20tutorial%20to%20adjust%20the%20capacity%0AFrontend-WEB-%3EBackend-API%3A%3E%20Before%20saving%20changes%20to%20the%20unit%2C%20checks%20to%20see%5Cnif%20this%20unit%20is%20synced%20elsewhere%20by%20looking%20in%5Cn%60unit_tutorial_syncs%5Cn%3E%20If%20synced%20unit(s)%20exists%2C%20same%20changes%20are%20applied%20to%20them.%5Cn%3E%20If%20main%20tutorial%20is%20deleted%2C%20only%20the%20sync%20is%20removed.%5CnThe%20synced%20tutorials%20in%20other%20units%20will%20now%20be%20able%20to%20modified%5Cnand%20will%20exist%20as%20their%20own%20tutorial%0A%0Anote%20over%20Admin%2CBackend-API%3A**Setting%20up%20capstone%20projects%20(For%20each%20unit)**%0AAdmin-%3EFrontend-WEB%3AEnable%20the%20%22Is%20Capstone%20Unit%3F%22%5Cncheckbox%20in%20the%20unit%20admin%20dashboard%0AFrontend-WEB-%3EBackend-API%3ASet%20the%20%60units.is_capstone%60%20property%20to%20TRUE%0A%0AAdmin-%3EFrontend-WEB%3A%3E%20Navigate%20to%20the%20%22Capstone%22%20tab%20in%20the%5Cnunit%20admin%20dashboard%5Cn%3E%20Create%20a%20new%20%22Company%20Project%22%20record%5Cn%3E%20Assign%20which%20Company%20Group%20it%20belongs%20to%5Cn%3E%20Select%20which%20tutorials%20belong%20to%20that%20project.%0A%0AFrontend-WEB-%3EBackend-API%3A%3E%20Create%20a%20new%20record%20in%20%60capstone_company_projects%60%5Cn%3E%20For%20each%20selected%20tutorial%2C%20create%20a%20record%20in%5Cn%60capstone_company_project_tutorials%60%2C%20linking%5Cn%20the%20project%20and%20tutorial%20together.%0A%0AAdmin--%3EFrontend-WEB%3A(Repeat%20for%20each%20project%20in%20every%20company)%5Cn(Repeat%20for%20both%20SIT374%20and%20SIT378)%0A%0Anote%20over%20Admin%2CBackend-API%3A**Setting%20up%20the%20enrolment%20form**%0AAdmin-%3EFrontend-WEB%3A%3E%20Create%20a%20new%20task%20(0.1P%20Company%20enrolment%20form)%5Cn%3E%20Tick%20the%20%22Enable%20enrolment%20form%20for%20this%20task%22%5Cn%3E%20Select%20which%20group%20set%20to%20use%20for%20the%20companies%5Cn%3E%20A%20file%20submission%20of%20an%20image%20is%20required%20for%20the%20task%5Cnallowing%20students%20to%20screenshot%20their%20response%20and%20upload%20it%5Cnto%20the%20task.%20Only%20used%20to%20enforce%20a%20submission%20before%20completing%5Cnthe%20task%2C%20and%20is%20saved%20into%20the%20final%20portfolio%20as%20a%20record.%0AFrontend-WEB-%3EBackend-API%3A%3E%20Set%20%60capstone_form_enable%60%20to%20TRUE%20for%20the%20task%5Cn%3E%20Set%20%60capstone_company_group_set_id%60%20to%20the%20selected%20group%0Anote%20over%20Admin%2CBackend-API%3A**Completing%20the%20form%20as%20a%20student**%0AStudent-%3EFrontend-WEB%3A%3E%20Navigate%20to%20SIT374%20%26%20view%20task%200.1P%20Enrolment%20form%5Cn%3E%20Presented%20with%20a%20box%20outlining%20the%20description%20of%20the%20form%5Cn%3E%20Selects%20the%20%22Begin%20Enrolment%22%20button%0AFrontend-WEB-%3EBackend-API%3A%3E%20As%20the%20form%20is%20loading%2C%20it%20fetches%20all%20the%20groups%5Cnfrom%20the%20group%20set%20configured%20in%20the%20task%20(%22Company%22)%5Cn%3E%20Fetch%20list%20of%20projects%20from%20%60capstone_company_projects%60%5Cn%3E%20Fetch%20list%20of%20tutorials%20from%20%60capstone_company_project_tutorials%60%5Cn%3E%20These%20tutorials%20will%20be%20cross-checked%20using%20%60unit_tutorial_syncs%60%5Cntogether%20with%20%60tutorial_enrolments%60%20to%20identify%20the%5Cnnumber%20of%20students%20enrolled%20in%20the%20project%20from%20both%20SIT374%20and%20SIT378%0ABackend-API--%3EFrontend-WEB%3AReturn%20company%20groups%2C%20projects%2C%20and%20related%20tutorials.%0AFrontend-WEB--%3EStudent%3APresent%20the%20enrolment%20form%20as%20a%20modal%0AStudent-%3EFrontend-WEB%3A%3E%20Fills%20out%20the%20form%20and%20submits%20response%0AFrontend-WEB-%3EBackend-API%3A%3E%20Validate%20the%20user%20hasn't%20submitted%20a%20response%20yet%5Cn%3E%20Validate%20that%20the%20selected%20group%20and%20project%20exists%20for%20current%20unit%20(SIT374)%5Cn%3E%20Validate%20that%20the%20capacity%20for%20selected%20tutorial%20has%20not%20been%20exceeded.%5Cn%3E%20If%20valid%3A%5Cn%3E%20Enrol%20the%20student%20in%20the%20Company%20Group%5Cn%3E%20Enrol%20the%20student%20in%20the%20Company%20tutorial%5Cn%3E%20Enrol%20the%20student%20into%20the%20project%20tutorial%5Cn%3E%20Save%20their%20response%20into%20%60capstone_form_responses%60%5Cn%3E%20(Prevent%20automatic%20enrolment%20if%20the%20task%20is%20overdue%3F%20Allows%20late-comers%20to%5Cnsellect%20a%20company%20and%20project%2C%20but%20requires%20an%20admin%20to%20manually%20enrol%5Cnthem%20into%20the%20group%20and%20tutorials)%0AStudent-%3EFrontend-WEB%3A%3E%20Task%20details%20box%20now%20displays%20%22Successful%20form%20submission%22%5Cn%3E%20Student%20can%20select%20%22View%20response%22%2C%20displaying%20the%20same%5Cnmodal%20with%20their%20filled%20out%20details%2C%20with%20inputs%20disabled%0AStudent-%3EFrontend-WEB%3ATo%20complete%20the%20task%2C%20the%20student%20must%20take%20a%20screenshot%5Cnof%20their%20completed%20form%20submission%2C%20and%20upload%20it%20to%20the%20task.%0A%0Anote%20over%20Admin%2CBackend-API%3A**Viewing%20responses**%0A%0AAdmin-%3EFrontend-WEB%3AWhile%20assessing%20the%20submitted%20task%2C%5Cntutors%20are%20also%20able%20to%20%22View%20response%22%5Cnto%20view%20their%20submission.%5Cn(Or%20this%20could%20be%20viewed%20via%20their%20task%20submission%5Cnusing%20their%20uploaded%20screenshot)%0AAdmin-%3EFrontend-WEB%3AAdmins%20can%20navigate%20to%20the%20capstone%20tab%5Cnin%20the%20unit%20admin%20dashboard%2C%20and%20download%5Cna%20list%20of%20all%20the%20submitted%20responses%20as%20a%20CSV%0A%0A</desc>
+    <defs />
+    <g>
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g />
+        <g>
+            <rect fill="white" stroke="none" x="0" y="0" width="1407" height="3362" />
+        </g>
+        <g />
+        <g>
+            <path fill="none" stroke="black" paint-order="fill stroke markers"
+                d=" M 51.15972221829298 95.73914152281817 L 51.15972221829298 3362.779801522817"
+                stroke-miterlimit="10" stroke-width="1.3612669416666667"
+                stroke-dasharray="12.565541,5.445067766666667" />
+            <path fill="none" stroke="black" paint-order="fill stroke markers"
+                d=" M 273.49108734013544 95.73914152281817 L 273.49108734013544 3362.779801522817"
+                stroke-miterlimit="10" stroke-width="1.3612669416666667"
+                stroke-dasharray="12.565541,5.445067766666667" />
+            <path fill="none" stroke="black" paint-order="fill stroke markers"
+                d=" M 799.6785368221016 95.73914152281817 L 799.6785368221016 3362.779801522817"
+                stroke-miterlimit="10" stroke-width="1.3612669416666667"
+                stroke-dasharray="12.565541,5.445067766666667" />
+            <path fill="none" stroke="black" paint-order="fill stroke markers"
+                d=" M 1338.829410986685 95.73914152281817 L 1338.829410986685 3362.779801522817"
+                stroke-miterlimit="10" stroke-width="1.3612669416666667"
+                stroke-dasharray="12.565541,5.445067766666667" />
+        </g>
+        <g>
+            <path fill="none" stroke="none" />
+            <g>
+                <path fill="white" stroke="black" paint-order="fill stroke markers"
+                    d=" M 8.167601650000002 51.63409261281818 L 94.15184278658595 51.63409261281818 L 94.15184278658595 95.73914152281817 L 8.167601650000002 95.73914152281817 L 8.167601650000002 51.63409261281818 Z"
+                    stroke-miterlimit="10" stroke-width="2.613632528" stroke-dasharray="" />
+            </g>
+            <g>
+                <g />
+                <text fill="black" stroke="none" font-family="sans-serif" font-size="11pt"
+                    font-style="normal" font-weight="normal" text-decoration="normal"
+                    x="25.891297230500008" y="79.40393822281817" text-anchor="start"
+                    dominant-baseline="alphabetic" xml:space="preserve">Student</text>
+            </g>
+            <path fill="none" stroke="none" />
+            <g>
+                <path fill="white" stroke="black" paint-order="fill stroke markers"
+                    d=" M 234.99073465514323 51.63409261281818 L 311.99144002512764 51.63409261281818 L 311.99144002512764 95.73914152281817 L 234.99073465514323 95.73914152281817 L 234.99073465514323 51.63409261281818 Z"
+                    stroke-miterlimit="10" stroke-width="2.613632528" stroke-dasharray="" />
+            </g>
+            <g>
+                <g />
+                <text fill="black" stroke="none" font-family="sans-serif" font-size="11pt"
+                    font-style="normal" font-weight="normal" text-decoration="normal"
+                    x="252.71443023564325" y="79.40393822281817" text-anchor="start"
+                    dominant-baseline="alphabetic" xml:space="preserve">Admin</text>
+            </g>
+            <path fill="none" stroke="none" />
+            <g>
+                <path fill="white" stroke="black" paint-order="fill stroke markers"
+                    d=" M 733.4795528504883 51.63409261281818 L 865.8775207937149 51.63409261281818 L 865.8775207937149 95.73914152281817 L 733.4795528504883 95.73914152281817 L 733.4795528504883 51.63409261281818 Z"
+                    stroke-miterlimit="10" stroke-width="2.613632528" stroke-dasharray="" />
+            </g>
+            <g>
+                <g />
+                <text fill="black" stroke="none" font-family="sans-serif" font-size="11pt"
+                    font-style="normal" font-weight="normal" text-decoration="normal"
+                    x="751.2032484309883" y="79.40393822281817" text-anchor="start"
+                    dominant-baseline="alphabetic" xml:space="preserve">Frontend-WEB</text>
+            </g>
+            <path fill="none" stroke="none" />
+            <g>
+                <path fill="white" stroke="black" paint-order="fill stroke markers"
+                    d=" M 1278.3247782113608 51.63409261281818 L 1399.3340437620093 51.63409261281818 L 1399.3340437620093 95.73914152281817 L 1278.3247782113608 95.73914152281817 L 1278.3247782113608 51.63409261281818 Z"
+                    stroke-miterlimit="10" stroke-width="2.613632528" stroke-dasharray="" />
+            </g>
+            <g>
+                <g />
+                <text fill="black" stroke="none" font-family="sans-serif" font-size="11pt"
+                    font-style="normal" font-weight="normal" text-decoration="normal"
+                    x="1296.0484737918607" y="79.40393822281817" text-anchor="start"
+                    dominant-baseline="alphabetic" xml:space="preserve">Backend-API</text>
+            </g>
+        </g>
+        <g>
+            <g>
+                <text fill="black" stroke="none" font-family="sans-serif" font-size="16pt"
+                    font-style="normal" font-weight="normal" text-decoration="normal"
+                    x="539.8799209594727" y="24.651306798181814" text-anchor="start"
+                    dominant-baseline="alphabetic" xml:space="preserve">Capstone Self Enrolment Proposal</text>
+            </g>
+            <path fill="white" stroke="black" paint-order="fill stroke markers"
+                d=" M 258.78940437013546 128.4095481228182 L 1338.8294109866847 128.4095481228182 L 1353.5310939566848 143.1112310928182 L 1353.5310939566848 165.98051571281817 L 258.78940437013546 165.98051571281817 L 258.78940437013546 128.4095481228182 M 1338.8294109866847 128.4095481228182 L 1338.8294109866847 143.1112310928182 L 1353.5310939566848 143.1112310928182"
+                stroke-miterlimit="10" stroke-width="1.3612669416666667" stroke-dasharray="" />
+            <g>
+                <text fill="black" stroke="none" font-family="sans-serif" font-size="11pt"
+                    font-style="normal" font-weight="bold" text-decoration="normal"
+                    x="711.6613401668282" y="151.27883274281814" text-anchor="start"
+                    dominant-baseline="alphabetic" xml:space="preserve">Creating SIT374 (Project A)</text>
+            </g>
+            <g>
+                <rect fill="white" stroke="none" x="431.0529504703959" y="190.4833206628182"
+                    width="211.06372322144531" height="21.23576429" />
+                <rect fill="white" stroke="none" x="431.0529504703959" y="206.81852396281818"
+                    width="188.21470893921875" height="21.23576429" />
+                <rect fill="white" stroke="none" x="431.0529504703959" y="223.15372726281817"
+                    width="123.876879349375" height="21.23576429" />
+                <text fill="black" stroke="none" font-family="sans-serif" font-size="11pt"
+                    font-style="normal" font-weight="normal" text-decoration="normal"
+                    x="433.5032309653959" y="205.18500363281817" text-anchor="start"
+                    dominant-baseline="alphabetic" xml:space="preserve">Create SIT374 &amp; SIT378 for the</text>
+                <text fill="black" stroke="none" font-family="sans-serif" font-size="11pt"
+                    font-style="normal" font-weight="normal" text-decoration="normal"
+                    x="433.5032309653959" y="221.52020693281816" text-anchor="start"
+                    dominant-baseline="alphabetic" xml:space="preserve">new trimester by rolling over</text>
+                <text fill="black" stroke="none" font-family="sans-serif" font-size="11pt"
+                    font-style="normal" font-weight="normal" text-decoration="normal"
+                    x="433.5032309653959" y="237.85541023281814" text-anchor="start"
+                    dominant-baseline="alphabetic" xml:space="preserve">the previous units.</text>
+            </g>
+            <g>
+                <path fill="none" stroke="black" paint-order="fill stroke markers"
+                    d=" M 273.49108734013544 244.38949155281819 L 786.2292194384349 244.38949155281819"
+                    stroke-miterlimit="10" stroke-width="1.3612669416666667" stroke-dasharray="" />
+                <g
+                    transform="translate(799.6785368221016,244.38949155281819) translate(-799.6785368221016,-244.38949155281819)">
+                    <path fill="black" stroke="none" paint-order="stroke fill markers"
+                        d=" M 786.0658674054349 237.58315684448485 L 799.6785368221016 244.38949155281819 L 786.0658674054349 251.19582626115152 Z" />
+                </g>
+            </g>
+            <g>
+                <rect fill="white" stroke="none" x="903.8402839855651" y="268.89229650281817"
+                    width="151.57194770875" height="21.23576429" />
+                <rect fill="white" stroke="none" x="903.8402839855651" y="285.22749980281816"
+                    width="330.8273798376562" height="21.23576429" />
+                <rect fill="white" stroke="none" x="903.8402839855651" y="301.56270310281815"
+                    width="123.06802619996094" height="21.23576429" />
+                <text fill="black" stroke="none" font-family="sans-serif" font-size="11pt"
+                    font-style="normal" font-weight="normal" text-decoration="normal"
+                    x="906.2905644805651" y="283.59397947281815" text-anchor="start"
+                    dominant-baseline="alphabetic" xml:space="preserve">New units are created.</text>
+                <text fill="black" stroke="none" font-family="sans-serif" font-size="11pt"
+                    font-style="normal" font-weight="normal" text-decoration="normal"
+                    x="906.2905644805651" y="299.92918277281814" text-anchor="start"
+                    dominant-baseline="alphabetic" xml:space="preserve">Duplicates the `group_sets` and `tutorial_streams`</text>
+                <text fill="black" stroke="none" font-family="sans-serif" font-size="11pt"
+                    font-style="normal" font-weight="normal" text-decoration="normal"
+                    x="906.2905644805651" y="316.2643860728181" text-anchor="start"
+                    dominant-baseline="alphabetic" xml:space="preserve">into the new units.</text>
+            </g>
+            <g>
+                <path fill="none" stroke="black" paint-order="fill stroke markers"
+                    d=" M 799.6785368221016 322.79846739281817 L 1325.3800936030182 322.79846739281817"
+                    stroke-miterlimit="10" stroke-width="1.3612669416666667" stroke-dasharray="" />
+                <g
+                    transform="translate(1338.829410986685,322.79846739281817) translate(-1338.829410986685,-322.79846739281817)">
+                    <path fill="black" stroke="none" paint-order="stroke fill markers"
+                        d=" M 1325.2167415700183 315.99213268448483 L 1338.829410986685 322.79846739281817 L 1325.2167415700183 329.6048021011515 Z" />
+                </g>
+            </g>
+            <g>
+                <rect fill="white" stroke="none" x="292.82107791180215" y="347.30127234281815"
+                    width="422.5095087439062" height="21.23576429" />
+                <rect fill="white" stroke="none" x="292.82107791180215" y="363.63647564281814"
+                    width="407.4272333532812" height="21.23576429" />
+                <rect fill="white" stroke="none" x="292.82107791180215" y="379.97167894281813"
+                    width="276.2246881872656" height="21.23576429" />
+                <rect fill="white" stroke="none" x="292.82107791180215" y="396.3068822428181"
+                    width="487.5274530798437" height="21.23576429" />
+                <rect fill="white" stroke="none" x="292.82107791180215" y="412.6420855428181"
+                    width="338.1931635290625" height="21.23576429" />
+                <text fill="black" stroke="none" font-family="sans-serif" font-size="11pt"
+                    font-style="normal" font-weight="normal" text-decoration="normal"
+                    x="295.27135840680216" y="362.00295531281813" text-anchor="start"
+                    dominant-baseline="alphabetic" xml:space="preserve">&gt; Either download and import CSV of tutorials from previous unit</text>
+                <text fill="black" stroke="none" font-family="sans-serif" font-size="11pt"
+                    font-style="normal" font-weight="normal" text-decoration="normal"
+                    x="295.27135840680216" y="378.3381586128181" text-anchor="start"
+                    dominant-baseline="alphabetic" xml:space="preserve">or manually create a CSV of tutorials, importing it into the unit.</text>
+                <text fill="black" stroke="none" font-family="sans-serif" font-size="11pt"
+                    font-style="normal" font-weight="normal" text-decoration="normal"
+                    x="295.27135840680216" y="394.6733619128181" text-anchor="start"
+                    dominant-baseline="alphabetic" xml:space="preserve">(Or manually create tutorials one-by-one).</text>
+                <text fill="black" stroke="none" font-family="sans-serif" font-size="11pt"
+                    font-style="normal" font-weight="normal" text-decoration="normal"
+                    x="295.27135840680216" y="411.0085652128181" text-anchor="start"
+                    dominant-baseline="alphabetic" xml:space="preserve">&gt; The name of the "Company" tutorials will be used in the groups CSV file,</text>
+                <text fill="black" stroke="none" font-family="sans-serif" font-size="11pt"
+                    font-style="normal" font-weight="normal" text-decoration="normal"
+                    x="295.27135840680216" y="427.3437685128181" text-anchor="start"
+                    dominant-baseline="alphabetic" xml:space="preserve">linking each Company group to a Company tutorial.</text>
+            </g>
+            <g>
+                <path fill="none" stroke="black" paint-order="fill stroke markers"
+                    d=" M 273.49108734013544 433.8778498328182 L 786.2292194384349 433.8778498328182"
+                    stroke-miterlimit="10" stroke-width="1.3612669416666667" stroke-dasharray="" />
+                <g
+                    transform="translate(799.6785368221016,433.8778498328182) translate(-799.6785368221016,-433.8778498328182)">
+                    <path fill="black" stroke="none" paint-order="stroke fill markers"
+                        d=" M 786.0658674054349 427.07151512448485 L 799.6785368221016 433.8778498328182 L 786.0658674054349 440.6841845411515 Z" />
+                </g>
+            </g>
+            <g>
+                <rect fill="white" stroke="none" x="438.44380435223184" y="458.38065478281817"
+                    width="157.28418220582031" height="21.23576429" />
+                <rect fill="white" stroke="none" x="438.44380435223184" y="474.71585808281816"
+                    width="196.28201545777344" height="21.23576429" />
+                <rect fill="white" stroke="none" x="438.44380435223184" y="491.05106138281815"
+                    width="121.41446174683594" height="21.23576429" />
+                <text fill="black" stroke="none" font-family="sans-serif" font-size="11pt"
+                    font-style="normal" font-weight="normal" text-decoration="normal"
+                    x="440.89408484723185" y="473.08233775281815" text-anchor="start"
+                    dominant-baseline="alphabetic" xml:space="preserve">Download list of groups</text>
+                <text fill="black" stroke="none" font-family="sans-serif" font-size="11pt"
+                    font-style="normal" font-weight="normal" text-decoration="normal"
+                    x="440.89408484723185" y="489.41754105281814" text-anchor="start"
+                    dominant-baseline="alphabetic" xml:space="preserve">from the 'Company' group set</text>
+                <text fill="black" stroke="none" font-family="sans-serif" font-size="11pt"
+                    font-style="normal" font-weight="normal" text-decoration="normal"
+                    x="440.89408484723185" y="505.7527443528181" text-anchor="start"
+                    dominant-baseline="alphabetic" xml:space="preserve">from previous unit</text>
+            </g>
+            <g>
+                <path fill="none" stroke="black" paint-order="fill stroke markers"
+                    d=" M 273.49108734013544 512.2868256728182 L 786.2292194384349 512.2868256728182"
+                    stroke-miterlimit="10" stroke-width="1.3612669416666667" stroke-dasharray="" />
+                <g
+                    transform="translate(799.6785368221016,512.2868256728182) translate(-799.6785368221016,-512.2868256728182)">
+                    <path fill="black" stroke="none" paint-order="stroke fill markers"
+                        d=" M 786.0658674054349 505.48049096448483 L 799.6785368221016 512.2868256728182 L 786.0658674054349 519.0931603811515 Z" />
+                </g>
+            </g>
+            <g>
+                <rect fill="white" stroke="none" x="1004.8781639294127" y="536.7896306228181"
+                    width="128.75161994996094" height="21.23576429" />
+                <text fill="black" stroke="none" font-family="sans-serif" font-size="11pt"
+                    font-style="normal" font-weight="normal" text-decoration="normal"
+                    x="1007.3284444244127" y="551.4913135928181" text-anchor="start"
+                    dominant-baseline="alphabetic" xml:space="preserve">Fetch list of groups</text>
+            </g>
+            <g>
+                <path fill="none" stroke="black" paint-order="fill stroke markers"
+                    d=" M 799.6785368221016 558.0253949128181 L 1325.3800936030182 558.0253949128181"
+                    stroke-miterlimit="10" stroke-width="1.3612669416666667"
+                    stroke-dasharray="6.53408132" />
+                <g
+                    transform="translate(1338.829410986685,558.0253949128181) translate(-1338.829410986685,-558.0253949128181)">
+                    <path fill="black" stroke="none" paint-order="stroke fill markers"
+                        d=" M 1325.2167415700183 551.2190602044848 L 1338.829410986685 558.0253949128181 L 1325.2167415700183 564.8317296211515 Z" />
+                </g>
+            </g>
+            <g>
+                <rect fill="white" stroke="none" x="699.8231125893086" y="582.528199862818"
+                    width="212.67427314820313" height="21.23576429" />
+                <text fill="black" stroke="none" font-family="sans-serif" font-size="11pt"
+                    font-style="normal" font-weight="normal" text-decoration="normal"
+                    x="702.2733930843086" y="597.229882832818" text-anchor="start"
+                    dominant-baseline="alphabetic" xml:space="preserve">Return list of groups as CSV file</text>
+            </g>
+            <g>
+                <path fill="none" stroke="black" paint-order="fill stroke markers"
+                    d=" M 1338.829410986685 603.7639641528181 L 286.9404047238021 603.7639641528181"
+                    stroke-miterlimit="10" stroke-width="1.3612669416666667"
+                    stroke-dasharray="6.53408132" />
+                <g
+                    transform="translate(273.49108734013544,603.7639641528181) translate(-273.49108734013544,-603.7639641528181)">
+                    <path fill="black" stroke="none" paint-order="stroke fill markers"
+                        d=" M 287.1037567568021 596.9576294444847 L 273.49108734013544 603.7639641528181 L 287.1037567568021 610.5702988611514 Z" />
+                </g>
+            </g>
+            <g>
+                <rect fill="white" stroke="none" x="364.33143100018106" y="628.266769102818"
+                    width="344.506762161875" height="21.23576429" />
+                <text fill="black" stroke="none" font-family="sans-serif" font-size="11pt"
+                    font-style="normal" font-weight="normal" text-decoration="normal"
+                    x="366.78171149518107" y="642.968452072818" text-anchor="start"
+                    dominant-baseline="alphabetic" xml:space="preserve">Import "Company" groups via CSV into the new unit.</text>
+            </g>
+            <g>
+                <path fill="none" stroke="black" paint-order="fill stroke markers"
+                    d=" M 273.49108734013544 649.502533392818 L 786.2292194384349 649.502533392818"
+                    stroke-miterlimit="10" stroke-width="1.3612669416666667" stroke-dasharray="" />
+                <g
+                    transform="translate(799.6785368221016,649.502533392818) translate(-799.6785368221016,-649.502533392818)">
+                    <path fill="black" stroke="none" paint-order="stroke fill markers"
+                        d=" M 786.0658674054349 642.6961986844847 L 799.6785368221016 649.502533392818 L 786.0658674054349 656.3088681011513 Z" />
+                </g>
+            </g>
+            <g>
+                <rect fill="white" stroke="none" x="916.5746818737487" y="674.005338342818"
+                    width="305.3585993200781" height="21.23576429" />
+                <rect fill="white" stroke="none" x="916.5746818737487" y="690.340541642818"
+                    width="215.97418464722656" height="21.23576429" />
+                <text fill="black" stroke="none" font-family="sans-serif" font-size="11pt"
+                    font-style="normal" font-weight="normal" text-decoration="normal"
+                    x="919.0249623687487" y="688.707021312818" text-anchor="start"
+                    dominant-baseline="alphabetic" xml:space="preserve">Insert groups into the database based off CSV</text>
+                <text fill="black" stroke="none" font-family="sans-serif" font-size="11pt"
+                    font-style="normal" font-weight="normal" text-decoration="normal"
+                    x="919.0249623687487" y="705.042224612818" text-anchor="start"
+                    dominant-baseline="alphabetic" xml:space="preserve">linking defined tutorials to group.</text>
+            </g>
+            <g>
+                <path fill="none" stroke="black" paint-order="fill stroke markers"
+                    d=" M 799.6785368221016 711.5763059328181 L 1325.3800936030182 711.5763059328181"
+                    stroke-miterlimit="10" stroke-width="1.3612669416666667"
+                    stroke-dasharray="6.53408132" />
+                <g
+                    transform="translate(1338.829410986685,711.5763059328181) translate(-1338.829410986685,-711.5763059328181)">
+                    <path fill="black" stroke="none" paint-order="stroke fill markers"
+                        d=" M 1325.2167415700183 704.7699712244847 L 1338.829410986685 711.5763059328181 L 1325.2167415700183 718.3826406411514 Z" />
+                </g>
+            </g>
+            <g>
+                <rect fill="white" stroke="none" x="368.3292947697123" y="736.079110882818"
+                    width="336.5110346228125" height="21.23576429" />
+                <text fill="black" stroke="none" font-family="sans-serif" font-size="11pt"
+                    font-style="normal" font-weight="normal" text-decoration="normal"
+                    x="370.7795752647123" y="750.780793852818" text-anchor="start"
+                    dominant-baseline="alphabetic" xml:space="preserve">Import tasks, import unit alignment outcomes, etc...</text>
+            </g>
+            <g>
+                <path fill="none" stroke="black" paint-order="fill stroke markers"
+                    d=" M 273.49108734013544 757.314875172818 L 786.2292194384349 757.314875172818"
+                    stroke-miterlimit="10" stroke-width="1.3612669416666667"
+                    stroke-dasharray="6.53408132" />
+                <g
+                    transform="translate(799.6785368221016,757.314875172818) translate(-799.6785368221016,-757.314875172818)">
+                    <path fill="black" stroke="none" paint-order="stroke fill markers"
+                        d=" M 786.0658674054349 750.5085404644847 L 799.6785368221016 757.314875172818 L 786.0658674054349 764.1212098811513 Z" />
+                </g>
+            </g>
+            <path fill="white" stroke="black" paint-order="fill stroke markers"
+                d=" M 258.78940437013546 781.817680122818 L 1338.8294109866847 781.817680122818 L 1353.5310939566848 796.519363092818 L 1353.5310939566848 819.388647712818 L 258.78940437013546 819.388647712818 L 258.78940437013546 781.817680122818 M 1338.8294109866847 781.817680122818 L 1338.8294109866847 796.519363092818 L 1353.5310939566848 796.519363092818"
+                stroke-miterlimit="10" stroke-width="1.3612669416666667" stroke-dasharray="" />
+            <g>
+                <text fill="black" stroke="none" font-family="sans-serif" font-size="11pt"
+                    font-style="normal" font-weight="bold" text-decoration="normal"
+                    x="711.6613401668282" y="804.6869647428181" text-anchor="start"
+                    dominant-baseline="alphabetic" xml:space="preserve">Creating SIT378 (Project B)</text>
+            </g>
+            <g>
+                <rect fill="white" stroke="none" x="393.99141940350137" y="843.8914526628181"
+                    width="202.07298530640625" height="21.23576429" />
+                <rect fill="white" stroke="none" x="393.99141940350137" y="860.2266559628181"
+                    width="285.18678535523435" height="21.23576429" />
+                <text fill="black" stroke="none" font-family="sans-serif" font-size="11pt"
+                    font-style="normal" font-weight="normal" text-decoration="normal"
+                    x="396.4416998985014" y="858.5931356328181" text-anchor="start"
+                    dominant-baseline="alphabetic" xml:space="preserve">Import/Create tutorials only for</text>
+                <text fill="black" stroke="none" font-family="sans-serif" font-size="11pt"
+                    font-style="normal" font-weight="normal" text-decoration="normal"
+                    x="396.4416998985014" y="874.9283389328181" text-anchor="start"
+                    dominant-baseline="alphabetic" xml:space="preserve">the Company &amp; Enrolment tutorial streams.</text>
+            </g>
+            <g>
+                <path fill="none" stroke="black" paint-order="fill stroke markers"
+                    d=" M 273.49108734013544 881.4624202528181 L 786.2292194384349 881.4624202528181"
+                    stroke-miterlimit="10" stroke-width="1.3612669416666667" stroke-dasharray="" />
+                <g
+                    transform="translate(799.6785368221016,881.4624202528181) translate(-799.6785368221016,-881.4624202528181)">
+                    <path fill="black" stroke="none" paint-order="stroke fill markers"
+                        d=" M 786.0658674054349 874.6560855444848 L 799.6785368221016 881.4624202528181 L 786.0658674054349 888.2687549611514 Z" />
+                </g>
+            </g>
+            <g>
+                <rect fill="white" stroke="none" x="342.37010440105996" y="905.9652252028181"
+                    width="330.2476068884375" height="21.23576429" />
+                <rect fill="white" stroke="none" x="342.37010440105996" y="922.3004285028181"
+                    width="154.80028022828125" height="21.23576429" />
+                <rect fill="white" stroke="none" x="342.37010440105996" y="922.3004285028181"
+                    width="52.16612495484375" height="21.23576429" />
+                <rect fill="white" stroke="none" x="342.37010440105996" y="922.3004285028181"
+                    width="8.973574295664061" height="21.23576429" />
+                <rect fill="white" stroke="none" x="342.37010440105996" y="938.6356318028181"
+                    width="353.2254206091406" height="21.23576429" />
+                <rect fill="white" stroke="none" x="342.37010440105996" y="954.9708351028181"
+                    width="368.1359125525" height="21.23576429" />
+                <rect fill="white" stroke="none" x="342.37010440105996" y="971.3060384028181"
+                    width="388.4294306189062" height="21.23576429" />
+                <rect fill="white" stroke="none" x="342.37010440105996" y="987.6412417028181"
+                    width="376.0671869665625" height="21.23576429" />
+                <text fill="black" stroke="none" font-family="sans-serif" font-size="11pt"
+                    font-style="normal" font-weight="normal" text-decoration="normal"
+                    x="344.82038489606" y="920.6669081728181" text-anchor="start"
+                    dominant-baseline="alphabetic" xml:space="preserve">&gt; Use the "Sync tutorial from external unit" feature</text>
+                <text fill="black" stroke="none" font-family="sans-serif" font-size="11pt"
+                    font-style="normal" font-weight="normal" text-decoration="normal"
+                    x="344.82038489606" y="937.0021114728181" text-anchor="start"
+                    dominant-baseline="alphabetic" xml:space="preserve">to import tutorials from </text>
+                <text fill="black" stroke="none" font-family="sans-serif" font-size="11pt"
+                    font-style="normal" font-weight="bold" text-decoration="normal"
+                    x="494.7201041343412" y="937.0021114728181" text-anchor="start"
+                    dominant-baseline="alphabetic" xml:space="preserve">SIT374</text>
+                <text fill="black" stroke="none" font-family="sans-serif" font-size="11pt"
+                    font-style="normal" font-weight="normal" text-decoration="normal"
+                    x="541.985668099185" y="937.0021114728181" text-anchor="start"
+                    dominant-baseline="alphabetic" xml:space="preserve">.</text>
+                <text fill="black" stroke="none" font-family="sans-serif" font-size="11pt"
+                    font-style="normal" font-weight="normal" text-decoration="normal"
+                    x="344.82038489606" y="953.3373147728181" text-anchor="start"
+                    dominant-baseline="alphabetic" xml:space="preserve">&gt; Admin selects the unit to import from (SIT374), then</text>
+                <text fill="black" stroke="none" font-family="sans-serif" font-size="11pt"
+                    font-style="normal" font-weight="normal" text-decoration="normal"
+                    x="344.82038489606" y="969.6725180728181" text-anchor="start"
+                    dominant-baseline="alphabetic" xml:space="preserve">using the multi-select dropdown, selects all the "Mentor"</text>
+                <text fill="black" stroke="none" font-family="sans-serif" font-size="11pt"
+                    font-style="normal" font-weight="normal" text-decoration="normal"
+                    x="344.82038489606" y="986.0077213728181" text-anchor="start"
+                    dominant-baseline="alphabetic" xml:space="preserve">tutorials from SIT374, they will then have to assign the staff</text>
+                <text fill="black" stroke="none" font-family="sans-serif" font-size="11pt"
+                    font-style="normal" font-weight="normal" text-decoration="normal"
+                    x="344.82038489606" y="1002.3429246728181" text-anchor="start"
+                    dominant-baseline="alphabetic" xml:space="preserve">from SIT374 for each tutorial then click "Sync" or "Import"</text>
+            </g>
+            <g>
+                <path fill="none" stroke="black" paint-order="fill stroke markers"
+                    d=" M 273.49108734013544 1008.8770059928181 L 786.2292194384349 1008.8770059928181"
+                    stroke-miterlimit="10" stroke-width="1.3612669416666667" stroke-dasharray="" />
+                <g
+                    transform="translate(799.6785368221016,1008.8770059928181) translate(-799.6785368221016,-1008.8770059928181)">
+                    <path fill="black" stroke="none" paint-order="stroke fill markers"
+                        d=" M 786.0658674054349 1002.0706712844848 L 799.6785368221016 1008.8770059928181 L 786.0658674054349 1015.6833407011515 Z" />
+                </g>
+            </g>
+            <g>
+                <rect fill="white" stroke="none" x="851.2454353527526" y="1033.379810942818"
+                    width="259.1309381872656" height="21.23576429" />
+                <rect fill="white" stroke="none" x="851.2454353527526" y="1049.7150142428181"
+                    width="241.19253791871094" height="21.23576429" />
+                <rect fill="white" stroke="none" x="851.2454353527526" y="1066.0502175428182"
+                    width="267.8137995153906" height="21.23576429" />
+                <rect fill="white" stroke="none" x="851.2454353527526" y="1082.3854208428183"
+                    width="436.017016068125" height="21.23576429" />
+                <text fill="black" stroke="none" font-family="sans-serif" font-size="11pt"
+                    font-style="normal" font-weight="normal" text-decoration="normal"
+                    x="853.6957158477526" y="1048.0814939128181" text-anchor="start"
+                    dominant-baseline="alphabetic" xml:space="preserve">The API will duplicate selected tutorials</text>
+                <text fill="black" stroke="none" font-family="sans-serif" font-size="11pt"
+                    font-style="normal" font-weight="normal" text-decoration="normal"
+                    x="853.6957158477526" y="1064.4166972128182" text-anchor="start"
+                    dominant-baseline="alphabetic" xml:space="preserve">but link them under SIT378. This will</text>
+                <text fill="black" stroke="none" font-family="sans-serif" font-size="11pt"
+                    font-style="normal" font-weight="normal" text-decoration="normal"
+                    x="853.6957158477526" y="1080.7519005128183" text-anchor="start"
+                    dominant-baseline="alphabetic" xml:space="preserve">copy over attributes like tutorial capacity.</text>
+                <text fill="black" stroke="none" font-family="sans-serif" font-size="11pt"
+                    font-style="normal" font-weight="normal" text-decoration="normal"
+                    x="853.6957158477526" y="1097.0871038128184" text-anchor="start"
+                    dominant-baseline="alphabetic" xml:space="preserve">These tutorials [at this stage] are unique to the unit and separated.</text>
+            </g>
+            <g>
+                <path fill="none" stroke="black" paint-order="fill stroke markers"
+                    d=" M 799.6785368221016 1103.621185132818 L 1325.3800936030182 1103.621185132818"
+                    stroke-miterlimit="10" stroke-width="1.3612669416666667" stroke-dasharray="" />
+                <g
+                    transform="translate(1338.829410986685,1103.621185132818) translate(-1338.829410986685,-1103.621185132818)">
+                    <path fill="black" stroke="none" paint-order="stroke fill markers"
+                        d=" M 1325.2167415700183 1096.8148504244848 L 1338.829410986685 1103.621185132818 L 1325.2167415700183 1110.4275198411513 Z" />
+                </g>
+            </g>
+            <g>
+                <rect fill="white" stroke="none" x="888.7615562633971" y="1128.123990082818"
+                    width="360.9848505407812" height="21.23576429" />
+                <rect fill="white" stroke="none" x="888.7615562633971" y="1144.459193382818"
+                    width="319.4458490759375" height="21.23576429" />
+                <rect fill="white" stroke="none" x="888.7615562633971" y="1160.7943966828182"
+                    width="360.841723099375" height="21.23576429" />
+                <rect fill="white" stroke="none" x="888.7615562633971" y="1177.1295999828183"
+                    width="157.92125190796875" height="21.23576429" />
+                <text fill="black" stroke="none" font-family="sans-serif" font-size="11pt"
+                    font-style="normal" font-weight="normal" text-decoration="normal"
+                    x="891.2118367583971" y="1142.825673052818" text-anchor="start"
+                    dominant-baseline="alphabetic" xml:space="preserve">A new record is created inside the `unit_tutorial_syncs`</text>
+                <text fill="black" stroke="none" font-family="sans-serif" font-size="11pt"
+                    font-style="normal" font-weight="normal" text-decoration="normal"
+                    x="891.2118367583971" y="1159.1608763528181" text-anchor="start"
+                    dominant-baseline="alphabetic" xml:space="preserve">table. Linking the original tutorial from SIT374 as</text>
+                <text fill="black" stroke="none" font-family="sans-serif" font-size="11pt"
+                    font-style="normal" font-weight="normal" text-decoration="normal"
+                    x="891.2118367583971" y="1175.4960796528183" text-anchor="start"
+                    dominant-baseline="alphabetic" xml:space="preserve">the "main_tutorial", and the new tutorial being imported</text>
+                <text fill="black" stroke="none" font-family="sans-serif" font-size="11pt"
+                    font-style="normal" font-weight="normal" text-decoration="normal"
+                    x="891.2118367583971" y="1191.8312829528184" text-anchor="start"
+                    dominant-baseline="alphabetic" xml:space="preserve">as the "synced_tutorial"</text>
+            </g>
+            <g>
+                <path fill="none" stroke="black" paint-order="fill stroke markers"
+                    d=" M 799.6785368221016 1198.365364272818 L 1325.3800936030182 1198.365364272818"
+                    stroke-miterlimit="10" stroke-width="1.3612669416666667" stroke-dasharray="" />
+                <g
+                    transform="translate(1338.829410986685,1198.365364272818) translate(-1338.829410986685,-1198.365364272818)">
+                    <path fill="black" stroke="none" paint-order="stroke fill markers"
+                        d=" M 1325.2167415700183 1191.5590295644847 L 1338.829410986685 1198.365364272818 L 1325.2167415700183 1205.1716989811512 Z" />
+                </g>
+            </g>
+            <g>
+                <rect fill="white" stroke="none" x="376.2355371403178" y="1222.8681692228179"
+                    width="234.82173408570313" height="21.23576429" />
+                <rect fill="white" stroke="none" x="376.2355371403178" y="1239.203372522818"
+                    width="320.6985346228125" height="21.23576429" />
+                <rect fill="white" stroke="none" x="376.2355371403178" y="1255.538575822818"
+                    width="317.3199335485937" height="21.23576429" />
+                <rect fill="white" stroke="none" x="376.2355371403178" y="1271.8737791228182"
+                    width="187.72798408570313" height="21.23576429" />
+                <text fill="black" stroke="none" font-family="sans-serif" font-size="11pt"
+                    font-style="normal" font-weight="normal" text-decoration="normal"
+                    x="378.6858176353178" y="1237.569852192818" text-anchor="start"
+                    dominant-baseline="alphabetic" xml:space="preserve">&gt; Viewing list of tutorials for SIT378</text>
+                <text fill="black" stroke="none" font-family="sans-serif" font-size="11pt"
+                    font-style="normal" font-weight="normal" text-decoration="normal"
+                    x="378.6858176353178" y="1253.905055492818" text-anchor="start"
+                    dominant-baseline="alphabetic" xml:space="preserve">&gt; Synced tutorials have their inputs disabled and</text>
+                <text fill="black" stroke="none" font-family="sans-serif" font-size="11pt"
+                    font-style="normal" font-weight="normal" text-decoration="normal"
+                    x="378.6858176353178" y="1270.2402587928182" text-anchor="start"
+                    dominant-baseline="alphabetic" xml:space="preserve">cannot be modified, with a tooltip showing: "This</text>
+                <text fill="black" stroke="none" font-family="sans-serif" font-size="11pt"
+                    font-style="normal" font-weight="normal" text-decoration="normal"
+                    x="378.6858176353178" y="1286.5754620928183" text-anchor="start"
+                    dominant-baseline="alphabetic" xml:space="preserve">unit is synced from SIT374".</text>
+            </g>
+            <g>
+                <path fill="none" stroke="black" paint-order="fill stroke markers"
+                    d=" M 273.49108734013544 1293.1095434128179 L 786.2292194384349 1293.1095434128179"
+                    stroke-miterlimit="10" stroke-width="1.3612669416666667" stroke-dasharray="" />
+                <g
+                    transform="translate(799.6785368221016,1293.1095434128179) translate(-799.6785368221016,-1293.1095434128179)">
+                    <path fill="black" stroke="none" paint-order="stroke fill markers"
+                        d=" M 786.0658674054349 1286.3032087044846 L 799.6785368221016 1293.1095434128179 L 786.0658674054349 1299.915878121151 Z" />
+                </g>
+            </g>
+            <path fill="white" stroke="black" paint-order="fill stroke markers"
+                d=" M 258.78940437013546 1317.6123483628178 L 1338.8294109866847 1317.6123483628178 L 1353.5310939566848 1332.3140313328179 L 1353.5310939566848 1355.1833159528178 L 258.78940437013546 1355.1833159528178 L 258.78940437013546 1317.6123483628178 M 1338.8294109866847 1317.6123483628178 L 1338.8294109866847 1332.3140313328179 L 1353.5310939566848 1332.3140313328179"
+                stroke-miterlimit="10" stroke-width="1.3612669416666667" stroke-dasharray="" />
+            <g>
+                <text fill="black" stroke="none" font-family="sans-serif" font-size="11pt"
+                    font-style="normal" font-weight="bold" text-decoration="normal"
+                    x="713.8302625911446" y="1340.481632982818" text-anchor="start"
+                    dominant-baseline="alphabetic" xml:space="preserve">Viewing SIT374 (Project A)</text>
+            </g>
+            <g>
+                <rect fill="white" stroke="none" x="343.6585870670756" y="1379.686120902818"
+                    width="162.30206550660156" height="21.23576429" />
+                <rect fill="white" stroke="none" x="343.6585870670756" y="1396.021324202818"
+                    width="180.77737678589844" height="21.23576429" />
+                <rect fill="white" stroke="none" x="343.6585870670756" y="1412.3565275028182"
+                    width="385.8524042517187" height="21.23576429" />
+                <text fill="black" stroke="none" font-family="sans-serif" font-size="11pt"
+                    font-style="normal" font-weight="normal" text-decoration="normal"
+                    x="346.1088675620756" y="1394.387803872818" text-anchor="start"
+                    dominant-baseline="alphabetic" xml:space="preserve">&gt; Viewing list of tutorials</text>
+                <text fill="black" stroke="none" font-family="sans-serif" font-size="11pt"
+                    font-style="normal" font-weight="normal" text-decoration="normal"
+                    x="346.1088675620756" y="1410.7230071728181" text-anchor="start"
+                    dominant-baseline="alphabetic" xml:space="preserve">&gt; Tutorials can be modified</text>
+                <text fill="black" stroke="none" font-family="sans-serif" font-size="11pt"
+                    font-style="normal" font-weight="normal" text-decoration="normal"
+                    x="346.1088675620756" y="1427.0582104728182" text-anchor="start"
+                    dominant-baseline="alphabetic" xml:space="preserve">&gt; Admin modifies one Mentor tutorial to adjust the capacity</text>
+            </g>
+            <g>
+                <path fill="none" stroke="black" paint-order="fill stroke markers"
+                    d=" M 273.49108734013544 1433.5922917928178 L 786.2292194384349 1433.5922917928178"
+                    stroke-miterlimit="10" stroke-width="1.3612669416666667" stroke-dasharray="" />
+                <g
+                    transform="translate(799.6785368221016,1433.5922917928178) translate(-799.6785368221016,-1433.5922917928178)">
+                    <path fill="black" stroke="none" paint-order="stroke fill markers"
+                        d=" M 786.0658674054349 1426.7859570844846 L 799.6785368221016 1433.5922917928178 L 786.0658674054349 1440.398626501151 Z" />
+                </g>
+            </g>
+            <g>
+                <rect fill="white" stroke="none" x="865.5296150402526" y="1458.0950967428178"
+                    width="332.9175897985937" height="21.23576429" />
+                <rect fill="white" stroke="none" x="865.5296150402526" y="1474.4303000428179"
+                    width="288.47233833375" height="21.23576429" />
+                <rect fill="white" stroke="none" x="865.5296150402526" y="1490.765503342818"
+                    width="131.19969429078125" height="21.23576429" />
+                <rect fill="white" stroke="none" x="865.5296150402526" y="1507.100706642818"
+                    width="399.69630683960935" height="21.23576429" />
+                <rect fill="white" stroke="none" x="865.5296150402526" y="1523.4359099428182"
+                    width="349.9827143103125" height="21.23576429" />
+                <rect fill="white" stroke="none" x="865.5296150402526" y="1539.7711132428183"
+                    width="407.4487177282812" height="21.23576429" />
+                <rect fill="white" stroke="none" x="865.5296150402526" y="1556.1063165428184"
+                    width="219.19537605347656" height="21.23576429" />
+                <text fill="black" stroke="none" font-family="sans-serif" font-size="11pt"
+                    font-style="normal" font-weight="normal" text-decoration="normal"
+                    x="867.9798955352526" y="1472.7967797128179" text-anchor="start"
+                    dominant-baseline="alphabetic" xml:space="preserve">&gt; Before saving changes to the unit, checks to see</text>
+                <text fill="black" stroke="none" font-family="sans-serif" font-size="11pt"
+                    font-style="normal" font-weight="normal" text-decoration="normal"
+                    x="867.9798955352526" y="1489.131983012818" text-anchor="start"
+                    dominant-baseline="alphabetic" xml:space="preserve">if this unit is synced elsewhere by looking in</text>
+                <text fill="black" stroke="none" font-family="sans-serif" font-size="11pt"
+                    font-style="normal" font-weight="normal" text-decoration="normal"
+                    x="867.9798955352526" y="1505.467186312818" text-anchor="start"
+                    dominant-baseline="alphabetic" xml:space="preserve">`unit_tutorial_syncs</text>
+                <text fill="black" stroke="none" font-family="sans-serif" font-size="11pt"
+                    font-style="normal" font-weight="normal" text-decoration="normal"
+                    x="867.9798955352526" y="1521.8023896128182" text-anchor="start"
+                    dominant-baseline="alphabetic" xml:space="preserve">&gt; If synced unit(s) exists, same changes are applied to them.</text>
+                <text fill="black" stroke="none" font-family="sans-serif" font-size="11pt"
+                    font-style="normal" font-weight="normal" text-decoration="normal"
+                    x="867.9798955352526" y="1538.1375929128183" text-anchor="start"
+                    dominant-baseline="alphabetic" xml:space="preserve">&gt; If main tutorial is deleted, only the sync is removed.</text>
+                <text fill="black" stroke="none" font-family="sans-serif" font-size="11pt"
+                    font-style="normal" font-weight="normal" text-decoration="normal"
+                    x="867.9798955352526" y="1554.4727962128184" text-anchor="start"
+                    dominant-baseline="alphabetic" xml:space="preserve">The synced tutorials in other units will now be able to modified</text>
+                <text fill="black" stroke="none" font-family="sans-serif" font-size="11pt"
+                    font-style="normal" font-weight="normal" text-decoration="normal"
+                    x="867.9798955352526" y="1570.8079995128185" text-anchor="start"
+                    dominant-baseline="alphabetic" xml:space="preserve">and will exist as their own tutorial</text>
+            </g>
+            <g>
+                <path fill="none" stroke="black" paint-order="fill stroke markers"
+                    d=" M 799.6785368221016 1577.3420808328178 L 1325.3800936030182 1577.3420808328178"
+                    stroke-miterlimit="10" stroke-width="1.3612669416666667" stroke-dasharray="" />
+                <g
+                    transform="translate(1338.829410986685,1577.3420808328178) translate(-1338.829410986685,-1577.3420808328178)">
+                    <path fill="black" stroke="none" paint-order="stroke fill markers"
+                        d=" M 1325.2167415700183 1570.5357461244846 L 1338.829410986685 1577.3420808328178 L 1325.2167415700183 1584.148415541151 Z" />
+                </g>
+            </g>
+            <path fill="white" stroke="black" paint-order="fill stroke markers"
+                d=" M 258.78940437013546 1601.8448857828178 L 1338.8294109866847 1601.8448857828178 L 1353.5310939566848 1616.5465687528178 L 1353.5310939566848 1639.4158533728178 L 258.78940437013546 1639.4158533728178 L 258.78940437013546 1601.8448857828178 M 1338.8294109866847 1601.8448857828178 L 1338.8294109866847 1616.5465687528178 L 1353.5310939566848 1616.5465687528178"
+                stroke-miterlimit="10" stroke-width="1.3612669416666667" stroke-dasharray="" />
+            <g>
+                <text fill="black" stroke="none" font-family="sans-serif" font-size="11pt"
+                    font-style="normal" font-weight="bold" text-decoration="normal"
+                    x="652.6241010921211" y="1624.714170402818" text-anchor="start"
+                    dominant-baseline="alphabetic" xml:space="preserve">Setting up capstone projects (For each unit)</text>
+            </g>
+            <g>
+                <rect fill="white" stroke="none" x="410.66643771404824" y="1663.9186583228177"
+                    width="206.01002754273438" height="21.23576429" />
+                <rect fill="white" stroke="none" x="410.66643771404824" y="1680.2538616228178"
+                    width="251.83674873414063" height="21.23576429" />
+                <text fill="black" stroke="none" font-family="sans-serif" font-size="11pt"
+                    font-style="normal" font-weight="normal" text-decoration="normal"
+                    x="413.11671820904826" y="1678.6203412928178" text-anchor="start"
+                    dominant-baseline="alphabetic" xml:space="preserve">Enable the "Is Capstone Unit?"</text>
+                <text fill="black" stroke="none" font-family="sans-serif" font-size="11pt"
+                    font-style="normal" font-weight="normal" text-decoration="normal"
+                    x="413.11671820904826" y="1694.955544592818" text-anchor="start"
+                    dominant-baseline="alphabetic" xml:space="preserve">checkbox in the unit admin dashboard</text>
+            </g>
+            <g>
+                <path fill="none" stroke="black" paint-order="fill stroke markers"
+                    d=" M 273.49108734013544 1701.4896259128177 L 786.2292194384349 1701.4896259128177"
+                    stroke-miterlimit="10" stroke-width="1.3612669416666667" stroke-dasharray="" />
+                <g
+                    transform="translate(799.6785368221016,1701.4896259128177) translate(-799.6785368221016,-1701.4896259128177)">
+                    <path fill="black" stroke="none" paint-order="stroke fill markers"
+                        d=" M 786.0658674054349 1694.6832912044845 L 799.6785368221016 1701.4896259128177 L 786.0658674054349 1708.295960621151 Z" />
+                </g>
+            </g>
+            <g>
+                <rect fill="white" stroke="none" x="920.9519249157408" y="1725.9924308628179"
+                    width="296.6041132360937" height="21.23576429" />
+                <text fill="black" stroke="none" font-family="sans-serif" font-size="11pt"
+                    font-style="normal" font-weight="normal" text-decoration="normal"
+                    x="923.4022054107409" y="1740.694113832818" text-anchor="start"
+                    dominant-baseline="alphabetic" xml:space="preserve">Set the `units.is_capstone` property to TRUE</text>
+            </g>
+            <g>
+                <path fill="none" stroke="black" paint-order="fill stroke markers"
+                    d=" M 799.6785368221016 1747.2281951528178 L 1325.3800936030182 1747.2281951528178"
+                    stroke-miterlimit="10" stroke-width="1.3612669416666667" stroke-dasharray="" />
+                <g
+                    transform="translate(1338.829410986685,1747.2281951528178) translate(-1338.829410986685,-1747.2281951528178)">
+                    <path fill="black" stroke="none" paint-order="stroke fill markers"
+                        d=" M 1325.2167415700183 1740.4218604444845 L 1338.829410986685 1747.2281951528178 L 1325.2167415700183 1754.034529861151 Z" />
+                </g>
+            </g>
+            <g>
+                <rect fill="white" stroke="none" x="386.432375519224" y="1771.7310001028177"
+                    width="257.77093757691404" height="21.23576429" />
+                <rect fill="white" stroke="none" x="386.432375519224" y="1788.0662034028178"
+                    width="145.89549507203125" height="21.23576429" />
+                <rect fill="white" stroke="none" x="386.432375519224" y="1804.401406702818"
+                    width="277.27699531617185" height="21.23576429" />
+                <rect fill="white" stroke="none" x="386.432375519224" y="1820.736610002818"
+                    width="297.8496576696875" height="21.23576429" />
+                <rect fill="white" stroke="none" x="386.432375519224" y="1837.071813302818"
+                    width="300.304857865" height="21.23576429" />
+                <text fill="black" stroke="none" font-family="sans-serif" font-size="11pt"
+                    font-style="normal" font-weight="normal" text-decoration="normal"
+                    x="388.88265601422404" y="1786.4326830728178" text-anchor="start"
+                    dominant-baseline="alphabetic" xml:space="preserve">&gt; Navigate to the "Capstone" tab in the</text>
+                <text fill="black" stroke="none" font-family="sans-serif" font-size="11pt"
+                    font-style="normal" font-weight="normal" text-decoration="normal"
+                    x="388.88265601422404" y="1802.7678863728179" text-anchor="start"
+                    dominant-baseline="alphabetic" xml:space="preserve">unit admin dashboard</text>
+                <text fill="black" stroke="none" font-family="sans-serif" font-size="11pt"
+                    font-style="normal" font-weight="normal" text-decoration="normal"
+                    x="388.88265601422404" y="1819.103089672818" text-anchor="start"
+                    dominant-baseline="alphabetic" xml:space="preserve">&gt; Create a new "Company Project" record</text>
+                <text fill="black" stroke="none" font-family="sans-serif" font-size="11pt"
+                    font-style="normal" font-weight="normal" text-decoration="normal"
+                    x="388.88265601422404" y="1835.438292972818" text-anchor="start"
+                    dominant-baseline="alphabetic" xml:space="preserve">&gt; Assign which Company Group it belongs to</text>
+                <text fill="black" stroke="none" font-family="sans-serif" font-size="11pt"
+                    font-style="normal" font-weight="normal" text-decoration="normal"
+                    x="388.88265601422404" y="1851.7734962728182" text-anchor="start"
+                    dominant-baseline="alphabetic" xml:space="preserve">&gt; Select which tutorials belong to that project.</text>
+            </g>
+            <g>
+                <path fill="none" stroke="black" paint-order="fill stroke markers"
+                    d=" M 273.49108734013544 1858.3075775928178 L 786.2292194384349 1858.3075775928178"
+                    stroke-miterlimit="10" stroke-width="1.3612669416666667" stroke-dasharray="" />
+                <g
+                    transform="translate(799.6785368221016,1858.3075775928178) translate(-799.6785368221016,-1858.3075775928178)">
+                    <path fill="black" stroke="none" paint-order="stroke fill markers"
+                        d=" M 786.0658674054349 1851.5012428844846 L 799.6785368221016 1858.3075775928178 L 786.0658674054349 1865.113912301151 Z" />
+                </g>
+            </g>
+            <g>
+                <rect fill="white" stroke="none" x="886.1058479504088" y="1882.8103825428177"
+                    width="366.2962519079687" height="21.23576429" />
+                <rect fill="white" stroke="none" x="886.1058479504088" y="1899.1455858428178"
+                    width="304.3635736853125" height="21.23576429" />
+                <rect fill="white" stroke="none" x="886.1058479504088" y="1915.480789142818"
+                    width="303.14662422242185" height="21.23576429" />
+                <rect fill="white" stroke="none" x="886.1058479504088" y="1931.815992442818"
+                    width="215.16531623902344" height="21.23576429" />
+                <text fill="black" stroke="none" font-family="sans-serif" font-size="11pt"
+                    font-style="normal" font-weight="normal" text-decoration="normal"
+                    x="888.5561284454088" y="1897.5120655128178" text-anchor="start"
+                    dominant-baseline="alphabetic" xml:space="preserve">&gt; Create a new record in `capstone_company_projects`</text>
+                <text fill="black" stroke="none" font-family="sans-serif" font-size="11pt"
+                    font-style="normal" font-weight="normal" text-decoration="normal"
+                    x="888.5561284454088" y="1913.847268812818" text-anchor="start"
+                    dominant-baseline="alphabetic" xml:space="preserve">&gt; For each selected tutorial, create a record in</text>
+                <text fill="black" stroke="none" font-family="sans-serif" font-size="11pt"
+                    font-style="normal" font-weight="normal" text-decoration="normal"
+                    x="888.5561284454088" y="1930.182472112818" text-anchor="start"
+                    dominant-baseline="alphabetic" xml:space="preserve">`capstone_company_project_tutorials`, linking</text>
+                <text fill="black" stroke="none" font-family="sans-serif" font-size="11pt"
+                    font-style="normal" font-weight="normal" text-decoration="normal"
+                    x="888.5561284454088" y="1946.517675412818" text-anchor="start"
+                    dominant-baseline="alphabetic" xml:space="preserve"> the project and tutorial together.</text>
+            </g>
+            <g>
+                <path fill="none" stroke="black" paint-order="fill stroke markers"
+                    d=" M 799.6785368221016 1953.0517567328177 L 1325.3800936030182 1953.0517567328177"
+                    stroke-miterlimit="10" stroke-width="1.3612669416666667" stroke-dasharray="" />
+                <g
+                    transform="translate(1338.829410986685,1953.0517567328177) translate(-1338.829410986685,-1953.0517567328177)">
+                    <path fill="black" stroke="none" paint-order="stroke fill markers"
+                        d=" M 1325.2167415700183 1946.2454220244845 L 1338.829410986685 1953.0517567328177 L 1325.2167415700183 1959.858091441151 Z" />
+                </g>
+            </g>
+            <g>
+                <rect fill="white" stroke="none" x="393.57625827068887" y="1977.5545616828176"
+                    width="286.01710762085935" height="21.23576429" />
+                <rect fill="white" stroke="none" x="393.57625827068887" y="1993.8897649828177"
+                    width="246.93342842164063" height="21.23576429" />
+                <text fill="black" stroke="none" font-family="sans-serif" font-size="11pt"
+                    font-style="normal" font-weight="normal" text-decoration="normal"
+                    x="396.0265387656889" y="1992.2562446528177" text-anchor="start"
+                    dominant-baseline="alphabetic" xml:space="preserve">(Repeat for each project in every company)</text>
+                <text fill="black" stroke="none" font-family="sans-serif" font-size="11pt"
+                    font-style="normal" font-weight="normal" text-decoration="normal"
+                    x="396.0265387656889" y="2008.5914479528178" text-anchor="start"
+                    dominant-baseline="alphabetic" xml:space="preserve">(Repeat for both SIT374 and SIT378)</text>
+            </g>
+            <g>
+                <path fill="none" stroke="black" paint-order="fill stroke markers"
+                    d=" M 273.49108734013544 2015.1255292728176 L 786.2292194384349 2015.1255292728176"
+                    stroke-miterlimit="10" stroke-width="1.3612669416666667"
+                    stroke-dasharray="6.53408132" />
+                <g
+                    transform="translate(799.6785368221016,2015.1255292728176) translate(-799.6785368221016,-2015.1255292728176)">
+                    <path fill="black" stroke="none" paint-order="stroke fill markers"
+                        d=" M 786.0658674054349 2008.3191945644844 L 799.6785368221016 2015.1255292728176 L 786.0658674054349 2021.9318639811509 Z" />
+                </g>
+            </g>
+            <path fill="white" stroke="black" paint-order="fill stroke markers"
+                d=" M 258.78940437013546 2039.6283342228178 L 1338.8294109866847 2039.6283342228178 L 1353.5310939566848 2054.3300171928176 L 1353.5310939566848 2077.199301812818 L 258.78940437013546 2077.199301812818 L 258.78940437013546 2039.6283342228178 M 1338.8294109866847 2039.6283342228178 L 1338.8294109866847 2054.3300171928176 L 1353.5310939566848 2054.3300171928176"
+                stroke-miterlimit="10" stroke-width="1.3612669416666667" stroke-dasharray="" />
+            <g>
+                <text fill="black" stroke="none" font-family="sans-serif" font-size="11pt"
+                    font-style="normal" font-weight="bold" text-decoration="normal"
+                    x="701.503838946125" y="2062.4976188428177" text-anchor="start"
+                    dominant-baseline="alphabetic" xml:space="preserve">Setting up the enrolment form</text>
+            </g>
+            <g>
+                <rect fill="white" stroke="none" x="323.48679599041543" y="2101.702106762818"
+                    width="349.1523920446875" height="21.23576429" />
+                <rect fill="white" stroke="none" x="323.48679599041543" y="2118.037310062818"
+                    width="310.1259333044531" height="21.23576429" />
+                <rect fill="white" stroke="none" x="323.48679599041543" y="2134.372513362818"
+                    width="329.6391474157812" height="21.23576429" />
+                <rect fill="white" stroke="none" x="323.48679599041543" y="2150.7077166628183"
+                    width="357.3198725134375" height="21.23576429" />
+                <rect fill="white" stroke="none" x="323.48679599041543" y="2167.0429199628184"
+                    width="394.44935859742185" height="21.23576429" />
+                <rect fill="white" stroke="none" x="323.48679599041543" y="2183.3781232628185"
+                    width="426.1960016638281" height="21.23576429" />
+                <rect fill="white" stroke="none" x="323.48679599041543" y="2199.7133265628186"
+                    width="367.53456367554685" height="21.23576429" />
+                <text fill="black" stroke="none" font-family="sans-serif" font-size="11pt"
+                    font-style="normal" font-weight="normal" text-decoration="normal"
+                    x="325.93707648541545" y="2116.403789732818" text-anchor="start"
+                    dominant-baseline="alphabetic" xml:space="preserve">&gt; Create a new task (0.1P Company enrolment form)</text>
+                <text fill="black" stroke="none" font-family="sans-serif" font-size="11pt"
+                    font-style="normal" font-weight="normal" text-decoration="normal"
+                    x="325.93707648541545" y="2132.738993032818" text-anchor="start"
+                    dominant-baseline="alphabetic" xml:space="preserve">&gt; Tick the "Enable enrolment form for this task"</text>
+                <text fill="black" stroke="none" font-family="sans-serif" font-size="11pt"
+                    font-style="normal" font-weight="normal" text-decoration="normal"
+                    x="325.93707648541545" y="2149.0741963328182" text-anchor="start"
+                    dominant-baseline="alphabetic" xml:space="preserve">&gt; Select which group set to use for the companies</text>
+                <text fill="black" stroke="none" font-family="sans-serif" font-size="11pt"
+                    font-style="normal" font-weight="normal" text-decoration="normal"
+                    x="325.93707648541545" y="2165.4093996328183" text-anchor="start"
+                    dominant-baseline="alphabetic" xml:space="preserve">&gt; A file submission of an image is required for the task</text>
+                <text fill="black" stroke="none" font-family="sans-serif" font-size="11pt"
+                    font-style="normal" font-weight="normal" text-decoration="normal"
+                    x="325.93707648541545" y="2181.7446029328185" text-anchor="start"
+                    dominant-baseline="alphabetic" xml:space="preserve">allowing students to screenshot their response and upload it</text>
+                <text fill="black" stroke="none" font-family="sans-serif" font-size="11pt"
+                    font-style="normal" font-weight="normal" text-decoration="normal"
+                    x="325.93707648541545" y="2198.0798062328186" text-anchor="start"
+                    dominant-baseline="alphabetic" xml:space="preserve">to the task. Only used to enforce a submission before completing</text>
+                <text fill="black" stroke="none" font-family="sans-serif" font-size="11pt"
+                    font-style="normal" font-weight="normal" text-decoration="normal"
+                    x="325.93707648541545" y="2214.4150095328187" text-anchor="start"
+                    dominant-baseline="alphabetic" xml:space="preserve">the task, and is saved into the final portfolio as a record.</text>
+            </g>
+            <g>
+                <path fill="none" stroke="black" paint-order="fill stroke markers"
+                    d=" M 273.49108734013544 2220.949090852818 L 786.2292194384349 2220.949090852818"
+                    stroke-miterlimit="10" stroke-width="1.3612669416666667" stroke-dasharray="" />
+                <g
+                    transform="translate(799.6785368221016,2220.949090852818) translate(-799.6785368221016,-2220.949090852818)">
+                    <path fill="black" stroke="none" paint-order="stroke fill markers"
+                        d=" M 786.0658674054349 2214.1427561444843 L 799.6785368221016 2220.949090852818 L 786.0658674054349 2227.7554255611512 Z" />
+                </g>
+            </g>
+            <g>
+                <rect fill="white" stroke="none" x="862.0399986462096" y="2245.451895802818"
+                    width="339.3958002478125" height="21.23576429" />
+                <rect fill="white" stroke="none" x="862.0399986462096" y="2261.787099102818"
+                    width="414.4279657751562" height="21.23576429" />
+                <text fill="black" stroke="none" font-family="sans-serif" font-size="11pt"
+                    font-style="normal" font-weight="normal" text-decoration="normal"
+                    x="864.4902791412096" y="2260.153578772818" text-anchor="start"
+                    dominant-baseline="alphabetic" xml:space="preserve">&gt; Set `capstone_form_enable` to TRUE for the task</text>
+                <text fill="black" stroke="none" font-family="sans-serif" font-size="11pt"
+                    font-style="normal" font-weight="normal" text-decoration="normal"
+                    x="864.4902791412096" y="2276.488782072818" text-anchor="start"
+                    dominant-baseline="alphabetic" xml:space="preserve">&gt; Set `capstone_company_group_set_id` to the selected group</text>
+            </g>
+            <g>
+                <path fill="none" stroke="black" paint-order="fill stroke markers"
+                    d=" M 799.6785368221016 2283.0228633928177 L 1325.3800936030182 2283.0228633928177"
+                    stroke-miterlimit="10" stroke-width="1.3612669416666667" stroke-dasharray="" />
+                <g
+                    transform="translate(1338.829410986685,2283.0228633928177) translate(-1338.829410986685,-2283.0228633928177)">
+                    <path fill="black" stroke="none" paint-order="stroke fill markers"
+                        d=" M 1325.2167415700183 2276.2165286844843 L 1338.829410986685 2283.0228633928177 L 1325.2167415700183 2289.829198101151 Z" />
+                </g>
+            </g>
+            <path fill="white" stroke="black" paint-order="fill stroke markers"
+                d=" M 258.78940437013546 2307.525668342818 L 1338.8294109866847 2307.525668342818 L 1353.5310939566848 2322.227351312818 L 1353.5310939566848 2345.0966359328177 L 258.78940437013546 2345.0966359328177 L 258.78940437013546 2307.525668342818 M 1338.8294109866847 2307.525668342818 L 1338.8294109866847 2322.227351312818 L 1353.5310939566848 2322.227351312818"
+                stroke-miterlimit="10" stroke-width="1.3612669416666667" stroke-dasharray="" />
+            <g>
+                <text fill="black" stroke="none" font-family="sans-serif" font-size="11pt"
+                    font-style="normal" font-weight="bold" text-decoration="normal"
+                    x="689.6856550471992" y="2330.394952962818" text-anchor="start"
+                    dominant-baseline="alphabetic" xml:space="preserve">Completing the form as a student</text>
+            </g>
+            <g>
+                <rect fill="white" stroke="none" x="232.07414992851764" y="2369.599440882818"
+                    width="359.7537104040625" height="21.23576429" />
+                <rect fill="white" stroke="none" x="232.07414992851764" y="2385.934644182818"
+                    width="386.6899286657812" height="21.23576429" />
+                <rect fill="white" stroke="none" x="232.07414992851764" y="2402.269847482818"
+                    width="257.7565943151953" height="21.23576429" />
+                <text fill="black" stroke="none" font-family="sans-serif" font-size="11pt"
+                    font-style="normal" font-weight="normal" text-decoration="normal"
+                    x="234.52443042351763" y="2384.301123852818" text-anchor="start"
+                    dominant-baseline="alphabetic" xml:space="preserve">&gt; Navigate to SIT374 &amp; view task 0.1P Enrolment form</text>
+                <text fill="black" stroke="none" font-family="sans-serif" font-size="11pt"
+                    font-style="normal" font-weight="normal" text-decoration="normal"
+                    x="234.52443042351763" y="2400.636327152818" text-anchor="start"
+                    dominant-baseline="alphabetic" xml:space="preserve">&gt; Presented with a box outlining the description of the form</text>
+                <text fill="black" stroke="none" font-family="sans-serif" font-size="11pt"
+                    font-style="normal" font-weight="normal" text-decoration="normal"
+                    x="234.52443042351763" y="2416.971530452818" text-anchor="start"
+                    dominant-baseline="alphabetic" xml:space="preserve">&gt; Selects the "Begin Enrolment" button</text>
+            </g>
+            <g>
+                <path fill="none" stroke="black" paint-order="fill stroke markers"
+                    d=" M 51.15972221829298 2423.5056117728177 L 786.2292194384349 2423.5056117728177"
+                    stroke-miterlimit="10" stroke-width="1.3612669416666667" stroke-dasharray="" />
+                <g
+                    transform="translate(799.6785368221016,2423.5056117728177) translate(-799.6785368221016,-2423.5056117728177)">
+                    <path fill="black" stroke="none" paint-order="stroke fill markers"
+                        d=" M 786.0658674054349 2416.6992770644842 L 799.6785368221016 2423.5056117728177 L 786.0658674054349 2430.311946481151 Z" />
+                </g>
+            </g>
+            <g>
+                <rect fill="white" stroke="none" x="833.3284660534362" y="2448.008416722818"
+                    width="317.4057489782812" height="21.23576429" />
+                <rect fill="white" stroke="none" x="833.3284660534362" y="2464.343620022818"
+                    width="354.28480781617185" height="21.23576429" />
+                <rect fill="white" stroke="none" x="833.3284660534362" y="2480.678823322818"
+                    width="381.7436396032812" height="21.23576429" />
+                <rect fill="white" stroke="none" x="833.3284660534362" y="2497.014026622818"
+                    width="433.89821113648435" height="21.23576429" />
+                <rect fill="white" stroke="none" x="833.3284660534362" y="2513.3492299228183"
+                    width="431.4500605017187" height="21.23576429" />
+                <rect fill="white" stroke="none" x="833.3284660534362" y="2529.6844332228184"
+                    width="318.6226679235937" height="21.23576429" />
+                <rect fill="white" stroke="none" x="833.3284660534362" y="2546.0196365228185"
+                    width="471.8509394079687" height="21.23576429" />
+                <text fill="black" stroke="none" font-family="sans-serif" font-size="11pt"
+                    font-style="normal" font-weight="normal" text-decoration="normal"
+                    x="835.7787465484362" y="2462.710099692818" text-anchor="start"
+                    dominant-baseline="alphabetic" xml:space="preserve">&gt; As the form is loading, it fetches all the groups</text>
+                <text fill="black" stroke="none" font-family="sans-serif" font-size="11pt"
+                    font-style="normal" font-weight="normal" text-decoration="normal"
+                    x="835.7787465484362" y="2479.045302992818" text-anchor="start"
+                    dominant-baseline="alphabetic" xml:space="preserve">from the group set configured in the task ("Company")</text>
+                <text fill="black" stroke="none" font-family="sans-serif" font-size="11pt"
+                    font-style="normal" font-weight="normal" text-decoration="normal"
+                    x="835.7787465484362" y="2495.380506292818" text-anchor="start"
+                    dominant-baseline="alphabetic" xml:space="preserve">&gt; Fetch list of projects from `capstone_company_projects`</text>
+                <text fill="black" stroke="none" font-family="sans-serif" font-size="11pt"
+                    font-style="normal" font-weight="normal" text-decoration="normal"
+                    x="835.7787465484362" y="2511.7157095928183" text-anchor="start"
+                    dominant-baseline="alphabetic" xml:space="preserve">&gt; Fetch list of tutorials from `capstone_company_project_tutorials`</text>
+                <text fill="black" stroke="none" font-family="sans-serif" font-size="11pt"
+                    font-style="normal" font-weight="normal" text-decoration="normal"
+                    x="835.7787465484362" y="2528.0509128928184" text-anchor="start"
+                    dominant-baseline="alphabetic" xml:space="preserve">&gt; These tutorials will be cross-checked using `unit_tutorial_syncs`</text>
+                <text fill="black" stroke="none" font-family="sans-serif" font-size="11pt"
+                    font-style="normal" font-weight="normal" text-decoration="normal"
+                    x="835.7787465484362" y="2544.3861161928185" text-anchor="start"
+                    dominant-baseline="alphabetic" xml:space="preserve">together with `tutorial_enrolments` to identify the</text>
+                <text fill="black" stroke="none" font-family="sans-serif" font-size="11pt"
+                    font-style="normal" font-weight="normal" text-decoration="normal"
+                    x="835.7787465484362" y="2560.7213194928186" text-anchor="start"
+                    dominant-baseline="alphabetic" xml:space="preserve">number of students enrolled in the project from both SIT374 and SIT378</text>
+            </g>
+            <g>
+                <path fill="none" stroke="black" paint-order="fill stroke markers"
+                    d=" M 799.6785368221016 2567.2554008128177 L 1325.3800936030182 2567.2554008128177"
+                    stroke-miterlimit="10" stroke-width="1.3612669416666667" stroke-dasharray="" />
+                <g
+                    transform="translate(1338.829410986685,2567.2554008128177) translate(-1338.829410986685,-2567.2554008128177)">
+                    <path fill="black" stroke="none" paint-order="stroke fill markers"
+                        d=" M 1325.2167415700183 2560.4490661044842 L 1338.829410986685 2567.2554008128177 L 1325.2167415700183 2574.061735521151 Z" />
+                </g>
+            </g>
+            <g>
+                <rect fill="white" stroke="none" x="888.3463646130065" y="2591.7582057628174"
+                    width="361.8152338415625" height="21.23576429" />
+                <text fill="black" stroke="none" font-family="sans-serif" font-size="11pt"
+                    font-style="normal" font-weight="normal" text-decoration="normal"
+                    x="890.7966451080065" y="2606.4598887328175" text-anchor="start"
+                    dominant-baseline="alphabetic" xml:space="preserve">Return company groups, projects, and related tutorials.</text>
+            </g>
+            <g>
+                <path fill="none" stroke="black" paint-order="fill stroke markers"
+                    d=" M 1338.829410986685 2612.9939700528175 L 813.1278542057682 2612.9939700528175"
+                    stroke-miterlimit="10" stroke-width="1.3612669416666667"
+                    stroke-dasharray="6.53408132" />
+                <g
+                    transform="translate(799.6785368221016,2612.9939700528175) translate(-799.6785368221016,-2612.9939700528175)">
+                    <path fill="black" stroke="none" paint-order="stroke fill markers"
+                        d=" M 813.2912062387683 2606.187635344484 L 799.6785368221016 2612.9939700528175 L 813.2912062387683 2619.800304761151 Z" />
+                </g>
+            </g>
+            <g>
+                <rect fill="white" stroke="none" x="296.2616651873067" y="2637.4967750028172"
+                    width="258.3149286657812" height="21.23576429" />
+                <text fill="black" stroke="none" font-family="sans-serif" font-size="11pt"
+                    font-style="normal" font-weight="normal" text-decoration="normal"
+                    x="298.7119456823067" y="2652.1984579728173" text-anchor="start"
+                    dominant-baseline="alphabetic" xml:space="preserve">Present the enrolment form as a modal</text>
+            </g>
+            <g>
+                <path fill="none" stroke="black" paint-order="fill stroke markers"
+                    d=" M 799.6785368221016 2658.7325392928174 L 64.60903960195964 2658.7325392928174"
+                    stroke-miterlimit="10" stroke-width="1.3612669416666667"
+                    stroke-dasharray="6.53408132" />
+                <g
+                    transform="translate(51.15972221829298,2658.7325392928174) translate(-51.15972221829298,-2658.7325392928174)">
+                    <path fill="black" stroke="none" paint-order="stroke fill markers"
+                        d=" M 64.77239163495965 2651.926204584484 L 51.15972221829298 2658.7325392928174 L 64.77239163495965 2665.538874001151 Z" />
+                </g>
+            </g>
+            <g>
+                <rect fill="white" stroke="none" x="288.7276686052754" y="2683.235344242817"
+                    width="273.3829218298437" height="21.23576429" />
+                <text fill="black" stroke="none" font-family="sans-serif" font-size="11pt"
+                    font-style="normal" font-weight="normal" text-decoration="normal"
+                    x="291.17794910027544" y="2697.937027212817" text-anchor="start"
+                    dominant-baseline="alphabetic" xml:space="preserve">&gt; Fills out the form and submits response</text>
+            </g>
+            <g>
+                <path fill="none" stroke="black" paint-order="fill stroke markers"
+                    d=" M 51.15972221829298 2704.471108532817 L 786.2292194384349 2704.471108532817"
+                    stroke-miterlimit="10" stroke-width="1.3612669416666667" stroke-dasharray="" />
+                <g
+                    transform="translate(799.6785368221016,2704.471108532817) translate(-799.6785368221016,-2704.471108532817)">
+                    <path fill="black" stroke="none" paint-order="stroke fill markers"
+                        d=" M 786.0658674054349 2697.6647738244837 L 799.6785368221016 2704.471108532817 L 786.0658674054349 2711.2774432411506 Z" />
+                </g>
+            </g>
+            <g>
+                <rect fill="white" stroke="none" x="819.0085273937682" y="2728.9739134828174"
+                    width="337.06935371460935" height="21.23576429" />
+                <rect fill="white" stroke="none" x="819.0085273937682" y="2745.3091167828175"
+                    width="500.49086250367185" height="21.23576429" />
+                <rect fill="white" stroke="none" x="819.0085273937682" y="2761.6443200828176"
+                    width="468.7585932165625" height="21.23576429" />
+                <rect fill="white" stroke="none" x="819.0085273937682" y="2777.9795233828177"
+                    width="63.97712959351563" height="21.23576429" />
+                <rect fill="white" stroke="none" x="819.0085273937682" y="2794.3147266828178"
+                    width="279.939867630625" height="21.23576429" />
+                <rect fill="white" stroke="none" x="819.0085273937682" y="2810.649929982818"
+                    width="283.1968256384375" height="21.23576429" />
+                <rect fill="white" stroke="none" x="819.0085273937682" y="2826.985133282818"
+                    width="276.6828485876562" height="21.23576429" />
+                <rect fill="white" stroke="none" x="819.0085273937682" y="2843.320336582818"
+                    width="362.230394974375" height="21.23576429" />
+                <rect fill="white" stroke="none" x="819.0085273937682" y="2859.655539882818"
+                    width="499.8967768103125" height="21.23576429" />
+                <rect fill="white" stroke="none" x="819.0085273937682" y="2875.9907431828183"
+                    width="464.4994989782812" height="21.23576429" />
+                <rect fill="white" stroke="none" x="819.0085273937682" y="2892.3259464828184"
+                    width="220.04005683960938" height="21.23576429" />
+                <text fill="black" stroke="none" font-family="sans-serif" font-size="11pt"
+                    font-style="normal" font-weight="normal" text-decoration="normal"
+                    x="821.4588078887682" y="2743.6755964528174" text-anchor="start"
+                    dominant-baseline="alphabetic" xml:space="preserve">&gt; Validate the user hasn't submitted a response yet</text>
+                <text fill="black" stroke="none" font-family="sans-serif" font-size="11pt"
+                    font-style="normal" font-weight="normal" text-decoration="normal"
+                    x="821.4588078887682" y="2760.0107997528175" text-anchor="start"
+                    dominant-baseline="alphabetic" xml:space="preserve">&gt; Validate that the selected group and project exists for current unit (SIT374)</text>
+                <text fill="black" stroke="none" font-family="sans-serif" font-size="11pt"
+                    font-style="normal" font-weight="normal" text-decoration="normal"
+                    x="821.4588078887682" y="2776.3460030528177" text-anchor="start"
+                    dominant-baseline="alphabetic" xml:space="preserve">&gt; Validate that the capacity for selected tutorial has not been exceeded.</text>
+                <text fill="black" stroke="none" font-family="sans-serif" font-size="11pt"
+                    font-style="normal" font-weight="normal" text-decoration="normal"
+                    x="821.4588078887682" y="2792.6812063528178" text-anchor="start"
+                    dominant-baseline="alphabetic" xml:space="preserve">&gt; If valid:</text>
+                <text fill="black" stroke="none" font-family="sans-serif" font-size="11pt"
+                    font-style="normal" font-weight="normal" text-decoration="normal"
+                    x="821.4588078887682" y="2809.016409652818" text-anchor="start"
+                    dominant-baseline="alphabetic" xml:space="preserve">&gt; Enrol the student in the Company Group</text>
+                <text fill="black" stroke="none" font-family="sans-serif" font-size="11pt"
+                    font-style="normal" font-weight="normal" text-decoration="normal"
+                    x="821.4588078887682" y="2825.351612952818" text-anchor="start"
+                    dominant-baseline="alphabetic" xml:space="preserve">&gt; Enrol the student in the Company tutorial</text>
+                <text fill="black" stroke="none" font-family="sans-serif" font-size="11pt"
+                    font-style="normal" font-weight="normal" text-decoration="normal"
+                    x="821.4588078887682" y="2841.686816252818" text-anchor="start"
+                    dominant-baseline="alphabetic" xml:space="preserve">&gt; Enrol the student into the project tutorial</text>
+                <text fill="black" stroke="none" font-family="sans-serif" font-size="11pt"
+                    font-style="normal" font-weight="normal" text-decoration="normal"
+                    x="821.4588078887682" y="2858.022019552818" text-anchor="start"
+                    dominant-baseline="alphabetic" xml:space="preserve">&gt; Save their response into `capstone_form_responses`</text>
+                <text fill="black" stroke="none" font-family="sans-serif" font-size="11pt"
+                    font-style="normal" font-weight="normal" text-decoration="normal"
+                    x="821.4588078887682" y="2874.3572228528183" text-anchor="start"
+                    dominant-baseline="alphabetic" xml:space="preserve">&gt; (Prevent automatic enrolment if the task is overdue? Allows late-comers to</text>
+                <text fill="black" stroke="none" font-family="sans-serif" font-size="11pt"
+                    font-style="normal" font-weight="normal" text-decoration="normal"
+                    x="821.4588078887682" y="2890.6924261528184" text-anchor="start"
+                    dominant-baseline="alphabetic" xml:space="preserve">sellect a company and project, but requires an admin to manually enrol</text>
+                <text fill="black" stroke="none" font-family="sans-serif" font-size="11pt"
+                    font-style="normal" font-weight="normal" text-decoration="normal"
+                    x="821.4588078887682" y="2907.0276294528185" text-anchor="start"
+                    dominant-baseline="alphabetic" xml:space="preserve">them into the group and tutorials)</text>
+            </g>
+            <g>
+                <path fill="none" stroke="black" paint-order="fill stroke markers"
+                    d=" M 799.6785368221016 2913.561710772817 L 1325.3800936030182 2913.561710772817"
+                    stroke-miterlimit="10" stroke-width="1.3612669416666667" stroke-dasharray="" />
+                <g
+                    transform="translate(1338.829410986685,2913.561710772817) translate(-1338.829410986685,-2913.561710772817)">
+                    <path fill="black" stroke="none" paint-order="stroke fill markers"
+                        d=" M 1325.2167415700183 2906.7553760644837 L 1338.829410986685 2913.561710772817 L 1325.2167415700183 2920.3680454811506 Z" />
+                </g>
+            </g>
+            <g>
+                <rect fill="white" stroke="none" x="222.41775497002155" y="2938.0645157228173"
+                    width="406.0027338415625" height="21.23576429" />
+                <rect fill="white" stroke="none" x="222.41775497002155" y="2954.3997190228174"
+                    width="386.2389704138281" height="21.23576429" />
+                <rect fill="white" stroke="none" x="222.41775497002155" y="2970.7349223228175"
+                    width="348.7801386267187" height="21.23576429" />
+                <text fill="black" stroke="none" font-family="sans-serif" font-size="11pt"
+                    font-style="normal" font-weight="normal" text-decoration="normal"
+                    x="224.86803546502153" y="2952.7661986928174" text-anchor="start"
+                    dominant-baseline="alphabetic" xml:space="preserve">&gt; Task details box now displays "Successful form submission"</text>
+                <text fill="black" stroke="none" font-family="sans-serif" font-size="11pt"
+                    font-style="normal" font-weight="normal" text-decoration="normal"
+                    x="224.86803546502153" y="2969.1014019928175" text-anchor="start"
+                    dominant-baseline="alphabetic" xml:space="preserve">&gt; Student can select "View response", displaying the same</text>
+                <text fill="black" stroke="none" font-family="sans-serif" font-size="11pt"
+                    font-style="normal" font-weight="normal" text-decoration="normal"
+                    x="224.86803546502153" y="2985.4366052928176" text-anchor="start"
+                    dominant-baseline="alphabetic" xml:space="preserve">modal with their filled out details, with inputs disabled</text>
+            </g>
+            <g>
+                <path fill="none" stroke="black" paint-order="fill stroke markers"
+                    d=" M 51.15972221829298 2991.970686612817 L 786.2292194384349 2991.970686612817"
+                    stroke-miterlimit="10" stroke-width="1.3612669416666667" stroke-dasharray="" />
+                <g
+                    transform="translate(799.6785368221016,2991.970686612817) translate(-799.6785368221016,-2991.970686612817)">
+                    <path fill="black" stroke="none" paint-order="stroke fill markers"
+                        d=" M 786.0658674054349 2985.1643519044837 L 799.6785368221016 2991.970686612817 L 786.0658674054349 2998.7770213211506 Z" />
+                </g>
+            </g>
+            <g>
+                <rect fill="white" stroke="none" x="225.36334212822467" y="3016.4734915628173"
+                    width="375.67351020875" height="21.23576429" />
+                <rect fill="white" stroke="none" x="225.36334212822467" y="3032.8086948628174"
+                    width="400.1115595251562" height="21.23576429" />
+                <text fill="black" stroke="none" font-family="sans-serif" font-size="11pt"
+                    font-style="normal" font-weight="normal" text-decoration="normal"
+                    x="227.81362262322466" y="3031.1751745328174" text-anchor="start"
+                    dominant-baseline="alphabetic" xml:space="preserve">To complete the task, the student must take a screenshot</text>
+                <text fill="black" stroke="none" font-family="sans-serif" font-size="11pt"
+                    font-style="normal" font-weight="normal" text-decoration="normal"
+                    x="227.81362262322466" y="3047.5103778328175" text-anchor="start"
+                    dominant-baseline="alphabetic" xml:space="preserve">of their completed form submission, and upload it to the task.</text>
+            </g>
+            <g>
+                <path fill="none" stroke="black" paint-order="fill stroke markers"
+                    d=" M 51.15972221829298 3054.044459152817 L 786.2292194384349 3054.044459152817"
+                    stroke-miterlimit="10" stroke-width="1.3612669416666667" stroke-dasharray="" />
+                <g
+                    transform="translate(799.6785368221016,3054.044459152817) translate(-799.6785368221016,-3054.044459152817)">
+                    <path fill="black" stroke="none" paint-order="stroke fill markers"
+                        d=" M 786.0658674054349 3047.2381244444837 L 799.6785368221016 3054.044459152817 L 786.0658674054349 3060.8507938611506 Z" />
+                </g>
+            </g>
+            <path fill="white" stroke="black" paint-order="fill stroke markers"
+                d=" M 258.78940437013546 3078.5472641028173 L 1338.8294109866847 3078.5472641028173 L 1353.5310939566848 3093.2489470728174 L 1353.5310939566848 3116.118231692817 L 258.78940437013546 3116.118231692817 L 258.78940437013546 3078.5472641028173 M 1338.8294109866847 3078.5472641028173 L 1338.8294109866847 3093.2489470728174 L 1353.5310939566848 3093.2489470728174"
+                stroke-miterlimit="10" stroke-width="1.3612669416666667" stroke-dasharray="" />
+            <g>
+                <text fill="black" stroke="none" font-family="sans-serif" font-size="11pt"
+                    font-style="normal" font-weight="bold" text-decoration="normal"
+                    x="739.8932356136055" y="3101.4165487228174" text-anchor="start"
+                    dominant-baseline="alphabetic" xml:space="preserve">Viewing responses</text>
+            </g>
+            <g>
+                <rect fill="white" stroke="none" x="373.6227975773295" y="3140.6210366428168"
+                    width="237.93553413453125" height="21.23576429" />
+                <rect fill="white" stroke="none" x="373.6227975773295" y="3156.956239942817"
+                    width="256.25335945191404" height="21.23576429" />
+                <rect fill="white" stroke="none" x="373.6227975773295" y="3173.291443242817"
+                    width="164.59268440308594" height="21.23576429" />
+                <rect fill="white" stroke="none" x="373.6227975773295" y="3189.626646542817"
+                    width="325.9240290075781" height="21.23576429" />
+                <rect fill="white" stroke="none" x="373.6227975773295" y="3205.961849842817"
+                    width="217.6062494665625" height="21.23576429" />
+                <text fill="black" stroke="none" font-family="sans-serif" font-size="11pt"
+                    font-style="normal" font-weight="normal" text-decoration="normal"
+                    x="376.0730780723295" y="3155.322719612817" text-anchor="start"
+                    dominant-baseline="alphabetic" xml:space="preserve">While assessing the submitted task,</text>
+                <text fill="black" stroke="none" font-family="sans-serif" font-size="11pt"
+                    font-style="normal" font-weight="normal" text-decoration="normal"
+                    x="376.0730780723295" y="3171.657922912817" text-anchor="start"
+                    dominant-baseline="alphabetic" xml:space="preserve">tutors are also able to "View response"</text>
+                <text fill="black" stroke="none" font-family="sans-serif" font-size="11pt"
+                    font-style="normal" font-weight="normal" text-decoration="normal"
+                    x="376.0730780723295" y="3187.993126212817" text-anchor="start"
+                    dominant-baseline="alphabetic" xml:space="preserve">to view their submission.</text>
+                <text fill="black" stroke="none" font-family="sans-serif" font-size="11pt"
+                    font-style="normal" font-weight="normal" text-decoration="normal"
+                    x="376.0730780723295" y="3204.328329512817" text-anchor="start"
+                    dominant-baseline="alphabetic" xml:space="preserve">(Or this could be viewed via their task submission</text>
+                <text fill="black" stroke="none" font-family="sans-serif" font-size="11pt"
+                    font-style="normal" font-weight="normal" text-decoration="normal"
+                    x="376.0730780723295" y="3220.6635328128173" text-anchor="start"
+                    dominant-baseline="alphabetic" xml:space="preserve">using their uploaded screenshot)</text>
+            </g>
+            <g>
+                <path fill="none" stroke="black" paint-order="fill stroke markers"
+                    d=" M 273.49108734013544 3227.197614132817 L 786.2292194384349 3227.197614132817"
+                    stroke-miterlimit="10" stroke-width="1.3612669416666667" stroke-dasharray="" />
+                <g
+                    transform="translate(799.6785368221016,3227.197614132817) translate(-799.6785368221016,-3227.197614132817)">
+                    <path fill="black" stroke="none" paint-order="stroke fill markers"
+                        d=" M 786.0658674054349 3220.3912794244834 L 799.6785368221016 3227.197614132817 L 786.0658674054349 3234.0039488411503 Z" />
+                </g>
+            </g>
+            <g>
+                <rect fill="white" stroke="none" x="386.6471200870951" y="3251.700419082817"
+                    width="269.7680536657812" height="21.23576429" />
+                <rect fill="white" stroke="none" x="386.6471200870951" y="3268.035622382817"
+                    width="285.2726923376562" height="21.23576429" />
+                <rect fill="white" stroke="none" x="386.6471200870951" y="3284.370825682817"
+                    width="299.87538398804685" height="21.23576429" />
+                <text fill="black" stroke="none" font-family="sans-serif" font-size="11pt"
+                    font-style="normal" font-weight="normal" text-decoration="normal"
+                    x="389.09740058209513" y="3266.402102052817" text-anchor="start"
+                    dominant-baseline="alphabetic" xml:space="preserve">Admins can navigate to the capstone tab</text>
+                <text fill="black" stroke="none" font-family="sans-serif" font-size="11pt"
+                    font-style="normal" font-weight="normal" text-decoration="normal"
+                    x="389.09740058209513" y="3282.737305352817" text-anchor="start"
+                    dominant-baseline="alphabetic" xml:space="preserve">in the unit admin dashboard, and download</text>
+                <text fill="black" stroke="none" font-family="sans-serif" font-size="11pt"
+                    font-style="normal" font-weight="normal" text-decoration="normal"
+                    x="389.09740058209513" y="3299.0725086528173" text-anchor="start"
+                    dominant-baseline="alphabetic" xml:space="preserve">a list of all the submitted responses as a CSV</text>
+            </g>
+            <g>
+                <path fill="none" stroke="black" paint-order="fill stroke markers"
+                    d=" M 273.49108734013544 3305.606589972817 L 786.2292194384349 3305.606589972817"
+                    stroke-miterlimit="10" stroke-width="1.3612669416666667" stroke-dasharray="" />
+                <g
+                    transform="translate(799.6785368221016,3305.606589972817) translate(-799.6785368221016,-3305.606589972817)">
+                    <path fill="black" stroke="none" paint-order="stroke fill markers"
+                        d=" M 786.0658674054349 3298.8002552644834 L 799.6785368221016 3305.606589972817 L 786.0658674054349 3312.4129246811503 Z" />
+                </g>
+            </g>
+        </g>
+        <g />
+        <g />
+        <g />
+        <g />
+    </g>
+</svg>
