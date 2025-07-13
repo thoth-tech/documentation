@@ -1,34 +1,49 @@
 # Ontrack Component review
 
-## Team Member Name
-
-First select a component to review from the list below:
-<https://deakin365.sharepoint.com/:x:/r/sites/ThothTech2/Shared%20Documents/OnTrack%20-%20UI%20Enhancement/T3_2022/Management%20%5BT3_2022%5D/selected_task(revised).xlsx?d=wac02013da5224c958ac60fd96fac7b20&csf=1&web=1&e=UfCmZ5>
+## Team Member Name : Lovleen Kala
 
 ## Component Name
 
-Here you should enter the component name, also list all the files in this component.
+File Uploader
+
+List of Files in this Component:
+
+file-uploader.component.html 
+
+file-uploader.component.scss 
+
+file-uploader.coffee 
 
 ## Component purpose
 
-What is the primary purpose of this component and how doesit work? Screenshots are advised.
+The File Uploader component provides a interface for uploading files within the OnTrack platform. It is designed to handle various file formats, validate file types, and trigger events for successful uploads. This component is crucial for managing group-related files, such as CSV imports for group sets and student data.
+This component is being used in severla other componnets.
+![image](https://github.com/user-attachments/assets/763cb246-24ef-4273-96ec-a23c7481c084)
+
+Before Migration: 
+![image](https://github.com/user-attachments/assets/8667e2f1-bc4b-4dec-bb04-33a7f86d9469)
+
 
 ## Component outcomes and interactions
 
-What are the expected outcomes of the component and what does it interact with, what kind of data
-objects is it taking in and passing out?
+The File Uploader component interacts with the Group Set Editor and Group Member List components, csv-upload-modal, portfolio-add-extra-files-step,portfolio-learning-summary-report-step, upload-submission-modal, task-ilo-alignment-edior. It takes in file objects and uploads them to a specified endpoint, triggering success and completion events. It can pass the uploaded file data to the parent component for further processing.
+
+Expected Outcomes:
+
+Successful file upload triggers an 'on-success' event.
+Completion of the entire upload triggers an 'on-complete' event.
+Error handling for unsupported file types or exceeding file size limits.
+
+Data Objects:
+
+File Object: Represents the uploaded file.
+Upload Progress: Tracks the progress of the current upload.
+Upload Status: Indicates the current state (uploading, completed, failed).
+
 
 ## Component migration plan
 
-First add your plan for the migration, how will you do this, what steps are needed. Add some
-sketches or diagrams, what will the migrated component look like compared to the current one.
-
-## Component review checklist
-
-Next add a checklist similar to: then create a checklist:
-
-[ ] ability to collect details from the user [ ] succeeds when data is valid [ ] handles errors -
-duplicate unit code in the teaching period, or invalid dates [ ] created unit is shown on success
+I aim on following the migration guide in order to migrate this componnet. After completing the code I plan on testing all the components with the parent components to make sure that everything works.
 
 ## Discussion with Client (Andrew Cain)
 
