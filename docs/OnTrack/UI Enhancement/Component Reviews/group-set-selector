@@ -1,0 +1,49 @@
+# Ontrack Component review
+
+## Team Member Name
+
+Jason Mark Vellucci | SID: 221437402
+
+## Component Name
+
+- `group-set-selector.coffee`.
+- Files:
+    - `group-set-selector.coffee`.
+    - `group-set-selector.tpl.html`.
+    - `group-set-selector.scss`.
+
+## Component purpose
+
+- This component is an outbound dependency (used by) the `group-selector` component.
+- It is used as part of the `group`/`group-set` creation process.
+    - A `group set` is a set of related group work.
+- The component is specifically for selecting a `group-set` during the `group` creation process.
+
+## Component outcomes and interactions
+
+- The component contains no nested components.
+- Data types:
+    - `selectedGroupSet` model.
+    - `unit` model.
+
+## Component migration plan
+
+- Check for nested components
+    - If there are nested components, migrate them first. In this case, there are none.
+- Gauge current UI and behavior.
+    - Take screenshot of current implementation UI.
+- Create skeleton files.
+- Downgrade new TS/Angular component and load in app.
+- Define TS logic.
+- Define template markup.
+- Define SCSS code.
+- Iteratively test.
+- Take screenshot of the UI for the new implementation.
+
+## Component review checklist
+
+[x] ability to collect details from the user 
+[x] succeeds when data is valid 
+[x] handles errors -
+duplicate unit code in the teaching period, or invalid dates 
+[x] created unit is shown on success
