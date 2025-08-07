@@ -23,7 +23,7 @@ ensure that it works and outputs the results.
 ## Links
 
 - [Tutorial Link](https://splashkit.io/guides/networking/routing-with-servers/)
-- [Pull Request]()
+- [Pull Request](https://github.com/thoth-tech/documentation/pull/622)
 
 ## Improvements and suggestions
 
