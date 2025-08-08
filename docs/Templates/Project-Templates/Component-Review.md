@@ -1,36 +1,64 @@
-# Ontrack Component review
+# Ontrack Component Review
 
-## Team Member Name
+## Team Member Name  
+**Ekamjot Singh**  
+**Student ID: 224235519**
 
-First select a component to review from the list below:
-<https://deakin365.sharepoint.com/:x:/r/sites/ThothTech2/Shared%20Documents/OnTrack%20-%20UI%20Enhancement/T3_2022/Management%20%5BT3_2022%5D/selected_task(revised).xlsx?d=wac02013da5224c958ac60fd96fac7b20&csf=1&web=1&e=UfCmZ5>
+---
 
-## Component Name
+## Component Name  
+`group-member-contribution-assigner`
 
-Here you should enter the component name, also list all the files in this component.
+---
 
-## Component purpose
+### Files in this Component:
+- `group-member-contribution-assigner.component.ts`  
+- `group-member-contribution-assigner.component.html`  
+- `group-member-contribution-assigner.component.scss`
 
-What is the primary purpose of this component and how doesit work? Screenshots are advised.
+---
 
-## Component outcomes and interactions
+## Component Purpose  
 
-What are the expected outcomes of the component and what does it interact with, what kind of data
-objects is it taking in and passing out?
+The `group-member-contribution-assigner` component is designed to allow students to view, edit, and manage their own and their team members' contributions when submitting a group task within a unit.  
 
-## Component migration plan
+It presents a modal where each row represents a student, displaying attributes like **name**, **target grade**, and **contribution**. Users can click to edit a team member's contribution. 
 
-First add your plan for the migration, how will you do this, what steps are needed. Add some
-sketches or diagrams, what will the migrated component look like compared to the current one.
 
-## Component review checklist
 
-Next add a checklist similar to: then create a checklist:
+---
 
-[ ] ability to collect details from the user [ ] succeeds when data is valid [ ] handles errors -
-duplicate unit code in the teaching period, or invalid dates [ ] created unit is shown on success
+## Component Outcomes and Interactions  
 
-## Discussion with Client (Andrew Cain)
+### ✅ Expected Outcomes:
+- View a list of group members and their contributions  
+- Edit a group member’s contribution  
 
-Finally you will need to take the feedback from Andrew and Discuss any addtional considertions he
-may have with this component before writing any code.
+
+### 🔁 Interactions:
+- **Inputs**: Receives a `team` object that contains member contributions  
+- **Outputs**: Emits updated contribution data to the parent component or backend  
+- **Services**: Likely interacts with services like `GroupService` for persisting changes  
+
+---
+
+## Component Migration Plan  
+
+### 🎯 Migration Goals:
+- Migrate UI from Angular Material + Bootstrap to **Tailwind CSS**  
+- Improve accessibility and responsiveness  
+- Maintain intuitive inline editing with minimal layout shifts  
+
+### 📋 Migration Steps:
+1. Analyze current HTML layout and style dependencies  
+2. Replace UI elements (`<button>`, `<input>`, icons) with Tailwind equivalents  
+3. Use Tailwind utility classes for consistent spacing, color, and layout  
+4. Ensure mobile-friendly design with Tailwind's grid and flex utilities  
+5. Update form controls to use `[(ngModel)]` or Reactive Forms  
+6. Test thoroughly with mock data to confirm usability and data binding  
+
+---
+
+### 🔄 Before (Legacy UI Example)
+
+![image](https://github.com/user-attachments/assets/bd0b2337-619c-4986-8c13-509e1e869dd5)
