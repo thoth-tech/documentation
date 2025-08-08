@@ -15,7 +15,8 @@ ensure that it works and outputs the results.
 - [x] The tutorial is free of spelling and grammatical errors.
 - [x] The tutorial is easy to follow.
 - [x] The tutorial has:
-  - [x] C# using top level statements
+  - [x]C# code (Top-Level statements)
+  - [x] C# code (Object-Oriented Programming)
   - [x] C++
   - [x] Python
 - [x] The code passes all the Quality Checks.
