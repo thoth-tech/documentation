@@ -24,7 +24,7 @@ ensure that it works and outputs the results.
 ## Links
 
 - [Tutorial Link](https://splashkit.io/guides/networking/restful-api-call/)
-- [Pull Request]()
+- [Pull Request](https://github.com/thoth-tech/documentation/pull/624)
 
 ## Improvements and suggestions
 
