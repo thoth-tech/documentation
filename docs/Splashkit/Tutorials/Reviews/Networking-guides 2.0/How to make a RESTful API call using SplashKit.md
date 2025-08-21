@@ -6,8 +6,7 @@ Reviewed by:Runqi Liu,SUYLANG SOK
 
 ## Description
 
-A tutorial review of the tutorial has been done. Modified part of the text description of the
-sentence to make the content more coherent and clear. The code in this tutorial has been run to
+A tutorial review of the tutorial has been done. The code in this tutorial has been run to
 ensure that it works and outputs the results.
 
 ## Confirmation of Passing Quality Checks
