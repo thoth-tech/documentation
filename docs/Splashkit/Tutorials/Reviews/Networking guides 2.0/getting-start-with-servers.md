@@ -22,7 +22,7 @@ ensure that it works and outputs the results.
 ## Links
 
 - [Tutorial Link](https://splashkit.io/guides/networking/getting-started-with-servers/)
-- [Pull Request]()
+- [Pull Request](https://github.com/thoth-tech/documentation/pull/627)
 
 ## Improvements and suggestions
 
