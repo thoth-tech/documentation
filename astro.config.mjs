@@ -195,6 +195,12 @@ export default defineConfig({
                         directory: "products/ontrack/documentation/numbas",
                       },
                     },
+                    {
+                      label: "Google Lighthouse Review",
+                      autogenerate: {
+                        directory: "products/ontrack/documentation/google-lighthouse-review",
+                      },
+                    },
                   ],
                 },
                 {
