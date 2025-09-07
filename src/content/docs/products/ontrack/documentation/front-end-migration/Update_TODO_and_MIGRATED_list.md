@@ -1,4 +1,6 @@
-## Update TODO and MIGRATED list
+---
+title: "Update TODO and MIGRATED list"
+---
 
 To ensure smooth tracking, please **update this list before committing any changes**.  
 Completed items should be moved from **TODO** to **MIGRATED** inside the **README** file in **doubtfire-web**.
