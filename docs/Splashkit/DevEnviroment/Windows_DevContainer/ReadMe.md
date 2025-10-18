@@ -116,7 +116,7 @@ At this stage you will have to manaully add the dev container to your project.
    not find the resources folder)
    ```
    cd .devcontainer/DXBall/
-   ./DXBallGame
+   ./dxballgame
    ```
 1. Game Window Will open, Press 1 to start, left and right arrows to move, esc to exit
 

@@ -2,7 +2,8 @@
 
 ## Diagram Overview
 
-![Login process SSO in Dream](Images/LoginProcess.png)
+![Login process SSO in Dream](Images/login_p
+rocess.png)
 
 The SSO integration is completed for Dream Big with its architecture illustrated above. Therefore,
 both Dream Big and OnTrack can be logged into using your AAF Deakin credentials.
