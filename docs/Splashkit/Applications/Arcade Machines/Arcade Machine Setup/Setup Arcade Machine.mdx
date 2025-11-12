@@ -2,8 +2,7 @@
 
 ## Existing Image
 
-Download current arcade Image from here (accessible to Thoth-Tech Team Members):
-<https://deakin365.sharepoint.com/:u:/r/sites/ThothTech2/Shared%20Documents/SplashKit/Arcade%20Machine%20Image/ArcadeMachine.img?csf=1&web=1&e=7cuS7Z>
+Download current arcade Image from here (accessible to Thoth-Tech Team Members): [here](https://deakin365.sharepoint.com/:u:/r/sites/ThothTech2/Shared%20Documents/SplashKit/Arcade%20Machine%20Image/ArcadeMachine.img?csf=1&web=1&e=7cuS7Z)
 
 SHA256 Hash `31f0ea11c8492000d003108bf84afbb261ad6ee7c1be989f52a2b4add9d8821e`
 
@@ -111,7 +110,7 @@ and one to wpa_supplicant:
 
 ### 1. Install SplashKit
 
-- Follow the instructions [here](https://splashkit.io/articles/installation/ubuntu/).
+- Follow the instructions [here](https://splashkit.io/installation/linux/).
 - Primarly perform steps 1 and 2, VS code is optional unless you whish to adjust programming on the
   PI directly.
 
@@ -126,19 +125,27 @@ and one to wpa_supplicant:
      curl -sSL https://dot.net/v1/dotnet-install.sh | bash /dev/stdin --channel STS
      ```
 
-  2. Add the following to the end of the file `~/.bashrc` with these commands
+  1. Add the following to the end of the file `~/.bashrc` with these commands
 
      ```shell
      echo 'export DOTNET_ROOT=$HOME/.dotnet' >> ~/.bashrc
      echo 'export PATH=$PATH:$HOME/.dotnet' >> ~/.bashrc
+     echo 'export DOTNET_ROOT=$HOME/.dotnet' >> ~/.bash.bash_profile
+     echo 'export PATH=$PATH:$HOME/.dotnet' >> ~/.bash_profile
      source ~/.bashrc
      ```
 
-  3. Verify the insalation with this command
+  1. Verify the installation with this command
 
      ```shell
      dotnet --version
      ```
+
+   1. Create dotnet symbolic link. Replace `<VERSION>` with your dotnet version e.g. 7.0.5 
+
+      ```shell
+      ln -s ~/.splashkit/lib/linux/libsplashkit.so ~/.dotnet/shared/Microsoft.NetCore.App/<VERSION>/      
+      ```
 
 ### 3. Install Git
 
@@ -183,7 +190,7 @@ and one to wpa_supplicant:
    nano ~/.emulationstation/es_systems.cfg
    ```
 
-8. Add the following to the file or downlaod a copy from
+8. Add the following to the file or download a copy from
    [here](/docs/Splashkit/Applications/Arcade%20Machines/Arcade%20Machine%20Setup/Files/es_systems.cfg)
 
    ```config
@@ -291,11 +298,11 @@ and one to wpa_supplicant:
 
 3. Select Boot / Auto Login
 
-   ![Rasberry Pi system Option Screen](/docs/Splashkit/Applications/Arcade%20Machines/Arcade%20Machine%20Setup/Images/BootAutoLogin.png)
+   ![Rasberry Pi Boot Option Screen](/docs/Splashkit/Applications/Arcade%20Machines/Arcade%20Machine%20Setup/Images/BootAutoLogin.png)
 
 4. Select Console Autologin
 
-   ![Rasberry Pi Boot Option Screen](/docs/Splashkit/Applications/Arcade%20Machines/Arcade%20Machine%20Setup/Images/ConsoleAutoLogin.png)
+   ![Rasberry Pi System Option Screen](/docs/Splashkit/Applications/Arcade%20Machines/Arcade%20Machine%20Setup/Images/ConsoleAutologin.png)
 
 5. Return to main menu
 6. Select Advanced Options
